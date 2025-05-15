@@ -172,3 +172,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+Data/
+EPPC_output_json/subtree_images/

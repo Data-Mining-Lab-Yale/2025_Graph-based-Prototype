@@ -1,0 +1,732 @@
+{
+  "nodes": [
+    {
+      "id": "Information-Giving_SDOH",
+      "type": "code",
+      "description": "Refers to the process of sharing knowledge about the social, economic, and environmental factors that significantly influence an individual’s health and well-being. These include economic stability, education access and quality, health care access and quality, neighborhood and built environment, and social and community context"
+    },
+    {
+      "id": "Economic_stability",
+      "type": "subcode",
+      "description": "refers to having a steady source of income and access to essential resources needed for a healthy and secure life. This includes being able to afford basic needs such as food, housing and income. It helps individuals feel secure and reduces stress, allowing them to focus on personal growth and well-being."
+    },
+    {
+      "id": "Employment_Status",
+      "type": "subsubcode",
+      "description": [
+        "Refers to an individual's current job situation, such as employed, unemployed, or underemployed"
+      ]
+    },
+    {
+      "id": "Socioeconomic_Status_(SES)",
+      "type": "subsubcode",
+      "description": [
+        "A measure of an individual's or household's economic and social position based on income, education, and occupation."
+      ]
+    },
+    {
+      "id": "Socioeconomic_Factors",
+      "type": "subsubcode",
+      "description": [
+        "The social and economic conditions that influence an individual's access to resources, opportunities, and overall quality of life."
+      ]
+    },
+    {
+      "id": "Housing_Instability",
+      "type": "subsubcode",
+      "description": [
+        "Refers to issues related to the lack of stable or secure housing, including frequent moves or living in temporary accommodations."
+      ]
+    },
+    {
+      "id": "Income",
+      "type": "subsubcode",
+      "description": [
+        "The amount of money an individual earns through work or other sources, often determining their purchasing power and economic security."
+      ]
+    },
+    {
+      "id": "Financial_Insecurity",
+      "type": "subsubcode",
+      "description": [
+        "The uncertainty or worry about one's ability to meet financial obligations, such as paying bills or securing basic needs."
+      ]
+    },
+    {
+      "id": "Work-related_Challenges",
+      "type": "subsubcode",
+      "description": [
+        "Factors related to a person's job, such as physical demands, workplace stress, or unhealthy working conditions, that negatively impact health and well-being."
+      ]
+    },
+    {
+      "id": "Housing_Insecurity",
+      "type": "subsubcode",
+      "description": [
+        "The fear or risk of losing one's residence due to financial difficulties, eviction, or other circumstances.",
+        "Fear of losing residence"
+      ]
+    },
+    {
+      "id": "Education_access_and_quality",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Health_care_access_and_quality",
+      "type": "subcode",
+      "description": "refers to the ability to obtain necessary health services and the effectiveness and standard of care patients receive"
+    },
+    {
+      "id": "Substance_Use/Abuse",
+      "type": "subsubcode",
+      "description": [
+        "The excessive or harmful use of substances like alcohol, drugs, or tobacco"
+      ]
+    },
+    {
+      "id": "Lifestyle",
+      "type": "subsubcode",
+      "description": [
+        "Personal habits and behaviors, such as smoking, that influence physical and mental health"
+      ]
+    },
+    {
+      "id": "Diet",
+      "type": "subsubcode",
+      "description": [
+        "The types and amounts of food consumed regularly"
+      ]
+    },
+    {
+      "id": "Physical_Activity",
+      "type": "subsubcode",
+      "description": [
+        "Regular movement or exercise"
+      ]
+    },
+    {
+      "id": "Insurance",
+      "type": "subsubcode",
+      "description": [
+        "Financial protection for health-related expenses"
+      ]
+    },
+    {
+      "id": "Health_Access",
+      "type": "subsubcode",
+      "description": [
+        "The ability to obtain timely and appropriate medical care"
+      ]
+    },
+    {
+      "id": "Sleep",
+      "type": "subsubcode",
+      "description": [
+        "A natural, restorative process essential for mental and physical health, affecting cognitive function, mood, and overall well-being"
+      ]
+    },
+    {
+      "id": "Neighborhood_and_built_environment",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Social_and_community_context",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Information-Giving",
+      "type": "code",
+      "description": "Information giving is the process of providing clear, relevant, and actionable guidance, directions, or knowledge to assist patient or doctor in understanding or addressing a specific need or situation. This may involve information related to how to take medications, clarifying symptoms to help with diagnosis, explaining the prognosis of a disease, or outlining insurance coverage for treatments. It also includes care coordination, such as scheduling appointments or following post-procedure instructions, and sharing general information like hospital policies."
+    },
+    {
+      "id": "Symptoms",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Prognosis",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Scheduling_appt",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Diagnostics",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Care_Coordination",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Drugs",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "General_information",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "instruction",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Information-Seeking_SDOH",
+      "type": "code",
+      "description": "Refers to process of seeking and requesting  information about the social, economic, and environmental factors influencing their health. These include seeking knowledge about employment opportunities, educational resources, healthcare services, housing stability, and community support systems"
+    },
+    {
+      "id": "Information-Seeking",
+      "type": "code",
+      "description": "Information seeking involves obtaining knowledge about a particular event, medical condition, treatment option, or administrative matter. This may include understanding a patient's diagnosis, clarifying insurance coverage, confirming appointment schedules, or seeking guidance on hospital policies."
+    },
+    {
+      "id": "active_participation_/involvement",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "",
+      "type": "code",
+      "description": ""
+    },
+    {
+      "id": "express_opinions",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "signoff",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "PATIENT",
+      "type": "code",
+      "description": ""
+    },
+    {
+      "id": "state_preferences",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Partnership",
+      "type": "code",
+      "description": ""
+    },
+    {
+      "id": "Alignment",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Appreciation/gratitude",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Connection",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "salutation",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "build_trust",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "PROVIDER_PARTNERSHIP",
+      "type": "code",
+      "description": "It refers to fostering a collaborative and equitable relationship between healthcare providers and patients. It involves equalizing the status between them, ensuring that patients feel valued and empowered in the decision-making process. This partnership is built by inviting patients to collaborate in their care, actively seeking their opinions, confirming their understanding of information, acknowledging the expertise they have gained through personal experiences, and maintaining open, respectful communication."
+    },
+    {
+      "id": "invite_collaboration",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Requests_for_opinion",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "checking_understanding/clarification",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "acknowledge_patient_expertise/knowledge",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Maintain_communication",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Build_Trust",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "PATIENT_SHARED-DECISION_MAKING",
+      "type": "code",
+      "description": "Patients actively engage in exploring various treatment options, asking questions. Once fully informed, the patient gives approval of the decision, ensuring it aligns with their values and goals while being confident in the chosen path forward."
+    },
+    {
+      "id": "Explore_options",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Seeking_Approval",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "approval_of_decision",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "PROVIDER_Shared-Decision_Making",
+      "type": "code",
+      "description": "Statements or questions that express an opportunity for a two-way exchange of information toward a decision about treatment options, evaluation of a decision, or alternative decisions including: exploring options, summarizing and confirming understanding, mutual agreement and  making a decision together, encouraging questions, and showing approval"
+    },
+    {
+      "id": "Share_options",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Summarize_and_confirm_understanding",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Making_decision_together",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Encourage_questions",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Approval/Reinforcement",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Socioemotional_/_Empathy",
+      "type": "code",
+      "description": "It  involves recognizing and responding to emotional cues such as unease, sadness, appreciation, gratitude, reward, and approval. It requires understanding and validating the patient's feelings, providing reassurance, acknowledging errors transparently, and offering positive reinforcement., reward and approval."
+    },
+    {
+      "id": "Express_concern/unease",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Sadness/fear",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Acknowledge_Error",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Reassurance",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Positive_Remarks/Reward",
+      "type": "subcode",
+      "description": ""
+    }
+  ],
+  "links": [
+    {
+      "source": "Information-Giving_SDOH",
+      "target": "Economic_stability"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Employment_Status"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Socioeconomic_Status_(SES)"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Socioeconomic_Factors"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Housing_Instability"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Income"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Financial_Insecurity"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Work-related_Challenges"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Housing_Insecurity"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Housing_Insecurity"
+    },
+    {
+      "source": "Information-Giving_SDOH",
+      "target": "Education_access_and_quality"
+    },
+    {
+      "source": "Information-Giving_SDOH",
+      "target": "Health_care_access_and_quality"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Substance_Use/Abuse"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Lifestyle"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Diet"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Physical_Activity"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Insurance"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Health_Access"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Sleep"
+    },
+    {
+      "source": "Information-Giving_SDOH",
+      "target": "Neighborhood_and_built_environment"
+    },
+    {
+      "source": "Information-Giving_SDOH",
+      "target": "Social_and_community_context"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "Symptoms"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "Prognosis"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "Scheduling_appt"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "Diagnostics"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "Care_Coordination"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "Drugs"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "General_information"
+    },
+    {
+      "source": "Information-Giving",
+      "target": "instruction"
+    },
+    {
+      "source": "Information-Seeking_SDOH",
+      "target": "Economic_stability"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Employment_Status"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Socioeconomic_Status_(SES)"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Socioeconomic_Factors"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Housing_Instability"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Income"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Financial_Insecurity"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Work-related_Challenges"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Housing_Insecurity"
+    },
+    {
+      "source": "Economic_stability",
+      "target": "Housing_Insecurity"
+    },
+    {
+      "source": "Information-Seeking_SDOH",
+      "target": "Education_access_and_quality"
+    },
+    {
+      "source": "Information-Seeking_SDOH",
+      "target": "Health_care_access_and_quality"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Substance_Use/Abuse"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Lifestyle"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Diet"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Physical_Activity"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Insurance"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Health_Access"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Sleep"
+    },
+    {
+      "source": "Information-Seeking_SDOH",
+      "target": "Neighborhood_and_built_environment"
+    },
+    {
+      "source": "Information-Seeking_SDOH",
+      "target": "Social_and_community_context"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "Symptoms"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "Prognosis"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "Scheduling_appt"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "Diagnostics"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "Care_Coordination"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "Drugs"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "General_information"
+    },
+    {
+      "source": "Information-Seeking",
+      "target": "active_participation_/involvement"
+    },
+    {
+      "source": "",
+      "target": "express_opinions"
+    },
+    {
+      "source": "",
+      "target": "signoff"
+    },
+    {
+      "source": "PATIENT",
+      "target": "state_preferences"
+    },
+    {
+      "source": "Partnership",
+      "target": "Alignment"
+    },
+    {
+      "source": "Partnership",
+      "target": "Appreciation/gratitude"
+    },
+    {
+      "source": "Partnership",
+      "target": "Connection"
+    },
+    {
+      "source": "Partnership",
+      "target": "salutation"
+    },
+    {
+      "source": "Partnership",
+      "target": "build_trust"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "invite_collaboration"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "Requests_for_opinion"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "checking_understanding/clarification"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "Appreciation/gratitude"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "signoff"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "acknowledge_patient_expertise/knowledge"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "Maintain_communication"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "Alignment"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "Connection"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "salutation"
+    },
+    {
+      "source": "PROVIDER_PARTNERSHIP",
+      "target": "Build_Trust"
+    },
+    {
+      "source": "PATIENT_SHARED-DECISION_MAKING",
+      "target": "Explore_options"
+    },
+    {
+      "source": "PATIENT_SHARED-DECISION_MAKING",
+      "target": "Seeking_Approval"
+    },
+    {
+      "source": "PATIENT_SHARED-DECISION_MAKING",
+      "target": "approval_of_decision"
+    },
+    {
+      "source": "PROVIDER_Shared-Decision_Making",
+      "target": "Share_options"
+    },
+    {
+      "source": "PROVIDER_Shared-Decision_Making",
+      "target": "Summarize_and_confirm_understanding"
+    },
+    {
+      "source": "PROVIDER_Shared-Decision_Making",
+      "target": "Making_decision_together"
+    },
+    {
+      "source": "PROVIDER_Shared-Decision_Making",
+      "target": "Encourage_questions"
+    },
+    {
+      "source": "PROVIDER_Shared-Decision_Making",
+      "target": "Approval/Reinforcement"
+    },
+    {
+      "source": "Socioemotional_/_Empathy",
+      "target": "Express_concern/unease"
+    },
+    {
+      "source": "Socioemotional_/_Empathy",
+      "target": "Sadness/fear"
+    },
+    {
+      "source": "Socioemotional_/_Empathy",
+      "target": "Acknowledge_Error"
+    },
+    {
+      "source": "Socioemotional_/_Empathy",
+      "target": "Reassurance"
+    },
+    {
+      "source": "Socioemotional_/_Empathy",
+      "target": "Positive_Remarks/Reward"
+    }
+  ]
+}
