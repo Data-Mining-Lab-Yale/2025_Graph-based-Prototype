@@ -2,8 +2,8 @@ import json
 from collections import defaultdict
 
 # === CONFIG ===
-input_path = "EPPC_output_json/codebook_hierarchy.json"
-output_file = "EPPC_output_json/node_names_by_type.json"
+input_path = "PV_output_json/codebook_hierarchy.json"
+output_file = "PV_output_json/node_names_by_type.json"
 
 # === LOAD JSON ===
 with open(input_path, "r", encoding="utf-8") as f:

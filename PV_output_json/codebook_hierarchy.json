@@ -1,0 +1,609 @@
+{
+  "nodes": [
+    {
+      "id": "SDOH",
+      "type": "code",
+      "description": "Refers to the process of sharing knowledge about the social, economic, and environmental factors that significantly influence an individual’s health and well-being. These include economic stability, education access and quality, health care access and quality, neighborhood and built environment, and social and community context"
+    },
+    {
+      "id": "Economic_Stability",
+      "type": "subcode",
+      "description": "refers to the financial security and resources they have to afford necessary healthcare, housing, food, and other essentials"
+    },
+    {
+      "id": "Employment_Status",
+      "type": "subsubcode",
+      "description": [
+        "Refers to an individual's current job situation, such as full-time employed, part-time employed, unemployed, or underemployed (Job below skill level/less hours)."
+      ]
+    },
+    {
+      "id": "Housing_Instability",
+      "type": "subsubcode",
+      "description": [
+        "Refers to issues related to the lack of stable or secure housing, including financial difficulties of not being able to pay rent or loan, frequent moves or living in temporary accommodations."
+      ]
+    },
+    {
+      "id": "Income",
+      "type": "subsubcode",
+      "description": [
+        "The amount of money an individual earns through work or other sources, often determining their purchasing power and economic security."
+      ]
+    },
+    {
+      "id": "Financial_Insecurity",
+      "type": "subsubcode",
+      "description": [
+        "The uncertainty or worry about one's ability to meet financial obligations, such as paying bills or securing basic needs, education fees."
+      ]
+    },
+    {
+      "id": "Food_Insecurity",
+      "type": "subsubcode",
+      "description": [
+        "a condition where individuals or families do not have reliable access to enough nutritious food"
+      ]
+    },
+    {
+      "id": "Work-related_Challenges",
+      "type": "subsubcode",
+      "description": [
+        "Factors related to a person's job, such as physical demands, workplace stress, commuting/distance, or unhealthy working conditions, time-conflict, that negatively impact health and well-being."
+      ]
+    },
+    {
+      "id": "Education_access_and_quality",
+      "type": "subcode",
+      "description": "Providing information about availability and effectiveness of educational opportunities, the quality of education, including resources, teaching standards, and curriculum ."
+    },
+    {
+      "id": "Level_of_education",
+      "type": "subsubcode",
+      "description": [
+        "elementary, high education, current status of ongoing edcuational programs/trainings."
+      ]
+    },
+    {
+      "id": "Health_Literacy",
+      "type": "subsubcode",
+      "description": [
+        "The ability to understand and use information related to health to make informed decisions about one's health care. It includes a range of skills such as reading and comprehending medical instructions, navigating the healthcare system, understanding medical forms, and effectively communicating with healthcare providers, sharing their knoweldge (articles)"
+      ]
+    },
+    {
+      "id": "Health_care_access_and_quality",
+      "type": "subcode",
+      "description": "refers to the ability to obtain necessary health services and the effectiveness and standard of care patients receive"
+    },
+    {
+      "id": "Substance_Use/Abuse",
+      "type": "subsubcode",
+      "description": [
+        "The excessive or harmful use of substances like alcohol, drugs, or tobacco"
+      ]
+    },
+    {
+      "id": "Diet",
+      "type": "subsubcode",
+      "description": [
+        "The types and amounts of food consumed regularly"
+      ]
+    },
+    {
+      "id": "Physical_Activity",
+      "type": "subsubcode",
+      "description": [
+        "Regular movement or exercise"
+      ]
+    },
+    {
+      "id": "Insurance",
+      "type": "subsubcode",
+      "description": [
+        "Financial protection for health-related expenses"
+      ]
+    },
+    {
+      "id": "Health_Access",
+      "type": "subsubcode",
+      "description": [
+        "The ability to obtain timely and appropriate medical care"
+      ]
+    },
+    {
+      "id": "Sleep",
+      "type": "subsubcode",
+      "description": [
+        "A natural, restorative process essential for mental and physical health, affecting cognitive function, mood, and overall well-being"
+      ]
+    },
+    {
+      "id": "Neighborhood_and_built_environment",
+      "type": "subcode",
+      "description": "Neighborhood and built environment refers to the physical and social surroundings in which people live. Key aspects include housing quality and stability,such as as safe and affordable housing, access to reliable transportation, walkable areas, the safety of a neighborhood, availability of healthy food  and environmental factors like clean air, water, and green spaces and  proximity to healthcare services."
+    },
+    {
+      "id": "Housing_Quality",
+      "type": "subsubcode",
+      "description": [
+        "Poor-quality housing, such as those with mold, pests, inadequate heating or cooling, and unsafe structures, can lead to respiratory issues, infections, and other health problems."
+      ]
+    },
+    {
+      "id": "Transportation",
+      "type": "subsubcode",
+      "description": [
+        "can impact health if a patient has no means to allow them to arrive to healthcare facilitites or obtain food or medications."
+      ]
+    },
+    {
+      "id": "Neighborhood_Safety",
+      "type": "subsubcode",
+      "description": [
+        "Living in a safe neighborhood reduces the risk of violence and crime, contributing to mental well-being and reducing stress-related health issues. Conversely, unsafe neighborhoods can lead to chronic stress and trauma."
+      ]
+    },
+    {
+      "id": "Access_to_Services",
+      "type": "subsubcode",
+      "description": [
+        "Proximity to healthcare facilities, utilities, schools, parks,  playgrounds, and grocery stores promotes better health outcomes and well-being."
+      ]
+    },
+    {
+      "id": "Geographic_location",
+      "type": "subsubcode",
+      "description": [
+        "zip code"
+      ]
+    },
+    {
+      "id": "Environmental_factors",
+      "type": "subsubcode",
+      "description": [
+        "Air and water quality, and exposure to pollutants."
+      ]
+    },
+    {
+      "id": "Weather",
+      "type": "subsubcode",
+      "description": [
+        "Weather significantly impacts social determinants of health (SDOH) by affecting various aspects of daily life and well-being. For example, hurricanes, floods, and heatwaves can disrupt healthcare services. Prolonged exposure to extreme heat or cold can exacerbate mental health issues such as anxiety, stress and trauma."
+      ]
+    },
+    {
+      "id": "Walkability_and_green_spaces",
+      "type": "subsubcode",
+      "description": [
+        "Parks, gardens, and recreational areas provide opportunities for physical activity, relaxation, and social interaction, promoting mental and physical health."
+      ]
+    },
+    {
+      "id": "Social_and_community_context",
+      "type": "subcode",
+      "description": "Social and community context refers to the relationships, interactions, and conditions within the environments where individuals live, work, and interact, and it significantly influences health outcomes. This context includes the support networks individuals have with spouse, family, friends, and community members, which provide emotional, financial, or practical assistance. It also encompasses community engagement, such as participation in local activities and access to social organizations or recreational facilities. Additionally, experiences of discrimination and social cohesion—how connected and included individuals feel in their communities—play a role in shaping health. The quality of relationships at work or in school also contributes to social and community context."
+    },
+    {
+      "id": "Social_support",
+      "type": "subsubcode",
+      "description": [
+        "Social support provides an individual withemotional comfort during times of stress, loss, or illness. Having someone to talk to and share feelings with can reduce anxiety, depression, and feelings of isolation. Social support helps individuals cope with stress by providing practical assistance, advice, and emotional reassurance."
+      ]
+    },
+    {
+      "id": "Social_isolation",
+      "type": "subsubcode",
+      "description": [
+        "refers to the presence or absence of social connections and interactions with others. Social isolation is closely linked to increased risk of mental health issues such as depression, anxiety, and cognitive decline. Isolated individuals may be more likely to engage in unhealthy behaviors such as smoking, excessive alcohol consumption, and poor diet."
+      ]
+    },
+    {
+      "id": "Discrimination",
+      "type": "subsubcode",
+      "description": [
+        "is a significant social determinant of health (SDOH) because it can profoundly impact an individual's physical and mental well-being. Experiences of discrimination can lead to chronic stress, anxiety, and depression. The constant feeling of being marginalized or treated unfairly can take a significant toll on mental well-being. It can also create barriers to accessing healthcare services"
+      ]
+    },
+    {
+      "id": "Community_Engagement",
+      "type": "subsubcode",
+      "description": [
+        "This code captures how individuals engage and interact within their community, emphasizing both active participation in community-related activities (such as attending health workshops, volunteering, or supporting local health initiatives) It can improve mental and physical health. It also strengthens social cohesion and support networks within the community. What people DO together to improve health."
+      ]
+    },
+    {
+      "id": "Social_environment",
+      "type": "subsubcode",
+      "description": [
+        "refers to the social conditions and dynamics within which individuals live, work, and interact.  Refers to the surrounding social context that influences an individual's behavior, health, and well-being without requiring active participation. This includes social norms, cultural beliefs, and access to resources. It’s more about the external context rather than the individual's behavior. So its about the social conditions people live in that influence health and not the active behavior or action that the people do together to improve health."
+      ]
+    },
+    {
+      "id": "Partenership_form_the_patient_side",
+      "type": "code",
+      "description": "Patient partnership involves establishing and strengthening the alliance between patients and healthcare providers through active participation, open communication, and mutual respect. This collaboration is built by patients expressing their opinions about care, stating their values and preferences, and making informed decisions about their treatment. Active involvement encourages patients to take a proactive role in managing their health while fostering a deeper connection with providers. By maintaining this partnership, trust is cultivated, as patients feel heard, respected, and assured that their healthcare providers are working in their best interest"
+    },
+    {
+      "id": "active_participation_/involvement",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "express_opinions",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "signoff",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "state_preferences",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Alignment",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Appreciation/gratitude",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Connection",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "salutation",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Clinical_care",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "build_trust",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "PartnerShip_from_the_provider_side",
+      "type": "code",
+      "description": "It refers to fostering a collaborative and equitable relationship between healthcare providers and patients. It involves equalizing the status between them, ensuring that patients feel valued and empowered in the decision-making process. This partnership is built by inviting patients to collaborate in their care, actively seeking their opinions, confirming their understanding of information, acknowledging the expertise they have gained through personal experiences, and maintaining open, respectful communication."
+    },
+    {
+      "id": "invite_collaboration",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Requests_for_opinion",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "checking_understanding/clarification",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "acknowledge_patient_expertise/knowledge",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Maintain_communication",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Shared-Decision_Making_from_the_patient_side",
+      "type": "code",
+      "description": "Patients actively engage in exploring various treatment options, asking questions. Once fully informed, the patient gives approval of the decision, ensuring it aligns with their values and goals while being confident in the chosen path forward."
+    },
+    {
+      "id": "Explore_options",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Seeking_Approval",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Approval_of_decision",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Shared-Decision_Making_form_the_provider_side",
+      "type": "code",
+      "description": "Statements or questions that express an opportunity for a two-way exchange of information toward a decision about treatment options, evaluation of a decision, or alternative decisions including: exploring options, summarizing and confirming understanding, mutual agreement and  making a decision together, encouraging questions, and showing approval"
+    },
+    {
+      "id": "Share_options",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Summarize_and_confirm_understanding",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "make_decision",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Approval_of_decision/Reinforcement",
+      "type": "subcode",
+      "description": ""
+    },
+    {
+      "id": "Care_Coordination_Provider",
+      "type": "code",
+      "description": "Care coordination refers to the deliberate organization and integration of healthcare services to meet a patient’s needs effectively and efficiently. It involves ensuring that all the healthcare providers involved in a patient’s care communicate and collaborate to deliver timely, appropriate, and high-quality services."
+    },
+    {
+      "id": "Care_Coordination_Patient",
+      "type": "code",
+      "description": "Care coordination refers to the deliberate organization and integration of healthcare services to meet a patient’s needs effectively and efficiently. It involves ensuring that all the healthcare providers involved in a patient’s care communicate and collaborate to deliver timely, appropriate, and high-quality services."
+    }
+  ],
+  "links": [
+    {
+      "source": "SDOH",
+      "target": "Economic_Stability"
+    },
+    {
+      "source": "Economic_Stability",
+      "target": "Employment_Status"
+    },
+    {
+      "source": "Economic_Stability",
+      "target": "Housing_Instability"
+    },
+    {
+      "source": "Economic_Stability",
+      "target": "Income"
+    },
+    {
+      "source": "Economic_Stability",
+      "target": "Financial_Insecurity"
+    },
+    {
+      "source": "Economic_Stability",
+      "target": "Food_Insecurity"
+    },
+    {
+      "source": "Economic_Stability",
+      "target": "Work-related_Challenges"
+    },
+    {
+      "source": "SDOH",
+      "target": "Education_access_and_quality"
+    },
+    {
+      "source": "Education_access_and_quality",
+      "target": "Level_of_education"
+    },
+    {
+      "source": "Education_access_and_quality",
+      "target": "Health_Literacy"
+    },
+    {
+      "source": "SDOH",
+      "target": "Health_care_access_and_quality"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Substance_Use/Abuse"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Diet"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Physical_Activity"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Insurance"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Health_Access"
+    },
+    {
+      "source": "Health_care_access_and_quality",
+      "target": "Sleep"
+    },
+    {
+      "source": "SDOH",
+      "target": "Neighborhood_and_built_environment"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Housing_Quality"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Transportation"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Neighborhood_Safety"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Access_to_Services"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Geographic_location"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Environmental_factors"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Weather"
+    },
+    {
+      "source": "Neighborhood_and_built_environment",
+      "target": "Walkability_and_green_spaces"
+    },
+    {
+      "source": "SDOH",
+      "target": "Social_and_community_context"
+    },
+    {
+      "source": "Social_and_community_context",
+      "target": "Social_support"
+    },
+    {
+      "source": "Social_and_community_context",
+      "target": "Social_isolation"
+    },
+    {
+      "source": "Social_and_community_context",
+      "target": "Discrimination"
+    },
+    {
+      "source": "Social_and_community_context",
+      "target": "Community_Engagement"
+    },
+    {
+      "source": "Social_and_community_context",
+      "target": "Social_environment"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "active_participation_/involvement"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "express_opinions"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "signoff"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "state_preferences"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "Alignment"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "Appreciation/gratitude"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "Connection"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "salutation"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "Clinical_care"
+    },
+    {
+      "source": "Partenership_form_the_patient_side",
+      "target": "build_trust"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "invite_collaboration"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "Requests_for_opinion"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "checking_understanding/clarification"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "Appreciation/gratitude"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "signoff"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "acknowledge_patient_expertise/knowledge"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "Maintain_communication"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "Alignment"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "Connection"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "salutation"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "Clinical_care"
+    },
+    {
+      "source": "PartnerShip_from_the_provider_side",
+      "target": "build_trust"
+    },
+    {
+      "source": "Shared-Decision_Making_from_the_patient_side",
+      "target": "Explore_options"
+    },
+    {
+      "source": "Shared-Decision_Making_from_the_patient_side",
+      "target": "Seeking_Approval"
+    },
+    {
+      "source": "Shared-Decision_Making_from_the_patient_side",
+      "target": "Approval_of_decision"
+    },
+    {
+      "source": "Shared-Decision_Making_form_the_provider_side",
+      "target": "Share_options"
+    },
+    {
+      "source": "Shared-Decision_Making_form_the_provider_side",
+      "target": "Summarize_and_confirm_understanding"
+    },
+    {
+      "source": "Shared-Decision_Making_form_the_provider_side",
+      "target": "make_decision"
+    },
+    {
+      "source": "Shared-Decision_Making_form_the_provider_side",
+      "target": "Approval_of_decision/Reinforcement"
+    }
+  ]
+}

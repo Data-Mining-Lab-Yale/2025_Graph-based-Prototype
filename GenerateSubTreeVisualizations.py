@@ -6,9 +6,9 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # === CONFIG ===
-graph_path = "EPPC_output_json/codebook_hierarchy.json"
-index_path = "EPPC_output_json/node_names_by_type_with_index.json"
-output_folder = "EPPC_output_json/subtree_images"
+graph_path = "PV_output_json/codebook_hierarchy.json"
+index_path = "PV_output_json/node_names_by_type_with_index.json"
+output_folder = "PV_output_json/subtree_images"
 
 # === PREP OUTPUT FOLDER ===
 os.makedirs(output_folder, exist_ok=True)
