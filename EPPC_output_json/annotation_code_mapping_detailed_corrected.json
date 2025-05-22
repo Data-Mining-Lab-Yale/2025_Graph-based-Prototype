@@ -1,6 +1,6 @@
 {
   "PartnershipProvider": {
-    "matched_codebook_label": "Partnership",
+    "matched_codebook_label": "PROVIDER_PARTNERSHIP",
     "level": "code"
   },
   "salutation": {
@@ -8,8 +8,8 @@
     "level": "subcode"
   },
   "InfoGive": {
-    "matched_codebook_label": "",
-    "level": "Unknown"
+    "matched_codebook_label": "Information-Giving",
+    "level": "code"
   },
   "SchedulingAppt": {
     "matched_codebook_label": "Scheduling_appt",
@@ -60,15 +60,15 @@
     "level": "subcode"
   },
   "InfoSeek": {
-    "matched_codebook_label": "",
-    "level": "Unknown"
+    "matched_codebook_label": "Information-Seeking",
+    "level": "code"
   },
   "Generalinformation": {
     "matched_codebook_label": "General_information",
     "level": "subcode"
   },
   "PartnershipPatient": {
-    "matched_codebook_label": "Partnership",
+    "matched_codebook_label": "PATIENT_PARTNERSHIP",
     "level": "code"
   },
   "Diagnostics": {
@@ -116,8 +116,8 @@
     "level": "subcode"
   },
   "SharedDecisionProvider": {
-    "matched_codebook_label": "",
-    "level": "Unknown"
+    "matched_codebook_label": "PROVIDER_Shared-Decision_Making",
+    "level": "code"
   },
   "EncourageQuestions": {
     "matched_codebook_label": "Encourage_questions",

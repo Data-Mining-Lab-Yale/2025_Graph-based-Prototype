@@ -6,9 +6,11 @@ import os
 # === CONFIG ===
 PROJECT_FILE_EPPC = "EPPC_codebook_04.07.2025.xlsx"
 PROJECT_FILE_PV = "PV_Codebook.xlsx"
-excel_path = "Data/"+PROJECT_FILE_PV  # Excel file location
-sheet_name = "PV codebook"
-output_dir = "PV_output_json"                    # Folder to save output
+# excel_path = "Data/"+PROJECT_FILE_PV  # Excel file location
+excel_path = "Data/"+PROJECT_FILE_EPPC  # Excel file location
+sheet_name = "CodeBookMap"
+# sheet_name = "EPPC_codebook"
+output_dir = "EPPC_output_json"                    # Folder to save output
 output_file = "codebook_hierarchy.json"       # Output filename
 
 # === CREATE OUTPUT FOLDER IF NEEDED ===

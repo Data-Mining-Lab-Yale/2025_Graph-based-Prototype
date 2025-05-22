@@ -192,13 +192,13 @@
       "description": "Information seeking involves obtaining knowledge about a particular event, medical condition, treatment option, or administrative matter. This may include understanding a patient's diagnosis, clarifying insurance coverage, confirming appointment schedules, or seeking guidance on hospital policies."
     },
     {
-      "id": "active_participation_/involvement",
-      "type": "subcode",
-      "description": ""
+      "id": "PATIENT_PARTNERSHIP",
+      "type": "code",
+      "description": "Patient partnership involves establishing and strengthening the alliance between patients and healthcare providers through active participation, open communication, and mutual respect. This collaboration is built by patients expressing their opinions about care, stating their values and preferences, and making informed decisions about their treatment. Active involvement encourages patients to take a proactive role in managing their health while fostering a deeper connection with providers. By maintaining this partnership, trust is cultivated, as patients feel heard, respected, and assured that their healthcare providers are working in their best interest"
     },
     {
-      "id": "",
-      "type": "code",
+      "id": "active_participation_/involvement",
+      "type": "subcode",
       "description": ""
     },
     {
@@ -212,18 +212,8 @@
       "description": ""
     },
     {
-      "id": "PATIENT",
-      "type": "code",
-      "description": ""
-    },
-    {
       "id": "state_preferences",
       "type": "subcode",
-      "description": ""
-    },
-    {
-      "id": "Partnership",
-      "type": "code",
       "description": ""
     },
     {
@@ -597,39 +587,39 @@
       "target": "General_information"
     },
     {
-      "source": "Information-Seeking",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "active_participation_/involvement"
     },
     {
-      "source": "",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "express_opinions"
     },
     {
-      "source": "",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "signoff"
     },
     {
-      "source": "PATIENT",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "state_preferences"
     },
     {
-      "source": "Partnership",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "Alignment"
     },
     {
-      "source": "Partnership",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "Appreciation/gratitude"
     },
     {
-      "source": "Partnership",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "Connection"
     },
     {
-      "source": "Partnership",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "salutation"
     },
     {
-      "source": "Partnership",
+      "source": "PATIENT_PARTNERSHIP",
       "target": "build_trust"
     },
     {
