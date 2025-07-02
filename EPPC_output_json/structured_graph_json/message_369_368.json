@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I would like to request a meeting with Person1's teams on Monday morning I am not happy with the the decisions that have been made on Person1's care. I can be there at any time",
+      "id": 368
+    },
+    {
+      "label": "sentence",
+      "text": "I would like to request a meeting with Person1's teams on Monday morning I am not happy with the the decisions that have been made on Person1's care.",
+      "id": "368_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would like to request a meeting with Person1's teams on Monday morning I am",
+      "id": "368_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "not happy with the the decisions that have been made",
+      "id": "368_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "on Person1's care.",
+      "id": "368_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I can be there at any time",
+      "id": "368_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I can be there at any time",
+      "id": "368_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 368,
+      "target": "368_0"
+    },
+    {
+      "source": 368,
+      "target": "368_1"
+    },
+    {
+      "source": "368_0",
+      "target": "368_0_0"
+    },
+    {
+      "source": "368_0",
+      "target": "368_0_1"
+    },
+    {
+      "source": "368_0",
+      "target": "368_0_2"
+    },
+    {
+      "source": "368_1",
+      "target": "368_1_0"
+    }
+  ]
+}

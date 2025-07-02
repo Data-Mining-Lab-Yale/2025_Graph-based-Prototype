@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hey Person1,       Ok , I doing ok ! The neuropathy has tapered down even tho it still happens. I a little concerned about wat my breast will look like after surgery ? Is is possible to get augmentation or reconstruction? I wanted to ask Dr. Person2 about my thumbnail & big toe leaking puss sometimes , is this because of the taxol? My nails are very sore n numb. Just checking",
+      "id": 126
+    },
+    {
+      "label": "sentence",
+      "text": "Hey Person1,       Ok , I doing ok !",
+      "id": "126_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hey Person1,",
+      "id": "126_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok ,",
+      "id": "126_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I doing ok !",
+      "id": "126_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "The neuropathy has tapered down even tho it still happens.",
+      "id": "126_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "The neuropathy has tapered",
+      "id": "126_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "down even tho it still happens.",
+      "id": "126_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I a little concerned about wat my breast will look like after surgery ?",
+      "id": "126_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I a little concerned about wat my breast will look like after surgery ?",
+      "id": "126_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Is is possible to get augmentation or reconstruction?",
+      "id": "126_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is is possible to get augmentation or reconstruction",
+      "id": "126_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I wanted to ask Dr. Person2 about my thumbnail & big toe leaking puss sometimes , is this because of the taxol?",
+      "id": "126_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "I wanted",
+      "id": "126_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to ask Dr. Person2 about my thumbnail & big toe",
+      "id": "126_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "leaking puss sometimes ,",
+      "id": "126_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "is this because of the taxol?",
+      "id": "126_4_3"
+    },
+    {
+      "label": "sentence",
+      "text": "My nails are very sore n numb.",
+      "id": "126_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "My nails are very sore n numb",
+      "id": "126_5_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Just checking",
+      "id": "126_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Just checking",
+      "id": "126_6_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 126,
+      "target": "126_0"
+    },
+    {
+      "source": 126,
+      "target": "126_1"
+    },
+    {
+      "source": 126,
+      "target": "126_2"
+    },
+    {
+      "source": 126,
+      "target": "126_3"
+    },
+    {
+      "source": 126,
+      "target": "126_4"
+    },
+    {
+      "source": 126,
+      "target": "126_5"
+    },
+    {
+      "source": 126,
+      "target": "126_6"
+    },
+    {
+      "source": "126_0",
+      "target": "126_0_0"
+    },
+    {
+      "source": "126_0",
+      "target": "126_0_1"
+    },
+    {
+      "source": "126_0",
+      "target": "126_0_2"
+    },
+    {
+      "source": "126_1",
+      "target": "126_1_0"
+    },
+    {
+      "source": "126_1",
+      "target": "126_1_1"
+    },
+    {
+      "source": "126_2",
+      "target": "126_2_0"
+    },
+    {
+      "source": "126_3",
+      "target": "126_3_0"
+    },
+    {
+      "source": "126_4",
+      "target": "126_4_0"
+    },
+    {
+      "source": "126_4",
+      "target": "126_4_1"
+    },
+    {
+      "source": "126_4",
+      "target": "126_4_2"
+    },
+    {
+      "source": "126_4",
+      "target": "126_4_3"
+    },
+    {
+      "source": "126_5",
+      "target": "126_5_0"
+    },
+    {
+      "source": "126_6",
+      "target": "126_6_0"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good evening,     I came to do the CBC at the Org2 draw station in Org2 and they said they do not have an order for it. Thank you, Person1",
+      "id": 288
+    },
+    {
+      "label": "sentence",
+      "text": "Good evening,     I came to do the CBC at the Org2 draw station in Org2 and they said they do not have an order for it.",
+      "id": "288_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good evening,",
+      "id": "288_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I came to do",
+      "id": "288_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the CBC at the Org2 draw station in Org2 and they said they do not have",
+      "id": "288_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "an order for it.",
+      "id": "288_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1",
+      "id": "288_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "288_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "288_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 288,
+      "target": "288_0"
+    },
+    {
+      "source": 288,
+      "target": "288_1"
+    },
+    {
+      "source": "288_0",
+      "target": "288_0_0"
+    },
+    {
+      "source": "288_0",
+      "target": "288_0_1"
+    },
+    {
+      "source": "288_0",
+      "target": "288_0_2"
+    },
+    {
+      "source": "288_0",
+      "target": "288_0_3"
+    },
+    {
+      "source": "288_1",
+      "target": "288_1_0"
+    },
+    {
+      "source": "288_1",
+      "target": "288_1_1"
+    }
+  ]
+}

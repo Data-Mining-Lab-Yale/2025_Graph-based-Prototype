@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi we are so sorry to hear Person1 isnt feeling well. I have passed this message along to Dr  Person2. Unfortunately  we do not have control over visitor restrictions in the hospital. I would suggest calling the floor to see what their policy is and if/when you can go visit. We will keep an eye on his chart, let us know if you need  anything at all. Take care.",
+      "id": 364
+    },
+    {
+      "label": "sentence",
+      "text": "Hi we are so sorry to hear Person1 isnt feeling well.",
+      "id": "364_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi we are so sorry to hear Person1 isnt feeling",
+      "id": "364_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "well.",
+      "id": "364_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I have passed this message along to Dr  Person2.",
+      "id": "364_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have passed this message along to Dr  Person2.",
+      "id": "364_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Unfortunately  we do not have control over visitor restrictions in the hospital.",
+      "id": "364_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Unfortunately  we do not have control over visitor restrictions in the hospital.",
+      "id": "364_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I would suggest calling the floor to see what their policy is and if/when you can go visit.",
+      "id": "364_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would suggest calling the floor to see what their policy is",
+      "id": "364_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and if/when you can go",
+      "id": "364_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "visit",
+      "id": "364_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "We will keep an eye on his chart, let us know if you need  anything at all.",
+      "id": "364_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "We will keep an eye on his chart,",
+      "id": "364_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "let",
+      "id": "364_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "us know",
+      "id": "364_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "if you need",
+      "id": "364_4_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "anything at all.",
+      "id": "364_4_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Take care.",
+      "id": "364_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Take care.",
+      "id": "364_5_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 364,
+      "target": "364_0"
+    },
+    {
+      "source": 364,
+      "target": "364_1"
+    },
+    {
+      "source": 364,
+      "target": "364_2"
+    },
+    {
+      "source": 364,
+      "target": "364_3"
+    },
+    {
+      "source": 364,
+      "target": "364_4"
+    },
+    {
+      "source": 364,
+      "target": "364_5"
+    },
+    {
+      "source": "364_0",
+      "target": "364_0_0"
+    },
+    {
+      "source": "364_0",
+      "target": "364_0_1"
+    },
+    {
+      "source": "364_1",
+      "target": "364_1_0"
+    },
+    {
+      "source": "364_2",
+      "target": "364_2_0"
+    },
+    {
+      "source": "364_3",
+      "target": "364_3_0"
+    },
+    {
+      "source": "364_3",
+      "target": "364_3_1"
+    },
+    {
+      "source": "364_3",
+      "target": "364_3_2"
+    },
+    {
+      "source": "364_4",
+      "target": "364_4_0"
+    },
+    {
+      "source": "364_4",
+      "target": "364_4_1"
+    },
+    {
+      "source": "364_4",
+      "target": "364_4_2"
+    },
+    {
+      "source": "364_4",
+      "target": "364_4_3"
+    },
+    {
+      "source": "364_4",
+      "target": "364_4_4"
+    },
+    {
+      "source": "364_5",
+      "target": "364_5_0"
+    }
+  ]
+}

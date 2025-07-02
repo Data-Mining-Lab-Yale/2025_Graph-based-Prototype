@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes Prednisone and zytiga. How is the dental work going, are you interested in the prolia injection at your 6-2 appointment",
+      "id": 582
+    },
+    {
+      "label": "sentence",
+      "text": "Yes Prednisone and zytiga.",
+      "id": "582_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes Prednisone and zytiga",
+      "id": "582_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "How is the dental work going, are you interested in the prolia injection at your 6-2 appointment",
+      "id": "582_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "How is the dental work going",
+      "id": "582_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "are you interested in the prolia injection at your 6-2 appointment",
+      "id": "582_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 582,
+      "target": "582_0"
+    },
+    {
+      "source": 582,
+      "target": "582_1"
+    },
+    {
+      "source": "582_0",
+      "target": "582_0_0"
+    },
+    {
+      "source": "582_1",
+      "target": "582_1_0"
+    },
+    {
+      "source": "582_1",
+      "target": "582_1_1"
+    }
+  ]
+}

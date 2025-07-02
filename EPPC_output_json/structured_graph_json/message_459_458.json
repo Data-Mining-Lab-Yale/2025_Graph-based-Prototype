@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Can I get a sertraline rx into cvs asap ? Thanks     Person1",
+      "id": 458
+    },
+    {
+      "label": "sentence",
+      "text": "Can I get a sertraline rx into cvs asap ?",
+      "id": "458_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can I get a sertraline rx into cvs asap ?",
+      "id": "458_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks     Person1",
+      "id": "458_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks     Person1",
+      "id": "458_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 458,
+      "target": "458_0"
+    },
+    {
+      "source": 458,
+      "target": "458_1"
+    },
+    {
+      "source": "458_0",
+      "target": "458_0_0"
+    },
+    {
+      "source": "458_1",
+      "target": "458_1_0"
+    }
+  ]
+}

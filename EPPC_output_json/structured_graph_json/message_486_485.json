@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Dr. Person2 is requesting to schedule your follow up appointment for either MM/DD/YYYY or MM/DD/YYYY. We can either schedule for in person or via telehealth.",
+      "id": 485
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Dr. Person2 is requesting to schedule your follow up appointment for either MM/DD/YYYY or MM/DD/YYYY.",
+      "id": "485_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "485_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "485_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person2 is requesting to schedule your follow up appointment for either MM/DD/YYYY or MM/DD/YYYY",
+      "id": "485_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "We can either schedule for in person or via telehealth.",
+      "id": "485_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We can either schedule for in person or via",
+      "id": "485_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "telehealth.",
+      "id": "485_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 485,
+      "target": "485_0"
+    },
+    {
+      "source": 485,
+      "target": "485_1"
+    },
+    {
+      "source": "485_0",
+      "target": "485_0_0"
+    },
+    {
+      "source": "485_0",
+      "target": "485_0_1"
+    },
+    {
+      "source": "485_0",
+      "target": "485_0_2"
+    },
+    {
+      "source": "485_1",
+      "target": "485_1_0"
+    },
+    {
+      "source": "485_1",
+      "target": "485_1_1"
+    }
+  ]
+}

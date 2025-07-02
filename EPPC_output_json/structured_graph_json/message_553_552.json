@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thanks , I remember now ,  Cares to you Person1",
+      "id": 552
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks , I remember now ,  Cares to you Person1",
+      "id": "552_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks ,",
+      "id": "552_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I remember now ,",
+      "id": "552_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Cares to you Person1",
+      "id": "552_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 552,
+      "target": "552_0"
+    },
+    {
+      "source": "552_0",
+      "target": "552_0_0"
+    },
+    {
+      "source": "552_0",
+      "target": "552_0_1"
+    },
+    {
+      "source": "552_0",
+      "target": "552_0_2"
+    }
+  ]
+}

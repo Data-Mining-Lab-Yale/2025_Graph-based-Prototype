@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I taking calcium tablets which contain 200  Mg of vitamin D per tablet and I take two per  Day (400 mg).",
+      "id": 547
+    },
+    {
+      "label": "sentence",
+      "text": "I taking calcium tablets which contain 200  Mg of vitamin D per tablet and I take two per  Day (400 mg).",
+      "id": "547_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I taking calcium tablets which contain",
+      "id": "547_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "200  Mg of vitamin D per tablet and I take",
+      "id": "547_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "two per  Day (400 mg).",
+      "id": "547_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 547,
+      "target": "547_0"
+    },
+    {
+      "source": "547_0",
+      "target": "547_0_0"
+    },
+    {
+      "source": "547_0",
+      "target": "547_0_1"
+    },
+    {
+      "source": "547_0",
+      "target": "547_0_2"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes, you can get your labs done MM/DD/YYYY. Labs have been order! Jessica",
+      "id": 25
+    },
+    {
+      "label": "sentence",
+      "text": "Yes, you can get your labs done MM/DD/YYYY.",
+      "id": "25_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "25_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you can get your labs done",
+      "id": "25_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY.",
+      "id": "25_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Labs have been order!",
+      "id": "25_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Labs have been order!",
+      "id": "25_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Jessica",
+      "id": "25_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Jessica",
+      "id": "25_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 25,
+      "target": "25_0"
+    },
+    {
+      "source": 25,
+      "target": "25_1"
+    },
+    {
+      "source": 25,
+      "target": "25_2"
+    },
+    {
+      "source": "25_0",
+      "target": "25_0_0"
+    },
+    {
+      "source": "25_0",
+      "target": "25_0_1"
+    },
+    {
+      "source": "25_0",
+      "target": "25_0_2"
+    },
+    {
+      "source": "25_1",
+      "target": "25_1_0"
+    },
+    {
+      "source": "25_2",
+      "target": "25_2_0"
+    }
+  ]
+}

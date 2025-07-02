@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "OK thanks Person1. It seems my follow up appointment with Dr. Person2 did not get scheduled for tomorrow as I was told. Are you able to help with this only I haven had a response to either my e-mail or a phone message I left? Spoke with his office this morning and they knew nothing about it. All very disconcerting to be honest especially after having seen the biopsy report for myself. Thank you,  Person3",
+      "id": 202
+    },
+    {
+      "label": "sentence",
+      "text": "OK thanks Person1.",
+      "id": "202_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "OK thanks Person1.",
+      "id": "202_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "It seems my follow up appointment with Dr. Person2 did not get scheduled for tomorrow as I was told.",
+      "id": "202_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "It seems my follow up appointment with Dr. Person2 did not get scheduled",
+      "id": "202_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "for tomorrow as I was told",
+      "id": "202_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Are you able to help with this only I haven had a response to either my e-mail or a phone message I left?",
+      "id": "202_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Are you able to help with this only I haven had",
+      "id": "202_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a response to either my e-mail or a phone message",
+      "id": "202_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I left",
+      "id": "202_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Spoke with his office this morning and they knew nothing about it.",
+      "id": "202_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Spoke with his office this morning and they knew",
+      "id": "202_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "nothing about it.",
+      "id": "202_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "All very disconcerting to be honest especially after having seen the biopsy report for myself.",
+      "id": "202_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "All very disconcerting to be honest especially after having seen the biopsy report for myself.",
+      "id": "202_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,  Person3",
+      "id": "202_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "202_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "202_5_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 202,
+      "target": "202_0"
+    },
+    {
+      "source": 202,
+      "target": "202_1"
+    },
+    {
+      "source": 202,
+      "target": "202_2"
+    },
+    {
+      "source": 202,
+      "target": "202_3"
+    },
+    {
+      "source": 202,
+      "target": "202_4"
+    },
+    {
+      "source": 202,
+      "target": "202_5"
+    },
+    {
+      "source": "202_0",
+      "target": "202_0_0"
+    },
+    {
+      "source": "202_1",
+      "target": "202_1_0"
+    },
+    {
+      "source": "202_1",
+      "target": "202_1_1"
+    },
+    {
+      "source": "202_2",
+      "target": "202_2_0"
+    },
+    {
+      "source": "202_2",
+      "target": "202_2_1"
+    },
+    {
+      "source": "202_2",
+      "target": "202_2_2"
+    },
+    {
+      "source": "202_3",
+      "target": "202_3_0"
+    },
+    {
+      "source": "202_3",
+      "target": "202_3_1"
+    },
+    {
+      "source": "202_4",
+      "target": "202_4_0"
+    },
+    {
+      "source": "202_5",
+      "target": "202_5_0"
+    },
+    {
+      "source": "202_5",
+      "target": "202_5_1"
+    }
+  ]
+}

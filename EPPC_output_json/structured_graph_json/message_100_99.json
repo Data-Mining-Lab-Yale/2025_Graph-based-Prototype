@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "No problem. I will have our scheduling team look and see when Dr. Person1 has an availability and give you a  call.",
+      "id": 99
+    },
+    {
+      "label": "sentence",
+      "text": "No problem.",
+      "id": "99_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "No problem.",
+      "id": "99_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I will have our scheduling team look and see when Dr. Person1 has an availability and give you a  call.",
+      "id": "99_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will have our scheduling team look",
+      "id": "99_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and see",
+      "id": "99_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "when Dr. Person1 has",
+      "id": "99_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "an availability and give",
+      "id": "99_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "you a  call.",
+      "id": "99_1_4"
+    }
+  ],
+  "links": [
+    {
+      "source": 99,
+      "target": "99_0"
+    },
+    {
+      "source": 99,
+      "target": "99_1"
+    },
+    {
+      "source": "99_0",
+      "target": "99_0_0"
+    },
+    {
+      "source": "99_1",
+      "target": "99_1_0"
+    },
+    {
+      "source": "99_1",
+      "target": "99_1_1"
+    },
+    {
+      "source": "99_1",
+      "target": "99_1_2"
+    },
+    {
+      "source": "99_1",
+      "target": "99_1_3"
+    },
+    {
+      "source": "99_1",
+      "target": "99_1_4"
+    }
+  ]
+}

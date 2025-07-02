@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Yes, we can put the orders in.",
+      "id": 625
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Yes, we can put the orders in.",
+      "id": "625_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "625_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "625_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "we can put the orders in.",
+      "id": "625_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 625,
+      "target": "625_0"
+    },
+    {
+      "source": "625_0",
+      "target": "625_0_0"
+    },
+    {
+      "source": "625_0",
+      "target": "625_0_1"
+    },
+    {
+      "source": "625_0",
+      "target": "625_0_2"
+    }
+  ]
+}

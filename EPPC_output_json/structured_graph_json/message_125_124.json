@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good afternoon ,      Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today. Do we need to reschedule ? I did have a few questions for you about my upcoming lumpectomy & I wanted to show you my finger nails? We can also do a zoom  call if your available to do so. Please let me know!!   I apologize for any inconvenience",
+      "id": 124
+    },
+    {
+      "label": "sentence",
+      "text": "Good afternoon ,      Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today.",
+      "id": "124_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good afternoon ,",
+      "id": "124_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Unfortunately I worked last night and came",
+      "id": "124_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "home this morning and fell",
+      "id": "124_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "asleep causing",
+      "id": "124_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "me to miss",
+      "id": "124_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "my appt today.",
+      "id": "124_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "Do we need to reschedule ?",
+      "id": "124_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do we need to reschedule ?",
+      "id": "124_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I did have a few questions for you about my upcoming lumpectomy & I wanted to show you my finger nails?",
+      "id": "124_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I did have a few questions for you about my upcoming lumpectomy & I wanted",
+      "id": "124_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to show you my finger nails",
+      "id": "124_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We can also do a zoom  call if your available to do so.",
+      "id": "124_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "We can also do a zoom  call if your available",
+      "id": "124_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to do so.",
+      "id": "124_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Please let me know!!",
+      "id": "124_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let me know",
+      "id": "124_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "!!",
+      "id": "124_4_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I apologize for any inconvenience",
+      "id": "124_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "I apologize for any inconvenience",
+      "id": "124_5_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 124,
+      "target": "124_0"
+    },
+    {
+      "source": 124,
+      "target": "124_1"
+    },
+    {
+      "source": 124,
+      "target": "124_2"
+    },
+    {
+      "source": 124,
+      "target": "124_3"
+    },
+    {
+      "source": 124,
+      "target": "124_4"
+    },
+    {
+      "source": 124,
+      "target": "124_5"
+    },
+    {
+      "source": "124_0",
+      "target": "124_0_0"
+    },
+    {
+      "source": "124_0",
+      "target": "124_0_1"
+    },
+    {
+      "source": "124_0",
+      "target": "124_0_2"
+    },
+    {
+      "source": "124_0",
+      "target": "124_0_3"
+    },
+    {
+      "source": "124_0",
+      "target": "124_0_4"
+    },
+    {
+      "source": "124_0",
+      "target": "124_0_5"
+    },
+    {
+      "source": "124_1",
+      "target": "124_1_0"
+    },
+    {
+      "source": "124_2",
+      "target": "124_2_0"
+    },
+    {
+      "source": "124_2",
+      "target": "124_2_1"
+    },
+    {
+      "source": "124_3",
+      "target": "124_3_0"
+    },
+    {
+      "source": "124_3",
+      "target": "124_3_1"
+    },
+    {
+      "source": "124_4",
+      "target": "124_4_0"
+    },
+    {
+      "source": "124_4",
+      "target": "124_4_1"
+    },
+    {
+      "source": "124_5",
+      "target": "124_5_0"
+    }
+  ]
+}

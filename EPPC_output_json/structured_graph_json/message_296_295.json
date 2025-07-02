@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "What would Dr Person1 like me to do?",
+      "id": 295
+    },
+    {
+      "label": "sentence",
+      "text": "What would Dr Person1 like me to do?",
+      "id": "295_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "What would Dr Person1 like me to do",
+      "id": "295_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 295,
+      "target": "295_0"
+    },
+    {
+      "source": "295_0",
+      "target": "295_0_0"
+    }
+  ]
+}

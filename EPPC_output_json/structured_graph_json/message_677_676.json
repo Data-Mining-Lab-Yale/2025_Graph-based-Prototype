@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning Dr. Person1,    Would you be kind enough to put in a request for my CAT scan with Advanced Radiology, Org3 office soon before my visit with you in MM/DD/YYYY? Once request is in I can schedule. Please let me know. Thanks so much.",
+      "id": 676
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning Dr. Person1,    Would you be kind enough to put in a request for my CAT scan with Advanced Radiology, Org3 office soon before my visit with you in MM/DD/YYYY?",
+      "id": "676_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning Dr. Person1,",
+      "id": "676_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Would you be kind enough to put in a request for my CAT scan with Advanced Radiology,",
+      "id": "676_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Org3 office soon before my visit with you in MM/DD/YYYY?",
+      "id": "676_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Once request is in I can schedule.",
+      "id": "676_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Once request is",
+      "id": "676_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in I can schedule.",
+      "id": "676_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Please let me know.",
+      "id": "676_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let me know",
+      "id": "676_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks so much.",
+      "id": "676_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much.",
+      "id": "676_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 676,
+      "target": "676_0"
+    },
+    {
+      "source": 676,
+      "target": "676_1"
+    },
+    {
+      "source": 676,
+      "target": "676_2"
+    },
+    {
+      "source": 676,
+      "target": "676_3"
+    },
+    {
+      "source": "676_0",
+      "target": "676_0_0"
+    },
+    {
+      "source": "676_0",
+      "target": "676_0_1"
+    },
+    {
+      "source": "676_0",
+      "target": "676_0_2"
+    },
+    {
+      "source": "676_1",
+      "target": "676_1_0"
+    },
+    {
+      "source": "676_1",
+      "target": "676_1_1"
+    },
+    {
+      "source": "676_2",
+      "target": "676_2_0"
+    },
+    {
+      "source": "676_3",
+      "target": "676_3_0"
+    }
+  ]
+}

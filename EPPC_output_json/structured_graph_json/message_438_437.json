@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Mr. Person1, Your last PSA was done on MM/DD/YYYY, a PSA is not drawn with every treatment blood draw and was not ordered by Dr. Person2 with the labs on MM/DD/YYYY.",
+      "id": 437
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Mr. Person1, Your last PSA was done on MM/DD/YYYY, a PSA is not drawn with every treatment blood draw and was not ordered by Dr. Person2 with the labs on MM/DD/YYYY.",
+      "id": "437_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Mr. Person1,",
+      "id": "437_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Your last PSA was done",
+      "id": "437_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "on MM/DD/YYYY,",
+      "id": "437_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "a PSA is not drawn with every treatment blood draw",
+      "id": "437_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "and was not ordered",
+      "id": "437_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "by Dr. Person2 with the labs on MM/DD/YYYY.",
+      "id": "437_0_5"
+    }
+  ],
+  "links": [
+    {
+      "source": 437,
+      "target": "437_0"
+    },
+    {
+      "source": "437_0",
+      "target": "437_0_0"
+    },
+    {
+      "source": "437_0",
+      "target": "437_0_1"
+    },
+    {
+      "source": "437_0",
+      "target": "437_0_2"
+    },
+    {
+      "source": "437_0",
+      "target": "437_0_3"
+    },
+    {
+      "source": "437_0",
+      "target": "437_0_4"
+    },
+    {
+      "source": "437_0",
+      "target": "437_0_5"
+    }
+  ]
+}

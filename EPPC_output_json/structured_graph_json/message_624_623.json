@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,          Thank you for the update. Sounds like you are in good hands. Best wishes from our team during your recovery! Best, Person",
+      "id": 623
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,          Thank you for the update.",
+      "id": "623_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "623_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "623_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you for the update.",
+      "id": "623_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Sounds like you are in good hands.",
+      "id": "623_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sounds like you are",
+      "id": "623_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in good hands.",
+      "id": "623_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Best wishes from our team during your recovery!",
+      "id": "623_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best wishes from our team during your recovery!",
+      "id": "623_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Best, Person",
+      "id": "623_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best,",
+      "id": "623_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person",
+      "id": "623_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 623,
+      "target": "623_0"
+    },
+    {
+      "source": 623,
+      "target": "623_1"
+    },
+    {
+      "source": 623,
+      "target": "623_2"
+    },
+    {
+      "source": 623,
+      "target": "623_3"
+    },
+    {
+      "source": "623_0",
+      "target": "623_0_0"
+    },
+    {
+      "source": "623_0",
+      "target": "623_0_1"
+    },
+    {
+      "source": "623_0",
+      "target": "623_0_2"
+    },
+    {
+      "source": "623_1",
+      "target": "623_1_0"
+    },
+    {
+      "source": "623_1",
+      "target": "623_1_1"
+    },
+    {
+      "source": "623_2",
+      "target": "623_2_0"
+    },
+    {
+      "source": "623_3",
+      "target": "623_3_0"
+    },
+    {
+      "source": "623_3",
+      "target": "623_3_1"
+    }
+  ]
+}

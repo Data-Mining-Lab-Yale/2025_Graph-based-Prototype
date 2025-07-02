@@ -1,0 +1,293 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you Dr  Person1. I was glad to see that too. ----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Ms. Person2, I had ordered both tumor markers, adding the CEA (just another marker in this situation) to the CA27.29 and agree that the CA27.29 has been a very good marker for you. I was happy to see that this was trending down. We do not have  a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to. Take care, RDL   ----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Hi Dr Person1, At our last appointment we discussed getting the cancer antigen test at my next blood work. I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that.",
+      "id": 38
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you Dr  Person1.",
+      "id": "38_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you Dr  Person1.",
+      "id": "38_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I was glad to see that too.",
+      "id": "38_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was glad to see that too.",
+      "id": "38_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Ms. Person2, I had ordered both tumor markers, adding the CEA (just another marker in this situation) to the CA27.29 and agree that the CA27.29 has been a very good marker for you.",
+      "id": "38_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Ms. Person2,",
+      "id": "38_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had ordered both tumor markers,",
+      "id": "38_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "adding",
+      "id": "38_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "the CEA (just another marker in this situation) to the CA27.29 and agree",
+      "id": "38_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "that the CA27.29 has been",
+      "id": "38_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "a very good marker for you.",
+      "id": "38_2_5"
+    },
+    {
+      "label": "sentence",
+      "text": "I was happy to see that this was trending down.",
+      "id": "38_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was happy to see that this was trending",
+      "id": "38_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "down.",
+      "id": "38_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We do not have  a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to.",
+      "id": "38_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "We do not have  a comparison for the CEA,",
+      "id": "38_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but if this serves",
+      "id": "38_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "us value in the future,",
+      "id": "38_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "we will then have",
+      "id": "38_4_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "something to look",
+      "id": "38_4_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "back and compare",
+      "id": "38_4_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "to.",
+      "id": "38_4_6"
+    },
+    {
+      "label": "sentence",
+      "text": "Take care, RDL   ----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Hi Dr Person1, At our last appointment we discussed getting the cancer antigen test at my next blood work.",
+      "id": "38_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Take care,",
+      "id": "38_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "RDL   ----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Hi Dr Person1,",
+      "id": "38_5_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "At our last appointment we discussed getting the cancer antigen test at my next blood work.",
+      "id": "38_5_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that.",
+      "id": "38_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "I thought we were doing",
+      "id": "38_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the CA 27 Dash 29 that I have always had done",
+      "id": "38_6_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but no results have come",
+      "id": "38_6_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "in for that.",
+      "id": "38_6_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 38,
+      "target": "38_0"
+    },
+    {
+      "source": 38,
+      "target": "38_1"
+    },
+    {
+      "source": 38,
+      "target": "38_2"
+    },
+    {
+      "source": 38,
+      "target": "38_3"
+    },
+    {
+      "source": 38,
+      "target": "38_4"
+    },
+    {
+      "source": 38,
+      "target": "38_5"
+    },
+    {
+      "source": 38,
+      "target": "38_6"
+    },
+    {
+      "source": "38_0",
+      "target": "38_0_0"
+    },
+    {
+      "source": "38_1",
+      "target": "38_1_0"
+    },
+    {
+      "source": "38_2",
+      "target": "38_2_0"
+    },
+    {
+      "source": "38_2",
+      "target": "38_2_1"
+    },
+    {
+      "source": "38_2",
+      "target": "38_2_2"
+    },
+    {
+      "source": "38_2",
+      "target": "38_2_3"
+    },
+    {
+      "source": "38_2",
+      "target": "38_2_4"
+    },
+    {
+      "source": "38_2",
+      "target": "38_2_5"
+    },
+    {
+      "source": "38_3",
+      "target": "38_3_0"
+    },
+    {
+      "source": "38_3",
+      "target": "38_3_1"
+    },
+    {
+      "source": "38_4",
+      "target": "38_4_0"
+    },
+    {
+      "source": "38_4",
+      "target": "38_4_1"
+    },
+    {
+      "source": "38_4",
+      "target": "38_4_2"
+    },
+    {
+      "source": "38_4",
+      "target": "38_4_3"
+    },
+    {
+      "source": "38_4",
+      "target": "38_4_4"
+    },
+    {
+      "source": "38_4",
+      "target": "38_4_5"
+    },
+    {
+      "source": "38_4",
+      "target": "38_4_6"
+    },
+    {
+      "source": "38_5",
+      "target": "38_5_0"
+    },
+    {
+      "source": "38_5",
+      "target": "38_5_1"
+    },
+    {
+      "source": "38_5",
+      "target": "38_5_2"
+    },
+    {
+      "source": "38_6",
+      "target": "38_6_0"
+    },
+    {
+      "source": "38_6",
+      "target": "38_6_1"
+    },
+    {
+      "source": "38_6",
+      "target": "38_6_2"
+    },
+    {
+      "source": "38_6",
+      "target": "38_6_3"
+    }
+  ]
+}

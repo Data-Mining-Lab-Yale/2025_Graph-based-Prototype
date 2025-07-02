@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you for the info I will start. MM/DD/YYYY night,  I have one other question. After starting  how long do I wait  or when do I go for my first blood draw for the orders that Dr  Person1 already submitted. Do I need to make an appointment because I also due to get my port flushed. Can it be made at Org2 I work at Org2 and can walk over anytime during the day",
+      "id": 716
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you for the info I will start.",
+      "id": "716_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you for the info I will start",
+      "id": "716_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "MM/DD/YYYY night,  I have one other question.",
+      "id": "716_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY night,",
+      "id": "716_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have one other question.",
+      "id": "716_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "After starting  how long do I wait  or when do I go for my first blood draw for the orders that Dr  Person1 already submitted.",
+      "id": "716_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "After starting  how long do I wait",
+      "id": "716_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "or when do I go",
+      "id": "716_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for my first blood draw for the orders that Dr  Person1 already submitted",
+      "id": "716_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Do I need to make an appointment because I also due to get my port flushed.",
+      "id": "716_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do I need to make an appointment because I also due to get",
+      "id": "716_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my port flushed",
+      "id": "716_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Can it be made at Org2 I work at Org2 and can walk over anytime during the day",
+      "id": "716_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can it be made",
+      "id": "716_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "at Org2 I work at Org2 and can walk",
+      "id": "716_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "over anytime during the day",
+      "id": "716_4_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 716,
+      "target": "716_0"
+    },
+    {
+      "source": 716,
+      "target": "716_1"
+    },
+    {
+      "source": 716,
+      "target": "716_2"
+    },
+    {
+      "source": 716,
+      "target": "716_3"
+    },
+    {
+      "source": 716,
+      "target": "716_4"
+    },
+    {
+      "source": "716_0",
+      "target": "716_0_0"
+    },
+    {
+      "source": "716_1",
+      "target": "716_1_0"
+    },
+    {
+      "source": "716_1",
+      "target": "716_1_1"
+    },
+    {
+      "source": "716_2",
+      "target": "716_2_0"
+    },
+    {
+      "source": "716_2",
+      "target": "716_2_1"
+    },
+    {
+      "source": "716_2",
+      "target": "716_2_2"
+    },
+    {
+      "source": "716_3",
+      "target": "716_3_0"
+    },
+    {
+      "source": "716_3",
+      "target": "716_3_1"
+    },
+    {
+      "source": "716_4",
+      "target": "716_4_0"
+    },
+    {
+      "source": "716_4",
+      "target": "716_4_1"
+    },
+    {
+      "source": "716_4",
+      "target": "716_4_2"
+    }
+  ]
+}

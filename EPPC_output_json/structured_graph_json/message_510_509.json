@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I still have not heard from anyone",
+      "id": 509
+    },
+    {
+      "label": "sentence",
+      "text": "I still have not heard from anyone",
+      "id": "509_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I still have not heard from anyone",
+      "id": "509_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 509,
+      "target": "509_0"
+    },
+    {
+      "source": "509_0",
+      "target": "509_0_0"
+    }
+  ]
+}

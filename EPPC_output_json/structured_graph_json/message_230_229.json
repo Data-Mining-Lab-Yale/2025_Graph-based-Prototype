@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I am sorry to hear that this has not recovered. By this point, after two years, it the nerve has not recovered then I think it is unlikely that it will resolve. It is appropriate to consider surgery for the eyelid at this point. I am available to discuss further if you would like. This type of surgery  usually has the best results when done by an oculoplastic surgeon and I can make suggestions if that would be helpful.",
+      "id": 229
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I am sorry to hear that this has not recovered.",
+      "id": "229_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "229_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am sorry to hear that this has not recovered",
+      "id": "229_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "By this point, after two years, it the nerve has not recovered then I think it is unlikely that it will resolve.",
+      "id": "229_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "By this point,",
+      "id": "229_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "after two years,",
+      "id": "229_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it the nerve has not recovered",
+      "id": "229_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "then I think it is",
+      "id": "229_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "unlikely that it will resolve",
+      "id": "229_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "It is appropriate to consider surgery for the eyelid at this point.",
+      "id": "229_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "It is appropriate to consider surgery for the eyelid at this point.",
+      "id": "229_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I am available to discuss further if you would like.",
+      "id": "229_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am available to discuss further if you would like",
+      "id": "229_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "This type of surgery  usually has the best results when done by an oculoplastic surgeon and I can make suggestions if that would be helpful.",
+      "id": "229_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "This type of surgery  usually has the best results when done",
+      "id": "229_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "by an oculoplastic surgeon and I can make",
+      "id": "229_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "suggestions if that would be",
+      "id": "229_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "helpful.",
+      "id": "229_4_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 229,
+      "target": "229_0"
+    },
+    {
+      "source": 229,
+      "target": "229_1"
+    },
+    {
+      "source": 229,
+      "target": "229_2"
+    },
+    {
+      "source": 229,
+      "target": "229_3"
+    },
+    {
+      "source": 229,
+      "target": "229_4"
+    },
+    {
+      "source": "229_0",
+      "target": "229_0_0"
+    },
+    {
+      "source": "229_0",
+      "target": "229_0_1"
+    },
+    {
+      "source": "229_1",
+      "target": "229_1_0"
+    },
+    {
+      "source": "229_1",
+      "target": "229_1_1"
+    },
+    {
+      "source": "229_1",
+      "target": "229_1_2"
+    },
+    {
+      "source": "229_1",
+      "target": "229_1_3"
+    },
+    {
+      "source": "229_1",
+      "target": "229_1_4"
+    },
+    {
+      "source": "229_2",
+      "target": "229_2_0"
+    },
+    {
+      "source": "229_3",
+      "target": "229_3_0"
+    },
+    {
+      "source": "229_4",
+      "target": "229_4_0"
+    },
+    {
+      "source": "229_4",
+      "target": "229_4_1"
+    },
+    {
+      "source": "229_4",
+      "target": "229_4_2"
+    },
+    {
+      "source": "229_4",
+      "target": "229_4_3"
+    }
+  ]
+}

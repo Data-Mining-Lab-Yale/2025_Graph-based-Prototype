@@ -1,0 +1,392 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ms. Person1, I had ordered both tumor markers, adding the CEA (just another marker in this situation) to the CA27.29 and agree that the CA27.29 has been a very good marker for you. I was happy to see that this was trending down. We do not have  a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to. Take care, RDL   ----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Hi Dr Person2, At our last appointment we discussed getting the cancer antigen test at my next blood work. I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that. A test result for CEA came in but I don't know what that is. I have nothing to compare that to although it appears the numbers pretty high which is concerning. I was wondering if there was a reason for switching to a different test? The 27/29 has been a good indicator for me in the past. Thank you",
+      "id": 37
+    },
+    {
+      "label": "sentence",
+      "text": "Ms. Person1, I had ordered both tumor markers, adding the CEA (just another marker in this situation) to the CA27.29 and agree that the CA27.29 has been a very good marker for you.",
+      "id": "37_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ms. Person1,",
+      "id": "37_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had ordered both tumor markers,",
+      "id": "37_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "adding",
+      "id": "37_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "the CEA (just another marker in this situation) to the CA27.29 and agree",
+      "id": "37_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "that the CA27.29 has been",
+      "id": "37_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "a very good marker for you.",
+      "id": "37_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "I was happy to see that this was trending down.",
+      "id": "37_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was happy to see that this was trending",
+      "id": "37_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "down.",
+      "id": "37_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We do not have  a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to.",
+      "id": "37_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "We do not have  a comparison for the CEA,",
+      "id": "37_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but if this serves",
+      "id": "37_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "us value in the future,",
+      "id": "37_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "we will then have",
+      "id": "37_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "something to look",
+      "id": "37_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "back and compare",
+      "id": "37_2_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "to.",
+      "id": "37_2_6"
+    },
+    {
+      "label": "sentence",
+      "text": "Take care, RDL   ----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Hi Dr Person2, At our last appointment we discussed getting the cancer antigen test at my next blood work.",
+      "id": "37_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Take care,",
+      "id": "37_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "RDL   ----- Message ----- From:  Sent:  To: Subject: RE: Visit Follow-Up Question  Hi Dr Person2,",
+      "id": "37_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "At our last appointment we discussed getting the cancer antigen test at my next blood work.",
+      "id": "37_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that.",
+      "id": "37_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "I thought we were doing",
+      "id": "37_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the CA 27 Dash 29 that I have always had done",
+      "id": "37_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but no results have come",
+      "id": "37_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "in for that.",
+      "id": "37_4_3"
+    },
+    {
+      "label": "sentence",
+      "text": "A test result for CEA came in but I don't know what that is.",
+      "id": "37_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "A test result for CEA came in but I don't know",
+      "id": "37_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "what that is",
+      "id": "37_5_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I have nothing to compare that to although it appears the numbers pretty high which is concerning.",
+      "id": "37_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have nothing to compare",
+      "id": "37_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "that to although it appears",
+      "id": "37_6_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the numbers pretty high",
+      "id": "37_6_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "which is concerning",
+      "id": "37_6_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I was wondering if there was a reason for switching to a different test?",
+      "id": "37_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was wondering if there was",
+      "id": "37_7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a reason for switching to a different test?",
+      "id": "37_7_1"
+    },
+    {
+      "label": "sentence",
+      "text": "The 27/29 has been a good indicator for me in the past.",
+      "id": "37_8"
+    },
+    {
+      "label": "subsentence",
+      "text": "The 27/29 has been a good indicator for me in the past.",
+      "id": "37_8_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you",
+      "id": "37_9"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you",
+      "id": "37_9_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 37,
+      "target": "37_0"
+    },
+    {
+      "source": 37,
+      "target": "37_1"
+    },
+    {
+      "source": 37,
+      "target": "37_2"
+    },
+    {
+      "source": 37,
+      "target": "37_3"
+    },
+    {
+      "source": 37,
+      "target": "37_4"
+    },
+    {
+      "source": 37,
+      "target": "37_5"
+    },
+    {
+      "source": 37,
+      "target": "37_6"
+    },
+    {
+      "source": 37,
+      "target": "37_7"
+    },
+    {
+      "source": 37,
+      "target": "37_8"
+    },
+    {
+      "source": 37,
+      "target": "37_9"
+    },
+    {
+      "source": "37_0",
+      "target": "37_0_0"
+    },
+    {
+      "source": "37_0",
+      "target": "37_0_1"
+    },
+    {
+      "source": "37_0",
+      "target": "37_0_2"
+    },
+    {
+      "source": "37_0",
+      "target": "37_0_3"
+    },
+    {
+      "source": "37_0",
+      "target": "37_0_4"
+    },
+    {
+      "source": "37_0",
+      "target": "37_0_5"
+    },
+    {
+      "source": "37_1",
+      "target": "37_1_0"
+    },
+    {
+      "source": "37_1",
+      "target": "37_1_1"
+    },
+    {
+      "source": "37_2",
+      "target": "37_2_0"
+    },
+    {
+      "source": "37_2",
+      "target": "37_2_1"
+    },
+    {
+      "source": "37_2",
+      "target": "37_2_2"
+    },
+    {
+      "source": "37_2",
+      "target": "37_2_3"
+    },
+    {
+      "source": "37_2",
+      "target": "37_2_4"
+    },
+    {
+      "source": "37_2",
+      "target": "37_2_5"
+    },
+    {
+      "source": "37_2",
+      "target": "37_2_6"
+    },
+    {
+      "source": "37_3",
+      "target": "37_3_0"
+    },
+    {
+      "source": "37_3",
+      "target": "37_3_1"
+    },
+    {
+      "source": "37_3",
+      "target": "37_3_2"
+    },
+    {
+      "source": "37_4",
+      "target": "37_4_0"
+    },
+    {
+      "source": "37_4",
+      "target": "37_4_1"
+    },
+    {
+      "source": "37_4",
+      "target": "37_4_2"
+    },
+    {
+      "source": "37_4",
+      "target": "37_4_3"
+    },
+    {
+      "source": "37_5",
+      "target": "37_5_0"
+    },
+    {
+      "source": "37_5",
+      "target": "37_5_1"
+    },
+    {
+      "source": "37_6",
+      "target": "37_6_0"
+    },
+    {
+      "source": "37_6",
+      "target": "37_6_1"
+    },
+    {
+      "source": "37_6",
+      "target": "37_6_2"
+    },
+    {
+      "source": "37_6",
+      "target": "37_6_3"
+    },
+    {
+      "source": "37_7",
+      "target": "37_7_0"
+    },
+    {
+      "source": "37_7",
+      "target": "37_7_1"
+    },
+    {
+      "source": "37_8",
+      "target": "37_8_0"
+    },
+    {
+      "source": "37_9",
+      "target": "37_9_0"
+    }
+  ]
+}

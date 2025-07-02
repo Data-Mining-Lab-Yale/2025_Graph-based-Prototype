@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 I will check with Person1 and Dr. Person2 and someone should reach out Best, Person3",
+      "id": 347
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 I will check with Person1 and Dr. Person2 and someone should reach out Best, Person3",
+      "id": "347_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 I will check with Person1 and Dr.",
+      "id": "347_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2 and someone should reach",
+      "id": "347_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "out Best,",
+      "id": "347_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "347_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 347,
+      "target": "347_0"
+    },
+    {
+      "source": "347_0",
+      "target": "347_0_0"
+    },
+    {
+      "source": "347_0",
+      "target": "347_0_1"
+    },
+    {
+      "source": "347_0",
+      "target": "347_0_2"
+    },
+    {
+      "source": "347_0",
+      "target": "347_0_3"
+    }
+  ]
+}

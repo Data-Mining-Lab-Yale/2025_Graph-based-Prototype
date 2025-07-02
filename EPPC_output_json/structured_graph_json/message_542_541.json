@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Please forgive my confusion; i Still not sure. My  blood draw and appointment with Dr. Person1 will be in the Org2 office on MM/DD/YYYY, starting at 9:30 AM, correct? Thanks for your patience And consideration.",
+      "id": 541
+    },
+    {
+      "label": "sentence",
+      "text": "Please forgive my confusion; i Still not sure.",
+      "id": "541_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please forgive",
+      "id": "541_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my confusion;",
+      "id": "541_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "i Still not sure.",
+      "id": "541_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "My  blood draw and appointment with Dr. Person1 will be in the Org2 office on MM/DD/YYYY, starting at 9:30 AM, correct?",
+      "id": "541_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "My  blood draw and appointment",
+      "id": "541_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with Dr. Person1 will be in the Org2 office on MM/DD/YYYY,",
+      "id": "541_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "starting",
+      "id": "541_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "at 9:30 AM,",
+      "id": "541_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "correct?",
+      "id": "541_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks for your patience And consideration.",
+      "id": "541_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks for your patience And consideration",
+      "id": "541_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 541,
+      "target": "541_0"
+    },
+    {
+      "source": 541,
+      "target": "541_1"
+    },
+    {
+      "source": 541,
+      "target": "541_2"
+    },
+    {
+      "source": "541_0",
+      "target": "541_0_0"
+    },
+    {
+      "source": "541_0",
+      "target": "541_0_1"
+    },
+    {
+      "source": "541_0",
+      "target": "541_0_2"
+    },
+    {
+      "source": "541_1",
+      "target": "541_1_0"
+    },
+    {
+      "source": "541_1",
+      "target": "541_1_1"
+    },
+    {
+      "source": "541_1",
+      "target": "541_1_2"
+    },
+    {
+      "source": "541_1",
+      "target": "541_1_3"
+    },
+    {
+      "source": "541_1",
+      "target": "541_1_4"
+    },
+    {
+      "source": "541_2",
+      "target": "541_2_0"
+    }
+  ]
+}

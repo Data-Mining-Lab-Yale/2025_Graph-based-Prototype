@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you for doing this. Much appreciated",
+      "id": 393
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you for doing this.",
+      "id": "393_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you for doing this.",
+      "id": "393_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Much appreciated",
+      "id": "393_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Much appreciated",
+      "id": "393_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 393,
+      "target": "393_0"
+    },
+    {
+      "source": 393,
+      "target": "393_1"
+    },
+    {
+      "source": "393_0",
+      "target": "393_0_0"
+    },
+    {
+      "source": "393_1",
+      "target": "393_1_0"
+    }
+  ]
+}

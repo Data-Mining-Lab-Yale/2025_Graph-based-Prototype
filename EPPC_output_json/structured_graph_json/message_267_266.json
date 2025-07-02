@@ -1,0 +1,320 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good evening,     After much discussion between my husband and I, we have decided to forgo the fertility option to have eggs extracted for surrogacy. We would like to move forward with focusing on the treatment plan. Radiation had scheduled 5 days of treatment for next week, that I will be doing. May we get the bone infusion appointments set back up? Also, my pain has increased in the past couple of days. I was taking the oxycodone last week, but they really do make me feel sick after a couple of hours. Is there something else I could try? The Tylenol and Aleve just aren enough right now. I have a prescription for trazodone from Org2 oncology, it was given for treating anxiety? Would this treat the pain temporarily? Thank you, Person1",
+      "id": 266
+    },
+    {
+      "label": "sentence",
+      "text": "Good evening,     After much discussion between my husband and I, we have decided to forgo the fertility option to have eggs extracted for surrogacy.",
+      "id": "266_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good evening,",
+      "id": "266_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "After much discussion between my husband and I",
+      "id": "266_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "we have decided to forgo the fertility option to have eggs extracted",
+      "id": "266_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "for surrogacy.",
+      "id": "266_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "We would like to move forward with focusing on the treatment plan.",
+      "id": "266_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We would like to move forward with focusing on the treatment plan.",
+      "id": "266_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Radiation had scheduled 5 days of treatment for next week, that I will be doing.",
+      "id": "266_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Radiation had scheduled 5 days of treatment for next week,",
+      "id": "266_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "that I will be doing",
+      "id": "266_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "May we get the bone infusion appointments set back up?",
+      "id": "266_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "May we get the bone infusion appointments set back up?",
+      "id": "266_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Also, my pain has increased in the past couple of days.",
+      "id": "266_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Also,",
+      "id": "266_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my pain has increased in the past couple of days.",
+      "id": "266_4_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I was taking the oxycodone last week, but they really do make me feel sick after a couple of hours.",
+      "id": "266_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was taking the oxycodone last week,",
+      "id": "266_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but they really do make",
+      "id": "266_5_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "me feel",
+      "id": "266_5_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "sick after a couple of hours.",
+      "id": "266_5_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Is there something else I could try?",
+      "id": "266_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is there something else I could try",
+      "id": "266_6_0"
+    },
+    {
+      "label": "sentence",
+      "text": "The Tylenol and Aleve just aren enough right now.",
+      "id": "266_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "The Tylenol and Aleve",
+      "id": "266_7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "just aren enough right now.",
+      "id": "266_7_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I have a prescription for trazodone from Org2 oncology, it was given for treating anxiety?",
+      "id": "266_8"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have",
+      "id": "266_8_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a prescription for trazodone from Org2 oncology,",
+      "id": "266_8_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it was given for treating anxiety?",
+      "id": "266_8_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Would this treat the pain temporarily?",
+      "id": "266_9"
+    },
+    {
+      "label": "subsentence",
+      "text": "Would this treat the pain temporarily?",
+      "id": "266_9_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1",
+      "id": "266_10"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "266_10_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "266_10_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 266,
+      "target": "266_0"
+    },
+    {
+      "source": 266,
+      "target": "266_1"
+    },
+    {
+      "source": 266,
+      "target": "266_2"
+    },
+    {
+      "source": 266,
+      "target": "266_3"
+    },
+    {
+      "source": 266,
+      "target": "266_4"
+    },
+    {
+      "source": 266,
+      "target": "266_5"
+    },
+    {
+      "source": 266,
+      "target": "266_6"
+    },
+    {
+      "source": 266,
+      "target": "266_7"
+    },
+    {
+      "source": 266,
+      "target": "266_8"
+    },
+    {
+      "source": 266,
+      "target": "266_9"
+    },
+    {
+      "source": 266,
+      "target": "266_10"
+    },
+    {
+      "source": "266_0",
+      "target": "266_0_0"
+    },
+    {
+      "source": "266_0",
+      "target": "266_0_1"
+    },
+    {
+      "source": "266_0",
+      "target": "266_0_2"
+    },
+    {
+      "source": "266_0",
+      "target": "266_0_3"
+    },
+    {
+      "source": "266_1",
+      "target": "266_1_0"
+    },
+    {
+      "source": "266_2",
+      "target": "266_2_0"
+    },
+    {
+      "source": "266_2",
+      "target": "266_2_1"
+    },
+    {
+      "source": "266_3",
+      "target": "266_3_0"
+    },
+    {
+      "source": "266_4",
+      "target": "266_4_0"
+    },
+    {
+      "source": "266_4",
+      "target": "266_4_1"
+    },
+    {
+      "source": "266_5",
+      "target": "266_5_0"
+    },
+    {
+      "source": "266_5",
+      "target": "266_5_1"
+    },
+    {
+      "source": "266_5",
+      "target": "266_5_2"
+    },
+    {
+      "source": "266_5",
+      "target": "266_5_3"
+    },
+    {
+      "source": "266_6",
+      "target": "266_6_0"
+    },
+    {
+      "source": "266_7",
+      "target": "266_7_0"
+    },
+    {
+      "source": "266_7",
+      "target": "266_7_1"
+    },
+    {
+      "source": "266_8",
+      "target": "266_8_0"
+    },
+    {
+      "source": "266_8",
+      "target": "266_8_1"
+    },
+    {
+      "source": "266_8",
+      "target": "266_8_2"
+    },
+    {
+      "source": "266_9",
+      "target": "266_9_0"
+    },
+    {
+      "source": "266_10",
+      "target": "266_10_0"
+    },
+    {
+      "source": "266_10",
+      "target": "266_10_1"
+    }
+  ]
+}

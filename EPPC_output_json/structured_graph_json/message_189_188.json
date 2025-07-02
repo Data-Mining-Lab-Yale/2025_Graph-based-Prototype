@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    Sharing a picture of my abdomen some 40 days after starting on the heparin. In addition to the bruising, I probably have 20+ hematoma under the skin. This is both uncomfortable and painful. Would like to switch back to Eliquis. Thanks,  Person2",
+      "id": 188
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    Sharing a picture of my abdomen some 40 days after starting on the heparin.",
+      "id": "188_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "188_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sharing a picture of my abdomen some 40 days after starting on the heparin.",
+      "id": "188_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "In addition to the bruising, I probably have 20+ hematoma under the skin.",
+      "id": "188_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "In addition to the bruising,",
+      "id": "188_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I probably have 20+ hematoma under the skin.",
+      "id": "188_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "This is both uncomfortable and painful.",
+      "id": "188_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "This is both uncomfortable and painful",
+      "id": "188_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Would like to switch back to Eliquis.",
+      "id": "188_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Would like to switch back to Eliquis.",
+      "id": "188_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person2",
+      "id": "188_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "188_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "188_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 188,
+      "target": "188_0"
+    },
+    {
+      "source": 188,
+      "target": "188_1"
+    },
+    {
+      "source": 188,
+      "target": "188_2"
+    },
+    {
+      "source": 188,
+      "target": "188_3"
+    },
+    {
+      "source": 188,
+      "target": "188_4"
+    },
+    {
+      "source": "188_0",
+      "target": "188_0_0"
+    },
+    {
+      "source": "188_0",
+      "target": "188_0_1"
+    },
+    {
+      "source": "188_1",
+      "target": "188_1_0"
+    },
+    {
+      "source": "188_1",
+      "target": "188_1_1"
+    },
+    {
+      "source": "188_2",
+      "target": "188_2_0"
+    },
+    {
+      "source": "188_3",
+      "target": "188_3_0"
+    },
+    {
+      "source": "188_4",
+      "target": "188_4_0"
+    },
+    {
+      "source": "188_4",
+      "target": "188_4_1"
+    }
+  ]
+}

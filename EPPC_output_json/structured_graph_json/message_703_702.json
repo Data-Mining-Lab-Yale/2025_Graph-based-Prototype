@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, My name is Person2 and I am the RN that works with Dr. Person3. Is there a particular question I may be able to help you with?",
+      "id": 702
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, My name is Person2 and I am the RN that works with Dr. Person3.",
+      "id": "702_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "702_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "My name is Person2 and I am",
+      "id": "702_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the RN that works",
+      "id": "702_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "with Dr. Person3.",
+      "id": "702_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Is there a particular question I may be able to help you with?",
+      "id": "702_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is there a particular question I may be",
+      "id": "702_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "able to help you with?",
+      "id": "702_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 702,
+      "target": "702_0"
+    },
+    {
+      "source": 702,
+      "target": "702_1"
+    },
+    {
+      "source": "702_0",
+      "target": "702_0_0"
+    },
+    {
+      "source": "702_0",
+      "target": "702_0_1"
+    },
+    {
+      "source": "702_0",
+      "target": "702_0_2"
+    },
+    {
+      "source": "702_0",
+      "target": "702_0_3"
+    },
+    {
+      "source": "702_1",
+      "target": "702_1_0"
+    },
+    {
+      "source": "702_1",
+      "target": "702_1_1"
+    }
+  ]
+}

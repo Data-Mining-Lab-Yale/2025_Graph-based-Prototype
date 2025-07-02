@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "HI Person1I was contacted by the Org2  insurance again . My treatment plan changed from every 3weeks to every week so they want the 3 changed to 1  every thing else stays same on the original paperwork and initial and refax. Let me know if you are able to do this before my next treatment or they will deny like they did  last time and if you can put somewhere effective date was  when I got the new treatment   Approx  3 weeks back    Thank you",
+      "id": 692
+    },
+    {
+      "label": "sentence",
+      "text": "HI Person1I was contacted by the Org2  insurance again .",
+      "id": "692_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "HI Person1I was contacted by the Org2  insurance again .",
+      "id": "692_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "My treatment plan changed from every 3weeks to every week so they want the 3 changed to 1  every thing else stays same on the original paperwork and initial and refax.",
+      "id": "692_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "My treatment plan changed from every 3weeks to every week so they want",
+      "id": "692_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the 3 changed",
+      "id": "692_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to 1  every thing else stays",
+      "id": "692_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "same on the original paperwork and initial",
+      "id": "692_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "and refax",
+      "id": "692_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Let me know if you are able to do this before my next treatment or they will deny like they did  last time and if you can put somewhere effective date was  when I got the new treatment   Approx  3 weeks back    Thank you",
+      "id": "692_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Let",
+      "id": "692_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "me know",
+      "id": "692_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "if you are",
+      "id": "692_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "able to do this before my next treatment or they will deny like they did",
+      "id": "692_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "last time and if you can put",
+      "id": "692_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "somewhere effective date was  when I got",
+      "id": "692_2_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "the new treatment   Approx  3 weeks back    Thank",
+      "id": "692_2_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "you",
+      "id": "692_2_7"
+    }
+  ],
+  "links": [
+    {
+      "source": 692,
+      "target": "692_0"
+    },
+    {
+      "source": 692,
+      "target": "692_1"
+    },
+    {
+      "source": 692,
+      "target": "692_2"
+    },
+    {
+      "source": "692_0",
+      "target": "692_0_0"
+    },
+    {
+      "source": "692_1",
+      "target": "692_1_0"
+    },
+    {
+      "source": "692_1",
+      "target": "692_1_1"
+    },
+    {
+      "source": "692_1",
+      "target": "692_1_2"
+    },
+    {
+      "source": "692_1",
+      "target": "692_1_3"
+    },
+    {
+      "source": "692_1",
+      "target": "692_1_4"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_0"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_1"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_2"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_3"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_4"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_5"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_6"
+    },
+    {
+      "source": "692_2",
+      "target": "692_2_7"
+    }
+  ]
+}

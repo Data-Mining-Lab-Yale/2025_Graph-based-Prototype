@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thanks. Just getting my day organized",
+      "id": 600
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks.",
+      "id": "600_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks.",
+      "id": "600_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Just getting my day organized",
+      "id": "600_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Just getting my day organized",
+      "id": "600_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 600,
+      "target": "600_0"
+    },
+    {
+      "source": 600,
+      "target": "600_1"
+    },
+    {
+      "source": "600_0",
+      "target": "600_0_0"
+    },
+    {
+      "source": "600_1",
+      "target": "600_1_0"
+    }
+  ]
+}

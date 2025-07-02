@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "When Person1 was in on MM/DD/YYYY for his visit, the nurse had said that she was going to check to see if he could get his blood thinner medication at Org3 pharmacy cheaper. I was just wondering if she had followed up on that. Thank you,   Person2",
+      "id": 391
+    },
+    {
+      "label": "sentence",
+      "text": "When Person1 was in on MM/DD/YYYY for his visit, the nurse had said that she was going to check to see if he could get his blood thinner medication at Org3 pharmacy cheaper.",
+      "id": "391_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "When Person1 was",
+      "id": "391_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in on MM/DD/YYYY for his visit,",
+      "id": "391_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the nurse had said that she was going",
+      "id": "391_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to check to see if he could get",
+      "id": "391_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "his blood thinner medication at Org3 pharmacy cheaper.",
+      "id": "391_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "I was just wondering if she had followed up on that.",
+      "id": "391_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was just wondering if she had followed",
+      "id": "391_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "up on that.",
+      "id": "391_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,   Person2",
+      "id": "391_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "391_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "391_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 391,
+      "target": "391_0"
+    },
+    {
+      "source": 391,
+      "target": "391_1"
+    },
+    {
+      "source": 391,
+      "target": "391_2"
+    },
+    {
+      "source": "391_0",
+      "target": "391_0_0"
+    },
+    {
+      "source": "391_0",
+      "target": "391_0_1"
+    },
+    {
+      "source": "391_0",
+      "target": "391_0_2"
+    },
+    {
+      "source": "391_0",
+      "target": "391_0_3"
+    },
+    {
+      "source": "391_0",
+      "target": "391_0_4"
+    },
+    {
+      "source": "391_1",
+      "target": "391_1_0"
+    },
+    {
+      "source": "391_1",
+      "target": "391_1_1"
+    },
+    {
+      "source": "391_2",
+      "target": "391_2_0"
+    },
+    {
+      "source": "391_2",
+      "target": "391_2_1"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "The form was received this morning and it is being reviewed.",
+      "id": 421
+    },
+    {
+      "label": "sentence",
+      "text": "The form was received this morning and it is being reviewed.",
+      "id": "421_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "The form was received this morning and it is being reviewed",
+      "id": "421_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 421,
+      "target": "421_0"
+    },
+    {
+      "source": "421_0",
+      "target": "421_0_0"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hey    I believe surgery went well , just really sore. I not sure if I should get it done with me being like I am , I unable to lay on my right side lol but I thinking maybe in a few weeks. I don wanna be jacked up on both sides. Let me know some dates that are available for me to schedule a date.",
+      "id": 139
+    },
+    {
+      "label": "sentence",
+      "text": "Hey    I believe surgery went well , just really sore.",
+      "id": "139_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hey    I believe surgery went",
+      "id": "139_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "well ,",
+      "id": "139_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "just really sore",
+      "id": "139_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I not sure if I should get it done with me being like I am , I unable to lay on my right side lol but I thinking maybe in a few weeks.",
+      "id": "139_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I not sure if I should get",
+      "id": "139_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "it done",
+      "id": "139_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "with me being",
+      "id": "139_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "like I am",
+      "id": "139_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I unable",
+      "id": "139_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "to lay on my right side lol but I thinking maybe in a few weeks.",
+      "id": "139_1_5"
+    },
+    {
+      "label": "sentence",
+      "text": "I don wanna be jacked up on both sides.",
+      "id": "139_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I don wanna be jacked up on both sides.",
+      "id": "139_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Let me know some dates that are available for me to schedule a date.",
+      "id": "139_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Let me know",
+      "id": "139_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "some dates that are",
+      "id": "139_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "available for me to schedule",
+      "id": "139_3_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "a date.",
+      "id": "139_3_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 139,
+      "target": "139_0"
+    },
+    {
+      "source": 139,
+      "target": "139_1"
+    },
+    {
+      "source": 139,
+      "target": "139_2"
+    },
+    {
+      "source": 139,
+      "target": "139_3"
+    },
+    {
+      "source": "139_0",
+      "target": "139_0_0"
+    },
+    {
+      "source": "139_0",
+      "target": "139_0_1"
+    },
+    {
+      "source": "139_0",
+      "target": "139_0_2"
+    },
+    {
+      "source": "139_1",
+      "target": "139_1_0"
+    },
+    {
+      "source": "139_1",
+      "target": "139_1_1"
+    },
+    {
+      "source": "139_1",
+      "target": "139_1_2"
+    },
+    {
+      "source": "139_1",
+      "target": "139_1_3"
+    },
+    {
+      "source": "139_1",
+      "target": "139_1_4"
+    },
+    {
+      "source": "139_1",
+      "target": "139_1_5"
+    },
+    {
+      "source": "139_2",
+      "target": "139_2_0"
+    },
+    {
+      "source": "139_3",
+      "target": "139_3_0"
+    },
+    {
+      "source": "139_3",
+      "target": "139_3_1"
+    },
+    {
+      "source": "139_3",
+      "target": "139_3_2"
+    },
+    {
+      "source": "139_3",
+      "target": "139_3_3"
+    }
+  ]
+}

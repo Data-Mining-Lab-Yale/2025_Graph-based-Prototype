@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  I'd love to see you in person. It's been a while... Will that work for you?",
+      "id": 602
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  I'd love to see you in person.",
+      "id": "602_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "602_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I'd love to see you in person.",
+      "id": "602_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "It's been a while... Will that work for you?",
+      "id": "602_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "It's been a while... Will that work for you?",
+      "id": "602_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 602,
+      "target": "602_0"
+    },
+    {
+      "source": 602,
+      "target": "602_1"
+    },
+    {
+      "source": "602_0",
+      "target": "602_0_0"
+    },
+    {
+      "source": "602_0",
+      "target": "602_0_1"
+    },
+    {
+      "source": "602_1",
+      "target": "602_1_0"
+    }
+  ]
+}

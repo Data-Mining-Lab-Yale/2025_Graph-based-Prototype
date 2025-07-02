@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Sure. I will add you on MM/DD/YYYY when you come to Org2 to see Dr. Person1. Best, Person2",
+      "id": 610
+    },
+    {
+      "label": "sentence",
+      "text": "Sure.",
+      "id": "610_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sure.",
+      "id": "610_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I will add you on MM/DD/YYYY when you come to Org2 to see Dr. Person1.",
+      "id": "610_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will add you on MM/DD/YYYY when you come",
+      "id": "610_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to Org2",
+      "id": "610_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to see",
+      "id": "610_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person1.",
+      "id": "610_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Best, Person2",
+      "id": "610_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best,",
+      "id": "610_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "610_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 610,
+      "target": "610_0"
+    },
+    {
+      "source": 610,
+      "target": "610_1"
+    },
+    {
+      "source": 610,
+      "target": "610_2"
+    },
+    {
+      "source": "610_0",
+      "target": "610_0_0"
+    },
+    {
+      "source": "610_1",
+      "target": "610_1_0"
+    },
+    {
+      "source": "610_1",
+      "target": "610_1_1"
+    },
+    {
+      "source": "610_1",
+      "target": "610_1_2"
+    },
+    {
+      "source": "610_1",
+      "target": "610_1_3"
+    },
+    {
+      "source": "610_2",
+      "target": "610_2_0"
+    },
+    {
+      "source": "610_2",
+      "target": "610_2_1"
+    }
+  ]
+}

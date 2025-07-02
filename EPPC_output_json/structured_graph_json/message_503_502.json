@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "What area of the body are these? Dr. Person1 had seen the ones on his left upper leg... lets see what Dr.  Person2 thinks. Thank you Person3",
+      "id": 502
+    },
+    {
+      "label": "sentence",
+      "text": "What area of the body are these?",
+      "id": "502_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "What area of the body are these?",
+      "id": "502_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Dr. Person1 had seen the ones on his left upper leg... lets see what Dr.  Person2 thinks.",
+      "id": "502_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person1 had seen",
+      "id": "502_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the ones on his left upper leg... lets see what Dr.  Person2 thinks",
+      "id": "502_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you Person3",
+      "id": "502_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you Person3",
+      "id": "502_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 502,
+      "target": "502_0"
+    },
+    {
+      "source": 502,
+      "target": "502_1"
+    },
+    {
+      "source": 502,
+      "target": "502_2"
+    },
+    {
+      "source": "502_0",
+      "target": "502_0_0"
+    },
+    {
+      "source": "502_1",
+      "target": "502_1_0"
+    },
+    {
+      "source": "502_1",
+      "target": "502_1_1"
+    },
+    {
+      "source": "502_2",
+      "target": "502_2_0"
+    }
+  ]
+}

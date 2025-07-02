@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi team,    Pain management had recommended I purchase a TENS unit which isends low level electrical pulses to tabs attached to skin to disrupt pain pathways.",
+      "id": 605
+    },
+    {
+      "label": "sentence",
+      "text": "Hi team,    Pain management had recommended I purchase a TENS unit which isends low level electrical pulses to tabs attached to skin to disrupt pain pathways.",
+      "id": "605_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi team,",
+      "id": "605_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Pain management had recommended I purchase",
+      "id": "605_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a TENS unit which isends",
+      "id": "605_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "low level electrical pulses to tabs attached to skin to disrupt",
+      "id": "605_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "pain pathways.",
+      "id": "605_0_4"
+    }
+  ],
+  "links": [
+    {
+      "source": 605,
+      "target": "605_0"
+    },
+    {
+      "source": "605_0",
+      "target": "605_0_0"
+    },
+    {
+      "source": "605_0",
+      "target": "605_0_1"
+    },
+    {
+      "source": "605_0",
+      "target": "605_0_2"
+    },
+    {
+      "source": "605_0",
+      "target": "605_0_3"
+    },
+    {
+      "source": "605_0",
+      "target": "605_0_4"
+    }
+  ]
+}

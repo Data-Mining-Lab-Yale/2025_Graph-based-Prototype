@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Dr Person1,             I am coming in for bloodwork MM/DD/YYYY, I would like to know if you can order a PSA. My PCP did bloodwork and saw that my PSA was elevated.",
+      "id": 377
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Dr Person1,             I am coming in for bloodwork MM/DD/YYYY, I would like to know if you can order a PSA.",
+      "id": "377_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Dr Person1,",
+      "id": "377_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am coming",
+      "id": "377_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "in for bloodwork MM/DD/YYYY,",
+      "id": "377_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would like to know if you can order",
+      "id": "377_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "a PSA.",
+      "id": "377_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "My PCP did bloodwork and saw that my PSA was elevated.",
+      "id": "377_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "My PCP did bloodwork and saw",
+      "id": "377_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "that my PSA was elevated",
+      "id": "377_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 377,
+      "target": "377_0"
+    },
+    {
+      "source": 377,
+      "target": "377_1"
+    },
+    {
+      "source": "377_0",
+      "target": "377_0_0"
+    },
+    {
+      "source": "377_0",
+      "target": "377_0_1"
+    },
+    {
+      "source": "377_0",
+      "target": "377_0_2"
+    },
+    {
+      "source": "377_0",
+      "target": "377_0_3"
+    },
+    {
+      "source": "377_0",
+      "target": "377_0_4"
+    },
+    {
+      "source": "377_1",
+      "target": "377_1_0"
+    },
+    {
+      "source": "377_1",
+      "target": "377_1_1"
+    }
+  ]
+}

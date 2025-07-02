@@ -1,0 +1,365 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I need to postpone the appointments made for MM/DD/YYYY, and MM/DD/YYYY for the initial doses of Fulvestrant, that we discussed in your office. I have not completely recovered from the surgery of MM/DD/YYYY. I still have the surgical drain in place, and have a potential appointment tomorrow, MM/DD/YYYY to see Dr  Person2, but it is dependent on fluid accumulation, which I am afraid will not be low enough by then, for removal. Given my history of ulcerative colitis, I am concerned about diarrhea, and I am Very concerned about the Verzenio pill regarding diarrhea. We also could not recall the length of time these therapies would last, nor the potential additional benefit from the addition of the Verzenio. If I encounter an adverse reaction, we were wondering how long it would take to get back to normal after stopping the Fulvestrant and Verzenio. Finally, we were wondering about the additional benefits of these two medications, as compared to Tamoxifen alone which I have tolerated well in the past.",
+      "id": 254
+    },
+    {
+      "label": "sentence",
+      "text": "I need to postpone the appointments made for MM/DD/YYYY, and MM/DD/YYYY for the initial doses of Fulvestrant, that we discussed in your office.",
+      "id": "254_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I need to postpone the appointments made for MM/DD/YYYY,",
+      "id": "254_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and MM/DD/YYYY",
+      "id": "254_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for the initial doses of Fulvestrant,",
+      "id": "254_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "that we discussed",
+      "id": "254_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "in your office.",
+      "id": "254_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "I have not completely recovered from the surgery of MM/DD/YYYY.",
+      "id": "254_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have not completely recovered from the surgery of MM/DD/YYYY.",
+      "id": "254_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I still have the surgical drain in place, and have a potential appointment tomorrow, MM/DD/YYYY to see Dr  Person2, but it is dependent on fluid accumulation, which I am afraid will not be low enough by then, for removal.",
+      "id": "254_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I still have the surgical drain in place,",
+      "id": "254_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and have",
+      "id": "254_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a potential appointment tomorrow,",
+      "id": "254_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY to see Dr  Person2,",
+      "id": "254_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "but it is",
+      "id": "254_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "dependent on fluid accumulation,",
+      "id": "254_2_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "which I am",
+      "id": "254_2_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "afraid will not be",
+      "id": "254_2_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "low enough by then,",
+      "id": "254_2_8"
+    },
+    {
+      "label": "subsentence",
+      "text": "for removal.",
+      "id": "254_2_9"
+    },
+    {
+      "label": "sentence",
+      "text": "Given my history of ulcerative colitis, I am concerned about diarrhea, and I am Very concerned about the Verzenio pill regarding diarrhea.",
+      "id": "254_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Given my history of ulcerative colitis,",
+      "id": "254_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am concerned about diarrhea,",
+      "id": "254_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and I am",
+      "id": "254_3_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Very concerned about the Verzenio pill regarding diarrhea.",
+      "id": "254_3_3"
+    },
+    {
+      "label": "sentence",
+      "text": "We also could not recall the length of time these therapies would last, nor the potential additional benefit from the addition of the Verzenio.",
+      "id": "254_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "We also could not recall the length of time these therapies would last",
+      "id": "254_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "nor the potential additional benefit",
+      "id": "254_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "from the addition of the Verzenio.",
+      "id": "254_4_2"
+    },
+    {
+      "label": "sentence",
+      "text": "If I encounter an adverse reaction, we were wondering how long it would take to get back to normal after stopping the Fulvestrant and Verzenio.",
+      "id": "254_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "If I encounter",
+      "id": "254_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "an adverse reaction,",
+      "id": "254_5_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "we were wondering how long it would take",
+      "id": "254_5_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to get back to normal after stopping the Fulvestrant and Verzenio",
+      "id": "254_5_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Finally, we were wondering about the additional benefits of these two medications, as compared to Tamoxifen alone which I have tolerated well in the past.",
+      "id": "254_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Finally,",
+      "id": "254_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "we were wondering about the additional benefits of these two medications,",
+      "id": "254_6_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "as compared",
+      "id": "254_6_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to Tamoxifen alone which I have tolerated",
+      "id": "254_6_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "well in the past.",
+      "id": "254_6_4"
+    }
+  ],
+  "links": [
+    {
+      "source": 254,
+      "target": "254_0"
+    },
+    {
+      "source": 254,
+      "target": "254_1"
+    },
+    {
+      "source": 254,
+      "target": "254_2"
+    },
+    {
+      "source": 254,
+      "target": "254_3"
+    },
+    {
+      "source": 254,
+      "target": "254_4"
+    },
+    {
+      "source": 254,
+      "target": "254_5"
+    },
+    {
+      "source": 254,
+      "target": "254_6"
+    },
+    {
+      "source": "254_0",
+      "target": "254_0_0"
+    },
+    {
+      "source": "254_0",
+      "target": "254_0_1"
+    },
+    {
+      "source": "254_0",
+      "target": "254_0_2"
+    },
+    {
+      "source": "254_0",
+      "target": "254_0_3"
+    },
+    {
+      "source": "254_0",
+      "target": "254_0_4"
+    },
+    {
+      "source": "254_1",
+      "target": "254_1_0"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_0"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_1"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_2"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_3"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_4"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_5"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_6"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_7"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_8"
+    },
+    {
+      "source": "254_2",
+      "target": "254_2_9"
+    },
+    {
+      "source": "254_3",
+      "target": "254_3_0"
+    },
+    {
+      "source": "254_3",
+      "target": "254_3_1"
+    },
+    {
+      "source": "254_3",
+      "target": "254_3_2"
+    },
+    {
+      "source": "254_3",
+      "target": "254_3_3"
+    },
+    {
+      "source": "254_4",
+      "target": "254_4_0"
+    },
+    {
+      "source": "254_4",
+      "target": "254_4_1"
+    },
+    {
+      "source": "254_4",
+      "target": "254_4_2"
+    },
+    {
+      "source": "254_5",
+      "target": "254_5_0"
+    },
+    {
+      "source": "254_5",
+      "target": "254_5_1"
+    },
+    {
+      "source": "254_5",
+      "target": "254_5_2"
+    },
+    {
+      "source": "254_5",
+      "target": "254_5_3"
+    },
+    {
+      "source": "254_6",
+      "target": "254_6_0"
+    },
+    {
+      "source": "254_6",
+      "target": "254_6_1"
+    },
+    {
+      "source": "254_6",
+      "target": "254_6_2"
+    },
+    {
+      "source": "254_6",
+      "target": "254_6_3"
+    },
+    {
+      "source": "254_6",
+      "target": "254_6_4"
+    }
+  ]
+}

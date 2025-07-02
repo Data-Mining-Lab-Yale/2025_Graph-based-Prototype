@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Thanks for your message. We are closed on weekends and only check the MyChart MM/DD/YYYY-MM/DD/YYYY. I will pass along your question to Dr  Person2, and looks like Person3 is in the hospital right now, so please also ask the Inpatient GI Team. I hope he is feeling better.",
+      "id": 388
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Thanks for your message.",
+      "id": "388_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "388_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks for your message.",
+      "id": "388_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We are closed on weekends and only check the MyChart MM/DD/YYYY-MM/DD/YYYY.",
+      "id": "388_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We are closed on weekends and only check",
+      "id": "388_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the MyChart MM/DD/YYYY-MM/DD/YYYY.",
+      "id": "388_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I will pass along your question to Dr  Person2, and looks like Person3 is in the hospital right now, so please also ask the Inpatient GI Team.",
+      "id": "388_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will pass along your question to Dr  Person2,",
+      "id": "388_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and looks",
+      "id": "388_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "like Person3 is",
+      "id": "388_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "in the hospital right now,",
+      "id": "388_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "so please also ask",
+      "id": "388_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "the Inpatient GI Team.",
+      "id": "388_2_5"
+    },
+    {
+      "label": "sentence",
+      "text": "I hope he is feeling better.",
+      "id": "388_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I hope he is feeling",
+      "id": "388_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "better.",
+      "id": "388_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 388,
+      "target": "388_0"
+    },
+    {
+      "source": 388,
+      "target": "388_1"
+    },
+    {
+      "source": 388,
+      "target": "388_2"
+    },
+    {
+      "source": 388,
+      "target": "388_3"
+    },
+    {
+      "source": "388_0",
+      "target": "388_0_0"
+    },
+    {
+      "source": "388_0",
+      "target": "388_0_1"
+    },
+    {
+      "source": "388_1",
+      "target": "388_1_0"
+    },
+    {
+      "source": "388_1",
+      "target": "388_1_1"
+    },
+    {
+      "source": "388_2",
+      "target": "388_2_0"
+    },
+    {
+      "source": "388_2",
+      "target": "388_2_1"
+    },
+    {
+      "source": "388_2",
+      "target": "388_2_2"
+    },
+    {
+      "source": "388_2",
+      "target": "388_2_3"
+    },
+    {
+      "source": "388_2",
+      "target": "388_2_4"
+    },
+    {
+      "source": "388_2",
+      "target": "388_2_5"
+    },
+    {
+      "source": "388_3",
+      "target": "388_3_0"
+    },
+    {
+      "source": "388_3",
+      "target": "388_3_1"
+    }
+  ]
+}

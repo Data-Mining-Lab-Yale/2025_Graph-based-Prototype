@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Is he still going to be seeing patients in clinic? I did not realize he got a promotion. No, it has not helped. It is still in that one area on the left. It is interfering with my daily activities    Person1",
+      "id": 141
+    },
+    {
+      "label": "sentence",
+      "text": "Is he still going to be seeing patients in clinic?",
+      "id": "141_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is he still going to be seeing patients in clinic?",
+      "id": "141_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I did not realize he got a promotion.",
+      "id": "141_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I did not realize he got",
+      "id": "141_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a promotion.",
+      "id": "141_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "No, it has not helped.",
+      "id": "141_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "No,",
+      "id": "141_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "it has not helped.",
+      "id": "141_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "It is still in that one area on the left.",
+      "id": "141_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "It is still in that one area on the left.",
+      "id": "141_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "It is interfering with my daily activities    Person1",
+      "id": "141_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "It is interfering with my daily activities    Person1",
+      "id": "141_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 141,
+      "target": "141_0"
+    },
+    {
+      "source": 141,
+      "target": "141_1"
+    },
+    {
+      "source": 141,
+      "target": "141_2"
+    },
+    {
+      "source": 141,
+      "target": "141_3"
+    },
+    {
+      "source": 141,
+      "target": "141_4"
+    },
+    {
+      "source": "141_0",
+      "target": "141_0_0"
+    },
+    {
+      "source": "141_1",
+      "target": "141_1_0"
+    },
+    {
+      "source": "141_1",
+      "target": "141_1_1"
+    },
+    {
+      "source": "141_2",
+      "target": "141_2_0"
+    },
+    {
+      "source": "141_2",
+      "target": "141_2_1"
+    },
+    {
+      "source": "141_3",
+      "target": "141_3_0"
+    },
+    {
+      "source": "141_4",
+      "target": "141_4_0"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you I glad I took the s divan it really helped get me through thank you for all your help today I think the next treatment will go smoother now that I know what to expect",
+      "id": 687
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you I glad I took the s divan it really helped get me through thank you for all your help today I think the next treatment will go smoother now that I know what to expect",
+      "id": "687_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you I glad I took",
+      "id": "687_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the s divan it really helped",
+      "id": "687_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "get me through thank you for all your help today I think",
+      "id": "687_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "the next treatment will go",
+      "id": "687_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "smoother now that I know",
+      "id": "687_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "what to expect",
+      "id": "687_0_5"
+    }
+  ],
+  "links": [
+    {
+      "source": 687,
+      "target": "687_0"
+    },
+    {
+      "source": "687_0",
+      "target": "687_0_0"
+    },
+    {
+      "source": "687_0",
+      "target": "687_0_1"
+    },
+    {
+      "source": "687_0",
+      "target": "687_0_2"
+    },
+    {
+      "source": "687_0",
+      "target": "687_0_3"
+    },
+    {
+      "source": "687_0",
+      "target": "687_0_4"
+    },
+    {
+      "source": "687_0",
+      "target": "687_0_5"
+    }
+  ]
+}

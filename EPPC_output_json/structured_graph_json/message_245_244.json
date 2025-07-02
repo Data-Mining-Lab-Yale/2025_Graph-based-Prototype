@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thanks. Did you receive the fax from Dr. Person1?",
+      "id": 244
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks.",
+      "id": "244_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks.",
+      "id": "244_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Did you receive the fax from Dr. Person1?",
+      "id": "244_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Did you receive the fax from Dr. Person1?",
+      "id": "244_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 244,
+      "target": "244_0"
+    },
+    {
+      "source": 244,
+      "target": "244_1"
+    },
+    {
+      "source": "244_0",
+      "target": "244_0_0"
+    },
+    {
+      "source": "244_1",
+      "target": "244_1_0"
+    }
+  ]
+}

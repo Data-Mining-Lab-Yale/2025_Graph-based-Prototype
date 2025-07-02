@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Greetings,  Person1 rec'd a notice MM/DD/YYYY (MM/DD/YYYY, letter dated MM/DD/YYYY) of disapproval for the testing Dr. Person2 ordered (81479 Molecular Diagnostic Testing for Hematology and Oncology Indications). The reasons listed don't make any sense, per usual. Do you prefer to tackle this? Anything I can do?",
+      "id": 19
+    },
+    {
+      "label": "sentence",
+      "text": "Greetings,  Person1 rec'd a notice MM/DD/YYYY (MM/DD/YYYY, letter dated MM/DD/YYYY) of disapproval for the testing Dr. Person2 ordered (81479 Molecular Diagnostic Testing for Hematology and Oncology Indications).",
+      "id": "19_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Greetings,",
+      "id": "19_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 rec'd a notice MM/DD/YYYY (MM/DD/YYYY,",
+      "id": "19_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "letter dated MM/DD/YYYY) of disapproval for the testing Dr. Person2 ordered",
+      "id": "19_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "(81479 Molecular Diagnostic Testing for Hematology and Oncology",
+      "id": "19_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Indications).",
+      "id": "19_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "The reasons listed don't make any sense, per usual.",
+      "id": "19_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "The reasons listed don't make any sense,",
+      "id": "19_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "per usual.",
+      "id": "19_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Do you prefer to tackle this?",
+      "id": "19_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do you prefer to tackle this?",
+      "id": "19_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Anything I can do?",
+      "id": "19_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Anything I can do",
+      "id": "19_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 19,
+      "target": "19_0"
+    },
+    {
+      "source": 19,
+      "target": "19_1"
+    },
+    {
+      "source": 19,
+      "target": "19_2"
+    },
+    {
+      "source": 19,
+      "target": "19_3"
+    },
+    {
+      "source": "19_0",
+      "target": "19_0_0"
+    },
+    {
+      "source": "19_0",
+      "target": "19_0_1"
+    },
+    {
+      "source": "19_0",
+      "target": "19_0_2"
+    },
+    {
+      "source": "19_0",
+      "target": "19_0_3"
+    },
+    {
+      "source": "19_0",
+      "target": "19_0_4"
+    },
+    {
+      "source": "19_1",
+      "target": "19_1_0"
+    },
+    {
+      "source": "19_1",
+      "target": "19_1_1"
+    },
+    {
+      "source": "19_2",
+      "target": "19_2_0"
+    },
+    {
+      "source": "19_3",
+      "target": "19_3_0"
+    }
+  ]
+}

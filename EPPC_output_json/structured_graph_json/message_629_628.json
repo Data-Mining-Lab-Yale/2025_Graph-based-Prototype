@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes.",
+      "id": 628
+    },
+    {
+      "label": "sentence",
+      "text": "Yes.",
+      "id": "628_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes.",
+      "id": "628_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 628,
+      "target": "628_0"
+    },
+    {
+      "source": "628_0",
+      "target": "628_0_0"
+    }
+  ]
+}

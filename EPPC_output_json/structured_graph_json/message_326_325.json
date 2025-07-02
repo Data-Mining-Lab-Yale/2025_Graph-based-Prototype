@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 -  1) Since you are currently on active treatment, your cancer isn't in remission; it is being controlled by the  treatment. 2)  You can either upload the form to mychart and send it to us as an attachment or can fax it to us at  XXX-XXX-XXXX. Please note that the turn aro und time is about 7-10 business days to complete paperwork.",
+      "id": 325
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 -  1) Since you are currently on active treatment, your cancer isn't in remission; it is being controlled by the  treatment.",
+      "id": "325_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 -  1) Since you are",
+      "id": "325_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "currently on active treatment,",
+      "id": "325_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "your cancer is",
+      "id": "325_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "n't in remission;",
+      "id": "325_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "it is being controlled by the  treatment.",
+      "id": "325_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "2)  You can either upload the form to mychart and send it to us as an attachment or can fax it to us at  XXX-XXX-XXXX.",
+      "id": "325_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "2)  You can either upload the form to mychart and send",
+      "id": "325_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "it to us as an attachment or can fax",
+      "id": "325_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it to us at  XXX-XXX-XXXX.",
+      "id": "325_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Please note that the turn aro und time is about 7-10 business days to complete paperwork.",
+      "id": "325_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please note that the turn aro und time is",
+      "id": "325_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "about 7-10 business days to complete",
+      "id": "325_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "paperwork.",
+      "id": "325_2_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 325,
+      "target": "325_0"
+    },
+    {
+      "source": 325,
+      "target": "325_1"
+    },
+    {
+      "source": 325,
+      "target": "325_2"
+    },
+    {
+      "source": "325_0",
+      "target": "325_0_0"
+    },
+    {
+      "source": "325_0",
+      "target": "325_0_1"
+    },
+    {
+      "source": "325_0",
+      "target": "325_0_2"
+    },
+    {
+      "source": "325_0",
+      "target": "325_0_3"
+    },
+    {
+      "source": "325_0",
+      "target": "325_0_4"
+    },
+    {
+      "source": "325_1",
+      "target": "325_1_0"
+    },
+    {
+      "source": "325_1",
+      "target": "325_1_1"
+    },
+    {
+      "source": "325_1",
+      "target": "325_1_2"
+    },
+    {
+      "source": "325_2",
+      "target": "325_2_0"
+    },
+    {
+      "source": "325_2",
+      "target": "325_2_1"
+    },
+    {
+      "source": "325_2",
+      "target": "325_2_2"
+    }
+  ]
+}

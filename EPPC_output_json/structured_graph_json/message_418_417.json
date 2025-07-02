@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 That is fine to take. I have added it to your medication list.",
+      "id": 417
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 That is fine to take.",
+      "id": "417_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 That is fine to take.",
+      "id": "417_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I have added it to your medication list.",
+      "id": "417_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have added it to your medication list.",
+      "id": "417_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 417,
+      "target": "417_0"
+    },
+    {
+      "source": 417,
+      "target": "417_1"
+    },
+    {
+      "source": "417_0",
+      "target": "417_0_0"
+    },
+    {
+      "source": "417_1",
+      "target": "417_1_0"
+    }
+  ]
+}

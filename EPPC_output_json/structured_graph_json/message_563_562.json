@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Iwas scheduled for a cat scan and bone scan through the VA A few weeks ago but I canceled out due to a conflict with another appointment. I go for a follow up MRI  this coming MM/DD/YYYY. I like to reschedule the cat and bone scans and I prefer going to a  Org3 facility if that possible. Who do I contact to schedule? Thanks!",
+      "id": 562
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Iwas scheduled for a cat scan and bone scan through the VA A few weeks ago but I canceled out due to a conflict with another appointment.",
+      "id": "562_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "562_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "562_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Iwas scheduled for a cat scan and bone scan",
+      "id": "562_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "through the VA A few weeks ago but I canceled out due to a conflict with another appointment.",
+      "id": "562_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I go for a follow up MRI  this coming MM/DD/YYYY.",
+      "id": "562_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I go for a follow up MRI  this coming MM/DD/YYYY.",
+      "id": "562_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I like to reschedule the cat and bone scans and I prefer going to a  Org3 facility if that possible.",
+      "id": "562_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I like to reschedule the cat and bone scans",
+      "id": "562_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and I prefer",
+      "id": "562_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "going to a  Org3 facility if that possible",
+      "id": "562_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Who do I contact to schedule?",
+      "id": "562_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Who do I contact to schedule?",
+      "id": "562_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "562_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "562_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 562,
+      "target": "562_0"
+    },
+    {
+      "source": 562,
+      "target": "562_1"
+    },
+    {
+      "source": 562,
+      "target": "562_2"
+    },
+    {
+      "source": 562,
+      "target": "562_3"
+    },
+    {
+      "source": 562,
+      "target": "562_4"
+    },
+    {
+      "source": "562_0",
+      "target": "562_0_0"
+    },
+    {
+      "source": "562_0",
+      "target": "562_0_1"
+    },
+    {
+      "source": "562_0",
+      "target": "562_0_2"
+    },
+    {
+      "source": "562_0",
+      "target": "562_0_3"
+    },
+    {
+      "source": "562_1",
+      "target": "562_1_0"
+    },
+    {
+      "source": "562_2",
+      "target": "562_2_0"
+    },
+    {
+      "source": "562_2",
+      "target": "562_2_1"
+    },
+    {
+      "source": "562_2",
+      "target": "562_2_2"
+    },
+    {
+      "source": "562_3",
+      "target": "562_3_0"
+    },
+    {
+      "source": "562_4",
+      "target": "562_4_0"
+    }
+  ]
+}

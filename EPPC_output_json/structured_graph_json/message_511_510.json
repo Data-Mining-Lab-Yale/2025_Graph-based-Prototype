@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I just called radiology - the request was sent to leadership to assist with scheduling.",
+      "id": 510
+    },
+    {
+      "label": "sentence",
+      "text": "I just called radiology - the request was sent to leadership to assist with scheduling.",
+      "id": "510_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I just called",
+      "id": "510_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "radiology - the request was sent to leadership to assist",
+      "id": "510_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "with scheduling.",
+      "id": "510_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 510,
+      "target": "510_0"
+    },
+    {
+      "source": "510_0",
+      "target": "510_0_0"
+    },
+    {
+      "source": "510_0",
+      "target": "510_0_1"
+    },
+    {
+      "source": "510_0",
+      "target": "510_0_2"
+    }
+  ]
+}

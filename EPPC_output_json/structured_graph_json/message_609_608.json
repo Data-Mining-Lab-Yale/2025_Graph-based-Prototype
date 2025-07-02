@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Team,    Would one of you be able to give me a call this morning? Something is going on that is causing me definite concern so need help in figuring out root causes and what the next steps would be.",
+      "id": 608
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Team,    Would one of you be able to give me a call this morning?",
+      "id": "608_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Team,",
+      "id": "608_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Would one of you be able to give me a call this morning?",
+      "id": "608_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Something is going on that is causing me definite concern so need help in figuring out root causes and what the next steps would be.",
+      "id": "608_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Something is going on that is causing",
+      "id": "608_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "me definite concern",
+      "id": "608_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "so need",
+      "id": "608_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "help in figuring out root causes and what the next steps would be",
+      "id": "608_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 608,
+      "target": "608_0"
+    },
+    {
+      "source": 608,
+      "target": "608_1"
+    },
+    {
+      "source": "608_0",
+      "target": "608_0_0"
+    },
+    {
+      "source": "608_0",
+      "target": "608_0_1"
+    },
+    {
+      "source": "608_1",
+      "target": "608_1_0"
+    },
+    {
+      "source": "608_1",
+      "target": "608_1_1"
+    },
+    {
+      "source": "608_1",
+      "target": "608_1_2"
+    },
+    {
+      "source": "608_1",
+      "target": "608_1_3"
+    }
+  ]
+}

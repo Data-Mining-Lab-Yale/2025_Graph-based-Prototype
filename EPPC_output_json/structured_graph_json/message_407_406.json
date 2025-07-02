@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you. See you in July!",
+      "id": 406
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you.",
+      "id": "406_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you.",
+      "id": "406_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "See you in July!",
+      "id": "406_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "See you in July!",
+      "id": "406_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 406,
+      "target": "406_0"
+    },
+    {
+      "source": 406,
+      "target": "406_1"
+    },
+    {
+      "source": "406_0",
+      "target": "406_0_0"
+    },
+    {
+      "source": "406_1",
+      "target": "406_1_0"
+    }
+  ]
+}

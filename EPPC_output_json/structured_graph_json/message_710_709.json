@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  You could certainly speak to your GI about scheduling a colonoscopy. How long has it been, and what were their recommendations for follow up at the last one?",
+      "id": 709
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  You could certainly speak to your GI about scheduling a colonoscopy.",
+      "id": "709_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "709_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "You could certainly speak to your GI about scheduling a colonoscopy.",
+      "id": "709_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "How long has it been, and what were their recommendations for follow up at the last one?",
+      "id": "709_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "How long has it been,",
+      "id": "709_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and what were",
+      "id": "709_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "their recommendations for follow up at the last one?",
+      "id": "709_1_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 709,
+      "target": "709_0"
+    },
+    {
+      "source": 709,
+      "target": "709_1"
+    },
+    {
+      "source": "709_0",
+      "target": "709_0_0"
+    },
+    {
+      "source": "709_0",
+      "target": "709_0_1"
+    },
+    {
+      "source": "709_1",
+      "target": "709_1_0"
+    },
+    {
+      "source": "709_1",
+      "target": "709_1_1"
+    },
+    {
+      "source": "709_1",
+      "target": "709_1_2"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 is having his 3rd ERCP today and we do not under any circumstances want a training Dr.  Person2",
+      "id": 389
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 is having his 3rd ERCP today and we do not under any circumstances want a training Dr.  Person2",
+      "id": "389_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 is having his 3rd ERCP today and we do not under any circumstances want",
+      "id": "389_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a training Dr.  Person2",
+      "id": "389_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 389,
+      "target": "389_0"
+    },
+    {
+      "source": "389_0",
+      "target": "389_0_0"
+    },
+    {
+      "source": "389_0",
+      "target": "389_0_1"
+    }
+  ]
+}

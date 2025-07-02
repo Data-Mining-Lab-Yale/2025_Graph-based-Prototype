@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi  Person1, That is completely understandable! Dr. Person2 said this appointment was to check up and see how you were doing after chemo. I can see if we can get you rescheduled and lumpectomy questions I can pass on to the surgery team.",
+      "id": 125
+    },
+    {
+      "label": "sentence",
+      "text": "Hi  Person1, That is completely understandable!",
+      "id": "125_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi  Person1,",
+      "id": "125_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "That is completely understandable!",
+      "id": "125_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Dr. Person2 said this appointment was to check up and see how you were doing after chemo.",
+      "id": "125_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person2 said this appointment was",
+      "id": "125_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to check up and see",
+      "id": "125_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "how you were doing",
+      "id": "125_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "after chemo.",
+      "id": "125_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I can see if we can get you rescheduled and lumpectomy questions I can pass on to the surgery team.",
+      "id": "125_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I can see if we can get",
+      "id": "125_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you rescheduled",
+      "id": "125_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and lumpectomy",
+      "id": "125_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "questions I can pass",
+      "id": "125_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "on to the surgery team.",
+      "id": "125_2_4"
+    }
+  ],
+  "links": [
+    {
+      "source": 125,
+      "target": "125_0"
+    },
+    {
+      "source": 125,
+      "target": "125_1"
+    },
+    {
+      "source": 125,
+      "target": "125_2"
+    },
+    {
+      "source": "125_0",
+      "target": "125_0_0"
+    },
+    {
+      "source": "125_0",
+      "target": "125_0_1"
+    },
+    {
+      "source": "125_1",
+      "target": "125_1_0"
+    },
+    {
+      "source": "125_1",
+      "target": "125_1_1"
+    },
+    {
+      "source": "125_1",
+      "target": "125_1_2"
+    },
+    {
+      "source": "125_1",
+      "target": "125_1_3"
+    },
+    {
+      "source": "125_2",
+      "target": "125_2_0"
+    },
+    {
+      "source": "125_2",
+      "target": "125_2_1"
+    },
+    {
+      "source": "125_2",
+      "target": "125_2_2"
+    },
+    {
+      "source": "125_2",
+      "target": "125_2_3"
+    },
+    {
+      "source": "125_2",
+      "target": "125_2_4"
+    }
+  ]
+}

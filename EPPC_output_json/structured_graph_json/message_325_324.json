@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Dr Person1 a couple questions for insurance. 1 is my cancer considered to be in remission? 2  i need a form  filled out for my ins. When original prognosis was given, what it was and a signature from you. ( i did not realize i was covered under an insurance i had allowing a payment) how can i get this form to your office?",
+      "id": 324
+    },
+    {
+      "label": "sentence",
+      "text": "Dr Person1 a couple questions for insurance.",
+      "id": "324_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr Person1 a couple questions for insurance.",
+      "id": "324_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "1 is my cancer considered to be in remission?",
+      "id": "324_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "1 is my cancer considered to be in remission?",
+      "id": "324_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "2  i need a form  filled out for my ins.",
+      "id": "324_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "2  i need a form  filled out for my ins.",
+      "id": "324_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "When original prognosis was given, what it was and a signature from you.",
+      "id": "324_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "When original prognosis was given,",
+      "id": "324_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "what it was",
+      "id": "324_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and a signature",
+      "id": "324_3_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "from you.",
+      "id": "324_3_3"
+    },
+    {
+      "label": "sentence",
+      "text": "( i did not realize i was covered under an insurance i had allowing a payment) how can i get this form to your office?",
+      "id": "324_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "( i did not realize i was covered",
+      "id": "324_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "under an insurance i had allowing",
+      "id": "324_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a payment) how can i get",
+      "id": "324_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "this form to your office?",
+      "id": "324_4_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 324,
+      "target": "324_0"
+    },
+    {
+      "source": 324,
+      "target": "324_1"
+    },
+    {
+      "source": 324,
+      "target": "324_2"
+    },
+    {
+      "source": 324,
+      "target": "324_3"
+    },
+    {
+      "source": 324,
+      "target": "324_4"
+    },
+    {
+      "source": "324_0",
+      "target": "324_0_0"
+    },
+    {
+      "source": "324_1",
+      "target": "324_1_0"
+    },
+    {
+      "source": "324_2",
+      "target": "324_2_0"
+    },
+    {
+      "source": "324_3",
+      "target": "324_3_0"
+    },
+    {
+      "source": "324_3",
+      "target": "324_3_1"
+    },
+    {
+      "source": "324_3",
+      "target": "324_3_2"
+    },
+    {
+      "source": "324_3",
+      "target": "324_3_3"
+    },
+    {
+      "source": "324_4",
+      "target": "324_4_0"
+    },
+    {
+      "source": "324_4",
+      "target": "324_4_1"
+    },
+    {
+      "source": "324_4",
+      "target": "324_4_2"
+    },
+    {
+      "source": "324_4",
+      "target": "324_4_3"
+    }
+  ]
+}

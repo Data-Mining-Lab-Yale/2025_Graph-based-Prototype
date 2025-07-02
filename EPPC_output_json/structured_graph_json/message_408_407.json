@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr Person1, I need to inform you that on MM/DD/YYYY I started TRT under the supervision of Dr Person2 of Org4 Urology. A blood lab will be performed around the second week of Oct. and a video visit with Dr  Person3 will be on MM/DD/YYYY and I will see you the next day on MM/DD/YYYY.",
+      "id": 407
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr Person1, I need to inform you that on MM/DD/YYYY I started TRT under the supervision of Dr Person2 of Org4 Urology.",
+      "id": "407_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr Person1,",
+      "id": "407_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I need to inform you that on MM/DD/YYYY I started",
+      "id": "407_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "TRT under the supervision of Dr Person2 of Org4 Urology.",
+      "id": "407_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "A blood lab will be performed around the second week of Oct. and a video visit with Dr  Person3 will be on MM/DD/YYYY and I will see you the next day on MM/DD/YYYY.",
+      "id": "407_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "A blood lab will be performed around the second week of Oct. and a video visit with Dr  Person3 will be",
+      "id": "407_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on MM/DD/YYYY and I will see",
+      "id": "407_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you the next day on MM/DD/YYYY.",
+      "id": "407_1_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 407,
+      "target": "407_0"
+    },
+    {
+      "source": 407,
+      "target": "407_1"
+    },
+    {
+      "source": "407_0",
+      "target": "407_0_0"
+    },
+    {
+      "source": "407_0",
+      "target": "407_0_1"
+    },
+    {
+      "source": "407_0",
+      "target": "407_0_2"
+    },
+    {
+      "source": "407_1",
+      "target": "407_1_0"
+    },
+    {
+      "source": "407_1",
+      "target": "407_1_1"
+    },
+    {
+      "source": "407_1",
+      "target": "407_1_2"
+    }
+  ]
+}

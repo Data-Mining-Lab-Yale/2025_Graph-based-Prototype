@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Doctor,    Hope all is well with you and your family during those strange times. I would like to schedule a virtual call with you to-discuss  next steps  as I had a review with Dr  Person1 re next steps. Best",
+      "id": 96
+    },
+    {
+      "label": "sentence",
+      "text": "Doctor,    Hope all is well with you and your family during those strange times.",
+      "id": "96_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Doctor,",
+      "id": "96_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hope all is well with you and your family",
+      "id": "96_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "during those strange times.",
+      "id": "96_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I would like to schedule a virtual call with you to-discuss  next steps  as I had a review with Dr  Person1 re next steps.",
+      "id": "96_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would like to schedule a virtual call with you to-discuss",
+      "id": "96_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "next steps  as I had",
+      "id": "96_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a review with Dr  Person1 re next steps.",
+      "id": "96_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Best",
+      "id": "96_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best",
+      "id": "96_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 96,
+      "target": "96_0"
+    },
+    {
+      "source": 96,
+      "target": "96_1"
+    },
+    {
+      "source": 96,
+      "target": "96_2"
+    },
+    {
+      "source": "96_0",
+      "target": "96_0_0"
+    },
+    {
+      "source": "96_0",
+      "target": "96_0_1"
+    },
+    {
+      "source": "96_0",
+      "target": "96_0_2"
+    },
+    {
+      "source": "96_1",
+      "target": "96_1_0"
+    },
+    {
+      "source": "96_1",
+      "target": "96_1_1"
+    },
+    {
+      "source": "96_1",
+      "target": "96_1_2"
+    },
+    {
+      "source": "96_2",
+      "target": "96_2_0"
+    }
+  ]
+}

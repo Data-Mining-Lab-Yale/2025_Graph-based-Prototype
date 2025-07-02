@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Awesome. Thanks!",
+      "id": 612
+    },
+    {
+      "label": "sentence",
+      "text": "Awesome.",
+      "id": "612_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Awesome.",
+      "id": "612_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "612_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "612_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 612,
+      "target": "612_0"
+    },
+    {
+      "source": 612,
+      "target": "612_1"
+    },
+    {
+      "source": "612_0",
+      "target": "612_0_0"
+    },
+    {
+      "source": "612_1",
+      "target": "612_1_0"
+    }
+  ]
+}

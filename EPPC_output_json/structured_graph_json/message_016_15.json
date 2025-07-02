@@ -1,0 +1,203 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Greetings,   Dr. Person1 would like to see Person2 in the office MM/DD/YYYY, Fri. MM/DD/YYYY (other days Person2 is at Radiology w Dr. Person3). Would you let me know when you can squeeze Person2 in? XXX-XXX-XXXX (pls lv msg)  I also spoke w Dr. B about 2 Rxs that have been pending for MM/DD/YYYY:  1) Oxycodone 15mg rapid release; current Rx will run out by tmrrw, MM/DD/YYYY Sept. MM/DD/YYYY) Eliquis 5mg; current Rx will run out Sun. MM/DD/YYYY p.m. Dr. Person4 said he would take over this RX; Person5 sent in pre-auth info to Cigna approx.",
+      "id": 15
+    },
+    {
+      "label": "sentence",
+      "text": "Greetings,   Dr. Person1 would like to see Person2 in the office MM/DD/YYYY, Fri. MM/DD/YYYY (other days Person2 is at Radiology w Dr. Person3).",
+      "id": "15_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Greetings,",
+      "id": "15_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person1 would like to see Person2 in the office MM/DD/YYYY,",
+      "id": "15_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Fri. MM/DD/YYYY (other days Person2 is",
+      "id": "15_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "at Radiology w Dr. Person3).",
+      "id": "15_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Would you let me know when you can squeeze Person2 in?",
+      "id": "15_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Would you let me know",
+      "id": "15_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "when you can squeeze",
+      "id": "15_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2 in?",
+      "id": "15_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "XXX-XXX-XXXX (pls lv msg)  I also spoke w Dr. B about 2 Rxs that have been pending for MM/DD/YYYY:  1) Oxycodone 15mg rapid release; current Rx will run out by tmrrw, MM/DD/YYYY Sept. MM/DD/YYYY) Eliquis 5mg; current Rx will run out Sun.",
+      "id": "15_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "XXX-XXX-XXXX (pls lv msg",
+      "id": "15_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": ")  I also spoke w Dr. B about 2 Rxs that have been pending",
+      "id": "15_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for MM/DD/YYYY:  1) Oxycodone 15mg rapid release;",
+      "id": "15_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "current Rx will run out by tmrrw,",
+      "id": "15_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY Sept. MM/DD/YYYY) Eliquis 5mg;",
+      "id": "15_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "current Rx will run out Sun.",
+      "id": "15_2_5"
+    },
+    {
+      "label": "sentence",
+      "text": "MM/DD/YYYY p.m. Dr. Person4 said he would take over this RX; Person5 sent in pre-auth info to Cigna approx.",
+      "id": "15_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY p.m. Dr. Person4 said",
+      "id": "15_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "he would take",
+      "id": "15_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "over this RX;",
+      "id": "15_3_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person5 sent in pre-auth info to Cigna approx.",
+      "id": "15_3_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 15,
+      "target": "15_0"
+    },
+    {
+      "source": 15,
+      "target": "15_1"
+    },
+    {
+      "source": 15,
+      "target": "15_2"
+    },
+    {
+      "source": 15,
+      "target": "15_3"
+    },
+    {
+      "source": "15_0",
+      "target": "15_0_0"
+    },
+    {
+      "source": "15_0",
+      "target": "15_0_1"
+    },
+    {
+      "source": "15_0",
+      "target": "15_0_2"
+    },
+    {
+      "source": "15_0",
+      "target": "15_0_3"
+    },
+    {
+      "source": "15_1",
+      "target": "15_1_0"
+    },
+    {
+      "source": "15_1",
+      "target": "15_1_1"
+    },
+    {
+      "source": "15_1",
+      "target": "15_1_2"
+    },
+    {
+      "source": "15_2",
+      "target": "15_2_0"
+    },
+    {
+      "source": "15_2",
+      "target": "15_2_1"
+    },
+    {
+      "source": "15_2",
+      "target": "15_2_2"
+    },
+    {
+      "source": "15_2",
+      "target": "15_2_3"
+    },
+    {
+      "source": "15_2",
+      "target": "15_2_4"
+    },
+    {
+      "source": "15_2",
+      "target": "15_2_5"
+    },
+    {
+      "source": "15_3",
+      "target": "15_3_0"
+    },
+    {
+      "source": "15_3",
+      "target": "15_3_1"
+    },
+    {
+      "source": "15_3",
+      "target": "15_3_2"
+    },
+    {
+      "source": "15_3",
+      "target": "15_3_3"
+    }
+  ]
+}

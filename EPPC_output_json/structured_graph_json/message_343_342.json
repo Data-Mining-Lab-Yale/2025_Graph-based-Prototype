@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I noticed i am now in for blood work every 2 weeks and did not see a pca test. Is the year loaded in is that why? Used to be every four weeks?",
+      "id": 342
+    },
+    {
+      "label": "sentence",
+      "text": "I noticed i am now in for blood work every 2 weeks and did not see a pca test.",
+      "id": "342_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I noticed i am",
+      "id": "342_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "now in for blood work every 2 weeks and did not see",
+      "id": "342_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a pca test.",
+      "id": "342_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Is the year loaded in is that why?",
+      "id": "342_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is the year loaded in is that why",
+      "id": "342_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Used to be every four weeks?",
+      "id": "342_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Used to be every four weeks?",
+      "id": "342_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 342,
+      "target": "342_0"
+    },
+    {
+      "source": 342,
+      "target": "342_1"
+    },
+    {
+      "source": 342,
+      "target": "342_2"
+    },
+    {
+      "source": "342_0",
+      "target": "342_0_0"
+    },
+    {
+      "source": "342_0",
+      "target": "342_0_1"
+    },
+    {
+      "source": "342_0",
+      "target": "342_0_2"
+    },
+    {
+      "source": "342_1",
+      "target": "342_1_0"
+    },
+    {
+      "source": "342_2",
+      "target": "342_2_0"
+    }
+  ]
+}

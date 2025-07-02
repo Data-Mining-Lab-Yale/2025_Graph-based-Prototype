@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes, we too are following the CDC guidelines at this time Best to you Person1",
+      "id": 55
+    },
+    {
+      "label": "sentence",
+      "text": "Yes, we too are following the CDC guidelines at this time Best to you Person1",
+      "id": "55_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "55_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "we too are following the CDC guidelines at this time Best to you Person1",
+      "id": "55_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 55,
+      "target": "55_0"
+    },
+    {
+      "source": "55_0",
+      "target": "55_0_0"
+    },
+    {
+      "source": "55_0",
+      "target": "55_0_1"
+    }
+  ]
+}

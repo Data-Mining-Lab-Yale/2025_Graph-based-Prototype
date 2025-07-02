@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "It is in Org1, old Org1 is closed for the time being",
+      "id": 539
+    },
+    {
+      "label": "sentence",
+      "text": "It is in Org1, old Org1 is closed for the time being",
+      "id": "539_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "It is",
+      "id": "539_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in Org1,",
+      "id": "539_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "old Org1 is closed for the time being",
+      "id": "539_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 539,
+      "target": "539_0"
+    },
+    {
+      "source": "539_0",
+      "target": "539_0_0"
+    },
+    {
+      "source": "539_0",
+      "target": "539_0_1"
+    },
+    {
+      "source": "539_0",
+      "target": "539_0_2"
+    }
+  ]
+}

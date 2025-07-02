@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "OK thanks, I will reschedule them. OK if that is some time in MM/DD/YYYY? Thanks,  Person1",
+      "id": 217
+    },
+    {
+      "label": "sentence",
+      "text": "OK thanks, I will reschedule them.",
+      "id": "217_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "OK thanks,",
+      "id": "217_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will reschedule them.",
+      "id": "217_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "OK if that is some time in MM/DD/YYYY?",
+      "id": "217_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "OK if that is",
+      "id": "217_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "some time in MM/DD/YYYY?",
+      "id": "217_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person1",
+      "id": "217_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "217_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "217_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 217,
+      "target": "217_0"
+    },
+    {
+      "source": 217,
+      "target": "217_1"
+    },
+    {
+      "source": 217,
+      "target": "217_2"
+    },
+    {
+      "source": "217_0",
+      "target": "217_0_0"
+    },
+    {
+      "source": "217_0",
+      "target": "217_0_1"
+    },
+    {
+      "source": "217_1",
+      "target": "217_1_0"
+    },
+    {
+      "source": "217_1",
+      "target": "217_1_1"
+    },
+    {
+      "source": "217_2",
+      "target": "217_2_0"
+    },
+    {
+      "source": "217_2",
+      "target": "217_2_1"
+    }
+  ]
+}

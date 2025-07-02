@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, The referral was placed to Org3 Digestive disease. Their number is XXX-XXX-XXXX. I would give them a week to review your case and then call you for an appt. If you do not hear from them by the end of next week. Give them a call. Thanks Person2 RN",
+      "id": 193
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, The referral was placed to Org3 Digestive disease.",
+      "id": "193_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "193_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "193_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "The referral was placed to Org3 Digestive disease.",
+      "id": "193_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Their number is XXX-XXX-XXXX.",
+      "id": "193_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Their number is XXX-XXX-XXXX.",
+      "id": "193_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I would give them a week to review your case and then call you for an appt.",
+      "id": "193_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would give them a week to review",
+      "id": "193_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "your case and then call",
+      "id": "193_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you for an appt.",
+      "id": "193_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "If you do not hear from them by the end of next week.",
+      "id": "193_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "If you do not hear from them by the end of next week.",
+      "id": "193_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Give them a call.",
+      "id": "193_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Give them a call.",
+      "id": "193_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks Person2 RN",
+      "id": "193_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks Person2 RN",
+      "id": "193_5_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 193,
+      "target": "193_0"
+    },
+    {
+      "source": 193,
+      "target": "193_1"
+    },
+    {
+      "source": 193,
+      "target": "193_2"
+    },
+    {
+      "source": 193,
+      "target": "193_3"
+    },
+    {
+      "source": 193,
+      "target": "193_4"
+    },
+    {
+      "source": 193,
+      "target": "193_5"
+    },
+    {
+      "source": "193_0",
+      "target": "193_0_0"
+    },
+    {
+      "source": "193_0",
+      "target": "193_0_1"
+    },
+    {
+      "source": "193_0",
+      "target": "193_0_2"
+    },
+    {
+      "source": "193_1",
+      "target": "193_1_0"
+    },
+    {
+      "source": "193_2",
+      "target": "193_2_0"
+    },
+    {
+      "source": "193_2",
+      "target": "193_2_1"
+    },
+    {
+      "source": "193_2",
+      "target": "193_2_2"
+    },
+    {
+      "source": "193_3",
+      "target": "193_3_0"
+    },
+    {
+      "source": "193_4",
+      "target": "193_4_0"
+    },
+    {
+      "source": "193_5",
+      "target": "193_5_0"
+    }
+  ]
+}

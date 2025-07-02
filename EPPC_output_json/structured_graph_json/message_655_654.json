@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  Thank you and Dr. Person2 for your help. I was thinking of Johnson and Johnson but not sure. Thanks again,  Happy Easter to you and Dr. Person2.",
+      "id": 654
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  Thank you and Dr. Person2 for your help.",
+      "id": "654_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "654_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "654_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you and Dr. Person2",
+      "id": "654_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "for your help.",
+      "id": "654_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I was thinking of Johnson and Johnson but not sure.",
+      "id": "654_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was thinking of Johnson and Johnson",
+      "id": "654_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but not sure",
+      "id": "654_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks again,  Happy Easter to you and Dr. Person2.",
+      "id": "654_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks again,",
+      "id": "654_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Happy Easter to you and Dr. Person2",
+      "id": "654_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 654,
+      "target": "654_0"
+    },
+    {
+      "source": 654,
+      "target": "654_1"
+    },
+    {
+      "source": 654,
+      "target": "654_2"
+    },
+    {
+      "source": "654_0",
+      "target": "654_0_0"
+    },
+    {
+      "source": "654_0",
+      "target": "654_0_1"
+    },
+    {
+      "source": "654_0",
+      "target": "654_0_2"
+    },
+    {
+      "source": "654_0",
+      "target": "654_0_3"
+    },
+    {
+      "source": "654_1",
+      "target": "654_1_0"
+    },
+    {
+      "source": "654_1",
+      "target": "654_1_1"
+    },
+    {
+      "source": "654_2",
+      "target": "654_2_0"
+    },
+    {
+      "source": "654_2",
+      "target": "654_2_1"
+    }
+  ]
+}

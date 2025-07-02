@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Perfect! We will be on the look out for results and keep you updated! Thanks! Person1",
+      "id": 518
+    },
+    {
+      "label": "sentence",
+      "text": "Perfect!",
+      "id": "518_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Perfect!",
+      "id": "518_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "We will be on the look out for results and keep you updated!",
+      "id": "518_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We will be on the look out for results and keep",
+      "id": "518_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you updated",
+      "id": "518_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "518_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "518_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person1",
+      "id": "518_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "518_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 518,
+      "target": "518_0"
+    },
+    {
+      "source": 518,
+      "target": "518_1"
+    },
+    {
+      "source": 518,
+      "target": "518_2"
+    },
+    {
+      "source": 518,
+      "target": "518_3"
+    },
+    {
+      "source": "518_0",
+      "target": "518_0_0"
+    },
+    {
+      "source": "518_1",
+      "target": "518_1_0"
+    },
+    {
+      "source": "518_1",
+      "target": "518_1_1"
+    },
+    {
+      "source": "518_2",
+      "target": "518_2_0"
+    },
+    {
+      "source": "518_3",
+      "target": "518_3_0"
+    }
+  ]
+}

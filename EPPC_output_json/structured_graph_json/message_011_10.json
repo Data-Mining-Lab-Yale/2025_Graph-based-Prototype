@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you, Person1. OOPS , sorry - my typo - the correct tel.",
+      "id": 10
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1.",
+      "id": "10_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "10_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1.",
+      "id": "10_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "OOPS , sorry - my typo - the correct tel.",
+      "id": "10_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "OOPS ,",
+      "id": "10_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "sorry - my typo - the correct tel.",
+      "id": "10_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 10,
+      "target": "10_0"
+    },
+    {
+      "source": 10,
+      "target": "10_1"
+    },
+    {
+      "source": "10_0",
+      "target": "10_0_0"
+    },
+    {
+      "source": "10_0",
+      "target": "10_0_1"
+    },
+    {
+      "source": "10_1",
+      "target": "10_1_0"
+    },
+    {
+      "source": "10_1",
+      "target": "10_1_1"
+    }
+  ]
+}

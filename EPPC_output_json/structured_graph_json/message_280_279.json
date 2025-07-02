@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning,     I got my results and am positive for Person1. :-(   I wanted to go to a walk-in because my left ear feels infected and inflamed. Thank you, Person2",
+      "id": 279
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning,     I got my results and am positive for Person1.",
+      "id": "279_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "279_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I got my results and am",
+      "id": "279_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "positive for Person1.",
+      "id": "279_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": ":-(   I wanted to go to a walk-in because my left ear feels infected and inflamed.",
+      "id": "279_1"
+    },
+    {
+      "label": "subsentence",
+      "text": ":-(   I wanted to go to a walk-in because my left ear feels infected",
+      "id": "279_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and inflamed",
+      "id": "279_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person2",
+      "id": "279_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "279_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "279_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 279,
+      "target": "279_0"
+    },
+    {
+      "source": 279,
+      "target": "279_1"
+    },
+    {
+      "source": 279,
+      "target": "279_2"
+    },
+    {
+      "source": "279_0",
+      "target": "279_0_0"
+    },
+    {
+      "source": "279_0",
+      "target": "279_0_1"
+    },
+    {
+      "source": "279_0",
+      "target": "279_0_2"
+    },
+    {
+      "source": "279_1",
+      "target": "279_1_0"
+    },
+    {
+      "source": "279_1",
+      "target": "279_1_1"
+    },
+    {
+      "source": "279_2",
+      "target": "279_2_0"
+    },
+    {
+      "source": "279_2",
+      "target": "279_2_1"
+    }
+  ]
+}

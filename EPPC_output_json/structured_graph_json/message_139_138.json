@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I hope your surgery went well! Dr. Person3 is ok with having you get your port out. Let me know a time frame that works for you,  but we can definitely give you some time to heal first.",
+      "id": 138
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I hope your surgery went well!",
+      "id": "138_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "138_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I hope your surgery went",
+      "id": "138_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "well!",
+      "id": "138_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Dr. Person3 is ok with having you get your port out.",
+      "id": "138_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person3 is ok with having you get",
+      "id": "138_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "your port out.",
+      "id": "138_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Let me know a time frame that works for you,  but we can definitely give you some time to heal first.",
+      "id": "138_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Let me know",
+      "id": "138_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a time frame that works",
+      "id": "138_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for you,",
+      "id": "138_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "but we can definitely give",
+      "id": "138_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "you some time to heal",
+      "id": "138_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "first.",
+      "id": "138_2_5"
+    }
+  ],
+  "links": [
+    {
+      "source": 138,
+      "target": "138_0"
+    },
+    {
+      "source": 138,
+      "target": "138_1"
+    },
+    {
+      "source": 138,
+      "target": "138_2"
+    },
+    {
+      "source": "138_0",
+      "target": "138_0_0"
+    },
+    {
+      "source": "138_0",
+      "target": "138_0_1"
+    },
+    {
+      "source": "138_0",
+      "target": "138_0_2"
+    },
+    {
+      "source": "138_1",
+      "target": "138_1_0"
+    },
+    {
+      "source": "138_1",
+      "target": "138_1_1"
+    },
+    {
+      "source": "138_2",
+      "target": "138_2_0"
+    },
+    {
+      "source": "138_2",
+      "target": "138_2_1"
+    },
+    {
+      "source": "138_2",
+      "target": "138_2_2"
+    },
+    {
+      "source": "138_2",
+      "target": "138_2_3"
+    },
+    {
+      "source": "138_2",
+      "target": "138_2_4"
+    },
+    {
+      "source": "138_2",
+      "target": "138_2_5"
+    }
+  ]
+}

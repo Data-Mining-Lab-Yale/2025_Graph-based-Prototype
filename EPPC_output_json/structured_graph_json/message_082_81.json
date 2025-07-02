@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1, Here is your PSA result: 0.167 Person2",
+      "id": 81
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1, Here is your PSA result: 0.167 Person2",
+      "id": "81_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "81_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Here is your PSA result: 0.167 Person2",
+      "id": "81_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 81,
+      "target": "81_0"
+    },
+    {
+      "source": "81_0",
+      "target": "81_0_0"
+    },
+    {
+      "source": "81_0",
+      "target": "81_0_1"
+    }
+  ]
+}

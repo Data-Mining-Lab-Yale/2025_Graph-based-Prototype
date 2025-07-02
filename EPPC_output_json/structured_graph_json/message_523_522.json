@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "My dad rash has diminished substantially since starting the Gabapentin. I have slowly tapered prednisone  to 2.5/QD. Should I try to stop it altogether after a few days? Concern is growing as melanomas grow larger. Should we increase potency of his treatments? Thank you, Person1",
+      "id": 522
+    },
+    {
+      "label": "sentence",
+      "text": "My dad rash has diminished substantially since starting the Gabapentin.",
+      "id": "522_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "My dad rash has diminished substantially since starting the Gabapentin.",
+      "id": "522_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I have slowly tapered prednisone  to 2.5/QD.",
+      "id": "522_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have slowly tapered prednisone  to 2.5/QD.",
+      "id": "522_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Should I try to stop it altogether after a few days?",
+      "id": "522_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Should I try to stop it altogether after a few days?",
+      "id": "522_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Concern is growing as melanomas grow larger.",
+      "id": "522_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Concern is growing as melanomas grow",
+      "id": "522_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "larger.",
+      "id": "522_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Should we increase potency of his treatments?",
+      "id": "522_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Should we increase potency of his treatments?",
+      "id": "522_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1",
+      "id": "522_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "522_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "522_5_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 522,
+      "target": "522_0"
+    },
+    {
+      "source": 522,
+      "target": "522_1"
+    },
+    {
+      "source": 522,
+      "target": "522_2"
+    },
+    {
+      "source": 522,
+      "target": "522_3"
+    },
+    {
+      "source": 522,
+      "target": "522_4"
+    },
+    {
+      "source": 522,
+      "target": "522_5"
+    },
+    {
+      "source": "522_0",
+      "target": "522_0_0"
+    },
+    {
+      "source": "522_1",
+      "target": "522_1_0"
+    },
+    {
+      "source": "522_2",
+      "target": "522_2_0"
+    },
+    {
+      "source": "522_3",
+      "target": "522_3_0"
+    },
+    {
+      "source": "522_3",
+      "target": "522_3_1"
+    },
+    {
+      "source": "522_4",
+      "target": "522_4_0"
+    },
+    {
+      "source": "522_5",
+      "target": "522_5_0"
+    },
+    {
+      "source": "522_5",
+      "target": "522_5_1"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Dr Person1. Person2 once again is in pain from the gall bladder drain that is sitting on a nerve. I will not have him go through the severe pain again that he went through 2 days ago. Obviously the block did not work and he is in pain again. Please have Dr  Person3 or Dr  Person4  or the IR Radiology contact me immediately.",
+      "id": 367
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Dr Person1.",
+      "id": "367_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Dr Person1.",
+      "id": "367_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2 once again is in pain from the gall bladder drain that is sitting on a nerve.",
+      "id": "367_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2 once again is in pain from the gall bladder drain that is sitting",
+      "id": "367_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on a nerve.",
+      "id": "367_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I will not have him go through the severe pain again that he went through 2 days ago.",
+      "id": "367_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will not have him go",
+      "id": "367_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "through the severe pain again that he went",
+      "id": "367_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "through 2 days ago.",
+      "id": "367_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Obviously the block did not work and he is in pain again.",
+      "id": "367_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Obviously the block did not work and he is",
+      "id": "367_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in pain again.",
+      "id": "367_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Please have Dr  Person3 or Dr  Person4  or the IR Radiology contact me immediately.",
+      "id": "367_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please have Dr  Person3 or Dr  Person4",
+      "id": "367_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "or the IR Radiology contact",
+      "id": "367_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "me immediately.",
+      "id": "367_4_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 367,
+      "target": "367_0"
+    },
+    {
+      "source": 367,
+      "target": "367_1"
+    },
+    {
+      "source": 367,
+      "target": "367_2"
+    },
+    {
+      "source": 367,
+      "target": "367_3"
+    },
+    {
+      "source": 367,
+      "target": "367_4"
+    },
+    {
+      "source": "367_0",
+      "target": "367_0_0"
+    },
+    {
+      "source": "367_1",
+      "target": "367_1_0"
+    },
+    {
+      "source": "367_1",
+      "target": "367_1_1"
+    },
+    {
+      "source": "367_2",
+      "target": "367_2_0"
+    },
+    {
+      "source": "367_2",
+      "target": "367_2_1"
+    },
+    {
+      "source": "367_2",
+      "target": "367_2_2"
+    },
+    {
+      "source": "367_3",
+      "target": "367_3_0"
+    },
+    {
+      "source": "367_3",
+      "target": "367_3_1"
+    },
+    {
+      "source": "367_4",
+      "target": "367_4_0"
+    },
+    {
+      "source": "367_4",
+      "target": "367_4_1"
+    },
+    {
+      "source": "367_4",
+      "target": "367_4_2"
+    }
+  ]
+}

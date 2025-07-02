@@ -1,0 +1,293 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    Received a call yesterday concerning the pathology results for a nodule they removed on my vocal chords. It seems they are concerned it could be cancer. Appreciate if you would take a look at the results and let me have your opinion. I interpreting it as early stage throat cancer and presume we are looking at more surgery. They ordered a CT scan of the neck for MM/DD/YYYY and a ENT consultation on MM/DD/YYYY. Am assuming this is my new normal now and that we going to continue to find more of this as time goes by. Seems my immune system is not doing its job at stopping this stuff from occurring? Best regards,  Person2",
+      "id": 219
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    Received a call yesterday concerning the pathology results for a nodule they removed on my vocal chords.",
+      "id": "219_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "219_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Received a call yesterday concerning the pathology results for a nodule they removed",
+      "id": "219_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "on my vocal chords.",
+      "id": "219_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "It seems they are concerned it could be cancer.",
+      "id": "219_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "It seems they are",
+      "id": "219_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "concerned it could be",
+      "id": "219_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "cancer.",
+      "id": "219_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Appreciate if you would take a look at the results and let me have your opinion.",
+      "id": "219_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Appreciate if you would take",
+      "id": "219_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a look at the results and let",
+      "id": "219_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "me have",
+      "id": "219_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "your opinion.",
+      "id": "219_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I interpreting it as early stage throat cancer and presume we are looking at more surgery.",
+      "id": "219_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I interpreting it as early stage throat cancer and presume",
+      "id": "219_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "we are looking",
+      "id": "219_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "at more surgery.",
+      "id": "219_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "They ordered a CT scan of the neck for MM/DD/YYYY and a ENT consultation on MM/DD/YYYY.",
+      "id": "219_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "They ordered a CT scan of the neck for MM/DD/YYYY and a ENT consultation",
+      "id": "219_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on MM/DD/YYYY.",
+      "id": "219_4_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Am assuming this is my new normal now and that we going to continue to find more of this as time goes by.",
+      "id": "219_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Am assuming this is",
+      "id": "219_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my new normal now and that we going",
+      "id": "219_5_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to continue to find more of this as time goes",
+      "id": "219_5_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "by.",
+      "id": "219_5_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Seems my immune system is not doing its job at stopping this stuff from occurring?",
+      "id": "219_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Seems my immune system is not doing",
+      "id": "219_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "its job at stopping this stuff from occurring?",
+      "id": "219_6_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Best regards,  Person2",
+      "id": "219_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best regards,",
+      "id": "219_7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "219_7_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 219,
+      "target": "219_0"
+    },
+    {
+      "source": 219,
+      "target": "219_1"
+    },
+    {
+      "source": 219,
+      "target": "219_2"
+    },
+    {
+      "source": 219,
+      "target": "219_3"
+    },
+    {
+      "source": 219,
+      "target": "219_4"
+    },
+    {
+      "source": 219,
+      "target": "219_5"
+    },
+    {
+      "source": 219,
+      "target": "219_6"
+    },
+    {
+      "source": 219,
+      "target": "219_7"
+    },
+    {
+      "source": "219_0",
+      "target": "219_0_0"
+    },
+    {
+      "source": "219_0",
+      "target": "219_0_1"
+    },
+    {
+      "source": "219_0",
+      "target": "219_0_2"
+    },
+    {
+      "source": "219_1",
+      "target": "219_1_0"
+    },
+    {
+      "source": "219_1",
+      "target": "219_1_1"
+    },
+    {
+      "source": "219_1",
+      "target": "219_1_2"
+    },
+    {
+      "source": "219_2",
+      "target": "219_2_0"
+    },
+    {
+      "source": "219_2",
+      "target": "219_2_1"
+    },
+    {
+      "source": "219_2",
+      "target": "219_2_2"
+    },
+    {
+      "source": "219_2",
+      "target": "219_2_3"
+    },
+    {
+      "source": "219_3",
+      "target": "219_3_0"
+    },
+    {
+      "source": "219_3",
+      "target": "219_3_1"
+    },
+    {
+      "source": "219_3",
+      "target": "219_3_2"
+    },
+    {
+      "source": "219_4",
+      "target": "219_4_0"
+    },
+    {
+      "source": "219_4",
+      "target": "219_4_1"
+    },
+    {
+      "source": "219_5",
+      "target": "219_5_0"
+    },
+    {
+      "source": "219_5",
+      "target": "219_5_1"
+    },
+    {
+      "source": "219_5",
+      "target": "219_5_2"
+    },
+    {
+      "source": "219_5",
+      "target": "219_5_3"
+    },
+    {
+      "source": "219_6",
+      "target": "219_6_0"
+    },
+    {
+      "source": "219_6",
+      "target": "219_6_1"
+    },
+    {
+      "source": "219_7",
+      "target": "219_7_0"
+    },
+    {
+      "source": "219_7",
+      "target": "219_7_1"
+    }
+  ]
+}

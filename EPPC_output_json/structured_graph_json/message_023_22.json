@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello, Orders have been entered into the Epic system for lab work. You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1. The pharmacy is pretty quick to get meds out to patients and can do same day delivery if needed.",
+      "id": 22
+    },
+    {
+      "label": "sentence",
+      "text": "Hello, Orders have been entered into the Epic system for lab work.",
+      "id": "22_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello,",
+      "id": "22_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Orders have been entered into the Epic system for lab work.",
+      "id": "22_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1.",
+      "id": "22_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "You can have this drawn",
+      "id": "22_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1.",
+      "id": "22_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "The pharmacy is pretty quick to get meds out to patients and can do same day delivery if needed.",
+      "id": "22_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "The pharmacy is pretty quick to get meds out to patients and can do",
+      "id": "22_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "same day delivery if needed",
+      "id": "22_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 22,
+      "target": "22_0"
+    },
+    {
+      "source": 22,
+      "target": "22_1"
+    },
+    {
+      "source": 22,
+      "target": "22_2"
+    },
+    {
+      "source": "22_0",
+      "target": "22_0_0"
+    },
+    {
+      "source": "22_0",
+      "target": "22_0_1"
+    },
+    {
+      "source": "22_1",
+      "target": "22_1_0"
+    },
+    {
+      "source": "22_1",
+      "target": "22_1_1"
+    },
+    {
+      "source": "22_2",
+      "target": "22_2_0"
+    },
+    {
+      "source": "22_2",
+      "target": "22_2_1"
+    }
+  ]
+}

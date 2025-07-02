@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello my friends,  I need another round of Ibrance for MM/DD/YYYY     Thank you  Person1",
+      "id": 112
+    },
+    {
+      "label": "sentence",
+      "text": "Hello my friends,  I need another round of Ibrance for MM/DD/YYYY     Thank you  Person1",
+      "id": "112_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello my friends,",
+      "id": "112_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I need",
+      "id": "112_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "another round of Ibrance for MM/DD/YYYY     Thank you  Person1",
+      "id": "112_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 112,
+      "target": "112_0"
+    },
+    {
+      "source": "112_0",
+      "target": "112_0_0"
+    },
+    {
+      "source": "112_0",
+      "target": "112_0_1"
+    },
+    {
+      "source": "112_0",
+      "target": "112_0_2"
+    }
+  ]
+}

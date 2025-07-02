@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1- do you have a dermatologist?",
+      "id": 476
+    },
+    {
+      "label": "sentence",
+      "text": "Person1- do you have a dermatologist?",
+      "id": "476_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1- do you have a dermatologist?",
+      "id": "476_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 476,
+      "target": "476_0"
+    },
+    {
+      "source": "476_0",
+      "target": "476_0_0"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "My pleasure! Thank you and Happy Thanksgiving to you as well.",
+      "id": 83
+    },
+    {
+      "label": "sentence",
+      "text": "My pleasure!",
+      "id": "83_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "My pleasure!",
+      "id": "83_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you and Happy Thanksgiving to you as well.",
+      "id": "83_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you and Happy Thanksgiving",
+      "id": "83_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to you as well.",
+      "id": "83_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 83,
+      "target": "83_0"
+    },
+    {
+      "source": 83,
+      "target": "83_1"
+    },
+    {
+      "source": "83_0",
+      "target": "83_0_0"
+    },
+    {
+      "source": "83_1",
+      "target": "83_1_0"
+    },
+    {
+      "source": "83_1",
+      "target": "83_1_1"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you Dr. Person1. Wasn sure if I was meant to schedule or not. Much appreciated.",
+      "id": 214
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you Dr. Person1.",
+      "id": "214_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you Dr. Person1.",
+      "id": "214_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Wasn sure if I was meant to schedule or not.",
+      "id": "214_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Wasn sure if I was meant",
+      "id": "214_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to schedule or not",
+      "id": "214_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Much appreciated.",
+      "id": "214_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Much appreciated.",
+      "id": "214_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 214,
+      "target": "214_0"
+    },
+    {
+      "source": 214,
+      "target": "214_1"
+    },
+    {
+      "source": 214,
+      "target": "214_2"
+    },
+    {
+      "source": "214_0",
+      "target": "214_0_0"
+    },
+    {
+      "source": "214_1",
+      "target": "214_1_0"
+    },
+    {
+      "source": "214_1",
+      "target": "214_1_1"
+    },
+    {
+      "source": "214_2",
+      "target": "214_2_0"
+    }
+  ]
+}

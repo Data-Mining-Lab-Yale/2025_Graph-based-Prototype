@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ok thank you   I had his notes and biopsy result faxed to Person1",
+      "id": 521
+    },
+    {
+      "label": "sentence",
+      "text": "Ok thank you   I had his notes and biopsy result faxed to Person1",
+      "id": "521_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok thank you   I had",
+      "id": "521_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "his notes and biopsy result",
+      "id": "521_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "faxed",
+      "id": "521_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to Person1",
+      "id": "521_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 521,
+      "target": "521_0"
+    },
+    {
+      "source": "521_0",
+      "target": "521_0_0"
+    },
+    {
+      "source": "521_0",
+      "target": "521_0_1"
+    },
+    {
+      "source": "521_0",
+      "target": "521_0_2"
+    },
+    {
+      "source": "521_0",
+      "target": "521_0_3"
+    }
+  ]
+}

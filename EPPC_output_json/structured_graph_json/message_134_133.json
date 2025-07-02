@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I'll check in with Dr. Person2 about getting it removed. Once we get the ok to remove it, we'll get you scheduled with IR  for them to take it out.",
+      "id": 133
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I'll check in with Dr. Person2 about getting it removed.",
+      "id": "133_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "133_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I'll check in with Dr. Person2 about getting it removed",
+      "id": "133_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Once we get the ok to remove it, we'll get you scheduled with IR  for them to take it out.",
+      "id": "133_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Once we get",
+      "id": "133_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the ok to remove",
+      "id": "133_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it,",
+      "id": "133_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "we'll get you scheduled",
+      "id": "133_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "with IR  for them to take",
+      "id": "133_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "it out.",
+      "id": "133_1_5"
+    }
+  ],
+  "links": [
+    {
+      "source": 133,
+      "target": "133_0"
+    },
+    {
+      "source": 133,
+      "target": "133_1"
+    },
+    {
+      "source": "133_0",
+      "target": "133_0_0"
+    },
+    {
+      "source": "133_0",
+      "target": "133_0_1"
+    },
+    {
+      "source": "133_1",
+      "target": "133_1_0"
+    },
+    {
+      "source": "133_1",
+      "target": "133_1_1"
+    },
+    {
+      "source": "133_1",
+      "target": "133_1_2"
+    },
+    {
+      "source": "133_1",
+      "target": "133_1_3"
+    },
+    {
+      "source": "133_1",
+      "target": "133_1_4"
+    },
+    {
+      "source": "133_1",
+      "target": "133_1_5"
+    }
+  ]
+}

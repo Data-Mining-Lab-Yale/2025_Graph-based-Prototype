@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Please release psa results",
+      "id": 304
+    },
+    {
+      "label": "sentence",
+      "text": "Please release psa results",
+      "id": "304_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please release psa results",
+      "id": "304_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 304,
+      "target": "304_0"
+    },
+    {
+      "source": "304_0",
+      "target": "304_0_0"
+    }
+  ]
+}

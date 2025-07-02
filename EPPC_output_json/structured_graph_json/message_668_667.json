@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "There is an order in place",
+      "id": 667
+    },
+    {
+      "label": "sentence",
+      "text": "There is an order in place",
+      "id": "667_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "There is an order in place",
+      "id": "667_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 667,
+      "target": "667_0"
+    },
+    {
+      "source": "667_0",
+      "target": "667_0_0"
+    }
+  ]
+}

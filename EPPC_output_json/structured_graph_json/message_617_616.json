@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,    I see an appointment for the MM/DD/YYYY . Thanks!",
+      "id": 616
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,    I see an appointment for the MM/DD/YYYY .",
+      "id": "616_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "616_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I see an appointment for the MM/DD/YYYY .",
+      "id": "616_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "616_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "616_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 616,
+      "target": "616_0"
+    },
+    {
+      "source": 616,
+      "target": "616_1"
+    },
+    {
+      "source": "616_0",
+      "target": "616_0_0"
+    },
+    {
+      "source": "616_0",
+      "target": "616_0_1"
+    },
+    {
+      "source": "616_1",
+      "target": "616_1_0"
+    }
+  ]
+}

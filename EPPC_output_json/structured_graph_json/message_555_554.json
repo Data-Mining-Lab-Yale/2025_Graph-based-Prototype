@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes, just call clinic and get reschedule to the 10 th if that works for you",
+      "id": 554
+    },
+    {
+      "label": "sentence",
+      "text": "Yes, just call clinic and get reschedule to the 10 th if that works for you",
+      "id": "554_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "554_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "just call clinic and get",
+      "id": "554_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "reschedule to the 10 th if that works",
+      "id": "554_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "for you",
+      "id": "554_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 554,
+      "target": "554_0"
+    },
+    {
+      "source": "554_0",
+      "target": "554_0_0"
+    },
+    {
+      "source": "554_0",
+      "target": "554_0_1"
+    },
+    {
+      "source": "554_0",
+      "target": "554_0_2"
+    },
+    {
+      "source": "554_0",
+      "target": "554_0_3"
+    }
+  ]
+}

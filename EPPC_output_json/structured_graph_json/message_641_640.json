@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr. Person1,  I know you put my Xeloda refills in for me with org pharmacy.",
+      "id": 640
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr. Person1,  I know you put my Xeloda refills in for me with org pharmacy.",
+      "id": "640_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr. Person1,",
+      "id": "640_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I know you put",
+      "id": "640_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "my Xeloda refills in for me with org pharmacy.",
+      "id": "640_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 640,
+      "target": "640_0"
+    },
+    {
+      "source": "640_0",
+      "target": "640_0_0"
+    },
+    {
+      "source": "640_0",
+      "target": "640_0_1"
+    },
+    {
+      "source": "640_0",
+      "target": "640_0_2"
+    }
+  ]
+}

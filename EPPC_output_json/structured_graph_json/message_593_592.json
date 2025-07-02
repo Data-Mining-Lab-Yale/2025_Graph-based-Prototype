@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Have no choice but to use the port.",
+      "id": 592
+    },
+    {
+      "label": "sentence",
+      "text": "Have no choice but to use the port.",
+      "id": "592_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have no choice but to use the port.",
+      "id": "592_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 592,
+      "target": "592_0"
+    },
+    {
+      "source": "592_0",
+      "target": "592_0_0"
+    }
+  ]
+}

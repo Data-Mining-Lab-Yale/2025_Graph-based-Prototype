@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi,    Sure, this was faxed MM/DD/YYYY. Take care Person1",
+      "id": 5
+    },
+    {
+      "label": "sentence",
+      "text": "Hi,    Sure, this was faxed MM/DD/YYYY.",
+      "id": "5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "5_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sure,",
+      "id": "5_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "this was faxed MM/DD/YYYY.",
+      "id": "5_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Take care Person1",
+      "id": "5_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Take care Person1",
+      "id": "5_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 5,
+      "target": "5_0"
+    },
+    {
+      "source": 5,
+      "target": "5_1"
+    },
+    {
+      "source": "5_0",
+      "target": "5_0_0"
+    },
+    {
+      "source": "5_0",
+      "target": "5_0_1"
+    },
+    {
+      "source": "5_0",
+      "target": "5_0_2"
+    },
+    {
+      "source": "5_1",
+      "target": "5_1_0"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi, when I went to get blood work after I saw you they were going to do all of the blood test you had put in. I told them just the CBC But they did it without differential?",
+      "id": 26
+    },
+    {
+      "label": "sentence",
+      "text": "Hi, when I went to get blood work after I saw you they were going to do all of the blood test you had put in.",
+      "id": "26_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "26_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "when I went",
+      "id": "26_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to get",
+      "id": "26_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "blood work after I saw",
+      "id": "26_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "you they were going to do all of the blood test you had put",
+      "id": "26_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "in.",
+      "id": "26_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "I told them just the CBC But they did it without differential?",
+      "id": "26_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I told them just the CBC But they did it without differential?",
+      "id": "26_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 26,
+      "target": "26_0"
+    },
+    {
+      "source": 26,
+      "target": "26_1"
+    },
+    {
+      "source": "26_0",
+      "target": "26_0_0"
+    },
+    {
+      "source": "26_0",
+      "target": "26_0_1"
+    },
+    {
+      "source": "26_0",
+      "target": "26_0_2"
+    },
+    {
+      "source": "26_0",
+      "target": "26_0_3"
+    },
+    {
+      "source": "26_0",
+      "target": "26_0_4"
+    },
+    {
+      "source": "26_0",
+      "target": "26_0_5"
+    },
+    {
+      "source": "26_1",
+      "target": "26_1_0"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good Morning,  Please let me know as soon as possible how we are going to address my dad low sodium. We are at Org1 now having MRI. Thank you,  Person1 XXX-XXX-XXXX",
+      "id": 511
+    },
+    {
+      "label": "sentence",
+      "text": "Good Morning,  Please let me know as soon as possible how we are going to address my dad low sodium.",
+      "id": "511_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good Morning,",
+      "id": "511_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let me know",
+      "id": "511_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "as soon as possible how we are going",
+      "id": "511_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to address my dad low sodium.",
+      "id": "511_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "We are at Org1 now having MRI.",
+      "id": "511_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We are at Org1 now having",
+      "id": "511_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "MRI.",
+      "id": "511_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,  Person1 XXX-XXX-XXXX",
+      "id": "511_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "511_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 XXX-XXX-XXXX",
+      "id": "511_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 511,
+      "target": "511_0"
+    },
+    {
+      "source": 511,
+      "target": "511_1"
+    },
+    {
+      "source": 511,
+      "target": "511_2"
+    },
+    {
+      "source": "511_0",
+      "target": "511_0_0"
+    },
+    {
+      "source": "511_0",
+      "target": "511_0_1"
+    },
+    {
+      "source": "511_0",
+      "target": "511_0_2"
+    },
+    {
+      "source": "511_0",
+      "target": "511_0_3"
+    },
+    {
+      "source": "511_1",
+      "target": "511_1_0"
+    },
+    {
+      "source": "511_1",
+      "target": "511_1_1"
+    },
+    {
+      "source": "511_2",
+      "target": "511_2_0"
+    },
+    {
+      "source": "511_2",
+      "target": "511_2_1"
+    }
+  ]
+}

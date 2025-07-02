@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hope so!  I I don't see you , have a great holiday.",
+      "id": 635
+    },
+    {
+      "label": "sentence",
+      "text": "Hope so!",
+      "id": "635_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hope so!",
+      "id": "635_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I I don't see you , have a great holiday.",
+      "id": "635_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I I don't see you ,",
+      "id": "635_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "have",
+      "id": "635_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a great holiday.",
+      "id": "635_1_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 635,
+      "target": "635_0"
+    },
+    {
+      "source": 635,
+      "target": "635_1"
+    },
+    {
+      "source": "635_0",
+      "target": "635_0_0"
+    },
+    {
+      "source": "635_1",
+      "target": "635_1_0"
+    },
+    {
+      "source": "635_1",
+      "target": "635_1_1"
+    },
+    {
+      "source": "635_1",
+      "target": "635_1_2"
+    }
+  ]
+}

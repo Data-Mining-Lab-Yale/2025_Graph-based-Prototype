@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you. Dr Person1 indicated that it should be  no problem",
+      "id": 422
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you.",
+      "id": "422_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you.",
+      "id": "422_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Dr Person1 indicated that it should be  no problem",
+      "id": "422_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr Person1 indicated that it should be",
+      "id": "422_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "no problem",
+      "id": "422_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 422,
+      "target": "422_0"
+    },
+    {
+      "source": 422,
+      "target": "422_1"
+    },
+    {
+      "source": "422_0",
+      "target": "422_0_0"
+    },
+    {
+      "source": "422_1",
+      "target": "422_1_0"
+    },
+    {
+      "source": "422_1",
+      "target": "422_1_1"
+    }
+  ]
+}

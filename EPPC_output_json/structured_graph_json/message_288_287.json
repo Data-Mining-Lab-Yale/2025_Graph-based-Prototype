@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 The plan is to continue on the 100mg. Yes you would need labs before you start your next cycle. Order for labs are being placed. Kind Regards",
+      "id": 287
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 The plan is to continue on the 100mg.",
+      "id": "287_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 The plan is to continue on the 100mg.",
+      "id": "287_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Yes you would need labs before you start your next cycle.",
+      "id": "287_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes you would need labs before you start",
+      "id": "287_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "your next cycle.",
+      "id": "287_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Order for labs are being placed.",
+      "id": "287_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Order for labs are being placed.",
+      "id": "287_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Kind Regards",
+      "id": "287_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Kind Regards",
+      "id": "287_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 287,
+      "target": "287_0"
+    },
+    {
+      "source": 287,
+      "target": "287_1"
+    },
+    {
+      "source": 287,
+      "target": "287_2"
+    },
+    {
+      "source": 287,
+      "target": "287_3"
+    },
+    {
+      "source": "287_0",
+      "target": "287_0_0"
+    },
+    {
+      "source": "287_1",
+      "target": "287_1_0"
+    },
+    {
+      "source": "287_1",
+      "target": "287_1_1"
+    },
+    {
+      "source": "287_2",
+      "target": "287_2_0"
+    },
+    {
+      "source": "287_3",
+      "target": "287_3_0"
+    }
+  ]
+}

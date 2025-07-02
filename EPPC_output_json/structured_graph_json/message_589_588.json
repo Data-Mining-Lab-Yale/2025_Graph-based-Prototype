@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Happy MM/DD/YYYY!    I am meant to start Ibrance on MM/DD/YYYY. Based on the last bloodwork results, should we book a CBC for me prior to start? I also have a cortisone shot scheduled for MM/DD/YYYY. That means that this MM/DD/YYYY through next MM/DD/YYYY morning, I won't be able to take Aleve, and Tylenol extra strength isn't working on its own, any longer.",
+      "id": 588
+    },
+    {
+      "label": "sentence",
+      "text": "Happy MM/DD/YYYY!",
+      "id": "588_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Happy MM/DD/YYYY!",
+      "id": "588_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I am meant to start Ibrance on MM/DD/YYYY.",
+      "id": "588_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am meant to start Ibrance on MM/DD/YYYY.",
+      "id": "588_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Based on the last bloodwork results, should we book a CBC for me prior to start?",
+      "id": "588_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Based on the last bloodwork results,",
+      "id": "588_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "should we book a CBC for me prior to start",
+      "id": "588_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I also have a cortisone shot scheduled for MM/DD/YYYY.",
+      "id": "588_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I also have a cortisone shot scheduled for MM/DD/YYYY.",
+      "id": "588_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "That means that this MM/DD/YYYY through next MM/DD/YYYY morning, I won't be able to take Aleve, and Tylenol extra strength isn't working on its own, any longer.",
+      "id": "588_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "That means that this MM/DD/YYYY",
+      "id": "588_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "through next MM/DD/YYYY morning,",
+      "id": "588_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I won't be",
+      "id": "588_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "able to take Aleve,",
+      "id": "588_4_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "and Tylenol extra strength isn't working",
+      "id": "588_4_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "on its own,",
+      "id": "588_4_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "any longer.",
+      "id": "588_4_6"
+    }
+  ],
+  "links": [
+    {
+      "source": 588,
+      "target": "588_0"
+    },
+    {
+      "source": 588,
+      "target": "588_1"
+    },
+    {
+      "source": 588,
+      "target": "588_2"
+    },
+    {
+      "source": 588,
+      "target": "588_3"
+    },
+    {
+      "source": 588,
+      "target": "588_4"
+    },
+    {
+      "source": "588_0",
+      "target": "588_0_0"
+    },
+    {
+      "source": "588_1",
+      "target": "588_1_0"
+    },
+    {
+      "source": "588_2",
+      "target": "588_2_0"
+    },
+    {
+      "source": "588_2",
+      "target": "588_2_1"
+    },
+    {
+      "source": "588_3",
+      "target": "588_3_0"
+    },
+    {
+      "source": "588_4",
+      "target": "588_4_0"
+    },
+    {
+      "source": "588_4",
+      "target": "588_4_1"
+    },
+    {
+      "source": "588_4",
+      "target": "588_4_2"
+    },
+    {
+      "source": "588_4",
+      "target": "588_4_3"
+    },
+    {
+      "source": "588_4",
+      "target": "588_4_4"
+    },
+    {
+      "source": "588_4",
+      "target": "588_4_5"
+    },
+    {
+      "source": "588_4",
+      "target": "588_4_6"
+    }
+  ]
+}

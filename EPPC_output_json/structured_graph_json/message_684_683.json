@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Please see attached regarding your conversation with Dr. Person1.",
+      "id": 683
+    },
+    {
+      "label": "sentence",
+      "text": "Please see attached regarding your conversation with Dr. Person1.",
+      "id": "683_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please see attached regarding your conversation with Dr. Person1.",
+      "id": "683_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 683,
+      "target": "683_0"
+    },
+    {
+      "source": "683_0",
+      "target": "683_0_0"
+    }
+  ]
+}

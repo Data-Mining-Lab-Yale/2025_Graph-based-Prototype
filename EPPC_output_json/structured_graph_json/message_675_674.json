@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I'm not sure what the protocol is for these types of notifications. You can call XXX-XXX-XXXX to speak to  our secretarial staff who may have more information. If not our manager is Gean Brown and she'd be happy to assist. All the best, Person1",
+      "id": 674
+    },
+    {
+      "label": "sentence",
+      "text": "I'm not sure what the protocol is for these types of notifications.",
+      "id": "674_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I'm not sure what the protocol is",
+      "id": "674_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "for these types of notifications.",
+      "id": "674_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "You can call XXX-XXX-XXXX to speak to  our secretarial staff who may have more information.",
+      "id": "674_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "You can call XXX-XXX-XXXX to speak",
+      "id": "674_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to  our secretarial staff who may have",
+      "id": "674_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "more information.",
+      "id": "674_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "If not our manager is Gean Brown and she'd be happy to assist.",
+      "id": "674_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "If not our manager is Gean Brown and she'd be",
+      "id": "674_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "happy to assist.",
+      "id": "674_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "All the best, Person1",
+      "id": "674_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "All the best,",
+      "id": "674_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "674_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 674,
+      "target": "674_0"
+    },
+    {
+      "source": 674,
+      "target": "674_1"
+    },
+    {
+      "source": 674,
+      "target": "674_2"
+    },
+    {
+      "source": 674,
+      "target": "674_3"
+    },
+    {
+      "source": "674_0",
+      "target": "674_0_0"
+    },
+    {
+      "source": "674_0",
+      "target": "674_0_1"
+    },
+    {
+      "source": "674_1",
+      "target": "674_1_0"
+    },
+    {
+      "source": "674_1",
+      "target": "674_1_1"
+    },
+    {
+      "source": "674_1",
+      "target": "674_1_2"
+    },
+    {
+      "source": "674_2",
+      "target": "674_2_0"
+    },
+    {
+      "source": "674_2",
+      "target": "674_2_1"
+    },
+    {
+      "source": "674_3",
+      "target": "674_3_0"
+    },
+    {
+      "source": "674_3",
+      "target": "674_3_1"
+    }
+  ]
+}

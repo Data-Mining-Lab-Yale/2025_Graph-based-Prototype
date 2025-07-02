@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Same to you and your beautiful family. They boys new pictures are so handsome.",
+      "id": 636
+    },
+    {
+      "label": "sentence",
+      "text": "Same to you and your beautiful family.",
+      "id": "636_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Same to you and your beautiful family",
+      "id": "636_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "They boys new pictures are so handsome.",
+      "id": "636_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "They boys new pictures are",
+      "id": "636_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "so handsome.",
+      "id": "636_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 636,
+      "target": "636_0"
+    },
+    {
+      "source": 636,
+      "target": "636_1"
+    },
+    {
+      "source": "636_0",
+      "target": "636_0_0"
+    },
+    {
+      "source": "636_1",
+      "target": "636_1_0"
+    },
+    {
+      "source": "636_1",
+      "target": "636_1_1"
+    }
+  ]
+}

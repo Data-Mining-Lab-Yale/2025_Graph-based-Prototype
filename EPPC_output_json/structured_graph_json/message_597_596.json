@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Calling pharmacy today. Thanks.",
+      "id": 596
+    },
+    {
+      "label": "sentence",
+      "text": "Calling pharmacy today.",
+      "id": "596_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Calling pharmacy today.",
+      "id": "596_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks.",
+      "id": "596_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks.",
+      "id": "596_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 596,
+      "target": "596_0"
+    },
+    {
+      "source": 596,
+      "target": "596_1"
+    },
+    {
+      "source": "596_0",
+      "target": "596_0_0"
+    },
+    {
+      "source": "596_1",
+      "target": "596_1_0"
+    }
+  ]
+}

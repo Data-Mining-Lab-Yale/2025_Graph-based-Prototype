@@ -1,0 +1,338 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr Person1,            it Person3 Person2 wife. I am not sure if you know Person2 was in Org7 is extended care on MM/DD/YYYY and was seen by Dr. Person4. Well, we went home he didn feel good yesterday and today we had to rush him to Org7 where he was found to be septic. Why did Dr. Person4  not see this. As I text you he is now in Org6 emergency room and we all know how he is and they will not allow me to go in to be  with him so I could hear and understand what is going ,because we know he does not hear well. Is there anyway I could be allowed to go in I had my Covid shots. Thank you,  Person3",
+      "id": 363
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr Person1,            it Person3 Person2 wife.",
+      "id": "363_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr Person1,",
+      "id": "363_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "it Person3 Person2 wife.",
+      "id": "363_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I am not sure if you know Person2 was in Org7 is extended care on MM/DD/YYYY and was seen by Dr. Person4.",
+      "id": "363_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am",
+      "id": "363_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "not sure if you know",
+      "id": "363_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2 was",
+      "id": "363_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "in Org7 is extended care on MM/DD/YYYY and was seen",
+      "id": "363_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "by Dr. Person4.",
+      "id": "363_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Well, we went home he didn feel good yesterday and today we had to rush him to Org7 where he was found to be septic.",
+      "id": "363_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Well,",
+      "id": "363_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "we went",
+      "id": "363_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "home he didn feel good yesterday and today we had",
+      "id": "363_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to rush him to Org7 where he was found",
+      "id": "363_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "to be septic.",
+      "id": "363_2_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Why did Dr. Person4  not see this.",
+      "id": "363_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Why did Dr. Person4  not see this.",
+      "id": "363_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "As I text you he is now in Org6 emergency room and we all know how he is and they will not allow me to go in to be  with him so I could hear and understand what is going ,because we know he does not hear well.",
+      "id": "363_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "As I text",
+      "id": "363_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you he is now in Org6 emergency room and we all know",
+      "id": "363_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "how he is",
+      "id": "363_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "and they will not allow",
+      "id": "363_4_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "me to go",
+      "id": "363_4_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "in to be",
+      "id": "363_4_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "with him so I could hear and understand",
+      "id": "363_4_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "what is going",
+      "id": "363_4_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "because we know",
+      "id": "363_4_8"
+    },
+    {
+      "label": "subsentence",
+      "text": "he does not hear",
+      "id": "363_4_9"
+    },
+    {
+      "label": "subsentence",
+      "text": "well.",
+      "id": "363_4_10"
+    },
+    {
+      "label": "sentence",
+      "text": "Is there anyway I could be allowed to go in I had my Covid shots.",
+      "id": "363_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is there anyway I could be allowed",
+      "id": "363_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to go in I had",
+      "id": "363_5_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "my Covid shots.",
+      "id": "363_5_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,  Person3",
+      "id": "363_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "363_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "363_6_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 363,
+      "target": "363_0"
+    },
+    {
+      "source": 363,
+      "target": "363_1"
+    },
+    {
+      "source": 363,
+      "target": "363_2"
+    },
+    {
+      "source": 363,
+      "target": "363_3"
+    },
+    {
+      "source": 363,
+      "target": "363_4"
+    },
+    {
+      "source": 363,
+      "target": "363_5"
+    },
+    {
+      "source": 363,
+      "target": "363_6"
+    },
+    {
+      "source": "363_0",
+      "target": "363_0_0"
+    },
+    {
+      "source": "363_0",
+      "target": "363_0_1"
+    },
+    {
+      "source": "363_1",
+      "target": "363_1_0"
+    },
+    {
+      "source": "363_1",
+      "target": "363_1_1"
+    },
+    {
+      "source": "363_1",
+      "target": "363_1_2"
+    },
+    {
+      "source": "363_1",
+      "target": "363_1_3"
+    },
+    {
+      "source": "363_1",
+      "target": "363_1_4"
+    },
+    {
+      "source": "363_2",
+      "target": "363_2_0"
+    },
+    {
+      "source": "363_2",
+      "target": "363_2_1"
+    },
+    {
+      "source": "363_2",
+      "target": "363_2_2"
+    },
+    {
+      "source": "363_2",
+      "target": "363_2_3"
+    },
+    {
+      "source": "363_2",
+      "target": "363_2_4"
+    },
+    {
+      "source": "363_3",
+      "target": "363_3_0"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_0"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_1"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_2"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_3"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_4"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_5"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_6"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_7"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_8"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_9"
+    },
+    {
+      "source": "363_4",
+      "target": "363_4_10"
+    },
+    {
+      "source": "363_5",
+      "target": "363_5_0"
+    },
+    {
+      "source": "363_5",
+      "target": "363_5_1"
+    },
+    {
+      "source": "363_5",
+      "target": "363_5_2"
+    },
+    {
+      "source": "363_6",
+      "target": "363_6_0"
+    },
+    {
+      "source": "363_6",
+      "target": "363_6_1"
+    }
+  ]
+}

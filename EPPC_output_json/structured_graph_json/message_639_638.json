@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr. Person1,  Thank you for my visit today. You said I was your hero! Thanks!   But you are my hero by saving my life! You are a fantastic doctor!  Thanks again. Merry Christmas and a Happy and Healthy New Year!  Regards,  Person2",
+      "id": 638
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr. Person1,  Thank you for my visit today.",
+      "id": "638_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr. Person1,",
+      "id": "638_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you for my visit today.",
+      "id": "638_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "You said I was your hero!",
+      "id": "638_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "You said I was",
+      "id": "638_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "your hero!",
+      "id": "638_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "638_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "638_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "But you are my hero by saving my life!",
+      "id": "638_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "But you are my hero by saving my life!",
+      "id": "638_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "You are a fantastic doctor!",
+      "id": "638_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "You are a fantastic doctor!",
+      "id": "638_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks again.",
+      "id": "638_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks again.",
+      "id": "638_5_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Merry Christmas and a Happy and Healthy New Year!",
+      "id": "638_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Merry Christmas and a Happy and Healthy",
+      "id": "638_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "New Year",
+      "id": "638_6_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Regards,  Person2",
+      "id": "638_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "Regards,",
+      "id": "638_7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "638_7_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 638,
+      "target": "638_0"
+    },
+    {
+      "source": 638,
+      "target": "638_1"
+    },
+    {
+      "source": 638,
+      "target": "638_2"
+    },
+    {
+      "source": 638,
+      "target": "638_3"
+    },
+    {
+      "source": 638,
+      "target": "638_4"
+    },
+    {
+      "source": 638,
+      "target": "638_5"
+    },
+    {
+      "source": 638,
+      "target": "638_6"
+    },
+    {
+      "source": 638,
+      "target": "638_7"
+    },
+    {
+      "source": "638_0",
+      "target": "638_0_0"
+    },
+    {
+      "source": "638_0",
+      "target": "638_0_1"
+    },
+    {
+      "source": "638_1",
+      "target": "638_1_0"
+    },
+    {
+      "source": "638_1",
+      "target": "638_1_1"
+    },
+    {
+      "source": "638_2",
+      "target": "638_2_0"
+    },
+    {
+      "source": "638_3",
+      "target": "638_3_0"
+    },
+    {
+      "source": "638_4",
+      "target": "638_4_0"
+    },
+    {
+      "source": "638_5",
+      "target": "638_5_0"
+    },
+    {
+      "source": "638_6",
+      "target": "638_6_0"
+    },
+    {
+      "source": "638_6",
+      "target": "638_6_1"
+    },
+    {
+      "source": "638_7",
+      "target": "638_7_0"
+    },
+    {
+      "source": "638_7",
+      "target": "638_7_1"
+    }
+  ]
+}

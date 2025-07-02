@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "The  pharmacy called me to tell me they do not have a consent from Dr. Person1 for the Person2 that she wants me to take after the first week in MM/DD/YYYY when I get back from vacation the pharmacy that called is located on Org3.Org3",
+      "id": 708
+    },
+    {
+      "label": "sentence",
+      "text": "The  pharmacy called me to tell me they do not have a consent from Dr. Person1 for the Person2 that she wants me to take after the first week in MM/DD/YYYY when I get back from vacation the pharmacy that called is located on Org3.Org3",
+      "id": "708_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "The  pharmacy called me to tell me they do not have",
+      "id": "708_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a consent from Dr. Person1 for the Person2 that she wants",
+      "id": "708_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "me to take",
+      "id": "708_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "after the first week in MM/DD/YYYY when I get",
+      "id": "708_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "back from vacation the pharmacy that called",
+      "id": "708_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "is located",
+      "id": "708_0_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "on Org3.Org3",
+      "id": "708_0_6"
+    }
+  ],
+  "links": [
+    {
+      "source": 708,
+      "target": "708_0"
+    },
+    {
+      "source": "708_0",
+      "target": "708_0_0"
+    },
+    {
+      "source": "708_0",
+      "target": "708_0_1"
+    },
+    {
+      "source": "708_0",
+      "target": "708_0_2"
+    },
+    {
+      "source": "708_0",
+      "target": "708_0_3"
+    },
+    {
+      "source": "708_0",
+      "target": "708_0_4"
+    },
+    {
+      "source": "708_0",
+      "target": "708_0_5"
+    },
+    {
+      "source": "708_0",
+      "target": "708_0_6"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 are you taking him for repeat labs and urine today or tomorrow? Thanks! Person2",
+      "id": 516
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 are you taking him for repeat labs and urine today or tomorrow?",
+      "id": "516_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 are you taking him for repeat labs and urine",
+      "id": "516_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "today or tomorrow",
+      "id": "516_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "516_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "516_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2",
+      "id": "516_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "516_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 516,
+      "target": "516_0"
+    },
+    {
+      "source": 516,
+      "target": "516_1"
+    },
+    {
+      "source": 516,
+      "target": "516_2"
+    },
+    {
+      "source": "516_0",
+      "target": "516_0_0"
+    },
+    {
+      "source": "516_0",
+      "target": "516_0_1"
+    },
+    {
+      "source": "516_1",
+      "target": "516_1_0"
+    },
+    {
+      "source": "516_2",
+      "target": "516_2_0"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I am checking with Dr. Person2 on the vaccine, we do not give the whooping cough (tdap) vaccine here, we can give you a flu vaccine next time you come to see Dr. Person2 or you can go to your PCP or local pharmacy.",
+      "id": 32
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I am checking with Dr. Person2 on the vaccine, we do not give the whooping cough (tdap) vaccine here, we can give you a flu vaccine next time you come to see Dr. Person2 or you can go to your PCP or local pharmacy.",
+      "id": "32_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "32_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am checking",
+      "id": "32_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "with Dr. Person2 on the vaccine,",
+      "id": "32_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "we do not give",
+      "id": "32_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "the whooping cough (tdap) vaccine here,",
+      "id": "32_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "we can give you a flu vaccine next time you come",
+      "id": "32_0_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "to see",
+      "id": "32_0_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person2 or you can go",
+      "id": "32_0_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "to your PCP or local",
+      "id": "32_0_8"
+    },
+    {
+      "label": "subsentence",
+      "text": "pharmacy.",
+      "id": "32_0_9"
+    }
+  ],
+  "links": [
+    {
+      "source": 32,
+      "target": "32_0"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_0"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_1"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_2"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_3"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_4"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_5"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_6"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_7"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_8"
+    },
+    {
+      "source": "32_0",
+      "target": "32_0_9"
+    }
+  ]
+}

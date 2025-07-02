@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "OK thanks. I will look out for the appointment in Person1. Thanks,  Person2",
+      "id": 206
+    },
+    {
+      "label": "sentence",
+      "text": "OK thanks.",
+      "id": "206_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "OK thanks.",
+      "id": "206_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I will look out for the appointment in Person1.",
+      "id": "206_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will look out for the appointment in Person1.",
+      "id": "206_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person2",
+      "id": "206_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "206_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "206_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 206,
+      "target": "206_0"
+    },
+    {
+      "source": 206,
+      "target": "206_1"
+    },
+    {
+      "source": 206,
+      "target": "206_2"
+    },
+    {
+      "source": "206_0",
+      "target": "206_0_0"
+    },
+    {
+      "source": "206_1",
+      "target": "206_1_0"
+    },
+    {
+      "source": "206_2",
+      "target": "206_2_0"
+    },
+    {
+      "source": "206_2",
+      "target": "206_2_1"
+    }
+  ]
+}

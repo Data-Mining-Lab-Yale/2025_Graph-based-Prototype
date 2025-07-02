@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, If you are having fevers and feeling unwell you should hold the Ibrance. Especially if you are concerned about COVID. You can restart once the test is negative and you are feeling better. Please let us know if you are COVID positive. Thanks! Person2, MD",
+      "id": 278
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, If you are having fevers and feeling unwell you should hold the Ibrance.",
+      "id": "278_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "278_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "If you are having",
+      "id": "278_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "fevers and feeling",
+      "id": "278_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "unwell you should hold the Ibrance.",
+      "id": "278_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Especially if you are concerned about COVID.",
+      "id": "278_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Especially if you are concerned about COVID.",
+      "id": "278_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "You can restart once the test is negative and you are feeling better.",
+      "id": "278_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "You can restart once the test is",
+      "id": "278_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "negative and you are feeling",
+      "id": "278_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "better.",
+      "id": "278_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Please let us know if you are COVID positive.",
+      "id": "278_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let us know",
+      "id": "278_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if you are COVID",
+      "id": "278_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "positive.",
+      "id": "278_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "278_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "278_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2, MD",
+      "id": "278_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2,",
+      "id": "278_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "MD",
+      "id": "278_5_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 278,
+      "target": "278_0"
+    },
+    {
+      "source": 278,
+      "target": "278_1"
+    },
+    {
+      "source": 278,
+      "target": "278_2"
+    },
+    {
+      "source": 278,
+      "target": "278_3"
+    },
+    {
+      "source": 278,
+      "target": "278_4"
+    },
+    {
+      "source": 278,
+      "target": "278_5"
+    },
+    {
+      "source": "278_0",
+      "target": "278_0_0"
+    },
+    {
+      "source": "278_0",
+      "target": "278_0_1"
+    },
+    {
+      "source": "278_0",
+      "target": "278_0_2"
+    },
+    {
+      "source": "278_0",
+      "target": "278_0_3"
+    },
+    {
+      "source": "278_1",
+      "target": "278_1_0"
+    },
+    {
+      "source": "278_2",
+      "target": "278_2_0"
+    },
+    {
+      "source": "278_2",
+      "target": "278_2_1"
+    },
+    {
+      "source": "278_2",
+      "target": "278_2_2"
+    },
+    {
+      "source": "278_3",
+      "target": "278_3_0"
+    },
+    {
+      "source": "278_3",
+      "target": "278_3_1"
+    },
+    {
+      "source": "278_3",
+      "target": "278_3_2"
+    },
+    {
+      "source": "278_4",
+      "target": "278_4_0"
+    },
+    {
+      "source": "278_5",
+      "target": "278_5_0"
+    },
+    {
+      "source": "278_5",
+      "target": "278_5_1"
+    }
+  ]
+}

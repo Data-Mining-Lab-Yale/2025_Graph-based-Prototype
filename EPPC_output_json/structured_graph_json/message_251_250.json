@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning Person1,   I am contacting you about the surgical drain Dr  Person2 placed MM/DD/YYYY. I spoke with Person3 yesterday and she said to let you know today how it was going. It was just under 20 ml in the past 24 hour and 18 ml, the previous 24 hours. So I am hoping to come in today to have it out and also  hoping to combine my 2 week post op visit with Dr Lynch at the same time. That appt is sched for Thurs. Hopefully we can work this out today.",
+      "id": 250
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning Person1,   I am contacting you about the surgical drain Dr  Person2 placed MM/DD/YYYY.",
+      "id": "250_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning Person1,",
+      "id": "250_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am contacting you about the surgical drain Dr  Person2 placed",
+      "id": "250_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY.",
+      "id": "250_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I spoke with Person3 yesterday and she said to let you know today how it was going.",
+      "id": "250_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I spoke with Person3 yesterday and she said",
+      "id": "250_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to let you know",
+      "id": "250_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "today how it was going",
+      "id": "250_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "It was just under 20 ml in the past 24 hour and 18 ml, the previous 24 hours.",
+      "id": "250_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "It was just under 20 ml in the past 24 hour and 18 ml",
+      "id": "250_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the previous 24 hours.",
+      "id": "250_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "So I am hoping to come in today to have it out and also  hoping to combine my 2 week post op visit with Dr Lynch at the same time.",
+      "id": "250_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "So I am hoping to come in today to have",
+      "id": "250_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "it out and also  hoping",
+      "id": "250_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to combine my 2 week post op visit with Dr Lynch at the same time.",
+      "id": "250_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "That appt is sched for Thurs.",
+      "id": "250_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "That appt is sched for Thurs.",
+      "id": "250_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Hopefully we can work this out today.",
+      "id": "250_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hopefully we can work this out today.",
+      "id": "250_5_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 250,
+      "target": "250_0"
+    },
+    {
+      "source": 250,
+      "target": "250_1"
+    },
+    {
+      "source": 250,
+      "target": "250_2"
+    },
+    {
+      "source": 250,
+      "target": "250_3"
+    },
+    {
+      "source": 250,
+      "target": "250_4"
+    },
+    {
+      "source": 250,
+      "target": "250_5"
+    },
+    {
+      "source": "250_0",
+      "target": "250_0_0"
+    },
+    {
+      "source": "250_0",
+      "target": "250_0_1"
+    },
+    {
+      "source": "250_0",
+      "target": "250_0_2"
+    },
+    {
+      "source": "250_1",
+      "target": "250_1_0"
+    },
+    {
+      "source": "250_1",
+      "target": "250_1_1"
+    },
+    {
+      "source": "250_1",
+      "target": "250_1_2"
+    },
+    {
+      "source": "250_2",
+      "target": "250_2_0"
+    },
+    {
+      "source": "250_2",
+      "target": "250_2_1"
+    },
+    {
+      "source": "250_3",
+      "target": "250_3_0"
+    },
+    {
+      "source": "250_3",
+      "target": "250_3_1"
+    },
+    {
+      "source": "250_3",
+      "target": "250_3_2"
+    },
+    {
+      "source": "250_4",
+      "target": "250_4_0"
+    },
+    {
+      "source": "250_5",
+      "target": "250_5_0"
+    }
+  ]
+}

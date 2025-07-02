@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi,  I wanted to reach out to Dr. Person1 regarding having trouble falling asleep the last 4 nights. I didn't know if there is anything I can take to help me with that just at bedtime? Thanks,  Person2",
+      "id": 146
+    },
+    {
+      "label": "sentence",
+      "text": "Hi,  I wanted to reach out to Dr. Person1 regarding having trouble falling asleep the last 4 nights.",
+      "id": "146_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "146_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I wanted to reach out to Dr. Person1 regarding having trouble falling asleep the last 4 nights.",
+      "id": "146_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I didn't know if there is anything I can take to help me with that just at bedtime?",
+      "id": "146_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I didn't know if there is",
+      "id": "146_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "anything I can take",
+      "id": "146_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to help",
+      "id": "146_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "me with that just at bedtime?",
+      "id": "146_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person2",
+      "id": "146_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "146_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "146_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 146,
+      "target": "146_0"
+    },
+    {
+      "source": 146,
+      "target": "146_1"
+    },
+    {
+      "source": 146,
+      "target": "146_2"
+    },
+    {
+      "source": "146_0",
+      "target": "146_0_0"
+    },
+    {
+      "source": "146_0",
+      "target": "146_0_1"
+    },
+    {
+      "source": "146_1",
+      "target": "146_1_0"
+    },
+    {
+      "source": "146_1",
+      "target": "146_1_1"
+    },
+    {
+      "source": "146_1",
+      "target": "146_1_2"
+    },
+    {
+      "source": "146_1",
+      "target": "146_1_3"
+    },
+    {
+      "source": "146_2",
+      "target": "146_2_0"
+    },
+    {
+      "source": "146_2",
+      "target": "146_2_1"
+    }
+  ]
+}

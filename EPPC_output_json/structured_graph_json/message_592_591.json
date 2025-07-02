@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "You want to come in to have it done from your port?",
+      "id": 591
+    },
+    {
+      "label": "sentence",
+      "text": "You want to come in to have it done from your port?",
+      "id": "591_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "You want to come in to have",
+      "id": "591_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "it done",
+      "id": "591_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "from your port?",
+      "id": "591_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 591,
+      "target": "591_0"
+    },
+    {
+      "source": "591_0",
+      "target": "591_0_0"
+    },
+    {
+      "source": "591_0",
+      "target": "591_0_1"
+    },
+    {
+      "source": "591_0",
+      "target": "591_0_2"
+    }
+  ]
+}

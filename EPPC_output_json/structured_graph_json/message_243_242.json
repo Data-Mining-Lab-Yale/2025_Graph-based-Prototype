@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    Could you please confirm your fax number. Dr. Person2 says he sent a 16 page fax for your attention    Thanks,  Person3",
+      "id": 242
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    Could you please confirm your fax number.",
+      "id": "242_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "242_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Could you please confirm your fax number.",
+      "id": "242_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Dr. Person2 says he sent a 16 page fax for your attention    Thanks,  Person3",
+      "id": "242_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person2 says he sent",
+      "id": "242_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a 16 page fax for your attention    Thanks,",
+      "id": "242_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "242_1_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 242,
+      "target": "242_0"
+    },
+    {
+      "source": 242,
+      "target": "242_1"
+    },
+    {
+      "source": "242_0",
+      "target": "242_0_0"
+    },
+    {
+      "source": "242_0",
+      "target": "242_0_1"
+    },
+    {
+      "source": "242_1",
+      "target": "242_1_0"
+    },
+    {
+      "source": "242_1",
+      "target": "242_1_1"
+    },
+    {
+      "source": "242_1",
+      "target": "242_1_2"
+    }
+  ]
+}

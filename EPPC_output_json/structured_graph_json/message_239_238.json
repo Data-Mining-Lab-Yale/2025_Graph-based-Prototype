@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    Just confirming that you heard from Dr. Person2 after my consultation with him on MM/DD/YYYY. Please confirm. Thanks,  Person3",
+      "id": 238
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    Just confirming that you heard from Dr. Person2 after my consultation with him on MM/DD/YYYY.",
+      "id": "238_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "238_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Just confirming",
+      "id": "238_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "that you heard",
+      "id": "238_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "from Dr. Person2 after my consultation with him on MM/DD/YYYY.",
+      "id": "238_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Please confirm.",
+      "id": "238_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please confirm.",
+      "id": "238_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person3",
+      "id": "238_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "238_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "238_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 238,
+      "target": "238_0"
+    },
+    {
+      "source": 238,
+      "target": "238_1"
+    },
+    {
+      "source": 238,
+      "target": "238_2"
+    },
+    {
+      "source": "238_0",
+      "target": "238_0_0"
+    },
+    {
+      "source": "238_0",
+      "target": "238_0_1"
+    },
+    {
+      "source": "238_0",
+      "target": "238_0_2"
+    },
+    {
+      "source": "238_0",
+      "target": "238_0_3"
+    },
+    {
+      "source": "238_1",
+      "target": "238_1_0"
+    },
+    {
+      "source": "238_2",
+      "target": "238_2_0"
+    },
+    {
+      "source": "238_2",
+      "target": "238_2_1"
+    }
+  ]
+}

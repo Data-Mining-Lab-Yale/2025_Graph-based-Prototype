@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi   I will go today?",
+      "id": 120
+    },
+    {
+      "label": "sentence",
+      "text": "Hi   I will go today?",
+      "id": "120_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi   I will go today?",
+      "id": "120_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 120,
+      "target": "120_0"
+    },
+    {
+      "source": "120_0",
+      "target": "120_0_0"
+    }
+  ]
+}

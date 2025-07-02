@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1. Sure, you can wait until MM/DD/YYYY, but if for some reason you have any adverse side effects or extreme fatigue, you should get the lab work 2 weeks after. Hope this helps. Have a great day! Kind regards",
+      "id": 298
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1.",
+      "id": "298_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1.",
+      "id": "298_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Sure, you can wait until MM/DD/YYYY, but if for some reason you have any adverse side effects or extreme fatigue, you should get the lab work 2 weeks after.",
+      "id": "298_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sure,",
+      "id": "298_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you can wait until MM/DD/YYYY,",
+      "id": "298_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but if for some reason you have",
+      "id": "298_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "any adverse side effects or extreme fatigue",
+      "id": "298_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "you should get",
+      "id": "298_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "the lab work 2 weeks after.",
+      "id": "298_1_5"
+    },
+    {
+      "label": "sentence",
+      "text": "Hope this helps.",
+      "id": "298_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hope this helps",
+      "id": "298_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Have a great day!",
+      "id": "298_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have a great day!",
+      "id": "298_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Kind regards",
+      "id": "298_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Kind regards",
+      "id": "298_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 298,
+      "target": "298_0"
+    },
+    {
+      "source": 298,
+      "target": "298_1"
+    },
+    {
+      "source": 298,
+      "target": "298_2"
+    },
+    {
+      "source": 298,
+      "target": "298_3"
+    },
+    {
+      "source": 298,
+      "target": "298_4"
+    },
+    {
+      "source": "298_0",
+      "target": "298_0_0"
+    },
+    {
+      "source": "298_1",
+      "target": "298_1_0"
+    },
+    {
+      "source": "298_1",
+      "target": "298_1_1"
+    },
+    {
+      "source": "298_1",
+      "target": "298_1_2"
+    },
+    {
+      "source": "298_1",
+      "target": "298_1_3"
+    },
+    {
+      "source": "298_1",
+      "target": "298_1_4"
+    },
+    {
+      "source": "298_1",
+      "target": "298_1_5"
+    },
+    {
+      "source": "298_2",
+      "target": "298_2_0"
+    },
+    {
+      "source": "298_3",
+      "target": "298_3_0"
+    },
+    {
+      "source": "298_4",
+      "target": "298_4_0"
+    }
+  ]
+}

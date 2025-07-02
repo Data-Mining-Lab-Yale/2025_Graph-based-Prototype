@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "You're very welcome. I also think she put in an order for an ECHO because she said you haven't had one in  a while.",
+      "id": 212
+    },
+    {
+      "label": "sentence",
+      "text": "You're very welcome.",
+      "id": "212_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "You're very welcome.",
+      "id": "212_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I also think she put in an order for an ECHO because she said you haven't had one in  a while.",
+      "id": "212_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I also think she put",
+      "id": "212_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in an order for an ECHO because she said",
+      "id": "212_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you haven't had",
+      "id": "212_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "one in  a while.",
+      "id": "212_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 212,
+      "target": "212_0"
+    },
+    {
+      "source": 212,
+      "target": "212_1"
+    },
+    {
+      "source": "212_0",
+      "target": "212_0_0"
+    },
+    {
+      "source": "212_1",
+      "target": "212_1_0"
+    },
+    {
+      "source": "212_1",
+      "target": "212_1_1"
+    },
+    {
+      "source": "212_1",
+      "target": "212_1_2"
+    },
+    {
+      "source": "212_1",
+      "target": "212_1_3"
+    }
+  ]
+}

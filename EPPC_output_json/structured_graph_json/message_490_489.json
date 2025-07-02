@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes please stop on the 4th floor about an hour before the visit to have labs drawn. Thank you Person1",
+      "id": 489
+    },
+    {
+      "label": "sentence",
+      "text": "Yes please stop on the 4th floor about an hour before the visit to have labs drawn.",
+      "id": "489_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes please stop on the 4th floor about an hour before the visit to have",
+      "id": "489_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "labs drawn",
+      "id": "489_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you Person1",
+      "id": "489_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you Person1",
+      "id": "489_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 489,
+      "target": "489_0"
+    },
+    {
+      "source": 489,
+      "target": "489_1"
+    },
+    {
+      "source": "489_0",
+      "target": "489_0_0"
+    },
+    {
+      "source": "489_0",
+      "target": "489_0_1"
+    },
+    {
+      "source": "489_1",
+      "target": "489_1_0"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello  This is Person1 writing on behalf of Person2. This is to follow up on the conversations Person2 and I  had with Person3 and  I had with Person4today. Person2's application for a 2 week Rehab visit at Org9 was rejected by Org9 his insurer. Attached is the rejection letter. This letter explains the process for appeal. We request that Dr Person5 ask for a conversation with the Medical Director of Org9 to explain the need for the rehab stay. I have given more detailed context on this point to Person7. The appeal process and phone number to call is in the attached rejection letter. We believe a peer to peer conversation between physicians might support this application. In add ition we are going to research other facilities to see if there is a different place that might be more likely to get approved. Please let Person2 and I know if you are able to have Dr  Person5 do this for us. If you prefer to call me to discuss my number is XXX-XXX-XXXX. Many thanks",
+      "id": 455
+    },
+    {
+      "label": "sentence",
+      "text": "Hello  This is Person1 writing on behalf of Person2.",
+      "id": "455_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello  This is Person1 writing on behalf of Person2.",
+      "id": "455_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "This is to follow up on the conversations Person2 and I  had with Person3 and  I had with Person4today.",
+      "id": "455_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "This is to follow up on the conversations Person2 and I  had",
+      "id": "455_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with Person3 and  I had",
+      "id": "455_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "with Person4today.",
+      "id": "455_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2's application for a 2 week Rehab visit at Org9 was rejected by Org9 his insurer.",
+      "id": "455_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2's application for a 2 week Rehab visit at Org9 was rejected by Org9 his insurer.",
+      "id": "455_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Attached is the rejection letter.",
+      "id": "455_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Attached is the rejection letter.",
+      "id": "455_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "This letter explains the process for appeal.",
+      "id": "455_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "This letter explains the process for appeal.",
+      "id": "455_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "We request that Dr Person5 ask for a conversation with the Medical Director of Org9 to explain the need for the rehab stay.",
+      "id": "455_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "We request that Dr Person5 ask",
+      "id": "455_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "for a conversation with the Medical Director of Org9 to explain the need for the rehab stay.",
+      "id": "455_5_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I have given more detailed context on this point to Person7.",
+      "id": "455_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have given more detailed context on this point to Person7.",
+      "id": "455_6_0"
+    },
+    {
+      "label": "sentence",
+      "text": "The appeal process and phone number to call is in the attached rejection letter.",
+      "id": "455_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "The appeal process and phone number",
+      "id": "455_7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to call is in the attached rejection letter.",
+      "id": "455_7_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We believe a peer to peer conversation between physicians might support this application.",
+      "id": "455_8"
+    },
+    {
+      "label": "subsentence",
+      "text": "We believe a peer to peer conversation between physicians might support",
+      "id": "455_8_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "this application.",
+      "id": "455_8_1"
+    },
+    {
+      "label": "sentence",
+      "text": "In add ition we are going to research other facilities to see if there is a different place that might be more likely to get approved.",
+      "id": "455_9"
+    },
+    {
+      "label": "subsentence",
+      "text": "In add ition we are going to research other facilities to see",
+      "id": "455_9_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if there is",
+      "id": "455_9_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a different place that might be",
+      "id": "455_9_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "more likely to get approved.",
+      "id": "455_9_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Please let Person2 and I know if you are able to have Dr  Person5 do this for us.",
+      "id": "455_10"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let Person2 and I know if you are",
+      "id": "455_10_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "able to have Dr  Person5 do",
+      "id": "455_10_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "this for us.",
+      "id": "455_10_2"
+    },
+    {
+      "label": "sentence",
+      "text": "If you prefer to call me to discuss my number is XXX-XXX-XXXX.",
+      "id": "455_11"
+    },
+    {
+      "label": "subsentence",
+      "text": "If you prefer",
+      "id": "455_11_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to call me to discuss",
+      "id": "455_11_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "my number is XXX-XXX-XXXX.",
+      "id": "455_11_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Many thanks",
+      "id": "455_12"
+    },
+    {
+      "label": "subsentence",
+      "text": "Many thanks",
+      "id": "455_12_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 455,
+      "target": "455_0"
+    },
+    {
+      "source": 455,
+      "target": "455_1"
+    },
+    {
+      "source": 455,
+      "target": "455_2"
+    },
+    {
+      "source": 455,
+      "target": "455_3"
+    },
+    {
+      "source": 455,
+      "target": "455_4"
+    },
+    {
+      "source": 455,
+      "target": "455_5"
+    },
+    {
+      "source": 455,
+      "target": "455_6"
+    },
+    {
+      "source": 455,
+      "target": "455_7"
+    },
+    {
+      "source": 455,
+      "target": "455_8"
+    },
+    {
+      "source": 455,
+      "target": "455_9"
+    },
+    {
+      "source": 455,
+      "target": "455_10"
+    },
+    {
+      "source": 455,
+      "target": "455_11"
+    },
+    {
+      "source": 455,
+      "target": "455_12"
+    },
+    {
+      "source": "455_0",
+      "target": "455_0_0"
+    },
+    {
+      "source": "455_1",
+      "target": "455_1_0"
+    },
+    {
+      "source": "455_1",
+      "target": "455_1_1"
+    },
+    {
+      "source": "455_1",
+      "target": "455_1_2"
+    },
+    {
+      "source": "455_2",
+      "target": "455_2_0"
+    },
+    {
+      "source": "455_3",
+      "target": "455_3_0"
+    },
+    {
+      "source": "455_4",
+      "target": "455_4_0"
+    },
+    {
+      "source": "455_5",
+      "target": "455_5_0"
+    },
+    {
+      "source": "455_5",
+      "target": "455_5_1"
+    },
+    {
+      "source": "455_6",
+      "target": "455_6_0"
+    },
+    {
+      "source": "455_7",
+      "target": "455_7_0"
+    },
+    {
+      "source": "455_7",
+      "target": "455_7_1"
+    },
+    {
+      "source": "455_8",
+      "target": "455_8_0"
+    },
+    {
+      "source": "455_8",
+      "target": "455_8_1"
+    },
+    {
+      "source": "455_9",
+      "target": "455_9_0"
+    },
+    {
+      "source": "455_9",
+      "target": "455_9_1"
+    },
+    {
+      "source": "455_9",
+      "target": "455_9_2"
+    },
+    {
+      "source": "455_9",
+      "target": "455_9_3"
+    },
+    {
+      "source": "455_10",
+      "target": "455_10_0"
+    },
+    {
+      "source": "455_10",
+      "target": "455_10_1"
+    },
+    {
+      "source": "455_10",
+      "target": "455_10_2"
+    },
+    {
+      "source": "455_11",
+      "target": "455_11_0"
+    },
+    {
+      "source": "455_11",
+      "target": "455_11_1"
+    },
+    {
+      "source": "455_11",
+      "target": "455_11_2"
+    },
+    {
+      "source": "455_12",
+      "target": "455_12_0"
+    }
+  ]
+}

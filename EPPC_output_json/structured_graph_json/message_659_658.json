@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning,  Any chance of getting a reply to my message from MM/DD/YYYY? Thanks so much.",
+      "id": 658
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning,  Any chance of getting a reply to my message from MM/DD/YYYY?",
+      "id": "658_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "658_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Any chance of getting a reply to my message from MM/DD/YYYY?",
+      "id": "658_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks so much.",
+      "id": "658_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much.",
+      "id": "658_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 658,
+      "target": "658_0"
+    },
+    {
+      "source": 658,
+      "target": "658_1"
+    },
+    {
+      "source": "658_0",
+      "target": "658_0_0"
+    },
+    {
+      "source": "658_0",
+      "target": "658_0_1"
+    },
+    {
+      "source": "658_1",
+      "target": "658_1_0"
+    }
+  ]
+}

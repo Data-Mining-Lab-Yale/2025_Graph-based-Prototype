@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "In light of the increase from 0.167 to 0.284 should I restart Person1?",
+      "id": 88
+    },
+    {
+      "label": "sentence",
+      "text": "In light of the increase from 0.167 to 0.284 should I restart Person1?",
+      "id": "88_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "In light of the increase from 0.167 to 0.284 should I restart Person1?",
+      "id": "88_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 88,
+      "target": "88_0"
+    },
+    {
+      "source": "88_0",
+      "target": "88_0_0"
+    }
+  ]
+}

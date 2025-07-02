@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you. OK to just monitor at this time.. if it becomes itchy or painful, please let us know. As for the weakness/walking issues--- this isn't new, but if its worse- Dr. Person1 wants you to have the follow up with neurology... it looks like you saw them last in MM/DD/YYYY and have not had follow up since. Th ank you Person2",
+      "id": 470
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you.",
+      "id": "470_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you.",
+      "id": "470_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "OK to just monitor at this time.. if it becomes itchy or painful, please let us know.",
+      "id": "470_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "OK to just monitor",
+      "id": "470_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "at this time.. if it becomes",
+      "id": "470_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "itchy or painful",
+      "id": "470_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "please let us know",
+      "id": "470_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "As for the weakness/walking issues--- this isn't new, but if its worse- Dr. Person1 wants you to have the follow up with neurology... it looks like you saw them last in MM/DD/YYYY and have not had follow up since.",
+      "id": "470_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "As for the weakness/walking issues--- this isn't new,",
+      "id": "470_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but if its worse- Dr. Person1 wants",
+      "id": "470_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you to have",
+      "id": "470_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "the follow up with neurology... it looks like you saw",
+      "id": "470_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "them last",
+      "id": "470_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "in MM/DD/YYYY and have not had follow",
+      "id": "470_2_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "up since.",
+      "id": "470_2_6"
+    },
+    {
+      "label": "sentence",
+      "text": "Th ank you Person2",
+      "id": "470_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Th ank you Person2",
+      "id": "470_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 470,
+      "target": "470_0"
+    },
+    {
+      "source": 470,
+      "target": "470_1"
+    },
+    {
+      "source": 470,
+      "target": "470_2"
+    },
+    {
+      "source": 470,
+      "target": "470_3"
+    },
+    {
+      "source": "470_0",
+      "target": "470_0_0"
+    },
+    {
+      "source": "470_1",
+      "target": "470_1_0"
+    },
+    {
+      "source": "470_1",
+      "target": "470_1_1"
+    },
+    {
+      "source": "470_1",
+      "target": "470_1_2"
+    },
+    {
+      "source": "470_1",
+      "target": "470_1_3"
+    },
+    {
+      "source": "470_2",
+      "target": "470_2_0"
+    },
+    {
+      "source": "470_2",
+      "target": "470_2_1"
+    },
+    {
+      "source": "470_2",
+      "target": "470_2_2"
+    },
+    {
+      "source": "470_2",
+      "target": "470_2_3"
+    },
+    {
+      "source": "470_2",
+      "target": "470_2_4"
+    },
+    {
+      "source": "470_2",
+      "target": "470_2_5"
+    },
+    {
+      "source": "470_2",
+      "target": "470_2_6"
+    },
+    {
+      "source": "470_3",
+      "target": "470_3_0"
+    }
+  ]
+}

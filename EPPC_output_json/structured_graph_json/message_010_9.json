@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I will look into/start working on this. I will let you know once I have more information. Kind regards, Person2, RN",
+      "id": 9
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I will look into/start working on this.",
+      "id": "9_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "9_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will look into/start working",
+      "id": "9_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "on this.",
+      "id": "9_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I will let you know once I have more information.",
+      "id": "9_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will let you know",
+      "id": "9_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "once I have",
+      "id": "9_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "more information.",
+      "id": "9_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Kind regards, Person2, RN",
+      "id": "9_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Kind regards,",
+      "id": "9_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "9_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "RN",
+      "id": "9_2_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 9,
+      "target": "9_0"
+    },
+    {
+      "source": 9,
+      "target": "9_1"
+    },
+    {
+      "source": 9,
+      "target": "9_2"
+    },
+    {
+      "source": "9_0",
+      "target": "9_0_0"
+    },
+    {
+      "source": "9_0",
+      "target": "9_0_1"
+    },
+    {
+      "source": "9_0",
+      "target": "9_0_2"
+    },
+    {
+      "source": "9_1",
+      "target": "9_1_0"
+    },
+    {
+      "source": "9_1",
+      "target": "9_1_1"
+    },
+    {
+      "source": "9_1",
+      "target": "9_1_2"
+    },
+    {
+      "source": "9_2",
+      "target": "9_2_0"
+    },
+    {
+      "source": "9_2",
+      "target": "9_2_1"
+    },
+    {
+      "source": "9_2",
+      "target": "9_2_2"
+    }
+  ]
+}

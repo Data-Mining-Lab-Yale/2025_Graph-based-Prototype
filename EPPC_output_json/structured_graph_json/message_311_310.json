@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you we will watch for the lab results. Glad your feeling better.",
+      "id": 310
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you we will watch for the lab results.",
+      "id": "310_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you we will watch",
+      "id": "310_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "for the lab results.",
+      "id": "310_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Glad your feeling better.",
+      "id": "310_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Glad your feeling better.",
+      "id": "310_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 310,
+      "target": "310_0"
+    },
+    {
+      "source": 310,
+      "target": "310_1"
+    },
+    {
+      "source": "310_0",
+      "target": "310_0_0"
+    },
+    {
+      "source": "310_0",
+      "target": "310_0_1"
+    },
+    {
+      "source": "310_1",
+      "target": "310_1_0"
+    }
+  ]
+}

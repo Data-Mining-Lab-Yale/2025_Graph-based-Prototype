@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 I taking 2 pills of the dextramethsone 4mg each. There are 16 pills do I take for more than today?",
+      "id": 688
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 I taking 2 pills of the dextramethsone 4mg each.",
+      "id": "688_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 I taking 2 pills of the dextramethsone 4mg each.",
+      "id": "688_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "There are 16 pills do I take for more than today?",
+      "id": "688_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "There are",
+      "id": "688_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "16 pills do I take for more than today?",
+      "id": "688_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 688,
+      "target": "688_0"
+    },
+    {
+      "source": 688,
+      "target": "688_1"
+    },
+    {
+      "source": "688_0",
+      "target": "688_0_0"
+    },
+    {
+      "source": "688_1",
+      "target": "688_1_0"
+    },
+    {
+      "source": "688_1",
+      "target": "688_1_1"
+    }
+  ]
+}

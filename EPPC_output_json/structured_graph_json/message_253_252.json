@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 spoke to Dr. Person2 this morning who recommend you come in tomorrow for your post op and  drain removal. Any questions give the office a call to speak with her XXX-XXX-XXXX",
+      "id": 252
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 spoke to Dr. Person2 this morning who recommend you come in tomorrow for your post op and  drain removal.",
+      "id": "252_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 spoke to Dr. Person2 this morning who recommend",
+      "id": "252_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you come",
+      "id": "252_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "in tomorrow for your post op and  drain",
+      "id": "252_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "removal.",
+      "id": "252_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Any questions give the office a call to speak with her XXX-XXX-XXXX",
+      "id": "252_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Any questions give the office a call to speak",
+      "id": "252_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with her XXX-XXX-XXXX",
+      "id": "252_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 252,
+      "target": "252_0"
+    },
+    {
+      "source": 252,
+      "target": "252_1"
+    },
+    {
+      "source": "252_0",
+      "target": "252_0_0"
+    },
+    {
+      "source": "252_0",
+      "target": "252_0_1"
+    },
+    {
+      "source": "252_0",
+      "target": "252_0_2"
+    },
+    {
+      "source": "252_0",
+      "target": "252_0_3"
+    },
+    {
+      "source": "252_1",
+      "target": "252_1_0"
+    },
+    {
+      "source": "252_1",
+      "target": "252_1_1"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi,    The insurance is driving me nuts. I did as they asked, but now they will not approve to fill only a 10 day supply. It has to be 90 days, would you mind sending in a 90 day supply script to the CVS in Org2 please? Thank you, Person1",
+      "id": 272
+    },
+    {
+      "label": "sentence",
+      "text": "Hi,    The insurance is driving me nuts.",
+      "id": "272_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "272_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "The insurance is driving me nuts.",
+      "id": "272_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I did as they asked, but now they will not approve to fill only a 10 day supply.",
+      "id": "272_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I did as they asked",
+      "id": "272_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but now they will not approve",
+      "id": "272_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to fill only a 10 day supply.",
+      "id": "272_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "It has to be 90 days, would you mind sending in a 90 day supply script to the CVS in Org2 please?",
+      "id": "272_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "It has",
+      "id": "272_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to be 90 days,",
+      "id": "272_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "would you mind sending in a 90 day supply script to the CVS in Org2 please?",
+      "id": "272_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1",
+      "id": "272_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "272_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "272_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 272,
+      "target": "272_0"
+    },
+    {
+      "source": 272,
+      "target": "272_1"
+    },
+    {
+      "source": 272,
+      "target": "272_2"
+    },
+    {
+      "source": 272,
+      "target": "272_3"
+    },
+    {
+      "source": "272_0",
+      "target": "272_0_0"
+    },
+    {
+      "source": "272_0",
+      "target": "272_0_1"
+    },
+    {
+      "source": "272_1",
+      "target": "272_1_0"
+    },
+    {
+      "source": "272_1",
+      "target": "272_1_1"
+    },
+    {
+      "source": "272_1",
+      "target": "272_1_2"
+    },
+    {
+      "source": "272_2",
+      "target": "272_2_0"
+    },
+    {
+      "source": "272_2",
+      "target": "272_2_1"
+    },
+    {
+      "source": "272_2",
+      "target": "272_2_2"
+    },
+    {
+      "source": "272_3",
+      "target": "272_3_0"
+    },
+    {
+      "source": "272_3",
+      "target": "272_3_1"
+    }
+  ]
+}

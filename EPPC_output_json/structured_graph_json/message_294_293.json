@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi,    Will I be doing bloodwork before my appointment next MM/DD/YYYY? My last pill in the cycle is MM/DD/YYYY, MM/DD/YYYY. Thank you, Person1",
+      "id": 293
+    },
+    {
+      "label": "sentence",
+      "text": "Hi,    Will I be doing bloodwork before my appointment next MM/DD/YYYY?",
+      "id": "293_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "293_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Will I be doing bloodwork before my appointment next MM/DD/YYYY?",
+      "id": "293_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "My last pill in the cycle is MM/DD/YYYY, MM/DD/YYYY.",
+      "id": "293_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "My last pill in the cycle is MM/DD/YYYY,",
+      "id": "293_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY.",
+      "id": "293_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1",
+      "id": "293_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "293_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "293_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 293,
+      "target": "293_0"
+    },
+    {
+      "source": 293,
+      "target": "293_1"
+    },
+    {
+      "source": 293,
+      "target": "293_2"
+    },
+    {
+      "source": "293_0",
+      "target": "293_0_0"
+    },
+    {
+      "source": "293_0",
+      "target": "293_0_1"
+    },
+    {
+      "source": "293_1",
+      "target": "293_1_0"
+    },
+    {
+      "source": "293_1",
+      "target": "293_1_1"
+    },
+    {
+      "source": "293_2",
+      "target": "293_2_0"
+    },
+    {
+      "source": "293_2",
+      "target": "293_2_1"
+    }
+  ]
+}

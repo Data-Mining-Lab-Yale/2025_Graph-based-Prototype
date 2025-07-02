@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr. Person1,    Hope you and your family are doing well. I have a close friend who had a hysterectomy, cancer, removed three weeks ago at Org4. She now wants to change any further concerns, such as she was told radiation. Can you tell me how to get her records over to your facility and recommend a good radiology specialist she can see to discuss further.",
+      "id": 663
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr. Person1,    Hope you and your family are doing well.",
+      "id": "663_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr. Person1,",
+      "id": "663_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hope you and your family",
+      "id": "663_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "are doing",
+      "id": "663_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "well.",
+      "id": "663_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I have a close friend who had a hysterectomy, cancer, removed three weeks ago at Org4.",
+      "id": "663_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have a close friend who had",
+      "id": "663_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a hysterectomy,",
+      "id": "663_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "cancer",
+      "id": "663_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "removed",
+      "id": "663_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "three weeks ago at Org4.",
+      "id": "663_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "She now wants to change any further concerns, such as she was told radiation.",
+      "id": "663_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "She now wants to change any further concerns,",
+      "id": "663_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "such as she was told",
+      "id": "663_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "radiation.",
+      "id": "663_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Can you tell me how to get her records over to your facility and recommend a good radiology specialist she can see to discuss further.",
+      "id": "663_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can you tell me how to get her records over to your facility and recommend",
+      "id": "663_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a good radiology specialist she can see",
+      "id": "663_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to discuss further.",
+      "id": "663_3_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 663,
+      "target": "663_0"
+    },
+    {
+      "source": 663,
+      "target": "663_1"
+    },
+    {
+      "source": 663,
+      "target": "663_2"
+    },
+    {
+      "source": 663,
+      "target": "663_3"
+    },
+    {
+      "source": "663_0",
+      "target": "663_0_0"
+    },
+    {
+      "source": "663_0",
+      "target": "663_0_1"
+    },
+    {
+      "source": "663_0",
+      "target": "663_0_2"
+    },
+    {
+      "source": "663_0",
+      "target": "663_0_3"
+    },
+    {
+      "source": "663_1",
+      "target": "663_1_0"
+    },
+    {
+      "source": "663_1",
+      "target": "663_1_1"
+    },
+    {
+      "source": "663_1",
+      "target": "663_1_2"
+    },
+    {
+      "source": "663_1",
+      "target": "663_1_3"
+    },
+    {
+      "source": "663_1",
+      "target": "663_1_4"
+    },
+    {
+      "source": "663_2",
+      "target": "663_2_0"
+    },
+    {
+      "source": "663_2",
+      "target": "663_2_1"
+    },
+    {
+      "source": "663_2",
+      "target": "663_2_2"
+    },
+    {
+      "source": "663_3",
+      "target": "663_3_0"
+    },
+    {
+      "source": "663_3",
+      "target": "663_3_1"
+    },
+    {
+      "source": "663_3",
+      "target": "663_3_2"
+    }
+  ]
+}

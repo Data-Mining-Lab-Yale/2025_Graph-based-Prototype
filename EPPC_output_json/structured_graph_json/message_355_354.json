@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I just heard that I am eligible for the COVID vaccine Where can I go and are u recommending for me",
+      "id": 354
+    },
+    {
+      "label": "sentence",
+      "text": "I just heard that I am eligible for the COVID vaccine Where can I go and are u recommending for me",
+      "id": "354_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I just heard that I am",
+      "id": "354_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "eligible for the COVID vaccine Where can I go",
+      "id": "354_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and are u recommending",
+      "id": "354_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "for me",
+      "id": "354_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 354,
+      "target": "354_0"
+    },
+    {
+      "source": "354_0",
+      "target": "354_0_0"
+    },
+    {
+      "source": "354_0",
+      "target": "354_0_1"
+    },
+    {
+      "source": "354_0",
+      "target": "354_0_2"
+    },
+    {
+      "source": "354_0",
+      "target": "354_0_3"
+    }
+  ]
+}

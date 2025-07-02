@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 i have noticed my kidney area on both right and left seem to ache. Its all day and have not felt this before. Its been about a week now.",
+      "id": 306
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 i have noticed my kidney area on both right and left seem to ache.",
+      "id": "306_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 i have noticed my kidney area on both right and left seem",
+      "id": "306_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to ache.",
+      "id": "306_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Its all day and have not felt this before.",
+      "id": "306_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Its all day and have not felt",
+      "id": "306_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "this before.",
+      "id": "306_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Its been about a week now.",
+      "id": "306_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Its been about a week now.",
+      "id": "306_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 306,
+      "target": "306_0"
+    },
+    {
+      "source": 306,
+      "target": "306_1"
+    },
+    {
+      "source": 306,
+      "target": "306_2"
+    },
+    {
+      "source": "306_0",
+      "target": "306_0_0"
+    },
+    {
+      "source": "306_0",
+      "target": "306_0_1"
+    },
+    {
+      "source": "306_1",
+      "target": "306_1_0"
+    },
+    {
+      "source": "306_1",
+      "target": "306_1_1"
+    },
+    {
+      "source": "306_2",
+      "target": "306_2_0"
+    }
+  ]
+}

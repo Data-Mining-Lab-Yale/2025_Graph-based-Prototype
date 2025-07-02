@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi, I coming in on MM/DD/YYYY, but just in case I forget to ask. The pharmacy still hasn filled the prescription for Tramadol, and won because they are awaiting some approval.",
+      "id": 267
+    },
+    {
+      "label": "sentence",
+      "text": "Hi, I coming in on MM/DD/YYYY, but just in case I forget to ask.",
+      "id": "267_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "267_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I coming in on MM/DD/YYYY,",
+      "id": "267_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but just in case I forget",
+      "id": "267_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to ask.",
+      "id": "267_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "The pharmacy still hasn filled the prescription for Tramadol, and won because they are awaiting some approval.",
+      "id": "267_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "The pharmacy still hasn filled the prescription for Tramadol,",
+      "id": "267_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and won",
+      "id": "267_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "because they are awaiting",
+      "id": "267_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "some approval.",
+      "id": "267_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 267,
+      "target": "267_0"
+    },
+    {
+      "source": 267,
+      "target": "267_1"
+    },
+    {
+      "source": "267_0",
+      "target": "267_0_0"
+    },
+    {
+      "source": "267_0",
+      "target": "267_0_1"
+    },
+    {
+      "source": "267_0",
+      "target": "267_0_2"
+    },
+    {
+      "source": "267_0",
+      "target": "267_0_3"
+    },
+    {
+      "source": "267_1",
+      "target": "267_1_0"
+    },
+    {
+      "source": "267_1",
+      "target": "267_1_1"
+    },
+    {
+      "source": "267_1",
+      "target": "267_1_2"
+    },
+    {
+      "source": "267_1",
+      "target": "267_1_3"
+    }
+  ]
+}

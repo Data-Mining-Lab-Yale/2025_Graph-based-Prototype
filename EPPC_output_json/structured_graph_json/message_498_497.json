@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you - I did notify Dr. Kluger- I know you also sent to Dr. Person1 so lets see what he advises.. let me  know if you do not get a response. Thank you Person2",
+      "id": 497
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you - I did notify Dr. Kluger- I know you also sent to Dr. Person1 so lets see what he advises.. let me  know if you do not get a response.",
+      "id": "497_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank",
+      "id": "497_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you - I did notify Dr. Kluger- I know",
+      "id": "497_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you also sent",
+      "id": "497_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to Dr. Person1 so lets",
+      "id": "497_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "see",
+      "id": "497_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "what he advises",
+      "id": "497_0_5"
+    },
+    {
+      "label": "subsentence",
+      "text": ".. let me  know",
+      "id": "497_0_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "if you do not get",
+      "id": "497_0_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "a response.",
+      "id": "497_0_8"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you Person2",
+      "id": "497_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you Person2",
+      "id": "497_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 497,
+      "target": "497_0"
+    },
+    {
+      "source": 497,
+      "target": "497_1"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_0"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_1"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_2"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_3"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_4"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_5"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_6"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_7"
+    },
+    {
+      "source": "497_0",
+      "target": "497_0_8"
+    },
+    {
+      "source": "497_1",
+      "target": "497_1_0"
+    }
+  ]
+}

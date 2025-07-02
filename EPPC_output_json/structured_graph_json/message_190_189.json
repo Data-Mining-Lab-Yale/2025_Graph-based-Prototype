@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    Good seeing you yesterday. I forgot to ask a you question concerning when I should get my next Covid booster shot? I had two this year (both Person2) one in MM/DD/YYYY and the other in MM/DD/YYYY. When would you recommend I get another one? Thank you,  Person3",
+      "id": 189
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    Good seeing you yesterday.",
+      "id": "189_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "189_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good seeing you yesterday.",
+      "id": "189_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I forgot to ask a you question concerning when I should get my next Covid booster shot?",
+      "id": "189_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I forgot to ask a you question concerning when I should get",
+      "id": "189_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my next Covid booster shot",
+      "id": "189_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I had two this year (both Person2) one in MM/DD/YYYY and the other in MM/DD/YYYY.",
+      "id": "189_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had two this year (both Person2) one in MM/DD/YYYY and the other",
+      "id": "189_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in MM/DD/YYYY.",
+      "id": "189_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "When would you recommend I get another one?",
+      "id": "189_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "When would you recommend I get",
+      "id": "189_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "another one?",
+      "id": "189_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,  Person3",
+      "id": "189_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "189_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "189_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 189,
+      "target": "189_0"
+    },
+    {
+      "source": 189,
+      "target": "189_1"
+    },
+    {
+      "source": 189,
+      "target": "189_2"
+    },
+    {
+      "source": 189,
+      "target": "189_3"
+    },
+    {
+      "source": 189,
+      "target": "189_4"
+    },
+    {
+      "source": "189_0",
+      "target": "189_0_0"
+    },
+    {
+      "source": "189_0",
+      "target": "189_0_1"
+    },
+    {
+      "source": "189_1",
+      "target": "189_1_0"
+    },
+    {
+      "source": "189_1",
+      "target": "189_1_1"
+    },
+    {
+      "source": "189_2",
+      "target": "189_2_0"
+    },
+    {
+      "source": "189_2",
+      "target": "189_2_1"
+    },
+    {
+      "source": "189_3",
+      "target": "189_3_0"
+    },
+    {
+      "source": "189_3",
+      "target": "189_3_1"
+    },
+    {
+      "source": "189_4",
+      "target": "189_4_0"
+    },
+    {
+      "source": "189_4",
+      "target": "189_4_1"
+    }
+  ]
+}

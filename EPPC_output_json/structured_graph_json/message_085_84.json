@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Doctor,    Could you please send the pet scan report to Person1 , doctor Person2 assistant. Her email address is: address@email.com. The good doctor is swamped in a emails and she wants to make sure he sees it    Best",
+      "id": 84
+    },
+    {
+      "label": "sentence",
+      "text": "Doctor,    Could you please send the pet scan report to Person1 , doctor Person2 assistant.",
+      "id": "84_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Doctor,",
+      "id": "84_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Could you please send",
+      "id": "84_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the pet scan report to Person1 ,",
+      "id": "84_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "doctor Person2 assistant.",
+      "id": "84_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Her email address is: address@email.com.",
+      "id": "84_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Her email address is: address@email.com.",
+      "id": "84_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "The good doctor is swamped in a emails and she wants to make sure he sees it    Best",
+      "id": "84_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "The good doctor is swamped in a emails and she wants",
+      "id": "84_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to make sure",
+      "id": "84_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "he sees",
+      "id": "84_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it    Best",
+      "id": "84_2_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 84,
+      "target": "84_0"
+    },
+    {
+      "source": 84,
+      "target": "84_1"
+    },
+    {
+      "source": 84,
+      "target": "84_2"
+    },
+    {
+      "source": "84_0",
+      "target": "84_0_0"
+    },
+    {
+      "source": "84_0",
+      "target": "84_0_1"
+    },
+    {
+      "source": "84_0",
+      "target": "84_0_2"
+    },
+    {
+      "source": "84_0",
+      "target": "84_0_3"
+    },
+    {
+      "source": "84_1",
+      "target": "84_1_0"
+    },
+    {
+      "source": "84_2",
+      "target": "84_2_0"
+    },
+    {
+      "source": "84_2",
+      "target": "84_2_1"
+    },
+    {
+      "source": "84_2",
+      "target": "84_2_2"
+    },
+    {
+      "source": "84_2",
+      "target": "84_2_3"
+    }
+  ]
+}

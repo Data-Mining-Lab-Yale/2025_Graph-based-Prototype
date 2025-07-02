@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Doctor,    I was in contact with Dr  Person1. He concurs with you re not restarting Lupron. He wants to redo a scan early MM/DD/YYYY (date of my yearly visits) to assess evolution in the 2 newly spot nodal issues, then will decide on what next steps will be. He is not concerned about the renal cysts as possibly cancerous. Best",
+      "id": 93
+    },
+    {
+      "label": "sentence",
+      "text": "Doctor,    I was in contact with Dr  Person1.",
+      "id": "93_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Doctor,",
+      "id": "93_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was in contact with Dr  Person1.",
+      "id": "93_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "He concurs with you re not restarting Lupron.",
+      "id": "93_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "He concurs with you re not restarting Lupron.",
+      "id": "93_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "He wants to redo a scan early MM/DD/YYYY (date of my yearly visits) to assess evolution in the 2 newly spot nodal issues, then will decide on what next steps will be.",
+      "id": "93_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "He wants",
+      "id": "93_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to redo a scan early MM/DD/YYYY (date of my yearly visits) to assess",
+      "id": "93_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "evolution in the 2 newly spot nodal issues,",
+      "id": "93_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "then will decide on what next steps will be.",
+      "id": "93_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "He is not concerned about the renal cysts as possibly cancerous.",
+      "id": "93_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "He is not concerned about the renal cysts",
+      "id": "93_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "as possibly cancerous",
+      "id": "93_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Best",
+      "id": "93_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best",
+      "id": "93_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 93,
+      "target": "93_0"
+    },
+    {
+      "source": 93,
+      "target": "93_1"
+    },
+    {
+      "source": 93,
+      "target": "93_2"
+    },
+    {
+      "source": 93,
+      "target": "93_3"
+    },
+    {
+      "source": 93,
+      "target": "93_4"
+    },
+    {
+      "source": "93_0",
+      "target": "93_0_0"
+    },
+    {
+      "source": "93_0",
+      "target": "93_0_1"
+    },
+    {
+      "source": "93_1",
+      "target": "93_1_0"
+    },
+    {
+      "source": "93_2",
+      "target": "93_2_0"
+    },
+    {
+      "source": "93_2",
+      "target": "93_2_1"
+    },
+    {
+      "source": "93_2",
+      "target": "93_2_2"
+    },
+    {
+      "source": "93_2",
+      "target": "93_2_3"
+    },
+    {
+      "source": "93_3",
+      "target": "93_3_0"
+    },
+    {
+      "source": "93_3",
+      "target": "93_3_1"
+    },
+    {
+      "source": "93_4",
+      "target": "93_4_0"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  Thanks so much for your reply. See you MM/DD/YYYY. Merry Christmas and a Healthy and Happy New Year to you and your family.",
+      "id": 644
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  Thanks so much for your reply.",
+      "id": "644_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "644_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much for your reply.",
+      "id": "644_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "See you MM/DD/YYYY.",
+      "id": "644_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "See you MM/DD/YYYY.",
+      "id": "644_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Merry Christmas and a Healthy and Happy New Year to you and your family.",
+      "id": "644_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Merry Christmas and a Healthy and Happy",
+      "id": "644_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "New Year",
+      "id": "644_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to you and your family",
+      "id": "644_2_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 644,
+      "target": "644_0"
+    },
+    {
+      "source": 644,
+      "target": "644_1"
+    },
+    {
+      "source": 644,
+      "target": "644_2"
+    },
+    {
+      "source": "644_0",
+      "target": "644_0_0"
+    },
+    {
+      "source": "644_0",
+      "target": "644_0_1"
+    },
+    {
+      "source": "644_1",
+      "target": "644_1_0"
+    },
+    {
+      "source": "644_2",
+      "target": "644_2_0"
+    },
+    {
+      "source": "644_2",
+      "target": "644_2_1"
+    },
+    {
+      "source": "644_2",
+      "target": "644_2_2"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ok to stop the prednisone completely and see how he does-- keep us updated and then we will see  him next week to evaluate the dose of treatment. Thank you Person1",
+      "id": 523
+    },
+    {
+      "label": "sentence",
+      "text": "Ok to stop the prednisone completely and see how he does-- keep us updated and then we will see  him next week to evaluate the dose of treatment.",
+      "id": "523_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok to stop",
+      "id": "523_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the prednisone completely and see",
+      "id": "523_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "how he does-- keep",
+      "id": "523_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "us updated and then we will see",
+      "id": "523_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "him next week to evaluate",
+      "id": "523_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "the dose of treatment.",
+      "id": "523_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you Person1",
+      "id": "523_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you Person1",
+      "id": "523_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 523,
+      "target": "523_0"
+    },
+    {
+      "source": 523,
+      "target": "523_1"
+    },
+    {
+      "source": "523_0",
+      "target": "523_0_0"
+    },
+    {
+      "source": "523_0",
+      "target": "523_0_1"
+    },
+    {
+      "source": "523_0",
+      "target": "523_0_2"
+    },
+    {
+      "source": "523_0",
+      "target": "523_0_3"
+    },
+    {
+      "source": "523_0",
+      "target": "523_0_4"
+    },
+    {
+      "source": "523_0",
+      "target": "523_0_5"
+    },
+    {
+      "source": "523_1",
+      "target": "523_1_0"
+    }
+  ]
+}

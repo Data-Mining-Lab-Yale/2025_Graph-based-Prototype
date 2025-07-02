@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Do i need blood work before I see dr Person1 on MM/DD/YYYY?",
+      "id": 488
+    },
+    {
+      "label": "sentence",
+      "text": "Do i need blood work before I see dr Person1 on MM/DD/YYYY?",
+      "id": "488_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do i need blood work before I see",
+      "id": "488_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "dr Person1 on MM/DD/YYYY?",
+      "id": "488_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 488,
+      "target": "488_0"
+    },
+    {
+      "source": "488_0",
+      "target": "488_0_0"
+    },
+    {
+      "source": "488_0",
+      "target": "488_0_1"
+    }
+  ]
+}

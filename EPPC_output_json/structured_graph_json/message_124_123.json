@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person3, Sorry to hear this is happening. It can be a common side effect of the Taxol. You could soak your toes in a mixture of warm water and vinegar or warm water and peroxide several times a day, keep them dry at other times. Yes, please let Dr Person1 take a look tomorrow. Sincerely, Person2",
+      "id": 123
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person3, Sorry to hear this is happening.",
+      "id": "123_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person3,",
+      "id": "123_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sorry to hear this is happening.",
+      "id": "123_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "It can be a common side effect of the Taxol.",
+      "id": "123_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "It can be a common side effect of the Taxol.",
+      "id": "123_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "You could soak your toes in a mixture of warm water and vinegar or warm water and peroxide several times a day, keep them dry at other times.",
+      "id": "123_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "You could soak your toes in a mixture of warm water and vinegar",
+      "id": "123_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "or warm water",
+      "id": "123_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and peroxide",
+      "id": "123_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "several times a day,",
+      "id": "123_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "keep them dry at other times.",
+      "id": "123_2_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Yes, please let Dr Person1 take a look tomorrow.",
+      "id": "123_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "123_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "please let Dr Person1 take",
+      "id": "123_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a look tomorrow.",
+      "id": "123_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Sincerely, Person2",
+      "id": "123_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sincerely,",
+      "id": "123_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "123_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 123,
+      "target": "123_0"
+    },
+    {
+      "source": 123,
+      "target": "123_1"
+    },
+    {
+      "source": 123,
+      "target": "123_2"
+    },
+    {
+      "source": 123,
+      "target": "123_3"
+    },
+    {
+      "source": 123,
+      "target": "123_4"
+    },
+    {
+      "source": "123_0",
+      "target": "123_0_0"
+    },
+    {
+      "source": "123_0",
+      "target": "123_0_1"
+    },
+    {
+      "source": "123_1",
+      "target": "123_1_0"
+    },
+    {
+      "source": "123_2",
+      "target": "123_2_0"
+    },
+    {
+      "source": "123_2",
+      "target": "123_2_1"
+    },
+    {
+      "source": "123_2",
+      "target": "123_2_2"
+    },
+    {
+      "source": "123_2",
+      "target": "123_2_3"
+    },
+    {
+      "source": "123_2",
+      "target": "123_2_4"
+    },
+    {
+      "source": "123_3",
+      "target": "123_3_0"
+    },
+    {
+      "source": "123_3",
+      "target": "123_3_1"
+    },
+    {
+      "source": "123_3",
+      "target": "123_3_2"
+    },
+    {
+      "source": "123_4",
+      "target": "123_4_0"
+    },
+    {
+      "source": "123_4",
+      "target": "123_4_1"
+    }
+  ]
+}

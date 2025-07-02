@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi G.  Will pick up some olives today. Thanks!",
+      "id": 604
+    },
+    {
+      "label": "sentence",
+      "text": "Hi G.  Will pick up some olives today.",
+      "id": "604_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi G.  Will pick up some olives today.",
+      "id": "604_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "604_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "604_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 604,
+      "target": "604_0"
+    },
+    {
+      "source": 604,
+      "target": "604_1"
+    },
+    {
+      "source": "604_0",
+      "target": "604_0_0"
+    },
+    {
+      "source": "604_1",
+      "target": "604_1_0"
+    }
+  ]
+}

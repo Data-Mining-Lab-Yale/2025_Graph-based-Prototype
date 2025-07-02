@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good Morning   Hope your MM/DD/YYYY is beautiful!! I am doing fine. Should I start my Ibrance today?",
+      "id": 108
+    },
+    {
+      "label": "sentence",
+      "text": "Good Morning   Hope your MM/DD/YYYY is beautiful!!",
+      "id": "108_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good Morning   Hope your MM/DD/YYYY is",
+      "id": "108_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "beautiful!!",
+      "id": "108_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I am doing fine.",
+      "id": "108_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am doing fine.",
+      "id": "108_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Should I start my Ibrance today?",
+      "id": "108_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Should I start my Ibrance today?",
+      "id": "108_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 108,
+      "target": "108_0"
+    },
+    {
+      "source": 108,
+      "target": "108_1"
+    },
+    {
+      "source": 108,
+      "target": "108_2"
+    },
+    {
+      "source": "108_0",
+      "target": "108_0_0"
+    },
+    {
+      "source": "108_0",
+      "target": "108_0_1"
+    },
+    {
+      "source": "108_1",
+      "target": "108_1_0"
+    },
+    {
+      "source": "108_2",
+      "target": "108_2_0"
+    }
+  ]
+}

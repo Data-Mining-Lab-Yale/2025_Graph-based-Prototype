@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Dr. Person1 has sent an order for a new PET scan (attached). He says it is a-okay for Person2 to have it done at G Hosp, considering how difficult it is for Person2 to travel. Please advise me how to submit this to G Hosp, or if you can assist me in doing that. many thanks.",
+      "id": 6
+    },
+    {
+      "label": "sentence",
+      "text": "Dr. Person1 has sent an order for a new PET scan (attached).",
+      "id": "6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person1 has sent an order for a new PET scan (attached",
+      "id": "6_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": ").",
+      "id": "6_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "He says it is a-okay for Person2 to have it done at G Hosp, considering how difficult it is for Person2 to travel.",
+      "id": "6_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "He says it is",
+      "id": "6_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a-okay for Person2 to have",
+      "id": "6_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it done",
+      "id": "6_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "at G Hosp,",
+      "id": "6_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "considering",
+      "id": "6_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "how difficult it is",
+      "id": "6_1_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "for Person2 to travel",
+      "id": "6_1_6"
+    },
+    {
+      "label": "sentence",
+      "text": "Please advise me how to submit this to G Hosp, or if you can assist me in doing that.",
+      "id": "6_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please advise me how to submit this to G Hosp,",
+      "id": "6_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "or if you can assist",
+      "id": "6_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "me in doing that.",
+      "id": "6_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "many thanks.",
+      "id": "6_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "many thanks.",
+      "id": "6_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 6,
+      "target": "6_0"
+    },
+    {
+      "source": 6,
+      "target": "6_1"
+    },
+    {
+      "source": 6,
+      "target": "6_2"
+    },
+    {
+      "source": 6,
+      "target": "6_3"
+    },
+    {
+      "source": "6_0",
+      "target": "6_0_0"
+    },
+    {
+      "source": "6_0",
+      "target": "6_0_1"
+    },
+    {
+      "source": "6_1",
+      "target": "6_1_0"
+    },
+    {
+      "source": "6_1",
+      "target": "6_1_1"
+    },
+    {
+      "source": "6_1",
+      "target": "6_1_2"
+    },
+    {
+      "source": "6_1",
+      "target": "6_1_3"
+    },
+    {
+      "source": "6_1",
+      "target": "6_1_4"
+    },
+    {
+      "source": "6_1",
+      "target": "6_1_5"
+    },
+    {
+      "source": "6_1",
+      "target": "6_1_6"
+    },
+    {
+      "source": "6_2",
+      "target": "6_2_0"
+    },
+    {
+      "source": "6_2",
+      "target": "6_2_1"
+    },
+    {
+      "source": "6_2",
+      "target": "6_2_2"
+    },
+    {
+      "source": "6_3",
+      "target": "6_3_0"
+    }
+  ]
+}

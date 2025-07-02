@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ok great,  thank you.",
+      "id": 152
+    },
+    {
+      "label": "sentence",
+      "text": "Ok great,  thank you.",
+      "id": "152_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok great,",
+      "id": "152_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "thank you.",
+      "id": "152_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 152,
+      "target": "152_0"
+    },
+    {
+      "source": "152_0",
+      "target": "152_0_0"
+    },
+    {
+      "source": "152_0",
+      "target": "152_0_1"
+    }
+  ]
+}

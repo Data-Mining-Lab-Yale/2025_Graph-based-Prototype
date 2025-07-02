@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you.",
+      "id": 174
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you.",
+      "id": "174_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you.",
+      "id": "174_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 174,
+      "target": "174_0"
+    },
+    {
+      "source": "174_0",
+      "target": "174_0_0"
+    }
+  ]
+}

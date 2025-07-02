@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I have not rec'd email message from blood testing lab, but Person1 has MM/DD/YYYY with Dr. Person2 MM/DD/YYYY to discuss revised radio-surgery plan. He will stop by your office afterward. Does Dr. Person3 want Person1 to continue on Meloxicam 15mg tabs?",
+      "id": 14
+    },
+    {
+      "label": "sentence",
+      "text": "I have not rec'd email message from blood testing lab, but Person1 has MM/DD/YYYY with Dr. Person2 MM/DD/YYYY to discuss revised radio-surgery plan.",
+      "id": "14_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have not rec'd email message from blood testing lab,",
+      "id": "14_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but Person1 has",
+      "id": "14_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY with Dr. Person2 MM/DD/YYYY to discuss",
+      "id": "14_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "revised radio-surgery plan.",
+      "id": "14_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "He will stop by your office afterward.",
+      "id": "14_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "He will stop by your office afterward.",
+      "id": "14_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Does Dr. Person3 want Person1 to continue on Meloxicam 15mg tabs?",
+      "id": "14_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Does Dr. Person3 want Person1 to continue",
+      "id": "14_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on Meloxicam 15mg tabs?",
+      "id": "14_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 14,
+      "target": "14_0"
+    },
+    {
+      "source": 14,
+      "target": "14_1"
+    },
+    {
+      "source": 14,
+      "target": "14_2"
+    },
+    {
+      "source": "14_0",
+      "target": "14_0_0"
+    },
+    {
+      "source": "14_0",
+      "target": "14_0_1"
+    },
+    {
+      "source": "14_0",
+      "target": "14_0_2"
+    },
+    {
+      "source": "14_0",
+      "target": "14_0_3"
+    },
+    {
+      "source": "14_1",
+      "target": "14_1_0"
+    },
+    {
+      "source": "14_2",
+      "target": "14_2_0"
+    },
+    {
+      "source": "14_2",
+      "target": "14_2_1"
+    }
+  ]
+}

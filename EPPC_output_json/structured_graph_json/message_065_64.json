@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I have sent a message to Dr. Person1 to ask him to review them and let us know. The white count is lower and also the platelets so we will find out when he wants them repeated. Did you receive them in My Chart? ----- Message ----- From:  Sent:  To: Subject: RE: Test Results Question  Please let me know about blood work How it's From MM/DD/YYYY and now",
+      "id": 64
+    },
+    {
+      "label": "sentence",
+      "text": "I have sent a message to Dr. Person1 to ask him to review them and let us know.",
+      "id": "64_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have sent a message to Dr. Person1 to ask",
+      "id": "64_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "him to review them and let",
+      "id": "64_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "us know",
+      "id": "64_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "The white count is lower and also the platelets so we will find out when he wants them repeated.",
+      "id": "64_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "The white count is lower and also the platelets",
+      "id": "64_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "so we will find",
+      "id": "64_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "out when he wants",
+      "id": "64_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "them repeated",
+      "id": "64_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Did you receive them in My Chart?",
+      "id": "64_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Did you receive them in My Chart?",
+      "id": "64_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "----- Message ----- From:  Sent:  To: Subject: RE: Test Results Question  Please let me know about blood work How it's From MM/DD/YYYY and now",
+      "id": "64_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "----- Message ----- From:  Sent:  To: Subject: RE: Test Results Question  Please let me know",
+      "id": "64_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "about blood work How it's",
+      "id": "64_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "From MM/DD/YYYY and now",
+      "id": "64_3_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 64,
+      "target": "64_0"
+    },
+    {
+      "source": 64,
+      "target": "64_1"
+    },
+    {
+      "source": 64,
+      "target": "64_2"
+    },
+    {
+      "source": 64,
+      "target": "64_3"
+    },
+    {
+      "source": "64_0",
+      "target": "64_0_0"
+    },
+    {
+      "source": "64_0",
+      "target": "64_0_1"
+    },
+    {
+      "source": "64_0",
+      "target": "64_0_2"
+    },
+    {
+      "source": "64_1",
+      "target": "64_1_0"
+    },
+    {
+      "source": "64_1",
+      "target": "64_1_1"
+    },
+    {
+      "source": "64_1",
+      "target": "64_1_2"
+    },
+    {
+      "source": "64_1",
+      "target": "64_1_3"
+    },
+    {
+      "source": "64_2",
+      "target": "64_2_0"
+    },
+    {
+      "source": "64_3",
+      "target": "64_3_0"
+    },
+    {
+      "source": "64_3",
+      "target": "64_3_1"
+    },
+    {
+      "source": "64_3",
+      "target": "64_3_2"
+    }
+  ]
+}

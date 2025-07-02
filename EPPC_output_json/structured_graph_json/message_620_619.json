@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Great",
+      "id": 619
+    },
+    {
+      "label": "sentence",
+      "text": "Great",
+      "id": "619_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Great",
+      "id": "619_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 619,
+      "target": "619_0"
+    },
+    {
+      "source": "619_0",
+      "target": "619_0_0"
+    }
+  ]
+}

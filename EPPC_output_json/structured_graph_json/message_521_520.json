@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I am so sorry to hear that.",
+      "id": 520
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I am so sorry to hear that.",
+      "id": "520_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "520_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am so sorry to hear that.",
+      "id": "520_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 520,
+      "target": "520_0"
+    },
+    {
+      "source": "520_0",
+      "target": "520_0_0"
+    },
+    {
+      "source": "520_0",
+      "target": "520_0_1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Trying to get a earlier time for the bone scan, I will keep you posted",
+      "id": 567
+    },
+    {
+      "label": "sentence",
+      "text": "Trying to get a earlier time for the bone scan, I will keep you posted",
+      "id": "567_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Trying",
+      "id": "567_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to get a earlier time for the bone scan,",
+      "id": "567_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will keep you posted",
+      "id": "567_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 567,
+      "target": "567_0"
+    },
+    {
+      "source": "567_0",
+      "target": "567_0_0"
+    },
+    {
+      "source": "567_0",
+      "target": "567_0_1"
+    },
+    {
+      "source": "567_0",
+      "target": "567_0_2"
+    }
+  ]
+}

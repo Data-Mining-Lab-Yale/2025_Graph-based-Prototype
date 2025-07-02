@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Dr Person1,    I had PSA test done on MM/DD/YYYY. Could you please let me know results. Depending on results there might be a decision to make whether to restart Lupron or do nothing and wait for MRI results which is scheduled for MM/DD/YYYY. Best",
+      "id": 80
+    },
+    {
+      "label": "sentence",
+      "text": "Dr Person1,    I had PSA test done on MM/DD/YYYY.",
+      "id": "80_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr Person1,",
+      "id": "80_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had PSA test done",
+      "id": "80_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "on MM/DD/YYYY.",
+      "id": "80_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Could you please let me know results.",
+      "id": "80_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Could you please let me know",
+      "id": "80_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "results.",
+      "id": "80_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Depending on results there might be a decision to make whether to restart Lupron or do nothing and wait for MRI results which is scheduled for MM/DD/YYYY.",
+      "id": "80_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Depending on results there might be a decision to make whether to restart",
+      "id": "80_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Lupron or do",
+      "id": "80_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "nothing and wait",
+      "id": "80_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "for MRI results which is scheduled",
+      "id": "80_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "for MM/DD/YYYY.",
+      "id": "80_2_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Best",
+      "id": "80_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best",
+      "id": "80_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 80,
+      "target": "80_0"
+    },
+    {
+      "source": 80,
+      "target": "80_1"
+    },
+    {
+      "source": 80,
+      "target": "80_2"
+    },
+    {
+      "source": 80,
+      "target": "80_3"
+    },
+    {
+      "source": "80_0",
+      "target": "80_0_0"
+    },
+    {
+      "source": "80_0",
+      "target": "80_0_1"
+    },
+    {
+      "source": "80_0",
+      "target": "80_0_2"
+    },
+    {
+      "source": "80_1",
+      "target": "80_1_0"
+    },
+    {
+      "source": "80_1",
+      "target": "80_1_1"
+    },
+    {
+      "source": "80_2",
+      "target": "80_2_0"
+    },
+    {
+      "source": "80_2",
+      "target": "80_2_1"
+    },
+    {
+      "source": "80_2",
+      "target": "80_2_2"
+    },
+    {
+      "source": "80_2",
+      "target": "80_2_3"
+    },
+    {
+      "source": "80_2",
+      "target": "80_2_4"
+    },
+    {
+      "source": "80_3",
+      "target": "80_3_0"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Mr. Person1, I spoke to Dr. Person2 today and our clinic secretaries will be calling you to confirm a 4:40 pm appt with Dr. Person2 this MM/DD/YYYY, MM/DD/YYYY, via Person3 video. Sincerely, Person4, RN",
+      "id": 205
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Mr. Person1, I spoke to Dr. Person2 today and our clinic secretaries will be calling you to confirm a 4:40 pm appt with Dr. Person2 this MM/DD/YYYY, MM/DD/YYYY, via Person3 video.",
+      "id": "205_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Mr. Person1,",
+      "id": "205_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I spoke to Dr. Person2 today and our clinic secretaries will be calling",
+      "id": "205_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you to confirm a 4:40 pm appt with Dr. Person2 this MM/DD/YYYY,",
+      "id": "205_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY,",
+      "id": "205_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "via Person3 video.",
+      "id": "205_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Sincerely, Person4, RN",
+      "id": "205_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sincerely,",
+      "id": "205_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person4,",
+      "id": "205_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "RN",
+      "id": "205_1_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 205,
+      "target": "205_0"
+    },
+    {
+      "source": 205,
+      "target": "205_1"
+    },
+    {
+      "source": "205_0",
+      "target": "205_0_0"
+    },
+    {
+      "source": "205_0",
+      "target": "205_0_1"
+    },
+    {
+      "source": "205_0",
+      "target": "205_0_2"
+    },
+    {
+      "source": "205_0",
+      "target": "205_0_3"
+    },
+    {
+      "source": "205_0",
+      "target": "205_0_4"
+    },
+    {
+      "source": "205_1",
+      "target": "205_1_0"
+    },
+    {
+      "source": "205_1",
+      "target": "205_1_1"
+    },
+    {
+      "source": "205_1",
+      "target": "205_1_2"
+    }
+  ]
+}

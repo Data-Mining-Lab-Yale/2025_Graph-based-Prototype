@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Did you just cancel the ct scan I scheduled for MM/DD/YYYY in Org1? Please confirm.",
+      "id": 45
+    },
+    {
+      "label": "sentence",
+      "text": "Did you just cancel the ct scan I scheduled for MM/DD/YYYY in Org1?",
+      "id": "45_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Did you just cancel the ct scan I scheduled",
+      "id": "45_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "for MM/DD/YYYY in Org1?",
+      "id": "45_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Please confirm.",
+      "id": "45_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please confirm.",
+      "id": "45_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 45,
+      "target": "45_0"
+    },
+    {
+      "source": 45,
+      "target": "45_1"
+    },
+    {
+      "source": "45_0",
+      "target": "45_0_0"
+    },
+    {
+      "source": "45_0",
+      "target": "45_0_1"
+    },
+    {
+      "source": "45_1",
+      "target": "45_1_0"
+    }
+  ]
+}

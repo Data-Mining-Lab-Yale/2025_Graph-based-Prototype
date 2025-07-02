@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person2, Sounds good! We will look out for the results! Person3 Person1",
+      "id": 117
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person2, Sounds good!",
+      "id": "117_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "117_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2,",
+      "id": "117_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sounds good!",
+      "id": "117_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "We will look out for the results!",
+      "id": "117_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We will look out for the results!",
+      "id": "117_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person3 Person1",
+      "id": "117_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3 Person1",
+      "id": "117_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 117,
+      "target": "117_0"
+    },
+    {
+      "source": 117,
+      "target": "117_1"
+    },
+    {
+      "source": 117,
+      "target": "117_2"
+    },
+    {
+      "source": "117_0",
+      "target": "117_0_0"
+    },
+    {
+      "source": "117_0",
+      "target": "117_0_1"
+    },
+    {
+      "source": "117_0",
+      "target": "117_0_2"
+    },
+    {
+      "source": "117_1",
+      "target": "117_1_0"
+    },
+    {
+      "source": "117_2",
+      "target": "117_2_0"
+    }
+  ]
+}

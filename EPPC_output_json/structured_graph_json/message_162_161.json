@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Dr Person1, I sent your message on to Dr  Person2",
+      "id": 161
+    },
+    {
+      "label": "sentence",
+      "text": "Dr Person1, I sent your message on to Dr  Person2",
+      "id": "161_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr Person1,",
+      "id": "161_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I sent your message on to Dr  Person2",
+      "id": "161_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 161,
+      "target": "161_0"
+    },
+    {
+      "source": "161_0",
+      "target": "161_0_0"
+    },
+    {
+      "source": "161_0",
+      "target": "161_0_1"
+    }
+  ]
+}

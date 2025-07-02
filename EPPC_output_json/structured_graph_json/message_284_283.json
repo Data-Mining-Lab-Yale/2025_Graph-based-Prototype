@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Great!  Your welcome Kind regards",
+      "id": 283
+    },
+    {
+      "label": "sentence",
+      "text": "Great!",
+      "id": "283_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Great!",
+      "id": "283_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Your welcome Kind regards",
+      "id": "283_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Your welcome Kind regards",
+      "id": "283_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 283,
+      "target": "283_0"
+    },
+    {
+      "source": 283,
+      "target": "283_1"
+    },
+    {
+      "source": "283_0",
+      "target": "283_0_0"
+    },
+    {
+      "source": "283_1",
+      "target": "283_1_0"
+    }
+  ]
+}

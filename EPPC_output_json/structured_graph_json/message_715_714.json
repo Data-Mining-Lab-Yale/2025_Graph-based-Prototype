@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi, just picked up my prescription and the pharmacist talk to me and told me about side effects of blood clotting should I still take my baby aspirin I was diagnosed with anti-phospholipid cardio Lapin years ago that why I take the baby aspirin. Is that a concern for this medication, also considering there may be side effects is it OK if I start the medication on MM/DD/YYYY as I need to work this weekend? Also, is it possible to get an Imodium prescription in case I do experience the diarrhea  Thank you, Person1",
+      "id": 714
+    },
+    {
+      "label": "sentence",
+      "text": "Hi, just picked up my prescription and the pharmacist talk to me and told me about side effects of blood clotting should I still take my baby aspirin I was diagnosed with anti-phospholipid cardio Lapin years ago that why I take the baby aspirin.",
+      "id": "714_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "714_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "just picked up my prescription and the pharmacist talk",
+      "id": "714_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to me and told",
+      "id": "714_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "me about side effects of blood clotting should I still take",
+      "id": "714_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "my baby aspirin I was diagnosed with anti-phospholipid cardio Lapin years ago that why I take",
+      "id": "714_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "the baby aspirin.",
+      "id": "714_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "Is that a concern for this medication, also considering there may be side effects is it OK if I start the medication on MM/DD/YYYY as I need to work this weekend?",
+      "id": "714_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is that a concern for this medication,",
+      "id": "714_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "also considering there may be",
+      "id": "714_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "side effects is",
+      "id": "714_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it OK if I start",
+      "id": "714_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "the medication on MM/DD/YYYY as I need",
+      "id": "714_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "to work this weekend?",
+      "id": "714_1_5"
+    },
+    {
+      "label": "sentence",
+      "text": "Also, is it possible to get an Imodium prescription in case I do experience the diarrhea  Thank you, Person1",
+      "id": "714_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Also,",
+      "id": "714_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "is it possible to get an Imodium prescription in case I do experience the diarrhea  Thank",
+      "id": "714_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you,",
+      "id": "714_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "714_2_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 714,
+      "target": "714_0"
+    },
+    {
+      "source": 714,
+      "target": "714_1"
+    },
+    {
+      "source": 714,
+      "target": "714_2"
+    },
+    {
+      "source": "714_0",
+      "target": "714_0_0"
+    },
+    {
+      "source": "714_0",
+      "target": "714_0_1"
+    },
+    {
+      "source": "714_0",
+      "target": "714_0_2"
+    },
+    {
+      "source": "714_0",
+      "target": "714_0_3"
+    },
+    {
+      "source": "714_0",
+      "target": "714_0_4"
+    },
+    {
+      "source": "714_0",
+      "target": "714_0_5"
+    },
+    {
+      "source": "714_1",
+      "target": "714_1_0"
+    },
+    {
+      "source": "714_1",
+      "target": "714_1_1"
+    },
+    {
+      "source": "714_1",
+      "target": "714_1_2"
+    },
+    {
+      "source": "714_1",
+      "target": "714_1_3"
+    },
+    {
+      "source": "714_1",
+      "target": "714_1_4"
+    },
+    {
+      "source": "714_1",
+      "target": "714_1_5"
+    },
+    {
+      "source": "714_2",
+      "target": "714_2_0"
+    },
+    {
+      "source": "714_2",
+      "target": "714_2_1"
+    },
+    {
+      "source": "714_2",
+      "target": "714_2_2"
+    },
+    {
+      "source": "714_2",
+      "target": "714_2_3"
+    }
+  ]
+}

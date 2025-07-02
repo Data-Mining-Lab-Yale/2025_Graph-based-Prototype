@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good Morning my friends,  Unfortunately I took a nasty slip down five steps MM/DD/YYYY. I am a little bruised. My left hip and tail bone are hurting. I did not skydive or do anything else that was very risky, just slipped down the stairs. Do you think I need X-rays?",
+      "id": 101
+    },
+    {
+      "label": "sentence",
+      "text": "Good Morning my friends,  Unfortunately I took a nasty slip down five steps MM/DD/YYYY.",
+      "id": "101_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good Morning my friends,",
+      "id": "101_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Unfortunately I took a nasty slip down five steps MM/DD/YYYY.",
+      "id": "101_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I am a little bruised.",
+      "id": "101_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am a little bruised.",
+      "id": "101_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "My left hip and tail bone are hurting.",
+      "id": "101_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "My left hip and tail",
+      "id": "101_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "bone are hurting.",
+      "id": "101_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I did not skydive or do anything else that was very risky, just slipped down the stairs.",
+      "id": "101_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I did not skydive",
+      "id": "101_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "or do",
+      "id": "101_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "anything else that was",
+      "id": "101_3_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "very risky,",
+      "id": "101_3_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "just slipped down the stairs.",
+      "id": "101_3_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Do you think I need X-rays?",
+      "id": "101_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do you think I need",
+      "id": "101_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "X-rays?",
+      "id": "101_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 101,
+      "target": "101_0"
+    },
+    {
+      "source": 101,
+      "target": "101_1"
+    },
+    {
+      "source": 101,
+      "target": "101_2"
+    },
+    {
+      "source": 101,
+      "target": "101_3"
+    },
+    {
+      "source": 101,
+      "target": "101_4"
+    },
+    {
+      "source": "101_0",
+      "target": "101_0_0"
+    },
+    {
+      "source": "101_0",
+      "target": "101_0_1"
+    },
+    {
+      "source": "101_1",
+      "target": "101_1_0"
+    },
+    {
+      "source": "101_2",
+      "target": "101_2_0"
+    },
+    {
+      "source": "101_2",
+      "target": "101_2_1"
+    },
+    {
+      "source": "101_3",
+      "target": "101_3_0"
+    },
+    {
+      "source": "101_3",
+      "target": "101_3_1"
+    },
+    {
+      "source": "101_3",
+      "target": "101_3_2"
+    },
+    {
+      "source": "101_3",
+      "target": "101_3_3"
+    },
+    {
+      "source": "101_3",
+      "target": "101_3_4"
+    },
+    {
+      "source": "101_4",
+      "target": "101_4_0"
+    },
+    {
+      "source": "101_4",
+      "target": "101_4_1"
+    }
+  ]
+}

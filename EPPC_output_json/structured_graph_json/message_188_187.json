@@ -1,0 +1,203 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    For my upcoming visit I don see any blood test required? Could you please send an order so I can have blood drawn on MM/DD/YYYY this week. As part of that test, could you also ensure a blood clotting time test is included please. My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin. In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well. Would love to get back on to the Eliquis if I can. Thanks,  Person2",
+      "id": 187
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    For my upcoming visit I don see any blood test required?",
+      "id": "187_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "187_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "For my upcoming visit I don see any blood test required",
+      "id": "187_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Could you please send an order so I can have blood drawn on MM/DD/YYYY this week.",
+      "id": "187_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Could you please send an order so I can have",
+      "id": "187_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "blood drawn on MM/DD/YYYY this week.",
+      "id": "187_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "As part of that test, could you also ensure a blood clotting time test is included please.",
+      "id": "187_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "As part of that test,",
+      "id": "187_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "could you also ensure a blood clotting time test is included",
+      "id": "187_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "please.",
+      "id": "187_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin.",
+      "id": "187_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "My stomach is a mass of hematoma now as a result of the self injecting and this seems",
+      "id": "187_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to be happening because my blood is",
+      "id": "187_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "too thin.",
+      "id": "187_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well.",
+      "id": "187_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well.",
+      "id": "187_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Would love to get back on to the Eliquis if I can.",
+      "id": "187_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Would love to get back on to the Eliquis if I can",
+      "id": "187_5_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person2",
+      "id": "187_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "187_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "187_6_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 187,
+      "target": "187_0"
+    },
+    {
+      "source": 187,
+      "target": "187_1"
+    },
+    {
+      "source": 187,
+      "target": "187_2"
+    },
+    {
+      "source": 187,
+      "target": "187_3"
+    },
+    {
+      "source": 187,
+      "target": "187_4"
+    },
+    {
+      "source": 187,
+      "target": "187_5"
+    },
+    {
+      "source": 187,
+      "target": "187_6"
+    },
+    {
+      "source": "187_0",
+      "target": "187_0_0"
+    },
+    {
+      "source": "187_0",
+      "target": "187_0_1"
+    },
+    {
+      "source": "187_1",
+      "target": "187_1_0"
+    },
+    {
+      "source": "187_1",
+      "target": "187_1_1"
+    },
+    {
+      "source": "187_2",
+      "target": "187_2_0"
+    },
+    {
+      "source": "187_2",
+      "target": "187_2_1"
+    },
+    {
+      "source": "187_2",
+      "target": "187_2_2"
+    },
+    {
+      "source": "187_3",
+      "target": "187_3_0"
+    },
+    {
+      "source": "187_3",
+      "target": "187_3_1"
+    },
+    {
+      "source": "187_3",
+      "target": "187_3_2"
+    },
+    {
+      "source": "187_4",
+      "target": "187_4_0"
+    },
+    {
+      "source": "187_5",
+      "target": "187_5_0"
+    },
+    {
+      "source": "187_6",
+      "target": "187_6_0"
+    },
+    {
+      "source": "187_6",
+      "target": "187_6_1"
+    }
+  ]
+}

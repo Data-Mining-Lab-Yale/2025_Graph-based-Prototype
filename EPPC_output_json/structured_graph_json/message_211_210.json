@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes  Person1",
+      "id": 210
+    },
+    {
+      "label": "sentence",
+      "text": "Yes  Person1",
+      "id": "210_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes  Person1",
+      "id": "210_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 210,
+      "target": "210_0"
+    },
+    {
+      "source": "210_0",
+      "target": "210_0_0"
+    }
+  ]
+}

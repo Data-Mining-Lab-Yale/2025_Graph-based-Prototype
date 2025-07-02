@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I have an appointment with Dr. Person2 next MM/DD/YYYY, the MM/DD/YYYY, to have impressions of my jaw and teeth done prior to my meeting with My oral surgeon, Dr. Person3,  On MM/DD/YYYY, at the Org4 dental clinic. I keep you posted.",
+      "id": 580
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I have an appointment with Dr. Person2 next MM/DD/YYYY, the MM/DD/YYYY, to have impressions of my jaw and teeth done prior to my meeting with My oral surgeon, Dr. Person3,  On MM/DD/YYYY, at the Org4 dental clinic.",
+      "id": "580_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "580_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have an appointment with Dr. Person2 next MM/DD/YYYY,",
+      "id": "580_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the MM/DD/YYYY,",
+      "id": "580_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to have",
+      "id": "580_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "impressions of my jaw and teeth",
+      "id": "580_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "done prior to my meeting with My oral surgeon,",
+      "id": "580_0_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person3,",
+      "id": "580_0_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "On MM/DD/YYYY,",
+      "id": "580_0_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "at the Org4 dental clinic.",
+      "id": "580_0_8"
+    },
+    {
+      "label": "sentence",
+      "text": "I keep you posted.",
+      "id": "580_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I keep you posted",
+      "id": "580_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 580,
+      "target": "580_0"
+    },
+    {
+      "source": 580,
+      "target": "580_1"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_0"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_1"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_2"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_3"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_4"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_5"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_6"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_7"
+    },
+    {
+      "source": "580_0",
+      "target": "580_0_8"
+    },
+    {
+      "source": "580_1",
+      "target": "580_1_0"
+    }
+  ]
+}

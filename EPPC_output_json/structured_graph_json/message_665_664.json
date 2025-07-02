@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  Hope all is well with you and your family. I had my mammogram in MM/DD/YYYY. Do I need to schedule any other appointments with you? Thanks so much.",
+      "id": 664
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  Hope all is well with you and your family.",
+      "id": "664_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "664_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hope all is well with you and your family",
+      "id": "664_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I had my mammogram in MM/DD/YYYY.",
+      "id": "664_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had my mammogram in MM/DD/YYYY.",
+      "id": "664_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Do I need to schedule any other appointments with you?",
+      "id": "664_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do I need to schedule any other appointments with you?",
+      "id": "664_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks so much.",
+      "id": "664_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much.",
+      "id": "664_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 664,
+      "target": "664_0"
+    },
+    {
+      "source": 664,
+      "target": "664_1"
+    },
+    {
+      "source": 664,
+      "target": "664_2"
+    },
+    {
+      "source": 664,
+      "target": "664_3"
+    },
+    {
+      "source": "664_0",
+      "target": "664_0_0"
+    },
+    {
+      "source": "664_0",
+      "target": "664_0_1"
+    },
+    {
+      "source": "664_1",
+      "target": "664_1_0"
+    },
+    {
+      "source": "664_2",
+      "target": "664_2_0"
+    },
+    {
+      "source": "664_3",
+      "target": "664_3_0"
+    }
+  ]
+}

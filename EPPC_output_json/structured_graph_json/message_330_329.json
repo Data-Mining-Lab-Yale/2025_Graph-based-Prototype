@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "We need the other pages to complete this appropriately. We need a copy of the form requesting the  documents to provide them.",
+      "id": 329
+    },
+    {
+      "label": "sentence",
+      "text": "We need the other pages to complete this appropriately.",
+      "id": "329_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "We need the other pages to complete",
+      "id": "329_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "this appropriately.",
+      "id": "329_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We need a copy of the form requesting the  documents to provide them.",
+      "id": "329_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We need a copy of the form requesting the  documents to provide",
+      "id": "329_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "them.",
+      "id": "329_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 329,
+      "target": "329_0"
+    },
+    {
+      "source": 329,
+      "target": "329_1"
+    },
+    {
+      "source": "329_0",
+      "target": "329_0_0"
+    },
+    {
+      "source": "329_0",
+      "target": "329_0_1"
+    },
+    {
+      "source": "329_1",
+      "target": "329_1_0"
+    },
+    {
+      "source": "329_1",
+      "target": "329_1_1"
+    }
+  ]
+}
