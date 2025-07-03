@@ -25,6 +25,37 @@ graph-annotation-prototype/
 
 └── README.md # Project overview
 
+text_to_graph/
+ ├── base.py                # GraphBuilder base class
+
+ ├── dependency.py          # Syntax abstraction
+ 
+ ├── srl.py                 # Semantic abstraction (next)
+ 
+ └── visualize.py           # Graph visualization (robust to label/text)
+  
+scripts/
+
+ ├── run_one_example.py     # Debug single graph
+
+ └── generate_all_graphs.py # Batch over dataset
+
+
+Data/
+
+ ├── subsentence_subcode_labels.json
+
+ └── sentence_subcode_labels.json
+
+outputs/
+ ├── text2graphs_order_json/
+
+ └── text2graphs_order_viz/
+
+run_pipeline.py   # Main script to load text, build, and save graphs
+
+
+
 
 ## 🚀 Getting Started
 
