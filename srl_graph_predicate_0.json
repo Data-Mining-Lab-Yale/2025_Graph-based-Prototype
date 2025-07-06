@@ -1,0 +1,40 @@
+{
+  "graph_type": "semantic_srl",
+  "text": "Dr. Smith sent a PET scan order.",
+  "predicate": "sent",
+  "nodes": [
+    {
+      "id": "n0",
+      "label": "sent",
+      "type": "predicate",
+      "role": "V",
+      "description": "Verb (predicate)"
+    },
+    {
+      "id": "n1",
+      "label": "Dr. Smith",
+      "type": "argument",
+      "role": "ARG0",
+      "description": "Agent (doer of the action)"
+    },
+    {
+      "id": "n3",
+      "label": "a PET scan order",
+      "type": "argument",
+      "role": "ARG1",
+      "description": "Theme (thing affected by the action)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n0",
+      "target": "n1",
+      "label": "ARG0"
+    },
+    {
+      "source": "n0",
+      "target": "n3",
+      "label": "ARG1"
+    }
+  ]
+}
