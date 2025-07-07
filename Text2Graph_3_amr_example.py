@@ -1,41 +1,46 @@
+import amrlib
 import penman
-from amrlib.models.model_factory import load_inference_model
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# === Config ===
-custom_model_path = 'Models/model_parse_xfm_bart_large'
-test_sentence = 'Dr. Smith sent a PET scan order.'
+# Load the AMR parser (STOG) model from local path
+print("Loading AMR parser from local model path...")
+model_path = "Models/model_parse_xfm_bart_large"
+stog = amrlib.load_stog_model(model_dir=model_path)
 
-print("Loading AMR parser from custom path...")
-stog = load_inference_model(custom_model_path)
+# Example sentence
+sentence = "Dr. Smith sent a PET scan order."
 
-# Parse sentence to AMR string
-amr_strings = stog.parse_sents([test_sentence])
-print("\n[AMR Output]")
-print(amr_strings[0])
+# Run parsing
+print(f"\nParsing: {sentence}")
+graphs = stog.parse_sentences([sentence])
 
-# Convert AMR string to Penman graph
-print("\n[Penman Graph]")
-g = penman.decode(amr_strings[0])
-print(g)
+# Output PENMAN graph
+penman_str = graphs[0]
+print("\n[PENMAN Graph]\n", penman_str)
 
-# Convert to networkx graph for visualization
-print("\n[Graph Visualization]")
+# Parse PENMAN string to extract graph
+graph = penman.decode(penman_str)
+triples = graph.triples
+print("\n[Triples]\n", triples)
+
+# --- Build and visualize with NetworkX ---
 G = nx.DiGraph()
-for triple in g.triples:
-    src, rel, tgt = triple
-    G.add_node(src)
-    G.add_node(tgt)
-    G.add_edge(src, tgt, label=rel)
+
+# Add nodes and edges from triples
+for subj, role, obj in triples:
+    G.add_node(subj)
+    G.add_node(obj)
+    G.add_edge(subj, obj, label=role)
 
 # Draw graph
-plt.figure(figsize=(10, 6))
 pos = nx.spring_layout(G)
-nx.draw(G, pos, with_labels=True, node_size=3000, node_color='lightblue', font_size=10, font_weight='bold')
-edge_labels = nx.get_edge_attributes(G, 'label')
-nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=9)
-plt.title("AMR Graph of the Sentence")
-plt.axis('off')
+plt.figure(figsize=(10, 6))
+nx.draw_networkx_nodes(G, pos, node_color="lightblue", node_size=500)
+nx.draw_networkx_labels(G, pos, font_size=10)
+nx.draw_networkx_edges(G, pos, arrows=True)
+nx.draw_networkx_edge_labels(G, pos, edge_labels={(u, v): d["label"] for u, v, d in G.edges(data=True)}, font_color="red")
+plt.title("AMR Graph from Sentence")
+plt.axis("off")
 plt.tight_layout()
 plt.show()
