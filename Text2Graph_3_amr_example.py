@@ -1,46 +1,34 @@
+# Text2Graph_3_amr_example.py
 import amrlib
 import penman
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# Load the AMR parser (STOG) model from local path
-print("Loading AMR parser from local model path...")
-model_path = "Models/model_parse_xfm_bart_large"
-stog = amrlib.load_stog_model(model_dir=model_path)
+# 1. Load model (after placing .tar.gz extracted under amrlib/data/model_stog)
+print("🔄 Loading AMR parser model...")
+stog = amrlib.load_stog_model()
 
-# Example sentence
-sentence = "Dr. Smith sent a PET scan order."
+# 2. Parse
+sent = "Dr. Smith sent a PET scan order."
+graphs = stog.parse_sents([sent])
+print("✅ AMR parse PENMAN style:\n", graphs[0])
 
-# Run parsing
-print(f"\nParsing: {sentence}")
-graphs = stog.parse_sentences([sentence])
+# 3. Convert to JSON-like and visualize
+amr = penman.decode(graphs[0])
+nodes, edges = amr.nodes, amr.edges()
+json_graph = {
+    "nodes": [{ "id": n.node_id, "label": n.target } for n in nodes],
+    "edges": [{ "source": e.source, "target": e.target, "label": e.role } for e in edges]
+}
+print("✅ JSON:", json_graph)
 
-# Output PENMAN graph
-penman_str = graphs[0]
-print("\n[PENMAN Graph]\n", penman_str)
-
-# Parse PENMAN string to extract graph
-graph = penman.decode(penman_str)
-triples = graph.triples
-print("\n[Triples]\n", triples)
-
-# --- Build and visualize with NetworkX ---
+# 4. Visualize with networkx
 G = nx.DiGraph()
-
-# Add nodes and edges from triples
-for subj, role, obj in triples:
-    G.add_node(subj)
-    G.add_node(obj)
-    G.add_edge(subj, obj, label=role)
-
-# Draw graph
+for n in json_graph["nodes"]:
+    G.add_node(n["id"], label=n["label"])
+for e in json_graph["edges"]:
+    G.add_edge(e["source"], e["target"], label=e["label"])
 pos = nx.spring_layout(G)
-plt.figure(figsize=(10, 6))
-nx.draw_networkx_nodes(G, pos, node_color="lightblue", node_size=500)
-nx.draw_networkx_labels(G, pos, font_size=10)
-nx.draw_networkx_edges(G, pos, arrows=True)
-nx.draw_networkx_edge_labels(G, pos, edge_labels={(u, v): d["label"] for u, v, d in G.edges(data=True)}, font_color="red")
-plt.title("AMR Graph from Sentence")
-plt.axis("off")
-plt.tight_layout()
+nx.draw(G, pos, with_labels=True, labels={n["id"]:n["label"] for n in json_graph["nodes"]})
+nx.draw_networkx_edge_labels(G, pos, edge_labels={(e["source"], e["target"]):e["label"] for e in json_graph["edges"]})
 plt.show()

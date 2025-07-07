@@ -1,23 +1,19 @@
-import amrlib
-import penman
+from transformers import BartTokenizer, BartModel
+import torch
 
-# Make sure the model is already extracted here
-custom_model_path = "Models/model_parse_xfm_bart_large"
-print("Loading model from:", custom_model_path)
+# === Replace this with your local model directory ===
+model_dir = "Models/facebook_bart_large"
 
-# This uses amrlib's internal loader
-stog = amrlib.load_stog_model(custom_model_path)
+print("Loading tokenizer and model from local path...")
+tokenizer = BartTokenizer.from_pretrained(model_dir)
+model = BartModel.from_pretrained(model_dir)
 
-# Input example
-sentence = "The doctor ordered a new PET scan for the patient."
-graphs = stog.parse_sentences([sentence])
+# === Try a sample input ===
+sentence = "Dr. Smith sent a PET scan order."
 
-# Print AMR string
-print("\n--- AMR Representation ---")
-print(graphs[0])
+inputs = tokenizer(sentence, return_tensors="pt")
+with torch.no_grad():
+    outputs = model(**inputs)
 
-# Parse and print triples
-g = penman.decode(graphs[0])
-print("\n--- Triples ---")
-for triple in g.triples:
-    print(triple)
+print("\n✅ Model loaded and executed successfully!")
+print("Last hidden state shape:", outputs.last_hidden_state.shape)
