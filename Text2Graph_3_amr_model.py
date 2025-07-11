@@ -1,19 +1,6 @@
-from transformers import BartTokenizer, BartModel
-import torch
+from amrlib.models.parse_xfm.inference import Inference
 
-# === Replace this with your local model directory ===
-model_dir = "Models/facebook_bart_large"
+model_dir = "Models/model_parse_xfm_bart_large"
+base_model_path = "D:/Github/2025_Graph-based-Prototype/bart-large"
 
-print("Loading tokenizer and model from local path...")
-tokenizer = BartTokenizer.from_pretrained(model_dir)
-model = BartModel.from_pretrained(model_dir)
-
-# === Try a sample input ===
-sentence = "Dr. Smith sent a PET scan order."
-
-inputs = tokenizer(sentence, return_tensors="pt")
-with torch.no_grad():
-    outputs = model(**inputs)
-
-print("\n✅ Model loaded and executed successfully!")
-print("Last hidden state shape:", outputs.last_hidden_state.shape)
+stog = Inference(model_dir, model_fn='pytorch_model.bin', tok_name=base_model_path)
