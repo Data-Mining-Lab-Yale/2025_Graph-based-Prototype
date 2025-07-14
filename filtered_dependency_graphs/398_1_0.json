@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "having",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "MRI",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Today",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "He is having an MRI Today at Org2."
+}

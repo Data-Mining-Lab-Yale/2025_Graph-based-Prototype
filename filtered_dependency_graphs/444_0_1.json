@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "trazodone",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "tonight",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "ca",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "find",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "neg",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Drugs",
+  "text": "trazodone for tonight but can't find"
+}

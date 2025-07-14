@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "book",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "CBC",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "prior",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "start",
+      "pos": "VERB",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "dative",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    }
+  ],
+  "label": "SeekingApproval",
+  "text": "should we book a CBC for me prior to start"
+}

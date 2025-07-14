@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "drawn",
+      "pos": "VERB",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I had it drawn"
+}

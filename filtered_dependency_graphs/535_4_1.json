@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "number",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "XXX",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "Person2Let",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "parataxis",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "we number is XXX-XXX-XXXX Person2Let me know"
+}

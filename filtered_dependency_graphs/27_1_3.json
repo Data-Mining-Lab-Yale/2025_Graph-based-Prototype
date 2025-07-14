@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "questions",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "concerns",
+      "pos": "NOUN",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 4
+    }
+  ],
+  "label": "EncourageQuestions",
+  "text": "any other questions or concerns"
+}

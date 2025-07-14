@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "clinic",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 4
+    }
+  ],
+  "label": "Instruction",
+  "text": "just call clinic and get"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "usually",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "restarting",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Do you usually get blood work before restarting?"
+}

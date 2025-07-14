@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "aren",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "enough",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "right",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "Drugs",
+  "text": "just aren enough right now."
+}

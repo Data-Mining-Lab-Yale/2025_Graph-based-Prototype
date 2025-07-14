@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "'s",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "shape",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "neg",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Symptoms",
+  "text": "he's not in shape to get"
+}

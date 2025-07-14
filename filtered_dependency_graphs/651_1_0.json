@@ -1,0 +1,146 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "On",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "appreciate",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "mark",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    }
+  ],
+  "label": "statePreferences",
+  "text": "On my visit with you today I would appreciate it if you could have"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "No",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "calcium",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "vitamins",
+      "pos": "NOUN",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 8
+    }
+  ],
+  "label": "Drugs",
+  "text": "No I am not taking any calcium or vitamins"
+}

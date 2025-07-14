@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "They",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "guide",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Org",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "needed",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "They can guide him to Org if needed"
+}

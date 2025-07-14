@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "level",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "estradiol",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "an estradiol level."
+}

@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "You",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "correct",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 3
+    }
+  ],
+  "label": "Alignment",
+  "text": "You are correct."
+}

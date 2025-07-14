@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Merry",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Christmas",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "Happy",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "Healthy",
+      "pos": "ADJ",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 6
+    }
+  ],
+  "label": "connection",
+  "text": "Merry Christmas and a Happy and Healthy"
+}

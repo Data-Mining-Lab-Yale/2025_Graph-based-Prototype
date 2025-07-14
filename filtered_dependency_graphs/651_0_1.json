@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "possible",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "Is it possible for you to do"
+}

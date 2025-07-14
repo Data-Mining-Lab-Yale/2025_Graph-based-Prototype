@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "sorry",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "sad",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Sadness/fear",
+  "text": "I was sorry to see you so sad"
+}

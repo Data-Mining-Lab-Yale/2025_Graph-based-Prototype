@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "talking",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "MRI",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "brain",
+      "pos": "NOUN",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I am talking about a brain MRI"
+}

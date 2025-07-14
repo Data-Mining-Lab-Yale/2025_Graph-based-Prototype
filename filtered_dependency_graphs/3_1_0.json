@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thank",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    }
+  ],
+  "label": "signoff",
+  "text": "Thank you Person3"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "reported",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "tested",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "I had reported to my work that I tested"
+}

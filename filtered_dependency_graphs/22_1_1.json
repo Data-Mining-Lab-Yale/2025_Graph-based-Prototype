@@ -1,0 +1,206 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "any",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "stations",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "L&M",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "draw",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "appos",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "compound",
+      "source": 18,
+      "target": 17
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1."
+}

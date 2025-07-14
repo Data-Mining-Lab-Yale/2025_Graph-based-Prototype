@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "father",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "developed",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "cough",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "having",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Symptoms",
+  "text": "My father developed a cough today and was having"
+}

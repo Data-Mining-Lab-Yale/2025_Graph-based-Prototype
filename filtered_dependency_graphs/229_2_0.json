@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "appropriate",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "consider",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "eyelid",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "point",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "MakeDecision",
+  "text": "It is appropriate to consider surgery for the eyelid at this point."
+}

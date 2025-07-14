@@ -1,0 +1,146 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "You",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "'re",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "due",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "follow",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 13,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prt",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "SchedulingAppt",
+  "text": "You're due for follow up in MM/DD/YYYY please call"
+}

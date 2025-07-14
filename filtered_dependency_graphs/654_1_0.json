@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "thinking",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Johnson",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "Johnson",
+      "pos": "PROPN",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 6
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "I was thinking of Johnson and Johnson"
+}

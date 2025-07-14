@@ -1,0 +1,156 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "arrival",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "AM",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "9:20",
+      "pos": "NUM",
+      "id": 12
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    }
+  ],
+  "label": "SchedulingAppt",
+  "text": "Is my new time of arrival on MM/DD/YYYY 9:20 AM?"
+}

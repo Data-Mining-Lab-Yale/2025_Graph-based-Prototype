@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "if you received"
+}

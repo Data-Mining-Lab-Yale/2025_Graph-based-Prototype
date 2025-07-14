@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "clinic",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "Org4",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "dental",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "at the Org4 dental clinic."
+}

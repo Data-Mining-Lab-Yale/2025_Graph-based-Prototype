@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Used",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "night",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    }
+  ],
+  "label": "Drugs",
+  "text": "Used last night."
+}

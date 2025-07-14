@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "one",
+      "pos": "NUM",
+      "id": 0
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "fellows",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "case",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 3
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "one of Dr. Person2's fellows."
+}

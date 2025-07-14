@@ -1,0 +1,26 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Just",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "checking",
+      "pos": "VERB",
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "Just checking"
+}

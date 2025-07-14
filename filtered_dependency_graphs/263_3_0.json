@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Kind",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "Regards",
+      "pos": "PROPN",
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    }
+  ],
+  "label": "signoff",
+  "text": "Kind Regards Person2"
+}

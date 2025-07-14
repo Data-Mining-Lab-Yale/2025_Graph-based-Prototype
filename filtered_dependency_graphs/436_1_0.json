@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Could",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "prescribe",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 2
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "statePreferences",
+  "text": "Could you please prescribe this so it is"
+}

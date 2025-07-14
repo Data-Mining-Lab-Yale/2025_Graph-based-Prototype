@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "those",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "shots",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "LOCATION",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "ok can I have those shots at LOCATION?"
+}

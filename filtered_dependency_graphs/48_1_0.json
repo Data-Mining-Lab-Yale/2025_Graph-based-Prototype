@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "may",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "wrong",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "looked",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "I may be wrong but the results looked"
+}

@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Let",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    }
+  ],
+  "label": "maintainCommunication",
+  "text": "Let me know"
+}

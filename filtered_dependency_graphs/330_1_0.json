@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Another",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "page",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "asks",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "documents",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "pathology",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "report",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "Another page asks for the pathology documents or report"
+}

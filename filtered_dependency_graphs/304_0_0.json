@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "release",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "psa",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Please release psa results"
+}

@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "schedule",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "chart",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "calls",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "draw",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "meeting",
+      "pos": "VERB",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 10
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "My my chart visit schedule calls for a blood draw and meeting"
+}

@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "cancel",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "least",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "postpone",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "statePreferences",
+  "text": "I want to cancel or at least postpone"
+}

@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "appt",
+      "pos": "NOUN",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    }
+  ],
+  "label": "SchedulingAppt",
+  "text": "office call you with appt"
+}

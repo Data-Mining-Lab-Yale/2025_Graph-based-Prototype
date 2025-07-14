@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "What",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "mean",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "does",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "What does that mean for me?"
+}

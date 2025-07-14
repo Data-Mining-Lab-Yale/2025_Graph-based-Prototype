@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "additional",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "people",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "speaker",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "phone",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "wish",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "checkingUnderstanding/clarification",
+  "text": "additional people on speaker phone if you wish"
+}

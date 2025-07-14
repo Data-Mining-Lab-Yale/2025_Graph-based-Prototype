@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "spoke",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "said",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "carecoordination",
+  "text": "I spoke with Person3 yesterday and she said"
+}

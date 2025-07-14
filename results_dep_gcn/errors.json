@@ -1,0 +1,2300 @@
+[
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "inviteCollaboration",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "inviteCollaboration",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "build trust",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "inviteCollaboration",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Alignment",
+    "pred_label": "Alignment",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "EconomicStability",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Sadness/fear",
+    "pred_label": "Sadness/fear",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "ExpressConcern/unease",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "statePreferences",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "Alignment",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "signoff",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "build trust",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "signoff",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Instruction",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "statePreferences",
+    "pred_label": "statePreferences",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Alignment",
+    "pred_label": "Alignment",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "AcknowledgeError",
+    "pred_label": "AcknowledgeError",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "PositiveRemarks",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "signoff",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "activeParticipation/involvement",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Alignment",
+    "pred_label": "Alignment",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "maintainCommunication",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SeekingApproval",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Sadness/fear",
+    "pred_label": "Sadness/fear",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Alignment",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SeekingApproval",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "ShareOptions",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Reassurance",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "statePreferences",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Instruction",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "maintainCommunication",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Instruction",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "MakeDecision",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "expressOpinions",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "build trust",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "ApprovalofDecision/Reinforcement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "statePreferences",
+    "pred_label": "statePreferences",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Alignment",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "statePreferences",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SummarizeConfirmUnderstanding",
+    "pred_label": "Alignment",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "ExploreOptions",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SeekingApproval",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SeekingApproval",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Instruction",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "EconomicStability",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SeekingApproval",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "ExploreOptions",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "activeParticipation/involvement",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "maintainCommunication",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "ExpressConcern/unease",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Instruction",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "build trust",
+    "pred_label": "statePreferences",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "NeighborhoodAndBuiltEnvironment",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SummarizeConfirmUnderstanding",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "MakeDecision",
+    "pred_label": "MakeDecision",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "NeighborhoodAndBuiltEnvironment",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "activeParticipation/involvement",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "ExpressConcern/unease",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "MakeDecision",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Instruction",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SeekingApproval",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "EconomicStability",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "statePreferences",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SummarizeConfirmUnderstanding",
+    "pred_label": "statePreferences",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "ExpressConcern/unease",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "MakeDecision",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "statePreferences",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "checkingUnderstanding/clarification",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "SeekingApproval",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Alignment",
+    "pred_label": "Alignment",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Alignment",
+    "pred_label": "Alignment",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "AcknowledgeError",
+    "pred_label": "connection",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Alignment",
+    "pred_label": "Alignment",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "maintainCommunication",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Reassurance",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "ExpressConcern/unease",
+    "pred_label": "ExpressConcern/unease",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "activeParticipation/involvement",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "salutation",
+    "pred_label": "salutation",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Reassurance",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Approval/Reinforcement",
+    "pred_label": "Alignment",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Instruction",
+    "pred_label": "Instruction",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "Reassurance",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "ExploreOptions",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "Alignment",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Reassurance",
+    "pred_label": "Reassurance",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Drugs",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "HealthCareAccessAndQuality",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "statePreferences",
+    "pred_label": "statePreferences",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "NeighborhoodAndBuiltEnvironment",
+    "pred_label": "statePreferences",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "statePreferences",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Approval/Reinforcement",
+    "pred_label": "connection",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "inviteCollaboration",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "SeekingApproval",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "statePreferences",
+    "pred_label": "statePreferences",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "carecoordination",
+    "pred_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "expressOpinions",
+    "pred_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "text": "",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "activeParticipation/involvement",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "signoff",
+    "pred_label": "signoff",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Alignment",
+    "pred_label": "Alignment",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "SchedulingAppt",
+    "pred_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "connection",
+    "pred_label": "connection",
+    "correct": true
+  },
+  {
+    "text": "",
+    "true_label": "Generalinformation",
+    "pred_label": "Generalinformation",
+    "correct": true
+  }
+]

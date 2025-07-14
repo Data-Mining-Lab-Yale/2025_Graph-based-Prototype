@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "result",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "appos",
+      "source": 4,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Do you have the result Person1 ?"
+}

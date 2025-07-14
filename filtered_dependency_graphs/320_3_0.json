@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Other",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "feel",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "than",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "bad",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "neg",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Symptoms",
+  "text": "Other than that i do not feel to bad."
+}

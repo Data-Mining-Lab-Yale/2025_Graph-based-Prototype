@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "sick",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "after",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "couple",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "hours",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    }
+  ],
+  "label": "Symptoms",
+  "text": "sick after a couple of hours."
+}

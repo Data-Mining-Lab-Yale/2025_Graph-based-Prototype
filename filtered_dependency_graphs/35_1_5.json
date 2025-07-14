@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "causes",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "parataxis",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Reassurance",
+  "text": "I know it causes"
+}

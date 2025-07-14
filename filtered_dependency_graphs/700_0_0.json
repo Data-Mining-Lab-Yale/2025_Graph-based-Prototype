@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person-",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Good",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Morning",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    }
+  ],
+  "label": "salutation",
+  "text": "Person- Good Morning."
+}

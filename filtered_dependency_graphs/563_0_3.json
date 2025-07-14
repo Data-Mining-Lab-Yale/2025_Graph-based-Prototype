@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "left",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "already",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "keep",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "they have already left for the day I will keep"
+}

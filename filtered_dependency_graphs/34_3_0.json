@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "son",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "youngest",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "MS",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 5
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "My youngest son has MS."
+}

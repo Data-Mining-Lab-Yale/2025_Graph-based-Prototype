@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "apologize",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "inconvenience",
+      "pos": "NOUN",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "AcknowledgeError",
+  "text": "I apologize for any inconvenience"
+}

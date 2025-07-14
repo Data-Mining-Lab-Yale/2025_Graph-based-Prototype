@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "pharmacy",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "hasn",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "filled",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "prescription",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "Tramadol",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "The pharmacy still hasn filled the prescription for Tramadol,"
+}

@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "note",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 1
+    },
+    {
+      "label": "requests",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Eliquis",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "refill",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "need",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "trip",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "nummod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 11
+    }
+  ],
+  "label": "Drugs",
+  "text": "note two requests for Eliquis refill as need before trip and again"
+}

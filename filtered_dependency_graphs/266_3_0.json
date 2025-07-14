@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "May",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "appointments",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "infusion",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "set",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "up",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "acl",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "prt",
+      "source": 7,
+      "target": 9
+    }
+  ],
+  "label": "SeekingApproval",
+  "text": "May we get the bone infusion appointments set back up?"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Will",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "dose",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "same",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Drugs",
+  "text": "Will I still be taking the same dose,"
+}

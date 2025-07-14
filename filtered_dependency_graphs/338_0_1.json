@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "draw",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "telling",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "only",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "psa",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dative",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "ccomp",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "a blood draw and they are telling me only a psa is"
+}

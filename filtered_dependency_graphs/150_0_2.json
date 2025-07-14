@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "confidence",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "Oncologist",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pcomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "attr",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "build trust",
+  "text": "a confidence in him with him being my Oncologist."
+}

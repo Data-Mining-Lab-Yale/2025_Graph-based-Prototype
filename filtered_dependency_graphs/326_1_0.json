@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "believe",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "I believe i will also need"
+}

@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Your",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "person",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "auxpass",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    }
+  ],
+  "label": "SchedulingAppt",
+  "text": "Your appointment is scheduled for in person."
+}

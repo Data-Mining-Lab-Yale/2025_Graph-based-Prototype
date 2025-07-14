@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "notes",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "biopsy",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "result",
+      "pos": "NOUN",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "carecoordination",
+  "text": "his notes and biopsy result"
+}

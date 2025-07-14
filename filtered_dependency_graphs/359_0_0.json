@@ -1,0 +1,206 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hello",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "schedule",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "Ct",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "Scan",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "Org2",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "follow",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "appt",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "prt",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "amod",
+      "source": 19,
+      "target": 17
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Hello I have a Ct Scan schedule for MM/DD/YYYY in Org2 and a follow up appt"
+}

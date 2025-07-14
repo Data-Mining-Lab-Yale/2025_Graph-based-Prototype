@@ -1,0 +1,4846 @@
+[
+    {
+        "original_id": 0,
+        "input_text": "From Provider: Hi there, 1) He definitely needs/ an appt to review the PET scan with Dr. Person1, Im sorry that wasn't set up earlier, we can set something up for MM/DD/YYYY. In person or telemed? 2) Also , Dr. Person1 would be happy to see you to r/o hemachromatosis, let me know/IS if you need help getting an appt Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi there"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "He definitely needs/"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "be happy to"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "if you need help"
+            }
+        ]
+    },
+    {
+        "original_id": 1,
+        "input_text": "From Patient: Hello Person1! I just set up an appt for me to see Dr. Person2 on Mon. MM/DD/YYYY, 4:30pm. Can Person3 and I make that a combo appt? Or, for Person3, if it's to discuss the test results he / we (Person3 doesn't listen to test results - I do) can do a telephone appt with Dr. Person4 So I am correct to hold off appt with dr. Person5 until PET results are in, yes? THANK YOU for your help! Person6 (for Person3)",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I just set up an appt"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Can Person3 and I make that a combo appt?"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "THANK YOU"
+            }
+        ]
+    },
+    {
+        "original_id": 3,
+        "input_text": "From Provider: Hi, We need to make an office visit for Person1 to review PET scan with Dr. Person2, please let us know what works. Thank you Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you "
+            }
+        ]
+    },
+    {
+        "original_id": 5,
+        "input_text": "From Provider: Hi, Sure, this was faxed MM/DD/YYYY. Take care Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "this was faxed"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Take care"
+            }
+        ]
+    },
+    {
+        "original_id": 6,
+        "input_text": "From Patient: Dr. Person1 has sent an order for a new PET scan (attached). He says it is a-okay for Person2 to have it done at G Hosp, considering how difficult it is for Person2 to travel. Please advise me how to submit this to G Hosp, or if you can assist me in doing that. many thanks. Person3 (Person2's wife)",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "many thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 9,
+        "input_text": "From Provider: Hi Person1, I will look into/start working on this. I will let you know once I have more information. Kind regards, Person2, RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I will let you know once I have more information"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Kind regards"
+            }
+        ]
+    },
+    {
+        "original_id": 11,
+        "input_text": "From Patient: Person1 has done well managing pain while eliminating Oxycontin ER 10mg (as Dr. Person2 was keen Person1 do ASAP). Person1 has been taking Oxycodone HCL 15mg, usually split to 7.5mg, about every MM/DD/YYYY through the day, with MM/DD/YYYY off while sleeping. He needs another 7.5mg every so often, usually MM/DD/YYYY. Person1 needs a refill of Oxycodone HCL by MM/DD/YYYY, Wed. MM/DD/YYYY. Person1 also needs a new Rx for Meloxicam 15mg, if Dr. Person3 wants him to continue taking it. Last, we had a LOCATION appt with Dr. Person4 MM/DD/YYYY. Dr. Person4 asked me to give Dr. Person3 his mobile tel. no. as they have missed each other in MM/DD/YYYY. Dr. Person4: XXX-XXX-XXXX (mob.), XXX-XXX-XXXX (off.) We met with Dr. Person5 MM/DD/YYYY; she will also be in touch with Dr. Person4. Thank you, One and All, Person6",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "has done well managing pain"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "eliminating Oxycontin"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "has been taking Oxycodone"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "needs a refill"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "needs a new Rx"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "if Dr. Person3 wants him to continue taking it"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "We met with Dr. Person5"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "she will also be in touch with Dr. Person4"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 13,
+        "input_text": "From Patient: Hello Person1, thank you and All for your help! Person2 is having a tough day with pain MM/DD/YYYY; he's not in shape to get to the office. I am on the lookout for the permission / patient approval document that is being sent by the blood testing lab. I'll let you know as soon as that is completed. I would like to add one more Rx request: a new script for Lidocaine / Prilocaine cream, please. We are both at the limit of getting \"stuck.\" Most appreciative! One more bit of info for Dr. Person3: Dr. Person4 was speaking with Dr. Person5 (MSKCC) to see if there might be a clinical trial suitable for Person2. Her thinking is that might be a (better?) alternative to radiation, which would be administered only at a palliative level given Person2's previous radiation treatment history. She also told us she expected any chemotherapy Dr. Person3 might determine would be subsequent to radiation (if that is the route we g o). Thanks again, Person6",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "thank you and All for your help!"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "is having a tough day with pain"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "he's not in shape"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I am on the lookout for the permission / patient approval document"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "I would like to add one more Rx request"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Most appreciative!"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Dr. Person4 was speaking with Dr. Person5"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "might be a (better?) alternative"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "She also told us she expected any chemotherapy"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 16,
+        "input_text": "From Provider: Hi, I think I just heard them scheduling Person1 out front for MM/DD/YYYY. I will look into the oxycodone 15mg IR, he got 30 tablets on MM/DD/YYYY how many a day is he taking (I just want to be sure we are ordering enough for MM/DD/YYYY) Also, how is he taking the Eliquis: 5mg a day or twice a day, thanx par Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "scheduling Person1 out front"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "he got  30 tablets"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "how many a day is he taking"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "how is he taking the Eliquis:  5mg a day or twice a day"
+            }
+        ]
+    },
+    {
+        "original_id": 17,
+        "input_text": "From Patient: Hello Person1. Yep, just got a call for MM/DD/YYYY w Dr. B on MM/DD/YYYY. Re Oxy 15mg rapid release: per Dr. Person2's desire and Dr. B agree to get Person3 off Oxy ext release ASAP, and work down to lowest usage Oxy rapid w/o dealing w break through pain, which can be pretty nasty. I've set up Person3's other am, MM/DD/YYYY, pm meds w 7.5mg Oxy 3x diem, with 7.5 Oxy boosters once, twice a day as needed. Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY. 30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter. Re Eliquis: MM/DD/YYYY two 5mg tabs morning and night; MM/DD/YYYY one 5mg am and one 5mg pm. Sig swelling (but improving slightly) swelling of right leg persists. Person3 is tolerating all meds well and following directions. Appetite, a bit of a struggle, as expected; digestion normal (that may become diarrhea as radiation has started MM/DD/YYYY). Dr. B recommends Metamucil 1 tsp 2x diem. Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks. Thanks a ton, Person1, best \u2013 Person4",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Yep, just got a call for MM/DD/YYYY w"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "per Dr. Person2's desire and Dr. B agree to get Person3 off Oxy ext release"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "work down to lowest usage Oxy rapid w/o dealing w break through pain"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "which can be pretty nasty"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I've set up Person3's other"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Re Eliquis: MM/DD/YYYY two 5mg tabs morning and night"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "MM/DD/YYYY one 5mg am and one 5mg pm"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Sig swelling (but improving slightly) swelling of right leg persists"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Person3 is tolerating all meds well and following directions"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Appetite, a bit of a struggle, as expected; digestion normal (that may become diarrhea as radiation has started MM/DD/YYYY)"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Dr. B recommends Metamucil"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks a ton"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "best"
+            }
+        ]
+    },
+    {
+        "original_id": 18,
+        "input_text": "From Provider: Thank you for the clarification, I sent the new Rx off to Dr. Person1, I hope he signs it MM/DD/YYYY but it may not be until MM/DD/YYYY Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I sent the new Rx"
+            }
+        ]
+    },
+    {
+        "original_id": 22,
+        "input_text": "From Provider: Hello, Orders have been entered into the Epic system for lab work. You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1. The pharmacy is pretty quick to get meds out to patients and can do same day delivery if needed. Jessica RN OCN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello,"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Orders have been entered into the Epic system for lab work"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "The pharmacy is pretty quick to get meds out to patients"
+            }
+        ]
+    },
+    {
+        "original_id": 28,
+        "input_text": "From Patient: Hi Person1, Those results came in after I sent the message to the doctor so I am all set. Thanks for getting back to me have a good day",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Those results came in after I sent the message to the doctor"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks for getting back to me"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "have a good day"
+            }
+        ]
+    },
+    {
+        "original_id": 31,
+        "input_text": "From Patient: Hi I had my MM/DD/YYYY bloodwork done MM/DD/YYYY, just checking to see if it is ok to continue this round of Ibrance? Started week three MM/DD/YYYY. Thank you, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I had my MM/DD/YYYY bloodwork done MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "just checking to see if it is ok to continue this round of Ibrance?"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you,"
+            }
+        ]
+    },
+    {
+        "original_id": 33,
+        "input_text": "From Patient: Thank you Person1. I will get the flu shot when I come in next time if that's OK. Dr Person2 was checking on the whooping cough for me to see if it was OK to have it with my WBC and being on I Person3 and my other meds. If so I can ask my Primary if I can get it when I see her on the 26th.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": " I will get the flu shot when I come in next time"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "being on I Person3 and my other meds"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "If so I can ask my Primary if I can get it when I see her"
+            }
+        ]
+    },
+    {
+        "original_id": 35,
+        "input_text": "From Provider: Hi Person1, Ok for you to get the vaccine for whooping cough (tdap) but you will have to do that at your PCP or local pharmacy. It should be safe, hospital is taking every precaution to keep the environment safe, I know it causes concern. Use covid precautions, mask , wash your hands, social distance. Have a great weekend. Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Ok for you to get the vaccine"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Have a great weekend."
+            }
+        ]
+    },
+    {
+        "original_id": 36,
+        "input_text": "From Patient: Thank you!",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you!"
+            }
+        ]
+    },
+    {
+        "original_id": 37,
+        "input_text": "From Provider: Ms. Person1, I had ordered both tumor markers, adding the CEA (just another marker in this situation) to the CA27.29 and agree that the CA27.29 has been a very good marker for you. I was happy to see that this was trending down. We do not have a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to. Take care, RDL ----- Message ----- From: Sent: To: Subject: RE: Visit Follow-Up Question Hi Dr Person2, At our last appointment we discussed getting the cancer antigen test at my next blood work. I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that. A test result for CEA came in but I don't know what that is. I have nothing to compare that to although it appears the numbers pretty high which is concerning. I was wondering if there was a reason for switching to a different test? The 27/29 has been a good indicator for me in the past. Thank you",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I had ordered both tumor markers"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "adding the CEA (just another marker in this situation) to the CA27.29 "
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "I was happy"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "this was trending down."
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "We do not have  a comparison for the CEA"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Take care"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "At our last appointment we discussed getting the cancer antigen test at my next blood work"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "A test result for CEA came in but I don't know what that is."
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "I was wondering if there was a reason"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "The 27/29 has been a good indicator for me in the past"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 42,
+        "input_text": "From Provider: I believe it should be 9am so you have can labs drawn before seeing Dr. Person1. Thank you.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I believe it should be 9am"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "you have can labs drawn before seeing"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 47,
+        "input_text": "From Patient: Good morning! I saw the results of the CT abdomen pelvis test. It mentioned the CT chest results would be in another report. Will that be covered when Dr. Person1 calls me to discuss the test results? Can I expect to see them on my Person2 app Today?",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good morning!"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I saw the results of the CT abdomen pelvis test"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "It mentioned the CT chest results would be in another report."
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Will that be covered when Dr.  Person1 calls me to discuss the test results?"
+            }
+        ]
+    },
+    {
+        "original_id": 51,
+        "input_text": "From Patient: Good morning, My primary, Dr. Person1, has given me the green light to get a covid booster shot. Do I have the Ok from Dr. Person2?",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "My primary, Dr. Person1, has given me the green light to get a covid booster shot."
+            }
+        ]
+    },
+    {
+        "original_id": 53,
+        "input_text": "From Patient: Hi Person1, Thanks for your reply. Much appreciated! Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks for your reply"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Much appreciated!"
+            }
+        ]
+    },
+    {
+        "original_id": 63,
+        "input_text": "From Patient: Please can you tell me about my results good or bad",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Please can you tell me about my results good or bad"
+            }
+        ]
+    },
+    {
+        "original_id": 65,
+        "input_text": "From Provider: I have sent a message to Dr. Person1 to ask him to review them and let us know. The white count is lower and also the platelets so we will find out when he wants them repeated. Did you receive them in My Chart? ----- Message ----- From: Sent: To: Subject: RE: Test Results Question Please let me know about blood work How it's From MM/DD/YYYY and now",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I have sent a message to Dr. Person1 to ask him to review them and let us know"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "The white count is lower and also the platelets"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "so we will find out when he wants them repeated"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Did you receive them in My Chart?"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Please let me know about blood work"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "How it's From MM/DD/YYYY and now"
+            }
+        ]
+    },
+    {
+        "original_id": 66,
+        "input_text": "From Patient: How was my vital on the last blood draw Also How was my blood density or I need to go other place to do it",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "How was my vital on the last blood draw"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Also  How was my blood density"
+            }
+        ]
+    },
+    {
+        "original_id": 69,
+        "input_text": "From Provider: Hi Mr Person1, The test is a Dexa Bone Density Test. This is not a blood test it is a test to see how strong your bones are. I will ask our Clinical Secretary to schedule this and she will call you with the date and time. This test usually takes MM/DD/YYYY to get an appointment which is fine it is not an urgent t est. Let me know if I can help you with anything else. Person2 LOCATION",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "The test is a Dexa Bone Density Test."
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I will ask our Clinical Secretary to schedule this"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "she will call you with the date and time"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "This test usually takes MM/DD/YYYY to get an appointment"
+            }
+        ]
+    },
+    {
+        "original_id": 73,
+        "input_text": "From Provider: PSA in still coming down and this is good. Very glad stopping the beet juice helped your urine. Person1",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "PSA in still coming down"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Very glad stopping the beet juice helped your urine."
+            }
+        ]
+    },
+    {
+        "original_id": 79,
+        "input_text": "From Patient: I have a question about CBC WITH AUTO DIFFERENTIAL resulted on MM/DD/YYYY at MM/DD/YYYY. Can you tell me if my hemoglobin and platelets is goog. Or Should be concerned because drop since the last time",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "I have a question about CBC WITH AUTO DIFFERENTIAL resulted on MM/DD/YYYY at MM/DD/YYYY"
+            }
+        ]
+    },
+    {
+        "original_id": 81,
+        "input_text": "From Patient: Dr Person1, I had PSA test done on MM/DD/YYYY. Could you please let me know results. Depending on results there might be a decision to make whether to restart Lupron or do nothing and wait for MRI results which is scheduled for MM/DD/YYYY. Best",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I had PSA test done"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Could you please let me know results"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Best"
+            }
+        ]
+    },
+    {
+        "original_id": 83,
+        "input_text": "From Patient: Person1, Thank you for this good news Happy Thanksgiving",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you for this good news"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Happy Thanksgiving"
+            }
+        ]
+    },
+    {
+        "original_id": 84,
+        "input_text": "From Provider: My pleasure! Thank you and Happy Thanksgiving to you as well. Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "My pleasure!"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Happy Thanksgiving to you as well."
+            }
+        ]
+    },
+    {
+        "original_id": 85,
+        "input_text": "From Patient: Doctor, Could you please send the pet scan report to Person1 , doctor Person2 assistant. Her email address is: address@email.com. The good doctor is swamped in a emails and she wants to make sure he sees it Best",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Could you please send the pet scan report to Person1 , doctor Person2 assistant"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Her email address is: address@email.com"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Best"
+            }
+        ]
+    },
+    {
+        "original_id": 86,
+        "input_text": "From Provider: Hi Person1, I emailed this today. Person2, RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            }
+        ]
+    },
+    {
+        "original_id": 90,
+        "input_text": "From Provider: Hello Person1, I sent your message to Dr. Person2 to ask her. - Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I sent your message to Dr. Person2 to ask her."
+            }
+        ]
+    },
+    {
+        "original_id": 93,
+        "input_text": "From Provider: Hello Person1, I sent a message to the doctors that read the scan to question this. I compared the impression from the PET from MM/DD/YYYY to the one in MM/DD/YYYY and they are very different wording . I would assume that this is the correct reading for this result and they mean to write \"compared to MM/DD/YYYY\". I am double checking this for you though. I will let you know. - Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I sent a message to the doctors that read the scan to question this"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I compared the impression from the PET  from MM/DD/YYYY to the one in MM/DD/YYYY and they are very  different wording ."
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I would assume that this is the  correct reading for this result"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "they mean to write \"compared  to MM/DD/YYYY\""
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "I am double checking this  for you though"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I will let you know."
+            }
+        ]
+    },
+    {
+        "original_id": 102,
+        "input_text": "From Patient: Good Morning my friends, Unfortunately I took a nasty slip down five steps MM/DD/YYYY. I am a little bruised. My left hip and tail bone are hurting. I did not skydive or do anything else that was very risky, just slipped down the stairs. Do you think I need X-rays? Person1XXX-XXX-XXXX",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good Morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I am a little bruised"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "My left hip and tail bone are hurting"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Do you think I need X-rays?"
+            }
+        ]
+    },
+    {
+        "original_id": 105,
+        "input_text": "From Provider: Sorry to bother you folks. The ED doctor just called. I tested positive for the flu. She is worried about me taking the Ibrance and asked me to give you this message.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Sorry to bother you folks"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "The ED doctor just called"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I tested positive for the flu"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "asked me to give you this message"
+            }
+        ]
+    },
+    {
+        "original_id": 110,
+        "input_text": "From Provider: Hi Person3! Per Person1, as long as you are feeling ok you can go ahead and start Ibrance today! I hope this helps! Best, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "I hope this helps!"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Best"
+            }
+        ]
+    },
+    {
+        "original_id": 112,
+        "input_text": "From Patient: Good Morning Last night I went to the Org2 ED. The consensus is I had asthma attacks. I told them of this pain on my right side. It is intermittent and sharp, located right under my right breast to my right side. They said it may be muscle spasms. I just wanted you to know. I also was prescribed steriods for the asthma. Can I take that with the Ibrance? Should I start Ibrance tonight? Lots of words for a MM/DD/YYYY morning, thank you for your time. Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good Morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "The consensus is I had asthma attacks"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I told them of this pain on my right side"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "It is intermittent and sharp, located right under my right breast to my right side"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "They said it may be muscle spasms"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I also was prescribed steriods for the asthma"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Lots of words for a MM/DD/YYYY morning"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "thank you for your time"
+            }
+        ]
+    },
+    {
+        "original_id": 114,
+        "input_text": "From Provider: Hi, Do you usually get blood work before restarting? Thanks,",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Do you usually get blood work before restarting?"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 116,
+        "input_text": "From Provider: Hi Person1 OK to take the steroids with Ibrance but I dont see any recent cbc to make sure the numbers are good to start Ibrance. Also we can hold off on starting the Ibrance a few days but if you can get a CBC that would be a good place to start G",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I dont see any recent cbc"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "to make sure the numbers are good to start Ibrance"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Also we can hold off on starting the Ibrance"
+            }
+        ]
+    },
+    {
+        "original_id": 117,
+        "input_text": "From Patient: Hi again. I also have super bad heartburn. Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi again"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I also have super bad heartburn"
+            }
+        ]
+    },
+    {
+        "original_id": 122,
+        "input_text": "From Patient: Good evening, It two weeks since I finished chemo & I not sure when this happen , but I have noticed my right big toe has a small amount of puss coming out of it. I did cut my toe nails down a week ago but didn notice any cut. I going to clean it with peroxide and see what happens. I also have an appt with Dr.Person1 on MM/DD/YYYY I can show him at that time also.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good evening"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "It two weeks since I finished chemo"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I not sure when this happen , but I have noticed my right big toe has a small amount of puss coming out of it"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I going to clean it with peroxide and see what happens"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I also have an appt with Dr.Person1 on MM/DD/YYYY I can show him at that time also"
+            }
+        ]
+    },
+    {
+        "original_id": 123,
+        "input_text": "From Provider: Hello Person1 - good news on the CT of the Chest. The lung nodules are totally unchanged - making it very likely that those left behind are benign just like the ones that were removed. Totally stable. All the best, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "good news"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "CT of the Chest"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "The lung nodules are totally unchanged - making it very  likely that those left behind are benign just like the ones that were removed"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "All the best"
+            }
+        ]
+    },
+    {
+        "original_id": 130,
+        "input_text": "From Patient: Ok",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            }
+        ]
+    },
+    {
+        "original_id": 131,
+        "input_text": "From Patient: Good afternoon I hope this message finds you . I forgot to ask during my surgery , will they remove my port as well? I forgot to ask when I met with surgeon. I hope this is something that can be done. I have also faxed my Org1 paperwork, have your office received it? Please let me know so I can have it completed before my surgery MM/DD/YYYY.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good afternoon"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "I hope this message finds you"
+            }
+        ]
+    },
+    {
+        "original_id": 135,
+        "input_text": "From Provider: Hi Person1, I'll check in with Dr. Person2 about getting it removed. Once we get the ok to remove it, we'll get you scheduled with IR for them to take it out. - Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I'll check in with Dr. Person2 about getting it removed"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Once we get the ok to remove it"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "we'll get you scheduled with IR  for them to take it out"
+            }
+        ]
+    },
+    {
+        "original_id": 136,
+        "input_text": "From Patient: Ok",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            }
+        ]
+    },
+    {
+        "original_id": 138,
+        "input_text": "From Provider: Hi Paperwork was completed last week, but awaiting Dr. Person1's signature. I have asked Person2 to send it as soon as it is signed. I put you off work from MM/DD/YYYY to MM/DD/YYYY. Best, Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Paperwork was completed last week, but awaiting Dr. Person1's signature"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I have asked Person2 to send it as  soon as it is signed"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Best"
+            }
+        ]
+    },
+    {
+        "original_id": 142,
+        "input_text": "From Provider: Hi Person1, I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet. He has significantly decreased his clinic time with his promotion. Did the flexeril not help?",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi "
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": " I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "Did the flexeril not help?"
+            }
+        ]
+    },
+    {
+        "original_id": 144,
+        "input_text": "From Patient: Good morning, I just want to confirm with Dr. Person1 that I will just be keeping my CT Scan in 3 months, I am assuming based on my lab results which he was waiting for? Also, if he is satisfied/pleased with the recent result....his thoughts? Thanks, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good morning"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 146,
+        "input_text": "From Patient: Perfect, thank you. Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Perfect"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 150,
+        "input_text": "From Provider: Hi Person1, I will have Person3, APRN sign the orders and send the refill to your pharmacy! Let me know if there is anything else I can help you with! Thanks, Person2, RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I will have Person3, APRN sign the orders"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "Let me know if there is anything else I can help you with!"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 152,
+        "input_text": "From Patient: Ok. And also I would like to request and be seen still by Dr. Person1 as I have developed a confidence in him with him being my Oncologist. If possible, I would also like to speak with him directly. Thank you, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 156,
+        "input_text": "From Patient: I have had pain on the left side of my breast and right above in the chest area. I also have what feels like muscle pain in my shoulder blade area and my upper arm. I think it may be a pulled muscle? Is there anything I can get to help with that pain? I have tried ibuprofen and I tried Gabapentin this morning, but the pain is still there and is really affecting my days. I also feel a little tingling in my upper arm at times. Could you give me some suggestions or let me know if there is anything I can take to help this? It has been going on for about 4 days now. Thanks, Person1",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I have had pain on the left side of my breast and right above in the chest area"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I also have what feels like muscle pain in my shoulder blade area and my upper arm"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I have tried ibuprofen and I tried Gabapentin this morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "the pain is still there"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I also feel a little tingling in my upper arm at times"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "It has been going on for about 4 days now"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 159,
+        "input_text": "From Patient: I was wondering if you could send a refill in for me for my Oxycodone to Org2 in Org2? If you could, please let me know when this is sent over to the pharmacy. Thank you, Person1",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "I was wondering if you could send a refill in for me for my Oxycodone to Org2 in Org2?"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 161,
+        "input_text": "From Patient: Thank you",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 164,
+        "input_text": "From Provider: It is Org1 orthopedics in Location and the physical therapist is Person1. I put a referral in for but didn't see the option of the location so it might not work. Call over to them and see what they need from me and we can try to make it happen. The cake was delicious, thoroughly enjoyed by all. Thanks so much again!",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I put a referral in for"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "The cake was delicious, thoroughly enjoyed by all"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks  so much again!"
+            }
+        ]
+    },
+    {
+        "original_id": 169,
+        "input_text": "From Patient: Ok, thanks",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 174,
+        "input_text": "From Patient: Another unproductive week of using the leg massage machine has me rethink your suggestion to consult a vascular surgeon. Recognizing an inevitable delay, would you make a referral now? Thanks.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Another unproductive week of using the leg massage machine"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 175,
+        "input_text": "From Provider: Hi Dr Person1, I sent your message on to DR Person2 and will let you know who she recommends",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I sent your message on to DR  Person2"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "will let you know who she recommends"
+            }
+        ]
+    },
+    {
+        "original_id": 176,
+        "input_text": "From Patient: Thank you.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 177,
+        "input_text": "From Patient: As I traveling immediately following my next visit (MM/DD/YYYY) to Org3, I plan to bring several Covid tests. Perhaps it might be prudent to also have a script for medication, ie Lagevrio- aka molnupiravir. Could you discuss this script with Person2 before my appointment Thanks.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 178,
+        "input_text": "From Patient: Correct me if I wrong- I thought serial CT scans q12 week intervals and repeat MRI q6 months. Both now seem to be scheduled prematurely. I remain asymptomatic, no pain. Your advice please.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Correct me if I wrong"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I thought serial CT scans q12 week intervals and repeat MRI q6 months"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I remain asymptomatic, no pain"
+            }
+        ]
+    },
+    {
+        "original_id": 182,
+        "input_text": "From Patient: Hello Person1, Would you mind making a referral please to a suitable doctor at Org3 that can undertake the above procedure for me. I would prefer to keep these types of procedures within Org3 whenever possible. Many thanks, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Many thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 183,
+        "input_text": "From Provider: Yes, referral is in. Someone should call you to schedule. Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Yes"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "referral is in"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Someone should call you to schedule"
+            }
+        ]
+    },
+    {
+        "original_id": 184,
+        "input_text": "From Provider: Hello Person1, Dr. Person3 can put a referral in for a PT eval with a lymphedema therapist. Have you checked with your cardiologist re your ankle swelling? Thank You Person4 Person2 RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Dr. Person3 can put a referral in for a PT eval with a lymphedema therapist"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "carecoordination",
+                "Span": "Have you checked with your cardiologist re your ankle swelling?"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank You"
+            }
+        ]
+    },
+    {
+        "original_id": 185,
+        "input_text": "From Patient: Thanks. Yes I have and am seeing her again on MM/DD/YYYY. However I can directly relate the swelling to the new drug since it wasn as severe before the switch over. I generally feel better on the new drug just the ankle and foot swelling that is now the issue. Thanks, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Yes I have"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "am seeing her again on MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 186,
+        "input_text": "From Provider: Person1, The PT referral was placed Thanks Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "The PT referral was placed"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 192,
+        "input_text": "From Patient: Thank you!",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you!"
+            }
+        ]
+    },
+    {
+        "original_id": 195,
+        "input_text": "From Provider: Hi Person1, The referral was placed to Org3 Digestive disease. Their number is XXX-XXX-XXXX. I would give them a week to review your case and then call you for an appt. If you do not hear from them by the end of next week. Give them a call. Thanks Person2 RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I would give them a week to review your case and then call you for an appt"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "If you do not hear from them by the end of next week"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 196,
+        "input_text": "From Patient: Thank you Person1.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 199,
+        "input_text": "From Provider: Hi Person1, Patients on PI3 kinase inhibitors like Person2 can get a type of pneumonia called PCP pneumonia. Bactrim is an antibiotic given to prevent this. It is taken as one tablet on MM/DD/YYYY, MM/DD/YYYY, and MM/DD/YYYY. Please pick it up and start it. Let me know if you have any issues with it like rashes or diarrhea . Most people tolerate it fine 3 times per week. I realized you were not on it when I finalized my last note, and I thought I messaged you, but it sounds like I didn't. I apologize for the confusion. Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Patients on PI3 kinase inhibitors like Person2 can get a type of pneumonia called PCP pneumonia"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Bactrim is an antibiotic given to prevent this"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "It is taken as one tablet on"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "Let me know if you have any issues with it like rashes or diarrhea"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Most people tolerate it fine 3 times per week"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "AcknowledgeError",
+                "Span": "I realized you were not on it when I finalized my last note"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "AcknowledgeError",
+                "Span": "I apologize for the confusion"
+            }
+        ]
+    },
+    {
+        "original_id": 200,
+        "input_text": "From Patient: No problem, thank you. I had noticed something going on with my breathing/lungs so this is good.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "No problem"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "thank you"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I had noticed something going on with my breathing/lungs"
+            }
+        ]
+    },
+    {
+        "original_id": 201,
+        "input_text": "From Patient: Hello Person1, The swelling in both lower legs/ankles is chronic and I think it would be helpful if I could see a lymphedema specialist at Org3. Could you please make a referral for me. Much appreciated, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "The swelling in both lower legs/ankles is chronic"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "carecoordination",
+                "Span": "Could you please make a referral for me"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Much appreciated"
+            }
+        ]
+    },
+    {
+        "original_id": 202,
+        "input_text": "From Provider: Person1, The PT referral was placed Thanks Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "The PT referral was placed"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 207,
+        "input_text": "From Provider: Hello Mr. Person1, I spoke to Dr. Person2 today and our clinic secretaries will be calling you to confirm a 4:40 pm appt with Dr. Person2 this MM/DD/YYYY, MM/DD/YYYY, via Person3 video. Sincerely, Person4, RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I spoke to Dr. Person2 today"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "our clinic secretaries will be calling you to confirm a 4:40 pm appt"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Sincerely"
+            }
+        ]
+    },
+    {
+        "original_id": 209,
+        "input_text": "From Patient: Hello, I need a refill for the above. Sent a request previously but nothing has come through. Have one tablet to take today but nothing after that. Please expedite. Thanks, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I need a refill for the above"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Sent a request previously but nothing has come through"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Have one tablet to take today but nothing after that"
+            }
+        ]
+    },
+    {
+        "original_id": 211,
+        "input_text": "From Patient: Thank you. CVS at Org1, Org1?",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 212,
+        "input_text": "From Provider: Yes Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Yes"
+            }
+        ]
+    },
+    {
+        "original_id": 214,
+        "input_text": "From Provider: You're very welcome. I also think she put in an order for an ECHO because she said you haven't had one in a while. Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "You're very welcome"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I also think she put in an order for an ECHO"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "she said you haven't had one in  a while"
+            }
+        ]
+    },
+    {
+        "original_id": 215,
+        "input_text": "From Provider: I sent the email last night, so you should hear back about scheduling by the end of the week. If not, please let me know. Thank you!",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I sent the email last night, so you should hear back about scheduling by the end of the week"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "If not, please let  me know"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you!"
+            }
+        ]
+    },
+    {
+        "original_id": 217,
+        "input_text": "From Patient: Hello Person1, I had the EBUS procedure yesterday and I now scheduled to begin radiation therapy on MM/DD/YYYY for five sessions. Should we bring forward the PET scans planned for MM/DD/YYYY or defer them until after the treatment has ended? I trying to plan a visit to LOCATION for a month or two as soon after the treatment has ended but not sure what we going to be doing about scans now. Thank you, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I had the EBUS procedure yesterday"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I now scheduled to begin radiation therapy on MM/DD/YYYY for five sessions"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 219,
+        "input_text": "From Patient: OK thanks, I will reschedule them. OK if that is some time in MM/DD/YYYY? Thanks, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "OK"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "thanks"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I will reschedule them"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 221,
+        "input_text": "From Patient: Hello Person1, Received a call yesterday concerning the pathology results for a nodule they removed on my vocal chords. It seems they are concerned it could be cancer. Appreciate if you would take a look at the results and let me have your opinion. I interpreting it as early stage throat cancer and presume we are looking at more surgery. They ordered a CT scan of the neck for MM/DD/YYYY and a ENT consultation on MM/DD/YYYY. Am assuming this is my new normal now and that we going to continue to find more of this as time goes by. Seems my immune system is not doing its job at stopping this stuff from occurring? Best regards, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Received a call yesterday concerning the pathology results for a nodule they removed on my vocal chords"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "They ordered a CT scan of the neck for MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "a ENT consultation on MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Best regards"
+            }
+        ]
+    },
+    {
+        "original_id": 222,
+        "input_text": "From Provider: Hi Person1 I asked Dr Person2 to review and here are his thoughts. 1) There is no Melanoma i n any of your lymph nodes that were biopsied. 2) He did review the vocal code pathology and from what he can see, there is no sign of any cancer present. Once MM/DD/YYYY e CT neck is completed, Dr Person2 can review that as well. Let me know if you have any other questions. Thanks! Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I asked Dr Person2 to review and here are his thoughts"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "There is no Melanoma i n any of your lymph nodes that were biopsied"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "He did review the vocal code pathology and from what he can see, there is no sign of any cancer present"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Once MM/DD/YYYY e CT neck is completed"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Dr Person2 can review that as well"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "Let me know if you have any other questions"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks!"
+            }
+        ]
+    },
+    {
+        "original_id": 228,
+        "input_text": "From Patient: Appreciated Person1.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Appreciated"
+            }
+        ]
+    },
+    {
+        "original_id": 238,
+        "input_text": "From Provider: Hi Person1 report from MM/DD/YYYY faxed to Dr Person2 office Person6 Person3 RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "report from MM/DD/YYYY faxed to Dr  Person2 office"
+            }
+        ]
+    },
+    {
+        "original_id": 242,
+        "input_text": "From Patient: Hello Person1. He recommended Zanubrutinib at this time. He had wanted to add me to a trial he running that he said would likely cure me but because of the lung cancer diagnosis I would have to wait two years. I will follow up with him. He was going to fax you and I gave him your fax number. Thanks, Person3",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "He recommended Zanubrutinib at this time"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "He had wanted to add me to a trial he running that he said would likely cure me but because of the lung cancer diagnosis I would have to wait two years"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "He was going to fax you and I gave him your fax number"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 245,
+        "input_text": "From Provider: Hello Person1, The fax number in Dr Person5's office is XXX-XXX-XXXX. I am covering in clinic today for Person2 and will be on the look out, should the fax come through. Thank you, Person3, RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "will be on the look out, should the fax come through"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 246,
+        "input_text": "From Patient: Thanks. Did you receive the fax from Dr. Person1?",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 250,
+        "input_text": "From Patient: Hello Person1, As you suspected, they have confirmed I have an adenocarcinoma with mucinous differentiation in the left lung. I was reading that IPI and NIVO are used to treat this and wondered whether that is something you would consider or would you still prefer that we do the surgery immediately? Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then. Thanks, and a Happy New Year! Person3",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "As you suspected, they have confirmed I have an adenocarcinoma with mucinous differentiation in the left lung"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Happy New Year!"
+            }
+        ]
+    },
+    {
+        "original_id": 253,
+        "input_text": "From Patient: Hi Person1, I forgot to give you my cell number which would be the easiest way to contact me. It is XXX-XXX-XXXX THanks, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "THanks"
+            }
+        ]
+    },
+    {
+        "original_id": 257,
+        "input_text": "From Provider: Hi Person1 Glad I saw you in person and clarify treatment. I was sorry to see you so sad. I will see you next week . Try to have a good evening. I'm in your corner. Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Glad I saw you in person and clarify treatment"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "Sadness/fear",
+                "Span": "I was sorry to see you so sad"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I will see you next week"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Try to have a good evening"
+            }
+        ]
+    },
+    {
+        "original_id": 258,
+        "input_text": "From Patient: Thanks Person1, I felt much better after seeing you and look forward to meeting with Dr Person2 on MM/DD/YYYY. Thanks again for your help and support. Person3",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "I felt much better after seeing you"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "look forward to meeting with Dr  Person2 on MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks again for your help and support"
+            }
+        ]
+    },
+    {
+        "original_id": 260,
+        "input_text": "From Patient: Good Morning, I was in last week for biopsy and US, all good, thank God.......when do I have to come in next for a check up? Thanks, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good Morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I was in last week for biopsy and US"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "all good, thank God......"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "when do I have to come in next for a check up?"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 262,
+        "input_text": "From Patient: Thank you, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 263,
+        "input_text": "From Provider: We were able to move up the imaging let me know if there's any issue! Person1",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "We were able to move up the imaging"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "let me know if there's any issue!"
+            }
+        ]
+    },
+    {
+        "original_id": 266,
+        "input_text": "From Patient: Hi Person1, I tried to upload but couldn't figure it out. I'll drop it off tomorrow. FMLA will be continuous for all appts and such related to treatment. Thank you, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 272,
+        "input_text": "From Provider: Good Morning The Zometa will be around every 6 months. Next one is scheduled for MM/DD/YYYY. Kind Regards",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Good Morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "The Zometa will be around every 6 months"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Next one is scheduled for MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Kind Regards"
+            }
+        ]
+    },
+    {
+        "original_id": 273,
+        "input_text": "From Patient: Hi, My insurance will not allow me to opt out of using Org2 pharmacy for the anastrozle. I setup for them to ship the medication to me, however, I will not be receiving that refill between 5-10 business days. I am going to run out of the pills on MM/DD/YYYY, may I get like a 7 or 10 day supply called into Org2 in Org2? Thank you, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "however, I will not be receiving that refill between 5-10 business days"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I am going to run out of the pills on MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "may I get like a 7 or 10 day supply called into Org2 in Org2"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 275,
+        "input_text": "From Patient: Hi, I assuming since I didn get a phone call my bloodwork didn come back as desired and I holding off starting the 2nd cycle of Ibrance? And I will be doing blood work again next week? Thank you, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 276,
+        "input_text": "From Provider: Hi Person1, Yes reviewed with Dr Person2. The level came back low . You are correct with the plan to hold off on this cycle and have labs redrawn next week. Kind regards",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Yes reviewed with Dr Person2"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "The level came back low"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Kind regards"
+            }
+        ]
+    },
+    {
+        "original_id": 280,
+        "input_text": "From Provider: Hi Person1, If you are having fevers and feeling unwell you should hold the Ibrance. Especially if you are concerned about COVID. You can restart once the test is negative and you are feeling better. Please let us know if you are COVID positive. Thanks! Person2, MD",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "Please let us know if you are COVID positive"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 284,
+        "input_text": "From Patient: I received it thank you!",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "thank you!"
+            }
+        ]
+    },
+    {
+        "original_id": 285,
+        "input_text": "From Provider: Great! Your welcome Kind regards",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Great!"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Your welcome"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Kind regards"
+            }
+        ]
+    },
+    {
+        "original_id": 287,
+        "input_text": "From Provider: Hi Person1, Let's check an estradiol level. I'll put in the order, whenever you get a chance to stop by the lab. We might just have to change the dose of the injection. Thanks for letting us know!",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Let's check an estradiol level"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I'll put in the order, whenever you get a chance to stop by the lab"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "We might just have to change the dose of the injection"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks for letting us know!"
+            }
+        ]
+    },
+    {
+        "original_id": 289,
+        "input_text": "From Provider: Hi Person1 The plan is to continue on the 100mg. Yes you would need labs before you start your next cycle. Order for labs are being placed. Kind Regards",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "The plan is to continue on the 100mg"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Order for labs are being placed"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Kind Regards"
+            }
+        ]
+    },
+    {
+        "original_id": 291,
+        "input_text": "From Provider: So sorry about that. I will enter one now.",
+        "labels": [
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "AcknowledgeError",
+                "Span": "So sorry about that"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I will enter one now"
+            }
+        ]
+    },
+    {
+        "original_id": 294,
+        "input_text": "From Provider: You are correct, although the next dose is due MM/DD/YYYY (12 weeks from last dose). I have asked our schedulers to change it. Sincerely, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "You are correct"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "although the next dose is due MM/DD/YYYY (12 weeks from last dose)"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I have asked our schedulers to  change it"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Sincerely"
+            }
+        ]
+    },
+    {
+        "original_id": 301,
+        "input_text": "From Patient: Good morning, I was wondering if I be doing blood work when I complete the current cycle of verzenio? Thank you, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good morning"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 302,
+        "input_text": "From Patient: Dr. Person1, there has been a throwup bug going through my family. Yesterday i was out in the sun most the day, and last night i got diarrhea and was throwing up. My whole body aches, and i believe i have a fever. Is this something i should be concerned about, or will it pass.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "there has been a throwup bug going through my family"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "last night i got diarrhea and was throwing up"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "My whole body aches, and i believe i have a fever"
+            }
+        ]
+    },
+    {
+        "original_id": 307,
+        "input_text": "From Provider: Hi, the results get released to patients as soon as they are ready. I just checked and they are not ready yet. Best, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "the results get released to patients as soon as they are ready"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I just checked and they are not ready yet"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Best"
+            }
+        ]
+    },
+    {
+        "original_id": 310,
+        "input_text": "From Patient: Urinating a little more often, urgency same No walking issues no pain ud and down. I will get labs first am",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Urinating a little more often, urgency same"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "No walking issues no pain ud and down"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I will get labs first am"
+            }
+        ]
+    },
+    {
+        "original_id": 312,
+        "input_text": "From Provider: Thank you we will watch for the lab results. Glad your feeling better. Person1 RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "we will watch for the lab results"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "PositiveRemarks/Reward",
+                "Span": "Glad your feeling better"
+            }
+        ]
+    },
+    {
+        "original_id": 322,
+        "input_text": "From Patient: Person1 i took a home test today and was positive. I am vacsinated and boostered. I am achy in my hip area and have a headache. Other than that i do not feel to bad. Should i continue my meds?",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "i took a home test today and was positive"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I am vacsinated and boostered"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I am achy in my hip area and have a headache"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Other than that i do not feel to bad"
+            }
+        ]
+    },
+    {
+        "original_id": 325,
+        "input_text": "From Patient: I understand our pharmacy also said my prednisone prescription is not renewed. They did fill one more but said there are no orders in the system?",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "I understand"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "our pharmacy also said my prednisone prescription is not renewed"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "They did fill one more but said there are no orders in the system?"
+            }
+        ]
+    },
+    {
+        "original_id": 337,
+        "input_text": "From Patient: Can i change my MM/DD/YYYY appointment to the MM/DD/YYYY i will be away on the MM/DD/YYYY. I can make any time available those days?",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Can i change my MM/DD/YYYY appointment to the MM/DD/YYYY"
+            }
+        ]
+    },
+    {
+        "original_id": 338,
+        "input_text": "From Provider: Hello Person1. The next available we were able to get in you is for MM/DD/YYYY at 130. All details is in your mychart. Thank you.",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "The next available we were able to get in you is for MM/DD/YYYY at 130"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 341,
+        "input_text": "From Patient: Findings are in keeping with known osseous metastatic disease in both distal femurs. This is what was noted in the testing results. So it has traveled to my femurs and it also indicates that is is \"with known osseous metastatic disease\" Will this now qualify me for both femur and knee inclusion in the next CAT scan? Thank you for your time. Person1",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Findings are in keeping with known osseous metastatic disease in both distal femurs"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "it also indicates that is is \"with known osseous metastatic disease\""
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you for your time"
+            }
+        ]
+    },
+    {
+        "original_id": 342,
+        "input_text": "From Patient: Vitamin dosage daily Calcium 1000 Mag 400 D-2500 Zinc 25",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Vitamin dosage daily  Calcium 1000  Mag 400  D-2500  Zinc 25"
+            }
+        ]
+    },
+    {
+        "original_id": 349,
+        "input_text": "From Provider: Hi Person1 I will check with Person1 and Dr. Person2 and someone should reach out Best, Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I will check with Person1 and Dr. Person2"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "someone should reach out"
+            }
+        ]
+    },
+    {
+        "original_id": 352,
+        "input_text": "From Patient: Hello Dr. Person1, Hope this finds you healthy and happy. Can you put an order on for Person2 to have his port flushed for the middle of MM/DD/YYYY in Org3 on a MM/DD/YYYY morning. We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Hope this finds you healthy and happy"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Can you put an order on for Person2 to have his port flushed for the middle of MM/DD/YYYY in Org3 on a MM/DD/YYYY morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning"
+            }
+        ]
+    },
+    {
+        "original_id": 354,
+        "input_text": "From Patient: When will I be getting my Covid vaccine and can my wife get it also Person2",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "When will I be getting my Covid vaccine and can my wife get it also  Person2"
+            }
+        ]
+    },
+    {
+        "original_id": 361,
+        "input_text": "From Patient: Hello I have a Ct Scan schedule for MM/DD/YYYY in Org2 and a follow up appt on MM/DD/YYYY in Org2 and I donot see any appt for a blood draw that I normally get before my appts Can u schedule something either on MM/DD/YYYY before my Ct Scan or MM/DD/YYYY before my follow up with Dr Person1.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I have a Ct Scan schedule for MM/DD/YYYY in Org2"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "a follow up appt on MM/DD/YYYY in Org2"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Can u schedule something either on MM/DD/YYYY before my Ct Scan or MM/DD/YYYY before my follow up with Dr Person1"
+            }
+        ]
+    },
+    {
+        "original_id": 365,
+        "input_text": "From Patient: Hi Dr Person1, it Person3 Person2 wife. I am not sure if you know Person2 was in Org7 is extended care on MM/DD/YYYY and was seen by Dr. Person4. Well, we went home he didn feel good yesterday and today we had to rush him to Org7 where he was found to be septic. Why did Dr. Person4 not see this. As I text you he is now in Org6 emergency room and we all know how he is and they will not allow me to go in to be with him so I could hear and understand what is going ,because we know he does not hear well. Is there anyway I could be allowed to go in I had my Covid shots. Thank you, Person3",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I am not sure if you know Person2 was in Org7 is extended care on MM/DD/YYYY and was seen by Dr. Person4"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Well, we went home he didn feel good yesterday"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "today we had to rush him to Org7 where he was found to be septic"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I had my Covid shots"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 369,
+        "input_text": "From Patient: Hello Dr Person1. Person2 once again is in pain from the gall bladder drain that is sitting on a nerve. I will not have him go through the severe pain again that he went through 2 days ago. Obviously the block did not work and he is in pain again. Please have Dr Person3 or Dr Person4 or the IR Radiology contact me immediately. Person5",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Person2 once again is in pain from the gall bladder drain that is sitting on a nerve"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "he is in pain again"
+            }
+        ]
+    },
+    {
+        "original_id": 374,
+        "input_text": "From Provider: Prednisone refill sent in",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Prednisone refill sent in"
+            }
+        ]
+    },
+    {
+        "original_id": 376,
+        "input_text": "From Patient: Thank you",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 382,
+        "input_text": "From Patient: Can you please take a look at PetScan for prostate cancer Thank you",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Can you please take a look at PetScan for prostate cancer"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 384,
+        "input_text": "From Patient: Yes I had prostate cancer and it had returned-3 years later",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Yes I had prostate cancer and it had returned-3 years later"
+            }
+        ]
+    },
+    {
+        "original_id": 385,
+        "input_text": "From Provider: Ok let me reach out to Dr Person1 and we will be in touch",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "let me reach out to Dr  Person1"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "we will be in touch"
+            }
+        ]
+    },
+    {
+        "original_id": 386,
+        "input_text": "From Patient: Person1 needs a refill on creon and I can request on my chart",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Person1 needs a refill on creon"
+            }
+        ]
+    },
+    {
+        "original_id": 387,
+        "input_text": "From Provider: Hi yes will have APRN fill today after clinic. Thanks, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "yes will have APRN fill today after clinic"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 390,
+        "input_text": "From Provider: Hi Person1, Thanks for your message. We are closed on weekends and only check the MyChart MM/DD/YYYY-MM/DD/YYYY. I will pass along your question to Dr Person2, and looks like Person3 is in the hospital right now, so please also ask the Inpatient GI Team. I hope he is feeling better. Person4 Nurse Coordinator r Advanced Endoscopy & Pancreatic Diseases Phone- XXX-XXX-XXXX Fax- XXX-XXX-XXXX",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks for your message"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I will pass along your question to Dr  Person2"
+            }
+        ]
+    },
+    {
+        "original_id": 393,
+        "input_text": "From Patient: When Person1 was in on MM/DD/YYYY for his visit, the nurse had said that she was going to check to see if he could get his blood thinner medication at Org3 pharmacy cheaper. I was just wondering if she had followed up on that. Thank you, Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "When Person1 was in on MM/DD/YYYY for his visit"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 394,
+        "input_text": "From Provider: Hi Person1 and Person2, the copay through the Org4 apothecary will be $81.54. They can set up delivery to you, it would need to be a few days in advance- you can call them to arrange this, the pharmacy # is XXX-XXX-XXXX Thanks, Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 395,
+        "input_text": "From Patient: Thank you for doing this. Much appreciated",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you for doing this"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Much appreciated"
+            }
+        ]
+    },
+    {
+        "original_id": 404,
+        "input_text": "From Provider: Good Morning Mr Person1, I'm sorry but Dr. Person2 does not have clinic on MM/DD/YYYY so we are not able to schedule you on MM/DD/YYYY. If you would like to reschedule to a different MM/DD/YYYY morning or MM/DD/YYYY afternoon please call the office at XXX-XXX-XXXX. Person RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Good Morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "If you would like to reschedule to a different MM/DD/YYYY morning or MM/DD/YYYY afternoon please call the office at XXX-XXX-XXXX"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "Sadness/fear",
+                "Span": "I'm sorry "
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "so we are not able to schedule you on MM/DD/YYYY"
+            }
+        ]
+    },
+    {
+        "original_id": 406,
+        "input_text": "From Patient: On MM/DD/YYYY I completed 39 radiation sessions. A CBC Panel ordered by DR Person1 of Person2 indicated WBC, RBC, hemoglobin and hematocrit to be low outside of normal. He requested that you test my iron and ferritin levels on the next blood draw during the second week of MM/DD/YYYY. I will meet with you in person on MM/DD/YYYY at which time we can discuss the course going forward as I agreed to RT in order to undergo TRT under the supervision of Dr Person3. Dr Person4 does not possess the ability to declare me cancer free, the PSA number will prove nothing on it's own. Only the introduction of testosterone into my body will provide indications one way or another besides being of tremendous benefit to my overall physical and mental well being.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "On MM/DD/YYYY I completed 39 radiation sessions"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "A CBC Panel ordered by DR Person1 of Person2 indicated WBC, RBC, hemoglobin and hematocrit  to be low outside of normal"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "He requested that you test my iron and ferritin levels on the next blood draw during the second week of MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I will meet with you in person on MM/DD/YYYY"
+            }
+        ]
+    },
+    {
+        "original_id": 417,
+        "input_text": "From Provider: Yes, please start taking calcium 1000 mg daily as well as 400 IU of vitamin D daily. A bone strengthening agent will still most likely be added to your regimen and we will work on the appeal.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "A bone strengthening  agent will still most likely be added to your regimen"
+            }
+        ]
+    },
+    {
+        "original_id": 420,
+        "input_text": "From Provider: Hi Person1 That is fine to take. I have added it to your medication list. Person2 RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I have added it to your medication list."
+            }
+        ]
+    },
+    {
+        "original_id": 421,
+        "input_text": "From Patient: Thanks",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 429,
+        "input_text": "From Patient: Hello, I need to have the radium 223 infusion scheduled for my visit next week MM/DD/YYYY. Thank you Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I need to have the radium 223 infusion scheduled for my visit next week MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 433,
+        "input_text": "From Provider: Hello Mr. Person1, My apologies for the confusion. Your chart was still in the process of being updated on the trial and initial read of it it was not clear that you were coming off the trial. Dr. Person2 is away today and tomorro w but we will follow up and review it with him again when he returns MM/DD/YYYY and let you know what his plan is. Person RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hello"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "AcknowledgeError",
+                "Span": "My apologies for the confusion"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "let you know what his plan is"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "is away today and tomorro w but we will follow up and review it with him again when he returns MM/DD/YYYY"
+            }
+        ]
+    },
+    {
+        "original_id": 434,
+        "input_text": "From Patient: Sounds good. Thank you.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Sounds good"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 435,
+        "input_text": "From Provider: Good Morning Mr. Person1, Confirmed with Dr. Person2 that he would like to continue treatment and we will be planning to treat you with docetaxel after you see Dr. Person2 on MM/DD/YYYY. You should see additional infusion appts on My Chart soon. Person RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Good Morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Confirmed with Dr. Person2"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "You should see additional infusion appts on My Chart soon"
+            }
+        ]
+    },
+    {
+        "original_id": 441,
+        "input_text": "From Patient: Ok. Thanks for checking.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks for checking"
+            }
+        ]
+    },
+    {
+        "original_id": 443,
+        "input_text": "From Patient: I had bloood tests done MM/DD/YYYY and still don have the PSA results. They usually come back within a day. Could you check into this? Thanks much.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks much"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I had bloood tests done MM/DD/YYYY and still don have the PSA results"
+            }
+        ]
+    },
+    {
+        "original_id": 447,
+        "input_text": "From Patient: The prescription for the cream for my port has not been received at Org1 in Org1 as of today. Could you please confirm that it was sent or send it? Thanks much.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks much"
+            }
+        ]
+    },
+    {
+        "original_id": 450,
+        "input_text": "From Patient: I am awaiting my next treatment to be scheduled on MM/DD/YYYY . The schedulers were checking with Dr Person2 on MM/DD/YYYY. Could you please follow-up on this for me. The subsequent (every three weeks) treatments are scheduled. Thanks much.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I am awaiting my next treatment to be scheduled on MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "The schedulers were checking with Dr Person2 on MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "The subsequent (every three weeks) treatments are scheduled"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks much"
+            }
+        ]
+    },
+    {
+        "original_id": 452,
+        "input_text": "From Patient: Need an urgent losartan refill",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Need an urgent losartan refill"
+            }
+        ]
+    },
+    {
+        "original_id": 453,
+        "input_text": "From Patient: Also need trazodone for tonight but can't find email of prescriber - Dr Person1 something - can you help?",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Also need trazodone for tonight"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "carecoordination",
+                "Span": "can't find email of prescriber - Dr Person1 something - can you help?"
+            }
+        ]
+    },
+    {
+        "original_id": 456,
+        "input_text": "From Patient: Thanks Person1 - that would be great",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "that would be great"
+            }
+        ]
+    },
+    {
+        "original_id": 457,
+        "input_text": "From Patient: Cool",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Cool"
+            }
+        ]
+    },
+    {
+        "original_id": 459,
+        "input_text": "From Provider: Person2- I forwarded her the message! Thank you Person1",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I forwarded her the message!"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 460,
+        "input_text": "From Patient: Thanks Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 461,
+        "input_text": "From Patient: Hi Person1 Me again I know this is wrong recipient but still can't find Dr Person on mychart and need a zofran (can't remember exact name) refill which I believe she was going to send through Can you help/chase her? Can she email me directly? Cheers Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Me again     I know this is wrong recipient but still can't find Dr Person on mychart and need a zofran (can't remember exact name) refill"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I believe she was going to send through"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Cheers"
+            }
+        ]
+    },
+    {
+        "original_id": 472,
+        "input_text": "From Provider: Person1 you were due for scans as well... please call XXX-XXX-XXXX to get everything rescheduled. Thank you Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "you were due for scans as well..."
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "please call XXX-XXX-XXXX to get everything rescheduled"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 474,
+        "input_text": "From Patient: Can I get an amlodopine refill? Am all out Thanks Person1",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "Can I get an amlodopine refill?"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Am all out"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 486,
+        "input_text": "From Patient: This from nurse Person1: \"Rash has worsened. Lesions are larger. Most on left back but smaller lesions on right back.\" Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "\"Rash has worsened. Lesions are larger. Most on left back but smaller lesions on right back.\""
+            }
+        ]
+    },
+    {
+        "original_id": 493,
+        "input_text": "From Patient: Cvs have texted saying I'm not due a sertraline refill until MM/DD/YYYY. Am all out of this and others . MM/DD/YYYY lakes have kept/messed up my meds Help!",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Cvs have texted saying I'm not due a sertraline refill until MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Am all out of this and others"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "MM/DD/YYYY lakes have kept/messed up my meds"
+            }
+        ]
+    },
+    {
+        "original_id": 494,
+        "input_text": "From Patient: I hope you well. I have my 3-monthly scans tomorrow (MM/DD/YYYY) and need to schedule a follow up appointment. I seeing Dr Person1 at 1pm at Org3 on MM/DD/YYYY. Would love to schedule it on that day if possible. Cheers Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "I hope you well"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I have my 3-monthly scans tomorrow"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Cheers"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "need to schedule a follow up appointment"
+            }
+        ]
+    },
+    {
+        "original_id": 497,
+        "input_text": "From Patient: Hi person1 MM/DD/YYYY at 7.45 via televisit would be great D",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            }
+        ]
+    },
+    {
+        "original_id": 498,
+        "input_text": "From Provider: Great! I scheduled for MM/DD/YYYY at 7:45 as a telehealth. You should be able to see this in your mychart account shortly. Sincerely, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Great!"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I scheduled for MM/DD/YYYY at 7:45 as a telehealth"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Sincerely"
+            }
+        ]
+    },
+    {
+        "original_id": 501,
+        "input_text": "From Patient: Cool - thanks Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "Cool"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 502,
+        "input_text": "From Provider: I confirmed with Dr Person1 that Person2 will be getting treated tomorrow. Thanks Person3 RN",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I confirmed with Dr  Person1 that Person2 will be getting treated tomorrow"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 511,
+        "input_text": "From Patient: Hi , My dad is on the 8th floor right now waiting for infusion #3. We have an apt with Dr Person3 tmrw at 9:10. He has two new growths on his right shin and a spot on his left thigh that Dr Person4 circled at the beginning of MM/DD/YYYY. Can anyone see him today while he is there? My brother Person1 is with my dad today. Thank you, Person2 XXX-XXX-XXXX",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "We have an apt with Dr Person3 tmrw at 9:10"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "He has two new growths on his right shin and a spot on his left thigh that Dr Person4 circled at the beginning of MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "My dad is on the 8th floor right now waiting for infusion #3"
+            }
+        ]
+    },
+    {
+        "original_id": 513,
+        "input_text": "From Provider: What area of the body are these? Dr. Person1 had seen the ones on his left upper leg... lets see what Dr. Person2 thinks. Thank you Person3",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Symptoms",
+                "Span": "What area of the body are these? "
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Dr. Person1 had seen the ones on his left upper leg..."
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "lets see what Dr.  Person2 thinks"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 524,
+        "input_text": "From Provider: Person1... Dr. Person2 would like him to hold his aldactone and get repeat labs and urine again on MM/DD/YYYY at a Org4 draw station... please let me know once he goes and will be on the look out. Thank you Person3",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "please let me know once he goes and will be on the look out"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Dr. Person2 would like him to hold his aldactone"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "get repeat labs and urine again on MM/DD/YYYY at a  Org4 draw station"
+            }
+        ]
+    },
+    {
+        "original_id": 526,
+        "input_text": "From Provider: Dr. Person1 reviewed- she wants to continue holding the aldactone and restrict his water into to 1 Liter a day... (how much water has he been drinking in 24hours) then repeat all same tests on MM/DD/YYYY... the earlier the better so we get results before end of day.. please confirm you received this. Thank you Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "then repeat all same tests on MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Dr. Person1 reviewed"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "please confirm you received this"
+            }
+        ]
+    },
+    {
+        "original_id": 529,
+        "input_text": "From Patient: My dad weighed 207 (without shoes and clothes) this morning. He definitely looks puffier to me leg swelling some.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "He definitely looks puffier to me leg swelling some"
+            }
+        ]
+    },
+    {
+        "original_id": 538,
+        "input_text": "From Patient: Hi, So my dad will be heading down soon for his treatment but I wanted to mention a few things. My brother Person1 will be bringing him today. He has been off prednisone completely for one week. Swelling in his legs started again yesterday. The rash has been almost non -existent and itching under control with gabapentin as long as we out the cream on everyday. He has had absolutely no energy over the past week and chest congestion. Saw pulmonologist Person2 and he said probably rebound from stopping prednisone and he should use his Albuterol inhaler. Very interested to see how his labs are today. Should we restart prednisone 2.5 or 5mg? Person1 will call me when you meet with my dad. Thank you, Person3 XXX-XXX-XXXX",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "He has been off prednisone completely for one week"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "Swelling in his legs started again yesterday"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "The rash has been almost non -existent and itching under control with gabapentin as long as we out the cream on everyday"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "He has had absolutely no energy over the past week and chest congestion"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Saw pulmonologist Person2 and he said probably rebound from stopping prednisone and he should use his Albuterol inhaler"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 544,
+        "input_text": "From Provider: Ok thank you. Just monitor tonight and over the weekend - - take a pen are circle the redness - watch for the redness to spread outside of the pen lines. If this happens or your father develops fevers,/other symptoms, please call us. par Thanks! Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "thank you"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks!"
+            }
+        ]
+    },
+    {
+        "original_id": 547,
+        "input_text": "From Patient: My father should get discharged tmrw..will His treatment for Wed be postponed?",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "will  His treatment for Wed be postponed?"
+            }
+        ]
+    },
+    {
+        "original_id": 550,
+        "input_text": "From Provider: Ok is he feeling up to coming in tomorrow? If not- Dr. Person1 is happy to give him time to recover and reschedule from there...",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Ok"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "is he feeling up to coming in tomorrow?"
+            }
+        ]
+    },
+    {
+        "original_id": 551,
+        "input_text": "From Patient: We can bring him tomorrow for a treatment. Person1 at Org4 Home Care needs a doctor to Sign off on a home care order. Can Dr Person3 do that? We thought it would Be a good idea to have someone check on my dad with all that has been going on and his short term memory issues. If ok we number is XXX-XXX-XXXX Person2Let me know . Thank you, Person3",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "We can bring him tomorrow for a treatment"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Person1 at Org4 Home Care needs a doctor to  Sign off on a home care order"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 565,
+        "input_text": "From Patient: Yes. It was 2.045",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Yes"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "It was 2.045"
+            }
+        ]
+    },
+    {
+        "original_id": 568,
+        "input_text": "From Provider: Thanks , I remember now , Cares to you Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "I remember now"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Cares to you"
+            }
+        ]
+    },
+    {
+        "original_id": 579,
+        "input_text": "From Provider: I was able to schedule the CT scans I will call for the bone scan MM/DD/YYYY, they have already left for the day I will keep you posted",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I was able to schedule the CT scans"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I will call for the bone scan MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I will keep you posted"
+            }
+        ]
+    },
+    {
+        "original_id": 580,
+        "input_text": "From Patient: Thanks, Person1. Have a nice weekend.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Have a nice weekend"
+            }
+        ]
+    },
+    {
+        "original_id": 583,
+        "input_text": "From Provider: Trying to get a earlier time for the bone scan, I will keep you posted",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Trying to get a earlier time for the bone scan"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I will keep you posted"
+            }
+        ]
+    },
+    {
+        "original_id": 596,
+        "input_text": "From Patient: Hi Person1, I have an appointment with Dr. Person2 next MM/DD/YYYY, the MM/DD/YYYY, to have impressions of my jaw and teeth done prior to my meeting with My oral surgeon, Dr. Person3, On MM/DD/YYYY, at the Org4 dental clinic. I keep you posted.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I have an appointment with Dr. Person2 next MM/DD/YYYY, the MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "to have impressions of my jaw and teeth"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "prior to my meeting with My oral surgeon, Dr. Person3"
+            }
+        ]
+    },
+    {
+        "original_id": 598,
+        "input_text": "From Provider: Yes Prednisone and zytiga. How is the dental work going, are you interested in the prolia injection at your 6-2 appointment",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Yes"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Prednisone and zytiga"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "How is the dental work going"
+            }
+        ]
+    },
+    {
+        "original_id": 600,
+        "input_text": "From Patient: Hi Person1, I had an appointment today with Dr. Person2 at the Org4. I had blood work done and I like to leave a hard copy of the results with your office. Everything looks good except for my PSA which has gone from 2.93 in MM/DD/YYYY to 4.5 today (MM/DD/YYYY) according to the VA. I like Dr. Person3 thoughts and impressions prior to my upcoming (MM/DD/YYYY) visit. I drop off the report tomorrow morning if that OK.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I had an appointment today with Dr. Person2 at the Org4"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I had blood work done"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "my PSA which has gone from 2.93 in MM/DD/YYYY to 4.5 today (MM/DD/YYYY) according to the VA"
+            }
+        ]
+    },
+    {
+        "original_id": 604,
+        "input_text": "From Patient: Happy MM/DD/YYYY! I am meant to start Ibrance on MM/DD/YYYY. Based on the last bloodwork results, should we book a CBC for me prior to start? I also have a cortisone shot scheduled for MM/DD/YYYY. That means that this MM/DD/YYYY through next MM/DD/YYYY morning, I won't be able to take Aleve, and Tylenol extra strength isn't working on its own, any longer. Would it be possible to get a prescription for Hydromorphone for those days? The pain has been getting progressively worse. Thanks, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Happy MM/DD/YYYY!"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I am meant to start Ibrance on MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I also have a cortisone shot scheduled for MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "The pain has been getting progressively worse"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "That means that this MM/DD/YYYY through next MM/DD/YYYY morning, I won't be able to take Aleve"
+            }
+        ]
+    },
+    {
+        "original_id": 605,
+        "input_text": "From Provider: Would you like to have all the blood work done? It seems that your tumor markers are also due. Also, Person1 wants to know if you've had hydromorphone before, because you have an oxycodone allergy listed.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "It seems that your tumor markers are also due"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "Also,  Person1 wants to know if you've had hydromorphone before, because you have an oxycodone allergy listed"
+            }
+        ]
+    },
+    {
+        "original_id": 607,
+        "input_text": "From Patient: Hi. As I can schedule with infusion for bloodwork, is someone on the team scheduling? I am booked all day MM/DD/YYYY. I can work around tomorrow or MM/DD/YYYY morning. Thanks, Person",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "As I can schedule with infusion for bloodwork, is someone on the team scheduling?"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 613,
+        "input_text": "From Patient: Calling pharmacy today. Thanks. Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 616,
+        "input_text": "From Patient: Hi Person1, I guess the better question for me to ask would have been should we just switch to a video call?",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            }
+        ]
+    },
+    {
+        "original_id": 619,
+        "input_text": "From Provider: Hi Person1, I'd love to see you in person. It's been a while... Will that work for you? -- Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "I'd love to see you in person"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "It's been a while..."
+            }
+        ]
+    },
+    {
+        "original_id": 621,
+        "input_text": "From Patient: Hi G. Will pick up some olives today. Thanks!",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 626,
+        "input_text": "From Patient: Org1 team, Would someone kindly schedule me for bloodwork to be completed prior to MM/DD/YYYY? Thanks, Person",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Would someone kindly schedule me for bloodwork to be completed prior to MM/DD/YYYY?"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 635,
+        "input_text": "From Patient: Hi Person1, I see an appointment for the MM/DD/YYYY . Thanks!",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I see an appointment for the MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 644,
+        "input_text": "From Patient: Good morning. I s there any way I can send Person1 to Org3 to pick up a container and drop it off later for analysis? The UTI symptoms are getting worse and Macrobid has not worked so Mass General thought a new analysis should be done to see what is going on",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Good morning"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Mass General thought a new analysis should be done to see what is going on"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "The UTI symptoms are getting worse"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Macrobid has not worked"
+            }
+        ]
+    },
+    {
+        "original_id": 649,
+        "input_text": "From Patient: Hi New results are in. If you update your care everywhere screen, you can see the original from the MM/DD/YYYY. I have one pill of the Macrobid left . Test is better than before but still burning and cloudy. Should the prescription be extended for a couple of days? Thanks! Person",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "New results are in"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I have one pill of the Macrobid left"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "Test is better than before"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "still burning and cloudy"
+            }
+        ]
+    },
+    {
+        "original_id": 652,
+        "input_text": "From Patient: Hi Dr. Person1, Is it possible to add my Advanced Radiology CAT scan of MM/DD/YYYY to mychart? Thanks so much. See you next week. Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Is it possible to add my Advanced Radiology CAT scan of MM/DD/YYYY to mychart?"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks so much"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "See you next week"
+            }
+        ]
+    },
+    {
+        "original_id": 658,
+        "input_text": "From Patient: Hi Dr. Person1, Thank you for my visit today. You said I was your hero! Thanks! But you are my hero by saving my life! You are a fantastic doctor! Thanks again. Merry Christmas and a Happy and Healthy New Year! Regards, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you for my visit today"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "You said I was your hero!"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks!"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thanks again"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Merry Christmas and a Happy and Healthy New Year!"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Regards"
+            }
+        ]
+    },
+    {
+        "original_id": 660,
+        "input_text": "From Patient: Hi Dr. Person1, I know you put my Xeloda refills in for me with org pharmacy. I have been getting from them since HH:MM. Today I got a call from Org3 saying they got the request and none in stock. Did some change my pharmacy for Xeloda to Org3? I would prefer to continue with org pharmacy. Please check to see what happened and let me know. Again, thanks so much! Regards, Person2",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I know you put my Xeloda refills in for me with ACS pharmacy"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I have been getting from them since HH:MM"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Again, thanks so much!"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Regards"
+            }
+        ]
+    },
+    {
+        "original_id": 663,
+        "input_text": "From Provider: Call me with any problems Person1. Merry Christmas to you also!",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Merry Christmas to you also"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "Call me with any problems"
+            }
+        ]
+    },
+    {
+        "original_id": 674,
+        "input_text": "From Patient: Hi Dr. Person1, I have a choice tomorrow for Moderna or Johnson and Johnson Need help..which one should I go with? Thanks so much! Person3",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks so much!"
+            }
+        ]
+    },
+    {
+        "original_id": 711,
+        "input_text": "From Provider: Just the day before chemo and the day after, so after today you will stop. Then the day before your next chemo, you will take 2 and the day after another two. I'm glad the Ativan helped. Dr. Person1 did order more for home. Sincerely, Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "did order more for home"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Sincerely"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "PositiveRemarks/Reward",
+                "Span": "I'm glad the Ativan helped"
+            }
+        ]
+    },
+    {
+        "original_id": 714,
+        "input_text": "From Patient: Thank you I understand appreciate it",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Alignment",
+                "Span": "I understand"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "appreciate it"
+            }
+        ]
+    },
+    {
+        "original_id": 718,
+        "input_text": "From Provider: Usually skipping one treatment would not be enough time to make it start growing again. How long have you had the pain for? What kind of pain is it? Does anything make it better or worse?",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Symptoms",
+                "Span": "How long have  you had the pain for?"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Symptoms",
+                "Span": "What kind of pain is it?"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Symptoms",
+                "Span": "Does anything make it better or worse?"
+            }
+        ]
+    },
+    {
+        "original_id": 751,
+        "input_text": "From Patient: First in am or last appointment of day after 4 pm I am working. Thank you",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 794,
+        "input_text": "From Patient: Another question that just popped up and I am sorry my sister didn ask when she went in with my father. He will be going for a colonscopy and endoscopy MM/DD/YYYY. He hasn had one since his cancer diagnosis. It is safe for him to go through that?",
+        "labels": [
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "AcknowledgeError",
+                "Span": "I am sorry my sister didn ask when she went in with my father"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "He will be going for a colonscopy and endoscopy MM/DD/YYYY"
+            }
+        ]
+    },
+    {
+        "original_id": 798,
+        "input_text": "From Provider: The order had expired. I just sent Dr. Person1 another for the PSA. I can let you know when it is signed and you can take your dad to the lab. Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "I just sent Dr. Person1 another for the PSA"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "maintainCommunication",
+                "Span": "I can let you know when it is signed"
+            }
+        ]
+    },
+    {
+        "original_id": 800,
+        "input_text": "From Patient: I have a concern with my port it is hurting and have some discomfort on side of neck Wondering if someone can check it . I am across bridge on 55park and can walk over today",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "it is hurting and have some discomfort on side of neck"
+            }
+        ]
+    },
+    {
+        "original_id": 801,
+        "input_text": "From Provider: Hi, Does it look any different? Any redness, warmth? Chills, fever? Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Symptoms",
+                "Span": "Any redness, warmth? Chills, fever?"
+            }
+        ]
+    },
+    {
+        "original_id": 809,
+        "input_text": "From Patient: I'm planning on starting at 2 pm today, I do have a cold and throat a little irritated. My temp is 98.2. I did home covid test which was negative. Is it okay to start?",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I do have a cold and throat a little irritated"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "My temp is 98.2"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I did home covid test which was negative"
+            }
+        ]
+    },
+    {
+        "original_id": 810,
+        "input_text": "From Provider: Person1- Best to start tomorrow MM/DD/YYYY in the morning since the Dabrafenib is 150mg every 12 hours unless you plan on taking it at 2am. Thanks Person2 RN",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "the Dabrafenib is 150mg every 12 hours unless you plan on taking it at 2am"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 819,
+        "input_text": "From Patient: My appointment at Org2 is actually on the MM/DD/YYYY though I can do the MM/DD/YYYY. My appointment with Dr Person1 is on MM/DD/YYYY. Thanks",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "My appointment at Org2 is actually on the MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "My appointment with Dr  Person1 is on MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 822,
+        "input_text": "From Patient: I noticed this about 10 days ago, was smaller then and it's not clearing up. Surgeon told me to come back asap if I notice bump etc. I have an appointment for Monday morning.",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Symptoms",
+                "Span": "I noticed this about 10 days ago, was smaller then and it's not clearing up"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "carecoordination",
+                "Span": "Surgeon told me to come back asap if I notice bump etc"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I have an appointment for Monday morning"
+            }
+        ]
+    },
+    {
+        "original_id": 839,
+        "input_text": "From Provider: I Person1. I am happy that you are being proactive with getting COVID test which is still pending. Person2",
+        "labels": [
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "PositiveRemarks/Reward",
+                "Span": "I am happy"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "you are being proactive with getting COVID test which is still pending"
+            }
+        ]
+    },
+    {
+        "original_id": 846,
+        "input_text": "From Provider: Person1 thank you for the update - I will add the black cohosh to your med list since its not on there currently. Thank you Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "thank you for the update"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "I will add the black cohosh to your med list since its not on there  currently"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 848,
+        "input_text": "From Patient: Side effects sound scary. Am I remembering correctly, you told me sides effects are not permanent and would clear up after I stopped taking dabrafenib/trametinib?",
+        "labels": [
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "Sadness/fear",
+                "Span": "Side effects sound scary"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "would clear up after I stopped taking dabrafenib/trametinib?"
+            }
+        ]
+    },
+    {
+        "original_id": 880,
+        "input_text": "From Provider: Yes thank you Person1",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Yes"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 903,
+        "input_text": "From Provider: HI Person1. Your refill shave been sent to the pharmacy. Person2",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "HI"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "Your refill shave been sent to the pharmacy"
+            }
+        ]
+    },
+    {
+        "original_id": 908,
+        "input_text": "From Patient: There is no prescription for lorazepam at pharmacy. The nausea medicine was refilled but not lorazepam. Can that be refilled? Person1",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Drugs",
+                "Span": "The nausea medicine was refilled but not lorazepam"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Drugs",
+                "Span": "Can that be refilled?"
+            }
+        ]
+    },
+    {
+        "original_id": 917,
+        "input_text": "From Provider: Hi yes no problem we can do that for you",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "yes"
+            }
+        ]
+    },
+    {
+        "original_id": 957,
+        "input_text": "From Patient: Hi. Just want confirm time for ct scan for MM/DD/YYYY? I checked and I did not see a time. Thank you Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "Diagnostics",
+                "Span": "Just want confirm time for ct scan for MM/DD/YYYY?"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I checked and I did not see a time"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 988,
+        "input_text": "From Patient: Dr. Person1, I am scheduled for my next injection on MM/DD/YYYY. I have just booked my first COVID vaccination for MM/DD/YYYY. Is there any medical concern having these two so close together? Regards, Person2",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I am scheduled for my next injection on MM/DD/YYYY"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I have just booked my first COVID vaccination for MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Regards"
+            }
+        ]
+    },
+    {
+        "original_id": 1002,
+        "input_text": "From Patient: Hi - I was wondering about the blood tests O had drawn last MM/DD/YYYY. 2 tests - ( CEA or something like that ) have not be posted. Thanks, Person1",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Hi"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I was wondering about the blood tests O had drawn last MM/DD/YYYY"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "signoff",
+                "Span": "Thanks"
+            }
+        ]
+    },
+    {
+        "original_id": 1014,
+        "input_text": "From Provider: Okay I placed a referral for you to Dr. Person1 in Org2, at Org2. Thank you.",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Alignment",
+                "Span": "Okay"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "signoff",
+                "Span": "Thank you"
+            }
+        ]
+    },
+    {
+        "original_id": 1024,
+        "input_text": "From Provider: Sure-I just sent it out to scheduling again to add the lab apt. Thank you for being proactive!",
+        "labels": [
+            {
+                "Code": "InfoGive",
+                "Sub-code": "SchedulingAppt",
+                "Span": "I just sent it out to scheduling again to add the lab apt"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you for being proactive!"
+            }
+        ]
+    },
+    {
+        "original_id": 1025,
+        "input_text": "From Patient: Would it make sense or even be possible to try to move echo sooner?",
+        "labels": [
+            {
+                "Code": "InfoSeek",
+                "Sub-code": "SchedulingAppt",
+                "Span": "Would it make sense or even be possible to try to move echo sooner?"
+            }
+        ]
+    },
+    {
+        "original_id": 1051,
+        "input_text": "From Provider: Sorry, I just sent you a message. Glad it worked out! Happy Easter. Rose",
+        "labels": [
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "AcknowledgeError",
+                "Span": "Sorry, I just sent you a message"
+            },
+            {
+                "Code": "Socioemotional/Empathy",
+                "Sub-code": "PositiveRemarks/Reward",
+                "Span": "Glad it worked out!"
+            },
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "connection",
+                "Span": "Happy Easter"
+            }
+        ]
+    },
+    {
+        "original_id": 1104,
+        "input_text": "From Patient: Thanks Person1. Sorry to bother you.",
+        "labels": [
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "salutation",
+                "Span": "Thanks"
+            },
+            {
+                "Code": "PartnershipPatient",
+                "Sub-code": "connection",
+                "Span": "Sorry to bother you"
+            }
+        ]
+    },
+    {
+        "original_id": 1185,
+        "input_text": "From Provider: Thank you for the information, it was not visible to me at this time. I will send a second request for the A1C but again it is generally too soon to repeat. Person1 RN",
+        "labels": [
+            {
+                "Code": "PartnershipProvider",
+                "Sub-code": "Appreciation/Gratitude",
+                "Span": "Thank you for the information"
+            },
+            {
+                "Code": "InfoGive",
+                "Sub-code": "Diagnostics",
+                "Span": "I will  send a second request for the A1C"
+            }
+        ]
+    }
+]

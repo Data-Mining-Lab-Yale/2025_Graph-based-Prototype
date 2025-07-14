@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "happening",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "months",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "few",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "off",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 9
+    }
+  ],
+  "label": "Symptoms",
+  "text": "This is happening for a few months off and on"
+}

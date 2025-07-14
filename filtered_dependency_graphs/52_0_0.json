@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "disagree",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "neg",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 4
+    }
+  ],
+  "label": "Approval/Reinforcement",
+  "text": "We will not disagree."
+}

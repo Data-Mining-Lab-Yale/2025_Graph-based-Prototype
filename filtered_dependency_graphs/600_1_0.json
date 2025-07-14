@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Just",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "getting",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "organized",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "Just getting my day organized"
+}

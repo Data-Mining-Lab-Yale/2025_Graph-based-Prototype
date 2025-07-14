@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "early",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "stage",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "cancer",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "throat",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "begins",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "often",
+      "pos": "ADV",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "how early stage throat cancer often begins"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "set",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "'ve",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "am",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prt",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "case",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "SchedulingAppt",
+  "text": "I've set up Person3's other am,"
+}

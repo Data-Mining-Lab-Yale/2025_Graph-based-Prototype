@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "labs",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "first",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I will get labs first am"
+}

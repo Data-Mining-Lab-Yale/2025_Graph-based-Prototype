@@ -1,0 +1,121 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "doing",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "only",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "psa",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "metobolic",
+      "pos": "ADJ",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 9,
+      "target": 11
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I am at Org2 and they are only doing psa and metobolic"
+}

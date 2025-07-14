@@ -1,0 +1,146 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "pharmacy",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "pretty",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "quick",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "meds",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "patients",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prt",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    }
+  ],
+  "label": "Drugs",
+  "text": "The pharmacy is pretty quick to get meds out to patients and can do"
+}

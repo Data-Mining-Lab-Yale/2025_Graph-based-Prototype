@@ -1,0 +1,146 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "due",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 2
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "12",
+      "pos": "NUM",
+      "id": 7
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "dose",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "appos",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nummod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "Drugs",
+  "text": "due MM/DD/YYYY (12 weeks from last dose)."
+}

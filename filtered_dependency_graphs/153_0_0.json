@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "another",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "name",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    }
+  ],
+  "label": "Drugs",
+  "text": "Is there another name for that?"
+}

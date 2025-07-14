@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "death",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "family",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": "brother",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "appos",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "We have a death in the family (brother) and will be"
+}

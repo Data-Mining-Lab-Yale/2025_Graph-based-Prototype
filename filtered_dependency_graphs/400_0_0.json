@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "letting",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "taken",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "draw",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "csubjpass",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "dep": "auxpass",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "good morning just letting you the blood draw was taken"
+}

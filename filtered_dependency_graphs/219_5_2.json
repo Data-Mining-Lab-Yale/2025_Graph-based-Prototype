@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "continue",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "find",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "more",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "goes",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "to continue to find more of this as time goes"
+}

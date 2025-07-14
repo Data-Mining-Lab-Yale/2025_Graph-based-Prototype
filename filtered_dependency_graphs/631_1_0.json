@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "saw",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 2
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "nummod",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I saw two results now in."
+}

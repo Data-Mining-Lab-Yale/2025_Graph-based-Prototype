@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "rush",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Org7",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "where",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "found",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "relcl",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Symptoms",
+  "text": "to rush him to Org7 where he was found"
+}

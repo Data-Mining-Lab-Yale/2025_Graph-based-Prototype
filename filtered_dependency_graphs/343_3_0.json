@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "There",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "standing",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "are",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "PSA",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "orders",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "as",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "well",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pcomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "There are standing PSA orders in as well."
+}

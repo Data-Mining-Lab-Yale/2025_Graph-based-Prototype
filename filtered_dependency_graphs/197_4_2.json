@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "like",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "rashes",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "diarrhea",
+      "pos": "NOUN",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 7
+    }
+  ],
+  "label": "maintainCommunication",
+  "text": "any issues with it like rashes or diarrhea"
+}

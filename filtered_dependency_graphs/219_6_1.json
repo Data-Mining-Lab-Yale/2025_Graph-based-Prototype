@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "its",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "job",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "stopping",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "stuff",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "occurring",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "pcomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pcomp",
+      "source": 6,
+      "target": 7
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "its job at stopping this stuff from occurring?"
+}

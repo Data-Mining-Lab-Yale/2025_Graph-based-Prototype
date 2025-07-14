@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "injection",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "density",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    }
+  ],
+  "label": "statePreferences",
+  "text": "my appointment for the bone density injection."
+}

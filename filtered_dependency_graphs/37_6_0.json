@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "nothing",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "compare",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "relcl",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "I have nothing to compare"
+}

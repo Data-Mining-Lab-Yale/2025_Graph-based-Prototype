@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "letting",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "us",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "pcomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "Appreciation/Gratitude",
+  "text": "Thanks for letting us know"
+}

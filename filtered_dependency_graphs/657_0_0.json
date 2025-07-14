@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "change",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "continue",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "her",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "dosing",
+      "pos": "NOUN",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "MakeDecision",
+  "text": "Person1 I would not change her dosing continue"
+}

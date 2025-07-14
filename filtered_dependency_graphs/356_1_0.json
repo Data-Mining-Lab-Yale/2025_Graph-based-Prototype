@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "signed",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "Org3",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prt",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "neg",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "I have signed up for it at Org3 and have not received"
+}

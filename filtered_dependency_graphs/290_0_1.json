@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "checked",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "double",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "parameter",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "uses",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "relcl",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    }
+  ],
+  "label": "carecoordination",
+  "text": "I double checked with Dr. Person1 about the parameter she uses"
+}

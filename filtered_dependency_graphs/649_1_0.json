@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "hope",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "all",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    }
+  ],
+  "label": "connection",
+  "text": "I hope all is"
+}

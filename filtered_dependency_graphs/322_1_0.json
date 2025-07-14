@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "every",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "wks",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "8",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nummod",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Do i still do every 8 wks?"
+}

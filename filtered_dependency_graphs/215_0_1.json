@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "procedure",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "EBUS",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 8
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I had the EBUS procedure yesterday and I now scheduled"
+}

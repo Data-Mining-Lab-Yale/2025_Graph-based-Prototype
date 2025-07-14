@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "level",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "came",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "low",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "acomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "The level came back low ."
+}

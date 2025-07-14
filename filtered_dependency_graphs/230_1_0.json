@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Does",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "mean",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "damaged",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "nerve",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "permanently",
+      "pos": "ADV",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "Does this mean that the nerve was permanently damaged"
+}

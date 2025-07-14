@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "'m",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "sure",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "protocol",
+      "pos": "NOUN",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "neg",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "attr",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "I'm not sure what the protocol is"
+}

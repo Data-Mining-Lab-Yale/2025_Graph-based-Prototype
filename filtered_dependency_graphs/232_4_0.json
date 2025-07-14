@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Presume",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "shared",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "auxpass",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "Presume they can be shared"
+}

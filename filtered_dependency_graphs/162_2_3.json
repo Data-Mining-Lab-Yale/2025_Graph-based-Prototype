@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "happen",
+      "pos": "VERB",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "build trust",
+  "text": "to make it happen"
+}

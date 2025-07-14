@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "added",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "list",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "medication",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Drugs",
+  "text": "I have added it to your medication list."
+}

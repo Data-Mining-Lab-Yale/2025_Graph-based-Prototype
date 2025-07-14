@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "How",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "dental",
+      "pos": "ADJ",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "connection",
+  "text": "How is the dental work going"
+}

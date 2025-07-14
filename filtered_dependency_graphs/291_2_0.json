@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "correct",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 3
+    }
+  ],
+  "label": "SeekingApproval",
+  "text": "Is this correct?"
+}

@@ -1,0 +1,236 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "zofran",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "ordered",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "eleven",
+      "pos": "NUM",
+      "id": 16
+    },
+    {
+      "label": "refills",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 18
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 22
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 20
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 22
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "nummod",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "mark",
+      "source": 22,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 22,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "dep": "advmod",
+      "source": 22,
+      "target": 21
+    }
+  ],
+  "label": "Drugs",
+  "text": "the zofran last time - it was just ordered on MM/DD/YYYY with eleven refills so you should just be"
+}

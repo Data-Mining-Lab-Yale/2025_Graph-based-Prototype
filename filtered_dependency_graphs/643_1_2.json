@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "follow",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prt",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "maintainCommunication",
+  "text": "you can follow up with me in MM/DD/YYYY."
+}

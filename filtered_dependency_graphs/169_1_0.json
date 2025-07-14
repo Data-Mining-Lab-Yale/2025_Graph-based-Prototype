@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "list",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "med",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "neg",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Drugs",
+  "text": "I do not see it on your med list."
+}

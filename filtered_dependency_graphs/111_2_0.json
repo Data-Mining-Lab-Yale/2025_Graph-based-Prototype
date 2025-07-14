@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "told",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "side",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "right",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "poss",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    }
+  ],
+  "label": "Symptoms",
+  "text": "I told them of this pain on my right side."
+}

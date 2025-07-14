@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Was",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "contacted",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 1
+    },
+    {
+      "label": "yet",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "genetic",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "testing",
+      "pos": "NOUN",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "auxpass",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "neg",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "SchedulingAppt",
+  "text": "Was not yet contacted for a genetic testing appointment"
+}

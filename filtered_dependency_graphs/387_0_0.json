@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Why",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "elevated",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "bilirubin",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "vomiting",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Why is Person1 bilirubin still elevated and he vomiting"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "spoke",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "who",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "recommend",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "carecoordination",
+  "text": "Person1 spoke to Dr. Person2 this morning who recommend"
+}

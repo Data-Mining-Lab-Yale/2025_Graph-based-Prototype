@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Perfect",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "works",
+      "pos": "VERB",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    }
+  ],
+  "label": "Alignment",
+  "text": "Perfect that works"
+}

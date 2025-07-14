@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "called",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "Org1",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "directly",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "oprd",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "neg",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "I called Org1 directly and they did not have"
+}

@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "As",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "traveling",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "following",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "immediately",
+      "pos": "ADV",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "As I traveling immediately following"
+}

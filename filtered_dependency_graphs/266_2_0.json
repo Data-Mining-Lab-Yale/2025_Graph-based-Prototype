@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Radiation",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "5",
+      "pos": "NUM",
+      "id": 3
+    },
+    {
+      "label": "days",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "nummod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Radiation had scheduled 5 days of treatment for next week,"
+}

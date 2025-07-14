@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "went",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "am",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "stated",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "their",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "ccomp",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "i went to do blood work this am and they stated their was"
+}

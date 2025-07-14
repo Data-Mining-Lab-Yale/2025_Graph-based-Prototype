@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "both",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "uncomfortable",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "painful",
+      "pos": "ADJ",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 5
+    }
+  ],
+  "label": "Symptoms",
+  "text": "This is both uncomfortable and painful"
+}

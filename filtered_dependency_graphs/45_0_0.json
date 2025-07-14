@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Did",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "cancel",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "ct",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "relcl",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "Did you just cancel the ct scan I scheduled"
+}

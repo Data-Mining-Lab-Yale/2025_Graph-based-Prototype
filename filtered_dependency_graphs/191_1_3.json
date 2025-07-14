@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "instead",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "J",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "J",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 3
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "booster",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "ShareOptions",
+  "text": "instead of J/J for the booster."
+}

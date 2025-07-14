@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "tolerating",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "all",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "meds",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "well",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "following",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    }
+  ],
+  "label": "Drugs",
+  "text": "Person3 is tolerating all meds well and following"
+}

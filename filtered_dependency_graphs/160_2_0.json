@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "How",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "like",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "kids",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "cake",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "chocolate",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "connection",
+  "text": "How did the kids like the chocolate cake?"
+}

@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "according",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "primary",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "according to my primary."
+}

@@ -1,0 +1,151 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "usually",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "cbc-",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "drew",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 11
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "input",
+      "pos": "VERB",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "dep",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "ccomp",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I usually also have cbc- they drew the blood for it just need it input"
+}

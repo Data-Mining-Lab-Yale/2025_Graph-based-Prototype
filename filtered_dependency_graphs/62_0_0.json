@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "tell",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "bad",
+      "pos": "ADJ",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 10
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Please can you tell me about my results good or bad"
+}

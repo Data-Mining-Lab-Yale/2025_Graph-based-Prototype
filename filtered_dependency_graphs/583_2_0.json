@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "pandemic",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "covid",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "created",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "backup",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "huge",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "The covid pandemic has created a huge backup."
+}

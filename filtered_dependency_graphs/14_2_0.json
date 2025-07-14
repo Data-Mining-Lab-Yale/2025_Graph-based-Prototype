@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Does",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "continue",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Drugs",
+  "text": "Does Dr. Person3 want Person1 to continue"
+}

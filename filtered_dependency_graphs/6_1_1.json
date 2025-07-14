@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "X",
+      "id": 0
+    },
+    {
+      "label": "okay",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "meta",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "ApprovalofDecision/Reinforcement",
+  "text": "a-okay for Person2 to have"
+}

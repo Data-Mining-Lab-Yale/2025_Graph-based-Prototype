@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "doing",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "correctly",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 5
+    }
+  ],
+  "label": "Reassurance",
+  "text": "you are doing it correctly."
+}

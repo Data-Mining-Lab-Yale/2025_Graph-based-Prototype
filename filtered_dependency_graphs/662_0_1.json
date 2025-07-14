@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "One",
+      "pos": "NUM",
+      "id": 0
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "more",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "added",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nummod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "auxpass",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "One more blood test for next visit to be added"
+}

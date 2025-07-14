@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "thank",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "much",
+      "pos": "ADV",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "signoff",
+  "text": "Ok thank you so much"
+}

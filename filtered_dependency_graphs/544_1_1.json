@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "down",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "reading",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "previous",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "2.66",
+      "pos": "NUM",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "down from a previous reading of 2.66."
+}

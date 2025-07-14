@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "You",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "soak",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "toes",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "mixture",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "warm",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "water",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "vinegar",
+      "pos": "NOUN",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 12
+    }
+  ],
+  "label": "Instruction",
+  "text": "You could soak your toes in a mixture of warm water and vinegar"
+}

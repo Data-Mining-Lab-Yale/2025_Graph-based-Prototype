@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "supply",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "called",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "into",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    }
+  ],
+  "label": "Drugs",
+  "text": "day supply called into Org2 in Org2?"
+}

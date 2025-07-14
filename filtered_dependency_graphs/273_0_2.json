@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "phone",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "come",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "didn",
+      "pos": "PROPN",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "appos",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    }
+  ],
+  "label": "expressOpinions",
+  "text": "a phone call my bloodwork didn come"
+}

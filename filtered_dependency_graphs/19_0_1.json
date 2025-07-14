@@ -1,0 +1,166 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "rec'd",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "notice",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 5
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "appos",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 13
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "Person1 rec'd a notice MM/DD/YYYY (MM/DD/YYYY,"
+}

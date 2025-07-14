@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Your",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "advice",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 2
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "Your advice please."
+}

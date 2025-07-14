@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "brother",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "bringing",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "appos",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 8
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "My brother Person1 will be bringing him today."
+}

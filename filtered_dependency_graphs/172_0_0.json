@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Another",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "unproductive",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "using",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "machine",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "leg",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "massage",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "rethink",
+      "pos": "VERB",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "pcomp",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "Symptoms",
+  "text": "Another unproductive week of using the leg massage machine has me rethink"
+}

@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Give",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "dative",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Instruction",
+  "text": "Give them a call."
+}

@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 4
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "Can she call me please"
+}

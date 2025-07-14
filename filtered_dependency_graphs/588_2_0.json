@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Based",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    }
+  ],
+  "label": "SeekingApproval",
+  "text": "Based on the last bloodwork results,"
+}

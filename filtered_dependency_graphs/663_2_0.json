@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "She",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "wants",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "change",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "concerns",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "further",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "ExpressConcern/unease",
+  "text": "She now wants to change any further concerns,"
+}

@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "wrong-",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "connection",
+  "text": "me if I wrong-"
+}

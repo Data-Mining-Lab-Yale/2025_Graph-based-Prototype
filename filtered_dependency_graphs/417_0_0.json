@@ -1,0 +1,81 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "That",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "fine",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Approval/Reinforcement",
+  "text": "Hi Person1 That is fine to take."
+}

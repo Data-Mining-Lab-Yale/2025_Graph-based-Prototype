@@ -1,0 +1,106 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Very",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "glad",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "helped",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "stopping",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "juice",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "beet",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "urine",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Alignment",
+  "text": "Very glad stopping the beet juice helped your urine."
+}

@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "prescribed",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "Ketorolac",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "Toradol",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "insurance",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "cover",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "appos",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "appos",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "neg",
+      "source": 12,
+      "target": 11
+    }
+  ],
+  "label": "Drugs",
+  "text": "He prescribed me Ketorolac (Toradol) and my insurance would not cover"
+}

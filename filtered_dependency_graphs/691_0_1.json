@@ -1,0 +1,15 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "appreciate",
+      "pos": "VERB",
+      "id": 0
+    }
+  ],
+  "links": [],
+  "label": "Appreciation/Gratitude",
+  "text": "appreciate"
+}

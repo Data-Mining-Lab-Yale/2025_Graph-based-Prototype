@@ -1,0 +1,156 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Will",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "doing",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "next",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "appos",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Will I be doing bloodwork before my appointment next MM/DD/YYYY?"
+}

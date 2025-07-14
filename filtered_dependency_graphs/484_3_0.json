@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "ar",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "Sincerely",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 2
+    }
+  ],
+  "label": "signoff",
+  "text": "ar Sincerely,"
+}

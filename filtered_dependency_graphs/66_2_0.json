@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Were",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "labs",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "wanted",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "relcl",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "Were there any other labs you wanted"
+}

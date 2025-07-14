@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "submit",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "prescription",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "prosthesis",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "Four",
+      "pos": "NUM",
+      "id": 10
+    },
+    {
+      "label": "bras",
+      "pos": "NOUN",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "nummod",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "Please submit a prescription to Person2 for my prosthesis and Four bras"
+}

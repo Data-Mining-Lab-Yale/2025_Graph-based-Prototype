@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "absolutely",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "no",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "energy",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "over",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "past",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "chest",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "congestion",
+      "pos": "NOUN",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    }
+  ],
+  "label": "Symptoms",
+  "text": "He has had absolutely no energy over the past week and chest congestion"
+}

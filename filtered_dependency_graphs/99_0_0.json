@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "No",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "problem",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    }
+  ],
+  "label": "Alignment",
+  "text": "No problem."
+}

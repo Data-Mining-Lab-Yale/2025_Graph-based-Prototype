@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Much",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "appreciated",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    }
+  ],
+  "label": "Appreciation/Gratitude",
+  "text": "Much appreciated!"
+}

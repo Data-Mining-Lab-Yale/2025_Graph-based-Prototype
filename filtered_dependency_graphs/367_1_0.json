@@ -1,0 +1,146 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person2",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "once",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "drain",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "gall",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "bladder",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "sitting",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "relcl",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    }
+  ],
+  "label": "Symptoms",
+  "text": "Person2 once again is in pain from the gall bladder drain that is sitting"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "bit",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "longer",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "show",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prt",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "a bit longer to show up in Person2."
+}

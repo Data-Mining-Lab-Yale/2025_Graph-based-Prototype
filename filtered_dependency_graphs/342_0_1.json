@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "in",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "every",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "neg",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nummod",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "now in for blood work every 2 weeks and did not see"
+}

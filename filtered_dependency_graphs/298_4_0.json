@@ -1,0 +1,26 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Kind",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "regards",
+      "pos": "NOUN",
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    }
+  ],
+  "label": "signoff",
+  "text": "Kind regards"
+}

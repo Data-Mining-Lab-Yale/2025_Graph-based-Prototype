@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "able",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 1
+    },
+    {
+      "label": "scan",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "uploaded",
+      "pos": "VERB",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "xcomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 4
+    }
+  ],
+  "label": "EconomicStability",
+  "text": "able to scan it and uploaded"
+}

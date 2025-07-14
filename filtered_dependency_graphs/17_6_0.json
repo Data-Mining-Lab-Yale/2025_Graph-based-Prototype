@@ -1,0 +1,156 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Re",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "Eliquis",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ":",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 8
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "5",
+      "pos": "NUM",
+      "id": 9
+    },
+    {
+      "label": "mg",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "tabs",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 13
+    },
+    {
+      "label": "night",
+      "pos": "NOUN",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "appos",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nummod",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "dep": "nummod",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "cc",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "conj",
+      "source": 12,
+      "target": 14
+    }
+  ],
+  "label": "Drugs",
+  "text": "Re Eliquis: MM/DD/YYYY two 5mg tabs morning and night"
+}

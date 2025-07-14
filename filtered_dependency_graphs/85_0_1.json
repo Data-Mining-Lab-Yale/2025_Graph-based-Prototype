@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "emailed",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 4
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "I emailed this today."
+}

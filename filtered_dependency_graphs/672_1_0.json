@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Be",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "safe",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "acomp",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 2
+    }
+  ],
+  "label": "connection",
+  "text": "Be safe."
+}

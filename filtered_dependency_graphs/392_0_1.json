@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "copay",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "through",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "apothecary",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "Org4",
+      "pos": "NUM",
+      "id": 4
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "$",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "81.54",
+      "pos": "NUM",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "attr",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 8
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "the copay through the Org4 apothecary will be $81.54."
+}

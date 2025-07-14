@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "form",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "single",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "page",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "stated",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "relcl",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    }
+  ],
+  "label": "Generalinformation",
+  "text": "We received a single page form that stated"
+}

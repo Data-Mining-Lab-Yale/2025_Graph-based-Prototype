@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Very",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "happy",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "hear",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "PositiveRemarks",
+  "text": "Very happy to hear you are"
+}

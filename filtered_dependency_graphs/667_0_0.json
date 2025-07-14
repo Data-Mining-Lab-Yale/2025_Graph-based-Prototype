@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "There",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "order",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "place",
+      "pos": "NOUN",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "attr",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "There is an order in place"
+}

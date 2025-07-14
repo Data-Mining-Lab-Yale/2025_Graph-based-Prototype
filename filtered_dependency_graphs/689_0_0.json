@@ -1,0 +1,256 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "send",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "instructions",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "os",
+      "pos": "ADV",
+      "id": 10
+    },
+    {
+      "label": "steroid",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "medication",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "name",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 17
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "list",
+      "pos": "NOUN",
+      "id": 22
+    },
+    {
+      "label": "med",
+      "pos": "ADJ",
+      "id": 21
+    },
+    {
+      "label": "anymore",
+      "pos": "ADV",
+      "id": 23
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dative",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 17
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 24
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pcomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "dobj",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "advmod",
+      "source": 17,
+      "target": 23
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 22
+    },
+    {
+      "dep": "poss",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "dep": "amod",
+      "source": 22,
+      "target": 21
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "Hi Person1 can you send me instructions for the taking os steroid with medication name I Person2 have it on my med list anymore."
+}

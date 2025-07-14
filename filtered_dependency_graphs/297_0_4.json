@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "CBC",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 2
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "after",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "start",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "nummod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    }
+  ],
+  "label": "activeParticipation/involvement",
+  "text": "a CBC 2 weeks after the start ?"
+}

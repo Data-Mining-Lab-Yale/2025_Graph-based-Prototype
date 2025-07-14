@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "help",
+      "pos": "NOUN",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Appreciation/Gratitude",
+  "text": "you for your help"
+}

@@ -1,0 +1,116 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person5",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "pre",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "info",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "-",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "auth",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "Cigna",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "approx",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "Person5 sent in pre-auth info to Cigna approx."
+}

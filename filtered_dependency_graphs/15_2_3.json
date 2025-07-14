@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "current",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "Rx",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "run",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "tmrrw",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prt",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    }
+  ],
+  "label": "Drugs",
+  "text": "current Rx will run out by tmrrw,"
+}

@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "like",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "muscle",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "area",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "shoulder",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "blade",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "arm",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "upper",
+      "pos": "ADJ",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "Symptoms",
+  "text": "like muscle pain in my shoulder blade area and my upper arm"
+}

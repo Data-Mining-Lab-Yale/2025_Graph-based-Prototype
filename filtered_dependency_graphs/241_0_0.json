@@ -1,0 +1,46 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "'s",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "try",
+      "pos": "VERB",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Approval/Reinforcement",
+  "text": "Ok let's try"
+}

@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "happy",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "trending",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "I was happy to see that this was trending"
+}

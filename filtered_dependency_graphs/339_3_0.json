@@ -1,0 +1,66 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thank",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "label": "Appreciation/Gratitude",
+  "text": "Thank you for your time."
+}

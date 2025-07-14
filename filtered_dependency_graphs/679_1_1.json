@@ -1,0 +1,156 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "trying",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "find",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "gynecologist",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "close",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "accepting",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "patients",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "Medicare",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pcomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 13
+    }
+  ],
+  "label": "HealthCareAccessAndQuality",
+  "text": "have been trying to find a gynecologist close by accepting new patients on Medicare,"
+}

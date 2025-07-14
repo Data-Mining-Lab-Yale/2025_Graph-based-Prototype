@@ -1,0 +1,96 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "choice",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "tomorrow",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "Moderna",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "Johnson",
+      "pos": "PROPN",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 8
+    }
+  ],
+  "label": "ExploreOptions",
+  "text": "I have a choice tomorrow for Moderna or Johnson"
+}

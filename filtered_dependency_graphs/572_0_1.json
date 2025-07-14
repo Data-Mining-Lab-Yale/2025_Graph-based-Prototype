@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Could",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "tell",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 4
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    }
+  ],
+  "label": "SchedulingAppt",
+  "text": "Could you tell me when my next appointment with Dr. Person2 will be"
+}

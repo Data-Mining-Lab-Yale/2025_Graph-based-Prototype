@@ -1,0 +1,126 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "decided",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "forgo",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "option",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "fertility",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "eggs",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "extracted",
+      "pos": "VERB",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "acl",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    }
+  ],
+  "label": "statePreferences",
+  "text": "we have decided to forgo the fertility option to have eggs extracted"
+}

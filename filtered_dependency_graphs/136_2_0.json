@@ -1,0 +1,186 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "off",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 15
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 16
+    },
+    {
+      "dep": "nmod",
+      "source": 16,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 15
+    }
+  ],
+  "label": "EconomicStability",
+  "text": "I put you off work from MM/DD/YYYY to MM/DD/YYYY."
+}

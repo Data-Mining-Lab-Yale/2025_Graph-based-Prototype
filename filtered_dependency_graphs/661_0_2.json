@@ -1,0 +1,56 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "Thanksgiving",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "nice",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "connection",
+  "text": "had a nice Thanksgiving."
+}

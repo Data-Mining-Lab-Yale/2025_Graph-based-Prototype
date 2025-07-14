@@ -1,0 +1,76 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Her",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "address",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "email",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": ":",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "address@email.com",
+      "pos": "X",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "attr",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 6
+    }
+  ],
+  "label": "carecoordination",
+  "text": "Her email address is: address@email.com."
+}

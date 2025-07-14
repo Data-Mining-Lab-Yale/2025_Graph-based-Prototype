@@ -1,0 +1,36 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 1
+    }
+  ],
+  "label": "maintainCommunication",
+  "text": "if any issues"
+}

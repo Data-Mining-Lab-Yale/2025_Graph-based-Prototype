@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "From",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 2
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "label": "Diagnostics",
+  "text": "From MM/DD/YYYY and now"
+}
