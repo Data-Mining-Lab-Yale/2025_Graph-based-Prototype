@@ -195,3 +195,6 @@ results_clause/
 dependency_graphs_with_labels/
 results_dep_gcn_bk/
 */old_data/
+
+filtered_srl_graphs_weighted/
+srl_graphs_weighted_with_labels/

@@ -3,10 +3,10 @@ import json
 from pathlib import Path
 
 # === Configuration ===
-GRAPH_DIR = "outputs/srl_graphs/subsentence_subcode/json"
+GRAPH_DIR = "outputs/srl_graphs_weighted/subsentence_subcode/json"
 LABEL_FILE = "EPPC_output_json/subsentence_subcode_labels.json"
 TEXT_SOURCE_FILE = "EPPC_output_json/subsentence_subcode_labels.json"  # Can be the same as label file
-OUTPUT_DIR = "srl_graphs_with_labels"
+OUTPUT_DIR = "srl_graphs_weighted_with_labels"
 
 # === Setup paths ===
 graph_path = Path(GRAPH_DIR)
@@ -64,6 +64,6 @@ print(f"✅ Updated and saved {count} graphs to '{OUTPUT_DIR}/'")
 print(f"⚠️ Skipped: {skipped} (no label) | ❌ Errors: {len(errors)}")
 
 if errors:
-    with open("data_processing_errors.json", "w", encoding="utf-8") as f:
+    with open("outputs/srl_graphs_weighted/data_processing_errors.json", "w", encoding="utf-8") as f:
         json.dump(errors, f, indent=2)
     print("📝 Error log written to: data_processing_errors.json")

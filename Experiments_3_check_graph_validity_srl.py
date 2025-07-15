@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 
 # === Configuration ===
-GRAPH_DIR = "srl_graphs_with_labels"  # Folder with your <subsentence>.json graph files
-OUTPUT_LOG = "invalid_graphs_log.json"
+GRAPH_DIR = "srl_graphs_weighted_with_labels"  # Folder with your <subsentence>.json graph files
+OUTPUT_LOG = "outputs/srl_graphs_weighted/invalid_graphs_log.json"
 
 # === Initialize ===
 graph_path = Path(GRAPH_DIR)
