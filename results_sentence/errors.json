@@ -1,0 +1,1958 @@
+{
+  "model": "MLP",
+  "source": "sentence",
+  "label_type": "subcode",
+  "seed": 31012,
+  "errors": [
+    {
+      "text": "May I speak with Dr  Person1 XXX-XXX-XXXX",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Will that be covered when Dr.  Person1 calls me to discuss the test results?",
+      "true_label": "Diagnostics",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Totally stable.",
+      "true_label": "Reassurance",
+      "pred_label": "Alignment",
+      "correct": false
+    },
+    {
+      "text": "I do!",
+      "true_label": "Diagnostics",
+      "pred_label": "Alignment",
+      "correct": false
+    },
+    {
+      "text": "He said that he would schedule the chemo for the day of my next appointment and it could be canceled.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "I just had A visit with my urologist, Dr. Person2, in Org3, and the visit summary posted my visit with Dr. Person1 as being in Org3 by mistake.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "I can draw it.",
+      "true_label": "Diagnostics",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Yes I have and am seeing her again on MM/DD/YYYY.",
+      "true_label": "carecoordination",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Thank you finally reached someone and they are going to call me back with a time and place your help very much!",
+      "true_label": "SchedulingAppt",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": false
+    },
+    {
+      "text": "Would you let me know when you can squeeze Person2 in?",
+      "true_label": "SchedulingAppt",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "I s there any way I can send Person1 to Org3 to pick up a container and drop it off later for analysis?",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": true
+    },
+    {
+      "text": "I recently had a bunch of blood work entered and they backed it out?",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Thank you, Person1",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "I don wanna be jacked up on both sides.",
+      "true_label": "ExpressConcern/unease",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Hi Person1 hope you well!",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Should we increase potency of his treatments?",
+      "true_label": "ExploreOptions",
+      "pred_label": "SeekingApproval",
+      "correct": false
+    },
+    {
+      "text": "Please let me know when submitted.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "Unfortunately I haven begun the dental work.",
+      "true_label": "carecoordination",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "He has significantly decreased his clinic time with his promotion.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "I generally feel better on the new drug just the ankle and foot swelling that is now the issue.",
+      "true_label": "expressOpinions",
+      "pred_label": "Symptoms",
+      "correct": false
+    },
+    {
+      "text": "Thank you, Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Hi  I had my MM/DD/YYYY bloodwork done MM/DD/YYYY, just checking to see if it is ok to continue this round of Ibrance?",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Thank you",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Thank you so much!",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "This type of surgery  usually has the best results when done by an oculoplastic surgeon and I can make suggestions if that would be helpful.",
+      "true_label": "maintainCommunication",
+      "pred_label": "checkingUnderstanding/clarification",
+      "correct": false
+    },
+    {
+      "text": "Are we not doing the other tests right now the cbc and metabolic comprehensive?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Hello Mr. Person1, My apologies for the confusion.",
+      "true_label": "AcknowledgeError",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": false
+    },
+    {
+      "text": "Let me know if there is anything else I can help you with!",
+      "true_label": "maintainCommunication",
+      "pred_label": "EncourageQuestions",
+      "correct": false
+    },
+    {
+      "text": "A bone strengthening  agent will still most likely be added to your regimen and we will work on the appeal.",
+      "true_label": "Drugs",
+      "pred_label": "maintainCommunication",
+      "correct": false
+    },
+    {
+      "text": "I'm having the Infusion scheduler call you to get you an appt on NP8",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "I sleep raised up.",
+      "true_label": "Generalinformation",
+      "pred_label": "Generalinformation",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1, We are working on moving the MRI to MM/DD/YYYY but have you on for MM/DD/YYYY currently just to have a spot held.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "I am scheduled for my blood draw, appointment with Dr  Person1, and chemo treatment MM/DD/YYYY.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Currently my lab work is scheduled to be done on MM/DD/YYYY and I see Dr  Person1 on MM/DD/YYYY.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Hi G.  Will pick up some olives today.",
+      "true_label": "Generalinformation",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "You're very welcome.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Thanks!",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "signoff",
+      "correct": false
+    },
+    {
+      "text": "Was i due last month or this month?",
+      "true_label": "Drugs",
+      "pred_label": "EconomicStability",
+      "correct": false
+    },
+    {
+      "text": "Thank you",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Thanks",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "If it is ok can I have those shots at LOCATION?",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "SeekingApproval",
+      "correct": false
+    },
+    {
+      "text": "You had thought that the surgical clamp may have caused pressure on the nerve sheath and that this would resolve itself and eventually return to normal.",
+      "true_label": "Prognosis",
+      "pred_label": "expressOpinions",
+      "correct": false
+    },
+    {
+      "text": "As I traveling immediately following my next visit (MM/DD/YYYY) to Org3, I plan to bring several Covid tests.",
+      "true_label": "Generalinformation",
+      "pred_label": "Generalinformation",
+      "correct": true
+    },
+    {
+      "text": "Thanks Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "This is happening for a few months off and on.",
+      "true_label": "Symptoms",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Hi.",
+      "true_label": "salutation",
+      "pred_label": "salutation",
+      "correct": true
+    },
+    {
+      "text": "And it in Org1.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": true
+    },
+    {
+      "text": "Hello Dr. Person1,    Could you please tell me who I should be following up with to schedule the lymph node biopsy procedure prior to my SABR treatment.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "I believe it should be 9am so you have can labs drawn before seeing Dr. Person1.",
+      "true_label": "Diagnostics",
+      "pred_label": "Instruction",
+      "correct": false
+    },
+    {
+      "text": "My question is, is there a known side affect of my medication causing heart valve issues?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "Good Morning   Hope your MM/DD/YYYY is beautiful!!",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "I hope you well.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "How can I get that paperwork over to you or Person1 to be completed?",
+      "true_label": "EconomicStability",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Thank you,   Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Org1 team,  Would someone kindly schedule me for bloodwork to be completed prior to MM/DD/YYYY?",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "I have asked Person2 to send it as  soon as it is signed.",
+      "true_label": "carecoordination",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Hi Person1,  Thanks so much for your reply.",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "Kind regards,  Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "I saw two results now in.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Is my psa high or low",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "The next available we were able to get in you is for MM/DD/YYYY at 130.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "ShareOptions",
+      "correct": false
+    },
+    {
+      "text": "In person or telemed?",
+      "true_label": "inviteCollaboration",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Good morning,  My primary, Dr. Person1, has given me the green light to get a covid booster shot.",
+      "true_label": "Drugs",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Your advice please.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "SeekingApproval",
+      "correct": false
+    },
+    {
+      "text": "Your last injection was MM/DD/YYYY, the next one should have been around MM/DD/YYYY   24 weeks later.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "Could you please provide the other pages?",
+      "true_label": "Generalinformation",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Hello, Orders have been entered into the Epic system for lab work.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Thanks, Person1, and thanks for being patient with me!",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "PSA came way down to 1.91  I think this might be what you are asking for.",
+      "true_label": "checkingUnderstanding/clarification",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Hi,    The insurance is driving me nuts.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Thank you very much",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "After speaking to Person1 on MM/DD/YYYY & MM/DD/YYYY , I was able to fax the paperwork that night from work.",
+      "true_label": "carecoordination",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": false
+    },
+    {
+      "text": "Good morning Dr. Person1,  Is it possible for you to do me a favor?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "How about we recheck it in 1mo and if still elevated, will plan to start eligard at that time.",
+      "true_label": "ShareOptions",
+      "pred_label": "ShareOptions",
+      "correct": true
+    },
+    {
+      "text": "Thanks.",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "It is XXX-XXX-XXXX   THanks, Person2",
+      "true_label": "Generalinformation",
+      "pred_label": "signoff",
+      "correct": false
+    },
+    {
+      "text": "Have you checked with your cardiologist re your ankle swelling?",
+      "true_label": "carecoordination",
+      "pred_label": "Symptoms",
+      "correct": false
+    },
+    {
+      "text": "See you MM/DD/YYYY.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Hello Person1,    The swelling in both lower legs/ankles is chronic and I think it would be helpful if I could see a lymphedema specialist at Org3.",
+      "true_label": "statePreferences",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Ok thank you   I had his notes and biopsy result faxed to Person1",
+      "true_label": "carecoordination",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "I therefore need to find another treatment and am seeing my MZL doctor in LOCATION on MM/DD/YYYY.",
+      "true_label": "expressOpinions",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "And i Taking all my meds with no problems.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Person1 I taking 2 pills of the dextramethsone 4mg each.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "I haven seen a result yet.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Their number is XXX-XXX-XXXX.",
+      "true_label": "Generalinformation",
+      "pred_label": "Generalinformation",
+      "correct": true
+    },
+    {
+      "text": "Thank you and happy new year",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Is that a concern for this medication, also considering there may be side effects is it OK if I start the medication on MM/DD/YYYY as I need to work this weekend?",
+      "true_label": "SeekingApproval",
+      "pred_label": "SeekingApproval",
+      "correct": true
+    },
+    {
+      "text": "Ok thank you so much",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "He has COVID will get admitted to Org1",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": true
+    },
+    {
+      "text": "Order for labs are being placed.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "If ok we number is XXX-XXX-XXXX Person2Let me know .",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Hi Person1, were you able to schedule my bone scan?",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Hi,    Will I be doing bloodwork before my appointment next MM/DD/YYYY?",
+      "true_label": "Diagnostics",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "Hi Person1, Thanks for your reply.",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1 Glad I saw you in person and clarify treatment.",
+      "true_label": "Alignment",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": false
+    },
+    {
+      "text": "He prescribed me Ketorolac (Toradol) and my insurance would not cover it.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Hi.",
+      "true_label": "salutation",
+      "pred_label": "salutation",
+      "correct": true
+    },
+    {
+      "text": "In light of the increase from 0.167 to 0.284 should I restart Person1?",
+      "true_label": "SeekingApproval",
+      "pred_label": "SeekingApproval",
+      "correct": true
+    },
+    {
+      "text": "Good evening,     I came to do the CBC at the Org2 draw station in Org2 and they said they do not have an order for it.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": true
+    },
+    {
+      "text": "Thanks so much.",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Please let me know if this date will be okay with you and if mornings or afternoons will be better.",
+      "true_label": "maintainCommunication",
+      "pred_label": "SeekingApproval",
+      "correct": false
+    },
+    {
+      "text": "Can i see the psa results from today please",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Her email address is: address@email.com.",
+      "true_label": "carecoordination",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "I know you verbally told me but I not sure as this is a new treatment plan.",
+      "true_label": "expressOpinions",
+      "pred_label": "ExpressConcern/unease",
+      "correct": false
+    },
+    {
+      "text": "But now it is worse.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Thank you, Person1",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Hi,    My insurance will not allow me to opt out of using Org2 pharmacy for the anastrozle.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": true
+    },
+    {
+      "text": "Are you able to help with this only I haven had a response to either my e-mail or a phone message I left?",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Good morning, can i get my recent psa results",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Were there any other labs you wanted and are you referring to a Bone Density Test?",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "I did cut my toe nails down a week ago but didn notice any cut.",
+      "true_label": "Generalinformation",
+      "pred_label": "Symptoms",
+      "correct": false
+    },
+    {
+      "text": "They can guide him to Org if needed.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Good morning, Person1,    I had reported to my work that I tested positive for covid since I had gone into the office.",
+      "true_label": "Generalinformation",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "We do recommend getting it",
+      "true_label": "Approval/Reinforcement",
+      "pred_label": "Approval/Reinforcement",
+      "correct": true
+    },
+    {
+      "text": "Would like to pick up today.",
+      "true_label": "statePreferences",
+      "pred_label": "statePreferences",
+      "correct": true
+    },
+    {
+      "text": "Thank you.",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "They want him to come back and have more of it removed would like him to see Dr Person4 but not sure how quickly he could get in?",
+      "true_label": "carecoordination",
+      "pred_label": "expressOpinions",
+      "correct": false
+    },
+    {
+      "text": "Is there anything else he can take to get rid of it.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Dr. Person1 had seen the ones on his left upper leg... lets see what Dr.  Person2 thinks.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "The white count is lower and also the platelets so we will find out when he wants them repeated.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Good evening,     After much discussion between my husband and I, we have decided to forgo the fertility option to have eggs extracted for surrogacy.",
+      "true_label": "statePreferences",
+      "pred_label": "SeekingApproval",
+      "correct": false
+    },
+    {
+      "text": "Hi  Not really I can have toast and it will bother me.",
+      "true_label": "Symptoms",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "This letter explains the process for appeal.",
+      "true_label": "Generalinformation",
+      "pred_label": "Generalinformation",
+      "correct": true
+    },
+    {
+      "text": "Person1 spoke to Dr. Person2 this morning who recommend you come in tomorrow for your post op and  drain removal.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "Let me know a time frame that works for you,  but we can definitely give you some time to heal first.",
+      "true_label": "ShareOptions",
+      "pred_label": "maintainCommunication",
+      "correct": false
+    },
+    {
+      "text": "Thank you Person1.",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "As I text you he is now in Org6 emergency room and we all know how he is and they will not allow me to go in to be  with him so I could hear and understand what is going ,because we know he does not hear well.",
+      "true_label": "ExpressConcern/unease",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Sorry to hear about the heartburn.",
+      "true_label": "Sadness/fear",
+      "pred_label": "Sadness/fear",
+      "correct": true
+    },
+    {
+      "text": "Cool     I need Dr Person1 to send eliquis to cvs     D",
+      "true_label": "Drugs",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Hope so!",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "I will let you know.",
+      "true_label": "maintainCommunication",
+      "pred_label": "maintainCommunication",
+      "correct": true
+    },
+    {
+      "text": "She went over my meds and said all ok for covid vaccine except was not sure about xarelto or Xeloda.",
+      "true_label": "carecoordination",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "I not sure if Dr. Person2 was aware that I about to undergo some extensive dental work at the Org3 and I understand that the bone density treatment could be detrimental to my current regimen which is working so well.",
+      "true_label": "expressOpinions",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Hi Person1 discussed with Dr  Person2 have placed an urgent MRI brain order, just waiting for our APRN  to sign.",
+      "true_label": "carecoordination",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Hi Dr. Person1,  Hop you and your family had a nice Thanksgiving.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1,    I see an appointment for the MM/DD/YYYY .",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "I received it thank you!",
+      "true_label": "Generalinformation",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": false
+    },
+    {
+      "text": "I a little concerned about wat my breast will look like after surgery ?",
+      "true_label": "ExpressConcern/unease",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "Thank you, Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Can I go before MM/DD/YYYY.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Good morning, Person1, I want to cancel or at least postpone my appointment for the bone density injection.",
+      "true_label": "statePreferences",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "Yesterday i was out in the sun most the day, and last night i got diarrhea and was throwing up.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Should I be?",
+      "true_label": "SeekingApproval",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "OOPS , sorry - my typo - the correct tel.",
+      "true_label": "AcknowledgeError",
+      "pred_label": "Alignment",
+      "correct": false
+    },
+    {
+      "text": "It works a little better than the Oxycodone.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Thanks for so much.",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "Hi we are so sorry to hear Person1 isnt feeling well.",
+      "true_label": "Sadness/fear",
+      "pred_label": "Sadness/fear",
+      "correct": true
+    },
+    {
+      "text": "Hi Mr  Person1, Are you feeling better today?",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "I hope all is well .",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "PSA in still coming down and this is good.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Hi Mr  Person1 I think you may not have gone to the Check Out desk before you left  your last appointment.",
+      "true_label": "Generalinformation",
+      "pred_label": "Instruction",
+      "correct": false
+    },
+    {
+      "text": "Really cuts the pain down to almost nothing.",
+      "true_label": "Symptoms",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "I have tried ibuprofen and I tried Gabapentin this morning, but the pain is still there and is really affecting my days.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "I  would also check your mychart and go to schedule appointment and see if anything comes up for you to schedule.",
+      "true_label": "Instruction",
+      "pred_label": "maintainCommunication",
+      "correct": false
+    },
+    {
+      "text": "Would love to schedule it on that day if possible.",
+      "true_label": "statePreferences",
+      "pred_label": "statePreferences",
+      "correct": true
+    },
+    {
+      "text": "Have a nice weekend.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Are there any suggestions as to what I can take?",
+      "true_label": "Drugs",
+      "pred_label": "ExploreOptions",
+      "correct": false
+    },
+    {
+      "text": "Also, if he is satisfied/pleased with the recent result....his thoughts?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "My husband was just diagnosed with skin cancer by his dermatologist.",
+      "true_label": "carecoordination",
+      "pred_label": "Symptoms",
+      "correct": false
+    },
+    {
+      "text": "I keep you posted.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "I do not see it on your med list.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1 will add a cbc for this time.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Sounds like you are in good hands.",
+      "true_label": "PositiveRemarks",
+      "pred_label": "connection",
+      "correct": false
+    },
+    {
+      "text": "Hi Dr. Person1,    Is it possible to add my Advanced Radiology CAT scan of MM/DD/YYYY to mychart?",
+      "true_label": "Diagnostics",
+      "pred_label": "Instruction",
+      "correct": false
+    },
+    {
+      "text": "Can you please take a look at PetScan for prostate cancer     Thank you",
+      "true_label": "Diagnostics",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Thank you",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1 The plan is to continue on the 100mg.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Thanks for checking.",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "Should I stop taking the ibrance while I sick?",
+      "true_label": "SeekingApproval",
+      "pred_label": "SeekingApproval",
+      "correct": true
+    },
+    {
+      "text": "Hello Person1,    I had the EBUS procedure yesterday and I now scheduled to begin radiation therapy on MM/DD/YYYY for five sessions.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Would love to get back on to the Eliquis if I can.",
+      "true_label": "statePreferences",
+      "pred_label": "statePreferences",
+      "correct": true
+    },
+    {
+      "text": "I can see if we can get you rescheduled and lumpectomy questions I can pass on to the surgery team.",
+      "true_label": "carecoordination",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Good evening       I hope this email finds you well.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled).",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Hopefully we can work this out today.",
+      "true_label": "expressOpinions",
+      "pred_label": "statePreferences",
+      "correct": false
+    },
+    {
+      "text": "Hi  Sorry to bother you but I am still not understanding the timing of my blood work.",
+      "true_label": "Diagnostics",
+      "pred_label": "expressOpinions",
+      "correct": false
+    },
+    {
+      "text": "MM/DD/YYYY is 4 weeks from my last Radium.",
+      "true_label": "Drugs",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Thanks Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Sure, you can wait until MM/DD/YYYY, but if for some reason you have any adverse side effects or extreme fatigue, you should get the lab work 2 weeks after.",
+      "true_label": "Instruction",
+      "pred_label": "Instruction",
+      "correct": true
+    },
+    {
+      "text": "I have been to the cardiologist and they see a valve issue.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "Thank you, Person1",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Hi  Just finished the blood work !",
+      "true_label": "Diagnostics",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Hi Person1,  Hope all is well with you and your family.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Anything I can do?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "Person1 i have noticed my kidney area on both right and left seem to ache.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Thanks again.",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "We will call you later today for the consent.",
+      "true_label": "maintainCommunication",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "I will look out for the appointment in Person1.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "Thanks!",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "signoff",
+      "correct": false
+    },
+    {
+      "text": "Thank you.",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Thanks",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Thank you",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "I will follow up with him.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "I have passed this message along to Dr  Person2.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "Also need trazodone for tonight but can't find email of prescriber - Dr Person1 something - can you help?",
+      "true_label": "carecoordination",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "Mr. Person1 I reviewed with Dr. Person2 continue with plan for surgery and to meet with them... thank you Person3",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "Person2- it looks like you were suppose to have a follow up with a primary care ... we would recommend seeing  the PCP or derm for this... thank you Person1",
+      "true_label": "Generalinformation",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Any questions give the office a call to speak with her XXX-XXX-XXXX",
+      "true_label": "Instruction",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "Good Morning Mr Person2, We received a single page form that stated 3 of 5.",
+      "true_label": "Generalinformation",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": false
+    },
+    {
+      "text": "Thank you, Person1",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Hello Person1,  I faxed the paperwork, let me know if you have any issues !",
+      "true_label": "maintainCommunication",
+      "pred_label": "maintainCommunication",
+      "correct": true
+    },
+    {
+      "text": "Thank you   Person1",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "good morning just letting you the blood draw was taken today the MM/DD/YYYY at 8:40AM.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Dr. Person1, there has been a throwup bug going through my family.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Person1 am i due for my injection i did not receive any appointments or reminders?",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Here are the instructions for taking the 4 mg Dexamethasone: Take 5 tablets (20 mg) 12 hours before chemotherapy then take 5 more tablets 6 hours before.",
+      "true_label": "Instruction",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "And I be doing bloodwork in another week?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "expressOpinions",
+      "correct": false
+    },
+    {
+      "text": "I had my prolia shot today with Dr. Person2.",
+      "true_label": "Drugs",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Person2's application for a 2 week Rehab visit at Org9 was rejected by Org9 his insurer.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": true
+    },
+    {
+      "text": "Something is going on that is causing me definite concern so need help in figuring out root causes and what the next steps would be.",
+      "true_label": "ExpressConcern/unease",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "So I am hoping to come in today to have it out and also  hoping to combine my 2 week post op visit with Dr Lynch at the same time.",
+      "true_label": "expressOpinions",
+      "pred_label": "statePreferences",
+      "correct": false
+    },
+    {
+      "text": "Take care Person1",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Hello Dr. Person1,    It has been 2 years since my neck surgery and I am still having issues with my eyelid drooping  and the pupil not dilating.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Do you know the reasoning you had this PET scan does and which doctor ordered it?",
+      "true_label": "Drugs",
+      "pred_label": "expressOpinions",
+      "correct": false
+    },
+    {
+      "text": "We are always here!",
+      "true_label": "Reassurance",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Hi Mr Person1, The test is a Dexa Bone Density Test.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Did he pick up the dexamethasone and Compazine?",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Or does it matter?",
+      "true_label": "Generalinformation",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Ok, thanks",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1 your PCP should be following this so I would check with them about ordering a PSA.",
+      "true_label": "checkingUnderstanding/clarification",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Thanks for your reply.",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "Your imaging was normal, you can follow up with me in MM/DD/YYYY.",
+      "true_label": "maintainCommunication",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "How are we going to address this?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "We have a death in the family (brother) and will be out of state next week for the service.",
+      "true_label": "Generalinformation",
+      "pred_label": "EconomicStability",
+      "correct": false
+    },
+    {
+      "text": "I told them of this pain on my right side.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Depending on results there might be a decision to make whether to restart Lupron or do nothing and wait for MRI results which is scheduled for MM/DD/YYYY.",
+      "true_label": "ExploreOptions",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Merry Christmas and a Healthy and Happy New Year to you and your family.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Hi,  My dad feels that these spots are new.",
+      "true_label": "Symptoms",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Is there a possibility to move my treatments up by one week, to MM/DD/YYYY and MM/DD/YYYY.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Sig swelling (but improving slightly) swelling of right leg persists.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Person1- do you have a dermatologist?",
+      "true_label": "Generalinformation",
+      "pred_label": "Generalinformation",
+      "correct": true
+    },
+    {
+      "text": "I tested positive for the flu.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Can you confirm?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "I have sent a message to Dr. Person1 to ask him to review them and let us know.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "Or no need for an office visit?",
+      "true_label": "ExploreOptions",
+      "pred_label": "EconomicStability",
+      "correct": false
+    },
+    {
+      "text": "Hi Person1 If you are feeling much better, we could restart Ibrance on MM/DD/YYYY?",
+      "true_label": "ShareOptions",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "We are both at the limit of getting \"stuck.\"",
+      "true_label": "Generalinformation",
+      "pred_label": "ExpressConcern/unease",
+      "correct": false
+    },
+    {
+      "text": "Are you  around on Wednesday afternoon?",
+      "true_label": "Generalinformation",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "We don have a MM/DD/YYYY appointment scheduled before my injection, so I messaging you.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "Ok.",
+      "true_label": "Alignment",
+      "pred_label": "Alignment",
+      "correct": true
+    },
+    {
+      "text": "Much appreciated,  Person6",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "I remain asymptomatic, no pain.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Thank you.",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "I will not have him go through the severe pain again that he went through 2 days ago.",
+      "true_label": "statePreferences",
+      "pred_label": "statePreferences",
+      "correct": true
+    },
+    {
+      "text": "Give  them a call.",
+      "true_label": "Instruction",
+      "pred_label": "Instruction",
+      "correct": true
+    },
+    {
+      "text": "Great!",
+      "true_label": "Alignment",
+      "pred_label": "Alignment",
+      "correct": true
+    },
+    {
+      "text": "Yes.",
+      "true_label": "Alignment",
+      "pred_label": "Alignment",
+      "correct": true
+    },
+    {
+      "text": "Hi person1    MM/DD/YYYY at 7.45 via televisit would be great    D",
+      "true_label": "statePreferences",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Are you having any problems urinating?",
+      "true_label": "Symptoms",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Could you please send an order so I can have blood drawn on MM/DD/YYYY this week.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "Appreciate your advice.",
+      "true_label": "build trust",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": false
+    },
+    {
+      "text": "Dr Person1 a couple questions for insurance.",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "HealthCareAccessAndQuality",
+      "correct": true
+    },
+    {
+      "text": "See you soon!",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Kind regards",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Thank you,  Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "You are correct, although the next dose is due MM/DD/YYYY (12 weeks from last dose).",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Thanks again,  Happy Easter to you and Dr. Person2.",
+      "true_label": "connection",
+      "pred_label": "connection",
+      "correct": true
+    },
+    {
+      "text": "Can you tell me if my hemoglobin and platelets is goog.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Person1 I would not change her dosing continue to take once a day .",
+      "true_label": "MakeDecision",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "Good morning.",
+      "true_label": "salutation",
+      "pred_label": "salutation",
+      "correct": true
+    },
+    {
+      "text": "Good morning Person1, I had to cancel my appointments for a cat scan and bone scan  Scheduled for this MM/DD/YYYY, MM/DD/YYYY.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "It looks like we haven't seen you in the office in a while, so I have to check in with Dr. Person1.",
+      "true_label": "Generalinformation",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "He has been off prednisone completely for one week.",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "He my doctor.",
+      "true_label": "Generalinformation",
+      "pred_label": "Generalinformation",
+      "correct": true
+    },
+    {
+      "text": "Yes, MM/DD/YYYY, is that good ?",
+      "true_label": "inviteCollaboration",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "You are correct.",
+      "true_label": "Alignment",
+      "pred_label": "Alignment",
+      "correct": true
+    },
+    {
+      "text": ":-)     Would you mind writing me a note for work saying that I had tested positive for covid MM/DD/YYYY, the 10 day quarantine of symptom on set has passed and am no longer contagious or whatever the correct wording would be.",
+      "true_label": "Symptoms",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Hi, I double checked with Dr. Person1 about the parameter she uses for Ibrance.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "Hello Person1,    Sharing a picture of my abdomen some 40 days after starting on the heparin.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Sincerely, Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Dr. Person3 is ok with having you get your port out.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "When will I be getting my Covid vaccine and can my wife get it also  Person2",
+      "true_label": "Drugs",
+      "pred_label": "SeekingApproval",
+      "correct": false
+    },
+    {
+      "text": "The CT chest has been resulted so yes you should see on My Chart once the physician has released it for ou to view.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Should I start Ibrance tonight?",
+      "true_label": "SeekingApproval",
+      "pred_label": "SeekingApproval",
+      "correct": true
+    },
+    {
+      "text": "I will let you know once I have more information.",
+      "true_label": "maintainCommunication",
+      "pred_label": "maintainCommunication",
+      "correct": true
+    },
+    {
+      "text": "It takes the stomach pain away and it seems to happen like once every 3 months so I don have to drive an hour to ER for them to tell me it from the Cancer",
+      "true_label": "NeighborhoodAndBuiltEnvironment",
+      "pred_label": "Symptoms",
+      "correct": false
+    },
+    {
+      "text": "We thought it would  Be a good idea to have someone check on my dad with all that has been going on and his short term memory issues.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Will you be doing intermittent FMLA or continuous?",
+      "true_label": "EconomicStability",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Did you receive them in My Chart?",
+      "true_label": "Diagnostics",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Please see attached regarding your conversation with Dr. Person1.",
+      "true_label": "Generalinformation",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "Just monitor tonight and over the weekend - - take a pen are circle the redness - watch for the redness to spread outside of the pen lines.",
+      "true_label": "Instruction",
+      "pred_label": "Instruction",
+      "correct": true
+    },
+    {
+      "text": "You were going to check with the pharmacist.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "Got it.",
+      "true_label": "Alignment",
+      "pred_label": "Alignment",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1 -  1) Since you are currently on active treatment, your cancer isn't in remission; it is being controlled by the  treatment.",
+      "true_label": "checkingUnderstanding/clarification",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "I saw the results of the CT abdomen pelvis test.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Am all out of this and others .",
+      "true_label": "Drugs",
+      "pred_label": "Symptoms",
+      "correct": false
+    },
+    {
+      "text": "I just called radiology - the request was sent to leadership to assist with scheduling.",
+      "true_label": "carecoordination",
+      "pred_label": "carecoordination",
+      "correct": true
+    },
+    {
+      "text": "Thank you,  Person2",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Person1 i took a home test today and was positive.",
+      "true_label": "Diagnostics",
+      "pred_label": "Diagnostics",
+      "correct": true
+    },
+    {
+      "text": "Thank you",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "And I will be doing blood work again next week?",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "I can be there at any time",
+      "true_label": "statePreferences",
+      "pred_label": "maintainCommunication",
+      "correct": false
+    },
+    {
+      "text": "I don't know the layout, but I would guess the lab.",
+      "true_label": "MakeDecision",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "If you do not hear from them by the end of next week.",
+      "true_label": "maintainCommunication",
+      "pred_label": "maintainCommunication",
+      "correct": true
+    },
+    {
+      "text": "You  should be all set.",
+      "true_label": "connection",
+      "pred_label": "Alignment",
+      "correct": false
+    },
+    {
+      "text": "Person1 it is fine to get the vaccine.",
+      "true_label": "Approval/Reinforcement",
+      "pred_label": "Approval/Reinforcement",
+      "correct": true
+    },
+    {
+      "text": "Can Dr Person1 please recommend a neurological spine doctor through Org2",
+      "true_label": "HealthCareAccessAndQuality",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "I put you off work from MM/DD/YYYY to MM/DD/YYYY.",
+      "true_label": "EconomicStability",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "Its all day and have not felt this before.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Please confirm.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "activeParticipation/involvement",
+      "correct": true
+    },
+    {
+      "text": "Have no choice but to use the port.",
+      "true_label": "expressOpinions",
+      "pred_label": "MakeDecision",
+      "correct": false
+    },
+    {
+      "text": "I have a very important appointment with my VA oral surgeon on the same date.",
+      "true_label": "carecoordination",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "I not sure if I should get it done with me being like I am , I unable to lay on my right side lol but I thinking maybe in a few weeks.",
+      "true_label": "expressOpinions",
+      "pred_label": "SeekingApproval",
+      "correct": false
+    },
+    {
+      "text": "Hello Person1,    Sharing a picture of my abdomen some 40 days after starting on the heparin.",
+      "true_label": "activeParticipation/involvement",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "They will keep a clo se eye on it and monitor for changes.",
+      "true_label": "maintainCommunication",
+      "pred_label": "carecoordination",
+      "correct": false
+    },
+    {
+      "text": "I forgot to ask during my surgery , will they remove my port as well?",
+      "true_label": "Generalinformation",
+      "pred_label": "activeParticipation/involvement",
+      "correct": false
+    },
+    {
+      "text": "I will also send it via email.",
+      "true_label": "maintainCommunication",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "I am Person1 the nurse coordinator for Radiation Oncology in Org2.",
+      "true_label": "carecoordination",
+      "pred_label": "Generalinformation",
+      "correct": false
+    },
+    {
+      "text": "Cool",
+      "true_label": "Alignment",
+      "pred_label": "Alignment",
+      "correct": true
+    },
+    {
+      "text": "Hi I am calling to verify that I started the Person1 on Saturday morning 8/19.",
+      "true_label": "Drugs",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "Person1,  I cannot get through to MRI scheduling hold now for 28 min and 26 minutes earlier I leave a message they won return call for 24-36 hours.",
+      "true_label": "Generalinformation",
+      "pred_label": "Diagnostics",
+      "correct": false
+    },
+    {
+      "text": "We do not have  a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to.",
+      "true_label": "SummarizeConfirmUnderstanding",
+      "pred_label": "SummarizeConfirmUnderstanding",
+      "correct": true
+    },
+    {
+      "text": "Thank you,  Person3",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "Can you schedule it anywhere anytime and we will get him there?",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "Hi Person1, If you are having fevers and feeling unwell you should hold the Ibrance.",
+      "true_label": "Approval/Reinforcement",
+      "pred_label": "Approval/Reinforcement",
+      "correct": true
+    },
+    {
+      "text": "Hello Person1, thank you and All for your help!",
+      "true_label": "Appreciation/Gratitude",
+      "pred_label": "Appreciation/Gratitude",
+      "correct": true
+    },
+    {
+      "text": "The appeal process and phone number to call is in the attached rejection letter.",
+      "true_label": "Generalinformation",
+      "pred_label": "Generalinformation",
+      "correct": true
+    },
+    {
+      "text": "Urinating a little more often, urgency same   No walking issues no pain ud and down.",
+      "true_label": "Symptoms",
+      "pred_label": "Symptoms",
+      "correct": true
+    },
+    {
+      "text": "Kind Regards",
+      "true_label": "signoff",
+      "pred_label": "signoff",
+      "correct": true
+    },
+    {
+      "text": "We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning.",
+      "true_label": "SchedulingAppt",
+      "pred_label": "SchedulingAppt",
+      "correct": true
+    },
+    {
+      "text": "It was just under 20 ml in the past 24 hour and 18 ml, the previous 24 hours.",
+      "true_label": "Symptoms",
+      "pred_label": "Drugs",
+      "correct": false
+    },
+    {
+      "text": "My my chart visit schedule calls for a blood draw and meeting with Dr. Person1  In Org3.",
+      "true_label": "Diagnostics",
+      "pred_label": "SchedulingAppt",
+      "correct": false
+    },
+    {
+      "text": "Also, are you taking calcium 1000  mg daily and 400 IU of vitamin D daily?",
+      "true_label": "Drugs",
+      "pred_label": "Drugs",
+      "correct": true
+    },
+    {
+      "text": "Very glad stopping the beet juice helped your urine.",
+      "true_label": "Alignment",
+      "pred_label": "Approval/Reinforcement",
+      "correct": false
+    }
+  ]
+}
