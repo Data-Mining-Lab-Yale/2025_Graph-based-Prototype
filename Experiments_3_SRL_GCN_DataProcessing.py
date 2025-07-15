@@ -2,11 +2,16 @@ import os
 import json
 from pathlib import Path
 
+# TYPE = "weighted"
+# TYPE = "predicate"
+TYPE = "anchored"
+
+
 # === Configuration ===
-GRAPH_DIR = "outputs/srl_graphs_weighted/subsentence_subcode/json"
+GRAPH_DIR = f"outputs/srl_graphs_{TYPE}/subsentence_subcode/json"
 LABEL_FILE = "EPPC_output_json/subsentence_subcode_labels.json"
 TEXT_SOURCE_FILE = "EPPC_output_json/subsentence_subcode_labels.json"  # Can be the same as label file
-OUTPUT_DIR = "srl_graphs_weighted_with_labels"
+OUTPUT_DIR = f"srl_graphs_{TYPE}_with_labels"
 
 # === Setup paths ===
 graph_path = Path(GRAPH_DIR)
@@ -38,7 +43,12 @@ skipped = 0
 errors = []
 
 for file in graph_path.glob("*.json"):
+    # subsentence_id = file.stem
     subsentence_id = file.stem
+    # If filename has suffix like "_srl", remove it
+    if subsentence_id.endswith("_srl"):
+        subsentence_id = subsentence_id.rsplit("_srl", 1)[0]
+
     try:
         with open(file, "r", encoding="utf-8") as f:
             graph = json.load(f)
