@@ -9,9 +9,9 @@ import os
 # results_dep_gcn/
 # results_sentence/
 # results_clause/
-ERROR_FILE = "results_clause/subsentence_errors.json"  # change to subsentence_errors.json or sentence_errors.json as needed
-TRAIN_LOG_FILE = "results_clause/subsentence_train_log.json"
-OUTPUT_DIR = "results_clause/analysis_subsentence"  # will be created if not exist
+ERROR_FILE = "results_dep_gcn/dep_gcn_errors.json"  # change to subsentence_errors.json or sentence_errors.json as needed
+TRAIN_LOG_FILE = "results_dep_gcn/dep_gcn_train_log.json"
+OUTPUT_DIR = "results_dep_gcn/analysis_dep_gcn"  # will be created if not exist
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

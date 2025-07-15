@@ -30,14 +30,14 @@ torch.backends.cudnn.benchmark = False
 print(f"🧪 Using random seed: {SEED}")
 
 # === CONFIG ===
-INPUT_JSON = "EPPC_output_json/sentence_subcode_labels.json"
-# INPUT_JSON = "EPPC_output_json/subsentence_subcode_labels.json"
+# INPUT_JSON = "EPPC_output_json/sentence_subcode_labels.json"
+INPUT_JSON = "EPPC_output_json/subsentence_subcode_labels.json"
 LABEL_TYPE = "subcode"
-SOURCE_TAG = "sentence"
-# SOURCE_TAG = "subsentence"
+# SOURCE_TAG = "sentence"
+SOURCE_TAG = "subsentence"
 MODEL_NAME = "MLP"
-OUTPUT_DIR = "results_sentence"
-# OUTPUT_DIR = "results_subsentence"
+# OUTPUT_DIR = "results_sentence"
+OUTPUT_DIR = "results_subsentence"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

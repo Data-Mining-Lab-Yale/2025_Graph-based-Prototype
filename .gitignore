@@ -183,6 +183,7 @@ Old_Data/
 outputs/text2graphs_subsetence_order_viz/
 outputs/dependency_graphs/subsentence_subcode/images/
 outputs/
+outputs/*/images/
 Models/
 bart-large/
 mlp_output/
@@ -193,3 +194,4 @@ results_sentence/old_data/
 results_clause/
 dependency_graphs_with_labels/
 results_dep_gcn_bk/
+*/old_data/
