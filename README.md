@@ -96,7 +96,7 @@ If you use this codebase in your research, please cite the associated paper (to 
 ```bibTex
 @inproceedings{chen2025graphreasoning,
   title     = {Graph-Based Semantic Reasoning for Sub-Sentential Annotation in Patient-Provider Communication},
-  author    = {Chen, Yi-Chun and [Others]},
+  author    = {Chen, Yi-Chun and Ma, LinHai and Wang, Yan and Jarad-Fodeh, Samah},
   booktitle = {To appear},
   year      = {2025},
   url       = {https://github.com/RimiChen/graph-annotation-prototype}
