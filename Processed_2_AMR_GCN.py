@@ -17,8 +17,8 @@ torch.serialization.add_safe_globals([Data])
 
 
 # ====== CONFIG ======
-INPUT_FILE = "processed_graph_features_anchored.pt"
-OUTPUT_DIR = "results_srl_anchored"
+INPUT_FILE = "processed_graph_features_amr.pt"
+OUTPUT_DIR = "results_amr_gcn"
 BATCH_SIZE = 32
 NUM_EPOCHS = 200
 LEARNING_RATE = 1e-3
