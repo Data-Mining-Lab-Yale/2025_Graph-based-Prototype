@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "417_0_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "Approval/Reinforcement",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "620_1_0",
+    "text": "torch.Size([14, 768])",
+    "true_label": "NeighborhoodAndBuiltEnvironment",
+    "predicted_label": "statePreferences"
+  },
+  {
+    "id": "584_3_0",
+    "text": "torch.Size([3, 768])",
+    "true_label": "statePreferences",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "232_4_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "15_3_1",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Drugs",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "160_0_1",
+    "text": "torch.Size([5, 768])",
+    "true_label": "connection",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "562_4_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "61_0_1",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "497_0_5",
+    "text": "torch.Size([4, 768])",
+    "true_label": "inviteCollaboration",
+    "predicted_label": "maintainCommunication"
+  },
+  {
+    "id": "630_1_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "391_1_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "connection"
+  },
+  {
+    "id": "255_4_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "build trust",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "220_5_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "328_0_2",
+    "text": "torch.Size([3, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "maintainCommunication"
+  },
+  {
+    "id": "31_1_0",
+    "text": "torch.Size([4, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "412_1_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "maintainCommunication"
+  },
+  {
+    "id": "224_3_1",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "680_0_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "expressOpinions"
+  },
+  {
+    "id": "635_1_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "connection",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "290_1_2",
+    "text": "torch.Size([4, 768])",
+    "true_label": "ShareOptions",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "35_1_5",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Reassurance",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "465_1_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "maintainCommunication",
+    "predicted_label": "Instruction"
+  },
+  {
+    "id": "129_3_1",
+    "text": "torch.Size([9, 768])",
+    "true_label": "statePreferences",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "104_3_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "ExpressConcern/unease",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "593_1_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "339_0_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "140_1_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "440_0_0",
+    "text": "torch.Size([12, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "584_4_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "SeekingApproval",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "524_8_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "ExploreOptions",
+    "predicted_label": "SeekingApproval"
+  },
+  {
+    "id": "310_1_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "PositiveRemarks",
+    "predicted_label": "connection"
+  },
+  {
+    "id": "280_4_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "Instruction"
+  },
+  {
+    "id": "382_0_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "562_0_2",
+    "text": "torch.Size([4, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "3_0_2",
+    "text": "torch.Size([5, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "EconomicStability"
+  },
+  {
+    "id": "74_0_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "54_4_5",
+    "text": "torch.Size([2, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "410_1_1",
+    "text": "torch.Size([3, 768])",
+    "true_label": "checkingUnderstanding/clarification",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "139_2_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "ExpressConcern/unease",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "608_0_1",
+    "text": "torch.Size([14, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "127_2_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "Instruction",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "111_2_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "353_3_1",
+    "text": "torch.Size([9, 768])",
+    "true_label": "maintainCommunication",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "175_2_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "SeekingApproval",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "610_1_0",
+    "text": "torch.Size([12, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "connection"
+  },
+  {
+    "id": "457_1_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "377_0_2",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "267_1_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "602_1_0",
+    "text": "torch.Size([14, 768])",
+    "true_label": "inviteCollaboration",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "388_1_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "221_2_1",
+    "text": "torch.Size([4, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "218_1_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Approval/Reinforcement",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "455_6_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "33_2_0",
+    "text": "torch.Size([14, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "127_1_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "605_0_3",
+    "text": "torch.Size([7, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "596_0_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "655_1_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "build trust"
+  },
+  {
+    "id": "550_1_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "connection",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "92_0_1",
+    "text": "torch.Size([8, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "689_2_0",
+    "text": "torch.Size([4, 768])",
+    "true_label": "AcknowledgeError",
+    "predicted_label": "ExpressConcern/unease"
+  },
+  {
+    "id": "144_0_0",
+    "text": "torch.Size([2, 768])",
+    "true_label": "connection",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "254_2_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "665_0_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "344_3_1",
+    "text": "torch.Size([17, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "checkingUnderstanding/clarification"
+  },
+  {
+    "id": "422_1_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "322_1_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "356_0_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "SeekingApproval",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "54_4_3",
+    "text": "torch.Size([3, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "119_6_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "Drugs",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "369_1_0",
+    "text": "torch.Size([14, 768])",
+    "true_label": "checkingUnderstanding/clarification",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "656_0_9",
+    "text": "torch.Size([4, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "339_2_2",
+    "text": "torch.Size([16, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "6_2_2",
+    "text": "torch.Size([4, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "562_3_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "38_1_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Alignment",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "149_0_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "349_0_1",
+    "text": "torch.Size([7, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "55_0_1",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "ExpressConcern/unease"
+  },
+  {
+    "id": "142_0_2",
+    "text": "torch.Size([12, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "674_0_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "162_1_1",
+    "text": "torch.Size([9, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "expressOpinions"
+  },
+  {
+    "id": "518_2_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "254_6_1",
+    "text": "torch.Size([7, 768])",
+    "true_label": "statePreferences",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "715_1_1",
+    "text": "torch.Size([5, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "363_3_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "0_0_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "231_2_0",
+    "text": "torch.Size([13, 768])",
+    "true_label": "SummarizeConfirmUnderstanding",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "119_2_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "312_1_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "541_0_2",
+    "text": "torch.Size([1, 768])",
+    "true_label": "ExpressConcern/unease",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "241_1_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "Drugs",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "68_2_0",
+    "text": "torch.Size([18, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "395_0_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "298_1_1",
+    "text": "torch.Size([8, 768])",
+    "true_label": "MakeDecision",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "704_2_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "219_3_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "Prognosis",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "220_4_2",
+    "text": "torch.Size([1, 768])",
+    "true_label": "maintainCommunication",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "204_1_4",
+    "text": "torch.Size([4, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "maintainCommunication"
+  },
+  {
+    "id": "95_1_0",
+    "text": "torch.Size([14, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "statePreferences"
+  },
+  {
+    "id": "176_2_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "690_4_1",
+    "text": "torch.Size([5, 768])",
+    "true_label": "maintainCommunication",
+    "predicted_label": "ExploreOptions"
+  },
+  {
+    "id": "704_1_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "56_0_1",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "670_0_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "AcknowledgeError",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "368_1_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "statePreferences",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "716_2_2",
+    "text": "torch.Size([11, 768])",
+    "true_label": "ExploreOptions",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "279_1_0",
+    "text": "torch.Size([13, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "111_5_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SummarizeConfirmUnderstanding"
+  },
+  {
+    "id": "110_1_0",
+    "text": "torch.Size([14, 768])",
+    "true_label": "connection",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "309_3_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "129_4_2",
+    "text": "torch.Size([7, 768])",
+    "true_label": "EconomicStability",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "170_1_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "maintainCommunication"
+  },
+  {
+    "id": "642_2_0",
+    "text": "torch.Size([15, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "SeekingApproval"
+  },
+  {
+    "id": "364_3_0",
+    "text": "torch.Size([15, 768])",
+    "true_label": "Instruction",
+    "predicted_label": "maintainCommunication"
+  },
+  {
+    "id": "646_0_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "578_0_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "salutation",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "444_0_2",
+    "text": "torch.Size([7, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "342_0_2",
+    "text": "torch.Size([1, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "264_2_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "EconomicStability",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "655_0_4",
+    "text": "torch.Size([1, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "statePreferences"
+  },
+  {
+    "id": "17_4_2",
+    "text": "torch.Size([7, 768])",
+    "true_label": "Drugs",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "196_1_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "615_0_1",
+    "text": "torch.Size([8, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "436_1_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "statePreferences",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "78_1_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "316_1_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "539_0_2",
+    "text": "torch.Size([10, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "431_0_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Approval/Reinforcement",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "126_4_1",
+    "text": "torch.Size([4, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "87_1_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "59_2_0",
+    "text": "torch.Size([20, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "281_1_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "maintainCommunication",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "162_1_0",
+    "text": "torch.Size([12, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "688_1_1",
+    "text": "torch.Size([8, 768])",
+    "true_label": "SeekingApproval",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "535_0_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Drugs",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "588_4_4",
+    "text": "torch.Size([7, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "691_0_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Alignment",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "98_2_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Appreciation/Gratitude"
+  },
+  {
+    "id": "657_0_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "MakeDecision",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "155_0_1",
+    "text": "torch.Size([3, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "64_1_0",
+    "text": "torch.Size([5, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "360_0_2",
+    "text": "torch.Size([5, 768])",
+    "true_label": "Instruction",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "250_4_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "141_0_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "76_0_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "EconomicStability"
+  },
+  {
+    "id": "447_0_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "connection",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "14_1_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "maintainCommunication"
+  },
+  {
+    "id": "542_0_3",
+    "text": "torch.Size([1, 768])",
+    "true_label": "checkingUnderstanding/clarification",
+    "predicted_label": "ShareOptions"
+  },
+  {
+    "id": "17_3_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "135_1_2",
+    "text": "torch.Size([1, 768])",
+    "true_label": "EconomicStability",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "446_1_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "229_4_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "maintainCommunication",
+    "predicted_label": "checkingUnderstanding/clarification"
+  },
+  {
+    "id": "294_1_0",
+    "text": "torch.Size([14, 768])",
+    "true_label": "ShareOptions",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "19_1_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "627_1_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "statePreferences"
+  },
+  {
+    "id": "656_0_6",
+    "text": "torch.Size([1, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "593_0_0",
+    "text": "torch.Size([4, 768])",
+    "true_label": "Alignment",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "526_1_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "335_1_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "statePreferences",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "456_0_0",
+    "text": "torch.Size([13, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "452_0_6",
+    "text": "torch.Size([14, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "199_1_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "457_2_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "624_2_1",
+    "text": "torch.Size([7, 768])",
+    "true_label": "Drugs",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "13_6_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "606_1_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "connection",
+    "predicted_label": "signoff"
+  },
+  {
+    "id": "101_0_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "salutation",
+    "predicted_label": "connection"
+  },
+  {
+    "id": "519_4_0",
+    "text": "torch.Size([15, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "7_0_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "ApprovalofDecision/Reinforcement",
+    "predicted_label": "Alignment"
+  },
+  {
+    "id": "342_2_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "716_4_0",
+    "text": "torch.Size([8, 768])",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "317_0_2",
+    "text": "torch.Size([11, 768])",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Drugs"
+  },
+  {
+    "id": "239_1_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "Symptoms"
+  },
+  {
+    "id": "17_8_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Drugs",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "289_0_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "AcknowledgeError",
+    "predicted_label": "Appreciation/Gratitude"
+  },
+  {
+    "id": "127_3_0",
+    "text": "torch.Size([13, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "checkingUnderstanding/clarification"
+  },
+  {
+    "id": "58_2_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "SchedulingAppt"
+  },
+  {
+    "id": "119_3_0",
+    "text": "torch.Size([7, 768])",
+    "true_label": "Symptoms",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "713_0_2",
+    "text": "torch.Size([4, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "id": "222_4_0",
+    "text": "torch.Size([6, 768])",
+    "true_label": "Reassurance",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "24_0_1",
+    "text": "torch.Size([7, 768])",
+    "true_label": "Diagnostics",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "364_4_0",
+    "text": "torch.Size([9, 768])",
+    "true_label": "maintainCommunication",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "154_2_1",
+    "text": "torch.Size([1, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "Diagnostics"
+  },
+  {
+    "id": "5_0_2",
+    "text": "torch.Size([7, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Generalinformation"
+  },
+  {
+    "id": "176_3_0",
+    "text": "torch.Size([1, 768])",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SummarizeConfirmUnderstanding"
+  },
+  {
+    "id": "215_2_3",
+    "text": "torch.Size([7, 768])",
+    "true_label": "expressOpinions",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "13_5_0",
+    "text": "torch.Size([10, 768])",
+    "true_label": "Generalinformation",
+    "predicted_label": "carecoordination"
+  },
+  {
+    "id": "695_0_0",
+    "text": "torch.Size([17, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "activeParticipation/involvement"
+  },
+  {
+    "id": "674_2_0",
+    "text": "torch.Size([11, 768])",
+    "true_label": "carecoordination",
+    "predicted_label": "Generalinformation"
+  }
+]

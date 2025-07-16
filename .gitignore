@@ -206,3 +206,5 @@ filtered_srl_graphs_weighted/
 filtered_srl_graphs_predicate/
 filtered_srl_graphs_anchored/
 srl_graphs_weighted_with_labels/
+
+*.pt
