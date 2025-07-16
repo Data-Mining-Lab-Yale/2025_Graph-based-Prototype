@@ -192,19 +192,8 @@ results_sentence/old_data/
 # results_clause/*.pt
 # results_clause/old_data/
 results_clause/
-dependency_graphs_with_labels/
 results_dep_gcn_bk/
 */old_data/
-
-dependency_graphs_with_labels/
-srl_graphs_weighted_with_labels/
-srl_graphs_predicate_with_labels/
-srl_graphs_anchored_with_labels/
-
-
-filtered_srl_graphs_weighted/
-filtered_srl_graphs_predicate/
-filtered_srl_graphs_anchored/
-srl_graphs_weighted_with_labels/
-
+*with_labels/
+filtered*/
 *.pt
