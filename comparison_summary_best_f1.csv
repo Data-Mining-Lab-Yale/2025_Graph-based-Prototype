@@ -1,0 +1,9 @@
+Model,Epoch,Accuracy (%),F1 Score,Loss
+sentence,10,55.4,0.401,0.0308
+dep_gcn,256,52.5,0.36,0.0548
+srl_gcn_weighted,103,54.0,0.358,0.5763
+subsentence,6,54.9,0.331,0.0924
+srl_anchored,159,54.9,0.318,0.0132
+srl_weighted,14,53.5,0.317,0.7558
+amr_gcn,167,48.9,0.272,0.1815
+srl_predicate,160,29.6,0.191,0.6263
