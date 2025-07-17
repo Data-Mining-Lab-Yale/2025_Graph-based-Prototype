@@ -1,0 +1,37 @@
+,sentence,subsentence,dep-GCN,srl-anchored,srl-predicate,srl-weighted,amr-GCN,narrative_amr-GCN,narrative_MLP
+AcknowledgeError (13),2,3,2,1,1,2,1,1,1
+Alignment (59),8,12,15,4,4,12,3,5,4
+Appreciation/Gratitude (68),12,14,11,3,3,11,1,5,5
+Approval/Reinforcement (15),3,3,1,3,2,4,1,0,2
+ApprovalofDecision/Reinforcement (5),0,1,1,1,1,0,1,0,0
+Diagnostics (192),30,39,33,16,22,42,11,11,10
+Drugs (158),24,32,30,11,21,30,6,9,10
+EconomicStability (20),3,4,3,4,3,4,2,1,2
+EncourageQuestions (2),0,0,0,0,0,1,0,0,1
+ExploreOptions (16),3,3,3,2,3,3,1,0,5
+ExpressConcern/unease (22),4,4,2,4,3,4,1,3,2
+Generalinformation (152),24,31,27,17,19,36,11,7,16
+HealthCareAccessAndQuality (83),13,17,21,13,11,23,7,1,10
+Instruction (36),6,7,9,5,5,10,3,1,8
+MakeDecision (12),2,2,3,2,2,0,1,1,3
+NeighborhoodAndBuiltEnvironment (6),1,1,1,1,1,0,0,0,2
+PositiveRemarks (6),1,1,3,1,1,2,1,1,0
+Prognosis (4),1,1,0,1,0,1,0,1,0
+Reassurance (11),2,2,1,2,2,2,1,1,2
+Sadness/fear (8),2,2,2,1,1,2,0,1,2
+SchedulingAppt (135),21,27,22,11,13,15,10,7,13
+SeekingApproval (26),5,5,3,5,5,6,3,0,2
+ShareOptions (12),3,2,2,2,2,1,1,1,2
+SummarizeConfirmUnderstanding (4),1,1,0,1,1,0,1,0,0
+Symptoms (101),18,20,21,6,17,28,10,3,7
+activeParticipation/involvement (133),24,27,19,19,20,28,10,2,10
+build trust (5),1,1,1,1,1,0,1,1,0
+carecoordination (147),25,30,23,13,23,28,8,3,18
+checkingUnderstanding/clarification (14),3,3,3,3,2,4,1,0,4
+connection (91),16,18,19,8,12,23,6,8,7
+expressOpinions (47),8,9,6,7,7,9,5,4,9
+inviteCollaboration (11),2,2,1,2,2,1,2,0,3
+maintainCommunication (57),11,11,12,8,6,8,8,2,5
+salutation (114),3,23,20,1,0,19,2,8,0
+signoff (251),34,50,54,4,6,50,1,27,8
+statePreferences (45),9,9,9,7,7,8,4,2,7

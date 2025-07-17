@@ -1,0 +1,142 @@
+{
+  "model": "MLP",
+  "source": "sentence",
+  "label_type": "subcode",
+  "seed": 63745,
+  "input_file": "EPPC_output_json/sentence_subcode_labels.json",
+  "class_names": [
+    "AcknowledgeError",
+    "Alignment",
+    "Appreciation/Gratitude",
+    "Approval/Reinforcement",
+    "Diagnostics",
+    "Drugs",
+    "EconomicStability",
+    "EncourageQuestions",
+    "ExploreOptions",
+    "ExpressConcern/unease",
+    "Generalinformation",
+    "HealthCareAccessAndQuality",
+    "Instruction",
+    "MakeDecision",
+    "NeighborhoodAndBuiltEnvironment",
+    "PositiveRemarks",
+    "Prognosis",
+    "Reassurance",
+    "Sadness/fear",
+    "SchedulingAppt",
+    "SeekingApproval",
+    "ShareOptions",
+    "SummarizeConfirmUnderstanding",
+    "Symptoms",
+    "activeParticipation/involvement",
+    "build trust",
+    "carecoordination",
+    "checkingUnderstanding/clarification",
+    "connection",
+    "expressOpinions",
+    "inviteCollaboration",
+    "maintainCommunication",
+    "salutation",
+    "signoff",
+    "statePreferences"
+  ],
+  "metrics": [
+    {
+      "epoch": 1,
+      "loss": 2.698309177233849,
+      "accuracy": 0.4676923076923077,
+      "f1": 0.22070132357804265
+    },
+    {
+      "epoch": 2,
+      "loss": 1.6704584625032213,
+      "accuracy": 0.5692307692307692,
+      "f1": 0.2896873646008865
+    },
+    {
+      "epoch": 3,
+      "loss": 0.9688459222699389,
+      "accuracy": 0.5846153846153846,
+      "f1": 0.35659540722967403
+    },
+    {
+      "epoch": 4,
+      "loss": 0.4866439950318984,
+      "accuracy": 0.5815384615384616,
+      "f1": 0.3859610722859756
+    },
+    {
+      "epoch": 5,
+      "loss": 0.2407066156098872,
+      "accuracy": 0.6123076923076923,
+      "f1": 0.4345209333941238
+    },
+    {
+      "epoch": 6,
+      "loss": 0.12967267476114225,
+      "accuracy": 0.6184615384615385,
+      "f1": 0.46353366914458516
+    },
+    {
+      "epoch": 7,
+      "loss": 0.08694757774104307,
+      "accuracy": 0.6061538461538462,
+      "f1": 0.41671707060983926
+    },
+    {
+      "epoch": 8,
+      "loss": 0.05522832288234322,
+      "accuracy": 0.6030769230769231,
+      "f1": 0.42367504791177324
+    },
+    {
+      "epoch": 9,
+      "loss": 0.04397695137900703,
+      "accuracy": 0.6030769230769231,
+      "f1": 0.40466494909814876
+    },
+    {
+      "epoch": 10,
+      "loss": 0.03996515832841396,
+      "accuracy": 0.6061538461538462,
+      "f1": 0.41255729459941565
+    },
+    {
+      "epoch": 11,
+      "loss": 0.03271544763795388,
+      "accuracy": 0.5969230769230769,
+      "f1": 0.40392684319784683
+    },
+    {
+      "epoch": 12,
+      "loss": 0.030562868019864884,
+      "accuracy": 0.6092307692307692,
+      "f1": 0.41093408805023685
+    },
+    {
+      "epoch": 13,
+      "loss": 0.028112639719045457,
+      "accuracy": 0.6123076923076923,
+      "f1": 0.41193450147216926
+    },
+    {
+      "epoch": 14,
+      "loss": 0.028016860177165565,
+      "accuracy": 0.6153846153846154,
+      "f1": 0.41545957768939135
+    },
+    {
+      "epoch": 15,
+      "loss": 0.025299584044626466,
+      "accuracy": 0.6092307692307692,
+      "f1": 0.4122039634991827
+    },
+    {
+      "epoch": 16,
+      "loss": 0.02525879374279836,
+      "accuracy": 0.6123076923076923,
+      "f1": 0.41571472340769156
+    }
+  ]
+}

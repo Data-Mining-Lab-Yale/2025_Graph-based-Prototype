@@ -1,0 +1,821 @@
+[
+  {
+    "id": "687_0_2",
+    "text": "get me through thank you for all your help today I think",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "connection",
+    "correct": false
+  },
+  {
+    "id": "104_0_0",
+    "text": "Sorry to bother you folks.",
+    "true_label": "connection",
+    "predicted_label": "connection",
+    "correct": true
+  },
+  {
+    "id": "581_3_0",
+    "text": "See you soon!",
+    "true_label": "connection",
+    "predicted_label": "connection",
+    "correct": true
+  },
+  {
+    "id": "345_5_0",
+    "text": "What is going on?",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SeekingApproval",
+    "correct": false
+  },
+  {
+    "id": "343_1_1",
+    "text": "in and it auto loaded lab draws",
+    "true_label": "checkingUnderstanding/clarification",
+    "predicted_label": "Instruction",
+    "correct": false
+  },
+  {
+    "id": "119_6_0",
+    "text": "Are there any suggestions as to what I can take?",
+    "true_label": "Drugs",
+    "predicted_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "id": "718_1_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "110_1_0",
+    "text": "You  should be all set.",
+    "true_label": "connection",
+    "predicted_label": "Alignment",
+    "correct": false
+  },
+  {
+    "id": "714_0_0",
+    "text": "Hi,",
+    "true_label": "salutation",
+    "predicted_label": "salutation",
+    "correct": true
+  },
+  {
+    "id": "127_2_0",
+    "text": "You can do warm water/peroxide or warm",
+    "true_label": "Instruction",
+    "predicted_label": "Drugs",
+    "correct": false
+  },
+  {
+    "id": "299_1_0",
+    "text": "Thank you,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "519_4_0",
+    "text": "I will try calling too looking for advice.",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Instruction",
+    "correct": false
+  },
+  {
+    "id": "60_1_0",
+    "text": "Is my psa high or low",
+    "true_label": "Diagnostics",
+    "predicted_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "id": "223_4_0",
+    "text": "In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well.",
+    "true_label": "carecoordination",
+    "predicted_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "id": "26_0_4",
+    "text": "you they were going to do all of the blood test you had put",
+    "true_label": "Diagnostics",
+    "predicted_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "id": "362_0_2",
+    "text": "out of pocket for prescription of ketorolac",
+    "true_label": "EconomicStability",
+    "predicted_label": "Drugs",
+    "correct": false
+  },
+  {
+    "id": "309_3_0",
+    "text": "I gets labs done",
+    "true_label": "Diagnostics",
+    "predicted_label": "Instruction",
+    "correct": false
+  },
+  {
+    "id": "272_3_0",
+    "text": "Thank you,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "312_3_0",
+    "text": "It is set to release them immediately to you.",
+    "true_label": "maintainCommunication",
+    "predicted_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "id": "398_2_0",
+    "text": "I will be getting a disc.",
+    "true_label": "Drugs",
+    "predicted_label": "Drugs",
+    "correct": true
+  },
+  {
+    "id": "339_2_0",
+    "text": "So it has traveled to my femurs and it also indicates",
+    "true_label": "expressOpinions",
+    "predicted_label": "Instruction",
+    "correct": false
+  },
+  {
+    "id": "202_4_0",
+    "text": "All very disconcerting to be honest especially after having seen the biopsy report for myself.",
+    "true_label": "ExpressConcern/unease",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "id": "674_3_0",
+    "text": "All the best,",
+    "true_label": "connection",
+    "predicted_label": "connection",
+    "correct": true
+  },
+  {
+    "id": "230_0_3",
+    "text": "very bothersome and affects",
+    "true_label": "Symptoms",
+    "predicted_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "id": "334_1_0",
+    "text": "We would need a calcium level prior to that.",
+    "true_label": "Diagnostics",
+    "predicted_label": "Drugs",
+    "correct": false
+  },
+  {
+    "id": "305_2_0",
+    "text": "Best,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "23_2_1",
+    "text": "why I was concerned",
+    "true_label": "ExpressConcern/unease",
+    "predicted_label": "Prognosis",
+    "correct": false
+  },
+  {
+    "id": "609_1_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "567_0_1",
+    "text": "to get a earlier time for the bone scan,",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "id": "300_0_1",
+    "text": "there has been a throwup bug going through my family.",
+    "true_label": "Symptoms",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "id": "598_0_2",
+    "text": "Your appointment is scheduled for in person.",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "id": "154_2_0",
+    "text": "I think it may be",
+    "true_label": "expressOpinions",
+    "predicted_label": "expressOpinions",
+    "correct": true
+  },
+  {
+    "id": "413_1_0",
+    "text": "Should I be?",
+    "true_label": "SeekingApproval",
+    "predicted_label": "SeekingApproval",
+    "correct": true
+  },
+  {
+    "id": "101_0_0",
+    "text": "Good Morning my friends,",
+    "true_label": "salutation",
+    "predicted_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "id": "339_1_1",
+    "text": "in the testing results.",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": true
+  },
+  {
+    "id": "155_0_1",
+    "text": "on the list to call,",
+    "true_label": "carecoordination",
+    "predicted_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "id": "127_0_0",
+    "text": "I'll pass your message along to the surgery team.",
+    "true_label": "carecoordination",
+    "predicted_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "id": "24_0_2",
+    "text": "the timing of my blood work.",
+    "true_label": "Diagnostics",
+    "predicted_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "id": "587_1_0",
+    "text": "Thanks.",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "361_2_0",
+    "text": "I am willing to pay for it out of pocket.",
+    "true_label": "EconomicStability",
+    "predicted_label": "Drugs",
+    "correct": false
+  },
+  {
+    "id": "541_0_1",
+    "text": "my confusion;",
+    "true_label": "ExpressConcern/unease",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "id": "400_0_0",
+    "text": "good morning just letting you the blood draw was taken",
+    "true_label": "Diagnostics",
+    "predicted_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "id": "282_0_0",
+    "text": "I received it thank",
+    "true_label": "Generalinformation",
+    "predicted_label": "Appreciation/Gratitude",
+    "correct": false
+  },
+  {
+    "id": "286_3_0",
+    "text": "Thank you,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "297_0_1",
+    "text": "I was just wondering",
+    "true_label": "connection",
+    "predicted_label": "AcknowledgeError",
+    "correct": false
+  },
+  {
+    "id": "207_0_1",
+    "text": "I need a refill for the above.",
+    "true_label": "Drugs",
+    "predicted_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "id": "325_0_4",
+    "text": "it is being controlled by the  treatment.",
+    "true_label": "checkingUnderstanding/clarification",
+    "predicted_label": "Drugs",
+    "correct": false
+  },
+  {
+    "id": "181_1_0",
+    "text": "Someone should call you to schedule.",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "id": "19_2_0",
+    "text": "Do you prefer to tackle this?",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "id": "711_1_0",
+    "text": "Also should I be having a colonoscopy I am",
+    "true_label": "SeekingApproval",
+    "predicted_label": "SeekingApproval",
+    "correct": true
+  },
+  {
+    "id": "141_0_0",
+    "text": "Is he still going to be seeing patients in clinic?",
+    "true_label": "HealthCareAccessAndQuality",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "id": "34_0_2",
+    "text": "I just heard on the news about the spike in COVID cases in LOCATION.",
+    "true_label": "Generalinformation",
+    "predicted_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "id": "435_0_0",
+    "text": "Ok.",
+    "true_label": "Alignment",
+    "predicted_label": "Alignment",
+    "correct": true
+  },
+  {
+    "id": "129_3_0",
+    "text": "I hope this is",
+    "true_label": "connection",
+    "predicted_label": "connection",
+    "correct": true
+  },
+  {
+    "id": "336_1_0",
+    "text": "The next available we were able to get in you is",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "id": "212_0_0",
+    "text": "You're very welcome.",
+    "true_label": "connection",
+    "predicted_label": "connection",
+    "correct": true
+  },
+  {
+    "id": "329_0_0",
+    "text": "We need the other pages to complete",
+    "true_label": "Generalinformation",
+    "predicted_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "id": "92_4_0",
+    "text": "I will let you know",
+    "true_label": "maintainCommunication",
+    "predicted_label": "maintainCommunication",
+    "correct": true
+  },
+  {
+    "id": "196_1_0",
+    "text": "Was this intended for me?",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Drugs",
+    "correct": false
+  },
+  {
+    "id": "607_1_0",
+    "text": "Used last night.",
+    "true_label": "Drugs",
+    "predicted_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "id": "720_0_0",
+    "text": "Yes,",
+    "true_label": "Alignment",
+    "predicted_label": "Alignment",
+    "correct": true
+  },
+  {
+    "id": "17_7_1",
+    "text": "slightly) swelling of right leg persists.",
+    "true_label": "Symptoms",
+    "predicted_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "id": "98_0_1",
+    "text": "Thank you for the follow up.",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "id": "0_0_0",
+    "text": "Hi there,",
+    "true_label": "salutation",
+    "predicted_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "id": "238_0_1",
+    "text": "Just confirming",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": true
+  },
+  {
+    "id": "225_0_0",
+    "text": "We are always here!",
+    "true_label": "Reassurance",
+    "predicted_label": "Generalinformation",
+    "correct": false
+  },
+  {
+    "id": "173_0_3",
+    "text": "who she recommends",
+    "true_label": "maintainCommunication",
+    "predicted_label": "build trust",
+    "correct": false
+  },
+  {
+    "id": "694_0_0",
+    "text": "Thank you so much.",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "id": "142_1_2",
+    "text": "satisfied/pleased with the recent result....his thoughts?",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "id": "61_3_0",
+    "text": "Is my psa high or low",
+    "true_label": "Diagnostics",
+    "predicted_label": "Diagnostics",
+    "correct": true
+  },
+  {
+    "id": "142_0_4",
+    "text": "I am assuming based on my lab results which he was waiting",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "id": "22_2_0",
+    "text": "The pharmacy is pretty quick to get meds out to patients and can do",
+    "true_label": "Drugs",
+    "predicted_label": "carecoordination",
+    "correct": false
+  },
+  {
+    "id": "715_0_3",
+    "text": "so you should continue to take it if that is",
+    "true_label": "MakeDecision",
+    "predicted_label": "ShareOptions",
+    "correct": false
+  },
+  {
+    "id": "577_0_0",
+    "text": "My dental work will go through the summer and into",
+    "true_label": "carecoordination",
+    "predicted_label": "Diagnostics",
+    "correct": false
+  },
+  {
+    "id": "329_1_0",
+    "text": "We need a copy of the form requesting the  documents to provide",
+    "true_label": "Generalinformation",
+    "predicted_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "id": "126_3_0",
+    "text": "Is is possible to get augmentation or reconstruction",
+    "true_label": "ExploreOptions",
+    "predicted_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "id": "568_0_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "285_2_0",
+    "text": "We might just have to change the dose of the injection.",
+    "true_label": "maintainCommunication",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "id": "305_0_0",
+    "text": "Hi,",
+    "true_label": "salutation",
+    "predicted_label": "salutation",
+    "correct": true
+  },
+  {
+    "id": "13_0_1",
+    "text": "thank you and All",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "signoff",
+    "correct": false
+  },
+  {
+    "id": "119_3_0",
+    "text": "But now it is worse.",
+    "true_label": "Symptoms",
+    "predicted_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "id": "374_0_0",
+    "text": "Thank you",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "256_0_2",
+    "text": "I felt much better after seeing you and look",
+    "true_label": "connection",
+    "predicted_label": "Symptoms",
+    "correct": false
+  },
+  {
+    "id": "129_2_0",
+    "text": "I forgot to ask when I met",
+    "true_label": "Generalinformation",
+    "predicted_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "id": "690_0_1",
+    "text": "Thanks for reaching out.",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "id": "30_2_0",
+    "text": "Did they respond back?",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Drugs",
+    "correct": false
+  },
+  {
+    "id": "355_3_0",
+    "text": "We do recommend getting it",
+    "true_label": "Approval/Reinforcement",
+    "predicted_label": "ShareOptions",
+    "correct": false
+  },
+  {
+    "id": "230_3_0",
+    "text": "Is that still possible?",
+    "true_label": "ExploreOptions",
+    "predicted_label": "Alignment",
+    "correct": false
+  },
+  {
+    "id": "393_0_0",
+    "text": "Thank you for doing this.",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "id": "147_3_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "114_1_0",
+    "text": "Should I just go tomorrow morning and get",
+    "true_label": "SeekingApproval",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "id": "318_0_0",
+    "text": "Good morning,",
+    "true_label": "salutation",
+    "predicted_label": "salutation",
+    "correct": true
+  },
+  {
+    "id": "6_2_1",
+    "text": "or if you can assist",
+    "true_label": "Generalinformation",
+    "predicted_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "id": "364_4_0",
+    "text": "We will keep an eye on his chart,",
+    "true_label": "maintainCommunication",
+    "predicted_label": "maintainCommunication",
+    "correct": true
+  },
+  {
+    "id": "146_2_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "229_3_0",
+    "text": "I am available to discuss further if you would like",
+    "true_label": "inviteCollaboration",
+    "predicted_label": "statePreferences",
+    "correct": false
+  },
+  {
+    "id": "615_2_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "234_4_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "663_0_1",
+    "text": "Hope you and your family",
+    "true_label": "connection",
+    "predicted_label": "connection",
+    "correct": true
+  },
+  {
+    "id": "645_5_0",
+    "text": "Regards,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "320_2_0",
+    "text": "I am achy in my hip area and have",
+    "true_label": "Symptoms",
+    "predicted_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "id": "245_1_0",
+    "text": "I forgot to ask a you question concerning when I should get",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "SchedulingAppt",
+    "correct": false
+  },
+  {
+    "id": "12_0_0",
+    "text": "Hi,",
+    "true_label": "salutation",
+    "predicted_label": "salutation",
+    "correct": true
+  },
+  {
+    "id": "456_1_0",
+    "text": "I have printed all of the documents you sent",
+    "true_label": "carecoordination",
+    "predicted_label": "carecoordination",
+    "correct": true
+  },
+  {
+    "id": "484_0_1",
+    "text": "Thanks so much for your message,",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "id": "227_2_0",
+    "text": "Thanks,",
+    "true_label": "signoff",
+    "predicted_label": "signoff",
+    "correct": true
+  },
+  {
+    "id": "28_0_1",
+    "text": "Those results came in after I sent",
+    "true_label": "Diagnostics",
+    "predicted_label": "maintainCommunication",
+    "correct": false
+  },
+  {
+    "id": "111_5_0",
+    "text": "I just wanted you to know",
+    "true_label": "activeParticipation/involvement",
+    "predicted_label": "Reassurance",
+    "correct": false
+  },
+  {
+    "id": "198_1_0",
+    "text": "I had noticed something going on with my breathing/lungs so this is",
+    "true_label": "Symptoms",
+    "predicted_label": "expressOpinions",
+    "correct": false
+  },
+  {
+    "id": "388_0_1",
+    "text": "Thanks for your message.",
+    "true_label": "Appreciation/Gratitude",
+    "predicted_label": "Appreciation/Gratitude",
+    "correct": true
+  },
+  {
+    "id": "455_4_0",
+    "text": "This letter explains the process for appeal.",
+    "true_label": "Generalinformation",
+    "predicted_label": "Generalinformation",
+    "correct": true
+  },
+  {
+    "id": "199_0_1",
+    "text": "The swelling in both lower legs/ankles is chronic and I think",
+    "true_label": "Symptoms",
+    "predicted_label": "Symptoms",
+    "correct": true
+  },
+  {
+    "id": "155_0_0",
+    "text": "He said you are",
+    "true_label": "carecoordination",
+    "predicted_label": "connection",
+    "correct": false
+  },
+  {
+    "id": "149_1_1",
+    "text": "as soon as he answers",
+    "true_label": "maintainCommunication",
+    "predicted_label": "HealthCareAccessAndQuality",
+    "correct": false
+  },
+  {
+    "id": "426_3_1",
+    "text": "the chemo for the day of my next appointment and it could be canceled",
+    "true_label": "SchedulingAppt",
+    "predicted_label": "SchedulingAppt",
+    "correct": true
+  },
+  {
+    "id": "546_0_2",
+    "text": "a recommended dosage?",
+    "true_label": "Drugs",
+    "predicted_label": "activeParticipation/involvement",
+    "correct": false
+  },
+  {
+    "id": "485_0_0",
+    "text": "Hi",
+    "true_label": "salutation",
+    "predicted_label": "salutation",
+    "correct": true
+  }
+]

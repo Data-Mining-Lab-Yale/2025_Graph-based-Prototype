@@ -1,0 +1,1283 @@
+[
+  {
+    "graph_id": "367_3_0",
+    "center_id": "367_3_0",
+    "original_text": "Obviously the block did not work and he is",
+    "true_label": "expressOpinions",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "121_3_0",
+    "center_id": "121_3_0",
+    "original_text": "I also have an appt with Dr.Person1 on MM/DD/YYYY I can show",
+    "true_label": "carecoordination",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "538_2_0",
+    "center_id": "538_2_0",
+    "original_text": "I just had A visit with my urologist,",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "366_0_1",
+    "center_id": "366_0_1",
+    "original_text": "so sorry to hear that-I will let the team know",
+    "true_label": "maintainCommunication",
+    "pred_label": "Sadness/fear"
+  },
+  {
+    "graph_id": "215_2_0",
+    "center_id": "215_2_0",
+    "original_text": "I trying to plan a visit to LOCATION for a month or two as soon after the treatment has ended",
+    "true_label": "Generalinformation",
+    "pred_label": "expressOpinions"
+  },
+  {
+    "graph_id": "602_0_1",
+    "center_id": "602_0_1",
+    "original_text": "I'd love to see you in person.",
+    "true_label": "connection",
+    "pred_label": "inviteCollaboration"
+  },
+  {
+    "graph_id": "298_2_0",
+    "center_id": "298_2_0",
+    "original_text": "Hope this helps",
+    "true_label": "Reassurance",
+    "pred_label": "connection"
+  },
+  {
+    "graph_id": "674_2_0",
+    "center_id": "674_2_0",
+    "original_text": "If not our manager is Gean Brown and she'd be",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "352_0_0",
+    "center_id": "352_0_0",
+    "original_text": "When will I be getting my Covid vaccine and can my wife get",
+    "true_label": "Drugs",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "670_0_1",
+    "center_id": "670_0_1",
+    "original_text": "Correction from last message,",
+    "true_label": "AcknowledgeError",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "486_0_0",
+    "center_id": "486_0_0",
+    "original_text": "Hi person1    MM/DD/YYYY at 7.45 via televisit would be great    D",
+    "true_label": "statePreferences",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "219_5_2",
+    "center_id": "219_5_2",
+    "original_text": "to continue to find more of this as time goes",
+    "true_label": "expressOpinions",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "429_0_1",
+    "center_id": "429_0_1",
+    "original_text": "Confirmed with Dr. Person2 that he would like",
+    "true_label": "carecoordination",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "303_0_0",
+    "center_id": "303_0_0",
+    "original_text": "Very happy to hear you are",
+    "true_label": "PositiveRemarks",
+    "pred_label": "connection"
+  },
+  {
+    "graph_id": "473_0_1",
+    "center_id": "473_0_1",
+    "original_text": "to coordinate follow ups with Person2 and Person3 Cheers     Person4",
+    "true_label": "statePreferences",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "518_2_0",
+    "center_id": "518_2_0",
+    "original_text": "Thanks!",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "27_0_3",
+    "center_id": "27_0_3",
+    "original_text": "a bit longer to show up in Person2.",
+    "true_label": "Generalinformation",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "457_1_2",
+    "center_id": "457_1_2",
+    "original_text": "the home adjustments to his bathroom to support",
+    "true_label": "NeighborhoodAndBuiltEnvironment",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "364_2_0",
+    "center_id": "364_2_0",
+    "original_text": "Unfortunately  we do not have control over visitor restrictions in the hospital.",
+    "true_label": "Generalinformation",
+    "pred_label": "Instruction"
+  },
+  {
+    "graph_id": "147_0_0",
+    "center_id": "147_0_0",
+    "original_text": "I was wondering if Dr. Person1 could refill",
+    "true_label": "Drugs",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "609_0_1",
+    "center_id": "609_0_1",
+    "original_text": "Would someone kindly schedule me for bloodwork to be completed",
+    "true_label": "SchedulingAppt",
+    "pred_label": "statePreferences"
+  },
+  {
+    "graph_id": "211_0_2",
+    "center_id": "211_0_2",
+    "original_text": "up with to schedule the lymph node biopsy procedure prior to my SABR treatment.",
+    "true_label": "SchedulingAppt",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "326_1_0",
+    "center_id": "326_1_0",
+    "original_text": "I believe i will also need",
+    "true_label": "expressOpinions",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "627_0_0",
+    "center_id": "627_0_0",
+    "original_text": "I don't know the layout,",
+    "true_label": "MakeDecision",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "272_2_2",
+    "center_id": "272_2_2",
+    "original_text": "would you mind sending in a 90 day supply script to the CVS in Org2 please?",
+    "true_label": "expressOpinions",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "584_1_2",
+    "center_id": "584_1_2",
+    "original_text": "to leave a hard copy of the results with your office.",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Instruction"
+  },
+  {
+    "graph_id": "580_0_5",
+    "center_id": "580_0_5",
+    "original_text": "done prior to my meeting with My oral surgeon,",
+    "true_label": "carecoordination",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "120_0_0",
+    "center_id": "120_0_0",
+    "original_text": "Hi   I will go today?",
+    "true_label": "Diagnostics",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "672_1_0",
+    "center_id": "672_1_0",
+    "original_text": "Be safe.",
+    "true_label": "connection",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "433_0_0",
+    "center_id": "433_0_0",
+    "original_text": "Is there a possibility to move my treatments up by one week,",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Drugs"
+  },
+  {
+    "graph_id": "281_1_0",
+    "center_id": "281_1_0",
+    "original_text": "I will also send it via email.",
+    "true_label": "maintainCommunication",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "576_1_0",
+    "center_id": "576_1_0",
+    "original_text": "However dental work won commence until MM/DD/YYYY.",
+    "true_label": "carecoordination",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "363_3_0",
+    "center_id": "363_3_0",
+    "original_text": "Why did Dr. Person4  not see this.",
+    "true_label": "expressOpinions",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "55_0_1",
+    "center_id": "55_0_1",
+    "original_text": "we too are following the CDC guidelines at this time Best to you Person1",
+    "true_label": "Generalinformation",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "399_0_2",
+    "center_id": "399_0_2",
+    "original_text": "so  you should be able to call tomorrow.",
+    "true_label": "Instruction",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "307_1_0",
+    "center_id": "307_1_0",
+    "original_text": "Are you having any problems urinating?",
+    "true_label": "Symptoms",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "256_0_3",
+    "center_id": "256_0_3",
+    "original_text": "forward to meeting with Dr  Person2 on MM/DD/YYYY.",
+    "true_label": "carecoordination",
+    "pred_label": "Appreciation/Gratitude"
+  },
+  {
+    "graph_id": "229_4_0",
+    "center_id": "229_4_0",
+    "original_text": "This type of surgery  usually has the best results when done",
+    "true_label": "maintainCommunication",
+    "pred_label": "inviteCollaboration"
+  },
+  {
+    "graph_id": "114_2_0",
+    "center_id": "114_2_0",
+    "original_text": "I will no problem.",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "282_0_0",
+    "center_id": "282_0_0",
+    "original_text": "I received it thank",
+    "true_label": "Generalinformation",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "675_0_0",
+    "center_id": "675_0_0",
+    "original_text": "Good morning Person1,",
+    "true_label": "salutation",
+    "pred_label": "Appreciation/Gratitude"
+  },
+  {
+    "graph_id": "105_1_1",
+    "center_id": "105_1_1",
+    "original_text": "well please hold and call",
+    "true_label": "Instruction",
+    "pred_label": "ShareOptions"
+  },
+  {
+    "graph_id": "111_9_1",
+    "center_id": "111_9_1",
+    "original_text": "thank you for your time.",
+    "true_label": "signoff",
+    "pred_label": "Appreciation/Gratitude"
+  },
+  {
+    "graph_id": "96_1_2",
+    "center_id": "96_1_2",
+    "original_text": "a review with Dr  Person1 re next steps.",
+    "true_label": "carecoordination",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "600_1_0",
+    "center_id": "600_1_0",
+    "original_text": "Just getting my day organized",
+    "true_label": "Generalinformation",
+    "pred_label": "statePreferences"
+  },
+  {
+    "graph_id": "216_3_0",
+    "center_id": "216_3_0",
+    "original_text": "Thanks!",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "651_0_0",
+    "center_id": "651_0_0",
+    "original_text": "Good morning Dr. Person1,",
+    "true_label": "salutation",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "66_1_1",
+    "center_id": "66_1_1",
+    "original_text": "your  message below I can better respond to your question.",
+    "true_label": "Generalinformation",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "155_0_4",
+    "center_id": "155_0_4",
+    "original_text": "just know you are",
+    "true_label": "Reassurance",
+    "pred_label": "connection"
+  },
+  {
+    "graph_id": "387_0_0",
+    "center_id": "387_0_0",
+    "original_text": "Why is Person1 bilirubin still elevated and he vomiting",
+    "true_label": "Diagnostics",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "233_0_0",
+    "center_id": "233_0_0",
+    "original_text": "Hi Person1 Do you have a fax number for Dr Person2 and I can fax",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "295_0_0",
+    "center_id": "295_0_0",
+    "original_text": "What would Dr Person1 like me to do",
+    "true_label": "ExploreOptions",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "90_1_4",
+    "center_id": "90_1_4",
+    "original_text": "office call you with appt",
+    "true_label": "SchedulingAppt",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "271_1_1",
+    "center_id": "271_1_1",
+    "original_text": "the medication to me,",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "716_2_2",
+    "center_id": "716_2_2",
+    "original_text": "for my first blood draw for the orders that Dr  Person1 already submitted",
+    "true_label": "ExploreOptions",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "556_0_0",
+    "center_id": "556_0_0",
+    "original_text": "MM/DD/YYYY  appointment is here in Org2 with Dr Person1 So call",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "68_3_3",
+    "center_id": "68_3_3",
+    "original_text": "not an urgent t est.",
+    "true_label": "Reassurance",
+    "pred_label": "EncourageQuestions"
+  },
+  {
+    "graph_id": "228_0_1",
+    "center_id": "228_0_1",
+    "original_text": "It has been 2 years since my neck surgery and I am still having issues with my eyelid drooping  and the pupil not dilating",
+    "true_label": "Symptoms",
+    "pred_label": "build trust"
+  },
+  {
+    "graph_id": "215_0_2",
+    "center_id": "215_0_2",
+    "original_text": "to begin radiation therapy on MM/DD/YYYY for five sessions.",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "33_1_0",
+    "center_id": "33_1_0",
+    "original_text": "I will get the flu shot when I come",
+    "true_label": "SchedulingAppt",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "250_4_0",
+    "center_id": "250_4_0",
+    "original_text": "That appt is sched for Thurs.",
+    "true_label": "SchedulingAppt",
+    "pred_label": "expressOpinions"
+  },
+  {
+    "graph_id": "623_1_0",
+    "center_id": "623_1_0",
+    "original_text": "Sounds like you are",
+    "true_label": "PositiveRemarks",
+    "pred_label": "connection"
+  },
+  {
+    "graph_id": "160_1_0",
+    "center_id": "160_1_0",
+    "original_text": "I combine visits with Costco adventures.",
+    "true_label": "Generalinformation",
+    "pred_label": "connection"
+  },
+  {
+    "graph_id": "287_1_0",
+    "center_id": "287_1_0",
+    "original_text": "Yes you would need labs before you start",
+    "true_label": "MakeDecision",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "541_0_2",
+    "center_id": "541_0_2",
+    "original_text": "i Still not sure.",
+    "true_label": "ExpressConcern/unease",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "35_1_5",
+    "center_id": "35_1_5",
+    "original_text": "I know it causes",
+    "true_label": "Reassurance",
+    "pred_label": "connection"
+  },
+  {
+    "graph_id": "584_3_0",
+    "center_id": "584_3_0",
+    "original_text": "I like Dr. Person3 thoughts and impressions",
+    "true_label": "statePreferences",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "656_0_7",
+    "center_id": "656_0_7",
+    "original_text": "hopefully first thing MM/DD/YYYY morning,",
+    "true_label": "expressOpinions",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "417_1_0",
+    "center_id": "417_1_0",
+    "original_text": "I have added it to your medication list.",
+    "true_label": "Drugs",
+    "pred_label": "Approval/Reinforcement"
+  },
+  {
+    "graph_id": "345_5_0",
+    "center_id": "345_5_0",
+    "original_text": "What is going on?",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "ExpressConcern/unease"
+  },
+  {
+    "graph_id": "84_2_0",
+    "center_id": "84_2_0",
+    "original_text": "The good doctor is swamped in a emails and she wants",
+    "true_label": "Generalinformation",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "684_0_4",
+    "center_id": "684_0_4",
+    "original_text": "a script for that ?",
+    "true_label": "Drugs",
+    "pred_label": "expressOpinions"
+  },
+  {
+    "graph_id": "247_3_0",
+    "center_id": "247_3_0",
+    "original_text": "Th anks,",
+    "true_label": "signoff",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "550_0_1",
+    "center_id": "550_0_1",
+    "original_text": "you got it drawn",
+    "true_label": "Diagnostics",
+    "pred_label": "Alignment"
+  },
+  {
+    "graph_id": "713_2_1",
+    "center_id": "713_2_1",
+    "original_text": "what your day looks",
+    "true_label": "maintainCommunication",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "220_5_0",
+    "center_id": "220_5_0",
+    "original_text": "Thanks!",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "284_0_4",
+    "center_id": "284_0_4",
+    "original_text": "typically the answer has been no.",
+    "true_label": "Symptoms",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "241_1_0",
+    "center_id": "241_1_0",
+    "original_text": "I will place orders in.",
+    "true_label": "Drugs",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "328_0_2",
+    "center_id": "328_0_2",
+    "original_text": "if you received",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "390_0_2",
+    "center_id": "390_0_2",
+    "original_text": "the  A ttending  Advanced Gastroenterologist/Endoscopist   scheduled to do Person3's ERCP today.",
+    "true_label": "carecoordination",
+    "pred_label": "inviteCollaboration"
+  },
+  {
+    "graph_id": "20_1_0",
+    "center_id": "20_1_0",
+    "original_text": "Thanx!",
+    "true_label": "signoff",
+    "pred_label": "salutation"
+  },
+  {
+    "graph_id": "73_0_0",
+    "center_id": "73_0_0",
+    "original_text": "Ok ok",
+    "true_label": "connection",
+    "pred_label": "Alignment"
+  },
+  {
+    "graph_id": "534_1_1",
+    "center_id": "534_1_1",
+    "original_text": "Dr. Person1 is happy to give him time to recover",
+    "true_label": "ShareOptions",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "399_0_1",
+    "center_id": "399_0_1",
+    "original_text": "The nurses from pre admission testing place the COVID test lab orders 1 week in advance  from procedure ,",
+    "true_label": "carecoordination",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "204_1_0",
+    "center_id": "204_1_0",
+    "original_text": "His office called me about 12 days ago asking",
+    "true_label": "Diagnostics",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "389_0_0",
+    "center_id": "389_0_0",
+    "original_text": "Person1 is having his 3rd ERCP today and we do not under any circumstances want",
+    "true_label": "statePreferences",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "714_1_5",
+    "center_id": "714_1_5",
+    "original_text": "to work this weekend?",
+    "true_label": "EconomicStability",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "652_0_1",
+    "center_id": "652_0_1",
+    "original_text": "I have a choice tomorrow for Moderna or Johnson",
+    "true_label": "ExploreOptions",
+    "pred_label": "SeekingApproval"
+  },
+  {
+    "graph_id": "316_1_0",
+    "center_id": "316_1_0",
+    "original_text": "Ill be there.",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "270_0_0",
+    "center_id": "270_0_0",
+    "original_text": "Good Morning The Zometa will be around every 6 months.",
+    "true_label": "Drugs",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "544_0_0",
+    "center_id": "544_0_0",
+    "original_text": "I just saw my PSA score from yesterday.",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "126_2_0",
+    "center_id": "126_2_0",
+    "original_text": "I a little concerned about wat my breast will look like after surgery ?",
+    "true_label": "ExpressConcern/unease",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "500_3_0",
+    "center_id": "500_3_0",
+    "original_text": "Can anyone see him today while he is",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "64_0_0",
+    "center_id": "64_0_0",
+    "original_text": "I have sent a message to Dr. Person1 to ask",
+    "true_label": "carecoordination",
+    "pred_label": "Symptoms"
+  },
+  {
+    "graph_id": "497_0_5",
+    "center_id": "497_0_5",
+    "original_text": "what he advises",
+    "true_label": "inviteCollaboration",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "222_5_0",
+    "center_id": "222_5_0",
+    "original_text": "I will keep an eye out for the CT neck results and have",
+    "true_label": "Instruction",
+    "pred_label": "Reassurance"
+  },
+  {
+    "graph_id": "151_0_4",
+    "center_id": "151_0_4",
+    "original_text": "you could try that to help you sleep",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "653_1_1",
+    "center_id": "653_1_1",
+    "original_text": "you may want to choose that.",
+    "true_label": "SummarizeConfirmUnderstanding",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "716_3_0",
+    "center_id": "716_3_0",
+    "original_text": "Do I need to make an appointment because I also due to get",
+    "true_label": "SchedulingAppt",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "29_0_0",
+    "center_id": "29_0_0",
+    "original_text": "That's what I thought",
+    "true_label": "SummarizeConfirmUnderstanding",
+    "pred_label": "Alignment"
+  },
+  {
+    "graph_id": "34_1_0",
+    "center_id": "34_1_0",
+    "original_text": "I am due to have a cat scan",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "248_0_3",
+    "center_id": "248_0_3",
+    "original_text": "an adenocarcinoma with mucinous differentiation in the left lung.",
+    "true_label": "Alignment",
+    "pred_label": "Symptoms"
+  },
+  {
+    "graph_id": "22_1_1",
+    "center_id": "22_1_1",
+    "original_text": "at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1.",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Instruction"
+  },
+  {
+    "graph_id": "529_1_0",
+    "center_id": "529_1_0",
+    "original_text": "He has COVID will get admitted",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "289_1_0",
+    "center_id": "289_1_0",
+    "original_text": "I will enter one now.",
+    "true_label": "Diagnostics",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "111_9_0",
+    "center_id": "111_9_0",
+    "original_text": "Lots of words for a MM/DD/YYYY morning,",
+    "true_label": "connection",
+    "pred_label": "Appreciation/Gratitude"
+  },
+  {
+    "graph_id": "250_0_1",
+    "center_id": "250_0_1",
+    "original_text": "I am contacting you about the surgical drain Dr  Person2 placed",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "339_2_0",
+    "center_id": "339_2_0",
+    "original_text": "So it has traveled to my femurs and it also indicates",
+    "true_label": "expressOpinions",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "175_0_0",
+    "center_id": "175_0_0",
+    "original_text": "As I traveling immediately following",
+    "true_label": "Generalinformation",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "459_0_0",
+    "center_id": "459_0_0",
+    "original_text": "Hi    I need a dexamethasone 2 mg refill authorized at Org2.",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "Drugs"
+  },
+  {
+    "graph_id": "576_3_0",
+    "center_id": "576_3_0",
+    "original_text": "A program of repair has been established for me but it pretty extensive",
+    "true_label": "Generalinformation",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "112_0_0",
+    "center_id": "112_0_0",
+    "original_text": "Hello my friends,",
+    "true_label": "connection",
+    "pred_label": "salutation"
+  },
+  {
+    "graph_id": "332_0_0",
+    "center_id": "332_0_0",
+    "original_text": "Here it is.",
+    "true_label": "Generalinformation",
+    "pred_label": "Alignment"
+  },
+  {
+    "graph_id": "173_0_3",
+    "center_id": "173_0_3",
+    "original_text": "who she recommends",
+    "true_label": "maintainCommunication",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "232_0_1",
+    "center_id": "232_0_1",
+    "original_text": "The drug company has pulled my Lymphoma chemo drug from the market due to adverse events occurring on their Phase III trial.",
+    "true_label": "Drugs",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "279_1_0",
+    "center_id": "279_1_0",
+    "original_text": ":-(   I wanted to go to a walk-in because my left ear feels infected",
+    "true_label": "Symptoms",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "278_2_0",
+    "center_id": "278_2_0",
+    "original_text": "You can restart once the test is",
+    "true_label": "MakeDecision",
+    "pred_label": "NeighborhoodAndBuiltEnvironment"
+  },
+  {
+    "graph_id": "690_4_1",
+    "center_id": "690_4_1",
+    "original_text": "if any clarification is needed",
+    "true_label": "maintainCommunication",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "110_1_0",
+    "center_id": "110_1_0",
+    "original_text": "You  should be all set.",
+    "true_label": "connection",
+    "pred_label": "Alignment"
+  },
+  {
+    "graph_id": "719_0_0",
+    "center_id": "719_0_0",
+    "original_text": "I sorry I get",
+    "true_label": "AcknowledgeError",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "654_1_0",
+    "center_id": "654_1_0",
+    "original_text": "I was thinking of Johnson and Johnson",
+    "true_label": "expressOpinions",
+    "pred_label": "Appreciation/Gratitude"
+  },
+  {
+    "graph_id": "541_1_1",
+    "center_id": "541_1_1",
+    "original_text": "with Dr. Person1 will be in the Org2 office on MM/DD/YYYY,",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Appreciation/Gratitude"
+  },
+  {
+    "graph_id": "362_0_2",
+    "center_id": "362_0_2",
+    "original_text": "out of pocket for prescription of ketorolac",
+    "true_label": "EconomicStability",
+    "pred_label": "Drugs"
+  },
+  {
+    "graph_id": "441_3_0",
+    "center_id": "441_3_0",
+    "original_text": "The subsequent (every three weeks) treatments are scheduled.",
+    "true_label": "SchedulingAppt",
+    "pred_label": "statePreferences"
+  },
+  {
+    "graph_id": "280_3_4",
+    "center_id": "280_3_4",
+    "original_text": "no longer contagious or whatever the correct wording would be",
+    "true_label": "Symptoms",
+    "pred_label": "Instruction"
+  },
+  {
+    "graph_id": "241_0_0",
+    "center_id": "241_0_0",
+    "original_text": "Ok let's try",
+    "true_label": "Approval/Reinforcement",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "165_0_1",
+    "center_id": "165_0_1",
+    "original_text": "The MRI of thoracic and lumbar spine",
+    "true_label": "Diagnostics",
+    "pred_label": "Symptoms"
+  },
+  {
+    "graph_id": "339_0_0",
+    "center_id": "339_0_0",
+    "original_text": "Findings are in keeping with known osseous metastatic disease in both distal femurs.",
+    "true_label": "Diagnostics",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "4_0_2",
+    "center_id": "4_0_2",
+    "original_text": "Please send to Dr. Person2,",
+    "true_label": "Instruction",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "35_0_1",
+    "center_id": "35_0_1",
+    "original_text": "Ok for you to get",
+    "true_label": "Drugs",
+    "pred_label": "checkingUnderstanding/clarification"
+  },
+  {
+    "graph_id": "175_0_1",
+    "center_id": "175_0_1",
+    "original_text": "my next visit (MM/DD/YYYY) to Org3,",
+    "true_label": "Generalinformation",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "447_0_0",
+    "center_id": "447_0_0",
+    "original_text": "Thanks Person1 - that would be great",
+    "true_label": "connection",
+    "pred_label": "Alignment"
+  },
+  {
+    "graph_id": "170_0_0",
+    "center_id": "170_0_0",
+    "original_text": "Thanks.",
+    "true_label": "signoff",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "503_0_0",
+    "center_id": "503_0_0",
+    "original_text": "This is his left thigh",
+    "true_label": "Generalinformation",
+    "pred_label": "Symptoms"
+  },
+  {
+    "graph_id": "179_0_0",
+    "center_id": "179_0_0",
+    "original_text": "You should be hearing from the secretary when it is rescheduled",
+    "true_label": "maintainCommunication",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "108_1_0",
+    "center_id": "108_1_0",
+    "original_text": "I am doing fine.",
+    "true_label": "Symptoms",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "68_1_1",
+    "center_id": "68_1_1",
+    "original_text": "a test to see how strong your bones are",
+    "true_label": "checkingUnderstanding/clarification",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "691_0_0",
+    "center_id": "691_0_0",
+    "original_text": "Thank you I understand",
+    "true_label": "Alignment",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "409_1_0",
+    "center_id": "409_1_0",
+    "original_text": "Is this ok with you?",
+    "true_label": "SeekingApproval",
+    "pred_label": "Alignment"
+  },
+  {
+    "graph_id": "187_3_0",
+    "center_id": "187_3_0",
+    "original_text": "My stomach is a mass of hematoma now as a result of the self injecting and this seems",
+    "true_label": "Symptoms",
+    "pred_label": "expressOpinions"
+  },
+  {
+    "graph_id": "231_2_0",
+    "center_id": "231_2_0",
+    "original_text": "Removing the tumor re quiring pushing on the nerve some to get",
+    "true_label": "SummarizeConfirmUnderstanding",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "351_1_2",
+    "center_id": "351_1_2",
+    "original_text": "port flushes for patients receiving chemo that day.",
+    "true_label": "Generalinformation",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "575_1_1",
+    "center_id": "575_1_1",
+    "original_text": "dental wise we can also do the prolia",
+    "true_label": "checkingUnderstanding/clarification",
+    "pred_label": "inviteCollaboration"
+  },
+  {
+    "graph_id": "537_0_0",
+    "center_id": "537_0_0",
+    "original_text": "I scheduled to see Dr. Person1 on MM/DD/YYYY,",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "584_3_1",
+    "center_id": "584_3_1",
+    "original_text": "prior to my upcoming (MM/DD/YYYY) visit.",
+    "true_label": "statePreferences",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "150_0_0",
+    "center_id": "150_0_0",
+    "original_text": "Ok.  And also I would like to request and be seen",
+    "true_label": "statePreferences",
+    "pred_label": "build trust"
+  },
+  {
+    "graph_id": "540_0_0",
+    "center_id": "540_0_0",
+    "original_text": "Good pick up!",
+    "true_label": "PositiveRemarks",
+    "pred_label": "connection"
+  },
+  {
+    "graph_id": "596_0_0",
+    "center_id": "596_0_0",
+    "original_text": "Calling pharmacy today.",
+    "true_label": "Generalinformation",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "500_1_0",
+    "center_id": "500_1_0",
+    "original_text": "We have an apt with Dr Person3 tmrw at 9:10.",
+    "true_label": "SchedulingAppt",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "51_1_0",
+    "center_id": "51_1_0",
+    "original_text": "Do I have the Ok from Dr. Person2?",
+    "true_label": "SeekingApproval",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "219_6_1",
+    "center_id": "219_6_1",
+    "original_text": "its job at stopping this stuff from occurring?",
+    "true_label": "expressOpinions",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "340_0_0",
+    "center_id": "340_0_0",
+    "original_text": "Vitamin dosage daily  Calcium 1000  Mag 400  D-2500  Zinc 25",
+    "true_label": "Drugs",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "717_0_0",
+    "center_id": "717_0_0",
+    "original_text": "Hi I am calling to verify that I started",
+    "true_label": "Drugs",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "126_3_0",
+    "center_id": "126_3_0",
+    "original_text": "Is is possible to get augmentation or reconstruction",
+    "true_label": "ExploreOptions",
+    "pred_label": "Drugs"
+  },
+  {
+    "graph_id": "689_1_0",
+    "center_id": "689_1_0",
+    "original_text": "I know you verbally told",
+    "true_label": "Generalinformation",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "363_5_2",
+    "center_id": "363_5_2",
+    "original_text": "my Covid shots.",
+    "true_label": "Drugs",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "347_0_1",
+    "center_id": "347_0_1",
+    "original_text": "Person2 and someone should reach",
+    "true_label": "maintainCommunication",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "590_3_0",
+    "center_id": "590_3_0",
+    "original_text": "I can work around tomorrow or MM/DD/YYYY morning.",
+    "true_label": "statePreferences",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "361_0_3",
+    "center_id": "361_0_3",
+    "original_text": "in Extended care clinic.",
+    "true_label": "carecoordination",
+    "pred_label": "Drugs"
+  },
+  {
+    "graph_id": "61_1_0",
+    "center_id": "61_1_0",
+    "original_text": "Please call the office MM/DD/YYYY if you have",
+    "true_label": "Instruction",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "106_4_0",
+    "center_id": "106_4_0",
+    "original_text": "When do I begin Ibrance again?",
+    "true_label": "Drugs",
+    "pred_label": "SeekingApproval"
+  },
+  {
+    "graph_id": "717_0_1",
+    "center_id": "717_0_1",
+    "original_text": "the Person1 on Saturday morning 8/19.",
+    "true_label": "Drugs",
+    "pred_label": "HealthCareAccessAndQuality"
+  },
+  {
+    "graph_id": "465_0_0",
+    "center_id": "465_0_0",
+    "original_text": "Hi Person1 - refill has been sent in.",
+    "true_label": "Drugs",
+    "pred_label": "ShareOptions"
+  },
+  {
+    "graph_id": "474_0_0",
+    "center_id": "474_0_0",
+    "original_text": "Cool     I need Dr Person1 to send",
+    "true_label": "Drugs",
+    "pred_label": "carecoordination"
+  },
+  {
+    "graph_id": "335_1_0",
+    "center_id": "335_1_0",
+    "original_text": "I can make any time available",
+    "true_label": "statePreferences",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "483_2_0",
+    "center_id": "483_2_0",
+    "original_text": "I seeing Dr Person1 at 1pm at Org3 on MM/DD/YYYY.",
+    "true_label": "HealthCareAccessAndQuality",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "274_0_2",
+    "center_id": "274_0_2",
+    "original_text": "Yes reviewed with Dr Person2.",
+    "true_label": "carecoordination",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "623_0_0",
+    "center_id": "623_0_0",
+    "original_text": "Hi",
+    "true_label": "salutation",
+    "pred_label": "Appreciation/Gratitude"
+  },
+  {
+    "graph_id": "388_2_0",
+    "center_id": "388_2_0",
+    "original_text": "I will pass along your question to Dr  Person2,",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "127_0_0",
+    "center_id": "127_0_0",
+    "original_text": "I'll pass your message along to the surgery team.",
+    "true_label": "carecoordination",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "248_1_0",
+    "center_id": "248_1_0",
+    "original_text": "I was reading that IPI and NIVO",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "259_0_1",
+    "center_id": "259_0_1",
+    "original_text": "we will call to schedule a follow up.",
+    "true_label": "maintainCommunication",
+    "pred_label": "SchedulingAppt"
+  },
+  {
+    "graph_id": "230_3_0",
+    "center_id": "230_3_0",
+    "original_text": "Is that still possible?",
+    "true_label": "ExploreOptions",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "455_6_0",
+    "center_id": "455_6_0",
+    "original_text": "I have given more detailed context on this point to Person7.",
+    "true_label": "activeParticipation/involvement",
+    "pred_label": "Generalinformation"
+  },
+  {
+    "graph_id": "127_1_0",
+    "center_id": "127_1_0",
+    "original_text": "Have you been doing the nail soaks?",
+    "true_label": "Generalinformation",
+    "pred_label": "Instruction"
+  },
+  {
+    "graph_id": "199_1_0",
+    "center_id": "199_1_0",
+    "original_text": "Could you please make a referral for me.",
+    "true_label": "carecoordination",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "305_0_1",
+    "center_id": "305_0_1",
+    "original_text": "the results get released to patients as soon as they are",
+    "true_label": "Diagnostics",
+    "pred_label": "maintainCommunication"
+  },
+  {
+    "graph_id": "17_12_0",
+    "center_id": "17_12_0",
+    "original_text": "Thanks a ton,",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "Diagnostics"
+  },
+  {
+    "graph_id": "661_1_0",
+    "center_id": "661_1_0",
+    "original_text": "I need refills for 90 days of Anastrozole 1mg Tablets Org,",
+    "true_label": "Drugs",
+    "pred_label": "statePreferences"
+  },
+  {
+    "graph_id": "441_1_0",
+    "center_id": "441_1_0",
+    "original_text": "The schedulers were checking with Dr Person2 on MM/DD/YYYY.",
+    "true_label": "carecoordination",
+    "pred_label": "activeParticipation/involvement"
+  },
+  {
+    "graph_id": "691_0_1",
+    "center_id": "691_0_1",
+    "original_text": "appreciate",
+    "true_label": "Appreciation/Gratitude",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "216_2_3",
+    "center_id": "216_2_3",
+    "original_text": "appointment with Dr Person2.",
+    "true_label": "SchedulingAppt",
+    "pred_label": "signoff"
+  },
+  {
+    "graph_id": "162_0_0",
+    "center_id": "162_0_0",
+    "original_text": "It is Org1 orthopedics in Location and the physical therapist is",
+    "true_label": "Generalinformation",
+    "pred_label": "carecoordination"
+  }
+]
