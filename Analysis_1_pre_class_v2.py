@@ -5,12 +5,21 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-SET = "dep_gcn"
+# SET = "dep_gcn"
+# SET = "amr_gcn"
+# SET = "narrative_ego_amr"
+# SET = "narrative_ego_mlp"
+# SET = "sentence"
+# SET = "srl_anchored"
+# SET = "srl_gcn_weighted"
+# SET = "srl_predicate"
+SET = "subsentence"
+
 
 # ==== Settings ====
-ERROR_FILE = f"results_{SET}/{SET}_errors.json"  # change to dep_gcn/subsentence/sentence as needed
-TRAIN_LOG_FILE = f"results_{SET}/{SET}_train_log.json"
-OUTPUT_DIR = f"results_{SET}/{SET}_analysis"  # change for each model
+ERROR_FILE = f"2_results/results_{SET}/{SET}_errors_standardized.json"  # change to dep_gcn/subsentence/sentence as needed
+TRAIN_LOG_FILE = f"2_results/results_{SET}/{SET}_train_log.json"
+OUTPUT_DIR = f"2_results/results_{SET}/{SET}_analysis"  # change for each model
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
