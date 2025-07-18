@@ -179,7 +179,7 @@ EPPC_output_json/structure_visualized_graphs/
 EPPC_output_json/visualized_graphs_updated/
 PV_output_json/subtree_images/
 Research_Images/
-Old_Data/
+old_Data/
 outputs/text2graphs_subsetence_order_viz/
 outputs/dependency_graphs/subsentence_subcode/images/
 outputs/
@@ -198,3 +198,11 @@ results_dep_gcn_bk/
 filtered*/
 *.pt
 updated*/
+0*/
+1*/
+__pycache__/
+processed_dep_graphs/
+text_to_graph/
+Reference_Paper/
+MethodAndEvaluations/
+PV_output_json/
