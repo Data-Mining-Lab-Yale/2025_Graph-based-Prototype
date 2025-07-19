@@ -1,0 +1,1238 @@
+{
+  "3_0_2": {
+    "text": "to make an office visit for Person1 to review",
+    "span": "We need to make an office visit",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "6_0_0": {
+    "text": "Dr. Person1 has sent an order for a new PET scan (attached",
+    "span": "sent an order for a new PET scan",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "7_0_6": {
+    "text": "it a LOCATION.",
+    "span": "have it a LOCATION",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "15_3_3": {
+    "text": "Person5 sent in pre-auth info to Cigna approx.",
+    "span": "Person5 sent in pre-auth info to Cigna",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "22_1_1": {
+    "text": "at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1.",
+    "span": "You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "30_3_1": {
+    "text": "ok can I have those shots at LOCATION?",
+    "span": "If it is ok can I have those shots at LOCATION",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "32_0_2": {
+    "text": "with Dr. Person2 on the vaccine,",
+    "span": ", I am checking with Dr. Person2 on the vaccine",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "32_0_4": {
+    "text": "the whooping cough (tdap) vaccine here,",
+    "span": "we do not give the whooping cough (tdap) vaccine here",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "32_0_8": {
+    "text": "to your PCP or local",
+    "span": "you can go to your PCP or local pharmacy",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "34_1_0": {
+    "text": "I am due to have a cat scan",
+    "span": "I am due to have a cat scan and a bone scan at",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "35_0_2": {
+    "text": "the vaccine for whooping cough (tdap) but you will have to do that at your PCP or local",
+    "span": "you will have to do that at your PCP or local pharmacy",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "45_0_0": {
+    "text": "Did you just cancel the ct scan I scheduled",
+    "span": "Did you just cancel the ct scan I scheduled for MM/DD/YYYY in Org1?",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "54_4_3": {
+    "text": "i Sleeping",
+    "span": "Sleeping well",
+    "labels": [
+      {
+        "label": "Lifestyle",
+        "matched_codebook_label": "Lifestyle",
+        "level": "subsubcode",
+        "code_id": "3_3_8"
+      }
+    ]
+  },
+  "54_4_5": {
+    "text": "eating",
+    "span": "eating well",
+    "labels": [
+      {
+        "label": "Diet",
+        "matched_codebook_label": "Diet",
+        "level": "subsubcode",
+        "code_id": "3_3_2"
+      }
+    ]
+  },
+  "54_4_6": {
+    "text": "well and exercising",
+    "span": "exercising",
+    "labels": [
+      {
+        "label": "Physical Activity",
+        "matched_codebook_label": "Physical_Activity",
+        "level": "subsubcode",
+        "code_id": "3_3_10"
+      }
+    ]
+  },
+  "54_5_0": {
+    "text": "Hard to shed a few pounds (around 190) and I guess",
+    "span": "Hard to shed a few pounds (around 190)",
+    "labels": [
+      {
+        "label": "Diet",
+        "matched_codebook_label": "Diet",
+        "level": "subsubcode",
+        "code_id": "3_3_2"
+      }
+    ]
+  },
+  "59_2_0": {
+    "text": "I will place an order for them now if you would please give",
+    "span": "I will place an order for them now if you would please give our office a call to get them scheduled",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "65_0_2": {
+    "text": "to go other place to do",
+    "span": "I need to go other place to do it",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "67_0_7": {
+    "text": "to go other yale clinic to do",
+    "span": "Is different or i need to go other yale clinic to do it",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "70_0_0": {
+    "text": "Hi Person1 i did stop the drinking of the beet juice and my urine is",
+    "span": "i did stop the drinking of the beet juice",
+    "labels": [
+      {
+        "label": "Diet",
+        "matched_codebook_label": "Diet",
+        "level": "subsubcode",
+        "code_id": "3_3_2"
+      }
+    ]
+  },
+  "75_0_1": {
+    "text": "Yes I just need to know when you stopped",
+    "span": "Yes I just need to know when you stopped working",
+    "labels": [
+      {
+        "label": "Employment Status",
+        "matched_codebook_label": "Employment_Status",
+        "level": "subsubcode",
+        "code_id": "3_1_2"
+      }
+    ]
+  },
+  "75_0_5": {
+    "text": "at all or just not full time.",
+    "span": "you are saying you cannot work at all or just not full time",
+    "labels": [
+      {
+        "label": "Employment Status",
+        "matched_codebook_label": "Employment_Status",
+        "level": "subsubcode",
+        "code_id": "3_1_2"
+      }
+    ]
+  },
+  "111_0_0": {
+    "text": "Good Morning   Last night I went to the Org2 ED.",
+    "span": "Last night I went to the Org2 ED",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "118_3_0": {
+    "text": "Anything in your diet that might be exacerbating",
+    "span": "Anything in your diet that might be exacerbating it?",
+    "labels": [
+      {
+        "label": "Diet",
+        "matched_codebook_label": "Diet",
+        "level": "subsubcode",
+        "code_id": "3_3_2"
+      }
+    ]
+  },
+  "129_4_2": {
+    "text": "have your office received it?",
+    "span": "I have also faxed my Org1 paperwork, have your office received it?",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "131_1_1": {
+    "text": "my FMLApaperwork to be completed",
+    "span": "I sent my FMLApaperwork to be completed",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "135_1_2": {
+    "text": "up about my Org2 paperwork.",
+    "span": "I following up about my Org2 paperwork",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "136_2_0": {
+    "text": "I put you off work from MM/DD/YYYY to MM/DD/YYYY.",
+    "span": "I put you off work from MM/DD/YYYY to MM/DD/YYYY",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "140_1_0": {
+    "text": "He has significantly decreased his clinic time with his promotion.",
+    "span": "He has significantly decreased his clinic time with his promotion",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "141_0_0": {
+    "text": "Is he still going to be seeing patients in clinic?",
+    "span": "Is he still going to be seeing patients in clinic?",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "146_0_1": {
+    "text": "I wanted to reach out to Dr. Person1 regarding having trouble falling asleep the last 4 nights.",
+    "span": "having trouble falling asleep the last 4 nights",
+    "labels": [
+      {
+        "label": "Sleep",
+        "matched_codebook_label": "Sleep",
+        "level": "subsubcode",
+        "code_id": "3_3_12"
+      }
+    ]
+  },
+  "148_0_4": {
+    "text": "the refill to your pharmacy!",
+    "span": "send the refill to your pharmacy!",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "149_0_0": {
+    "text": "Yes but in a diminished capacity.",
+    "span": "Yes but in a diminished capacity",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "151_0_4": {
+    "text": "you could try that to help you sleep",
+    "span": "you could try that to help you sleep",
+    "labels": [
+      {
+        "label": "Sleep",
+        "matched_codebook_label": "Sleep",
+        "level": "subsubcode",
+        "code_id": "3_3_12"
+      }
+    ]
+  },
+  "154_4_3": {
+    "text": "still there and is really affecting",
+    "span": "is really affecting my days",
+    "labels": [
+      {
+        "label": "Lifestyle",
+        "matched_codebook_label": "Lifestyle",
+        "level": "subsubcode",
+        "code_id": "3_3_8"
+      }
+    ]
+  },
+  "162_1_1": {
+    "text": "the  option of the location so it might not work",
+    "span": "didn't see the  option of the location so it might not work",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "180_0_1": {
+    "text": "Would you mind making a referral please to a suitable doctor at Org3 that can undertake",
+    "span": "Would you mind making a referral please to a suitable doctor at Org3 that can undertake the above procedure for me",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "193_0_2": {
+    "text": "The referral was placed to Org3 Digestive disease.",
+    "span": "The referral was placed to Org3 Digestive disease",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "202_2_1": {
+    "text": "a response to either my e-mail or a phone message",
+    "span": "I haven had a response to either my e-mail or a phone message I left?",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "209_1_0": {
+    "text": "CVS at Org1,",
+    "span": "CVS at Org1",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "262_0_1": {
+    "text": "I need FMLA paperwork completed for work.",
+    "span": "I need FMLA paperwork completed for work",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "262_1_0": {
+    "text": "How can I get that paperwork over to you or Person1",
+    "span": "How can I get that paperwork over to you or Person1 to be completed?",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "263_0_2": {
+    "text": "able to scan it and uploaded",
+    "span": "You are able to scan it and uploaded to mychart",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "263_0_6": {
+    "text": "you can pass by the FMLA in NP4 and drop",
+    "span": "you can pass by the FMLA in NP4",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "263_1_0": {
+    "text": "Will you be doing intermittent FMLA or continuous",
+    "span": "Will you be doing intermittent FMLA or continuous?",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "263_2_2": {
+    "text": "they would be the ones filling out the paperwork.",
+    "span": "Also if the F MLA is for the radiation portion, they would be the ones filling out the paperwork",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "264_2_0": {
+    "text": "FMLA will be continuous for all appts and such related",
+    "span": "FMLA will be continuous for all appts and such related to treatment",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "268_1_1": {
+    "text": "with about the approval for the tramadol.",
+    "span": "Is there someone you spoke with about the approval for the tramadol",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "271_0_1": {
+    "text": "My insurance will not allow me to opt",
+    "span": "My insurance will not allow me to opt out of using Org2 pharmacy for the anastrozle",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "271_0_2": {
+    "text": "out of using Org2 pharmacy for the anastrozle.",
+    "span": "My insurance will not allow me to opt out of using Org2 pharmacy for the anastrozle",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "272_0_1": {
+    "text": "The insurance is driving me nuts.",
+    "span": "The insurance is driving me nuts",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "280_2_2": {
+    "text": "having the option on my good days.",
+    "span": "I don go in often, but I do like having the option on my good days",
+    "labels": [
+      {
+        "label": "Work-related Challenges",
+        "matched_codebook_label": "Work-related_Challenges",
+        "level": "subsubcode",
+        "code_id": "3_1_18"
+      }
+    ]
+  },
+  "280_3_0": {
+    "text": ":-)     Would you mind writing me a note for work saying that I had tested",
+    "span": "Would you mind writing me a note for work saying that I had tested positive for covid MM/DD/YYYY",
+    "labels": [
+      {
+        "label": "Work-related Challenges",
+        "matched_codebook_label": "Work-related_Challenges",
+        "level": "subsubcode",
+        "code_id": "3_1_18"
+      }
+    ]
+  },
+  "288_0_2": {
+    "text": "the CBC at the Org2 draw station in Org2 and they said they do not have",
+    "span": "I came to do the CBC at the Org2 draw station in Org2",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "324_0_0": {
+    "text": "Dr Person1 a couple questions for insurance.",
+    "span": "a couple questions for insurance",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "324_2_0": {
+    "text": "2  i need a form  filled out for my ins.",
+    "span": "2  i need a form  filled out for my ins",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "324_3_0": {
+    "text": "When original prognosis was given,",
+    "span": "When original prognosis was given, what it was and a signature from you",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "324_4_3": {
+    "text": "this form to your office?",
+    "span": "how can i get this form to your office?",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "325_2_0": {
+    "text": "Please note that the turn aro und time is",
+    "span": "Please note that the turn aro und time is about 7-10 business days to complete paperwork",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "327_0_4": {
+    "text": "in for you,",
+    "span": "get it sent in for you",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "330_2_0": {
+    "text": "I am still fully working.",
+    "span": "I am still fully working",
+    "labels": [
+      {
+        "label": "Employment Status",
+        "matched_codebook_label": "Employment_Status",
+        "level": "subsubcode",
+        "code_id": "3_1_2"
+      }
+    ]
+  },
+  "338_0_1": {
+    "text": "a blood draw and they are telling me only a psa is",
+    "span": "i am at Org2 to get a blood draw and they are telling me only a psa is in there",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "351_1_0": {
+    "text": "You will need to get the portflushed in Org1 but the secretaries can help",
+    "span": "You will need to get the portflushed in Org1",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "356_1_0": {
+    "text": "I have signed up for it at Org3 and have not received",
+    "span": "I have signed up for it at Org3 and have not received any response",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "361_2_0": {
+    "text": "I am willing to pay for it out of pocket.",
+    "span": "I am willing to pay for it out of pocket",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "362_0_2": {
+    "text": "out of pocket for prescription of ketorolac",
+    "span": "Please let pharmacy know I will pay out of pocket for prescription of ketorolac",
+    "labels": [
+      {
+        "label": "Financial Insecurity",
+        "matched_codebook_label": "Financial_Insecurity",
+        "level": "subsubcode",
+        "code_id": "3_1_4"
+      }
+    ]
+  },
+  "370_0_0": {
+    "text": "I need a refill for my medication that I take",
+    "span": "I need a refill for my medication that I take for my CT Scan called into Org1",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "392_0_1": {
+    "text": "the copay through the Org4 apothecary will be $81.54.",
+    "span": "the copay through the Org4 apothecary will be",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "395_0_0": {
+    "text": "Can Dr Person1 please recommend a neurological spine doctor through Org2",
+    "span": "Can Dr Person1 please recommend a neurological spine doctor through Org2",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "411_0_0": {
+    "text": "I received a call stating that insurance has denied",
+    "span": "I received a call stating that insurance has denied payment for the bone strengthened drug",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "412_1_0": {
+    "text": "Our team was notified of the denial and is working",
+    "span": "Our team was notified of the denial and is working on the appeal",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "414_1_1": {
+    "text": "on the appeal.",
+    "span": "we will work on the appeal",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "453_0_2": {
+    "text": "able to call the pharmacy or request",
+    "span": "so you should just be able to call the pharmacy or request via phone",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "455_2_0": {
+    "text": "Person2's application for a 2 week Rehab visit at Org9 was rejected by Org9 his insurer.",
+    "span": "Person2's application for a 2 week Rehab visit at Org9 was rejected by Org9 his insurer",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "459_0_0": {
+    "text": "Hi    I need a dexamethasone 2 mg refill authorized at Org2.",
+    "span": "I need a dexamethasone 2 mg refill authorized at Org2",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "483_2_0": {
+    "text": "I seeing Dr Person1 at 1pm at Org3 on MM/DD/YYYY.",
+    "span": "I seeing Dr Person1 at 1pm at Org3 on MM/DD/YYYY",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "529_1_0": {
+    "text": "He has COVID will get admitted",
+    "span": "will get admitted to Org1",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "537_0_0": {
+    "text": "I scheduled to see Dr. Person1 on MM/DD/YYYY,",
+    "span": "I scheduled to see Dr. Person1 on MM/DD/YYYY, at 9:45 in Org2",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "537_1_1": {
+    "text": "my blood draw is scheduled for 9:30  In Org2.",
+    "span": "However, my blood draw is scheduled for 9:30  In Org2",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "538_1_1": {
+    "text": "with Dr. Person1  In Org3.",
+    "span": "meeting with Dr. Person1  In Org3",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "539_0_2": {
+    "text": "old Org1 is closed for the time being",
+    "span": "It is in Org1, old Org1 is closed for the time being",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "550_0_3": {
+    "text": "the previous Org2 one.",
+    "span": "I only saw the previous Org2 one",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "551_0_1": {
+    "text": "I had blood work done at the Org2  where my PSA count was",
+    "span": "I had blood work done at the Org2",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "553_1_2": {
+    "text": "because of today weather I had to cancel an appointment at the Org2 dental clinic and it been rescheduled",
+    "span": "because of today weather I had to cancel an appointment at the Org2 dental clinic",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "555_0_0": {
+    "text": "Do you mean the Old Org1 clinic  Of the Org1?",
+    "span": "Do you mean the Old Org1 clinic  Of the Org1?",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "574_0_0": {
+    "text": "And it in Org1.",
+    "span": "And it in Org1",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "576_2_0": {
+    "text": "The Org1 dental clinic has a sizable backup due to the pandemic.",
+    "span": "The Org1 dental clinic has a sizable backup due to the pandemic",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "580_0_8": {
+    "text": "at the Org4 dental clinic.",
+    "span": "On MM/DD/YYYY, at the Org4 dental clinic",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "581_1_5": {
+    "text": "and sleeping",
+    "span": "i Eating and sleeping well",
+    "labels": [
+      {
+        "label": "Lifestyle",
+        "matched_codebook_label": "Lifestyle",
+        "level": "subsubcode",
+        "code_id": "3_3_8"
+      }
+    ]
+  },
+  "585_0_0": {
+    "text": "Are you dropping org1  or old org2",
+    "span": "Are you dropping org1  or old org2 ?",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "627_1_0": {
+    "text": "They can guide him to Org if needed",
+    "span": "They can guide him to Org if needed",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "651_2_2": {
+    "text": "my full visits with you.",
+    "span": "I could not have my full visits with you",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "656_0_5": {
+    "text": "when you send",
+    "span": "when you send my refill to Org",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "656_0_6": {
+    "text": "my refill to Org,",
+    "span": "when you send my refill to Org",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "656_0_9": {
+    "text": "24 hours to fill?",
+    "span": "Org takes 24 hours to fill?",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "663_3_0": {
+    "text": "Can you tell me how to get her records over to your facility and recommend",
+    "span": "Can you tell me how to get her records over to your facility",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "679_1_1": {
+    "text": "have been trying to find a gynecologist close by accepting new patients on Medicare,",
+    "span": "Both my niece and myself have been trying to find a gynecologist close by accepting new patients on Medicare, Medicaid, AARP supplement and Husky with no success",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "692_0_0": {
+    "text": "HI Person1I was contacted by the Org2  insurance again .",
+    "span": "Person1I was contacted by the Org2  insurance again",
+    "labels": [
+      {
+        "label": "Insurance",
+        "matched_codebook_label": "Insurance",
+        "level": "subsubcode",
+        "code_id": "3_3_6"
+      }
+    ]
+  },
+  "695_1_0": {
+    "text": "I called Org1 directly and they did not have",
+    "span": "I called Org1 directly and they did not have an answer",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "699_1_2": {
+    "text": "to return to work first week in MM/DD/YYYY Can you call me to discuss",
+    "span": "I need to return to work first week in MM/DD/YYYY",
+    "labels": [
+      {
+        "label": "Work-related Challenges",
+        "matched_codebook_label": "Work-related_Challenges",
+        "level": "subsubcode",
+        "code_id": "3_1_18"
+      }
+    ]
+  },
+  "714_1_5": {
+    "text": "to work this weekend?",
+    "span": "I need to work this weekend?",
+    "labels": [
+      {
+        "label": "Work-related Challenges",
+        "matched_codebook_label": "Work-related_Challenges",
+        "level": "subsubcode",
+        "code_id": "3_1_18"
+      }
+    ]
+  },
+  "716_4_0": {
+    "text": "Can it be made",
+    "span": "Can it be made at Org2",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  },
+  "723_1_0": {
+    "text": "2200  Org3.",
+    "span": "2200  Org3",
+    "labels": [
+      {
+        "label": "Health Access",
+        "matched_codebook_label": "Health_Access",
+        "level": "subsubcode",
+        "code_id": "3_3_4"
+      }
+    ]
+  }
+}
