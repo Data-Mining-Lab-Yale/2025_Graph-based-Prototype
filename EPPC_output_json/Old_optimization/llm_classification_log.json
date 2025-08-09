@@ -1,0 +1,487 @@
+{
+  "1": {
+    "label": "Information-Giving_SDOH",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Information-Giving_SDOH\" pertains to providing information about Social Determinants of Health (SDOH), which aligns with the semantic purpose of informing or educating the patient about factors affecting their health, thus serving a specific domain goal."
+  },
+  "2": {
+    "label": "Information-Giving",
+    "type": "Interactional",
+    "explanation": "\"Information-Giving\" primarily serves a communicative function where the speaker conveys information to the listener, rather than pursuing a specific goal related to healthcare tasks."
+  },
+  "3": {
+    "label": "Information-Seeking_SDOH",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Information-Seeking_SDOH\" pertains to the intent of obtaining information related to Social Determinants of Health (SDOH), which aligns with a specific semantic purpose in the healthcare context."
+  },
+  "4": {
+    "label": "Information-Seeking",
+    "type": "Goal-Oriented",
+    "explanation": "\"Information-Seeking\" indicates a semantic purpose where the individual is looking to obtain specific information, which aligns with the goal-oriented intent of achieving a particular outcome related to healthcare."
+  },
+  "5": {
+    "label": "PATIENT_PARTNERSHIP",
+    "type": "Interactional",
+    "explanation": "\"PATIENT_PARTNERSHIP\" refers to the collaborative relationship and communication between the patient and healthcare provider, which aligns with interactional intents focused on the nature of the dialogue rather than a specific goal or task."
+  },
+  "6": {
+    "label": "PROVIDER_PARTNERSHIP",
+    "type": "Goal-Oriented",
+    "explanation": "\"PROVIDER_PARTNERSHIP\" refers to the collaborative relationship and shared decision-making between healthcare providers and patients, which aligns with the semantic purpose of achieving specific healthcare goals."
+  },
+  "7": {
+    "label": "PATIENT_SHARED-DECISION_MAKING",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"PATIENT_SHARED-DECISION_MAKING\" pertains to the process where patients and healthcare providers collaboratively make decisions regarding treatment options, which aligns with the semantic purpose of achieving a specific healthcare goal."
+  },
+  "8": {
+    "label": "PROVIDER_Shared-Decision_Making",
+    "type": "Interactional",
+    "explanation": "\"PROVIDER_Shared-Decision_Making\" refers to the communicative function of engaging the patient in the decision-making process regarding their healthcare, which aligns with interactional intents like informing and discussing options rather than a specific goal-oriented task."
+  },
+  "9": {
+    "label": "Socioemotional_/_Empathy",
+    "type": "Interactional",
+    "explanation": "The label \"Socioemotional_/_Empathy\" pertains to the communicative function of expressing understanding and compassion, which aligns with interactional intents in dialogue."
+  },
+  "1_1": {
+    "label": "Economic_stability",
+    "type": "Goal-Oriented",
+    "explanation": "\"Economic_stability\" relates to the broader context of healthcare access and affordability, which aligns with the semantic purpose of addressing economic factors that influence health outcomes."
+  },
+  "1_2": {
+    "label": "Education_access_and_quality",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Education_access_and_quality\" pertains to the semantic purpose of ensuring that patients have access to quality educational resources regarding their health, which aligns with domain goals in healthcare."
+  },
+  "1_3": {
+    "label": "Health_care_access_and_quality",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Health_care_access_and_quality\" pertains to the semantic purpose of the dialogue, focusing on the goals related to accessing healthcare services and ensuring their quality, rather than the communicative function of the interaction."
+  },
+  "1_4": {
+    "label": "Neighborhood_and_built_environment",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Neighborhood_and_built_environment\" pertains to the context and factors influencing health outcomes, which aligns with the semantic purpose of understanding or addressing health-related goals in a specific environment."
+  },
+  "1_5": {
+    "label": "Social_and_community_context",
+    "type": "Interactional",
+    "explanation": "The label \"Social_and_community_context\" pertains to the communicative function of the dialogue, focusing on the social and community aspects of the interaction rather than a specific goal related to healthcare tasks."
+  },
+  "2_1": {
+    "label": "Care_Coordination",
+    "type": "Goal-Oriented",
+    "explanation": "\"Care_Coordination\" refers to the process of organizing patient care activities and sharing information among all participants concerned with a patient's care, which aligns with specific domain goals such as scheduling appointments, managing referrals, or ensuring continuity of care."
+  },
+  "2_2": {
+    "label": "Diagnostics",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Diagnostics\" refers to the semantic purpose of the dialogue, specifically related to the goal of identifying or determining a medical condition, which aligns with the domain goals in healthcare."
+  },
+  "2_3": {
+    "label": "Drugs",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Drugs\" pertains to the semantic purpose of the dialogue, focusing on topics related to medication, prescriptions, or treatments, which align with domain goals such as refilling prescriptions or discussing medication options."
+  },
+  "2_4": {
+    "label": "General_information",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"General_information\" pertains to the semantic purpose of providing information relevant to healthcare, which aligns with the domain goals of the dialogue."
+  },
+  "2_5": {
+    "label": "Prognosis",
+    "type": "Goal-Oriented",
+    "explanation": "\"Prognosis\" refers to the expected outcome or course of a disease, which aligns with the semantic purpose of understanding and discussing health-related goals and outcomes in a healthcare context."
+  },
+  "2_6": {
+    "label": "Scheduling_appt",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Scheduling_appt\" refers to the specific action of arranging an appointment, which aligns with a semantic purpose within the healthcare domain. It indicates a goal-oriented intent focused on scheduling rather than a communicative function."
+  },
+  "2_7": {
+    "label": "Symptoms",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Symptoms\" pertains to the semantic purpose of the dialogue, focusing on identifying or discussing health-related issues, which aligns with the goal of diagnostics in a healthcare context."
+  },
+  "2_8": {
+    "label": "instruction",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"instruction\" pertains to providing specific guidance or steps to achieve a particular outcome, which aligns with the semantic purpose of domain goals in healthcare dialogues."
+  },
+  "3_1": {
+    "label": "Economic_stability",
+    "type": "Goal-Oriented",
+    "explanation": "\"Economic_stability\" relates to the semantic purpose of the dialogue, focusing on the financial aspects of healthcare, such as affordability and access to services, which are essential for achieving health-related goals."
+  },
+  "3_2": {
+    "label": "Education_access_and_quality",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Education_access_and_quality\" pertains to the semantic purpose of ensuring that patients have access to quality educational resources regarding their health, which aligns with domain goals in healthcare."
+  },
+  "3_3": {
+    "label": "Health_care_access_and_quality",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Health_care_access_and_quality\" pertains to the semantic purpose of ensuring that patients can access healthcare services and receive quality care, which aligns with domain goals such as improving access to services and enhancing the quality of care provided."
+  },
+  "3_4": {
+    "label": "Neighborhood_and_built_environment",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Neighborhood_and_built_environment\" pertains to the context and factors influencing health outcomes, which aligns with the semantic purpose of understanding and addressing health-related goals in a community setting."
+  },
+  "3_5": {
+    "label": "Social_and_community_context",
+    "type": "Interactional",
+    "explanation": "The label \"Social_and_community_context\" pertains to the communicative function of the dialogue, focusing on the social aspects and community-related interactions rather than specific healthcare goals or tasks."
+  },
+  "4_1": {
+    "label": "Care_Coordination",
+    "type": "Goal-Oriented",
+    "explanation": "\"Care_Coordination\" refers to the process of organizing patient care activities and sharing information among all participants concerned with a patient's care, which aligns with the semantic purpose of achieving specific healthcare goals."
+  },
+  "4_2": {
+    "label": "Diagnostics",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Diagnostics\" refers to the semantic purpose of the dialogue, specifically related to the goal of identifying or determining a medical condition, which aligns with the domain goals in healthcare."
+  },
+  "4_3": {
+    "label": "Drugs",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Drugs\" pertains to the semantic purpose of the dialogue, focusing on topics related to medication, prescriptions, or treatments, which align with domain goals such as discussing, prescribing, or managing medications."
+  },
+  "4_4": {
+    "label": "General_information",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"General_information\" pertains to the semantic purpose of providing information relevant to healthcare, which aligns with the domain goals of the dialogue."
+  },
+  "4_5": {
+    "label": "Prognosis",
+    "type": "Goal-Oriented",
+    "explanation": "\"Prognosis\" refers to the expected outcome or course of a disease, which aligns with the semantic purpose of understanding and discussing health-related goals and outcomes in a healthcare context."
+  },
+  "4_6": {
+    "label": "Scheduling_appt",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Scheduling_appt\" indicates a specific semantic purpose related to the goal of arranging an appointment, which aligns with the domain goal of scheduling in healthcare."
+  },
+  "4_7": {
+    "label": "Symptoms",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Symptoms\" pertains to the semantic purpose of the dialogue, focusing on identifying or discussing health-related issues, which aligns with the goal of diagnostics in a healthcare context."
+  },
+  "5_1": {
+    "label": "Alignment",
+    "type": "Interactional",
+    "explanation": "\"Alignment\" refers to the communicative function of ensuring that both parties in the dialogue are on the same page, which is an interactional intent rather than a specific goal-oriented task."
+  },
+  "5_2": {
+    "label": "Appreciation/gratitude",
+    "type": "Interactional",
+    "explanation": "The label \"Appreciation/gratitude\" reflects a communicative function that expresses thanks or acknowledgment within the dialogue, rather than serving a specific goal-oriented purpose related to healthcare tasks or objectives."
+  },
+  "5_3": {
+    "label": "Connection",
+    "type": "Interactional",
+    "explanation": "\"Connection\" refers to the communicative function of establishing rapport or a relationship between participants in the dialogue, which aligns with interactional intents rather than specific domain goals."
+  },
+  "5_4": {
+    "label": "active_participation_/involvement",
+    "type": "Interactional",
+    "explanation": "The label \"active_participation_/involvement\" pertains to the communicative function of engaging in dialogue, which aligns with interactional intents rather than specific domain goals."
+  },
+  "5_5": {
+    "label": "build_trust",
+    "type": "Interactional",
+    "explanation": "\"build_trust\" refers to the communicative function of fostering a positive relationship and rapport between the healthcare provider and the patient, which aligns with interactional intents."
+  },
+  "5_6": {
+    "label": "express_opinions",
+    "type": "Interactional",
+    "explanation": "\"express_opinions\" pertains to the communicative function of sharing personal views or feelings, which aligns with interactional intents rather than specific goal-oriented tasks in healthcare."
+  },
+  "5_7": {
+    "label": "salutation",
+    "type": "Interactional",
+    "explanation": "A salutation serves as a greeting or opening in a conversation, which aligns with the communicative function of interactional intents."
+  },
+  "5_8": {
+    "label": "signoff",
+    "type": "Interactional",
+    "explanation": "\"Signoff\" refers to the communicative function of concluding a conversation, which aligns with interactional intents such as closing or farewell rather than a specific goal-oriented task within the healthcare context."
+  },
+  "5_9": {
+    "label": "state_preferences",
+    "type": "Goal-Oriented",
+    "explanation": "\"State_preferences\" refers to expressing specific desires or choices regarding healthcare options, which aligns with the semantic purpose of achieving a particular goal in the healthcare context."
+  },
+  "6_1": {
+    "label": "Alignment",
+    "type": "Interactional",
+    "explanation": "\"Alignment\" refers to the communicative function of ensuring that both parties in the dialogue are on the same page, which is an interactional intent rather than a specific goal-oriented task."
+  },
+  "6_2": {
+    "label": "Appreciation/gratitude",
+    "type": "Interactional",
+    "explanation": "The label \"Appreciation/gratitude\" reflects a communicative function that expresses thanks or acknowledgment within the dialogue, rather than serving a specific goal-oriented purpose related to healthcare tasks or objectives."
+  },
+  "6_3": {
+    "label": "Build_Trust",
+    "type": "Interactional",
+    "explanation": "\"Build_Trust\" pertains to the communicative function of fostering a positive relationship and rapport between the healthcare provider and the patient, which aligns with interactional intents rather than specific goal-oriented tasks."
+  },
+  "6_4": {
+    "label": "Connection",
+    "type": "Interactional",
+    "explanation": "The label \"Connection\" pertains to the communicative function of establishing rapport or engagement in the dialogue, rather than serving a specific domain goal like scheduling or diagnostics."
+  },
+  "6_5": {
+    "label": "Maintain_communication",
+    "type": "Interactional",
+    "explanation": "\"Maintain_communication\" refers to the ongoing exchange of information and engagement between parties, which aligns with the communicative function of interaction rather than a specific goal-oriented task."
+  },
+  "6_6": {
+    "label": "Requests_for_opinion",
+    "type": "Interactional",
+    "explanation": "\"Requests_for_opinion\" involves seeking input or feedback, which aligns with the communicative function of interaction rather than a specific goal-oriented task within the healthcare context."
+  },
+  "6_7": {
+    "label": "acknowledge_patient_expertise/knowledge",
+    "type": "Interactional",
+    "explanation": "The label \"acknowledge_patient_expertise/knowledge\" pertains to recognizing and validating the patient's knowledge or experience, which is a communicative function aimed at fostering rapport and engagement in the dialogue rather than achieving a specific goal related to healthcare tasks."
+  },
+  "6_8": {
+    "label": "checking_understanding/clarification",
+    "type": "Interactional",
+    "explanation": "The label \"checking_understanding/clarification\" pertains to the communicative function of ensuring that both parties in the dialogue have a mutual understanding, which aligns with interactional intents."
+  },
+  "6_9": {
+    "label": "invite_collaboration",
+    "type": "Interactional",
+    "explanation": "\"invite_collaboration\" pertains to a communicative function where one party is seeking to engage another in a cooperative effort, which aligns with interactional intents rather than a specific goal-oriented task."
+  },
+  "6_10": {
+    "label": "salutation",
+    "type": "Interactional",
+    "explanation": "A salutation serves as a greeting or opening in a dialogue, which aligns with the communicative function of interactional intents. It is not aimed at achieving a specific goal within the healthcare context but rather facilitates the interaction itself."
+  },
+  "6_11": {
+    "label": "signoff",
+    "type": "Interactional",
+    "explanation": "\"Signoff\" refers to the communicative function of concluding a conversation, which aligns with interactional intents such as closing or farewell."
+  },
+  "7_1": {
+    "label": "Explore_options",
+    "type": "Goal-Oriented",
+    "explanation": "\"Explore_options\" indicates a semantic purpose related to understanding or considering different choices or alternatives within a healthcare context, which aligns with goal-oriented intents."
+  },
+  "7_2": {
+    "label": "Seeking_Approval",
+    "type": "Interactional",
+    "explanation": "\"Seeking_Approval\" reflects a communicative function where the speaker is looking for validation or agreement from the other party, rather than pursuing a specific goal related to healthcare services."
+  },
+  "7_3": {
+    "label": "approval_of_decision",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"approval_of_decision\" pertains to the semantic purpose of the dialogue, indicating a specific goal related to obtaining consent or agreement on a decision made in a healthcare context."
+  },
+  "8_1": {
+    "label": "Approval/Reinforcement",
+    "type": "Interactional",
+    "explanation": "\"Approval/Reinforcement\" serves a communicative function by affirming or validating a previous statement or action within the dialogue, rather than pursuing a specific domain goal."
+  },
+  "8_2": {
+    "label": "Encourage_questions",
+    "type": "Interactional",
+    "explanation": "\"Encourage_questions\" serves as a communicative function aimed at prompting the other party to ask questions, which aligns with interactional intents in dialogue."
+  },
+  "8_3": {
+    "label": "Making_decision_together",
+    "type": "Interactional",
+    "explanation": "\"Making_decision_together\" reflects a communicative function where the parties involved are collaboratively discussing and deciding on a course of action, rather than pursuing a specific goal like scheduling or diagnostics."
+  },
+  "8_4": {
+    "label": "Share_options",
+    "type": "Goal-Oriented",
+    "explanation": "\"Share_options\" indicates a semantic purpose related to providing information about available choices or alternatives, which aligns with the goal-oriented intent of facilitating decision-making in a healthcare context."
+  },
+  "8_5": {
+    "label": "Summarize_and_confirm_understanding",
+    "type": "Interactional",
+    "explanation": "The label \"Summarize_and_confirm_understanding\" pertains to the communicative function of ensuring clarity and mutual understanding in the dialogue, which aligns with interactional intents rather than specific goal-oriented tasks."
+  },
+  "9_1": {
+    "label": "Acknowledge_Error",
+    "type": "Interactional",
+    "explanation": "\"Acknowledge_Error\" serves a communicative function by recognizing and addressing a mistake in the dialogue, which is an interactional intent rather than a goal-oriented one."
+  },
+  "9_2": {
+    "label": "Express_concern/unease",
+    "type": "Interactional",
+    "explanation": "\"Express_concern/unease\" reflects a communicative function where the speaker conveys their feelings or emotions regarding a situation, rather than pursuing a specific goal related to healthcare tasks or outcomes."
+  },
+  "9_3": {
+    "label": "Positive_Remarks/Reward",
+    "type": "Interactional",
+    "explanation": "The label \"Positive_Remarks/Reward\" pertains to the communicative function of the dialogue, focusing on expressing positive feedback or encouragement rather than achieving a specific goal related to healthcare tasks."
+  },
+  "9_4": {
+    "label": "Reassurance",
+    "type": "Interactional",
+    "explanation": "\"Reassurance\" serves a communicative function aimed at providing comfort or alleviating concerns, rather than pursuing a specific domain goal like scheduling or diagnostics."
+  },
+  "9_5": {
+    "label": "Sadness/fear",
+    "type": "Interactional",
+    "explanation": "\"Sadness/fear\" reflects an emotional state expressed by the speaker, which is a communicative function rather than a specific goal related to healthcare tasks."
+  },
+  "1_1_1": {
+    "label": "Employment_Status",
+    "type": "Goal-Oriented",
+    "explanation": "\"Employment_Status\" pertains to the semantic purpose of understanding a patient's work situation, which can influence healthcare decisions and recommendations."
+  },
+  "1_1_3": {
+    "label": "Financial_Insecurity",
+    "type": "Goal-Oriented",
+    "explanation": "\"Financial_Insecurity\" pertains to a semantic purpose related to concerns about financial aspects of healthcare, which can influence decisions about treatment, access to services, or medication affordability."
+  },
+  "1_1_5": {
+    "label": "Housing_Insecurity",
+    "type": "Goal-Oriented",
+    "explanation": "\"Housing_Insecurity\" pertains to a specific concern or need related to a person's living situation, which aligns with the semantic purpose of addressing issues related to housing stability within the healthcare context."
+  },
+  "1_1_9": {
+    "label": "Housing_Instability",
+    "type": "Goal-Oriented",
+    "explanation": "\"Housing_Instability\" pertains to a specific issue that affects a person's living situation and is likely to be addressed in the context of healthcare services, making it a semantic purpose related to the goals of the dialogue."
+  },
+  "1_1_11": {
+    "label": "Income",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Income\" pertains to a specific domain goal related to financial aspects of healthcare, such as determining eligibility for services or assistance programs, rather than serving a communicative function in the dialogue."
+  },
+  "1_1_13": {
+    "label": "Socioeconomic_Factors",
+    "type": "Goal-Oriented",
+    "explanation": "Socioeconomic factors relate to the context and background of a patient's life that can influence their health and healthcare access, which aligns with the semantic purpose of understanding and addressing domain goals in healthcare."
+  },
+  "1_1_15": {
+    "label": "Socioeconomic_Status_(SES)",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Socioeconomic_Status_(SES)\" pertains to understanding a patient's socioeconomic background, which is often relevant for making informed decisions about healthcare services, treatment options, and resource allocation. This aligns with the semantic purpose of gathering information to achieve specific healthcare goals."
+  },
+  "1_1_17": {
+    "label": "Work-related_Challenges",
+    "type": "Goal-Oriented",
+    "explanation": "\"Work-related_Challenges\" pertains to specific issues or obstacles faced in a work context, which aligns with the semantic purpose of addressing domain goals related to workplace health and well-being."
+  },
+  "1_3_1": {
+    "label": "Diet",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Diet\" pertains to a specific aspect of health management and nutrition, which aligns with the semantic purpose of discussing dietary habits or recommendations within a healthcare context."
+  },
+  "1_3_3": {
+    "label": "Health_Access",
+    "type": "Goal-Oriented",
+    "explanation": "\"Health_Access\" pertains to the semantic purpose of obtaining access to healthcare services or information, which aligns with domain goals such as scheduling appointments or accessing medical records."
+  },
+  "1_3_5": {
+    "label": "Insurance",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Insurance\" pertains to the semantic purpose of the dialogue, specifically related to inquiries or discussions about insurance coverage, benefits, or claims, which are essential for healthcare-related goals."
+  },
+  "1_3_7": {
+    "label": "Lifestyle",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Lifestyle\" pertains to the semantic purpose of discussing health-related behaviors and choices, which aligns with the domain goals of healthcare, such as improving health outcomes or managing conditions through lifestyle changes."
+  },
+  "1_3_9": {
+    "label": "Physical_Activity",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Physical_Activity\" pertains to a specific domain goal related to health and wellness, indicating a focus on the patient's engagement in physical activities, which is a key aspect of health management and improvement."
+  },
+  "1_3_11": {
+    "label": "Sleep",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Sleep\" pertains to a semantic purpose related to health and wellness, often associated with discussions about sleep patterns, disorders, or recommendations, which aligns with goal-oriented intents in healthcare dialogues."
+  },
+  "1_3_13": {
+    "label": "Substance_Use/Abuse",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Substance_Use/Abuse\" pertains to the semantic purpose of the dialogue, focusing on understanding or addressing issues related to substance use or abuse, which aligns with domain goals in healthcare."
+  },
+  "3_1_1": {
+    "label": "Employment_Status",
+    "type": "Goal-Oriented",
+    "explanation": "\"Employment_Status\" pertains to the semantic purpose of understanding a patient's work situation, which can influence healthcare decisions and recommendations."
+  },
+  "3_1_3": {
+    "label": "Financial_Insecurity",
+    "type": "Goal-Oriented",
+    "explanation": "\"Financial_Insecurity\" pertains to a semantic purpose related to concerns about the ability to afford healthcare services or medications, which aligns with the domain goals of addressing financial aspects in healthcare."
+  },
+  "3_1_5": {
+    "label": "Housing_Insecurity",
+    "type": "Goal-Oriented",
+    "explanation": "\"Housing_Insecurity\" pertains to a specific concern or need related to a person's living situation, which aligns with the semantic purpose of addressing issues within the healthcare domain, such as social determinants of health."
+  },
+  "3_1_9": {
+    "label": "Housing_Instability",
+    "type": "Goal-Oriented",
+    "explanation": "\"Housing_Instability\" pertains to a specific issue that affects a person's health and well-being, indicating a semantic purpose related to addressing or managing housing-related challenges within a healthcare context."
+  },
+  "3_1_11": {
+    "label": "Income",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Income\" pertains to a specific aspect of a patient's financial situation, which can influence healthcare decisions and access to services, thus aligning with the semantic purpose of understanding or addressing financial aspects in healthcare."
+  },
+  "3_1_13": {
+    "label": "Socioeconomic_Factors",
+    "type": "Goal-Oriented",
+    "explanation": "Socioeconomic factors relate to the context and background of a patient's situation, which can influence healthcare decisions and outcomes. This aligns with the semantic purpose of understanding and addressing the patient's needs and circumstances within the healthcare domain."
+  },
+  "3_1_15": {
+    "label": "Socioeconomic_Status_(SES)",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Socioeconomic_Status_(SES)\" pertains to understanding a patient's socioeconomic background, which is relevant for assessing health-related needs and tailoring care, thus aligning with the semantic purpose of healthcare dialogues."
+  },
+  "3_1_17": {
+    "label": "Work-related_Challenges",
+    "type": "Goal-Oriented",
+    "explanation": "\"Work-related_Challenges\" pertains to specific issues or obstacles faced in a work context, which aligns with the semantic purpose of addressing domain goals related to employment and workplace dynamics."
+  },
+  "3_3_1": {
+    "label": "Diet",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Diet\" pertains to the semantic purpose of discussing nutritional habits or guidelines, which aligns with domain goals related to health management and dietary recommendations."
+  },
+  "3_3_3": {
+    "label": "Health_Access",
+    "type": "Goal-Oriented",
+    "explanation": "\"Health_Access\" pertains to the semantic purpose of obtaining access to healthcare services or information, which aligns with domain goals such as scheduling appointments or accessing medical records."
+  },
+  "3_3_5": {
+    "label": "Insurance",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Insurance\" pertains to the semantic purpose of the dialogue, specifically related to inquiries or discussions about insurance coverage, benefits, or claims, which are common goals in healthcare interactions."
+  },
+  "3_3_7": {
+    "label": "Lifestyle",
+    "type": "Goal-Oriented",
+    "explanation": "\"Lifestyle\" pertains to the semantic purpose of discussing health-related behaviors and choices, which aligns with the domain goals of healthcare, such as improving health outcomes or managing conditions."
+  },
+  "3_3_9": {
+    "label": "Physical_Activity",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Physical_Activity\" pertains to a specific domain goal related to health and wellness, indicating a focus on the patient's engagement in physical activities, which is a key aspect of health management."
+  },
+  "3_3_11": {
+    "label": "Sleep",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Sleep\" pertains to a semantic purpose related to health and wellness, often associated with discussions about sleep patterns, disorders, or recommendations, which aligns with goal-oriented intents in healthcare dialogues."
+  },
+  "3_3_13": {
+    "label": "Substance_Use/Abuse",
+    "type": "Goal-Oriented",
+    "explanation": "The label \"Substance_Use/Abuse\" pertains to the semantic purpose of the dialogue, focusing on issues related to the use or abuse of substances, which aligns with domain goals such as assessment, treatment, or intervention in healthcare contexts."
+  }
+}
