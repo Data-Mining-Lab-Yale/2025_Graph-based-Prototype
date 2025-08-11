@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "read",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "early",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "cancer",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "stage",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "throat",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "begins",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "often",
+      "pos": "ADV",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "mark",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

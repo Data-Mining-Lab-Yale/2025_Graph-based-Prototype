@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "itchy",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "rash",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "painful",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "raised",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "acomp",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}

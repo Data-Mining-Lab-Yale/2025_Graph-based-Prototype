@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "application",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 1
+    },
+    {
+      "label": "rejected",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": "Rehab",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "Org9",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "Org9",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "insurer",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "case",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "appos",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 12,
+      "target": 2
+    },
+    {
+      "dep": "auxpass",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "agent",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nummod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "appos",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "poss",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

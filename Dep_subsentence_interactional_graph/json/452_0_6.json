@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "send",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "help",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "through",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "chase",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "her",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prt",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "xcomp",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    }
+  ]
+}

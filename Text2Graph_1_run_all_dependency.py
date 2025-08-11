@@ -9,10 +9,23 @@ from text_to_graph.Text2Graph_1_visualize import visualize_graph
 unit_level = "subsentence"  # "sentence" or "subsentence"
 code_level = "subcode"   # "code", "subcode", or "subsubcode"
 
+# === Configuration ===
+# INPUT = "sentence_interactional"
+# INPUT = "sentence_goal_oriented"
+# INPUT = "subsentence_interactional"
+INPUT = "subsentence_goal_oriented"
+
 # Construct filename and output folders
-input_filename = f"EPPC_output_json/{unit_level}_{code_level}_labels.json"
-OUTPUT_IMG_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/images")
-OUTPUT_JSON_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/json")
+# input_filename = f"EPPC_output_json/{unit_level}_{code_level}_labels.json"
+# OUTPUT_IMG_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/images")
+# OUTPUT_JSON_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/json")
+# OUTPUT_IMG_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/images")
+# OUTPUT_JSON_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/json")
+input_filename = f"EPPC_output_json/{INPUT}_label.json"
+OUTPUT_IMG_DIR = Path(f"Dep_{INPUT}_graph/images")
+OUTPUT_JSON_DIR = Path(f"Dep_{INPUT}_graph/json")
+# OUTPUT_IMG_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/images")
+# OUTPUT_JSON_DIR = Path(f"outputs/dependency_graphs/{unit_level}_{code_level}/json")
 OUTPUT_IMG_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_JSON_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Given",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "history",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "ulcerative",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "colitis",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "concerned",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "diarrhea",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 12
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 13
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "Very",
+      "pos": "ADV",
+      "id": 16
+    },
+    {
+      "label": "concerned",
+      "pos": "ADJ",
+      "id": 17
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 19
+    },
+    {
+      "label": "pill",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "Verzenio",
+      "pos": "PROPN",
+      "id": 20
+    },
+    {
+      "label": "regarding",
+      "pos": "VERB",
+      "id": 22
+    },
+    {
+      "label": "diarrhea",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "acomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "acomp",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 22
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 24
+    },
+    {
+      "dep": "advmod",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "dep": "det",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "compound",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 23
+    }
+  ]
+}

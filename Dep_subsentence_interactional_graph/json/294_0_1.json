@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "lab",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "4th",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "floor",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "beforehand",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 9
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

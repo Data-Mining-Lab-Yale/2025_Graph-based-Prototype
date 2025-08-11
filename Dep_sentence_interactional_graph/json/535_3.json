@@ -1,0 +1,304 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "thought",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "Be",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "idea",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "someone",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "check",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "dad",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "all",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 19
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 20
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 23
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 24
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 28
+    },
+    {
+      "label": "short",
+      "pos": "ADJ",
+      "id": 25
+    },
+    {
+      "label": "term",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": "memory",
+      "pos": "NOUN",
+      "id": 27
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 29
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 29
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "ccomp",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "relcl",
+      "source": 17,
+      "target": 21
+    },
+    {
+      "dep": "cc",
+      "source": 17,
+      "target": 23
+    },
+    {
+      "dep": "conj",
+      "source": 17,
+      "target": 28
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "prt",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "poss",
+      "source": 28,
+      "target": 24
+    },
+    {
+      "dep": "compound",
+      "source": 28,
+      "target": 26
+    },
+    {
+      "dep": "compound",
+      "source": 28,
+      "target": 27
+    },
+    {
+      "dep": "amod",
+      "source": 26,
+      "target": 25
+    }
+  ]
+}

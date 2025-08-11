@@ -1,0 +1,304 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "afternoon",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "reached",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "dr",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 9
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "concerning",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "removal",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "port",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 17
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "nurse",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "chart",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 22
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 23
+    },
+    {
+      "label": "stating",
+      "pos": "VERB",
+      "id": 24
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 25
+    },
+    {
+      "label": "doesn",
+      "pos": "VERB",
+      "id": 26
+    },
+    {
+      "label": "remove",
+      "pos": "VERB",
+      "id": 27
+    },
+    {
+      "label": "ports",
+      "pos": "NOUN",
+      "id": 28
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 29
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prt",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 27
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 29
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "cc",
+      "source": 13,
+      "target": 17
+    },
+    {
+      "dep": "conj",
+      "source": 13,
+      "target": 19
+    },
+    {
+      "dep": "acl",
+      "source": 13,
+      "target": 24
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "poss",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "appos",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "poss",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "appos",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "advmod",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "ccomp",
+      "source": 24,
+      "target": 26
+    },
+    {
+      "dep": "nsubj",
+      "source": 26,
+      "target": 25
+    },
+    {
+      "dep": "dobj",
+      "source": 27,
+      "target": 28
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "noticed",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "every",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 14
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "pca",
+      "pos": "ADJ",
+      "id": 17
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "nummod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "neg",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "dobj",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "dep": "det",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "amod",
+      "source": 18,
+      "target": 17
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Team",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "be",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Would",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "one",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "able",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "give",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "acomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 17
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "xcomp",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dative",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "npadvmod",
+      "source": 11,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

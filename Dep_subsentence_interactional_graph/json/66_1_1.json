@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "message",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "respond",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "below",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "better",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "question",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

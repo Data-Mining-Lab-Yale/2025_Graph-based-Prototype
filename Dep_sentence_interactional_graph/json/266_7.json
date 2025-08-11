@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "Tylenol",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "aren",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "Aleve",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "enough",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "right",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "risk",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "possible",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "neck",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "hoping",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

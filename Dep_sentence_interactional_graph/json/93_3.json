@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "concerned",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "renal",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "cysts",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "cancerous",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "possibly",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "neg",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

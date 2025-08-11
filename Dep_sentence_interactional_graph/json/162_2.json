@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Call",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "over",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "try",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "happen",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "prt",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "xcomp",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "ccomp",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 17
+    }
+  ]
+}

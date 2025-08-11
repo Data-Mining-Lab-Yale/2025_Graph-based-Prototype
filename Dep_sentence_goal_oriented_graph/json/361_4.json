@@ -1,0 +1,349 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "takes",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "stomach",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "away",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "seems",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "happen",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "like",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "once",
+      "pos": "ADV",
+      "id": 12
+    },
+    {
+      "label": "every",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "months",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "3",
+      "pos": "NUM",
+      "id": 14
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 16
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "don",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 20
+    },
+    {
+      "label": "drive",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 22
+    },
+    {
+      "label": "hour",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "ER",
+      "pos": "PROPN",
+      "id": 25
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 26
+    },
+    {
+      "label": "tell",
+      "pos": "VERB",
+      "id": 29
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 27
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 28
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 30
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 31
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 32
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 33
+    },
+    {
+      "label": "Cancer",
+      "pos": "NOUN",
+      "id": 34
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "xcomp",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "npadvmod",
+      "source": 10,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "nummod",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 19,
+      "target": 16
+    },
+    {
+      "dep": "nsubj",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "xcomp",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "appos",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "dobj",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 24
+    },
+    {
+      "dep": "advcl",
+      "source": 21,
+      "target": 29
+    },
+    {
+      "dep": "det",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 24,
+      "target": 25
+    },
+    {
+      "dep": "mark",
+      "source": 29,
+      "target": 26
+    },
+    {
+      "dep": "nsubj",
+      "source": 29,
+      "target": 27
+    },
+    {
+      "dep": "aux",
+      "source": 29,
+      "target": 28
+    },
+    {
+      "dep": "dative",
+      "source": 29,
+      "target": 30
+    },
+    {
+      "dep": "dobj",
+      "source": 29,
+      "target": 31
+    },
+    {
+      "dep": "prep",
+      "source": 29,
+      "target": 32
+    },
+    {
+      "dep": "pobj",
+      "source": 32,
+      "target": 34
+    },
+    {
+      "dep": "det",
+      "source": 34,
+      "target": 33
+    }
+  ]
+}

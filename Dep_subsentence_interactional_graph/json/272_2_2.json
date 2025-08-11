@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "mind",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "sending",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "script",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "90",
+      "pos": "NUM",
+      "id": 6
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "supply",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "CVS",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "Org2",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "please",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "nummod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 15
+    }
+  ]
+}

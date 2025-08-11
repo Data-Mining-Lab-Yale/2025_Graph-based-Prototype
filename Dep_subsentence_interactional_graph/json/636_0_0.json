@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Same",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "family",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "beautiful",
+      "pos": "ADJ",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 3
+    }
+  ]
+}

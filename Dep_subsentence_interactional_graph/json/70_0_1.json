@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "normal",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "yellow",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "clear",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "cause",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "false",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "urine",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "drinking",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "beet",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "juice",
+      "pos": "NOUN",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 3
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "dep": "auxpass",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pcomp",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "dobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

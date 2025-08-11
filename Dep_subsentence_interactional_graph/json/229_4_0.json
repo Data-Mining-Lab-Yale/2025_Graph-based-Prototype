@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "type",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "usually",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "best",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "done",
+      "pos": "VERB",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "relcl",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

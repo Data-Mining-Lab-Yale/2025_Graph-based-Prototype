@@ -1,0 +1,484 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "As",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "walking",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "weakness",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "issues---",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 13
+    },
+    {
+      "label": "wants",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "its",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "worse-",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 20
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 22
+    },
+    {
+      "label": "follow",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 25
+    },
+    {
+      "label": "neurology",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": "...",
+      "pos": "PUNCT",
+      "id": 27
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 28
+    },
+    {
+      "label": "looks",
+      "pos": "VERB",
+      "id": 29
+    },
+    {
+      "label": "like",
+      "pos": "SCONJ",
+      "id": 30
+    },
+    {
+      "label": "saw",
+      "pos": "VERB",
+      "id": 32
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 31
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 33
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 34
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 35
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 36
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 40
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 37
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 38
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 39
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 41
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 42
+    },
+    {
+      "label": "follow",
+      "pos": "VERB",
+      "id": 45
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 43
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 44
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 46
+    },
+    {
+      "label": "since",
+      "pos": "ADV",
+      "id": 47
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 48
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "neg",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "acomp",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 18
+    },
+    {
+      "dep": "mark",
+      "source": 18,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 15
+    },
+    {
+      "dep": "ccomp",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 18,
+      "target": 27
+    },
+    {
+      "dep": "poss",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "appos",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "dobj",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "det",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "prt",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "prep",
+      "source": 23,
+      "target": 25
+    },
+    {
+      "dep": "pobj",
+      "source": 25,
+      "target": 26
+    },
+    {
+      "dep": "nsubj",
+      "source": 29,
+      "target": 28
+    },
+    {
+      "dep": "advcl",
+      "source": 29,
+      "target": 32
+    },
+    {
+      "dep": "punct",
+      "source": 29,
+      "target": 48
+    },
+    {
+      "dep": "mark",
+      "source": 32,
+      "target": 30
+    },
+    {
+      "dep": "nsubj",
+      "source": 32,
+      "target": 31
+    },
+    {
+      "dep": "ccomp",
+      "source": 32,
+      "target": 34
+    },
+    {
+      "dep": "prep",
+      "source": 32,
+      "target": 35
+    },
+    {
+      "dep": "cc",
+      "source": 32,
+      "target": 41
+    },
+    {
+      "dep": "conj",
+      "source": 32,
+      "target": 45
+    },
+    {
+      "dep": "nsubj",
+      "source": 34,
+      "target": 33
+    },
+    {
+      "dep": "pobj",
+      "source": 35,
+      "target": 40
+    },
+    {
+      "dep": "nmod",
+      "source": 40,
+      "target": 36
+    },
+    {
+      "dep": "nmod",
+      "source": 40,
+      "target": 38
+    },
+    {
+      "dep": "punct",
+      "source": 40,
+      "target": 39
+    },
+    {
+      "dep": "punct",
+      "source": 38,
+      "target": 37
+    },
+    {
+      "dep": "aux",
+      "source": 45,
+      "target": 42
+    },
+    {
+      "dep": "neg",
+      "source": 45,
+      "target": 43
+    },
+    {
+      "dep": "aux",
+      "source": 45,
+      "target": 44
+    },
+    {
+      "dep": "prt",
+      "source": 45,
+      "target": 46
+    },
+    {
+      "dep": "advmod",
+      "source": 45,
+      "target": 47
+    }
+  ]
+}

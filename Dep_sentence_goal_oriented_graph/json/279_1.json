@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": ":-(",
+      "pos": "PUNCT",
+      "id": 0
+    },
+    {
+      "label": "wanted",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "walk",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "in",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "because",
+      "pos": "SCONJ",
+      "id": 11
+    },
+    {
+      "label": "infected",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "ear",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "left",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": "feels",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 17
+    },
+    {
+      "label": "inflamed",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "xcomp",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "mark",
+      "source": 16,
+      "target": 11
+    },
+    {
+      "dep": "auxpass",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "cc",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "conj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "poss",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

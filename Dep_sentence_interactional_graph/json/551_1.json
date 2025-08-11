@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "sure",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "either",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "Dec.",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "Jan.",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "attr",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "neg",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "preconj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 5
+    }
+  ]
+}

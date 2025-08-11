@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 0
+    },
+    {
+      "label": "assist",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "mark",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

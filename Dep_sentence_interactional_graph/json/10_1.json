@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "OOPS",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "sorry",
+      "pos": "INTJ",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "typo",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "tel",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "correct",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "appos",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

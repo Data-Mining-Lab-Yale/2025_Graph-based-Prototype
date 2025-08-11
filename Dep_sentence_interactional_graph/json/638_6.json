@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Merry",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Christmas",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "Year",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "Happy",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "Healthy",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "New",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 6
+    }
+  ]
+}

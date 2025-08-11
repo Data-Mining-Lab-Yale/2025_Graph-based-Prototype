@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "afternoon",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "placed",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "Yes",
+      "pos": "INTJ",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "referral",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "reaching",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "genetics",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "They",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 13,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "change",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "her",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "dosing",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "continue",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "once",
+      "pos": "ADV",
+      "id": 10
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "npadvmod",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

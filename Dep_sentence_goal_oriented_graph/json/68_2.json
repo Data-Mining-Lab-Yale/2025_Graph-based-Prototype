@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "ask",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "our",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "Secretary",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "Clinical",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "date",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 17
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "cc",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "conj",
+      "source": 16,
+      "target": 18
+    }
+  ]
+}

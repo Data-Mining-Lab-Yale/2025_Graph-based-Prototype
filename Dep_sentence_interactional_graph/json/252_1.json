@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Any",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "questions",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "give",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "speak",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "her",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "XXX",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 12
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dative",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "relcl",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 12
+    }
+  ]
+}

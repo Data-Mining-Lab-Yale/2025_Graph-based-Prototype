@@ -1,0 +1,274 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "3",
+      "pos": "NUM",
+      "id": 0
+    },
+    {
+      "label": "pics",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "attached",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Cold",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "left",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "purple",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "rash",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "foot",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "Back",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 9
+    },
+    {
+      "label": "raised",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 12
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 14
+    },
+    {
+      "label": "Facial",
+      "pos": "ADJ",
+      "id": 15
+    },
+    {
+      "label": "rash",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "raised",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 17
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 19
+    },
+    {
+      "label": "Visiting",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "nurse",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 22
+    },
+    {
+      "label": "calling",
+      "pos": "VERB",
+      "id": 23
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 24
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 25
+    },
+    {
+      "label": "Person2",
+      "pos": "NOUN",
+      "id": 26
+    }
+  ],
+  "links": [
+    {
+      "dep": "nummod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "dep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "ccomp",
+      "source": 13,
+      "target": 18
+    },
+    {
+      "dep": "amod",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "dep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "xcomp",
+      "source": 18,
+      "target": 23
+    },
+    {
+      "dep": "amod",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "compound",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "dep": "nsubj",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "dobj",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "oprd",
+      "source": 23,
+      "target": 26
+    },
+    {
+      "dep": "dep",
+      "source": 24,
+      "target": 25
+    }
+  ]
+}

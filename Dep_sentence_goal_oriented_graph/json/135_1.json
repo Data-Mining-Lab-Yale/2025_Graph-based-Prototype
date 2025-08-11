@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "preparing",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "m",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "&",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "following",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "paperwork",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 17
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "prt",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "dep": "poss",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "amod",
+      "source": 18,
+      "target": 17
+    }
+  ]
+}

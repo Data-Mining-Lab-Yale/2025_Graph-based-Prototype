@@ -1,0 +1,274 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "requesting",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "follow",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "either",
+      "pos": "CCONJ",
+      "id": 14
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 16
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 18
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 20
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 25
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 22
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 24
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 26
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 26
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prt",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "amod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 19
+    },
+    {
+      "dep": "preconj",
+      "source": 19,
+      "target": 14
+    },
+    {
+      "dep": "nmod",
+      "source": 19,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "punct",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "cc",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "conj",
+      "source": 19,
+      "target": 25
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "nmod",
+      "source": 25,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 25,
+      "target": 22
+    },
+    {
+      "dep": "nmod",
+      "source": 25,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 25,
+      "target": 24
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Took",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "PSA",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "draw",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

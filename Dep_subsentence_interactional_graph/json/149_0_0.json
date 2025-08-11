@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Yes",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "capacity",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "diminished",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    }
+  ]
+}

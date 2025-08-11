@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "closed",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Org1",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "old",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "Org1",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

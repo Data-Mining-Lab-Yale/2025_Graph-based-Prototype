@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "assuming",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "haven",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "heard",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "anything",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 10
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "counts",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "high",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "enough",
+      "pos": "ADV",
+      "id": 17
+    },
+    {
+      "label": "yet",
+      "pos": "ADV",
+      "id": 18
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "neg",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "acomp",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 14,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 19
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 17
+    }
+  ]
+}

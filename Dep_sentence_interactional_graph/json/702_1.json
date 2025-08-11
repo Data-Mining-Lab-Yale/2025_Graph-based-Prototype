@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "question",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "particular",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "may",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "able",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "help",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "relcl",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "acomp",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 12
+    }
+  ]
+}

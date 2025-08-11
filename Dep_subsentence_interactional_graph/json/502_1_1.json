@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "ones",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "lets",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "leg",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "left",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "upper",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "...",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "thinks",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "dep": "dobj",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "dep",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 11
+    }
+  ]
+}

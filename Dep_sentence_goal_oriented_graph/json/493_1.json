@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "anything",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "else",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "rid",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "relcl",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "acomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    }
+  ]
+}

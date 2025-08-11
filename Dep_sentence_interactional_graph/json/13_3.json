@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "'ll",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "as",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "soon",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "completed",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "mark",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "auxpass",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

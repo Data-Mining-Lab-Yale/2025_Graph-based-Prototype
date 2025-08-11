@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "down",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "combo",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "\"",
+      "pos": "PUNCT",
+      "id": 5
+    },
+    {
+      "label": "\"",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": ":)",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "530",
+      "pos": "NUM",
+      "id": 16
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "appos",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 16
+    }
+  ]
+}

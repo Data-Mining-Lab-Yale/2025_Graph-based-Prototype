@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Have",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "consulted",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Person5",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "interested",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "knowing",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": "options",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "Person4",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "may",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "including",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 21
+    },
+    {
+      "label": "trials",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": "clinical",
+      "pos": "ADJ",
+      "id": 22
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "acomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 24
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pcomp",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "ccomp",
+      "source": 11,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 20
+    },
+    {
+      "dep": "amod",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "appos",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 20,
+      "target": 23
+    },
+    {
+      "dep": "det",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "amod",
+      "source": 23,
+      "target": 22
+    }
+  ]
+}

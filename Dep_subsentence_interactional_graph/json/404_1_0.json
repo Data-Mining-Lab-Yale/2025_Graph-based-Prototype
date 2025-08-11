@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "A",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "Panel",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "CBC",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "indicated",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "ordered",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "DR",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "WBC",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "acl",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "agent",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

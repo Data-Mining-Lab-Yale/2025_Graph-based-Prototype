@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "told",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "verbally",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "sure",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "plan",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 14
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "neg",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "advcl",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "mark",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "attr",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "dep": "amod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

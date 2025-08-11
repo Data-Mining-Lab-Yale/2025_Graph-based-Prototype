@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "As",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "infusion",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "someone",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "scheduling",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "team",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "attr",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

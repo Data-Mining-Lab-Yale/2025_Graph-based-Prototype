@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "radiology",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "request",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "leadership",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "assist",
+      "pos": "VERB",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "auxpass",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dative",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

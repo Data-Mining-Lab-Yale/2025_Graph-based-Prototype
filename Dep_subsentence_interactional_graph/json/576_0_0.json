@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 1
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 3
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nmod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}

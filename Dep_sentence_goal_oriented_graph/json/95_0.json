@@ -1,0 +1,264 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "indicated",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "prefer",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "done",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "coincide",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "yearly",
+      "pos": "ADJ",
+      "id": 15
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "schedule",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 18
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 19
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "depends",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "pandemic",
+      "pos": "ADJ",
+      "id": 23
+    },
+    {
+      "label": "obviously",
+      "pos": "ADV",
+      "id": 24
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 25
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 18
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "advcl",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "mark",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "dep": "amod",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "advmod",
+      "source": 21,
+      "target": 24
+    },
+    {
+      "dep": "punct",
+      "source": 21,
+      "target": 25
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 23
+    }
+  ]
+}

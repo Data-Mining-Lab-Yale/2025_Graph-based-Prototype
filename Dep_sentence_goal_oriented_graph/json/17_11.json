@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Other",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "symptoms",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": ":",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "quite",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "tired",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 5
+    },
+    {
+      "label": "napping",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "recently",
+      "pos": "ADV",
+      "id": 13
+    },
+    {
+      "label": "interrupted",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "anxiety",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "attacks",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 18
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "acl",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "agent",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

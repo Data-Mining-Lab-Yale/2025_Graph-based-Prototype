@@ -1,0 +1,284 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "give",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "XXX",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 13
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "action",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 23
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "Person5",
+      "pos": "PROPN",
+      "id": 20
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 21
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 22
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 25
+    },
+    {
+      "label": "topic",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 27
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dative",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 27
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "ccomp",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "ccomp",
+      "source": 16,
+      "target": 23
+    },
+    {
+      "dep": "det",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 23,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "dep": "aux",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "prt",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "dobj",
+      "source": 23,
+      "target": 26
+    },
+    {
+      "dep": "compound",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 26,
+      "target": 25
+    }
+  ]
+}

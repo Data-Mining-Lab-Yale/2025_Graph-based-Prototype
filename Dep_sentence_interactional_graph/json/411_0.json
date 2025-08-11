@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "stating",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "insurance",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "denied",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "payment",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "drug",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "strengthened",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acl",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 11
+    },
+    {
+      "dep": "amod",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "npadvmod",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

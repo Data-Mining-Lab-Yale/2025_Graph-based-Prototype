@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "prescription",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "oxycodone",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 12
+    },
+    {
+      "label": "sign",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "dative",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "then",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "our",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "mychart",
+      "pos": "NOUN",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 6
+    }
+  ]
+}

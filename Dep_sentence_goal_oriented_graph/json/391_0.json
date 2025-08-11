@@ -1,0 +1,394 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "When",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "said",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "in",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 13
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 14
+    },
+    {
+      "label": "nurse",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 18
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 20
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 22
+    },
+    {
+      "label": "check",
+      "pos": "VERB",
+      "id": 23
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 24
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 25
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 26
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 29
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 27
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 28
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 30
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 31
+    },
+    {
+      "label": "thinner",
+      "pos": "ADJ",
+      "id": 32
+    },
+    {
+      "label": "medication",
+      "pos": "NOUN",
+      "id": 33
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 34
+    },
+    {
+      "label": "Org3",
+      "pos": "PROPN",
+      "id": 35
+    },
+    {
+      "label": "pharmacy",
+      "pos": "NOUN",
+      "id": 36
+    },
+    {
+      "label": "cheaper",
+      "pos": "ADJ",
+      "id": 37
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 38
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "advcl",
+      "source": 17,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "ccomp",
+      "source": 17,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 38
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "mark",
+      "source": 21,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "xcomp",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "aux",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "xcomp",
+      "source": 23,
+      "target": 25
+    },
+    {
+      "dep": "aux",
+      "source": 25,
+      "target": 24
+    },
+    {
+      "dep": "ccomp",
+      "source": 25,
+      "target": 29
+    },
+    {
+      "dep": "mark",
+      "source": 29,
+      "target": 26
+    },
+    {
+      "dep": "nsubj",
+      "source": 29,
+      "target": 27
+    },
+    {
+      "dep": "aux",
+      "source": 29,
+      "target": 28
+    },
+    {
+      "dep": "dative",
+      "source": 29,
+      "target": 31
+    },
+    {
+      "dep": "dobj",
+      "source": 29,
+      "target": 33
+    },
+    {
+      "dep": "advmod",
+      "source": 29,
+      "target": 37
+    },
+    {
+      "dep": "poss",
+      "source": 31,
+      "target": 30
+    },
+    {
+      "dep": "amod",
+      "source": 33,
+      "target": 32
+    },
+    {
+      "dep": "prep",
+      "source": 33,
+      "target": 34
+    },
+    {
+      "dep": "pobj",
+      "source": 34,
+      "target": 36
+    },
+    {
+      "dep": "compound",
+      "source": 36,
+      "target": 35
+    }
+  ]
+}

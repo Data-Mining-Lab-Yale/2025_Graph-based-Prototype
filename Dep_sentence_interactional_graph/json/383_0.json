@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "reach",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "touch",
+      "pos": "NOUN",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prt",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "dep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    }
+  ]
+}

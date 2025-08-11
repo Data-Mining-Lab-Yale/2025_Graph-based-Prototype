@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "pages",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "complete",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "appropriately",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 8
+    }
+  ]
+}

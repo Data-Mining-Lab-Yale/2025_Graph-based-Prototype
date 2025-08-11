@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "believe",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "9",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": "am",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "drawn",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "labs",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "seeing",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "attr",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "mark",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pcomp",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "dobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

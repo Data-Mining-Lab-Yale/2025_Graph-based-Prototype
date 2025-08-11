@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hello",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "referral",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "eval",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "PT",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "therapist",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "lymphedema",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 18
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "dep": "det",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

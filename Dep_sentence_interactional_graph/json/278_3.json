@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "us",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 4
+    },
+    {
+      "label": "COVID",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "positive",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "acomp",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

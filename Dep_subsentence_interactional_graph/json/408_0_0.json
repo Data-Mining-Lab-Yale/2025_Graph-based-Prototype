@@ -1,0 +1,244 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Sorry",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "stated",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 1
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "date",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "incorrect",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 14
+    },
+    {
+      "label": "start",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "TRT",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 19
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 23
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 20
+    },
+    {
+      "label": "fact",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 23
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "poss",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "advmod",
+      "source": 23,
+      "target": 19
+    },
+    {
+      "dep": "prep",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "dep": "pobj",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "dep": "prep",
+      "source": 20,
+      "target": 22
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "Afternoon",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "Team",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "Dear",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Oncology",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 6
+    }
+  ]
+}

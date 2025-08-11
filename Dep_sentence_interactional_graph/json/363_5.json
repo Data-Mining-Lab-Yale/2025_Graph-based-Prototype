@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "anyway",
+      "pos": "INTJ",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "allowed",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "shots",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "Covid",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 0,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 15
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "auxpass",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "poss",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

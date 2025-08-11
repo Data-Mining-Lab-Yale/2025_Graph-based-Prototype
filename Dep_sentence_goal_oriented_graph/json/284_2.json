@@ -1,0 +1,244 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "period",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "spot",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "bleeding",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "regular",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 14
+    },
+    {
+      "label": "used",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 17
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 18
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 21
+    },
+    {
+      "label": "cramping",
+      "pos": "NOUN",
+      "id": 22
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 23
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 23
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "neg",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "ccomp",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "xcomp",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "prep",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "pobj",
+      "source": 21,
+      "target": 22
+    }
+  ]
+}

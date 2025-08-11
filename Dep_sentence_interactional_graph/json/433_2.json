@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "dates",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "earlier",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "avoid",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "times",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "guests",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "case",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "fatigue",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "severe",
+      "pos": "ADJ",
+      "id": 15
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 14,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "acomp",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "relcl",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

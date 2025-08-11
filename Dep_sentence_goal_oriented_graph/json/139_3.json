@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Let",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "some",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "dates",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "available",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "date",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "relcl",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "acomp",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "mark",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

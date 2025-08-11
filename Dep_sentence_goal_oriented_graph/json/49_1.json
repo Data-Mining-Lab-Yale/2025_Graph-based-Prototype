@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "chest",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "CT",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "resulted",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "yes",
+      "pos": "INTJ",
+      "id": 7
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "Chart",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "once",
+      "pos": "SCONJ",
+      "id": 14
+    },
+    {
+      "label": "released",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "physician",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 17
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 20
+    },
+    {
+      "label": "view",
+      "pos": "VERB",
+      "id": 23
+    },
+    {
+      "label": "ou",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 22
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "auxpass",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 24
+    },
+    {
+      "dep": "mark",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "intj",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "advcl",
+      "source": 10,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "mark",
+      "source": 18,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "aux",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "advcl",
+      "source": 18,
+      "target": 23
+    },
+    {
+      "dep": "det",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "mark",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "dep": "nsubj",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 23,
+      "target": 22
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "finishing",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "off",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 13
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 15
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 17
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "labs",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 22
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 21
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 23
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "prt",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 22
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 18
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 18,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 18,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "dep": "auxpass",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 22,
+      "target": 24
+    }
+  ]
+}

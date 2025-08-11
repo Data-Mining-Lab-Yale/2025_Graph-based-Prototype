@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "follow",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "MRI",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 7
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "coming",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prt",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "dep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "appos",
+      "source": 6,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 8
+    },
+    {
+      "dep": "amod",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "However",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "relate",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "directly",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "swelling",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "drug",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 11
+    },
+    {
+      "label": "wasn",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "as",
+      "pos": "ADV",
+      "id": 14
+    },
+    {
+      "label": "severe",
+      "pos": "ADJ",
+      "id": 15
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 17
+    },
+    {
+      "label": "switch",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "over",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 20
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "amod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "mark",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "acomp",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "det",
+      "source": 18,
+      "target": 17
+    }
+  ]
+}

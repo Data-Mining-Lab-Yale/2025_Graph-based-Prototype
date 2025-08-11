@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Have",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "checked",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "cardiologist",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "re",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "ankle",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "swelling",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pcomp",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

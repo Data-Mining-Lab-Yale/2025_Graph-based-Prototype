@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "See",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "TLB",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

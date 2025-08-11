@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Morning",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Hope",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 9
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

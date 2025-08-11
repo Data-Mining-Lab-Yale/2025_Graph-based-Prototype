@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "something",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "concerned",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "pass",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "dep": "relcl",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "auxpass",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

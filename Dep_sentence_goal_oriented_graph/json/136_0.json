@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Paperwork",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "completed",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "awaiting",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "signature",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "auxpass",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "case",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 10
+    }
+  ]
+}

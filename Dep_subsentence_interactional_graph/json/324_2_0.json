@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "2",
+      "pos": "X",
+      "id": 0
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "form",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 6
+    },
+    {
+      "label": "filled",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "ins",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "meta",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "acl",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "prt",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

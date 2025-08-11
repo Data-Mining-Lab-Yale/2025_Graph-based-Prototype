@@ -1,0 +1,309 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "And",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "request",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "seen",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 13
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 17
+    },
+    {
+      "label": "developed",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 19
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 21
+    },
+    {
+      "label": "confidence",
+      "pos": "NOUN",
+      "id": 22
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 23
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 24
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 25
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 26
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 27
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 28
+    },
+    {
+      "label": "Oncologist",
+      "pos": "NOUN",
+      "id": 29
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 30
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "xcomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 30
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "auxpass",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "agent",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "advcl",
+      "source": 12,
+      "target": 20
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "mark",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "dep": "nsubj",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "dobj",
+      "source": 20,
+      "target": 22
+    },
+    {
+      "dep": "prep",
+      "source": 20,
+      "target": 25
+    },
+    {
+      "dep": "det",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "dep": "prep",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "dep": "pobj",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "pcomp",
+      "source": 25,
+      "target": 27
+    },
+    {
+      "dep": "nsubj",
+      "source": 27,
+      "target": 26
+    },
+    {
+      "dep": "attr",
+      "source": 27,
+      "target": 29
+    },
+    {
+      "dep": "poss",
+      "source": 29,
+      "target": 28
+    }
+  ]
+}

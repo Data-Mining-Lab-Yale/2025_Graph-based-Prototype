@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "unaware",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "risk",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "possible",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "neck",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 13
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "hoping",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "heal",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 18
+    },
+    {
+      "label": "itself",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "naturally",
+      "pos": "ADV",
+      "id": 21
+    },
+    {
+      "label": "over",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 24
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "mark",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "ccomp",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "dep": "nsubj",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "dobj",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "advmod",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "prep",
+      "source": 19,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 23
+    }
+  ]
+}

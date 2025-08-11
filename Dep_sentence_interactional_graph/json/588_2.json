@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Based",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "book",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "CBC",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "prior",
+      "pos": "ADV",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "start",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "dative",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "dep": "advcl",
+      "source": 9,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

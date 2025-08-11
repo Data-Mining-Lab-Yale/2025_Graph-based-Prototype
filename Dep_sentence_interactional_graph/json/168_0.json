@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "note",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 3
+    },
+    {
+      "label": "requests",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "Eliquis",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "refill",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "need",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "trip",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 13
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "continuing",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "basis",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 17
+    },
+    {
+      "dep": "nummod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "amod",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

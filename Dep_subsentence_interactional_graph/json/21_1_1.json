@@ -1,0 +1,169 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 1
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "supposed",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "'m",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "start",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "round",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 11
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "Ibrance",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 15
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "nmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nmod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "xcomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 16
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    }
+  ]
+}

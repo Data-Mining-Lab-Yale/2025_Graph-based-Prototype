@@ -1,0 +1,334 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Everything",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "looks",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "except",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "PSA",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "which",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "gone",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "2.93",
+      "pos": "NUM",
+      "id": 11
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 16
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "4.5",
+      "pos": "NUM",
+      "id": 19
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 21
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 26
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 22
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 23
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 24
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 25
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 27
+    },
+    {
+      "label": "according",
+      "pos": "VERB",
+      "id": 28
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 29
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 30
+    },
+    {
+      "label": "VA",
+      "pos": "PROPN",
+      "id": 31
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 32
+    }
+  ],
+  "links": [
+    {
+      "dep": "relcl",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 27
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 28
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 32
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "npadvmod",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "appos",
+      "source": 20,
+      "target": 26
+    },
+    {
+      "dep": "punct",
+      "source": 26,
+      "target": 21
+    },
+    {
+      "dep": "nmod",
+      "source": 26,
+      "target": 22
+    },
+    {
+      "dep": "punct",
+      "source": 26,
+      "target": 23
+    },
+    {
+      "dep": "nmod",
+      "source": 26,
+      "target": 24
+    },
+    {
+      "dep": "punct",
+      "source": 26,
+      "target": 25
+    },
+    {
+      "dep": "prep",
+      "source": 28,
+      "target": 29
+    },
+    {
+      "dep": "pobj",
+      "source": 29,
+      "target": 31
+    },
+    {
+      "dep": "det",
+      "source": 31,
+      "target": 30
+    }
+  ]
+}

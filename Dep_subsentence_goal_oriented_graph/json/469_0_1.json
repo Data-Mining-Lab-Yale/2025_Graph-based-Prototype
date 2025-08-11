@@ -1,0 +1,34 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "no",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "no",
+      "pos": "INTJ",
+      "id": 2
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 0
+    }
+  ]
+}

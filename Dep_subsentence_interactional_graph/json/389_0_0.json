@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "having",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "ERCP",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "3rd",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "under",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "circumstances",
+      "pos": "NOUN",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "dep": "neg",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Your",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "injection",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 5
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "one",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 11
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "around",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 18
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 20
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 22
+    },
+    {
+      "label": "24",
+      "pos": "NUM",
+      "id": 23
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 24
+    },
+    {
+      "label": "later",
+      "pos": "ADV",
+      "id": 25
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 26
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "attr",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 15,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 25
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 26
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 21
+    },
+    {
+      "dep": "nmod",
+      "source": 21,
+      "target": 17
+    },
+    {
+      "dep": "punct",
+      "source": 21,
+      "target": 18
+    },
+    {
+      "dep": "nmod",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "punct",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "dep",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "nummod",
+      "source": 24,
+      "target": 23
+    },
+    {
+      "dep": "npadvmod",
+      "source": 25,
+      "target": 24
+    }
+  ]
+}

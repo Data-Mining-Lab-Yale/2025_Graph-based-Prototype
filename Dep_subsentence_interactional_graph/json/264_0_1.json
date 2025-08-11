@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "tried",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "upload",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "figure",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "neg",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}
