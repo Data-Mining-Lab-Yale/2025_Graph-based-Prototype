@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "emailed",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 7
+    }
+  ]
+}

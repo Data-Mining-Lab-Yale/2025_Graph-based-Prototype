@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "lower",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "back",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 7
+    },
+    {
+      "label": "months",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "did",
+      "pos": "VERB",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "nummod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

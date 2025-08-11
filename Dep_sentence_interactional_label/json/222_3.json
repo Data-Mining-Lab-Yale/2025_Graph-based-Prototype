@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Unclear",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "right",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "exactly",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "path",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 13
+    },
+    {
+      "label": "state",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "cancer",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "directly",
+      "pos": "ADV",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 17
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "attr",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "neg",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "unfortunately",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "formal",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "visits",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 9
+    },
+    {
+      "label": "patient",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "admitted",
+      "pos": "VERB",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 12,
+      "target": 7
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "auxpass",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

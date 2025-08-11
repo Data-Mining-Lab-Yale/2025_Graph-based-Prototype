@@ -1,0 +1,199 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "appears",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "antibiotic",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "some",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "sort",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 11
+    },
+    {
+      "label": "aware",
+      "pos": "ADJ",
+      "id": 12
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "what",
+      "pos": "DET",
+      "id": 14
+    },
+    {
+      "label": "condition",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 17
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "attr",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "neg",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 19
+    },
+    {
+      "dep": "pcomp",
+      "source": 13,
+      "target": 17
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 15
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

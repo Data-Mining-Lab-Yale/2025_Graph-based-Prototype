@@ -1,0 +1,224 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "our",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "scheduling",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "team",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "look",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 9
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "availability",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "give",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 18
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 19
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 21
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "cc",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "dep": "conj",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "dative",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 16,
+      "target": 20
+    },
+    {
+      "dep": "dep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 20,
+      "target": 18
+    }
+  ]
+}

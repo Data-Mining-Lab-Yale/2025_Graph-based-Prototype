@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "understand",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "our",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "pharmacy",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "said",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "prednisone",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "prescription",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "renewed",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "auxpass",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "neg",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "2",
+      "pos": "X",
+      "id": 0
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "You",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "either",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "upload",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "form",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "mychart",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "send",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "us",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 17
+    },
+    {
+      "label": "attachment",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 19
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 20
+    },
+    {
+      "label": "fax",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 22
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 23
+    },
+    {
+      "label": "us",
+      "pos": "PRON",
+      "id": 24
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 25
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 26
+    },
+    {
+      "label": "XXX",
+      "pos": "PROPN",
+      "id": 27
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 28
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 29
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 30
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 31
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 32
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "meta",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "preconj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 32
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "dative",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "cc",
+      "source": 12,
+      "target": 19
+    },
+    {
+      "dep": "conj",
+      "source": 12,
+      "target": 21
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "det",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "dobj",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "dative",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 25
+    },
+    {
+      "dep": "pobj",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "dep",
+      "source": 25,
+      "target": 26
+    },
+    {
+      "dep": "pobj",
+      "source": 25,
+      "target": 31
+    },
+    {
+      "dep": "punct",
+      "source": 27,
+      "target": 28
+    },
+    {
+      "dep": "compound",
+      "source": 31,
+      "target": 27
+    },
+    {
+      "dep": "compound",
+      "source": 31,
+      "target": 29
+    },
+    {
+      "dep": "punct",
+      "source": 31,
+      "target": 30
+    }
+  ]
+}

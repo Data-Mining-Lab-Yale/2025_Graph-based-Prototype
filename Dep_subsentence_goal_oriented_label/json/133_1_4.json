@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "IR",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

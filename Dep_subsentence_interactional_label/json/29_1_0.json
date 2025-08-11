@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Have",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "great",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "too",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

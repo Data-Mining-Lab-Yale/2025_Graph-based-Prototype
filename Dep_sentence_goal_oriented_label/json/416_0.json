@@ -1,0 +1,354 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "Calcium",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "500",
+      "pos": "NUM",
+      "id": 4
+    },
+    {
+      "label": "mg",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "with400IU",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "Vitamin",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "D",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 13
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "1000",
+      "pos": "NUM",
+      "id": 17
+    },
+    {
+      "label": "mg",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "Calcium",
+      "pos": "PROPN",
+      "id": 20
+    },
+    {
+      "label": "then",
+      "pos": "ADV",
+      "id": 21
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 22
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 23
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 24
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 25
+    },
+    {
+      "label": "800",
+      "pos": "NUM",
+      "id": 26
+    },
+    {
+      "label": "IU",
+      "pos": "NOUN",
+      "id": 27
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 28
+    },
+    {
+      "label": "Vitamin",
+      "pos": "PROPN",
+      "id": 29
+    },
+    {
+      "label": "D.",
+      "pos": "PROPN",
+      "id": 30
+    },
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 31
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 32
+    },
+    {
+      "label": "okay",
+      "pos": "ADJ",
+      "id": 33
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 34
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "nummod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "parataxis",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "dobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "nummod",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "ccomp",
+      "source": 25,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 25,
+      "target": 21
+    },
+    {
+      "dep": "nsubj",
+      "source": 25,
+      "target": 22
+    },
+    {
+      "dep": "aux",
+      "source": 25,
+      "target": 23
+    },
+    {
+      "dep": "aux",
+      "source": 25,
+      "target": 24
+    },
+    {
+      "dep": "dobj",
+      "source": 25,
+      "target": 27
+    },
+    {
+      "dep": "nummod",
+      "source": 27,
+      "target": 26
+    },
+    {
+      "dep": "prep",
+      "source": 27,
+      "target": 28
+    },
+    {
+      "dep": "pobj",
+      "source": 28,
+      "target": 30
+    },
+    {
+      "dep": "compound",
+      "source": 30,
+      "target": 29
+    },
+    {
+      "dep": "csubj",
+      "source": 31,
+      "target": 25
+    },
+    {
+      "dep": "nsubj",
+      "source": 31,
+      "target": 32
+    },
+    {
+      "dep": "acomp",
+      "source": 31,
+      "target": 33
+    },
+    {
+      "dep": "punct",
+      "source": 31,
+      "target": 34
+    }
+  ]
+}

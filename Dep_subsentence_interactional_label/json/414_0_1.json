@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "start",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "calcium",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "1000",
+      "pos": "NUM",
+      "id": 4
+    },
+    {
+      "label": "mg",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "daily",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "as",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "well",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "400",
+      "pos": "NUM",
+      "id": 10
+    },
+    {
+      "label": "IU",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "vitamin",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "D",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "daily",
+      "pos": "ADV",
+      "id": 15
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 16
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "nummod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nummod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 14,
+      "target": 15
+    }
+  ]
+}

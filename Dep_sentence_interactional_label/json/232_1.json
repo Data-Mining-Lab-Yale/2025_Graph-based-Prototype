@@ -1,0 +1,224 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "therefore",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "find",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "another",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "seeing",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "MZL",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "doctor",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "LOCATION",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 17
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 19
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 20
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 20
+    },
+    {
+      "dep": "nmod",
+      "source": 20,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 20,
+      "target": 19
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Will",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "update",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 3
+    }
+  ]
+}

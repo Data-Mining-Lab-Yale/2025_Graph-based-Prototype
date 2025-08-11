@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Have",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 1
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "fever",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "evening",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "neg",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

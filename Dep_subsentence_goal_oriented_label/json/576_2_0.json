@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "Org1",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "dental",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "clinic",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "sizable",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "backup",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "due",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "pandemic",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pcomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

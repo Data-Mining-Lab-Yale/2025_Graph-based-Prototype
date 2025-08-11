@@ -1,0 +1,179 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "If",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "needed",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "system",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 12
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "that",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "tube",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "xcomp",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prt",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "xcomp",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

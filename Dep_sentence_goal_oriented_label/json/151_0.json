@@ -1,0 +1,224 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "prescription",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "Ativan",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 12
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "try",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 17
+    },
+    {
+      "label": "help",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "sleep",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "ccomp",
+      "source": 15,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "dobj",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "xcomp",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "ccomp",
+      "source": 18,
+      "target": 20
+    },
+    {
+      "dep": "nsubj",
+      "source": 20,
+      "target": 19
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "order",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "PET",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "scan",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "attached",
+      "pos": "VERB",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "parataxis",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

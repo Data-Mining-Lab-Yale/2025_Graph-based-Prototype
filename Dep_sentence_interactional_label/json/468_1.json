@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "putting",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "anything",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "topical",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    }
+  ]
+}

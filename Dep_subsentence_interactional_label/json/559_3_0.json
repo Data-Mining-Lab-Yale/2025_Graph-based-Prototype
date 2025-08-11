@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "reschedule",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

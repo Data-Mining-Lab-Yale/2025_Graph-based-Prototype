@@ -1,0 +1,159 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "lay",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "right",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "side",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "lol",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "thinking",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "maybe",
+      "pos": "ADV",
+      "id": 10
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "few",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

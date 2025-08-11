@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Just",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "signed",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "off",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prt",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 4
+    }
+  ]
+}

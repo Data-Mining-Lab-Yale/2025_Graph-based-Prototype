@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "might",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": "change",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "dose",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "injection",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "xcomp",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

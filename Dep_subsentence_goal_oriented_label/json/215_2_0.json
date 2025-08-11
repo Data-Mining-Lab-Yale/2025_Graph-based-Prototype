@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "trying",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "plan",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "LOCATION",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "month",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 12
+    },
+    {
+      "label": "as",
+      "pos": "ADV",
+      "id": 13
+    },
+    {
+      "label": "soon",
+      "pos": "ADV",
+      "id": 14
+    },
+    {
+      "label": "after",
+      "pos": "SCONJ",
+      "id": 15
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 18
+    },
+    {
+      "label": "ended",
+      "pos": "VERB",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nummod",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "cc",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "mark",
+      "source": 19,
+      "target": 15
+    },
+    {
+      "dep": "nsubj",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

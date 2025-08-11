@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "hope",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "feeling",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

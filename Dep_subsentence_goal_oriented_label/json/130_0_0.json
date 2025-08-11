@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Sorry",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "does",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "remove",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "ports",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 6
+    }
+  ]
+}

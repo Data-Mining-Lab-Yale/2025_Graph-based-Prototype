@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "understanding",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "neg",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

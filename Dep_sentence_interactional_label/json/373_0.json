@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "steroid",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "ordered",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "pharmacy",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 12
+    }
+  ]
+}

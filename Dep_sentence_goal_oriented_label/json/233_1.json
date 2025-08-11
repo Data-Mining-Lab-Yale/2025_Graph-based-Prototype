@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Unfortunately",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "does",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "use",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "same",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "system",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 12
+    },
+    {
+      "label": "images",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "shared",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "neg",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "relcl",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 17,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 17,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 17,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "dep": "neg",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "auxpass",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 18
+    }
+  ]
+}

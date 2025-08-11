@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

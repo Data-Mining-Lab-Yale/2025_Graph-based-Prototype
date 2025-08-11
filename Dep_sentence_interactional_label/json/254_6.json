@@ -1,0 +1,284 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Finally",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "were",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "wondering",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "additional",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "benefits",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "these",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 11
+    },
+    {
+      "label": "medications",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 13
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 14
+    },
+    {
+      "label": "compared",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "Tamoxifen",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "alone",
+      "pos": "ADV",
+      "id": 18
+    },
+    {
+      "label": "which",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 21
+    },
+    {
+      "label": "tolerated",
+      "pos": "VERB",
+      "id": 22
+    },
+    {
+      "label": "well",
+      "pos": "ADV",
+      "id": 23
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 25
+    },
+    {
+      "label": "past",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 27
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 27
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "nummod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "mark",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "advmod",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "relcl",
+      "source": 17,
+      "target": 22
+    },
+    {
+      "dep": "dobj",
+      "source": 22,
+      "target": 19
+    },
+    {
+      "dep": "nsubj",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "dep": "aux",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "dep": "advmod",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "dep": "prep",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "dep": "pobj",
+      "source": 24,
+      "target": 26
+    },
+    {
+      "dep": "det",
+      "source": 26,
+      "target": 25
+    }
+  ]
+}

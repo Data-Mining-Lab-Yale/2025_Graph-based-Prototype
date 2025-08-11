@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "clean",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "peroxide",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "happens",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

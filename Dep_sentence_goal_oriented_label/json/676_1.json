@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Once",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "request",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 7
+    }
+  ]
+}

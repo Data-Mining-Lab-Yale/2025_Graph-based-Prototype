@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "possible",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "add",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "Advanced",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "Radiology",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "CAT",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 16
+    },
+    {
+      "label": "mychart",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "xcomp",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

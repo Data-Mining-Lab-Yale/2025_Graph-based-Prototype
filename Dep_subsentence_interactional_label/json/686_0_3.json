@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "bad",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "diarrhea",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "got",
+      "pos": "VERB",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

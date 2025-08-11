@@ -1,0 +1,224 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Yep",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "got",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "w",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "B",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 17
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 19
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 20
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 21
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 20
+    },
+    {
+      "dep": "nmod",
+      "source": 20,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 20,
+      "target": 19
+    }
+  ]
+}

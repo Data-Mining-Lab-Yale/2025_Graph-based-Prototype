@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "send",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "mane",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "place",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "goes",
+      "pos": "VERB",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dative",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "relcl",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

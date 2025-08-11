@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "PCP",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "did",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "saw",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "PSA",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "elevated",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "ccomp",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "auxpass",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

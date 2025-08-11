@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "reschedule",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "cat",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "scans",
+      "pos": "NOUN",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "possible",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 4
+    }
+  ]
+}

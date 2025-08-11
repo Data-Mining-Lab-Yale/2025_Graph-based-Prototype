@@ -1,0 +1,294 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "'m",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "sorry",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "no",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "availability",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "move",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 14
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 18
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 20
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 22
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 24
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 25
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 26
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 27
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 28
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "expl",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 28
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "acl",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prt",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "nmod",
+      "source": 21,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "punct",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "cc",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "conj",
+      "source": 21,
+      "target": 27
+    },
+    {
+      "dep": "nmod",
+      "source": 27,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 27,
+      "target": 24
+    },
+    {
+      "dep": "nmod",
+      "source": 27,
+      "target": 25
+    },
+    {
+      "dep": "punct",
+      "source": 27,
+      "target": 26
+    }
+  ]
+}

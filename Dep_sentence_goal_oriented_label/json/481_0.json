@@ -1,0 +1,234 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "'ve",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "already",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "reduced",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "lenvatinib",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "5",
+      "pos": "NUM",
+      "id": 8
+    },
+    {
+      "label": "days",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "per",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "dr",
+      "pos": "X",
+      "id": 11
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 13
+    },
+    {
+      "label": "instructions",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "same",
+      "pos": "ADJ",
+      "id": 18
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "everolimus",
+      "pos": "ADJ",
+      "id": 20
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 21
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "nummod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "case",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "dobj",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 22
+    },
+    {
+      "dep": "dep",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "dep": "compound",
+      "source": 22,
+      "target": 20
+    }
+  ]
+}

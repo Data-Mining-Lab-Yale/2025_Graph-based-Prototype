@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "more",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "than",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "one",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": "due",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "probably",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "ending",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "missing",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 12
+    },
+    {
+      "label": "doses",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "because",
+      "pos": "SCONJ",
+      "id": 14
+    },
+    {
+      "label": "Org",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "takes",
+      "pos": "VERB",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "quantmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pcomp",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pcomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prt",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "xcomp",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "advcl",
+      "source": 9,
+      "target": 16
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "nummod",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "mark",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

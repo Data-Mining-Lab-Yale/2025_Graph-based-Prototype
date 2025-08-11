@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "hope",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "went",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "well",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "recommend",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "getting",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    }
+  ]
+}

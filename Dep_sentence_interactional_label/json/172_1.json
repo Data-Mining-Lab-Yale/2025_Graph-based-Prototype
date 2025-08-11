@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Recognizing",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "inevitable",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "delay",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 5
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "referral",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 11
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "How",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "that",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "paperwork",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "over",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "prt",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 10
+    }
+  ]
+}

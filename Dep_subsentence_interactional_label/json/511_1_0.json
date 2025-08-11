@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Org1",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "having",
+      "pos": "VERB",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 1
+    }
+  ]
+}

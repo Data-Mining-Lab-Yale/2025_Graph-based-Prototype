@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "referral",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "mark",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

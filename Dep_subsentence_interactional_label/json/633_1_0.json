@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "copy",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "mail",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    }
+  ]
+}

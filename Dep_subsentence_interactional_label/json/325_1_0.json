@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "2",
+      "pos": "X",
+      "id": 0
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "You",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "either",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "upload",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "form",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "mychart",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "send",
+      "pos": "VERB",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "meta",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "preconj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 11
+    }
+  ]
+}

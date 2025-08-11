@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "leave",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "hard",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "copy",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

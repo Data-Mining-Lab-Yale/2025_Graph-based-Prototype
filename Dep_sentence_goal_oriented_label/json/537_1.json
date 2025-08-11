@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "However",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "draw",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "9:30",
+      "pos": "NUM",
+      "id": 8
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 9
+    },
+    {
+      "label": "In",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "Org2",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "auxpass",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    }
+  ]
+}

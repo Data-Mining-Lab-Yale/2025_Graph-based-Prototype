@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "await",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "message",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

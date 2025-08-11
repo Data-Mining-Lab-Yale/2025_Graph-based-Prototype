@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Let",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "help",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "anything",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "else",
+      "pos": "ADV",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 10
+    }
+  ]
+}

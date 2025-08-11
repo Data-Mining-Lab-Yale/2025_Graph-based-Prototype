@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "consensus",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "asthma",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "attacks",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Picture",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "rash",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "attached",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    }
+  ]
+}

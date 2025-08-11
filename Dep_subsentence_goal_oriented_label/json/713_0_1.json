@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "SO",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "sorry",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "--",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "ran",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "afternoon",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

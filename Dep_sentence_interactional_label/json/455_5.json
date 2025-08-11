@@ -1,0 +1,244 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "request",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Person5",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "ask",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "conversation",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "Medical",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "Director",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "Org9",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "explain",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 17
+    },
+    {
+      "label": "need",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 20
+    },
+    {
+      "label": "rehab",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "stay",
+      "pos": "VERB",
+      "id": 22
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 23
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 23
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "mark",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "acl",
+      "source": 8,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "dobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "det",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 22
+    },
+    {
+      "dep": "det",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "dep": "compound",
+      "source": 22,
+      "target": 21
+    }
+  ]
+}

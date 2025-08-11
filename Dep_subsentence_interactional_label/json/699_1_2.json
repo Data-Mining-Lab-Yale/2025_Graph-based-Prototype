@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "return",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "first",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 16
+    },
+    {
+      "label": "discuss",
+      "pos": "VERB",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "nmod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "advcl",
+      "source": 14,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "dobj",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "xcomp",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

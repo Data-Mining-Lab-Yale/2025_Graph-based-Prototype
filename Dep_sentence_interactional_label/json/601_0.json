@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "looks",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "like",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "seen",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "while",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 14
+    },
+    {
+      "label": "so",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 18
+    },
+    {
+      "label": "check",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 20
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 21
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 22
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "neg",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "xcomp",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 24
+    },
+    {
+      "dep": "aux",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "prt",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "prep",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "pobj",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "compound",
+      "source": 23,
+      "target": 22
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "If",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "ok",
+      "pos": "INTJ",
+      "id": 1
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "number",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "XXX",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "Person2Let",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "attr",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "parataxis",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

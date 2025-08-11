@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hello",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "seeing",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}

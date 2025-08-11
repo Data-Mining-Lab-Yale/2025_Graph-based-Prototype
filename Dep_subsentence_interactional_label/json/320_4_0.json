@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Should",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "continue",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "meds",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

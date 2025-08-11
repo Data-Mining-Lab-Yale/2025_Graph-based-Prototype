@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Order",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "labs",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "placed",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "auxpass",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 6
+    }
+  ]
+}

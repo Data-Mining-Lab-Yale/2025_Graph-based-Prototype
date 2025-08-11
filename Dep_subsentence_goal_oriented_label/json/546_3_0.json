@@ -1,0 +1,109 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "involved",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "auxpass",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

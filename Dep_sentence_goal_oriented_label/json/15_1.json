@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Would",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "squeeze",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 10
+    }
+  ]
+}

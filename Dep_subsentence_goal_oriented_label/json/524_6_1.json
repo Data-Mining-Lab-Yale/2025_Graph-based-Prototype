@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "probably",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "rebound",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "stopping",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "prednisone",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "use",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "pcomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

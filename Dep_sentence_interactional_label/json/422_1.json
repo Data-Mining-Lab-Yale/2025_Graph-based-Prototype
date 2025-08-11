@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "indicated",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 7
+    },
+    {
+      "label": "no",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "problem",
+      "pos": "NOUN",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "attr",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

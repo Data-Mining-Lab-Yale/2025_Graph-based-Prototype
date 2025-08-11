@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "don",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "begin",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "until",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 5
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "appos",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

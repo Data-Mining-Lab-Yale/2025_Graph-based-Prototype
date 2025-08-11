@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "'ll",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "help",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prt",
+      "source": 4,
+      "target": 5
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "So",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "16th",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "17th",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "acomp",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 8
+    }
+  ]
+}

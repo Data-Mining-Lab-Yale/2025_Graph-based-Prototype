@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "assuming",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "based",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "lab",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "which",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "waiting",
+      "pos": "VERB",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

@@ -209,3 +209,8 @@ PV_output_json/
 yc2343*
 
 sk.py
+*.png
+*/*.png
+*/*/*.png
+*/*/*/*.png
+*/*/*/*/*.png

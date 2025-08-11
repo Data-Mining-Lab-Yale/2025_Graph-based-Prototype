@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "available",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "those",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "days",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "heard",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "anyone",
+      "pos": "PRON",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    }
+  ]
+}

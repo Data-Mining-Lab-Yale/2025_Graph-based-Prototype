@@ -1,0 +1,13 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    }
+  ],
+  "links": []
+}

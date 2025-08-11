@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "were",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "able",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "xcomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

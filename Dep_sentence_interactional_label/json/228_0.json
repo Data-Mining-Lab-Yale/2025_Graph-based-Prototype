@@ -1,0 +1,309 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hello",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 8
+    },
+    {
+      "label": "years",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "neck",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 14
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 17
+    },
+    {
+      "label": "having",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 20
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 21
+    },
+    {
+      "label": "eyelid",
+      "pos": "NOUN",
+      "id": 22
+    },
+    {
+      "label": "drooping",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 24
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 25
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 26
+    },
+    {
+      "label": "pupil",
+      "pos": "NOUN",
+      "id": 27
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 28
+    },
+    {
+      "label": "dilating",
+      "pos": "VERB",
+      "id": 29
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 30
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "attr",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "nummod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "cc",
+      "source": 18,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 15
+    },
+    {
+      "dep": "aux",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "prep",
+      "source": 18,
+      "target": 20
+    },
+    {
+      "dep": "advcl",
+      "source": 18,
+      "target": 29
+    },
+    {
+      "dep": "punct",
+      "source": 18,
+      "target": 30
+    },
+    {
+      "dep": "pobj",
+      "source": 20,
+      "target": 23
+    },
+    {
+      "dep": "poss",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "amod",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "dep",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "cc",
+      "source": 23,
+      "target": 25
+    },
+    {
+      "dep": "det",
+      "source": 27,
+      "target": 26
+    },
+    {
+      "dep": "nsubj",
+      "source": 29,
+      "target": 27
+    },
+    {
+      "dep": "neg",
+      "source": 29,
+      "target": 28
+    }
+  ]
+}

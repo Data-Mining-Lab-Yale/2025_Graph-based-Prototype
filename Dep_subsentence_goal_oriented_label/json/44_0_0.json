@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Result",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 1
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "yet",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "Also",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 5
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "neg",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "intj",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "fax",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "number",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "fax",
+      "pos": "VERB",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

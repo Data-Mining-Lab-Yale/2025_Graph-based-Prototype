@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "What",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "area",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "body",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "these",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}

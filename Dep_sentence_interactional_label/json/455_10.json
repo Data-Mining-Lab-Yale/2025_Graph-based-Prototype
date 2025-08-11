@@ -1,0 +1,199 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "able",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 13
+    },
+    {
+      "label": "Person5",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "us",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 19
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "acomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "xcomp",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "dep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "advcl",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "dative",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 18
+    }
+  ]
+}

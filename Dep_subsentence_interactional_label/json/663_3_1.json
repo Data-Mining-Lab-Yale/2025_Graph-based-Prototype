@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "radiology",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "specialist",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "relcl",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

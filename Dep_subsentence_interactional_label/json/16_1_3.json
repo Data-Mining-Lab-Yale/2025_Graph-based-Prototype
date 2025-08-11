@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "30",
+      "pos": "NUM",
+      "id": 0
+    },
+    {
+      "label": "tablets",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "many",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nummod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "appos",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

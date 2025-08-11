@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "wanted",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "all",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "3",
+      "pos": "NUM",
+      "id": 6
+    },
+    {
+      "label": "tested",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "only",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "input",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "psa",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "metabolic",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "pannel",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "relcl",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "cc",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 11
+    }
+  ]
+}

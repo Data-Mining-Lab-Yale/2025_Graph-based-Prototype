@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Spoke",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "knew",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

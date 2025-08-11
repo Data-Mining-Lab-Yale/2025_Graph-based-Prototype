@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "nurses",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "pre",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "admission",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "testing",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "place",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "COVID",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "lab",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "orders",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "1",
+      "pos": "NUM",
+      "id": 12
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "advance",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 16
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "procedure",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "appos",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "nummod",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "dep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 18
+    }
+  ]
+}

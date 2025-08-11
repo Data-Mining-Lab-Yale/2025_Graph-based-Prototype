@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "does",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "believe",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "one",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "name",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "RN",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "works",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "intj",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "attr",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 17
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "relcl",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

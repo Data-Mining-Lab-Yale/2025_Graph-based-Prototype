@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "coordinate",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "follow",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "ups",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "Cheers",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 9
+    },
+    {
+      "label": "Person4",
+      "pos": "PROPN",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 8
+    }
+  ]
+}

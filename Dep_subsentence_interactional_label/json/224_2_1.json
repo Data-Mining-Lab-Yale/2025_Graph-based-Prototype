@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "like",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "roller",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "coaster",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "understatement",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "intj",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "attr",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

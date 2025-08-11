@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Happy",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Easter",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "appos",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 11
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

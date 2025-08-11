@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "cancellation",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "c",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

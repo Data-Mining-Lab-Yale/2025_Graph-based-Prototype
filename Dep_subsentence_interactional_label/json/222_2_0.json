@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "They",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "keep",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "clo",
+      "pos": "X",
+      "id": 4
+    },
+    {
+      "label": "se",
+      "pos": "X",
+      "id": 5
+    },
+    {
+      "label": "eye",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "monitor",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "oprd",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

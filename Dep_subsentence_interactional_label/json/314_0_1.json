@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "appointments",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "reminders",
+      "pos": "NOUN",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 3
+    }
+  ]
+}

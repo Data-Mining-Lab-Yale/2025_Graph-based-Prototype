@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "faxed",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "Org1",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "paperwork",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "ccomp",
+      "source": 11,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 13
+    }
+  ]
+}

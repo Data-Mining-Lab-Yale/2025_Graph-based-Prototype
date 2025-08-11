@@ -1,0 +1,334 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "ask",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "our",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "secretary",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "schedule",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 20
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 22
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "XXX",
+      "pos": "PROPN",
+      "id": 25
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 26
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 27
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 28
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 29
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 30
+    },
+    {
+      "label": "reschedule",
+      "pos": "VERB",
+      "id": 31
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 32
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 32
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "mark",
+      "source": 14,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "neg",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "acomp",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "advcl",
+      "source": 21,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "dobj",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 24
+    },
+    {
+      "dep": "xcomp",
+      "source": 21,
+      "target": 31
+    },
+    {
+      "dep": "det",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 24,
+      "target": 29
+    },
+    {
+      "dep": "compound",
+      "source": 29,
+      "target": 25
+    },
+    {
+      "dep": "punct",
+      "source": 29,
+      "target": 26
+    },
+    {
+      "dep": "compound",
+      "source": 29,
+      "target": 27
+    },
+    {
+      "dep": "punct",
+      "source": 29,
+      "target": 28
+    },
+    {
+      "dep": "aux",
+      "source": 31,
+      "target": 30
+    }
+  ]
+}

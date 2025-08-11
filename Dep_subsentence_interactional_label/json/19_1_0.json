@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "reasons",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "listed",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "any",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "sense",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acl",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "neg",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

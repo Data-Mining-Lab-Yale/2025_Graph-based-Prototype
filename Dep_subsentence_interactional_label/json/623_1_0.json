@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Sounds",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "like",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "advcl",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "mark",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

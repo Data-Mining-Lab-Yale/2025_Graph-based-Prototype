@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "nothing",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "compare",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "although",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "appears",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "numbers",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "pretty",
+      "pos": "ADV",
+      "id": 12
+    },
+    {
+      "label": "high",
+      "pos": "ADV",
+      "id": 13
+    },
+    {
+      "label": "which",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "concerning",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "relcl",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

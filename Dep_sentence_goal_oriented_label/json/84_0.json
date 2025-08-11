@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Doctor",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "Could",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 5
+    },
+    {
+      "label": "send",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "pet",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "scan",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "report",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 13
+    },
+    {
+      "label": "doctor",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "assistant",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "intj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "ccomp",
+      "source": 16,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 17
+    }
+  ]
+}

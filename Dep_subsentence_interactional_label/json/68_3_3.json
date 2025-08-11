@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "urgent",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "t",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "est",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 5
+    }
+  ]
+}

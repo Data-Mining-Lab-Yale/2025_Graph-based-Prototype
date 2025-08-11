@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hello",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Could",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 6
+    },
+    {
+      "label": "cancel",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "PET",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "CT",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "scans",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "ordered",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 18
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 20
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "acl",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "agent",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

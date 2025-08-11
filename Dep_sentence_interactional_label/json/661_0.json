@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "Hop",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "family",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "nice",
+      "pos": "ADJ",
+      "id": 12
+    },
+    {
+      "label": "Thanksgiving",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "poss",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "intj",
+      "source": 10,
+      "target": 0
+    },
+    {
+      "dep": "intj",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "amod",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Yes",
+      "pos": "INTJ",
+      "id": 3
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "orders",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "prt",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

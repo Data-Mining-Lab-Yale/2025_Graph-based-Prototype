@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "final",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "word",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "regarding",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "treatments",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "regimens",
+      "pos": "NOUN",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "acl",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}

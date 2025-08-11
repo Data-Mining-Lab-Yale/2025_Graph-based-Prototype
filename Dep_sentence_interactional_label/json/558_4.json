@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "back",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "feeling",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "fine",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": ";",
+      "pos": "PUNCT",
+      "id": 5
+    },
+    {
+      "label": "no",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "problems",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "no",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "discomfort",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 12
+    }
+  ]
+}

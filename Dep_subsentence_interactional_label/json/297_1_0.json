@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Or",
+      "pos": "CCONJ",
+      "id": 0
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "wait",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "till",
+      "pos": "SCONJ",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "come",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

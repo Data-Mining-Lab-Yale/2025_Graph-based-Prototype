@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "usually",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "takes",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 5
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Obviously",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "block",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": "work",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "neg",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

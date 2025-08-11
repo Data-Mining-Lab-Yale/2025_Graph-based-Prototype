@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Also",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "F",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "MLA",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "radiation",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "portion",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 10
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 14
+    },
+    {
+      "label": "ones",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "filling",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 18
+    },
+    {
+      "label": "paperwork",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "mark",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 13,
+      "target": 0
+    },
+    {
+      "dep": "advcl",
+      "source": 13,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "attr",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 20
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "acl",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "prt",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

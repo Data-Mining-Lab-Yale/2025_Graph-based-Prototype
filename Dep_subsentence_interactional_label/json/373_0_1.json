@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "steroid",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "ordered",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "pharmacy",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "auxpass",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    }
+  ]
+}

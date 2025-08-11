@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 6
+    }
+  ]
+}

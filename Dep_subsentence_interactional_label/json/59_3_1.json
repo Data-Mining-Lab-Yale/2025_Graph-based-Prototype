@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "enough",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "say",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "somethin",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "g",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "neg",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "appos",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 1
+    }
+  ]
+}

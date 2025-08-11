@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "done",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "prior",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "meeting",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "oral",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "surgeon",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

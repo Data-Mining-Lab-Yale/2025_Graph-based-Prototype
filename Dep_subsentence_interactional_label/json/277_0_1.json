@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "possibly",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "covid",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "awaiting",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

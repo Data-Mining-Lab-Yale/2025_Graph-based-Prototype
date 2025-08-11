@@ -1,0 +1,179 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "1",
+      "pos": "X",
+      "id": 0
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "There",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "is",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "no",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "Melanoma",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "n",
+      "pos": "INTJ",
+      "id": 8
+    },
+    {
+      "label": "any",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "lymph",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "nodes",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "were",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "biopsied",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "meta",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "expl",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "attr",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "appos",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "relcl",
+      "source": 7,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "auxpass",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

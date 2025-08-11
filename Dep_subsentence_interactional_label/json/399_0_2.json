@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "able",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "tomorrow",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "acomp",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "xcomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

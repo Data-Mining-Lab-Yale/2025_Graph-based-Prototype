@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "MRI",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "thoracic",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "lumbar",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "spine",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "were",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "ordered",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 16
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "appos",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 11,
+      "target": 1
+    },
+    {
+      "dep": "auxpass",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

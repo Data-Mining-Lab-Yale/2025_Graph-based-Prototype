@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "\"",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "known",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "osseous",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "metastatic",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "disease",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "\"",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 8
+    },
+    {
+      "label": "Will",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 11
+    },
+    {
+      "label": "qualify",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "both",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "femur",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 17
+    },
+    {
+      "label": "knee",
+      "pos": "NOUN",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "preconj",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "cc",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "conj",
+      "source": 16,
+      "target": 18
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "old",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "org2",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "open",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    }
+  ]
+}

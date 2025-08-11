@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Or",
+      "pos": "CCONJ",
+      "id": 0
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "wait",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "till",
+      "pos": "SCONJ",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "come",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 14
+    },
+    {
+      "label": "zometa",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 16
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

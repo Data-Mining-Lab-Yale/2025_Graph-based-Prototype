@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Presume",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "shared",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "digitally",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "auxpass",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 5
+    }
+  ]
+}

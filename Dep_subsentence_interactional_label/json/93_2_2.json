@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "evolution",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 3
+    },
+    {
+      "label": "newly",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "spot",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "nodal",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "dep": "nummod",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

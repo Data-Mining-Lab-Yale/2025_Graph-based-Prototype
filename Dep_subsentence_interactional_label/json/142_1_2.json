@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "satisfied",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 1
+    },
+    {
+      "label": "pleased",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "recent",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "result",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "....",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "thoughts",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

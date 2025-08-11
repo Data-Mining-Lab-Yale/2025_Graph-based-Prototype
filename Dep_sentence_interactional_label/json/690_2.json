@@ -1,0 +1,284 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "So",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "approximate",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "9:30",
+      "pos": "NUM",
+      "id": 4
+    },
+    {
+      "label": "start",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 7
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "5",
+      "pos": "NUM",
+      "id": 9
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "9:30",
+      "pos": "NUM",
+      "id": 11
+    },
+    {
+      "label": "pm",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 16
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "then",
+      "pos": "ADV",
+      "id": 18
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 19
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "5",
+      "pos": "NUM",
+      "id": 21
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "3:30",
+      "pos": "NUM",
+      "id": 23
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 25
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 27
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nummod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "intj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 20
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 27
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "nummod",
+      "source": 17,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "advmod",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "dobj",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "dep": "prep",
+      "source": 20,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "dep": "prep",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "pobj",
+      "source": 24,
+      "target": 26
+    },
+    {
+      "dep": "det",
+      "source": 26,
+      "target": 25
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "left",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "thigh",
+      "pos": "NOUN",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "attr",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

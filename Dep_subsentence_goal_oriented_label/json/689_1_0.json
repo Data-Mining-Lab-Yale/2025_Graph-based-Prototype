@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "verbally",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "told",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

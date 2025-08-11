@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "FMLA",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "paperwork",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "completed",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acl",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    }
+  ]
+}

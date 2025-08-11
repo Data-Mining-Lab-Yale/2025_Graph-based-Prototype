@@ -1,0 +1,34 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 1
+    },
+    {
+      "label": "reschedule",
+      "pos": "NOUN",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 2
+    }
+  ]
+}

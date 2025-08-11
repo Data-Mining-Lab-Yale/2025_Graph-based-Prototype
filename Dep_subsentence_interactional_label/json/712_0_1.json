@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "certainly",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "colonoscopy",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    }
+  ]
+}

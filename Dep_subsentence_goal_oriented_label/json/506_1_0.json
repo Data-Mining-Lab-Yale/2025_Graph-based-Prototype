@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "anywhere",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "anytime",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

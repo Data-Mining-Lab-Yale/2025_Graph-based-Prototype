@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "contacted",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "xeralto",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "refiled",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

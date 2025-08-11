@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "If",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 3
+    },
+    {
+      "label": "clarify",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 6
+    },
+    {
+      "label": "message",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "below",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "better",
+      "pos": "ADV",
+      "id": 11
+    },
+    {
+      "label": "respond",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "question",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "dep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 12,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "poss",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

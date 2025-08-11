@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "message",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "evening",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 14
+    },
+    {
+      "label": "gotten",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "response",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "yet",
+      "pos": "ADV",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "dative",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "neg",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "dobj",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "dep": "det",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

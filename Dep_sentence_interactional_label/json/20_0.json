@@ -1,0 +1,294 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "company",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "running",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "testing",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "speak",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "their",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "customer",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "service",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "regarding",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 19
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 21
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 22
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 23
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 24
+    },
+    {
+      "label": "answers",
+      "pos": "NOUN",
+      "id": 25
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 26
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 27
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 28
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "parataxis",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "acl",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "dep": "poss",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "dep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 20
+    },
+    {
+      "dep": "advcl",
+      "source": 23,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "nsubj",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "dobj",
+      "source": 23,
+      "target": 25
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 28
+    },
+    {
+      "dep": "det",
+      "source": 25,
+      "target": 24
+    },
+    {
+      "dep": "relcl",
+      "source": 25,
+      "target": 27
+    },
+    {
+      "dep": "nsubj",
+      "source": 27,
+      "target": 26
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "How",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "long",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prt",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}

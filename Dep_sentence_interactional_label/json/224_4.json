@@ -1,0 +1,264 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "someone",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "bounce",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "all",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "these",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "developments",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "off",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "who",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "vested",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "well",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "being",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 19
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 20
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 21
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 22
+    },
+    {
+      "label": "that",
+      "pos": "DET",
+      "id": 23
+    },
+    {
+      "label": "person",
+      "pos": "NOUN",
+      "id": 24
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 25
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 20
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 22
+    },
+    {
+      "dep": "relcl",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "prt",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "predet",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "auxpass",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "dep": "poss",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "nsubj",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "dep": "attr",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "dep": "punct",
+      "source": 22,
+      "target": 25
+    },
+    {
+      "dep": "det",
+      "source": 24,
+      "target": 23
+    }
+  ]
+}

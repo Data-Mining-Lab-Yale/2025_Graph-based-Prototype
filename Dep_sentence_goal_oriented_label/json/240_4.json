@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "fax",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "gave",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "fax",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "number",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dative",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

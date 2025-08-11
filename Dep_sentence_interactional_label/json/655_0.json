@@ -1,0 +1,264 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "Both",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "Org",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "myself",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "contacted",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "xeralto",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "refiled",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 18
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 19
+    },
+    {
+      "label": "done",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 21
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 23
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 24
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 25
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "intj",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "advcl",
+      "source": 9,
+      "target": 17
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 25
+    },
+    {
+      "dep": "poss",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "poss",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "auxpass",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "cc",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "conj",
+      "source": 17,
+      "target": 20
+    },
+    {
+      "dep": "neg",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "prep",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "dep": "det",
+      "source": 24,
+      "target": 23
+    }
+  ]
+}

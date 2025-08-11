@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "tomorrow",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

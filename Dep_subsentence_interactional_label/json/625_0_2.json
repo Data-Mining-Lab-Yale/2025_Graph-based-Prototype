@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "orders",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "prt",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

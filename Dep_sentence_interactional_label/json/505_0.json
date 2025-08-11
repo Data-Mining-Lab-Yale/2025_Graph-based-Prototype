@@ -1,0 +1,244 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "discussed",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 5
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "placed",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "urgent",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "MRI",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "brain",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "order",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 14
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 15
+    },
+    {
+      "label": "waiting",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 17
+    },
+    {
+      "label": "our",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "APRN",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 20
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 21
+    },
+    {
+      "label": "sign",
+      "pos": "VERB",
+      "id": 22
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 23
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 23
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "dep": "amod",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "advcl",
+      "source": 16,
+      "target": 22
+    },
+    {
+      "dep": "poss",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "dep",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "mark",
+      "source": 22,
+      "target": 17
+    },
+    {
+      "dep": "nsubj",
+      "source": 22,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 22,
+      "target": 21
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "u",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "into",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Org",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "Location",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "ccomp",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 9
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "OK",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 1
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "monitor",
+      "pos": "VERB",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

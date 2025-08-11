@@ -1,0 +1,244 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "got",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "advised",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 11
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 14
+    },
+    {
+      "label": "repeat",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "scans",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 19
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 20
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 21
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 22
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 23
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 23
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "mark",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "dobj",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 22
+    },
+    {
+      "dep": "nmod",
+      "source": 22,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 22,
+      "target": 19
+    },
+    {
+      "dep": "nmod",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "dep": "punct",
+      "source": 22,
+      "target": 21
+    }
+  ]
+}

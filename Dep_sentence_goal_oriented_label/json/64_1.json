@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "white",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "count",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "lower",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "platelets",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 9
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "find",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 14
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "wants",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "repeated",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 19
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prt",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "advcl",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "ccomp",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 17
+    }
+  ]
+}

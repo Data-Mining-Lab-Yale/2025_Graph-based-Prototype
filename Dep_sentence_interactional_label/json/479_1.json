@@ -1,0 +1,424 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Not",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "sure",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "kept",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "some",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "meds",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 14
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "fairly",
+      "pos": "ADV",
+      "id": 17
+    },
+    {
+      "label": "urgent",
+      "pos": "ADJ",
+      "id": 18
+    },
+    {
+      "label": "refill",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "called",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 21
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "cvs",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 25
+    },
+    {
+      "label": "following",
+      "pos": "VERB",
+      "id": 26
+    },
+    {
+      "label": ":",
+      "pos": "PUNCT",
+      "id": 27
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 28
+    },
+    {
+      "label": "Losartan",
+      "pos": "PROPN",
+      "id": 29
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 30
+    },
+    {
+      "label": "Amlodipine",
+      "pos": "PROPN",
+      "id": 31
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 32
+    },
+    {
+      "label": "Dexamethasone",
+      "pos": "NOUN",
+      "id": 33
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 34
+    },
+    {
+      "label": "Sertraline",
+      "pos": "PROPN",
+      "id": 35
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 36
+    },
+    {
+      "label": "Levothyroxine",
+      "pos": "PROPN",
+      "id": 37
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 38
+    },
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 39
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 40
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 41
+    }
+  ],
+  "links": [
+    {
+      "dep": "neg",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "dep": "conj",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 27
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 41
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "dobj",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 24
+    },
+    {
+      "dep": "advmod",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "det",
+      "source": 19,
+      "target": 16
+    },
+    {
+      "dep": "amod",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "acl",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "prt",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "dep": "prep",
+      "source": 20,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "dep": "pobj",
+      "source": 24,
+      "target": 26
+    },
+    {
+      "dep": "det",
+      "source": 26,
+      "target": 25
+    },
+    {
+      "dep": "dep",
+      "source": 27,
+      "target": 28
+    },
+    {
+      "dep": "dep",
+      "source": 29,
+      "target": 30
+    },
+    {
+      "dep": "dep",
+      "source": 31,
+      "target": 32
+    },
+    {
+      "dep": "dep",
+      "source": 33,
+      "target": 34
+    },
+    {
+      "dep": "dep",
+      "source": 35,
+      "target": 36
+    },
+    {
+      "dep": "compound",
+      "source": 37,
+      "target": 29
+    },
+    {
+      "dep": "compound",
+      "source": 37,
+      "target": 31
+    },
+    {
+      "dep": "compound",
+      "source": 37,
+      "target": 33
+    },
+    {
+      "dep": "compound",
+      "source": 37,
+      "target": 35
+    },
+    {
+      "dep": "dep",
+      "source": 37,
+      "target": 38
+    },
+    {
+      "dep": "dep",
+      "source": 39,
+      "target": 40
+    },
+    {
+      "dep": "compound",
+      "source": 41,
+      "target": 37
+    },
+    {
+      "dep": "compound",
+      "source": 41,
+      "target": 39
+    }
+  ]
+}

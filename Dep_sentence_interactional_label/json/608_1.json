@@ -1,0 +1,264 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Something",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "causing",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "definite",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "concern",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 10
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "help",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "figuring",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "root",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "causes",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 18
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 20
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 21
+    },
+    {
+      "label": "steps",
+      "pos": "NOUN",
+      "id": 22
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 23
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 24
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 25
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prt",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 25
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "ccomp",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "cc",
+      "source": 12,
+      "target": 18
+    },
+    {
+      "dep": "conj",
+      "source": 12,
+      "target": 24
+    },
+    {
+      "dep": "pcomp",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "prt",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "dobj",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "dep": "amod",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "dep": "attr",
+      "source": 24,
+      "target": 19
+    },
+    {
+      "dep": "nsubj",
+      "source": 24,
+      "target": 22
+    },
+    {
+      "dep": "aux",
+      "source": 24,
+      "target": 23
+    }
+  ]
+}

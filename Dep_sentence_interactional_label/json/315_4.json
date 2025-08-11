@@ -1,0 +1,264 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "getting",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "labs",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "every",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "8",
+      "pos": "NUM",
+      "id": 11
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 13
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "is",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "nothing",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "else",
+      "pos": "ADV",
+      "id": 17
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 20
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 23
+    },
+    {
+      "label": "appt",
+      "pos": "NOUN",
+      "id": 24
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 25
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "nummod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "mark",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "expl",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "attr",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 25
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "relcl",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "dep": "nsubj",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "xcomp",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "dep": "det",
+      "source": 24,
+      "target": 23
+    }
+  ]
+}

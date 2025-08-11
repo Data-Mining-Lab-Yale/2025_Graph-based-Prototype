@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Was",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "due",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "month",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "month",
+      "pos": "NOUN",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

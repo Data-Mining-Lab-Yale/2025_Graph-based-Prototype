@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Any",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

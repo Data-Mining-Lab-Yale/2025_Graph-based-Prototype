@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "calling",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "discuss",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "plan",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "further",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 9
+    }
+  ]
+}

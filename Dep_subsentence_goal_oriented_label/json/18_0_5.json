@@ -1,0 +1,109 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 2
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "may",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "neg",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

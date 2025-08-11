@@ -1,0 +1,34 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "thanks",
+      "pos": "NOUN",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 1
+    }
+  ]
+}

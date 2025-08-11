@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "ask",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "thumbnail",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "&",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "big",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "toe",
+      "pos": "NOUN",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

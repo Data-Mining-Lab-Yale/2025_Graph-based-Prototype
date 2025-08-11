@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "heard",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "eligible",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "COVID",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "vaccine",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "Where",
+      "pos": "SCONJ",
+      "id": 11
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "u",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "recommending",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "mark",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "relcl",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "cc",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "conj",
+      "source": 14,
+      "target": 18
+    },
+    {
+      "dep": "advmod",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 20
+    }
+  ]
+}

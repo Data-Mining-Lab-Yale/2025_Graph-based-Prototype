@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Also",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "wanted",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "clear",
+      "pos": "ADJ",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

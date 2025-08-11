@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "give",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "cell",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 9
+    },
+    {
+      "label": "phone",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 11
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "touch",
+      "pos": "VERB",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 14,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

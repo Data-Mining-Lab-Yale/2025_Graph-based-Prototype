@@ -1,0 +1,309 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Iwas",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "cat",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "scan",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "through",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "VA",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "A",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "few",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "weeks",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "ago",
+      "pos": "ADV",
+      "id": 18
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 19
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "canceled",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "due",
+      "pos": "ADP",
+      "id": 23
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 25
+    },
+    {
+      "label": "conflict",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 27
+    },
+    {
+      "label": "another",
+      "pos": "DET",
+      "id": 28
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 29
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 30
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "auxpass",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "amod",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "npadvmod",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "cc",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "prt",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 21,
+      "target": 30
+    },
+    {
+      "dep": "pcomp",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "pobj",
+      "source": 24,
+      "target": 26
+    },
+    {
+      "dep": "det",
+      "source": 26,
+      "target": 25
+    },
+    {
+      "dep": "prep",
+      "source": 26,
+      "target": 27
+    },
+    {
+      "dep": "pobj",
+      "source": 27,
+      "target": 29
+    },
+    {
+      "dep": "det",
+      "source": 29,
+      "target": 28
+    }
+  ]
+}

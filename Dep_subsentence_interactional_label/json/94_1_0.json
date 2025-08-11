@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    }
+  ]
+}

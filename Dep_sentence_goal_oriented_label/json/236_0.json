@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "report",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 5
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "faxed",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 12
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "Person6",
+      "pos": "ADJ",
+      "id": 15
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "RN",
+      "pos": "NOUN",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nmod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "dep": "dep",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

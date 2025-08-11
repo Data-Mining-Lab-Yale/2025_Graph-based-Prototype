@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Yes",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "4th",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "floor",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "lab",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "beforehand",
+      "pos": "ADV",
+      "id": 10
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 11
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

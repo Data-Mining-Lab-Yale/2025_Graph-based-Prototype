@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person2",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "only",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "1",
+      "pos": "NUM",
+      "id": 3
+    },
+    {
+      "label": "shot",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 5
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "may",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "choose",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "auxpass",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nummod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "xcomp",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 10,
+      "target": 11
+    }
+  ]
+}

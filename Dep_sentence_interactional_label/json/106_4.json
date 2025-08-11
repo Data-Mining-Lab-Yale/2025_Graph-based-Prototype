@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "When",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "begin",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "Ibrance",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "again",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 6
+    }
+  ]
+}

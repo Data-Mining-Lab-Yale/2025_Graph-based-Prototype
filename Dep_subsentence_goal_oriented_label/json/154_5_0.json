@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "feel",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "little",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "tingling",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "upper",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "arm",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "times",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "poss",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    }
+  ]
+}

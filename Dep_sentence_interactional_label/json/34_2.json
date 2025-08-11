@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "think",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "hospital",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "safe",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

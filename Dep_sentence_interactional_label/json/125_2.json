@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "rescheduled",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "lumpectomy",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "questions",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "pass",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 17
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "team",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "ccomp",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "dep",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "relcl",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "prt",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "prep",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

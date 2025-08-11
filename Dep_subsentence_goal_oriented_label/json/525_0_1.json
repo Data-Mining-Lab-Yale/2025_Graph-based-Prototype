@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "dad",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "left",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "hand",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "red",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "csubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 6
+    }
+  ]
+}

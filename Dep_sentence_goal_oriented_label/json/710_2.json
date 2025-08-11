@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Are",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "around",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Wednesday",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "afternoon",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

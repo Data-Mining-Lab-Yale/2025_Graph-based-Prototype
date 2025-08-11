@@ -1,0 +1,234 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "check",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "mychart",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "schedule",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 14
+    },
+    {
+      "label": "anything",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "comes",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "for",
+      "pos": "SCONJ",
+      "id": 18
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 20
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 22
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "ccomp",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "dep": "mark",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "prt",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "advcl",
+      "source": 16,
+      "target": 21
+    },
+    {
+      "dep": "mark",
+      "source": 21,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    }
+  ]
+}

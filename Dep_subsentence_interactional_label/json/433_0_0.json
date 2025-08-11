@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Is",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "possibility",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 4
+    },
+    {
+      "label": "move",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "treatments",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "one",
+      "pos": "NUM",
+      "id": 10
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "expl",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acl",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "prt",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "nummod",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

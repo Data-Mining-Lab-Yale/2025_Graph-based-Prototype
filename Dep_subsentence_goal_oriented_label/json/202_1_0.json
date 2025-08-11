@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "seems",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "follow",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "get",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "scheduled",
+      "pos": "VERB",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prt",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 12,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "dep": "neg",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "auxpass",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

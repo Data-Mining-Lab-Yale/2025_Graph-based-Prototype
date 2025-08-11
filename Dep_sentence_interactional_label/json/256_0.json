@@ -1,0 +1,274 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "felt",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "much",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "better",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "after",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "seeing",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "look",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "forward",
+      "pos": "ADV",
+      "id": 13
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "meeting",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 18
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 20
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 22
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 24
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 25
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 26
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 26
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pcomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "pcomp",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "dep": "dep",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "compound",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "pobj",
+      "source": 20,
+      "target": 25
+    },
+    {
+      "dep": "nmod",
+      "source": 25,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 25,
+      "target": 22
+    },
+    {
+      "dep": "nmod",
+      "source": 25,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 25,
+      "target": 24
+    }
+  ]
+}

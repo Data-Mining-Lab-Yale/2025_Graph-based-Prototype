@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "faxed",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "auxpass",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nmod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "#",
+      "pos": "SYM",
+      "id": 2
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "reschedule",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

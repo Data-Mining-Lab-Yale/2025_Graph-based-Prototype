@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "these",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "messages",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "along",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 5
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 4
+    }
+  ]
+}

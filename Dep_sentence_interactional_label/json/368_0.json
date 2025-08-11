@@ -1,0 +1,314 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "request",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "meeting",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "teams",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "Monday",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 16
+    },
+    {
+      "label": "happy",
+      "pos": "ADJ",
+      "id": 17
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 19
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 20
+    },
+    {
+      "label": "decisions",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 22
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 23
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 24
+    },
+    {
+      "label": "made",
+      "pos": "VERB",
+      "id": 25
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 26
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 27
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 28
+    },
+    {
+      "label": "care",
+      "pos": "NOUN",
+      "id": 29
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 30
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 30
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "case",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "neg",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "acomp",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "dep": "det",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "relcl",
+      "source": 21,
+      "target": 25
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 25,
+      "target": 22
+    },
+    {
+      "dep": "aux",
+      "source": 25,
+      "target": 23
+    },
+    {
+      "dep": "auxpass",
+      "source": 25,
+      "target": 24
+    },
+    {
+      "dep": "prep",
+      "source": 25,
+      "target": 26
+    },
+    {
+      "dep": "pobj",
+      "source": 26,
+      "target": 29
+    },
+    {
+      "dep": "case",
+      "source": 27,
+      "target": 28
+    },
+    {
+      "dep": "poss",
+      "source": 29,
+      "target": 27
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "done",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "well",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "managing",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "while",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "eliminating",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

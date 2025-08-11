@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Saturday",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "8/19",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    }
+  ]
+}

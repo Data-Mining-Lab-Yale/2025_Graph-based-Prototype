@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "begin",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "radiation",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "therapy",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "five",
+      "pos": "NUM",
+      "id": 11
+    },
+    {
+      "label": "sessions",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "nummod",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

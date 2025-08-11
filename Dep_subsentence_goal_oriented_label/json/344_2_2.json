@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "told",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "wanted",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

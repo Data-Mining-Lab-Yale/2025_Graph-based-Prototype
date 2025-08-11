@@ -1,0 +1,69 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "down",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "ago",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "didn",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "notice",
+      "pos": "NOUN",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

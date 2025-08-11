@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "concurs",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "re",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "restarting",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "Lupron",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pcomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "neg",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 7
+    }
+  ]
+}

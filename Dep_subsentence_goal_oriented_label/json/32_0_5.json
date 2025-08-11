@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "give",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "flu",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "vaccine",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "come",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dative",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "npadvmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

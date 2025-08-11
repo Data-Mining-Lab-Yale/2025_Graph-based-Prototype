@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "'ll",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "put",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "order",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "whenever",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "chance",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 12
+    },
+    {
+      "label": "stop",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "lab",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "acl",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Those",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "came",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "after",
+      "pos": "SCONJ",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prt",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

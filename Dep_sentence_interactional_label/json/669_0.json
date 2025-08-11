@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 5
+    },
+    {
+      "label": "Looks",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "like",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "CEA",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "5.5",
+      "pos": "NUM",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "dep": "mark",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "acomp",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 12
+    }
+  ]
+}

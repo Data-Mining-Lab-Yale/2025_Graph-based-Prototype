@@ -1,0 +1,234 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "submit",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 12
+    },
+    {
+      "label": "seeing",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "patients",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 15
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 17
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 19
+    },
+    {
+      "label": "chance",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "yet",
+      "pos": "ADV",
+      "id": 21
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "xcomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "ccomp",
+      "source": 13,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 22
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 18,
+      "target": 15
+    },
+    {
+      "dep": "aux",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "neg",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 18,
+      "target": 20
+    },
+    {
+      "dep": "advmod",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "dep": "det",
+      "source": 20,
+      "target": 19
+    }
+  ]
+}

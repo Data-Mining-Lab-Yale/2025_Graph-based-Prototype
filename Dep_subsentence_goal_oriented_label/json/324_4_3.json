@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "form",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

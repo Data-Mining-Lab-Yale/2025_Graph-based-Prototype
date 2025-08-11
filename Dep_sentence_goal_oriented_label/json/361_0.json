@@ -1,0 +1,294 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "ER",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "belly",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 18
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 20
+    },
+    {
+      "label": "PA",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 22
+    },
+    {
+      "label": "C",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 24
+    },
+    {
+      "label": "Extended",
+      "pos": "PROPN",
+      "id": 25
+    },
+    {
+      "label": "care",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": "clinic",
+      "pos": "NOUN",
+      "id": 27
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 28
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 28
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "cc",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "conj",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "conj",
+      "source": 17,
+      "target": 23
+    },
+    {
+      "dep": "dep",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "compound",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "prep",
+      "source": 23,
+      "target": 24
+    },
+    {
+      "dep": "pobj",
+      "source": 24,
+      "target": 27
+    },
+    {
+      "dep": "amod",
+      "source": 27,
+      "target": 25
+    },
+    {
+      "dep": "compound",
+      "source": 27,
+      "target": 26
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "mean",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "Old",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Org1",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "clinic",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 7
+    },
+    {
+      "label": "Of",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "Org1",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

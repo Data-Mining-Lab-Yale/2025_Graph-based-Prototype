@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "that",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "refill",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "between",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "5",
+      "pos": "NUM",
+      "id": 3
+    },
+    {
+      "label": "-",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "10",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": "business",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "days",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "quantmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "nummod",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

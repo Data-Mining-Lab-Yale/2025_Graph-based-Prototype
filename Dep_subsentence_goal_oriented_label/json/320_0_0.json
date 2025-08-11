@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "took",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "home",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    }
+  ]
+}

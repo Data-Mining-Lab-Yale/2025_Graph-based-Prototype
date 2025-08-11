@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "UTI",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "symptoms",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "getting",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

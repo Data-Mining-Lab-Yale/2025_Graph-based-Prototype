@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "forgot",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "ask",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "you",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "question",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "concerning",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": "Covid",
+      "pos": "ADJ",
+      "id": 14
+    },
+    {
+      "label": "booster",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "shot",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "ccomp",
+      "source": 11,
+      "target": 16
+    },
+    {
+      "dep": "poss",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "amod",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

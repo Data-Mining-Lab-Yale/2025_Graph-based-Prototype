@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "white",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "count",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "lower",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "platelets",
+      "pos": "NOUN",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "attr",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

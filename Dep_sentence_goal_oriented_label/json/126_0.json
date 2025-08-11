@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hey",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "      ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 5
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "doing",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "ok",
+      "pos": "INTJ",
+      "id": 8
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "dep": "intj",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 9
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "Rad",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "ONc",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "Nurse",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "Coordinator",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "attr",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "appos",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

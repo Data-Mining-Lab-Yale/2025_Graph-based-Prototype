@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "name",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "Person",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "one",
+      "pos": "NUM",
+      "id": 6
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "'s",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "fellows",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "relcl",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "case",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 11,
+      "target": 9
+    }
+  ]
+}

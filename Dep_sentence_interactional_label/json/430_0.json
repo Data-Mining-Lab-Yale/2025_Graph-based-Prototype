@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Does",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "mean",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "dexamethasone",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

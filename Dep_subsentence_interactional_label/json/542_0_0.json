@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Yes",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 2
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "org1",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "nmod",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "nmod",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 7
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "question",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "there",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "known",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "side",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "affect",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "medication",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "causing",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "heart",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "valve",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 17
+    },
+    {
+      "dep": "expl",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "attr",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "acl",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

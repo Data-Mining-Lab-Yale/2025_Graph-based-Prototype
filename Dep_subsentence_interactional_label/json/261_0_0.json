@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "We",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "were",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "able",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "move",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "imaging",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prt",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

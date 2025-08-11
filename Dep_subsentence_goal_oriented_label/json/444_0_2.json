@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "email",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 1
+    },
+    {
+      "label": "prescriber",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "something",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 7
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "help",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "prep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 10,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 11
+    }
+  ]
+}

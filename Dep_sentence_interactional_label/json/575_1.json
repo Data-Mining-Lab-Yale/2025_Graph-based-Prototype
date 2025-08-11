@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "And",
+      "pos": "CCONJ",
+      "id": 0
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "all",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "cleared",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "dental",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "wise",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "prolia",
+      "pos": "NOUN",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "dep": "advcl",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

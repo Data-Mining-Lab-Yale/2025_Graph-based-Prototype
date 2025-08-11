@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "SEnding",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "message",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dative",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 3
+    }
+  ]
+}

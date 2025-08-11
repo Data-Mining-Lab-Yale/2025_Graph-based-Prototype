@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "All",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "best",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "Person1",
+      "pos": "NOUN",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "predet",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "appos",
+      "source": 2,
+      "target": 4
+    }
+  ]
+}

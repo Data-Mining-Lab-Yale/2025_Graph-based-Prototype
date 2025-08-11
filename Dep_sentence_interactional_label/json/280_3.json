@@ -1,0 +1,479 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": ":-)",
+      "pos": "PUNCT",
+      "id": 0
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "Would",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "mind",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "writing",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "note",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "saying",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 12
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "tested",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "positive",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "covid",
+      "pos": "ADJ",
+      "id": 18
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 20
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 22
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 24
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 25
+    },
+    {
+      "label": "10",
+      "pos": "NUM",
+      "id": 26
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 27
+    },
+    {
+      "label": "quarantine",
+      "pos": "NOUN",
+      "id": 28
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 29
+    },
+    {
+      "label": "symptom",
+      "pos": "NOUN",
+      "id": 30
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 31
+    },
+    {
+      "label": "set",
+      "pos": "NOUN",
+      "id": 32
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 33
+    },
+    {
+      "label": "passed",
+      "pos": "VERB",
+      "id": 34
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 35
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 36
+    },
+    {
+      "label": "no",
+      "pos": "ADV",
+      "id": 37
+    },
+    {
+      "label": "longer",
+      "pos": "ADV",
+      "id": 38
+    },
+    {
+      "label": "contagious",
+      "pos": "ADJ",
+      "id": 39
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 40
+    },
+    {
+      "label": "whatever",
+      "pos": "PRON",
+      "id": 41
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 42
+    },
+    {
+      "label": "correct",
+      "pos": "ADJ",
+      "id": 43
+    },
+    {
+      "label": "wording",
+      "pos": "NOUN",
+      "id": 44
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 45
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 46
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 47
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 34
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 47
+    },
+    {
+      "dep": "dative",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "acl",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "ccomp",
+      "source": 11,
+      "target": 15
+    },
+    {
+      "dep": "mark",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "oprd",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 23
+    },
+    {
+      "dep": "amod",
+      "source": 23,
+      "target": 18
+    },
+    {
+      "dep": "nmod",
+      "source": 23,
+      "target": 19
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "dep": "nmod",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "nummod",
+      "source": 27,
+      "target": 26
+    },
+    {
+      "dep": "det",
+      "source": 28,
+      "target": 25
+    },
+    {
+      "dep": "compound",
+      "source": 28,
+      "target": 27
+    },
+    {
+      "dep": "prep",
+      "source": 28,
+      "target": 29
+    },
+    {
+      "dep": "pobj",
+      "source": 29,
+      "target": 30
+    },
+    {
+      "dep": "prep",
+      "source": 30,
+      "target": 31
+    },
+    {
+      "dep": "pobj",
+      "source": 31,
+      "target": 32
+    },
+    {
+      "dep": "punct",
+      "source": 34,
+      "target": 24
+    },
+    {
+      "dep": "nsubj",
+      "source": 34,
+      "target": 28
+    },
+    {
+      "dep": "aux",
+      "source": 34,
+      "target": 33
+    },
+    {
+      "dep": "cc",
+      "source": 34,
+      "target": 35
+    },
+    {
+      "dep": "conj",
+      "source": 34,
+      "target": 36
+    },
+    {
+      "dep": "advmod",
+      "source": 36,
+      "target": 38
+    },
+    {
+      "dep": "acomp",
+      "source": 36,
+      "target": 39
+    },
+    {
+      "dep": "conj",
+      "source": 36,
+      "target": 46
+    },
+    {
+      "dep": "neg",
+      "source": 38,
+      "target": 37
+    },
+    {
+      "dep": "cc",
+      "source": 39,
+      "target": 40
+    },
+    {
+      "dep": "det",
+      "source": 44,
+      "target": 42
+    },
+    {
+      "dep": "amod",
+      "source": 44,
+      "target": 43
+    },
+    {
+      "dep": "attr",
+      "source": 46,
+      "target": 41
+    },
+    {
+      "dep": "nsubj",
+      "source": 46,
+      "target": 44
+    },
+    {
+      "dep": "aux",
+      "source": 46,
+      "target": 45
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "suggestion",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "consult",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "vascular",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "surgeon",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acl",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

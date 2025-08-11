@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Seems",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "drink",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "more",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "water",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "goes",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "away",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "dep": "mark",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Let",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "convenience",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "ccomp",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "paperwork",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "mark",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "auxpass",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

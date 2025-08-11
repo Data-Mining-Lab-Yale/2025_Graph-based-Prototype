@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "under",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "20",
+      "pos": "NUM",
+      "id": 4
+    },
+    {
+      "label": "ml",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "past",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "24",
+      "pos": "NUM",
+      "id": 9
+    },
+    {
+      "label": "hour",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "18",
+      "pos": "NUM",
+      "id": 12
+    },
+    {
+      "label": "ml",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 14
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "previous",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "24",
+      "pos": "NUM",
+      "id": 17
+    },
+    {
+      "label": "hours",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "attr",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "quantmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nummod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "nummod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "nummod",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 18,
+      "target": 15
+    },
+    {
+      "dep": "amod",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "nummod",
+      "source": 18,
+      "target": 17
+    }
+  ]
+}

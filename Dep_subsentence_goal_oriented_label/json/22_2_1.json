@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "same",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "delivery",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "needed",
+      "pos": "VERB",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "mark",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

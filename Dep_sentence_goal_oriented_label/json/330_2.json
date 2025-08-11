@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "fully",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "working",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 5
+    }
+  ]
+}

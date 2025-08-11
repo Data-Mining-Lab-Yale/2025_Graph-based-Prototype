@@ -1,0 +1,34 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Once",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "request",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    }
+  ]
+}

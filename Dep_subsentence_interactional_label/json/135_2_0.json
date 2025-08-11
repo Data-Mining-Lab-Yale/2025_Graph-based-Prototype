@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "After",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "speaking",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "&",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "pcomp",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "don",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "in",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "often",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 5
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "having",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "option",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 15
+    },
+    {
+      "label": "days",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 17
+    },
+    {
+      "dep": "dobj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "dep": "poss",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "amod",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "And",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "request",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "seen",
+      "pos": "VERB",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "xcomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "auxpass",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

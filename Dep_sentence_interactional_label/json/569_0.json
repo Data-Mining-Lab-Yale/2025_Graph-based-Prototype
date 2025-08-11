@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 7
+    },
+    {
+      "label": "cancel",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "least",
+      "pos": "ADJ",
+      "id": 11
+    },
+    {
+      "label": "postpone",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "density",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "injection",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 20
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "poss",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "prep",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "dep": "compound",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "det",
+      "source": 19,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

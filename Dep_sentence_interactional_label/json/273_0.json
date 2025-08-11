@@ -1,0 +1,304 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "assuming",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "didn",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "phone",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "didn",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "come",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 16
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 17
+    },
+    {
+      "label": "desired",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 19
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "holding",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "off",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "starting",
+      "pos": "VERB",
+      "id": 23
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 24
+    },
+    {
+      "label": "2nd",
+      "pos": "ADJ",
+      "id": 25
+    },
+    {
+      "label": "cycle",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 27
+    },
+    {
+      "label": "Ibrance",
+      "pos": "PROPN",
+      "id": 28
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 29
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 29
+    },
+    {
+      "dep": "appos",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "advcl",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "advcl",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "dep": "cc",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "dep": "conj",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "dep": "mark",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "nsubj",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "prt",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "xcomp",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "dobj",
+      "source": 23,
+      "target": 26
+    },
+    {
+      "dep": "det",
+      "source": 26,
+      "target": 24
+    },
+    {
+      "dep": "amod",
+      "source": 26,
+      "target": 25
+    },
+    {
+      "dep": "prep",
+      "source": 26,
+      "target": 27
+    },
+    {
+      "dep": "pobj",
+      "source": 27,
+      "target": 28
+    }
+  ]
+}

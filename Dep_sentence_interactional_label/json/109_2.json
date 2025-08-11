@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "hope",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "helps",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

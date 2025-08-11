@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "16",
+      "pos": "NUM",
+      "id": 0
+    },
+    {
+      "label": "pills",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "take",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "more",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "than",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "nummod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

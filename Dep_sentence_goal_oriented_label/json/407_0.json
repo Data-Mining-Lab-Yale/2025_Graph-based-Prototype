@@ -1,0 +1,294 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "inform",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "started",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "TRT",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "under",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 20
+    },
+    {
+      "label": "supervision",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 24
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 25
+    },
+    {
+      "label": "Org4",
+      "pos": "PROPN",
+      "id": 26
+    },
+    {
+      "label": "Urology",
+      "pos": "NOUN",
+      "id": 27
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 28
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "xcomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 28
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "mark",
+      "source": 17,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "dobj",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "det",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "dep": "compound",
+      "source": 24,
+      "target": 23
+    },
+    {
+      "dep": "prep",
+      "source": 24,
+      "target": 25
+    },
+    {
+      "dep": "pobj",
+      "source": 25,
+      "target": 27
+    },
+    {
+      "dep": "compound",
+      "source": 27,
+      "target": 26
+    }
+  ]
+}

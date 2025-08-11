@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "name",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "Lorazepam",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "attr",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}
