@@ -3,12 +3,12 @@ import json
 from pathlib import Path
 
 # === Configuration ===
-INPUT = "sentence_interactional"
+# INPUT = "sentence_interactional"
 # INPUT = "sentence_goal_oriented"
 # INPUT = "subsentence_interactional"
-# INPUT = "subsentence_goal_oriented"
+INPUT = "subsentence_goal_oriented"
 
-GRAPH_DIR = f"Dep_{INPUT}_label/json"
+GRAPH_DIR = f"Dep_{INPUT}_graph/json"
 LABEL_FILE = f"EPPC_output_json/{INPUT}_label.json"
 TEXT_SOURCE_FILE = f"EPPC_output_json/{INPUT}_label.json"  # Can be the same as label file
 OUTPUT_DIR = f"Dep_{INPUT}_graphs_with_labels"
@@ -27,15 +27,15 @@ with open(label_path, "r", encoding="utf-8") as f:
 label_map = {}
 for subsentence_id, entry in label_data.items():
     for label_info in entry.get("labels", []):
-        if label_info.get("level") == "subcode":
-            label_map[subsentence_id] = label_info["label"]
-            break  # Use first subcode
+        # if label_info.get("level") == "subcode":
+        label_map[subsentence_id] = label_info["label"]
+            # break  # Use first subcode
 
 # === Load text if needed ===
 with open(text_path, "r", encoding="utf-8") as f:
     text_data = json.load(f)
 
-print(f"✅ Loaded {len(label_map)} subcode labels.")
+print(f"✅ Loaded {len(label_map)} labels.")
 
 # === Process and save updated graphs ===
 count = 0
