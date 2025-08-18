@@ -1,0 +1,15 @@
+{
+  "available": true,
+  "counts": {
+    "inside": 2157,
+    "aligned": 342,
+    "crosses": 103
+  },
+  "proportions": {
+    "aligned": 0.13143735588009223,
+    "inside": 0.828977709454266,
+    "crosses": 0.039584934665641815,
+    "outside": 0.0,
+    "[NOT_AVAILABLE]": 0.0
+  }
+}

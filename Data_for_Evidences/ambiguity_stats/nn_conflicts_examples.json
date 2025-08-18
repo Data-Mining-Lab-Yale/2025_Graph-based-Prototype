@@ -1,0 +1,1297 @@
+[
+  {
+    "anchor_text": "In person or telemed?",
+    "anchor_label": "invite_collaboration",
+    "neighbor_text": "We can either schedule for in person or via telehealth",
+    "neighbor_label": "Share_options",
+    "similarity": 0.6036554574966431
+  },
+  {
+    "anchor_text": "be happy to",
+    "anchor_label": "Connection",
+    "neighbor_text": "I was happy",
+    "neighbor_label": "Alignment",
+    "similarity": 0.5801900625228882
+  },
+  {
+    "anchor_text": "We need to make an office visit",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Or no need for an office visit?",
+    "neighbor_label": "Explore_options",
+    "similarity": 0.6821954846382141
+  },
+  {
+    "anchor_text": "We need to make an office visit",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "if not reach out to our office!",
+    "neighbor_label": "instruction",
+    "similarity": 0.6119804382324219
+  },
+  {
+    "anchor_text": "Please send to",
+    "anchor_label": "instruction",
+    "neighbor_text": "I will also send it via email",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.6401464343070984
+  },
+  {
+    "anchor_text": "Please send to",
+    "anchor_label": "instruction",
+    "neighbor_text": "please have them send it to us at",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5937644243240356
+  },
+  {
+    "anchor_text": "Please send to",
+    "anchor_label": "instruction",
+    "neighbor_text": "You can send it to me in here or email, address@email.com",
+    "neighbor_label": "General_information",
+    "similarity": 0.5513626933097839
+  },
+  {
+    "anchor_text": "this was faxed",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "Here is the fax number",
+    "neighbor_label": "General_information",
+    "similarity": 0.6251004338264465
+  },
+  {
+    "anchor_text": "this was faxed",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "Did you receive the fax from Dr. Person1?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5654322504997253
+  },
+  {
+    "anchor_text": "Take care",
+    "anchor_label": "Connection",
+    "neighbor_text": "Take care",
+    "neighbor_label": "signoff",
+    "similarity": 1.0000003576278687
+  },
+  {
+    "anchor_text": "Take care",
+    "anchor_label": "Connection",
+    "neighbor_text": "Take care",
+    "neighbor_label": "signoff",
+    "similarity": 1.0000001192092896
+  },
+  {
+    "anchor_text": "sent an order for a new PET scan",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Could you please send the pet scan report to Person1 , doctor Person2 assistant",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.793782114982605
+  },
+  {
+    "anchor_text": "sent an order for a new PET scan",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Please be sure to also send the disc of the PET scan images or bring them with you to your appointment",
+    "neighbor_label": "instruction",
+    "similarity": 0.7721730470657349
+  },
+  {
+    "anchor_text": "sent an order for a new PET scan",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Could you please cancel my PET and CT scans ordered by Dr. Person2 for this week",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.694997251033783
+  },
+  {
+    "anchor_text": "sent an order for a new PET scan",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "They have asked if we can send the PET report and scans to them beforehand",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6933441162109375
+  },
+  {
+    "anchor_text": "sent an order for a new PET scan",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Do you know the reasoning you had this PET scan does and which doctor ordered it?",
+    "neighbor_label": "Drugs",
+    "similarity": 0.6884222626686096
+  },
+  {
+    "anchor_text": "Please advise me how to submit this to",
+    "anchor_label": "General_information",
+    "neighbor_text": "Please let me know when submitted",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6247461438179016
+  },
+  {
+    "anchor_text": "if you can assist me in doing that",
+    "anchor_label": "General_information",
+    "neighbor_text": "Let me know if I can help you with anything else",
+    "neighbor_label": "Encourage_questions",
+    "similarity": 0.6114929914474487
+  },
+  {
+    "anchor_text": "This should ok",
+    "anchor_label": "Approval/Reinforcement",
+    "neighbor_text": "That will work",
+    "neighbor_label": "Alignment",
+    "similarity": 0.6012188792228699
+  },
+  {
+    "anchor_text": "This should ok",
+    "anchor_label": "Approval/Reinforcement",
+    "neighbor_text": "Let me know if this will not work",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5572013854980469
+  },
+  {
+    "anchor_text": "please call",
+    "anchor_label": "General_information",
+    "neighbor_text": "Give  them a call",
+    "neighbor_label": "instruction",
+    "similarity": 0.6478681564331055
+  },
+  {
+    "anchor_text": "please call",
+    "anchor_label": "General_information",
+    "neighbor_text": "Give them a call",
+    "neighbor_label": "instruction",
+    "similarity": 0.6478681564331055
+  },
+  {
+    "anchor_text": "please call",
+    "anchor_label": "General_information",
+    "neighbor_text": "I completely forgot to let you know we wouldn't be calling",
+    "neighbor_label": "Acknowledge_Error",
+    "similarity": 0.6067199110984802
+  },
+  {
+    "anchor_text": "please call",
+    "anchor_label": "General_information",
+    "neighbor_text": "Would one of you be able to give me a call this morning?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6030635237693787
+  },
+  {
+    "anchor_text": "please call",
+    "anchor_label": "General_information",
+    "neighbor_text": "so  you should be able to call tomorrow",
+    "neighbor_label": "instruction",
+    "similarity": 0.5878742933273315
+  },
+  {
+    "anchor_text": "let them know that you have a prescription for a PET scan",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Please be sure to also send the disc of the PET scan images or bring them with you to your appointment",
+    "neighbor_label": "instruction",
+    "similarity": 0.7347866296768188
+  },
+  {
+    "anchor_text": "let them know that you have a prescription for a PET scan",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "They have asked if we can send the PET report and scans to them beforehand",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.7046020030975342
+  },
+  {
+    "anchor_text": "let them know that you have a prescription for a PET scan",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Could you please send the pet scan report to Person1 , doctor Person2 assistant",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6895427703857422
+  },
+  {
+    "anchor_text": "let them know that you have a prescription for a PET scan",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Do you know the reasoning you had this PET scan does and which doctor ordered it?",
+    "neighbor_label": "Drugs",
+    "similarity": 0.6753873825073242
+  },
+  {
+    "anchor_text": "let them know that you have a prescription for a PET scan",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Should we bring forward the PET scans planned for MM/DD/YYYY or defer them until after the treatment has ended?",
+    "neighbor_label": "Explore_options",
+    "similarity": 0.6316252946853638
+  },
+  {
+    "anchor_text": "have it a LOCATION",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "please have them send it to us at",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5614433884620667
+  },
+  {
+    "anchor_text": "had an appt w",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today",
+    "neighbor_label": "Economic_stability",
+    "similarity": 0.5766492486000061
+  },
+  {
+    "anchor_text": "he would order blood tests",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "For my upcoming visit I don see any blood test required?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5521506667137146
+  },
+  {
+    "anchor_text": "send CT scan and report",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "Also please call and get MM/DD/YYYY CT scan scheduled",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.7502332329750061
+  },
+  {
+    "anchor_text": "send CT scan and report",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "I was able to schedule the CT scans",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.7014089226722717
+  },
+  {
+    "anchor_text": "send CT scan and report",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "Could you please send the pet scan report to Person1 , doctor Person2 assistant",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6221028566360474
+  },
+  {
+    "anchor_text": "I will let you know once I have more information",
+    "anchor_label": "Maintain_communication",
+    "neighbor_text": "Let me know if I can help you with anything else",
+    "neighbor_label": "Encourage_questions",
+    "similarity": 0.5701795816421509
+  },
+  {
+    "anchor_text": "Thank you",
+    "anchor_label": "Appreciation/gratitude",
+    "neighbor_text": "Thank you",
+    "neighbor_label": "signoff",
+    "similarity": 1.0000005960464478
+  },
+  {
+    "anchor_text": "Thank you",
+    "anchor_label": "Appreciation/gratitude",
+    "neighbor_text": "thank you",
+    "neighbor_label": "signoff",
+    "similarity": 1.0000005960464478
+  },
+  {
+    "anchor_text": "has done well managing pain",
+    "anchor_label": "Symptoms",
+    "neighbor_text": "Would this treat the pain temporarily?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6197595596313477
+  },
+  {
+    "anchor_text": "has been taking Oxycodone",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I sent the prescription for oxycodone to Dr. Person1 to sign",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5850875377655029
+  },
+  {
+    "anchor_text": "take care of these prescriptions",
+    "anchor_label": "Drugs",
+    "neighbor_text": "They are ok to order but need your prescription",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6845090985298157
+  },
+  {
+    "anchor_text": "take care of these prescriptions",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Prescription has been sent in",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.6179322004318237
+  },
+  {
+    "anchor_text": "take care of these prescriptions",
+    "anchor_label": "Drugs",
+    "neighbor_text": "not sure if this is right section my husband picked up prescriptions",
+    "neighbor_label": "express_opinions",
+    "similarity": 0.6049268245697021
+  },
+  {
+    "anchor_text": "give Dr. Person1 Dr. Person2 cell  phone",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "I wanted to reach out to Dr. Person1",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6623302102088928
+  },
+  {
+    "anchor_text": "give Dr. Person1 Dr. Person2 cell  phone",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "Please let Person2 and I know if you are able to have Dr  Person5 do this for us",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6585640907287598
+  },
+  {
+    "anchor_text": "is having a tough day with pain",
+    "anchor_label": "Symptoms",
+    "neighbor_text": "Is there anything I can get to help with that pain?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6008086800575256
+  },
+  {
+    "anchor_text": "I am on the lookout for the permission / patient approval document",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "We have been directing patients to their PCP office or the Org2 website",
+    "neighbor_label": "General_information",
+    "similarity": 0.5519456267356873
+  },
+  {
+    "anchor_text": "I'll let you know as soon as that is completed",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "I will let you know as soon as he answers me",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.5902190208435059
+  },
+  {
+    "anchor_text": "I'll let you know as soon as that is completed",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "I'll let you know when I  hear back",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.5817515850067139
+  },
+  {
+    "anchor_text": "Dr. Person4 was speaking with Dr. Person5",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "Why did Dr. Person4  not see this",
+    "neighbor_label": "express_opinions",
+    "similarity": 0.7702109813690186
+  },
+  {
+    "anchor_text": "Dr. Person4 was speaking with Dr. Person5",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "I see Dr  Person1 on",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.6275184750556946
+  },
+  {
+    "anchor_text": "not rec'd email message from blood testing lab",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5674786567687988
+  },
+  {
+    "anchor_text": "Person1 has MM/DD/YYYY",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I had two this year (both Person2) one in MM/DD/YYYY and the other in MM/DD/YYYY",
+    "neighbor_label": "Drugs",
+    "similarity": 0.7615808844566345
+  },
+  {
+    "anchor_text": "Person1 has MM/DD/YYYY",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I will check back with Person1 early MM/DD/YYYY",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6834449172019958
+  },
+  {
+    "anchor_text": "Person1 has MM/DD/YYYY",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "MM/DD/YYYY is good",
+    "neighbor_label": "Alignment",
+    "similarity": 0.6806966066360474
+  },
+  {
+    "anchor_text": "Person1 has MM/DD/YYYY",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "MM/DD/YYYY is good!",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.6742023229598999
+  },
+  {
+    "anchor_text": "Does Dr. Person3 want Person1 to continue on",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I see Dr  Person1 on",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.7246928811073303
+  },
+  {
+    "anchor_text": "Does Dr. Person3 want Person1 to continue on",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Can Dr  Person3 do that?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.7138359546661377
+  },
+  {
+    "anchor_text": "Does Dr. Person3 want Person1 to continue on",
+    "anchor_label": "Drugs",
+    "neighbor_text": "We will let you know if Dr Person2 is able to complete",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.7003270387649536
+  },
+  {
+    "anchor_text": "Does Dr. Person3 want Person1 to continue on",
+    "anchor_label": "Drugs",
+    "neighbor_text": "If Dr. Person1 then certainly ok.",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.689336359500885
+  },
+  {
+    "anchor_text": "Does Dr. Person3 want Person1 to continue on",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Dr. Person2 is involved in my treatment",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.689014196395874
+  },
+  {
+    "anchor_text": "would like to see Person2 in the office MM/DD/YYYY",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "look forward to meeting with Dr  Person2 on MM/DD/YYYY",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6302222609519958
+  },
+  {
+    "anchor_text": "would like to see Person2 in the office MM/DD/YYYY",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I will check back with Person1 early MM/DD/YYYY",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5890880227088928
+  },
+  {
+    "anchor_text": "would like to see Person2 in the office MM/DD/YYYY",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Is it possible to have Person2 help with this please?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5888590812683105
+  },
+  {
+    "anchor_text": "I also spoke w Dr. B about 2 Rxs",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I discussed with Dr",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5740815997123718
+  },
+  {
+    "anchor_text": "I also spoke w Dr. B about 2 Rxs",
+    "anchor_label": "Drugs",
+    "neighbor_text": "May I speak with Dr  Person1 XXX-XXX-XXXX",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5548897385597229
+  },
+  {
+    "anchor_text": "I also spoke w Dr. B about 2 Rxs",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I discussed with Dr Person2",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5544874668121338
+  },
+  {
+    "anchor_text": "I also spoke w Dr. B about 2 Rxs",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Just confirming that you heard from Dr. Person2 after my consultation with him on MM/DD/YYYY",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5501357316970825
+  },
+  {
+    "anchor_text": "how many a day is he taking",
+    "anchor_label": "Drugs",
+    "neighbor_text": "are you taking him for repeat labs and urine today or tomorrow?",
+    "neighbor_label": "Diagnostics",
+    "similarity": 0.6023111939430237
+  },
+  {
+    "anchor_text": "Yep, just got a call for MM/DD/YYYY w",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "MM/DD/YYYY is good!",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.7009842395782471
+  },
+  {
+    "anchor_text": "Yep, just got a call for MM/DD/YYYY w",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "MM/DD/YYYY, is that good ?",
+    "neighbor_label": "invite_collaboration",
+    "similarity": 0.6956179738044739
+  },
+  {
+    "anchor_text": "Yep, just got a call for MM/DD/YYYY w",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "MM/DD/YYYY is good",
+    "neighbor_label": "Alignment",
+    "similarity": 0.6933150887489319
+  },
+  {
+    "anchor_text": "Yep, just got a call for MM/DD/YYYY w",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Yes MM/DD/YYYY org1",
+    "neighbor_label": "Alignment",
+    "similarity": 0.6612761616706848
+  },
+  {
+    "anchor_text": "per Dr. Person2's desire and Dr. B agree to get Person3 off Oxy ext release",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "Does Dr. Person3 want Person1 to continue on",
+    "neighbor_label": "Drugs",
+    "similarity": 0.6329430341720581
+  },
+  {
+    "anchor_text": "per Dr. Person2's desire and Dr. B agree to get Person3 off Oxy ext release",
+    "anchor_label": "Care_Coordination",
+    "neighbor_text": "Can Dr  Person3 do that?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5649462342262268
+  },
+  {
+    "anchor_text": "work down to lowest usage Oxy rapid w/o dealing w break through pain",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Really cuts the pain down to almost nothing",
+    "neighbor_label": "Symptoms",
+    "similarity": 0.5763238668441772
+  },
+  {
+    "anchor_text": "I've set up Person3's other",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I will have Person3, APRN sign the orders",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6112537980079651
+  },
+  {
+    "anchor_text": "I've set up Person3's other",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Unfortunately, since Person3 doesn't use the same system we do, images cannot be shared",
+    "neighbor_label": "General_information",
+    "similarity": 0.6070958375930786
+  },
+  {
+    "anchor_text": "I've set up Person3's other",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I'll have Person1 help out",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5876352190971375
+  },
+  {
+    "anchor_text": "I've set up Person3's other",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "My name is Person2 and I am the RN that works with Dr. Person3",
+    "neighbor_label": "General_information",
+    "similarity": 0.576744794845581
+  },
+  {
+    "anchor_text": "I've set up Person3's other",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Would also like to coordinate follow ups with Person2 and Person3",
+    "neighbor_label": "state_preferences",
+    "similarity": 0.576600968837738
+  },
+  {
+    "anchor_text": "Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",
+    "anchor_label": "Drugs",
+    "neighbor_text": "MM/DD/YYYY is good",
+    "neighbor_label": "Alignment",
+    "similarity": 0.685556173324585
+  },
+  {
+    "anchor_text": "Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",
+    "anchor_label": "Drugs",
+    "neighbor_text": "MM/DD/YYYY is good!",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.6832324266433716
+  },
+  {
+    "anchor_text": "Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Can I change this to MM/DD/YYYY or MM/DD/YYYY ?",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.6749117374420166
+  },
+  {
+    "anchor_text": "Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I put you off work from MM/DD/YYYY to MM/DD/YYYY",
+    "neighbor_label": "Economic_stability",
+    "similarity": 0.6596776247024536
+  },
+  {
+    "anchor_text": "Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",
+    "anchor_label": "Drugs",
+    "neighbor_text": "MM/DD/YYYY, is that good ?",
+    "neighbor_label": "invite_collaboration",
+    "similarity": 0.6447727084159851
+  },
+  {
+    "anchor_text": "MM/DD/YYYY one 5mg am and one 5mg pm",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Just want to make sure I take what I should correctly for MM/DD/YYYY",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6146745681762695
+  },
+  {
+    "anchor_text": "Sig swelling (but improving slightly) swelling of right leg persists",
+    "anchor_label": "Symptoms",
+    "neighbor_text": "Have you checked with your cardiologist re your ankle swelling?",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.5686115622520447
+  },
+  {
+    "anchor_text": "Person3 is tolerating all meds well and following directions",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Dr. Person2 is involved in my treatment",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6208613514900208
+  },
+  {
+    "anchor_text": "Person3 is tolerating all meds well and following directions",
+    "anchor_label": "Drugs",
+    "neighbor_text": "It looks like Dr. Person2 was ok with you waiting til  MM/DD/YYYY to start the new medication",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6122137904167175
+  },
+  {
+    "anchor_text": "Person3 is tolerating all meds well and following directions",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Dr. Person1 has the final word regarding my treatments and regimens",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6100609302520752
+  },
+  {
+    "anchor_text": "Person3 is tolerating all meds well and following directions",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I will go over this with Dr  Person1 today",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6073957085609436
+  },
+  {
+    "anchor_text": "Thanks a ton",
+    "anchor_label": "Appreciation/gratitude",
+    "neighbor_text": "No problem",
+    "neighbor_label": "Connection",
+    "similarity": 0.5922769904136658
+  },
+  {
+    "anchor_text": "Thanks a ton",
+    "anchor_label": "Appreciation/gratitude",
+    "neighbor_text": "No problem",
+    "neighbor_label": "Alignment",
+    "similarity": 0.5922769904136658
+  },
+  {
+    "anchor_text": "Thanks a ton",
+    "anchor_label": "Appreciation/gratitude",
+    "neighbor_text": "Thanks",
+    "neighbor_label": "signoff",
+    "similarity": 0.5708644390106201
+  },
+  {
+    "anchor_text": "I hope he signs it MM/DD/YYYY but it may not be  until MM/DD/YYYY",
+    "anchor_label": "General_information",
+    "neighbor_text": "I see an appointment for the MM/DD/YYYY",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.6139532923698425
+  },
+  {
+    "anchor_text": "I hope he signs it MM/DD/YYYY but it may not be  until MM/DD/YYYY",
+    "anchor_label": "General_information",
+    "neighbor_text": "Next one is scheduled for MM/DD/YYYY",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.5654425621032715
+  },
+  {
+    "anchor_text": "rec'd a notice MM/DD/YYYY",
+    "anchor_label": "General_information",
+    "neighbor_text": "I see an appointment for the MM/DD/YYYY",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.6451557278633118
+  },
+  {
+    "anchor_text": "rec'd a notice MM/DD/YYYY",
+    "anchor_label": "General_information",
+    "neighbor_text": "MM/DD/YYYY is good!",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.612816572189331
+  },
+  {
+    "anchor_text": "rec'd a notice MM/DD/YYYY",
+    "anchor_label": "General_information",
+    "neighbor_text": "See you MM/DD/YYYY",
+    "neighbor_label": "Connection",
+    "similarity": 0.6098546385765076
+  },
+  {
+    "anchor_text": "rec'd a notice MM/DD/YYYY",
+    "anchor_label": "General_information",
+    "neighbor_text": "See you MM/DD/YYYY",
+    "neighbor_label": "Connection",
+    "similarity": 0.6098545789718628
+  },
+  {
+    "anchor_text": "rec'd a notice MM/DD/YYYY",
+    "anchor_label": "General_information",
+    "neighbor_text": "MM/DD/YYYY is good",
+    "neighbor_label": "Alignment",
+    "similarity": 0.6012924313545227
+  },
+  {
+    "anchor_text": "Anything I can do?",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "Is there something else I could try?",
+    "neighbor_label": "Explore_options",
+    "similarity": 0.5642737150192261
+  },
+  {
+    "anchor_text": "I was just looking at my calendar and realized my next appt",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today",
+    "neighbor_label": "Economic_stability",
+    "similarity": 0.5802661180496216
+  },
+  {
+    "anchor_text": "That is MM/DD/YYYY I'm supposed to start my next round of Ibrance??",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Per Person1, as long as you are feeling ok you can go ahead and start Ibrance today!",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.6484701037406921
+  },
+  {
+    "anchor_text": "That is MM/DD/YYYY I'm supposed to start my next round of Ibrance??",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Should I start Ibrance tonight?",
+    "neighbor_label": "Seeking_Approval",
+    "similarity": 0.6436272859573364
+  },
+  {
+    "anchor_text": "I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I gets labs done early tomorrow",
+    "neighbor_label": "Diagnostics",
+    "similarity": 0.6348364353179932
+  },
+  {
+    "anchor_text": "I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I will get labs first am",
+    "neighbor_label": "Diagnostics",
+    "similarity": 0.5976346731185913
+  },
+  {
+    "anchor_text": "The pharmacy won't have time to get my meds delivered to me if we keep this schedule",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I setup for them to ship the medication to me",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.7031570672988892
+  },
+  {
+    "anchor_text": "The pharmacy won't have time to get my meds delivered to me if we keep this schedule",
+    "anchor_label": "Drugs",
+    "neighbor_text": "The pharmacy will contact you when  its ready to pick up",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.6438404321670532
+  },
+  {
+    "anchor_text": "The pharmacy won't have time to get my meds delivered to me if we keep this schedule",
+    "anchor_label": "Drugs",
+    "neighbor_text": "you can call them to arrange this, the pharmacy # is  XXX-XXX-XXXX",
+    "neighbor_label": "instruction",
+    "similarity": 0.6315692663192749
+  },
+  {
+    "anchor_text": "Please advise",
+    "anchor_label": "General_information",
+    "neighbor_text": "Your advice please",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.7185097336769104
+  },
+  {
+    "anchor_text": "Please advise",
+    "anchor_label": "General_information",
+    "neighbor_text": "Appreciate your advice",
+    "neighbor_label": "build_trust",
+    "similarity": 0.6422739624977112
+  },
+  {
+    "anchor_text": "Please advise",
+    "anchor_label": "General_information",
+    "neighbor_text": "Please keep me informed",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5706859827041626
+  },
+  {
+    "anchor_text": "Thank you very much",
+    "anchor_label": "signoff",
+    "neighbor_text": "Thank you very much",
+    "neighbor_label": "Appreciation/gratitude",
+    "similarity": 1.000000238418579
+  },
+  {
+    "anchor_text": "Thank you very much",
+    "anchor_label": "signoff",
+    "neighbor_text": "Thank you so much",
+    "neighbor_label": "Appreciation/gratitude",
+    "similarity": 0.8213021159172058
+  },
+  {
+    "anchor_text": "You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "you have can labs drawn before seeing",
+    "neighbor_label": "Diagnostics",
+    "similarity": 0.6250007748603821
+  },
+  {
+    "anchor_text": "You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "My  blood draw and appointment with Dr. Person1 will be in the Org2 office on MM/DD/YYYY, starting at 9:30 AM, correct?",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.5986259579658508
+  },
+  {
+    "anchor_text": "You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Could you please send an order so I can have blood drawn on MM/DD/YYYY this week",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5658657550811768
+  },
+  {
+    "anchor_text": "You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Could you please send an order so I can have blood drawn on MM/DD/YYYY this week",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5658656358718872
+  },
+  {
+    "anchor_text": "You can have this drawn at any any of the L&M draw stations MM/DD/YYYY before your visit with Dr Person1",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "I have an appointment with Dr. Person2 next MM/DD/YYYY, the MM/DD/YYYY",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.5606768727302551
+  },
+  {
+    "anchor_text": "The pharmacy is pretty quick to get meds out to patients",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I setup for them to ship the medication to me",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.5969117879867554
+  },
+  {
+    "anchor_text": "The pharmacy is pretty quick to get meds out to patients",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Calling pharmacy today",
+    "neighbor_label": "General_information",
+    "similarity": 0.593955397605896
+  },
+  {
+    "anchor_text": "The pharmacy is pretty quick to get meds out to patients",
+    "anchor_label": "Drugs",
+    "neighbor_text": "The pharmacy will contact you when  its ready to pick up",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.587795078754425
+  },
+  {
+    "anchor_text": "can do same day delivery if needed",
+    "anchor_label": "General_information",
+    "neighbor_text": "They can set up delivery to you, it  would need to be a few days in advance",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.6715413928031921
+  },
+  {
+    "anchor_text": "Currently my lab work is scheduled to be done",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I gets labs done early tomorrow",
+    "neighbor_label": "Diagnostics",
+    "similarity": 0.6980255842208862
+  },
+  {
+    "anchor_text": "Currently my lab work is scheduled to be done",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "Yes, you can get your labs done",
+    "neighbor_label": "instruction",
+    "similarity": 0.6385396718978882
+  },
+  {
+    "anchor_text": "Currently my lab work is scheduled to be done",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I will get labs first am",
+    "neighbor_label": "Diagnostics",
+    "similarity": 0.610644519329071
+  },
+  {
+    "anchor_text": "Currently my lab work is scheduled to be done",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "we will watch for the lab results",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.595011293888092
+  },
+  {
+    "anchor_text": "I see Dr  Person1 on",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I see Dr. Person2 in another month",
+    "neighbor_label": "General_information",
+    "similarity": 0.7562189698219299
+  },
+  {
+    "anchor_text": "I see Dr  Person1 on",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I be in touch with Dr. Person1 this coming week.",
+    "neighbor_label": "General_information",
+    "similarity": 0.7520002126693726
+  },
+  {
+    "anchor_text": "I see Dr  Person1 on",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I will go over this with Dr  Person1 today",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.7503503561019897
+  },
+  {
+    "anchor_text": "I see Dr  Person1 on",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "I seeing Dr Person1 at 1pm at Org3 on MM/DD/YYYY",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.7361419796943665
+  },
+  {
+    "anchor_text": "I see Dr  Person1 on",
+    "anchor_label": "Scheduling_appt",
+    "neighbor_text": "If Dr. Person1 then certainly ok.",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.7270954251289368
+  },
+  {
+    "anchor_text": "Usually it takes the pharmacy MM/DD/YYYY to call me regarding delivery of my meds",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I setup for them to ship the medication to me",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.7303688526153564
+  },
+  {
+    "anchor_text": "Usually it takes the pharmacy MM/DD/YYYY to call me regarding delivery of my meds",
+    "anchor_label": "Drugs",
+    "neighbor_text": "so you should just be able to call the pharmacy or request via phone",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.7124316692352295
+  },
+  {
+    "anchor_text": "Usually it takes the pharmacy MM/DD/YYYY to call me regarding delivery of my meds",
+    "anchor_label": "Drugs",
+    "neighbor_text": "The pharmacy will contact you when  its ready to pick up",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.7091582417488098
+  },
+  {
+    "anchor_text": "Usually it takes the pharmacy MM/DD/YYYY to call me regarding delivery of my meds",
+    "anchor_label": "Drugs",
+    "neighbor_text": "you can call them to arrange this, the pharmacy # is  XXX-XXX-XXXX",
+    "neighbor_label": "instruction",
+    "similarity": 0.7038021683692932
+  },
+  {
+    "anchor_text": "that's why I was concerned",
+    "anchor_label": "Express_concern/unease",
+    "neighbor_text": "I know it causes concern",
+    "neighbor_label": "Reassurance",
+    "similarity": 0.5705282688140869
+  },
+  {
+    "anchor_text": "Sorry to bother",
+    "anchor_label": "Connection",
+    "neighbor_text": "no worries",
+    "neighbor_label": "Reassurance",
+    "similarity": 0.6351524591445923
+  },
+  {
+    "anchor_text": "Sorry to bother",
+    "anchor_label": "Connection",
+    "neighbor_text": "So sorry about that",
+    "neighbor_label": "Acknowledge_Error",
+    "similarity": 0.5621934533119202
+  },
+  {
+    "anchor_text": "but I am still not understanding the timing of my blood work",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "Please let me know when I should start my blood work",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6563975214958191
+  },
+  {
+    "anchor_text": "but I am still not understanding the timing of my blood work",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "I assuming since I didn get a phone call my bloodwork didn come back as desired",
+    "neighbor_label": "express_opinions",
+    "similarity": 0.6376609206199646
+  },
+  {
+    "anchor_text": "Yes, you can get your labs done",
+    "anchor_label": "instruction",
+    "neighbor_text": "I gets labs done early tomorrow",
+    "neighbor_label": "Diagnostics",
+    "similarity": 0.7113012075424194
+  },
+  {
+    "anchor_text": "Yes, you can get your labs done",
+    "anchor_label": "instruction",
+    "neighbor_text": "Yes you would need labs before you start your next cycle",
+    "neighbor_label": "Making_decision_together",
+    "similarity": 0.6862847805023193
+  },
+  {
+    "anchor_text": "Yes, you can get your labs done",
+    "anchor_label": "instruction",
+    "neighbor_text": "Currently my lab work is scheduled to be done",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.6385396718978882
+  },
+  {
+    "anchor_text": "Yes, you can get your labs done",
+    "anchor_label": "instruction",
+    "neighbor_text": "Could you please get labs around MM/DD/YYYY?",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.6278759837150574
+  },
+  {
+    "anchor_text": "Labs have been order",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "Please continue with labs like you were getting",
+    "neighbor_label": "instruction",
+    "similarity": 0.7074987888336182
+  },
+  {
+    "anchor_text": "Labs have been order",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "was not ordered by Dr. Person2 with the labs on MM/DD/YYYY",
+    "neighbor_label": "Care_Coordination",
+    "similarity": 0.6967549324035645
+  },
+  {
+    "anchor_text": "The CBC was done with a manual diff",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "if you can get a CBC that would be a good place to start",
+    "neighbor_label": "Share_options",
+    "similarity": 0.5895897746086121
+  },
+  {
+    "anchor_text": "I hope that helps",
+    "anchor_label": "Connection",
+    "neighbor_text": "Hope this helps",
+    "neighbor_label": "Reassurance",
+    "similarity": 0.8498409390449524
+  },
+  {
+    "anchor_text": ", let me know if you have any other questions or concerns",
+    "anchor_label": "Encourage_questions",
+    "neighbor_text": "Let me know if you have any other questions",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.7961933016777039
+  },
+  {
+    "anchor_text": ", let me know if you have any other questions or concerns",
+    "anchor_label": "Encourage_questions",
+    "neighbor_text": "Let me know if any issues",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.6842932105064392
+  },
+  {
+    "anchor_text": ", let me know if you have any other questions or concerns",
+    "anchor_label": "Encourage_questions",
+    "neighbor_text": "let me know if you have any issues !",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.6722941994667053
+  },
+  {
+    "anchor_text": ", let me know if you have any other questions or concerns",
+    "anchor_label": "Encourage_questions",
+    "neighbor_text": "Any other issues, let me know",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.6714365482330322
+  },
+  {
+    "anchor_text": ", let me know if you have any other questions or concerns",
+    "anchor_label": "Encourage_questions",
+    "neighbor_text": "Here are a list of our concerns that we are looking forward to discussing with you tomorrow",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6393031477928162
+  },
+  {
+    "anchor_text": "Thanks",
+    "anchor_label": "Appreciation/gratitude",
+    "neighbor_text": "Thanks",
+    "neighbor_label": "signoff",
+    "similarity": 0.9999999403953552
+  },
+  {
+    "anchor_text": "Thanks",
+    "anchor_label": "Appreciation/gratitude",
+    "neighbor_text": "thanks",
+    "neighbor_label": "signoff",
+    "similarity": 0.9999999403953552
+  },
+  {
+    "anchor_text": "Those results came in after I sent the message to the doctor",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "I look forward to hearing from Dr. Person1 regarding these test results.",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6351394653320312
+  },
+  {
+    "anchor_text": "Those results came in after I sent the message to the doctor",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "I may be wrong but the results looked good to me!",
+    "neighbor_label": "express_opinions",
+    "similarity": 0.5755206346511841
+  },
+  {
+    "anchor_text": "I am all set",
+    "anchor_label": "General_information",
+    "neighbor_text": "You should be all set",
+    "neighbor_label": "Alignment",
+    "similarity": 0.8261950016021729
+  },
+  {
+    "anchor_text": "I am all set",
+    "anchor_label": "General_information",
+    "neighbor_text": "You  should be all set.",
+    "neighbor_label": "Connection",
+    "similarity": 0.7899960279464722
+  },
+  {
+    "anchor_text": "have a good day",
+    "anchor_label": "Connection",
+    "neighbor_text": "Have a good day.",
+    "neighbor_label": "signoff",
+    "similarity": 0.9265523552894592
+  },
+  {
+    "anchor_text": "have a good day",
+    "anchor_label": "Connection",
+    "neighbor_text": "Have a nice day!",
+    "neighbor_label": "signoff",
+    "similarity": 0.7855796813964844
+  },
+  {
+    "anchor_text": "Have a great day too!",
+    "anchor_label": "Connection",
+    "neighbor_text": "Have a nice day!",
+    "neighbor_label": "signoff",
+    "similarity": 0.7001140713691711
+  },
+  {
+    "anchor_text": "if it would be safe for me to get a whooping cough shot",
+    "anchor_label": "Drugs",
+    "neighbor_text": "was checking on the whooping cough for me to see if it was OK to have it with my WBC",
+    "neighbor_label": "General_information",
+    "similarity": 0.6833341121673584
+  },
+  {
+    "anchor_text": "if it would be safe for me to get a whooping cough shot",
+    "anchor_label": "Drugs",
+    "neighbor_text": "we do not give the whooping cough (tdap) vaccine here",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.6694748997688293
+  },
+  {
+    "anchor_text": "if it would be safe for me to get a whooping cough shot",
+    "anchor_label": "Drugs",
+    "neighbor_text": "it is fine to get the vaccine",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.6525857448577881
+  },
+  {
+    "anchor_text": "if it would be safe for me to get a whooping cough shot",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Please let me know if the two meds will be ok and safe for me to get the vaccine",
+    "neighbor_label": "Seeking_Approval",
+    "similarity": 0.5706495642662048
+  },
+  {
+    "anchor_text": "as well as a flu shot) while taking Ibrance and my other meds",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Should I stop taking the ibrance while I sick?",
+    "neighbor_label": "Seeking_Approval",
+    "similarity": 0.6699522733688354
+  },
+  {
+    "anchor_text": "as well as a flu shot) while taking Ibrance and my other meds",
+    "anchor_label": "Drugs",
+    "neighbor_text": "If you are having fevers and feeling unwell you should hold the Ibrance",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.6407662034034729
+  },
+  {
+    "anchor_text": "You were going to check with the pharmacist",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "so you should just be able to call the pharmacy or request via phone",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.6612823605537415
+  },
+  {
+    "anchor_text": "You were going to check with the pharmacist",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "you will have to do that at your PCP or local pharmacy",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.643685519695282
+  },
+  {
+    "anchor_text": "You were going to check with the pharmacist",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "you can go to your PCP or local pharmacy",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.6396867632865906
+  },
+  {
+    "anchor_text": "You were going to check with the pharmacist",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "The pharmacy will contact you when  its ready to pick up",
+    "neighbor_label": "Maintain_communication",
+    "similarity": 0.6287256479263306
+  },
+  {
+    "anchor_text": "Did they respond back",
+    "anchor_label": "active_participation_/involvement",
+    "neighbor_text": "I haven had a response to either my e-mail or a phone message I left?",
+    "neighbor_label": "Health_care_access_and_quality",
+    "similarity": 0.5518268346786499
+  },
+  {
+    "anchor_text": "If it is ok can I have those shots at LOCATION",
+    "anchor_label": "Health_care_access_and_quality",
+    "neighbor_text": "Is there anyway I could be allowed to go in I had my Covid shots",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6065928936004639
+  },
+  {
+    "anchor_text": "Thank you",
+    "anchor_label": "signoff",
+    "neighbor_text": "Thank you",
+    "neighbor_label": "Appreciation/gratitude",
+    "similarity": 1.0000005960464478
+  },
+  {
+    "anchor_text": "I had my MM/DD/YYYY bloodwork done MM/DD/YYYY",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "I see i Scheduled for a blood draw on MM/DD/YYYY",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.7252063155174255
+  },
+  {
+    "anchor_text": "I had my MM/DD/YYYY bloodwork done MM/DD/YYYY",
+    "anchor_label": "Diagnostics",
+    "neighbor_text": "Would someone kindly schedule me for bloodwork to be completed prior to MM/DD/YYYY?",
+    "neighbor_label": "Scheduling_appt",
+    "similarity": 0.6620547771453857
+  },
+  {
+    "anchor_text": "just checking to see if it is ok to continue this round of Ibrance?",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Should I start Ibrance tonight?",
+    "neighbor_label": "Seeking_Approval",
+    "similarity": 0.6732900738716125
+  },
+  {
+    "anchor_text": "just checking to see if it is ok to continue this round of Ibrance?",
+    "anchor_label": "Drugs",
+    "neighbor_text": "Per Person1, as long as you are feeling ok you can go ahead and start Ibrance today!",
+    "neighbor_label": "Approval/Reinforcement",
+    "similarity": 0.666191577911377
+  },
+  {
+    "anchor_text": "just checking to see if it is ok to continue this round of Ibrance?",
+    "anchor_label": "Drugs",
+    "neighbor_text": "I holding off starting the 2nd cycle of Ibrance?",
+    "neighbor_label": "active_participation_/involvement",
+    "similarity": 0.6179259419441223
+  },
+  {
+    "anchor_text": "Thank you,",
+    "anchor_label": "signoff",
+    "neighbor_text": "Thank you",
+    "neighbor_label": "Appreciation/gratitude",
+    "similarity": 0.8059808015823364
+  }
+]

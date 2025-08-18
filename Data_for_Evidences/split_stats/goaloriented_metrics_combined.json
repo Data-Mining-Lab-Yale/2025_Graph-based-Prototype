@@ -1,0 +1,12 @@
+{
+  "num_classes": 18,
+  "total": 1123,
+  "IR_max": 28.0,
+  "CV": 0.9385173042055501,
+  "entropy": 2.4434582960499323,
+  "entropy_normalized": 0.8453785535977107,
+  "gini": 0.895510292761486,
+  "effective_classes": 9.570320622272813,
+  "majority_class_count": 168,
+  "minority_class_count": 6
+}
