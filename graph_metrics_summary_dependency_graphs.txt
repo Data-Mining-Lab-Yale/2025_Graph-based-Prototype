@@ -1,0 +1,18 @@
+=== Dataset-level Graph Metrics Summary ===
+Num graphs: 2081
+
+n_nodes               : 7.7463 ± 4.6911
+n_edges               : 6.7213 ± 4.6644
+density               : 0.3685 ± 0.2607
+avg_degree            : 1.5927 ± 0.3295
+diameter_lcc          : 3.8381 ± 2.0206
+aspl_lcc              : 2.1136 ± 0.7900
+avg_clustering        : 0.0000 ± 0.0000
+degree_entropy        : 1.1420 ± 0.4959
+node_label_entropy    : 2.6185 ± 0.9250
+edge_label_entropy    : 0.0000 ± 0.0000
+lap_num_unique_eigs   : 6.4089 ± 3.6457
+lap_spectral_entropy  : 1.9487 ± 1.0103
+adj_graph_energy      : 7.7634 ± 4.8985
+
+WL distinguishability: 1732 unique / 2081 total (83.23% unique)
