@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.520618556701031,
+  "macro_f1": 0.5028613293919416,
+  "split": "stratified",
+  "per_class_f1": {
+    "Care_Coordination": 0.5757575757575758,
+    "Diagnostics": 0.6388888888888888,
+    "Drugs": 0.6071428571428571,
+    "General_information": 0.32653061224489793,
+    "Health_care_access_and_quality": 0.2857142857142857,
+    "Scheduling_appt": 0.5454545454545454,
+    "Symptoms": 0.5405405405405406
+  },
+  "support": {
+    "Care_Coordination": 30.0,
+    "Diagnostics": 38.0,
+    "Drugs": 32.0,
+    "General_information": 30.0,
+    "Health_care_access_and_quality": 17.0,
+    "Scheduling_appt": 27.0,
+    "Symptoms": 20.0
+  }
+}

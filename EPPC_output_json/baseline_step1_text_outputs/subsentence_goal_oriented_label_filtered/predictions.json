@@ -1,0 +1,4076 @@
+[
+  {
+    "id": "266_2_0",
+    "text": "Radiation had scheduled 5 days of treatment for next week,",
+    "gold_label": "Diagnostics",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.4511030888735931
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.15268790020842618
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.10752709252020094
+      }
+    ]
+  },
+  {
+    "id": "465_0_0",
+    "text": "Hi Person1 - refill has been sent in.",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.31878427447204505
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.17944612882583721
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.16555284116120655
+      }
+    ]
+  },
+  {
+    "id": "126_4_3",
+    "text": "is this because of the taxol?",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.2547248963918072
+      },
+      {
+        "label": "General_information",
+        "prob": 0.25385661222783956
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1875825361018247
+      }
+    ]
+  },
+  {
+    "id": "81_0_1",
+    "text": "Here is your PSA result: 0.167 Person2",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.45686010930342275
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16706990499325292
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1342373740150049
+      }
+    ]
+  },
+  {
+    "id": "349_1_0",
+    "text": "The form does not request any medical records information.",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.31706751353948576
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.2461747361763221
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13717776944681653
+      }
+    ]
+  },
+  {
+    "id": "155_0_2",
+    "text": "but I cannot confirm",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.28532333739871585
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1533631751349541
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.14017551001296427
+      }
+    ]
+  },
+  {
+    "id": "15_2_3",
+    "text": "current Rx will run out by tmrrw,",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.4507153354560468
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.12387045363885432
+      },
+      {
+        "label": "General_information",
+        "prob": 0.10624315016781224
+      }
+    ]
+  },
+  {
+    "id": "37_6_0",
+    "text": "I have nothing to compare",
+    "gold_label": "General_information",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.23319141215095723
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1665618128330515
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.15047706458258406
+      }
+    ]
+  },
+  {
+    "id": "494_0_0",
+    "text": "Hi Mr. Person1 the APRN will call at 3:00 pm to discuss",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.29190559755771145
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.16363236182774898
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.15540897728654984
+      }
+    ]
+  },
+  {
+    "id": "272_0_1",
+    "text": "The insurance is driving me nuts.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.27827004681640716
+      },
+      {
+        "label": "General_information",
+        "prob": 0.22313227135571143
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1275845288717318
+      }
+    ]
+  },
+  {
+    "id": "350_2_0",
+    "text": "We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.7417474489422806
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.09531372167333818
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.05717533411199392
+      }
+    ]
+  },
+  {
+    "id": "17_11_3",
+    "text": "recently interrupted by anxiety attacks.",
+    "gold_label": "Symptoms",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.22973086807702645
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.17502092300166855
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.15108446730034347
+      }
+    ]
+  },
+  {
+    "id": "44_0_0",
+    "text": "Result not back yet Also please call",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.4925468132391125
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.11264877635919048
+      },
+      {
+        "label": "General_information",
+        "prob": 0.09794757762659974
+      }
+    ]
+  },
+  {
+    "id": "440_0_0",
+    "text": "We have a death in the family (brother) and will be",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.3241125722455188
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.14363096205960849
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.1326714763918513
+      }
+    ]
+  },
+  {
+    "id": "349_0_1",
+    "text": "We received a single page form that stated",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.3047961704556445
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.20420281623883163
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.20259500627469515
+      }
+    ]
+  },
+  {
+    "id": "220_0_0",
+    "text": "Hi Person1 I asked Dr Person2 to review and here are",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.5231363129597574
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.12171427983155428
+      },
+      {
+        "label": "General_information",
+        "prob": 0.09366224341513787
+      }
+    ]
+  },
+  {
+    "id": "339_2_2",
+    "text": "is \"with known osseous metastatic disease\"  Will this now qualify me for both femur and knee",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.23144134239960262
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1910790951608628
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.16648975696199633
+      }
+    ]
+  },
+  {
+    "id": "429_0_1",
+    "text": "Confirmed with Dr. Person2 that he would like",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.5423650446377581
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13180405474541765
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.09149583964677634
+      }
+    ]
+  },
+  {
+    "id": "140_0_1",
+    "text": "I sent the message to Dr. Person2 yesterday evening and have not gotten",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.6259762497102811
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.16371119713434004
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.05482339710015048
+      }
+    ]
+  },
+  {
+    "id": "154_1_1",
+    "text": "like muscle pain in my shoulder blade area and my upper arm",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.5913230346321552
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.09609983524906428
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.09112671500933091
+      }
+    ]
+  },
+  {
+    "id": "468_1_0",
+    "text": "Is he putting anything topical on this?",
+    "gold_label": "Drugs",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.2701104986857208
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.21750004280936958
+      },
+      {
+        "label": "General_information",
+        "prob": 0.17783369798809623
+      }
+    ]
+  },
+  {
+    "id": "566_0_1",
+    "text": "were you able to schedule my bone scan?",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.7745590142006823
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.04917106806847111
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.04702263925265684
+      }
+    ]
+  },
+  {
+    "id": "559_0_2",
+    "text": "I see on mychart that I still scheduled",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.24293270504713751
+      },
+      {
+        "label": "General_information",
+        "prob": 0.23345101728734563
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.18654368493215195
+      }
+    ]
+  },
+  {
+    "id": "559_0_3",
+    "text": "to see Dr. Person3 on MM/DD/YYYY.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.40349575956885314
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.23247990246203534
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13374762319364034
+      }
+    ]
+  },
+  {
+    "id": "204_1_0",
+    "text": "His office called me about 12 days ago asking",
+    "gold_label": "Diagnostics",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.19600990966535017
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.19484647725342438
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.16790856798753728
+      }
+    ]
+  },
+  {
+    "id": "181_0_1",
+    "text": "referral is in.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.23801157883614213
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.22245055954728993
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.2003501875590282
+      }
+    ]
+  },
+  {
+    "id": "502_0_0",
+    "text": "What area of the body are these?",
+    "gold_label": "Symptoms",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.19365638435433416
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1831179973726447
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.15705670690313886
+      }
+    ]
+  },
+  {
+    "id": "67_0_7",
+    "text": "to go other yale clinic to do",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.5375567731608784
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.09781596856354663
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.09057427068285032
+      }
+    ]
+  },
+  {
+    "id": "376_0_0",
+    "text": "Also I will be taking pre medication for CT Scan with contrast",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.3365626972781897
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.21320059065208508
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1379737570627324
+      }
+    ]
+  },
+  {
+    "id": "15_0_1",
+    "text": "Dr. Person1 would like to see Person2 in the office MM/DD/YYYY,",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.27144921588942866
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.2093550916764117
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.16446843966475136
+      }
+    ]
+  },
+  {
+    "id": "300_1_2",
+    "text": "diarrhea and was throwing",
+    "gold_label": "Symptoms",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.28536560612912226
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.2143751215543962
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1459304171629902
+      }
+    ]
+  },
+  {
+    "id": "531_0_1",
+    "text": "tmrw..will  His treatment for Wed be postponed?",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.22113419327496417
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.17473132006622255
+      },
+      {
+        "label": "General_information",
+        "prob": 0.17210686391383387
+      }
+    ]
+  },
+  {
+    "id": "86_1_0",
+    "text": "Do you have the psa level",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.599588992511666
+      },
+      {
+        "label": "General_information",
+        "prob": 0.12531907262642852
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.07727029972584586
+      }
+    ]
+  },
+  {
+    "id": "615_0_1",
+    "text": "I'll have Person1 help out.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.2877631518602938
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.2401197290487308
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13891056640803365
+      }
+    ]
+  },
+  {
+    "id": "60_1_0",
+    "text": "Is my psa high or low",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.2997561912624794
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.15834027952508195
+      },
+      {
+        "label": "General_information",
+        "prob": 0.15634578941323643
+      }
+    ]
+  },
+  {
+    "id": "308_1_0",
+    "text": "I will get labs first am",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.2254985552300229
+      },
+      {
+        "label": "General_information",
+        "prob": 0.17586247534926608
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.16452644317484305
+      }
+    ]
+  },
+  {
+    "id": "119_1_0",
+    "text": "I take Tums sometimes.",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.32251476482085034
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.15310464655448744
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.1205894407740936
+      }
+    ]
+  },
+  {
+    "id": "280_3_4",
+    "text": "no longer contagious or whatever the correct wording would be",
+    "gold_label": "Symptoms",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.24015770786253754
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.17085565885437204
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.14984397147712678
+      }
+    ]
+  },
+  {
+    "id": "501_0_1",
+    "text": "My dad feels that these spots are",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.39956143776892383
+      },
+      {
+        "label": "General_information",
+        "prob": 0.23127135527034362
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.11247805565688583
+      }
+    ]
+  },
+  {
+    "id": "344_1_0",
+    "text": "I usually also have cbc- they drew the blood for it just need it input",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.4160907215496892
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.13801980172312003
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.11384839743789527
+      }
+    ]
+  },
+  {
+    "id": "407_0_2",
+    "text": "TRT under the supervision of Dr Person2 of Org4 Urology.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.34940309553563786
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1536030164049963
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1506711565503754
+      }
+    ]
+  },
+  {
+    "id": "524_3_0",
+    "text": "Swelling in his legs started again yesterday.",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.3695238290715225
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1976270357124064
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1144191134212925
+      }
+    ]
+  },
+  {
+    "id": "17_9_3",
+    "text": "digestion normal (that may become diarrhea as radiation has started",
+    "gold_label": "Symptoms",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.22043982852018307
+      },
+      {
+        "label": "General_information",
+        "prob": 0.20047370565145184
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.1692970807451862
+      }
+    ]
+  },
+  {
+    "id": "375_0_0",
+    "text": "What time is this scheduled  for on the MM/DD/YYYY of this month",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.6126934254862614
+      },
+      {
+        "label": "General_information",
+        "prob": 0.12823816061695317
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1011111868362463
+      }
+    ]
+  },
+  {
+    "id": "13_5_0",
+    "text": "We are both at the limit of getting \"stuck.\"",
+    "gold_label": "General_information",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.28912667125048713
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.15399153817719968
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1446884844512504
+      }
+    ]
+  },
+  {
+    "id": "121_1_1",
+    "text": "down a week ago but didn notice",
+    "gold_label": "General_information",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.3263715744239359
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.1724133468364743
+      },
+      {
+        "label": "General_information",
+        "prob": 0.12623418258476124
+      }
+    ]
+  },
+  {
+    "id": "474_0_0",
+    "text": "Cool     I need Dr Person1 to send",
+    "gold_label": "Drugs",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.5809364934717784
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.18057989264582477
+      },
+      {
+        "label": "General_information",
+        "prob": 0.061267609818036445
+      }
+    ]
+  },
+  {
+    "id": "558_2_0",
+    "text": "I just spoke with Dr. Person2 to reschedule",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.5023121060041568
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.24239569670873265
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.07388625203605728
+      }
+    ]
+  },
+  {
+    "id": "471_0_0",
+    "text": "Cool re rash    I saw dr  Person1 on video chat in MM/DD/YYYY",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.24616527481707015
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.16204391640645152
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.15889619045455314
+      }
+    ]
+  },
+  {
+    "id": "61_3_0",
+    "text": "Is my psa high or low",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.2997561912624794
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.15834027952508195
+      },
+      {
+        "label": "General_information",
+        "prob": 0.15634578941323643
+      }
+    ]
+  },
+  {
+    "id": "141_2_1",
+    "text": "it has not helped.",
+    "gold_label": "Drugs",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.40808919782836933
+      },
+      {
+        "label": "General_information",
+        "prob": 0.17152471595078664
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1551317418509938
+      }
+    ]
+  },
+  {
+    "id": "141_1_0",
+    "text": "I did not realize he got",
+    "gold_label": "General_information",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.23263411386137578
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.2061733795309228
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.1576803933480509
+      }
+    ]
+  },
+  {
+    "id": "331_0_2",
+    "text": "Checked with Dr Person2,",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.7385058035515669
+      },
+      {
+        "label": "General_information",
+        "prob": 0.06660755171694231
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.05610892975359673
+      }
+    ]
+  },
+  {
+    "id": "35_0_1",
+    "text": "Ok for you to get",
+    "gold_label": "Drugs",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.23928445194598313
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.22388895817490997
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.13976964740965636
+      }
+    ]
+  },
+  {
+    "id": "23_0_1",
+    "text": "Dr  Person1 on MM/DD/YYYY.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.3884154511262566
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.19552757399192586
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.17822082903755762
+      }
+    ]
+  },
+  {
+    "id": "12_1_0",
+    "text": "I will also give Dr. Person1 Dr. Person2 cell  phone so they can touch",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.544348758649912
+      },
+      {
+        "label": "General_information",
+        "prob": 0.11983591589451746
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.09264868226974422
+      }
+    ]
+  },
+  {
+    "id": "407_0_1",
+    "text": "I need to inform you that on MM/DD/YYYY I started",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.4076273477701158
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1877482915598982
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1467583697330365
+      }
+    ]
+  },
+  {
+    "id": "47_1_0",
+    "text": "I saw the results of the CT abdomen pelvis test.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.6511292124312998
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.09299313669380345
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.06505543868971204
+      }
+    ]
+  },
+  {
+    "id": "517_0_0",
+    "text": "Tmrw according to your instructions",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.4502267330636009
+      },
+      {
+        "label": "General_information",
+        "prob": 0.15655442197916836
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13463238051947793
+      }
+    ]
+  },
+  {
+    "id": "315_5_0",
+    "text": "I will ask our secretary to schedule but if MM/DD/YYYY is",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.8199716305478488
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.04243082387161734
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.03819131963031004
+      }
+    ]
+  },
+  {
+    "id": "526_1_1",
+    "text": "for treatment on  MM/DD/YYYY?",
+    "gold_label": "Symptoms",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.6791588236668964
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1087503448702937
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.07977308008182761
+      }
+    ]
+  },
+  {
+    "id": "553_4_2",
+    "text": "the earliest date available.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.22913886863649133
+      },
+      {
+        "label": "General_information",
+        "prob": 0.21166026266047197
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.12854121904712423
+      }
+    ]
+  },
+  {
+    "id": "562_2_0",
+    "text": "I like to reschedule the cat and bone scans",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.43790215909836355
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.19021148764139184
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.10508115116235751
+      }
+    ]
+  },
+  {
+    "id": "539_0_2",
+    "text": "old Org1 is closed for the time being",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.33997572103788315
+      },
+      {
+        "label": "General_information",
+        "prob": 0.15640416997304768
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.15212607949982931
+      }
+    ]
+  },
+  {
+    "id": "325_2_0",
+    "text": "Please note that the turn aro und time is",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.3230859083556701
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.204750705086149
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.14516225032306873
+      }
+    ]
+  },
+  {
+    "id": "61_2_2",
+    "text": "TOTAL (POST DIAGNOSIS) (BH GH LMW YH) resulted on MM/DD/YYYY at MM/DD/YYYY.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.45241262708611724
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.23322706960729703
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.10430749709989573
+      }
+    ]
+  },
+  {
+    "id": "103_0_0",
+    "text": "Hi  Just finished the blood work !",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.5002935210534049
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.12098573658492402
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.10983548948129557
+      }
+    ]
+  },
+  {
+    "id": "556_0_1",
+    "text": "Org2 and reschedule",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.31211642674699636
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.29048648408913436
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.14747227604467775
+      }
+    ]
+  },
+  {
+    "id": "538_1_1",
+    "text": "with Dr. Person1  In Org3.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.44006297416415796
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.2689130818820609
+      },
+      {
+        "label": "General_information",
+        "prob": 0.10962860425112066
+      }
+    ]
+  },
+  {
+    "id": "43_0_1",
+    "text": "I had blood work done yesterday as part of my visit.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.49179963261476584
+      },
+      {
+        "label": "General_information",
+        "prob": 0.11888479173984098
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.11421960541260884
+      }
+    ]
+  },
+  {
+    "id": "631_1_0",
+    "text": "I saw two results now in.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.5057392449085442
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1503361265814663
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.11298667040798029
+      }
+    ]
+  },
+  {
+    "id": "345_0_0",
+    "text": "Dr Person1 i had blood drawn at Org2.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.35901093622135827
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.3545708810992869
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.10711647723533341
+      }
+    ]
+  },
+  {
+    "id": "603_0_0",
+    "text": "Will just rearrange a couple of things.",
+    "gold_label": "General_information",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.24268632618426433
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.20781176964761244
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.14374707533610076
+      }
+    ]
+  },
+  {
+    "id": "601_0_0",
+    "text": "It looks like we haven't seen",
+    "gold_label": "General_information",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.3397432916313686
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1750580004043928
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.13071185620533263
+      }
+    ]
+  },
+  {
+    "id": "91_0_0",
+    "text": "Person1 at Person2 wants to be sure the pet scan of MM/DD/YYYY has not been mixed",
+    "gold_label": "Diagnostics",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.18482715432379743
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.16957155730912218
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.15110087625823676
+      }
+    ]
+  },
+  {
+    "id": "280_1_1",
+    "text": "able to go back in again I need a note clearing",
+    "gold_label": "General_information",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.24270492649146364
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.2005176342469756
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1603116783009481
+      }
+    ]
+  },
+  {
+    "id": "424_0_0",
+    "text": "I see my PSA continues",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.3540219706029571
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1605830621680208
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13686893837586409
+      }
+    ]
+  },
+  {
+    "id": "431_0_1",
+    "text": "do yo need a refill for the dexamethasone?",
+    "gold_label": "Drugs",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.3433352623348727
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.3379543047300247
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.11000644918264159
+      }
+    ]
+  },
+  {
+    "id": "199_1_0",
+    "text": "Could you please make a referral for me.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.19762007398054102
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.18818302968750936
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16650918484882968
+      }
+    ]
+  },
+  {
+    "id": "74_0_0",
+    "text": "Hi Person1 i just want to know if  Dr Person2 fill",
+    "gold_label": "General_information",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.4199993630542302
+      },
+      {
+        "label": "General_information",
+        "prob": 0.20231188861620597
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.12209812693894377
+      }
+    ]
+  },
+  {
+    "id": "545_0_2",
+    "text": "just confirmed that my PSA has dropped",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.34129851051818333
+      },
+      {
+        "label": "General_information",
+        "prob": 0.15410330411103115
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.12994297752166742
+      }
+    ]
+  },
+  {
+    "id": "722_2_0",
+    "text": "I will also check on the urology referral.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.4255215511614179
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.14527194320047326
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.09449948835658942
+      }
+    ]
+  },
+  {
+    "id": "76_0_0",
+    "text": "Adjudication office  645 south main st  LOCATION ct MM/DD/YYYYPh XXX-XXX-XXXX  Fax XXX-XXX-XXXX",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.39957485042169755
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.27750589228672345
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.07706169502463506
+      }
+    ]
+  },
+  {
+    "id": "119_2_0",
+    "text": "This is happening for a few months off and on",
+    "gold_label": "Symptoms",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.21621490761274306
+      },
+      {
+        "label": "General_information",
+        "prob": 0.2118238240959422
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.17146556088175666
+      }
+    ]
+  },
+  {
+    "id": "22_0_1",
+    "text": "Orders have been entered into the Epic system for lab work.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.3354681078401894
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.17776080498398317
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.13915768867689027
+      }
+    ]
+  },
+  {
+    "id": "54_4_0",
+    "text": "I continue on my daily regimen of abiraterone acetate and prednisone",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.6082932928778281
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.11827091244271447
+      },
+      {
+        "label": "General_information",
+        "prob": 0.10653251771021746
+      }
+    ]
+  },
+  {
+    "id": "586_0_1",
+    "text": "We are working on moving the MRI to MM/DD/YYYY but have",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.2382176268576522
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.22087472524002205
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1455913849201371
+      }
+    ]
+  },
+  {
+    "id": "230_0_3",
+    "text": "very bothersome and affects",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.2562573854778614
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.17649240752069537
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.16314712109863638
+      }
+    ]
+  },
+  {
+    "id": "483_2_0",
+    "text": "I seeing Dr Person1 at 1pm at Org3 on MM/DD/YYYY.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.28902167034261306
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.22693317140165847
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.22346484504325062
+      }
+    ]
+  },
+  {
+    "id": "461_0_0",
+    "text": "Thanks Person1 Can I get a losartan refill?",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.6281244839822454
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.09738660872698594
+      },
+      {
+        "label": "General_information",
+        "prob": 0.07539518149023826
+      }
+    ]
+  },
+  {
+    "id": "65_0_0",
+    "text": "How was my vital on the last blood draw  Also  How was",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.4226841656695489
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13141645286339015
+      },
+      {
+        "label": "General_information",
+        "prob": 0.10922847220345651
+      }
+    ]
+  },
+  {
+    "id": "119_4_0",
+    "text": "I vomit at times.",
+    "gold_label": "Symptoms",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.20918189518039856
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.16070743926479542
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.15527469280740105
+      }
+    ]
+  },
+  {
+    "id": "17_1_1",
+    "text": "just got a call for MM/DD/YYYY w Dr. B on MM/DD/YYYY.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.5848499355864774
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13279953461848398
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.10422337144365816
+      }
+    ]
+  },
+  {
+    "id": "334_0_1",
+    "text": "Only a psa is needed at this time unless you choose",
+    "gold_label": "Diagnostics",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.2692963010285626
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.19212878494181185
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1829096554647221
+      }
+    ]
+  },
+  {
+    "id": "17_8_0",
+    "text": "Person3 is tolerating all meds well and following",
+    "gold_label": "Drugs",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.23026456237929033
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.2005361024541516
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16773030834172956
+      }
+    ]
+  },
+  {
+    "id": "96_1_2",
+    "text": "a review with Dr  Person1 re next steps.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.5511593641423533
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.09665534866739403
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.09542795070307429
+      }
+    ]
+  },
+  {
+    "id": "111_0_0",
+    "text": "Good Morning   Last night I went to the Org2 ED.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.30130893701333983
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.2188541551119976
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.13245941502230432
+      }
+    ]
+  },
+  {
+    "id": "391_0_1",
+    "text": "in on MM/DD/YYYY for his visit,",
+    "gold_label": "Diagnostics",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.4566827467374908
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.12427345409108906
+      },
+      {
+        "label": "General_information",
+        "prob": 0.11986791207605821
+      }
+    ]
+  },
+  {
+    "id": "56_0_2",
+    "text": "my PSA in MM/DD/YYYY blood draw",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.6786003622263515
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.13299536896513284
+      },
+      {
+        "label": "General_information",
+        "prob": 0.04965137447702694
+      }
+    ]
+  },
+  {
+    "id": "482_2_0",
+    "text": "MM/DD/YYYY lakes have kept/messed up my meds     Help!",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.27770299645843277
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.22298209787307785
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.15223907027502373
+      }
+    ]
+  },
+  {
+    "id": "220_1_1",
+    "text": "of your lymph nodes that were biopsied",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.2717632472701694
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16437377931801872
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1510014015777372
+      }
+    ]
+  },
+  {
+    "id": "537_1_1",
+    "text": "my blood draw is scheduled for 9:30  In Org2.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.3266088284963457
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.2862937258803945
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.20445606473593259
+      }
+    ]
+  },
+  {
+    "id": "207_2_0",
+    "text": "Have one tablet to take",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.3035525314385689
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.15791196039657904
+      },
+      {
+        "label": "General_information",
+        "prob": 0.14793609982453718
+      }
+    ]
+  },
+  {
+    "id": "472_0_3",
+    "text": "Visiting nurse Person1 calling you    Person2",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.4258508511887178
+      },
+      {
+        "label": "General_information",
+        "prob": 0.267146927521087
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.08647027651031362
+      }
+    ]
+  },
+  {
+    "id": "168_0_1",
+    "text": "note two requests for Eliquis refill as need before trip and again",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.3802100265175887
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1832979582916036
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.12587592967555838
+      }
+    ]
+  },
+  {
+    "id": "327_0_4",
+    "text": "in for you,",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.29271610927288805
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1501535788929715
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.14281189880233885
+      }
+    ]
+  },
+  {
+    "id": "580_0_4",
+    "text": "impressions of my jaw and teeth",
+    "gold_label": "Diagnostics",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.22894222147369928
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.19973175129289195
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.17673263555579502
+      }
+    ]
+  },
+  {
+    "id": "43_1_0",
+    "text": "I don't seen the results for my PSA.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.6731038945726673
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.06828883598294361
+      },
+      {
+        "label": "General_information",
+        "prob": 0.06532494091382089
+      }
+    ]
+  },
+  {
+    "id": "319_0_1",
+    "text": "The PSA is still in progress and the result will be",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.5366895918244675
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.10219002248502561
+      },
+      {
+        "label": "General_information",
+        "prob": 0.09428379651412536
+      }
+    ]
+  },
+  {
+    "id": "268_2_0",
+    "text": "I checked our faxes and nothing",
+    "gold_label": "General_information",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.22767790745317515
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16487688870583686
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.14437680227602095
+      }
+    ]
+  },
+  {
+    "id": "94_1_0",
+    "text": "Do you want me to put",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.24160249763819452
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.21259641851266614
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1938760003001002
+      }
+    ]
+  },
+  {
+    "id": "372_0_0",
+    "text": "Prednisone refill sent in",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.6897705910226642
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.09163407275156239
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.06213406002487024
+      }
+    ]
+  },
+  {
+    "id": "13_1_1",
+    "text": "a tough day with pain MM/DD/YYYY;",
+    "gold_label": "Symptoms",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.3911551483474545
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1840944900227787
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.13490593776404275
+      }
+    ]
+  },
+  {
+    "id": "101_0_1",
+    "text": "Unfortunately I took a nasty slip down five steps MM/DD/YYYY.",
+    "gold_label": "General_information",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.25624341125390987
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.18925935914318046
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.14491411610618202
+      }
+    ]
+  },
+  {
+    "id": "154_4_0",
+    "text": "I have tried ibuprofen and I tried",
+    "gold_label": "Drugs",
+    "pred_label": "Symptoms",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.25722858330313375
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1667048376195617
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.16178181595826185
+      }
+    ]
+  },
+  {
+    "id": "455_3_0",
+    "text": "Attached is the rejection letter.",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.44474239475286564
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.17436487895728764
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.10058526190824736
+      }
+    ]
+  },
+  {
+    "id": "37_0_3",
+    "text": "the CEA (just another marker in this situation) to the CA27.29 and agree",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.4441092358500137
+      },
+      {
+        "label": "General_information",
+        "prob": 0.18233119343420187
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.08500244004594551
+      }
+    ]
+  },
+  {
+    "id": "455_1_0",
+    "text": "This is to follow up on the conversations Person2 and I  had",
+    "gold_label": "Care_Coordination",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.2910905076317784
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.2144193860356418
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.14693151072054622
+      }
+    ]
+  },
+  {
+    "id": "329_0_0",
+    "text": "We need the other pages to complete",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.2528074253566961
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.19673077907693712
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.13621968672156495
+      }
+    ]
+  },
+  {
+    "id": "629_0_0",
+    "text": "Hi   New results are in.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.5124707118459251
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1559452107663355
+      },
+      {
+        "label": "General_information",
+        "prob": 0.0887290568110806
+      }
+    ]
+  },
+  {
+    "id": "121_3_0",
+    "text": "I also have an appt with Dr.Person1 on MM/DD/YYYY I can show",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.6164165275568086
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.14602320910833252
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.09062520365721673
+      }
+    ]
+  },
+  {
+    "id": "162_1_0",
+    "text": "I put a referral in for but didn't see",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.24854804506703201
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.2475885358014575
+      },
+      {
+        "label": "General_information",
+        "prob": 0.14570674925309862
+      }
+    ]
+  },
+  {
+    "id": "6_2_1",
+    "text": "or if you can assist",
+    "gold_label": "General_information",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.22266534767108223
+      },
+      {
+        "label": "General_information",
+        "prob": 0.18281044044166828
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.15941164427409973
+      }
+    ]
+  },
+  {
+    "id": "522_1_0",
+    "text": "I have slowly tapered prednisone  to 2.5/QD.",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.4022586860387094
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.17748835369911403
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.10772059546928207
+      }
+    ]
+  },
+  {
+    "id": "605_0_3",
+    "text": "low level electrical pulses to tabs attached to skin to disrupt",
+    "gold_label": "Care_Coordination",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.2161477932763065
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.17089958982230302
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.14593843699701595
+      }
+    ]
+  },
+  {
+    "id": "31_1_0",
+    "text": "Started week three MM/DD/YYYY.",
+    "gold_label": "General_information",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.28874559826235713
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.24584679052474886
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.15287374738920392
+      }
+    ]
+  },
+  {
+    "id": "661_1_0",
+    "text": "I need refills for 90 days of Anastrozole 1mg Tablets Org,",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.4122271591470965
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.20439016807454388
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.09852222877788311
+      }
+    ]
+  },
+  {
+    "id": "535_0_0",
+    "text": "We can bring him tomorrow for a treatment.",
+    "gold_label": "Drugs",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.3499808289328806
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.21562511502119566
+      },
+      {
+        "label": "General_information",
+        "prob": 0.121725057124082
+      }
+    ]
+  },
+  {
+    "id": "696_0_1",
+    "text": "I will put in a nutrition referral and a nutritionist should be calling",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.37549266959555155
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1446566233478466
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.12081484090832115
+      }
+    ]
+  },
+  {
+    "id": "96_1_0",
+    "text": "I would like to schedule a virtual call with you to-discuss",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.6862750145003329
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.10778523113880034
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.05273093025565051
+      }
+    ]
+  },
+  {
+    "id": "524_5_0",
+    "text": "He has had absolutely no energy over the past week and chest congestion",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.36510956469358363
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.16460947635410958
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.15304504233255253
+      }
+    ]
+  },
+  {
+    "id": "193_0_2",
+    "text": "The referral was placed to Org3 Digestive disease.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.36753957040698493
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.2927701036314295
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.09147519882878194
+      }
+    ]
+  },
+  {
+    "id": "426_2_0",
+    "text": "Dr  Person1 told me at my last appointment that I might get",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.26195885077131575
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.21550716568724523
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13437269719642742
+      }
+    ]
+  },
+  {
+    "id": "30_3_1",
+    "text": "ok can I have those shots at LOCATION?",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.30213590120276024
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1734160352783565
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.11771065598962897
+      }
+    ]
+  },
+  {
+    "id": "347_0_0",
+    "text": "Hi Person1 I will check with Person1 and Dr.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.5373377434157819
+      },
+      {
+        "label": "General_information",
+        "prob": 0.11606758879234474
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.11462578088318101
+      }
+    ]
+  },
+  {
+    "id": "595_0_1",
+    "text": "Your labs look good for your next cycle.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.47312373378000666
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.11201052728678978
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.09880630288099988
+      }
+    ]
+  },
+  {
+    "id": "500_1_0",
+    "text": "We have an apt with Dr Person3 tmrw at 9:10.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.34236152230885086
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.3194232956661221
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.07613265005456815
+      }
+    ]
+  },
+  {
+    "id": "271_0_1",
+    "text": "My insurance will not allow me to opt",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.20293002188547551
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.19610694099601986
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.18972037773151237
+      }
+    ]
+  },
+  {
+    "id": "455_2_0",
+    "text": "Person2's application for a 2 week Rehab visit at Org9 was rejected by Org9 his insurer.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.3032083296702465
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.23466459111979895
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16142954043439925
+      }
+    ]
+  },
+  {
+    "id": "123_3_1",
+    "text": "please let Dr Person1 take",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.22969694501071486
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.22015491350123148
+      },
+      {
+        "label": "General_information",
+        "prob": 0.14518521280704663
+      }
+    ]
+  },
+  {
+    "id": "67_0_4",
+    "text": "on the blood draw that was made",
+    "gold_label": "General_information",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.5266759845870712
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.18943784879292813
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.07429216076534635
+      }
+    ]
+  },
+  {
+    "id": "699_0_1",
+    "text": "with my husband.",
+    "gold_label": "General_information",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.36223046211079957
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.2425706209884255
+      },
+      {
+        "label": "General_information",
+        "prob": 0.09306112647395681
+      }
+    ]
+  },
+  {
+    "id": "467_0_0",
+    "text": "Back rash attached    Person1",
+    "gold_label": "Symptoms",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.3079231311322289
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.28538485668119523
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.09564730450492656
+      }
+    ]
+  },
+  {
+    "id": "197_2_0",
+    "text": "It is taken as one tablet on MM/DD/YYYY,",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.2947275482423212
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.2602216442568272
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1437193146627432
+      }
+    ]
+  },
+  {
+    "id": "667_0_0",
+    "text": "There is an order in place",
+    "gold_label": "Diagnostics",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.20893914680491354
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1950715679789617
+      },
+      {
+        "label": "General_information",
+        "prob": 0.15090839425405747
+      }
+    ]
+  },
+  {
+    "id": "398_0_0",
+    "text": "Person1 had had lower back pain for 2 months and he did",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.3296680335732362
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.18965808132505207
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.15412557420030856
+      }
+    ]
+  },
+  {
+    "id": "147_2_0",
+    "text": "I only have a few pills left,",
+    "gold_label": "Drugs",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.3026766056796334
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1815006567928821
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.14372713389054903
+      }
+    ]
+  },
+  {
+    "id": "233_0_0",
+    "text": "Hi Person1 Do you have a fax number for Dr Person2 and I can fax",
+    "gold_label": "Care_Coordination",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.32354474897864505
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.2907799861830751
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.14447502135244578
+      }
+    ]
+  },
+  {
+    "id": "135_1_0",
+    "text": "Im preparing for surgery on MM/DD/YYYY & I",
+    "gold_label": "General_information",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.41810214187694034
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.17666925588412447
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1271722390307616
+      }
+    ]
+  },
+  {
+    "id": "254_1_0",
+    "text": "I have not completely recovered from the surgery of MM/DD/YYYY.",
+    "gold_label": "Symptoms",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.2483505089510765
+      },
+      {
+        "label": "General_information",
+        "prob": 0.19636224664218593
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.15983852047266858
+      }
+    ]
+  },
+  {
+    "id": "138_2_1",
+    "text": "a time frame that works",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.24467632633266742
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.18205287620745683
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1785592531048691
+      }
+    ]
+  },
+  {
+    "id": "588_3_0",
+    "text": "I also have a cortisone shot scheduled for MM/DD/YYYY.",
+    "gold_label": "Drugs",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.6789854631243158
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.10463845108961661
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.07421611140438067
+      }
+    ]
+  },
+  {
+    "id": "497_0_1",
+    "text": "you - I did notify Dr. Kluger- I know",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.24435962139157702
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.18111581422105733
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16898164090619927
+      }
+    ]
+  },
+  {
+    "id": "360_0_0",
+    "text": "I will have my BAs call",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.2446798000419358
+      },
+      {
+        "label": "General_information",
+        "prob": 0.19721589185546964
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.15576881601419318
+      }
+    ]
+  },
+  {
+    "id": "351_1_0",
+    "text": "You will need to get the portflushed in Org1 but the secretaries can help",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.3434174013627922
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.18047653772429803
+      },
+      {
+        "label": "General_information",
+        "prob": 0.13552052696993674
+      }
+    ]
+  },
+  {
+    "id": "353_0_1",
+    "text": "We are unaware at this time of any distribution plans.",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.24964935389665774
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1995372672200737
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.1402932716411106
+      }
+    ]
+  },
+  {
+    "id": "345_4_0",
+    "text": "I recently had a bunch of blood work entered",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.6243721074291365
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.08473435801938194
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.07469650178736381
+      }
+    ]
+  },
+  {
+    "id": "388_1_0",
+    "text": "We are closed on weekends and only check",
+    "gold_label": "General_information",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.18993909647335494
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1846279097515135
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.15886256814515082
+      }
+    ]
+  },
+  {
+    "id": "584_2_1",
+    "text": "from 2.93 in MM/DD/YYYY to 4.5 today (MM/DD/YYYY) according to the VA.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Scheduling_appt",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.27361572015969043
+      },
+      {
+        "label": "General_information",
+        "prob": 0.20154492505445332
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.19870840447023952
+      }
+    ]
+  },
+  {
+    "id": "477_0_0",
+    "text": "Did see someone from Org1 way back but no",
+    "gold_label": "General_information",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.20442930839760792
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1916623273869922
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.18127590711640532
+      }
+    ]
+  },
+  {
+    "id": "355_1_0",
+    "text": "We have been directing patients to their PCP office or the Org2 website",
+    "gold_label": "General_information",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.5304552238873168
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1708377093099009
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.07991521773021021
+      }
+    ]
+  },
+  {
+    "id": "202_2_1",
+    "text": "a response to either my e-mail or a phone message",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.21745404794901232
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.21073731381850816
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.1380647121635123
+      }
+    ]
+  },
+  {
+    "id": "677_0_0",
+    "text": "Hi Person1 - we can fax them the order if you give",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.20245921243927478
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.19564401396221048
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.18755020181438292
+      }
+    ]
+  },
+  {
+    "id": "714_0_5",
+    "text": "the baby aspirin.",
+    "gold_label": "Drugs",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.20800985402511954
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.19081543674616425
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.16985649536111327
+      }
+    ]
+  },
+  {
+    "id": "270_1_0",
+    "text": "Next one is scheduled for MM/DD/YYYY.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.8420636948201198
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.05822359737204813
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.03004959346264757
+      }
+    ]
+  },
+  {
+    "id": "473_0_0",
+    "text": "I need to schedule my scans ahead of appointment with Dr Person1 on MM/DD/YYYY    Would also like",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.8749345728332983
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.054000149382447696
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.023732636215850873
+      }
+    ]
+  },
+  {
+    "id": "20_0_4",
+    "text": "they will the answers you need",
+    "gold_label": "General_information",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.2822327511222364
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.26024079357696117
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.1637396968721337
+      }
+    ]
+  },
+  {
+    "id": "2_0_0",
+    "text": "I put him down the \"combo\" :) on MM/DD/YYYY at 530,",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.3777639886484355
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.14602333717909902
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.12995524872528288
+      }
+    ]
+  },
+  {
+    "id": "426_3_1",
+    "text": "the chemo for the day of my next appointment and it could be canceled",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.332806584687304
+      },
+      {
+        "label": "General_information",
+        "prob": 0.14688511716641975
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.13801527897784144
+      }
+    ]
+  },
+  {
+    "id": "264_0_1",
+    "text": "I tried to upload but couldn't figure",
+    "gold_label": "General_information",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.2221075886663495
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.18196554006996624
+      },
+      {
+        "label": "General_information",
+        "prob": 0.17318464602808134
+      }
+    ]
+  },
+  {
+    "id": "323_1_0",
+    "text": "They did fill one more but said",
+    "gold_label": "Drugs",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.2310434068011141
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.19125884939608148
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.171444785079525
+      }
+    ]
+  },
+  {
+    "id": "11_0_0",
+    "text": "Person1 has done well managing pain while eliminating",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.3064260480230459
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.16957595794485836
+      },
+      {
+        "label": "General_information",
+        "prob": 0.16469722486174704
+      }
+    ]
+  },
+  {
+    "id": "317_0_2",
+    "text": "the next one should have been around MM/DD/YYYY   24 weeks later.",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.3698185062135673
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.174518179754691
+      },
+      {
+        "label": "General_information",
+        "prob": 0.13515089829935695
+      }
+    ]
+  },
+  {
+    "id": "511_1_0",
+    "text": "We are at Org1 now having",
+    "gold_label": "Diagnostics",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.33472539304058657
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.20777990694265422
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.15020472209929106
+      }
+    ]
+  },
+  {
+    "id": "236_0_0",
+    "text": "Hi Person1 report from MM/DD/YYYY faxed to Dr  Person2 office Person6 Person3 RN",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Care_Coordination",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.6254720667709818
+      },
+      {
+        "label": "General_information",
+        "prob": 0.10019471961676599
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.08540337209119704
+      }
+    ]
+  },
+  {
+    "id": "412_2_1",
+    "text": "are you taking calcium 1000  mg daily and 400 IU",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.4413981849661099
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.1680868663280476
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.10392436640090931
+      }
+    ]
+  },
+  {
+    "id": "106_0_1",
+    "text": "I am feeling much better.",
+    "gold_label": "Symptoms",
+    "pred_label": "Symptoms",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Symptoms",
+        "prob": 0.4807110258536577
+      },
+      {
+        "label": "General_information",
+        "prob": 0.14700040757996805
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.14009506263221572
+      }
+    ]
+  },
+  {
+    "id": "97_1_0",
+    "text": "Do you want  me to get",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.20119553216353056
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.17181343682822456
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.1676370023769776
+      }
+    ]
+  },
+  {
+    "id": "0_0_1",
+    "text": "1)   He definitely needs/",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Drugs",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.19241529119861245
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1905253366414212
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.18430260905163526
+      }
+    ]
+  },
+  {
+    "id": "68_3_0",
+    "text": "This test usually takes MM/DD/YYYY to get",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Diagnostics",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.2809248717654804
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.24218760034878373
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.19465601946019234
+      }
+    ]
+  },
+  {
+    "id": "719_0_2",
+    "text": "the verzenio at 8 am and 6pm I questioning",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.3867699151026486
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1518883542070035
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.11834240413233736
+      }
+    ]
+  },
+  {
+    "id": "17_10_0",
+    "text": "Dr. B recommends Metamucil 1 tsp",
+    "gold_label": "Drugs",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.4513515395677434
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.1397919048204788
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.13250693952429085
+      }
+    ]
+  },
+  {
+    "id": "516_0_0",
+    "text": "Hi Person1 are you taking him for repeat labs and urine",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.21884110836769285
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.18705907314622325
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1590900845366438
+      }
+    ]
+  },
+  {
+    "id": "707_0_3",
+    "text": "on the medications and since finishing radiation",
+    "gold_label": "Drugs",
+    "pred_label": "Drugs",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Drugs",
+        "prob": 0.23172541210007108
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.21560146897874363
+      },
+      {
+        "label": "General_information",
+        "prob": 0.14440322855868182
+      }
+    ]
+  },
+  {
+    "id": "68_2_0",
+    "text": "I will ask our Clinical Secretary to schedule this and she will call",
+    "gold_label": "Scheduling_appt",
+    "pred_label": "Scheduling_appt",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.5047219186734703
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.15102677263272124
+      },
+      {
+        "label": "General_information",
+        "prob": 0.09304239980969917
+      }
+    ]
+  },
+  {
+    "id": "348_0_0",
+    "text": "Orders have been renewed for every 8 weeks.",
+    "gold_label": "Diagnostics",
+    "pred_label": "Diagnostics",
+    "correct": true,
+    "topk": [
+      {
+        "label": "Diagnostics",
+        "prob": 0.29170372004953243
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.21427410707405198
+      },
+      {
+        "label": "General_information",
+        "prob": 0.11332700879865047
+      }
+    ]
+  },
+  {
+    "id": "583_2_0",
+    "text": "The covid pandemic has created a huge backup.",
+    "gold_label": "General_information",
+    "pred_label": "General_information",
+    "correct": true,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.22996661275570107
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.22729781607665758
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.15459689191995482
+      }
+    ]
+  },
+  {
+    "id": "513_2_0",
+    "text": "I held the spironolactone Sat,",
+    "gold_label": "Drugs",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.22310425696074887
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.18024755322086777
+      },
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.1713104234160059
+      }
+    ]
+  },
+  {
+    "id": "146_0_1",
+    "text": "I wanted to reach out to Dr. Person1 regarding having trouble falling asleep the last 4 nights.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.4542250735068163
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.14888083003048597
+      },
+      {
+        "label": "General_information",
+        "prob": 0.11820725524928143
+      }
+    ]
+  },
+  {
+    "id": "186_1_1",
+    "text": "in an order for an ECHO because she said",
+    "gold_label": "Diagnostics",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.20632563999417206
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.17063462772732504
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.16521396361065963
+      }
+    ]
+  },
+  {
+    "id": "266_7_0",
+    "text": "The Tylenol and Aleve",
+    "gold_label": "Drugs",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.29288872162456436
+      },
+      {
+        "label": "Diagnostics",
+        "prob": 0.176077909215342
+      },
+      {
+        "label": "Symptoms",
+        "prob": 0.14736748548371092
+      }
+    ]
+  },
+  {
+    "id": "712_1_0",
+    "text": "Person1 can cause diarrhea,",
+    "gold_label": "Symptoms",
+    "pred_label": "General_information",
+    "correct": false,
+    "topk": [
+      {
+        "label": "General_information",
+        "prob": 0.2409178280340773
+      },
+      {
+        "label": "Drugs",
+        "prob": 0.2333150034975023
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1373728495212581
+      }
+    ]
+  },
+  {
+    "id": "710_1_1",
+    "text": "you to do a consent on the phone.",
+    "gold_label": "Care_Coordination",
+    "pred_label": "Health_care_access_and_quality",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Health_care_access_and_quality",
+        "prob": 0.2119216214994822
+      },
+      {
+        "label": "Care_Coordination",
+        "prob": 0.1743103231117801
+      },
+      {
+        "label": "General_information",
+        "prob": 0.1675759308400905
+      }
+    ]
+  },
+  {
+    "id": "651_2_2",
+    "text": "my full visits with you.",
+    "gold_label": "Health_care_access_and_quality",
+    "pred_label": "Care_Coordination",
+    "correct": false,
+    "topk": [
+      {
+        "label": "Care_Coordination",
+        "prob": 0.26153220514452186
+      },
+      {
+        "label": "General_information",
+        "prob": 0.2412831663327872
+      },
+      {
+        "label": "Scheduling_appt",
+        "prob": 0.14310418679640838
+      }
+    ]
+  }
+]

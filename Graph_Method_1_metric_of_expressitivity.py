@@ -1,26 +1,30 @@
+
+
 #!/usr/bin/env python3
 """
 Compute graph complexity and expressivity metrics for a folder of JSON graphs.
 
-Expected input:
-- A directory with files like <subsentence_id>.json
-- Each JSON should contain:
+Changes in this version:
+- Accept both "edges" and "links" in the input JSON.
+- Write results as JSON: per-graph (graph_metrics.json) and summary (graph_metrics_summary.json).
+- Keep CSV as optional for convenience.
+
+Inputs:
+- Directory with files like <subsentence_id>.json
+- Each JSON may contain:
     {
       "nodes": [{"id": "...", "label": "...", "type": "...", ...}, ...],
       "edges": [{"source": "...", "target": "...", "label": "...", "type": "...", ...}, ...]
+      // or "links" instead of "edges"
     }
-  Variants like "from"/"to" instead of "source"/"target" are also handled.
-  Node/edge labels are optional.
 
 Outputs:
-- graph_metrics.csv (per-graph metrics)
-- graph_metrics_summary.txt (dataset-level summary)
+- graph_metrics.json (list of per-graph dicts)
+- graph_metrics_summary.json (dataset-level summary)
+- graph_metrics.csv (optional convenience)
 
 Dependencies:
     pip install networkx numpy pandas
-
-Optional (for large graphs, speeds eigen computations):
-    pip install scipy
 """
 
 import os
@@ -32,14 +36,19 @@ import pandas as pd
 import networkx as nx
 
 # FOLDER = "dependency_graphs"
-FOLDER = "srl_graphs_weighted"
-
+# FOLDER = "srl_graphs_weighted"
+# FOLDER = "srl_graphs_predicate"
+# FOLDER = "srl_graphs_anchored"
+# FOLDER = "amr_graphs"
+FOLDER = "narrative_ego_graphs"
 
 # ===================== USER CONFIG =====================
 INPUT_DIR = f"outputs/{FOLDER}/subsentence_subcode/json"  # <-- change this
-OUTPUT_CSV = f"graph_metrics_{FOLDER}.csv"
-OUTPUT_SUMMARY = f"graph_metrics_summary_{FOLDER}.txt"
+OUTPUT_PER_GRAPH_JSON = f"graph_metrics_{FOLDER}.json"
+OUTPUT_SUMMARY_JSON = f"graph_metrics_summary_{FOLDER}.json"
+OUTPUT_CSV = f"graph_metrics_{FOLDER}.csv"  # optional
 # ======================================================
+
 # WL hashing (NetworkX >= 2.5)
 try:
     from networkx.algorithms.graph_hashing import weisfeiler_lehman_graph_hash as wl_hash

@@ -1,0 +1,762 @@
+{
+  "17_5": {
+    "text": "30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter.",
+    "span": "30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "38_4": {
+    "text": "We do not have  a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to.",
+    "span": "We do not have  a comparison for the CEA, but if this serves us value in the future, we will then have something to look back and compare to",
+    "labels": [
+      {
+        "label": [
+          "PROVIDER_Shared-Decision_Making",
+          "Summarize_and_confirm_understanding"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "54_1": {
+    "text": "I just received word from Org1 that, according to CDC guidelines, I don qualify for a booster shot at this time in spite of the fact that i In the XX+ age category.",
+    "span": "I just received word from Org1 that, according to CDC guidelines, I don qualify for a booster shot at this time in spite of the fact that i In the XX+ age category",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving_SDOH"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "64_0": {
+    "text": "I have sent a message to Dr. Person1 to ask him to review them and let us know.",
+    "span": "I have sent a message to Dr. Person1 to ask him to review them and let us know",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "88_0": {
+    "text": "In light of the increase from 0.167 to 0.284 should I restart Person1?",
+    "span": "In light of the increase from 0.167 to 0.284 should I restart Person1?",
+    "labels": [
+      {
+        "label": [
+          "PATIENT_SHARED-DECISION_MAKING",
+          "Seeking_Approval"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "90_0": {
+    "text": "How about we recheck it in 1mo and if still elevated, will plan to start eligard at that time.",
+    "span": "How about we recheck it in 1mo and if still elevated, will plan to start eligard at that time.",
+    "labels": [
+      {
+        "label": [
+          "PROVIDER_Shared-Decision_Making",
+          "Share_options"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "97_0": {
+    "text": "Hello Person1,  When you last saw Dr. Person2 on MM/DD/YYYY she recommended a PET in 3 months and follow up after.",
+    "span": "When you last saw Dr. Person2 on MM/DD/YYYY she recommended a PET in 3 months and follow up after.",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "99_1": {
+    "text": "I will have our scheduling team look and see when Dr. Person1 has an availability and give you a  call.",
+    "span": "see when Dr. Person1 has an availability and give you a  call.",
+    "labels": [
+      {
+        "label": [
+          "PROVIDER_PARTNERSHIP",
+          "Maintain_communication"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "101_3": {
+    "text": "I did not skydive or do anything else that was very risky, just slipped down the stairs.",
+    "span": "I did not skydive or do anything else that was very risky, just slipped down the stairs",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "123_2": {
+    "text": "You could soak your toes in a mixture of warm water and vinegar or warm water and peroxide several times a day, keep them dry at other times.",
+    "span": "You could soak your toes in a mixture of warm water and vinegar or warm water and peroxide several times a day, keep them dry at other times",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving",
+          "instruction"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "124_0": {
+    "text": "Good afternoon ,      Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today.",
+    "span": "Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving_SDOH"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "140_0": {
+    "text": "Hi Person1, I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet.",
+    "span": " I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "220_2": {
+    "text": "2)  He did review the vocal code pathology and from what he can see, there is no sign of any cancer present.",
+    "span": "He did review the vocal code pathology and from what he can see, there is no sign of any cancer present",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "222_0": {
+    "text": "Atypical means that cells are not normal but not completely abnormal either - the way Dr Person1 explained it,  there is a spectrum of cells where typical and atypical cells are - so atypical cells can be anywhere on that spectrum past typical.",
+    "span": "Atypical means that cells are not normal but not completely abnormal either - the way Dr Person1 explained it,  there is a spectrum of cells where typical and atypical cells are - so atypical cells can be anywhere on that spectrum past typical",
+    "labels": [
+      {
+        "label": [
+          "PROVIDER_PARTNERSHIP",
+          "checking_understanding/clarification"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "223_3": {
+    "text": "My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin.",
+    "span": "My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "224_4": {
+    "text": "I need someone I can bounce all these developments off, and who is vested in my well being, and he is that person.",
+    "span": "I need someone I can bounce all these developments off, and who is vested in my well being, and he is that person",
+    "labels": [
+      {
+        "label": [
+          "PATIENT_PARTNERSHIP",
+          "build_trust"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "227_0": {
+    "text": "Hello Person1,    Could you please cancel my PET and CT scans ordered by Dr. Person2 for this week.",
+    "span": "Could you please cancel my PET and CT scans ordered by Dr. Person2 for this week",
+    "labels": [
+      {
+        "label": [
+          "PATIENT_PARTNERSHIP",
+          "active_participation_/involvement"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "228_1": {
+    "text": "You had thought that the surgical clamp may have caused pressure on the nerve sheath and that this would resolve itself and eventually return to normal.",
+    "span": "You had thought that the surgical clamp may have caused pressure on the nerve sheath and that this would resolve itself and eventually return to normal",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "229_1": {
+    "text": "By this point, after two years, it the nerve has not recovered then I think it is unlikely that it will resolve.",
+    "span": "By this point, after two years, it the nerve has not recovered then I think it is unlikely that it will resolve",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "231_1": {
+    "text": "This problem is not a usual risk with this surgery, but in your case the tumor extended behind some of the blood vessels in the neck and was pushing on this nerve.",
+    "span": "This problem is not a usual risk with this surgery, but in your case the tumor extended behind some of the blood vessels in the neck and was pushing on this nerve",
+    "labels": [
+      {
+        "label": [
+          "PROVIDER_Shared-Decision_Making",
+          "Summarize_and_confirm_understanding"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "247_1": {
+    "text": "But he would advise the third shot now, and would recommend Pfizer or Moderna instead of J/J for the booster.",
+    "span": "But he would advise the third shot now, and would recommend Pfizer or Moderna instead of J/J for the booster",
+    "labels": [
+      {
+        "label": [
+          "PROVIDER_Shared-Decision_Making",
+          "Share_options"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "248_2": {
+    "text": "Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then.",
+    "span": "Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "249_0": {
+    "text": "Mr. Person1 I reviewed with Dr. Person2 continue with plan for surgery and to meet with them... thank you Person3",
+    "span": "I reviewed with Dr. Person2 continue with plan for surgery and to meet with them",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "254_0": {
+    "text": "I need to postpone the appointments made for MM/DD/YYYY, and MM/DD/YYYY for the initial doses of Fulvestrant, that we discussed in your office.",
+    "span": "I need to postpone the appointments made for MM/DD/YYYY, and MM/DD/YYYY for the initial doses of Fulvestrant, that we discussed in your office",
+    "labels": [
+      {
+        "label": [
+          "PATIENT_PARTNERSHIP",
+          "state_preferences"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "254_3": {
+    "text": "Given my history of ulcerative colitis, I am concerned about diarrhea, and I am Very concerned about the Verzenio pill regarding diarrhea.",
+    "span": "Given my history of ulcerative colitis, I am concerned about diarrhea, and I am Very concerned about the Verzenio pill regarding diarrhea",
+    "labels": [
+      {
+        "label": [
+          "Socioemotional_/_Empathy",
+          "Express_concern/unease"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "280_3": {
+    "text": ":-)     Would you mind writing me a note for work saying that I had tested positive for covid MM/DD/YYYY, the 10 day quarantine of symptom on set has passed and am no longer contagious or whatever the correct wording would be.",
+    "span": "the 10 day quarantine of symptom on set has passed and am no longer contagious or whatever the correct wording would be",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "284_2": {
+    "text": "I did get my period today, not just spot bleeding, it regular how it used to be for me with cramping.",
+    "span": "I did get my period today, not just spot bleeding, it regular how it used to be for me with cramping",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "291_0": {
+    "text": "Hello,    I saw I still had the appointment in Org2 for MM/DD/YYYY, MM/DD/YYYY, for the Lupron shot, I cancelled it.",
+    "span": "    I saw I still had the appointment in Org2 for MM/DD/YYYY, MM/DD/YYYY, for the Lupron shot, I cancelled it",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving_SDOH"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "307_3": {
+    "text": "Any issues holding your urine or stool, difficulty walking, pain radiating up or down from your lower back on the sides?",
+    "span": "Any issues holding your urine or stool, difficulty walking, pain radiating up or down from your lower back on the sides?",
+    "labels": [
+      {
+        "label": [
+          "Information-Seeking"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "315_3": {
+    "text": "I do have a cancellation for next week if you c an come in on MM/DD/YYYY at 10:00am you can see Dr  Person2 and get your injection.",
+    "span": "if you c an come in on MM/DD/YYYY at 10:00am you can see Dr  Person2 and get your injection",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "324_3": {
+    "text": "When original prognosis was given, what it was and a signature from you.",
+    "span": "When original prognosis was given, what it was and a signature from you",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving_SDOH"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "325_1": {
+    "text": "2)  You can either upload the form to mychart and send it to us as an attachment or can fax it to us at  XXX-XXX-XXXX.",
+    "span": "2)  You can either upload the form to mychart and send it to us as an attachment or can fax it to us at  XXX-XXX-XXXX",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving",
+          "instruction"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "349_3": {
+    "text": "Are you filing for intermittent time off, any job duties your having difficulty completing or no longer working?",
+    "span": "Are you filing for intermittent time off, any job duties your having difficulty completing or no longer working?",
+    "labels": [
+      {
+        "label": [
+          "Information-Seeking_SDOH"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "355_2": {
+    "text": "I  would also check your mychart and go to schedule appointment and see if anything comes up for you to schedule.",
+    "span": "I  would also check your mychart and go to schedule appointment and see if anything comes up for you to schedule",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving",
+          "instruction"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "363_4": {
+    "text": "As I text you he is now in Org6 emergency room and we all know how he is and they will not allow me to go in to be  with him so I could hear and understand what is going ,because we know he does not hear well.",
+    "span": "As I text you he is now in Org6 emergency room and we all know how he is and they will not allow me to go in to be  with him so I could hear and understand what is going ,because we know he does not hear well",
+    "labels": [
+      {
+        "label": [
+          "Socioemotional_/_Empathy",
+          "Express_concern/unease"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "382_0": {
+    "text": "Yes I had prostate cancer and it had returned-3 years later",
+    "span": "Yes I had prostate cancer and it had returned-3 years later",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "440_1": {
+    "text": "I am scheduled for my blood draw, appointment with Dr  Person1, and chemo treatment MM/DD/YYYY.",
+    "span": "I am scheduled for my blood draw, appointment with Dr  Person1, and chemo treatment MM/DD/YYYY",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "444_0": {
+    "text": "Also need trazodone for tonight but can't find email of prescriber - Dr Person1 something - can you help?",
+    "span": "can't find email of prescriber - Dr Person1 something - can you help?",
+    "labels": [
+      {
+        "label": [
+          "Information-Seeking"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "452_0": {
+    "text": "Hi Person1 Me again     I know this is wrong recipient but still can't find Dr Person on mychart and need a zofran (can't remember exact name) refill which I believe she was going to send through     Can you help/chase her?",
+    "span": "Me again     I know this is wrong recipient but still can't find Dr Person on mychart and need a zofran (can't remember exact name) refill",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "455_1": {
+    "text": "This is to follow up on the conversations Person2 and I  had with Person3 and  I had with Person4today.",
+    "span": "This is to follow up on the conversations Person2 and I  had with Person3 and  I had with Person4today",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "470_2": {
+    "text": "As for the weakness/walking issues--- this isn't new, but if its worse- Dr. Person1 wants you to have the follow up with neurology... it looks like you saw them last in MM/DD/YYYY and have not had follow up since.",
+    "span": "As for the weakness/walking issues--- this isn't new, but if its worse- Dr. Person1 wants you to have the follow up with neurology...",
+    "labels": [
+      {
+        "label": [
+          "PROVIDER_Shared-Decision_Making",
+          "Share_options"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "479_1": {
+    "text": "Not sure if MM/DD/YYYY Person3 kept some of my meds but need a fairly urgent refill called in to cvs on the following:    Losartan   Amlodipine  Dexamethasone   Sertraline   Levothyroxine    Thanks     Person2",
+    "span": "Not sure if MM/DD/YYYY Person3 kept some of my meds but need a fairly urgent refill called in to cvs on the following:    Losartan   Amlodipine  Dexamethasone   Sertraline   Levothyroxine",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "480_0": {
+    "text": "Thanks Person I will send those in.... also in the mean time dr. Person1 wants you to reduce the lenvatinib  and everolimus to only 5 days a week due to the elevated blood pressures despite being on blood pressure medications... please let me know you received this.",
+    "span": "also in the mean time dr. Person1 wants you to reduce the lenvatinib  and everolimus to only 5 days a week due to the elevated blood pressures despite being on blood pressure medications...",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "519_3": {
+    "text": "They want him to come back and have more of it removed would like him to see Dr Person4 but not sure how quickly he could get in?",
+    "span": "They want him to come back and have more of it removed would like him to see Dr Person4 but not sure how quickly he could get in?",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "524_6": {
+    "text": "Saw pulmonologist Person2 and he said probably rebound from stopping prednisone and he should use his Albuterol inhaler.",
+    "span": "Saw pulmonologist Person2 and he said probably rebound from stopping prednisone and he should use his Albuterol inhaler",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "528_1": {
+    "text": "Just monitor tonight and over the weekend - - take a pen are circle the redness - watch for the redness to spread outside of the pen lines.",
+    "span": "Just monitor tonight and over the weekend - - take a pen are circle the redness - watch for the redness to spread outside of the pen lines",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving",
+          "instruction"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "529_0": {
+    "text": "Hi ,  My father developed a cough today and was having severe difficulty breathing so I called 911.",
+    "span": "My father developed a cough today and was having severe difficulty breathing so I called 911",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "537_0": {
+    "text": "I scheduled to see Dr. Person1 on MM/DD/YYYY, at 9:45 in Org2.",
+    "span": "I scheduled to see Dr. Person1 on MM/DD/YYYY, at 9:45 in Org2",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving_SDOH"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "541_1": {
+    "text": "My  blood draw and appointment with Dr. Person1 will be in the Org2 office on MM/DD/YYYY, starting at 9:30 AM, correct?",
+    "span": "My  blood draw and appointment with Dr. Person1 will be in the Org2 office on MM/DD/YYYY, starting at 9:30 AM, correct?",
+    "labels": [
+      {
+        "label": [
+          "Information-Seeking"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "553_2": {
+    "text": "I also scheduled to meet with Dr. Person1 at  1:15 that day.",
+    "span": "I also scheduled to meet with Dr. Person1 at  1:15 that day",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "584_2": {
+    "text": "Everything looks good except for my PSA which has gone from 2.93 in MM/DD/YYYY to 4.5 today (MM/DD/YYYY) according to the VA.",
+    "span": "my PSA which has gone from 2.93 in MM/DD/YYYY to 4.5 today (MM/DD/YYYY) according to the VA",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "679_1": {
+    "text": "Both my niece and myself have been trying to find a gynecologist close by accepting new patients on Medicare, Medicaid, AARP supplement and Husky with no success.",
+    "span": "Both my niece and myself have been trying to find a gynecologist close by accepting new patients on Medicare, Medicaid, AARP supplement and Husky with no success",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving_SDOH"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  },
+  "690_2": {
+    "text": "So for an approximate 9:30 start, please take 5 at 9:30 pm MM/DD/YYYY then again take 5 at 3:30 in the morning.",
+    "span": "So for an approximate 9:30 start, please take 5 at 9:30 pm MM/DD/YYYY then again take 5 at 3:30 in the morning",
+    "labels": [
+      {
+        "label": [
+          "Information-Giving",
+          "instruction"
+        ],
+        "label_type": [
+          "Interactional"
+        ]
+      }
+    ]
+  }
+}
