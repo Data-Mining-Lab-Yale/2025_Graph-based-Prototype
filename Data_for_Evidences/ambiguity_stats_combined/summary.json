@@ -1,0 +1,9 @@
+{
+  "N": 2602,
+  "num_labels": 50,
+  "mean_cross_label_neighbor_rate": 0.5237189341532155,
+  "median_cross_label_neighbor_rate": 0.6,
+  "top_k_neighbors": 5,
+  "similarity_threshold": 0.55,
+  "embedding": "all-MiniLM-L6-v2"
+}
