@@ -109,28 +109,41 @@ def get_ann_text(ann):
 
 # ---------- Build representations ----------
 def build_repr_and_sim(texts, rep_kind, sbert_model="all-MiniLM-L6-v2"):
+    """
+    Returns (features, similarity_matrix, rep_name, sim_name)
+
+    Modes
+      - sbert   : pretrained sentence embeddings + cosine  [GENERAL semantic]
+      - tfidf   : TF-IDF bag of words + cosine             [DATASET specific]
+      - lsa     : TF-IDF -> TruncatedSVD + cosine          [DATASET specific]
+      - jaccard : binary bag-of-words + Jaccard similarity [lexical overlap]
+    """
     rep_kind = rep_kind.lower()
 
     if rep_kind == "sbert":
+        # General semantic. Independent from your dataset vocabulary and idf.
         from sentence_transformers import SentenceTransformer
         model = SentenceTransformer(sbert_model)
         X = model.encode(
             texts, batch_size=64, show_progress_bar=True,
             convert_to_numpy=True, normalize_embeddings=True
         )
-        # cosine for unit normalized vectors is the dot product
-        sim = np.matmul(X, X.T)
+        sim = np.matmul(X, X.T)  # cosine since vectors are L2 normalized
+        print("[REP] SBERT embeddings  | [SIM] cosine  | semantic=GENERAL")
         return X, sim, sbert_model, "cosine"
 
     elif rep_kind == "tfidf":
+        # Dataset specific. Vocabulary and idf come from your corpus.
         from sklearn.feature_extraction.text import TfidfVectorizer
         from sklearn.metrics.pairwise import cosine_similarity
         vec = TfidfVectorizer(min_df=2, ngram_range=(1,2), lowercase=True)
         X = vec.fit_transform(texts)
         sim = cosine_similarity(X)
+        print("[REP] TF-IDF            | [SIM] cosine  | semantic=DATASET_SPECIFIC")
         return X, sim, "tfidf", "cosine"
 
     elif rep_kind == "lsa":
+        # Dataset specific. Factors learned from your corpus only.
         from sklearn.feature_extraction.text import TfidfVectorizer
         from sklearn.decomposition import TruncatedSVD
         from sklearn.preprocessing import normalize
@@ -141,15 +154,34 @@ def build_repr_and_sim(texts, rep_kind, sbert_model="all-MiniLM-L6-v2"):
         Z = svd.fit_transform(X_tfidf)
         Z = normalize(Z, norm="l2")
         sim = cosine_similarity(Z)
+        print("[REP] LSA(on TF-IDF)    | [SIM] cosine  | semantic=DATASET_SPECIFIC")
         return Z, sim, "lsa(300 on tfidf)", "cosine"
 
     elif rep_kind == "jaccard":
+        # Lexical overlap. Not semantic. Works on sparse without pairwise_distances.
         from sklearn.feature_extraction.text import CountVectorizer
-        from sklearn.metrics import pairwise_distances
         vec = CountVectorizer(min_df=1, ngram_range=(1,1), lowercase=True, binary=True)
-        B = vec.fit_transform(texts)  # binary bag
-        D = pairwise_distances(B, metric="jaccard")
-        sim = 1.0 - D
+        B = vec.fit_transform(texts).tocsr()  # [N x V] sparse binary
+        N = B.shape[0]
+
+        # |row| for each doc
+        row_sums = np.asarray(B.sum(axis=1)).ravel().astype(np.float32)
+
+        # Build dense similarity in blocks to keep memory reasonable
+        sim = np.empty((N, N), dtype=np.float32)
+        block = 256  # you can raise to 512 or 1024 if you have more RAM
+
+        for i0 in range(0, N, block):
+            i1 = min(i0 + block, N)
+            # intersections = A[i] * A[j]^T since entries are 0 or 1
+            inter = B[i0:i1].dot(B.T).toarray().astype(np.float32)  # [block x N]
+            unions = row_sums[i0:i1][:, None] + row_sums[None, :] - inter
+            # Jaccard = |A∩B| / |A∪B|, define 0 when union is 0
+            with np.errstate(divide="ignore", invalid="ignore"):
+                sim_block = np.where(unions > 0, inter / unions, 0.0)
+            sim[i0:i1, :] = sim_block
+
+        print("[REP] Binary BoW        | [SIM] jaccard | semantic=LEXICAL_ONLY")
         return B, sim, "binary-bow", "jaccard"
 
     else:
