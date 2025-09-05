@@ -1,0 +1,180 @@
+anchor_text,anchor_label,neighbor_text,neighbor_label,similarity,method,level,pair_key,example_hash
+"Thank you,",signoff,Thank you,Appreciation/gratitude,0.9999999999999998,lsa,subcode,signoff :: Appreciation/gratitude,09bc1852559880fc1326231ef28656ccbb071bb9
+"Thank you,",signoff,Thank you,Appreciation/gratitude,0.9999999999999998,lsa,subcode,signoff :: Appreciation/gratitude,09bc1852559880fc1326231ef28656ccbb071bb9
+"Thank you,",signoff,Thank you,Appreciation/gratitude,0.8059808015823364,sbert,subcode,signoff :: Appreciation/gratitude,09bc1852559880fc1326231ef28656ccbb071bb9
+be happy to,Connection,I was happy,Alignment,0.6458970383851764,lsa,subcode,Connection :: Alignment,0ce46318a1eae3ca440440cd69cbee6b9d576c2d
+be happy to,Connection,I was happy,Alignment,0.6458970383851764,lsa,subcode,Connection :: Alignment,0ce46318a1eae3ca440440cd69cbee6b9d576c2d
+be happy to,Connection,I was happy,Alignment,0.5801900625228882,sbert,subcode,Connection :: Alignment,0ce46318a1eae3ca440440cd69cbee6b9d576c2d
+be happy to,Connection,I was happy,Alignment,0.5801900625228882,sbert,subcode,Connection :: Alignment,0ce46318a1eae3ca440440cd69cbee6b9d576c2d
+Thank you,Appreciation/gratitude,Thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+Thank you,Appreciation/gratitude,Thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,2646a9063538e026dd8e120c329ebe83355a699e
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,0.8247683427269945,lsa,subcode,Drugs :: Diagnostics,277fc0ab3bb86692163a8d31ba3ea48c53c0079a
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,0.5524894870095117,tdidf,subcode,Drugs :: Diagnostics,277fc0ab3bb86692163a8d31ba3ea48c53c0079a
+take care of these prescriptions,Drugs,Take care,signoff,0.90105225724013,lsa,subcode,Drugs :: signoff,282e43a4e2f8cd5c859f59e3abbd9331c1af676a
+take care of these prescriptions,Drugs,Take care,signoff,0.90105225724013,lsa,subcode,Drugs :: signoff,282e43a4e2f8cd5c859f59e3abbd9331c1af676a
+take care of these prescriptions,Drugs,Take care,signoff,0.90105225724013,lsa,subcode,Drugs :: signoff,282e43a4e2f8cd5c859f59e3abbd9331c1af676a
+take care of these prescriptions,Drugs,Take care,signoff,0.6254304276223819,tdidf,subcode,Drugs :: signoff,282e43a4e2f8cd5c859f59e3abbd9331c1af676a
+take care of these prescriptions,Drugs,Take care,signoff,0.6254304276223819,tdidf,subcode,Drugs :: signoff,282e43a4e2f8cd5c859f59e3abbd9331c1af676a
+take care of these prescriptions,Drugs,Take care,signoff,0.6254304276223819,tdidf,subcode,Drugs :: signoff,282e43a4e2f8cd5c859f59e3abbd9331c1af676a
+We need to make an office visit,Health_care_access_and_quality,Or no need for an office visit?,Explore_options,0.6334205849627007,lsa,subcode,Health_care_access_and_quality :: Explore_options,327c86d5a67124b1fa61a1582143c655da041446
+We need to make an office visit,Health_care_access_and_quality,Or no need for an office visit?,Explore_options,0.6821954846382141,sbert,subcode,Health_care_access_and_quality :: Explore_options,327c86d5a67124b1fa61a1582143c655da041446
+", let me know if you have any other questions or concerns",Encourage_questions,let me know if you have any issues !,Maintain_communication,0.8614639329699986,lsa,subcode,Encourage_questions :: Maintain_communication,4213ed0f09ff2ae099eff42c099e8ab21db7b88f
+", let me know if you have any other questions or concerns",Encourage_questions,let me know if you have any issues !,Maintain_communication,0.6722941994667053,sbert,subcode,Encourage_questions :: Maintain_communication,4213ed0f09ff2ae099eff42c099e8ab21db7b88f
+", let me know if you have any other questions or concerns",Encourage_questions,let me know if you have any issues !,Maintain_communication,0.5825137106060169,tdidf,subcode,Encourage_questions :: Maintain_communication,4213ed0f09ff2ae099eff42c099e8ab21db7b88f
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,Can i change my MM/DD/YYYY appointment to the MM/DD/YYYY,Scheduling_appt,0.7866480166637333,lsa,subcode,Diagnostics :: Scheduling_appt,4712c3802a9ca2830b59faf1b51c9659e9fe1635
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,Can i change my MM/DD/YYYY appointment to the MM/DD/YYYY,Scheduling_appt,0.5555609131926138,tdidf,subcode,Diagnostics :: Scheduling_appt,4712c3802a9ca2830b59faf1b51c9659e9fe1635
+have a good day,Connection,Have a good day.,signoff,0.9999999999999994,lsa,subcode,Connection :: signoff,4e57634921cd89d8916a5d51a13e208e5a51e71b
+have a good day,Connection,Have a good day.,signoff,0.9265523552894592,sbert,subcode,Connection :: signoff,4e57634921cd89d8916a5d51a13e208e5a51e71b
+have a good day,Connection,Have a good day.,signoff,1.0000000000000002,tdidf,subcode,Connection :: signoff,4e57634921cd89d8916a5d51a13e208e5a51e71b
+if it would be safe for me to get a whooping cough shot,Drugs,Please let me know if the two meds will be ok and safe for me to get the vaccine,Seeking_Approval,0.569875296418914,lsa,subcode,Drugs :: Seeking_Approval,50885539205863f70dfd54a70fa88fcfe1cc5fd4
+if it would be safe for me to get a whooping cough shot,Drugs,Please let me know if the two meds will be ok and safe for me to get the vaccine,Seeking_Approval,0.5706495642662048,sbert,subcode,Drugs :: Seeking_Approval,50885539205863f70dfd54a70fa88fcfe1cc5fd4
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,0.8247683427269945,lsa,subcode,Diagnostics :: Drugs,7bc00b4a04358a3cda979c73ace461a6e446f572
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,0.5524894870095117,tdidf,subcode,Diagnostics :: Drugs,7bc00b4a04358a3cda979c73ace461a6e446f572
+", I am checking with Dr. Person2 on the vaccine",Health_care_access_and_quality,The schedulers were checking with Dr Person2 on MM/DD/YYYY,Care_Coordination,0.6983592163245093,lsa,subcode,Health_care_access_and_quality :: Care_Coordination,7f4c53a9bbf6d6b920b3407a5f5bc782a2a05ef5
+", I am checking with Dr. Person2 on the vaccine",Health_care_access_and_quality,The schedulers were checking with Dr Person2 on MM/DD/YYYY,Care_Coordination,0.6173776573234404,tdidf,subcode,Health_care_access_and_quality :: Care_Coordination,7f4c53a9bbf6d6b920b3407a5f5bc782a2a05ef5
+This should ok,Approval/Reinforcement,Ok,Alignment,0.6988840429102259,lsa,subcode,Approval/Reinforcement :: Alignment,810e1633e9a0740b7250f73d978e680ae1fb62d0
+This should ok,Approval/Reinforcement,Ok,Alignment,0.6988840429102259,lsa,subcode,Approval/Reinforcement :: Alignment,810e1633e9a0740b7250f73d978e680ae1fb62d0
+This should ok,Approval/Reinforcement,Ok,Alignment,0.6988840429102259,lsa,subcode,Approval/Reinforcement :: Alignment,810e1633e9a0740b7250f73d978e680ae1fb62d0
+This should ok,Approval/Reinforcement,Ok,Alignment,0.6988840429102259,lsa,subcode,Approval/Reinforcement :: Alignment,810e1633e9a0740b7250f73d978e680ae1fb62d0
+This should ok,Approval/Reinforcement,Ok,Alignment,0.6377375564891694,tdidf,subcode,Approval/Reinforcement :: Alignment,810e1633e9a0740b7250f73d978e680ae1fb62d0
+This should ok,Approval/Reinforcement,Ok,Alignment,0.6377375564891694,tdidf,subcode,Approval/Reinforcement :: Alignment,810e1633e9a0740b7250f73d978e680ae1fb62d0
+This should ok,Approval/Reinforcement,Ok,Alignment,0.6377375564891694,tdidf,subcode,Approval/Reinforcement :: Alignment,810e1633e9a0740b7250f73d978e680ae1fb62d0
+I am all set,General_information,You  should be all set.,Connection,0.6753842093797657,lsa,subcode,General_information :: Connection,8736fa9b1d05501c5058993352fd3293f0447c89
+I am all set,General_information,You  should be all set.,Connection,0.7899960279464722,sbert,subcode,General_information :: Connection,8736fa9b1d05501c5058993352fd3293f0447c89
+Thanks a ton,Appreciation/gratitude,Thanks,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,8911a589e08b40e2f54508724fec52745fa5e2c1
+Thanks a ton,Appreciation/gratitude,Thanks,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,8911a589e08b40e2f54508724fec52745fa5e2c1
+Thanks a ton,Appreciation/gratitude,Thanks,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,8911a589e08b40e2f54508724fec52745fa5e2c1
+Thanks a ton,Appreciation/gratitude,Thanks,signoff,0.5708644390106201,sbert,subcode,Appreciation/gratitude :: signoff,8911a589e08b40e2f54508724fec52745fa5e2c1
+Thanks a ton,Appreciation/gratitude,Thanks,signoff,0.5708644390106201,sbert,subcode,Appreciation/gratitude :: signoff,8911a589e08b40e2f54508724fec52745fa5e2c1
+Thanks a ton,Appreciation/gratitude,Thanks,signoff,1.0,tdidf,subcode,Appreciation/gratitude :: signoff,8911a589e08b40e2f54508724fec52745fa5e2c1
+Thanks a ton,Appreciation/gratitude,Thanks,signoff,1.0,tdidf,subcode,Appreciation/gratitude :: signoff,8911a589e08b40e2f54508724fec52745fa5e2c1
+I am all set,General_information,All set for MM/DD/YYYY,Scheduling_appt,0.6488057344830377,lsa,subcode,General_information :: Scheduling_appt,91d0633494ebc9f60e9a921c5e070ad96d79f6ea
+I am all set,General_information,All set for MM/DD/YYYY,Scheduling_appt,0.5647279495939816,tdidf,subcode,General_information :: Scheduling_appt,91d0633494ebc9f60e9a921c5e070ad96d79f6ea
+"OOPS , sorry - my typo",Acknowledge_Error,I'm sorry,Sadness/fear,0.8709197205405211,lsa,subcode,Acknowledge_Error :: Sadness/fear,928d2c873948af3d66308e4ac268b430f341ab20
+"OOPS , sorry - my typo",Acknowledge_Error,I'm sorry,Sadness/fear,0.8665291005028808,tdidf,subcode,Acknowledge_Error :: Sadness/fear,928d2c873948af3d66308e4ac268b430f341ab20
+Take care,Connection,Take care,signoff,1.0000000000000002,lsa,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0000000000000002,lsa,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0000000000000002,lsa,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0000003576278689,sbert,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0000003576278689,sbert,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0000001192092896,sbert,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Take care,Connection,Take care,signoff,1.0,tdidf,subcode,Connection :: signoff,94cbe6461a347c2810148f1bd71db7f6155e2d4c
+Thank you very much,signoff,Thank you very much,Appreciation/gratitude,1.0,lsa,subcode,signoff :: Appreciation/gratitude,95ffcd651236f8b3ad3309512dc74550a647864e
+Thank you very much,signoff,Thank you very much,Appreciation/gratitude,1.000000238418579,sbert,subcode,signoff :: Appreciation/gratitude,95ffcd651236f8b3ad3309512dc74550a647864e
+Thank you very much,signoff,Thank you very much,Appreciation/gratitude,1.0,tdidf,subcode,signoff :: Appreciation/gratitude,95ffcd651236f8b3ad3309512dc74550a647864e
+Thank you,signoff,Thank you,Appreciation/gratitude,0.9999999999999998,lsa,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,0.9999999999999998,lsa,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,0.9999999999999998,lsa,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,1.0000005960464478,sbert,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,1.0000000000000002,tdidf,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,1.0000000000000002,tdidf,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,1.0000000000000002,tdidf,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,1.0000000000000002,tdidf,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,1.0000000000000002,tdidf,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+Thank you,signoff,Thank you,Appreciation/gratitude,1.0000000000000002,tdidf,subcode,signoff :: Appreciation/gratitude,9a210bd4db4af194cc28b4751017c247843b7c99
+I'll let you know as soon as that is completed,active_participation_/involvement,I will let you know as soon as he answers me,Maintain_communication,0.8462952682851761,lsa,subcode,active_participation_/involvement :: Maintain_communication,a8b1d3f90ddc3ac3e36a85ae2a340ba51589e9ab
+I'll let you know as soon as that is completed,active_participation_/involvement,I will let you know as soon as he answers me,Maintain_communication,0.5902190208435059,sbert,subcode,active_participation_/involvement :: Maintain_communication,a8b1d3f90ddc3ac3e36a85ae2a340ba51589e9ab
+I'll let you know as soon as that is completed,active_participation_/involvement,I will let you know as soon as he answers me,Maintain_communication,0.6604406105991842,tdidf,subcode,active_participation_/involvement :: Maintain_communication,a8b1d3f90ddc3ac3e36a85ae2a340ba51589e9ab
+In person or telemed?,invite_collaboration,We can either schedule for in person or via telehealth,Share_options,0.8247084349988897,lsa,subcode,invite_collaboration :: Share_options,a8cc4e5d511f1a14f93130603c943490ac2f681d
+In person or telemed?,invite_collaboration,We can either schedule for in person or via telehealth,Share_options,0.6036554574966431,sbert,subcode,invite_collaboration :: Share_options,a8cc4e5d511f1a14f93130603c943490ac2f681d
+Thanks,Appreciation/gratitude,Thanks,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thanks,Appreciation/gratitude,Thanks,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thanks,Appreciation/gratitude,Thanks,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thanks,Appreciation/gratitude,Thanks,signoff,0.9999999403953552,sbert,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thanks,Appreciation/gratitude,Thanks,signoff,0.9999999403953552,sbert,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thanks,Appreciation/gratitude,Thanks,signoff,0.9999999403953552,sbert,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thanks,Appreciation/gratitude,Thanks,signoff,1.0,tdidf,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thanks,Appreciation/gratitude,Thanks,signoff,1.0,tdidf,subcode,Appreciation/gratitude :: signoff,af43cd86d3704f6f9a4e7d6486b0ae217b523b2f
+Thank you,Appreciation/gratitude,thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,0.9999999999999998,lsa,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,1.0000005960464478,sbert,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+Thank you,Appreciation/gratitude,thank you,signoff,1.0000000000000002,tdidf,subcode,Appreciation/gratitude :: signoff,b3a730cb25941263e40e770d473e7a79997d9496
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,Can I change this to MM/DD/YYYY or MM/DD/YYYY ?,Scheduling_appt,0.7845784955978854,lsa,subcode,Drugs :: Scheduling_appt,ba022e4568f387bfd06ec2d1d5f186563ab04fbc
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,Can I change this to MM/DD/YYYY or MM/DD/YYYY ?,Scheduling_appt,0.6749117374420166,sbert,subcode,Drugs :: Scheduling_appt,ba022e4568f387bfd06ec2d1d5f186563ab04fbc
+be happy to,Connection,If not our manager is Gean Brown and she'd be happy to assist,Care_Coordination,0.712578162234185,lsa,subcode,Connection :: Care_Coordination,c4fdc0c77187360e6b3a7e23d8adc979b856431c
+be happy to,Connection,If not our manager is Gean Brown and she'd be happy to assist,Care_Coordination,0.5779799013598403,tdidf,subcode,Connection :: Care_Coordination,c4fdc0c77187360e6b3a7e23d8adc979b856431c
+This should ok,Approval/Reinforcement,OK,Alignment,0.6988840429102259,lsa,subcode,Approval/Reinforcement :: Alignment,c8ac2aa6c68e18502e08194fffb5fa073ff278d6
+This should ok,Approval/Reinforcement,OK,Alignment,0.6377375564891694,tdidf,subcode,Approval/Reinforcement :: Alignment,c8ac2aa6c68e18502e08194fffb5fa073ff278d6
+This should ok,Approval/Reinforcement,OK,Alignment,0.6377375564891694,tdidf,subcode,Approval/Reinforcement :: Alignment,c8ac2aa6c68e18502e08194fffb5fa073ff278d6
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,I put you off work from MM/DD/YYYY to MM/DD/YYYY,Economic_stability,0.7689408341076132,lsa,subcode,Drugs :: Economic_stability,d207d9cea3b7dd261b578d33d3538bd398f2bd40
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,I put you off work from MM/DD/YYYY to MM/DD/YYYY,Economic_stability,0.6596776247024536,sbert,subcode,Drugs :: Economic_stability,d207d9cea3b7dd261b578d33d3538bd398f2bd40
+take care of these prescriptions,Drugs,Take care,Connection,0.90105225724013,lsa,subcode,Drugs :: Connection,d40c4a273d4da9562cf68b5b3ed25c08b2b665e9
+take care of these prescriptions,Drugs,Take care,Connection,0.90105225724013,lsa,subcode,Drugs :: Connection,d40c4a273d4da9562cf68b5b3ed25c08b2b665e9
+take care of these prescriptions,Drugs,Take care,Connection,0.6254304276223819,tdidf,subcode,Drugs :: Connection,d40c4a273d4da9562cf68b5b3ed25c08b2b665e9
+take care of these prescriptions,Drugs,Take care,Connection,0.6254304276223819,tdidf,subcode,Drugs :: Connection,d40c4a273d4da9562cf68b5b3ed25c08b2b665e9
+Please send to,instruction,please have them send it to us at,Care_Coordination,0.5670389246538088,lsa,subcode,instruction :: Care_Coordination,d879eb7869c757d9f51e2aa621205bb4e560d70b
+Please send to,instruction,please have them send it to us at,Care_Coordination,0.5937644243240356,sbert,subcode,instruction :: Care_Coordination,d879eb7869c757d9f51e2aa621205bb4e560d70b
+this was faxed,Care_Coordination,This was either Dec. or Jan,Diagnostics,0.7854871508067237,lsa,subcode,Care_Coordination :: Diagnostics,d8957551092729f3a704ebe85e56df42e9ea00a7
+this was faxed,Care_Coordination,This was either Dec. or Jan,Diagnostics,0.5871786512620115,tdidf,subcode,Care_Coordination :: Diagnostics,d8957551092729f3a704ebe85e56df42e9ea00a7
+", let me know if you have any other questions or concerns",Encourage_questions,Let me know if you have any other questions,Maintain_communication,0.9714827765581024,lsa,subcode,Encourage_questions :: Maintain_communication,d9eea4cc84ccc627ced452a9389dfa9983382764
+", let me know if you have any other questions or concerns",Encourage_questions,Let me know if you have any other questions,Maintain_communication,0.7961933016777039,sbert,subcode,Encourage_questions :: Maintain_communication,d9eea4cc84ccc627ced452a9389dfa9983382764
+", let me know if you have any other questions or concerns",Encourage_questions,Let me know if you have any other questions,Maintain_communication,0.845278195727146,tdidf,subcode,Encourage_questions :: Maintain_communication,d9eea4cc84ccc627ced452a9389dfa9983382764
+", let me know if you have any other questions or concerns",Encourage_questions,Let me know if any issues,Maintain_communication,0.7294627185335459,lsa,subcode,Encourage_questions :: Maintain_communication,ddc5d645363b65605c7d5bb8a1c619fcdb5ccac9
+", let me know if you have any other questions or concerns",Encourage_questions,Let me know if any issues,Maintain_communication,0.6842932105064392,sbert,subcode,Encourage_questions :: Maintain_communication,ddc5d645363b65605c7d5bb8a1c619fcdb5ccac9
+"OOPS , sorry - my typo",Acknowledge_Error,Sorry,Connection,0.8709197205405211,lsa,subcode,Acknowledge_Error :: Connection,de26e64e4029ee4c20b8ea54779a95f4602bd09e
+"OOPS , sorry - my typo",Acknowledge_Error,Sorry,Connection,0.8665291005028808,tdidf,subcode,Acknowledge_Error :: Connection,de26e64e4029ee4c20b8ea54779a95f4602bd09e
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,MM/DD/YYYY after 230pm,state_preferences,0.8027291882685473,lsa,subcode,Drugs :: state_preferences,e197276a29a878394c294bf03fd168a84f2bee57
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,MM/DD/YYYY after 230pm,state_preferences,0.5870041812594937,tdidf,subcode,Drugs :: state_preferences,e197276a29a878394c294bf03fd168a84f2bee57
+", let me know if you have any other questions or concerns",Encourage_questions,"Any other issues, let me know",Maintain_communication,0.7579653723602569,lsa,subcode,Encourage_questions :: Maintain_communication,e893b970b0a1fc476c3e01a5555dd1311f3c3447
+", let me know if you have any other questions or concerns",Encourage_questions,"Any other issues, let me know",Maintain_communication,0.6714365482330322,sbert,subcode,Encourage_questions :: Maintain_communication,e893b970b0a1fc476c3e01a5555dd1311f3c3447
+I see Dr  Person1 on,Scheduling_appt,Do i need blood work before I see dr Person1 on MM/DD/YYYY?,Diagnostics,0.6412561020978422,lsa,subcode,Scheduling_appt :: Diagnostics,eeaae264ae6ba886d1167f126c1979da02499621
+I see Dr  Person1 on,Scheduling_appt,Do i need blood work before I see dr Person1 on MM/DD/YYYY?,Diagnostics,0.5676394118884264,tdidf,subcode,Scheduling_appt :: Diagnostics,eeaae264ae6ba886d1167f126c1979da02499621
+work down to lowest usage Oxy rapid w/o dealing w break through pain,Drugs,Really cuts the pain down to almost nothing,Symptoms,0.7848590539484057,lsa,subcode,Drugs :: Symptoms,f12f34e2ff04abe9eade8ba1587681695acfcdef
+work down to lowest usage Oxy rapid w/o dealing w break through pain,Drugs,Really cuts the pain down to almost nothing,Symptoms,0.5763238668441772,sbert,subcode,Drugs :: Symptoms,f12f34e2ff04abe9eade8ba1587681695acfcdef
+I hope that helps,Connection,Hope this helps,Reassurance,0.8148211473407676,lsa,subcode,Connection :: Reassurance,f77b61f6a4759719e51f98a7b17565ad8ad9ddf0
+I hope that helps,Connection,Hope this helps,Reassurance,0.8498409390449524,sbert,subcode,Connection :: Reassurance,f77b61f6a4759719e51f98a7b17565ad8ad9ddf0
+I hope that helps,Connection,Hope this helps,Reassurance,0.5991916930726237,tdidf,subcode,Connection :: Reassurance,f77b61f6a4759719e51f98a7b17565ad8ad9ddf0
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,MM/DD/YYYY after 230pm,state_preferences,0.79558593303854,lsa,subcode,Diagnostics :: state_preferences,f7928339a8906a383e6c3823f0b7e49a989bf92e
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,MM/DD/YYYY after 230pm,state_preferences,0.6079430855950206,tdidf,subcode,Diagnostics :: state_preferences,f7928339a8906a383e6c3823f0b7e49a989bf92e
+I am all set,General_information,You should be all set,Alignment,0.6753842093797657,lsa,subcode,General_information :: Alignment,fa9d3fbd64d8c32197b0146e7d359aee5cf64d71
+I am all set,General_information,You should be all set,Alignment,0.8261950016021729,sbert,subcode,General_information :: Alignment,fa9d3fbd64d8c32197b0146e7d359aee5cf64d71
