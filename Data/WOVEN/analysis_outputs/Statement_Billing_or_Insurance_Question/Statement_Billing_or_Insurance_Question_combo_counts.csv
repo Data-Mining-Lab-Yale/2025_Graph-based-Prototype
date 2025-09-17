@@ -1,0 +1,4 @@
+label_combo,count
+patient-to-provider,2
+patient-to-provider+provider-to-provider,1
+provider-to-provider,4

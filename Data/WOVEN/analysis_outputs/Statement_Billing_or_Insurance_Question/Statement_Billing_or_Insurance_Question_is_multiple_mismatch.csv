@@ -1,0 +1,27 @@
+MRN,Case Created,Case Type,Pt. Case Description,Case Closed,patient-to-provider,provider-to-patient,provider-to-provider,is_telephone_note,is_content,is_multiple,role_sum,multi_from_roles,label_combo,is_multiple_matches_roles
+33778,2025-04-21,"Statement, Billing, or Insurance Question","pt was charged $16.95 and a copy was scanned in chart. pt had already pd with us and also presented lab order sheet with receipt. Message has been sent to Courtney and she will contact Labcorp-mm
+4/25/2025 @ 11:15 AM: Good afternoon,
+ 
+Thank you for your email pertaining to LabCorpâ€™s Invoice #51705810.  We have requested a refund be issued to the patient in the amount of $16.95.   If the payment was received in the form of a check, then a refund check will be issued.  If a credit card was used to pay the invoice, a credit will be issued back to that credit card account.
+ 
+Please allow 15 days for this request to be processed and completed.   You may contact our Patient Customer Service Department at 1-800-845-6167 M-F 8am-5pm, or reply to this email, if you need further assistance with this matter.  We appreciate your business.
+ 
+Sincerely,
+ 
+Naysa P
+Correspondence Billing
+LabCorp
+4/25/2025: pt was contacted and informed she will be getting a refund within 15 days on her cc acct. Pt understood and appreciates we assisted with the help. I told her if she does not recieve her money back, just to let us know but as well contact labcorp. pt understood and had no questions-mm",2025-04-21,0,0,1,0,1,1,1,0,provider-to-provider,0
+33778,2025-04-21,"Statement, Billing, or Insurance Question","pt was charged $16.95 and a copy was scanned in chart. pt had already pd with us and also presented lab order sheet with receipt. Message has been sent to Courtney and she will contact Labcorp-mm
+4/25/2025 @ 11:15 AM: Good afternoon,
+ 
+Thank you for your email pertaining to LabCorpâ€™s Invoice #51705810.  We have requested a refund be issued to the patient in the amount of $16.95.   If the payment was received in the form of a check, then a refund check will be issued.  If a credit card was used to pay the invoice, a credit will be issued back to that credit card account.
+ 
+Please allow 15 days for this request to be processed and completed.   You may contact our Patient Customer Service Department at 1-800-845-6167 M-F 8am-5pm, or reply to this email, if you need further assistance with this matter.  We appreciate your business.
+ 
+Sincerely,
+ 
+Naysa P
+Correspondence Billing
+LabCorp
+4/25/2025: pt was contacted and informed she will be getting a refund within 15 days on her cc acct. Pt understood and appreciates we assisted with the help. I told her if she does not recieve her money back, just to let us know but as well contact labcorp. pt understood and had no questions-mm",2025-04-25,0,0,1,0,1,1,1,0,provider-to-provider,0

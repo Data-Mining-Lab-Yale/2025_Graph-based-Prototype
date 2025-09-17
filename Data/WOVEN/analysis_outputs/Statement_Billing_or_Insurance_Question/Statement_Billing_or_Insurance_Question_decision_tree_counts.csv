@@ -1,0 +1,13 @@
+is_telephone_note,is_content,label_combo,count,percent_of_all
+0,0,patient-to-provider,0,0.0
+0,0,patient-to-provider+provider-to-provider,0,0.0
+0,0,provider-to-provider,0,0.0
+0,1,patient-to-provider,2,28.57142857142857
+0,1,patient-to-provider+provider-to-provider,1,14.285714285714285
+0,1,provider-to-provider,2,28.57142857142857
+1,0,patient-to-provider,0,0.0
+1,0,patient-to-provider+provider-to-provider,0,0.0
+1,0,provider-to-provider,0,0.0
+1,1,patient-to-provider,0,0.0
+1,1,patient-to-provider+provider-to-provider,0,0.0
+1,1,provider-to-provider,2,28.57142857142857

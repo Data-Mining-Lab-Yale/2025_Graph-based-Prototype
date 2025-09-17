@@ -1,0 +1,21 @@
+{
+  "case_stem": "Statement_Billing_or_Insurance_Question",
+  "input_file": "Data/WOVEN/split_by_case_type/checked_results\\Statement_Billing_or_Insurance_Question_annotated_output.jsonl",
+  "total_rows": 7,
+  "flag_counts": {
+    "patient-to-provider": 3,
+    "provider-to-patient": 0,
+    "provider-to-provider": 5,
+    "is_telephone_note": 2,
+    "is_content": 7,
+    "is_multiple": 3
+  },
+  "label_combo_counts": {
+    "patient-to-provider": 2,
+    "patient-to-provider+provider-to-provider": 1,
+    "provider-to-provider": 4
+  },
+  "multi_label_rate_from_roles": 0.14285714285714285,
+  "is_multiple_agreement_rate": 0.7142857142857143,
+  "mismatch_rows": 2
+}

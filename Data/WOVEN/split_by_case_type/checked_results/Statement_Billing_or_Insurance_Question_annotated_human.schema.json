@@ -1,0 +1,18 @@
+{
+  "source_file": "Data/WOVEN/split_by_case_type/checked_results/Statement_Billing_or_Insurance_Question_annotated_output.jsonl",
+  "rows_written": 7,
+  "columns_count": 11,
+  "columns": [
+    "patient-to-provider",
+    "provider-to-patient",
+    "provider-to-provider",
+    "is_telephone_note",
+    "is_content",
+    "is_multiple",
+    "Pt. Case Description",
+    "Case Type",
+    "Case Created",
+    "MRN",
+    "Case Closed"
+  ]
+}

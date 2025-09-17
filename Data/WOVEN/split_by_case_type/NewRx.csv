@@ -1,0 +1,25 @@
+MRN,Case Created,Case Type,Pt. Case Description,Case Closed,patient-to-provider,provider-to-patient,provider-to-provider,is_telephone_note,is_content,is_multiple
+15572,2023-05-08,NewRx,"Pt came to office and wanted to know if provider sent medication to pharmacy, he was seen televisit on friday and stated to provider he was having some sore throat.
+----Can take otc robitussin sugar free-----PM
+pt informed and verbally understood.-sa",2023-05-19,0,0,1,1,1,1
+16265,2024-10-01,NewRx,"Pt needs refill on rosuvastatin 10 mg
+-------med sent-----------PM",2024-10-01,0,0,1,1,1,1
+16265,2024-10-01,NewRx,"Pt needs refill on rosuvastatin 10 mg
+-------med sent-----------PM",2024-10-01,0,0,1,1,1,1
+16410,2023-05-17,NewRx,Pt called to cancel her appointment; says she has to look for someone who takes her insurance and that she'll be getting chemotherapy,2023-05-18,0,0,1,1,1,1
+17557,2023-09-14,NewRx,"Patient is requesting a refill on his Metformin, Working on his BS Log and needs a few more weeks, Please.
+------------med sent-. he was suppose to be back in 1 month. 
+it is more than 2 month. need to keep follow up appointment---------------PM",2023-09-15,0,0,1,1,1,1
+17557,2023-09-14,NewRx,"Patient is requesting a refill on his Metformin, Working on his BS Log and needs a few more weeks, Please.
+------------med sent-. he was suppose to be back in 1 month. 
+it is more than 2 month. need to keep follow up appointment---------------PM",2023-10-16,0,0,1,1,1,1
+18030,2024-06-07,NewRx,"Patient called reporting her Invokana will not be sent to her for 2 weeks, due to re applying for St Vincent. Requesting some other medication for her Blood sugar.
+----------Please let patient know to come to clinic, will give kombiglyze sample------PM
+06/11/2024- Patient picked up sample.",2024-06-11,0,0,1,1,1,1
+29894,2023-03-20,NewRx,pt was notified of labs result and medication send to her pharmacy,2023-03-20,0,0,1,1,1,1
+32035,2023-03-30,NewRx,LAB RESULT REVIEW,2023-04-03,0,0,1,1,1,1
+32171,2023-06-13,NewRx,"called pt to schedule a followup  and find out when she was going to pay labs since last visit, she stated she cannot afford. pt stated when called, she cannot afford labs and appt. she wants to call when she's ready to schedule a follow up and pay labs. I have discussed with Neena and will ask in huddle tomorrow morning-mm",2023-06-16,0,0,1,1,1,1
+32675,2024-06-14,NewRx,"Called patient regarding PA request from Insurance .
+No answer, left message on pts VM.
+We do not work with any insurance for billing and no Prior authorization  for medications. 
+CB with any questions .",2024-06-16,0,0,1,1,1,1

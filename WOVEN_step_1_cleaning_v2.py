@@ -13,11 +13,13 @@ df = pd.read_excel(input_file, sheet_name=sheet_name)
 cleaned = df.dropna(subset=["Pt. Case Description"]).copy()
 
 # === Step 2: add new columns with default values ===
+# === Step 2: add new columns with default values ===
 cleaned["patient-to-provider"] = 0
 cleaned["provider-to-patient"] = 0
 cleaned["provider-to-provider"] = 1
 cleaned["is_telephone_note"] = 1
 cleaned["is_content"] = 1
+cleaned["is_multiple"] = 1   # <-- new flag
 
 # === Step 3: save outputs ===
 cleaned.to_csv(csv_out, index=False)
