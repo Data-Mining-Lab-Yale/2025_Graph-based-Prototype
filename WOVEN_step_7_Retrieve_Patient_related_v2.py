@@ -15,7 +15,7 @@ import re
 import pandas as pd
 
 # ====== CONFIG ======
-CASE_TYPE_FILTER = "Statement_Billing_or_Insurance_Question"   # change to the case set you’re working on
+CASE_TYPE_FILTER = "Clinical_Question"   # change to the case set you’re working on
 INPUT_PATH = f"Data/WOVEN/split_by_case_type/checked_results/{CASE_TYPE_FILTER}_annotated_output.jsonl"
 OUT_DIR = f"Data/WOVEN/filtered_outputs/{CASE_TYPE_FILTER}"
 os.makedirs(OUT_DIR, exist_ok=True)
