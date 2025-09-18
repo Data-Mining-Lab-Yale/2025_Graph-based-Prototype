@@ -6,7 +6,8 @@ import requests
 from tqdm import tqdm
 
 # ---------------- CONFIG ----------------
-CASE_TYPE_FILTER = "Clinical_Question"  # e.g., "Clinical_Question", "Medication"
+# CASE_TYPE_FILTER = "Clinical_Question"  # e.g., "Clinical_Question", "Medication"
+CASE_TYPE_FILTER = "Statement_Billing_or_Insurance_Question"  # e.g., "Clinical_Question", "Medication"
 INPUT_PATH = f"Data/WOVEN/split_by_case_type/{CASE_TYPE_FILTER}.jsonl"
 TEXT_COL = "Pt. Case Description"
 
@@ -107,58 +108,58 @@ def call_lmstudio(prompt_system: str, prompt_user: str) -> str:
 # - is_content = 0 examples: "called at 3pm", "left voicemail", "attempted to reach provider", "contact info updated".
 # - is_content = 1 examples: specific questions, advice, symptoms, decisions, findings, next steps.
 # """
-PROMPT_SYSTEM = """You are labeling short clinical communication notes from patient-provider workflows.
-Your job is to output ONLY a compact JSON object with integer 0/1 for these exact keys:
+PROMPT_SYSTEM = """You label short clinical communication notes in an EMR.
+
+Goal: Identify **who is speaking to whom** inside the note (directionality), not just who the note is about.
+
+Return ONLY a compact JSON with integer 0/1 for these keys:
 {
-  "is_thread": 0 or 1,                // 1 if the note contains multiple messages (reply + original) in one record
-  "patient-to-provider": 0 or 1,      // at least one message authored by a patient addressed to a provider
-  "provider-to-patient": 0 or 1,      // at least one message authored by a provider addressed to the patient
-  "provider-to-provider": 0 or 1,     // at least one message authored by a provider addressed to another provider/staff
+  "is_thread": 0 or 1,                // 1 if the record contains multiple messages (reply + original)
+  "patient-to-provider": 0 or 1,      // at least one message authored by the patient addressed to a provider
+  "provider-to-patient": 0 or 1,      // at least one message authored by a provider/staff addressed to the patient
+  "provider-to-provider": 0 or 1,     // at least one message authored by a provider/staff addressed to another provider/staff
   "is_content": 0 or 1                // 1 if substantive clinical/communication content appears (beyond pure contact status)
 }
 
-DEFINITIONS & CUES (use multiple weak cues to decide; prefer conservative decisions):
-- "patient-to-provider" cues:
-  * Patient speaks or is quoted asking, reporting symptoms, information, or requests to clinic.
-  * Phrases like "patient said/asked/reports", "pt called to ask...", first-person lines clearly from patient context.
-  * Messages containing patient questions, concerns, symptom narratives, scheduling requests initiated by patient.
-- "provider-to-patient" cues:
-  * Provider/staff communicates to patient: advice, instructions, triage outcomes, appointment confirmations, callbacks.
-  * Phrases like "RN advised...", "MA informed patient...", "provider called patient and explained...", "left detailed instructions".
-- "provider-to-provider" cues:
-  * Internal routing among staff/providers: handoffs, FYIs, orders, referrals, chart notes for colleagues, "sent to Dr X", "messaged MA".
-  * No direct patient addressing.
-  * Typical EMR phrases: "route to", "FYI to PCP", "please review", "forwarded to nurse pool".
-- If a single record contains a thread (original + reply), set "is_thread" = 1 and mark ALL roles present in that thread.
+CORE PRINCIPLE — narrator vs agent:
+- The EMR **note author is a provider/staff** writing for other staff (internal audience).
+- Phrases like “pt called …”, “patient reports …”, “patient asked …” usually mean the **provider is narrating** what the patient did/said to the clinic. That narration is a provider → provider internal message, NOT patient → provider.
+- Only mark patient-to-provider when the note explicitly includes the patient’s message **as a message** (e.g., a quoted question, a transcribed intake message, or clear wording that the patient sent a message to the clinic).
+- Mark provider-to-patient only when the note contains content directed to the patient (e.g., advice, instructions, we told the patient X, left detailed instructions).
 
-"is_content":
-- Set 0 when the note is purely administrative contact status without substance: "called at 3pm", "left voicemail", "no answer", "wrong number", "updated phone", "LVM", "attempted to reach", "scheduled for X" with no clinical info.
-- Set 1 if there is any meaningful content: symptoms, questions, clinical advice, medication changes, assessment, plan, decisions, next steps.
+Heuristics:
+- provider-to-provider (internal): “pt called…”, “FYI to Dr X…”, “routed to MA…”, “please review…”, “pharmacy stated…”, “prior auth expired…”.
+- patient-to-provider (patient authored to clinic): “patient sent message: ‘…’ ”, “patient asked whether…”, “portal message from patient: …” (when clearly the patient authored the message content).
+- provider-to-patient: “RN advised…”, “called patient and explained…”, “left instructions…”.
 
-AMBIGUITY & RULES:
-- If directionality cannot be determined with reasonable confidence, set ALL THREE role flags to 1 (union) to avoid missing cases.
-- Multiple roles can be 1 in the same record if the thread includes messages in different directions.
-- Avoid hallucinating content: if a phrase is unclear and could be administrative only, prefer is_content = 0.
+Threads:
+- If a single record contains an original message plus a reply, set is_thread = 1 and mark all directions present.
 
-OUTPUT FORMAT:
-- Return ONLY the JSON object (no prose, no markdown).
-- Values must be integers 0 or 1.
+is_content:
+- 0 if purely administrative contact status: “called at 3pm, no answer”, “left voicemail”, “wrong number”, “updated phone”, “attempted to reach”.
+- 1 if any meaningful content exists: symptoms, clinical questions, advice, medication change, assessment, plan, next steps.
+
+Ambiguity rule:
+- If you cannot determine directionality with reasonable confidence, set ALL THREE role flags to 1 (union) to avoid false negatives.
+
+Output:
+- Return ONLY the JSON object (no prose). Values must be 0 or 1.
 - Do not include explanations.
 
-EXAMPLES (illustrative; do not copy text):
-1) "Pt called asking if dizziness could be from new med. RN returned call and advised to take with food."
-   -> is_thread=1, pt→pr=1, pr→pt=1, pr→pr=0, is_content=1
+Mini-examples:
+1) “Pt called to ask about dizziness after new med. RN returned call and advised to take with food.”
+   -> is_thread=1, patient-to-provider=0, provider-to-patient=1, provider-to-provider=1, is_content=1
+   (Provider narrates patient’s call → internal; provider then advised patient → provider-to-patient.)
 
-2) "Called patient 2x, no answer. LVM to call clinic back."
-   -> is_thread=0, pt→pr=0, pr→pt=1 (provider left message), pr→pr=0, is_content=0
+2) “Called patient twice, no answer. LVM.”
+   -> is_thread=0, patient-to-provider=0, provider-to-patient=1, provider-to-provider=0, is_content=0
 
-3) "FYI to Dr. Lee: pharmacy says prior auth expired."
-   -> is_thread=0, pt→pr=0, pr→pt=0, pr→pr=1, is_content=1
+3) “FYI to Dr. Lee: pharmacy reports prior auth expired.”
+   -> is_thread=0, patient-to-provider=0, provider-to-patient=0, provider-to-provider=1, is_content=1
 
-4) "Left voicemail. Wrong number."
-   -> is_thread=0, pt→pr=0, pr→pt=1, pr→pr=0, is_content=0
+4) “Patient portal message: ‘I’m having new chest tightness.’ Routed to nurse triage.”
+   -> is_thread=1, patient-to-provider=1, provider-to-patient=0, provider-to-provider=1, is_content=1
 """
-
 
 
 
