@@ -1,0 +1,498 @@
+MRN,Case Created,Case Type,Pt. Case Description,Case Closed,patient-to-provider,provider-to-patient,provider-to-provider,is_telephone_note,is_content,is_multiple,is_thread,_raw,_rid
+13554,2023-12-26,Clinical Question,"Hello, good morning, I'm Martina Fernï¿½ndez and I'm sending you this message because I called the clinic and it says it's closed. I'm worried about the results I received from the Colon Test.",2023-12-27,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",846fe75288369d13
+13566,2024-03-27,Clinical Question,"Hello Dr. Barbaria,
+I had my appointment with you today at 1:30pm for my vertigo condition.
+You prescribed Meclizine for the Vertigo. I didnt realize you had prescibed Meclizine till i got home. Wanted to inform you I was already taking Meclizine 25 mg (OTC) when I started getting the vertigo but it has not helped. Can you please prescribe some other medicine for the vertigo.
+Thank you
+Susan",2024-04-03,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",baeca8d562481f8b
+13767,2023-04-17,Clinical Question,"Pt called and reported adverse reaction with medication, provider give instruction to go ER , if minor symptoms reschedule an early appointment.Front desk cannot reach this patient via phone.I called -cannot reach him on the phone number provided.",2023-04-17,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",6bbe20aaafcb0c7d
+13854,2023-04-12,Clinical Question,"Patient called requesting Urgent care appt.
+Ptient sates she works and has not time to est care.
+Urged patient to go to Watermark Urgent care for SDA appt and CB to schedule well check after she has been treated for POSS URI per pt.
+",2023-04-17,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",b66d0ce144627f7b
+13911,2023-08-22,Clinical Question,"Patient called regarding Rx for Triamcinolone paste ,
+Pharm on Midway is now closed.
+Spoke with Kim at Walmart on 4122 LBJ FRWY,
+Phoned in Rx for Triamcinolone paste .
+Patient has been informed her RX has been phoned in to her updated pHarm.",2023-08-22,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",99bf21ccc3fede7d
+14108,2023-08-21,Clinical Question,Pt called saying her pediatrician for her 3 kids suggested for everyone to get treated for Step. Pt asked if provider can send medications for her husband or if he needs an appointment. I explained to Pt that her husband would need to schedule an appointment in order to be seen/treated. Pt understood.,2023-08-21,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",2916c95e6e185399
+14572,2023-02-06,Clinical Question,PT CALLED TO REQUEST IF MAMMO ORDER COULD BE SENT BRIDGE BREAST; PT CLAIMS TOUCHSTONE IS ASKING FOR A LOT OF INFORMATION THAT SHE CAN'T PROVIDE AND BRIDGE BREAST DOESN'T REQUEST MUCH.,2023-02-06,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",374094a7522b5a69
+14572,2023-02-06,Clinical Question,"Patient called requesting you send her order for Mammo through Bridge Breast.
+C/O Can not qualify at Touchsrtone since she and her husband do not report their income.",2023-02-06,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",c0c305edd8b9d916
+15577,2023-02-27,Clinical Question,"Patient is complaining of vag DC and clumpy white discharge despite the Difulcan.
+States she is not feeling any better.
+",2024-03-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",3b31dd04a4391ad0
+15690,2023-04-17,Clinical Question,"SPOKE WITH PATIENT AND HE STATED HE WASNT ABLE TO PAY FOR HIS F/U APPTS WITH DR. RAJA AND SHE WOULD REFILL HIS MEDS UP TO CURRENT DATE. PT STATES HE NEVER SAW ANY OTHER PROVIDER SINCE 01/2022. PT IS READY TO BOOK APPT.-SA
+Please book appointment at coppell location.
+patient is a coppell patient . PM
+Pt states that his colonoscopy will be done by Dr. Martinez, pt will just be needing order by PCP and states he will be using his insurance to cover the procedure. Dr. Martinez is associated with Texas Digestive Disease Associates. Pt is currently uninsured but once he get insurance he will proceed with the colonoscopy due 2024. Pt was informed we do not have any resources for colonoscopy other than parkland. pt verbally understood and will walk-in to the pop up clinic in coppell tomorrow 04/18/23. pt was informed to take documentation in order to fill out coppell application. -SA",2023-04-17,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",0cbebf7910dba074
+15999,2023-09-05,Clinical Question,"1st attempt --> called pt regarding abnormal lab results. No answer, VM not setup.
+PT CALLED BACK AND MADE APPT FOR 09/07/23-SA",2023-09-05,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",00698948abc77f28
+15999,2023-09-05,Clinical Question,"1st attempt --> called pt regarding abnormal lab results. No answer, VM not setup.
+PT CALLED BACK AND MADE APPT FOR 09/07/23-SA",2023-09-05,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",00698948abc77f28
+16367,2023-04-25,Clinical Question,Pt called asking for US results,2023-05-15,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",48f10ef79f341c76
+16711,2023-02-10,Clinical Question,"Pt is requesting vaginal cream be sent for vaginal dryness, pt states a while back she got this cream prescribed by GYN and it really worked.pt would like to try same medication for vag dryness.",2023-02-23,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",17faf3ba8a0c02a3
+16821,2023-01-03,Clinical Question,"Pt called and stated that his Glyxambi medication has not been sent to costco, pt has not been taking medication for a week now. Pt stated that he did try to call office to get refills, but was not able to reach anyone.",2023-01-03,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",fd587bd47e776119
+16902,2024-10-22,Clinical Question,"The patient called asking for more information on the MCH test result. CB
+----Please let the patient know that she does not have anemia. I  will be checking her CBC again in 3 months -----PM",2024-10-22,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",95cd07fbc8452588
+17035,2023-02-23,Clinical Question,"Provider reached pt and informed she was needing to come in for mammo results from 02/21/23. Pt agreed and stated solis mentioned she is supposed to go to Solis Mammography for f/u but pt was not clearly sure why or for what. Per provider to call solis and get details on f/u for pt. 
+Spoke with Quintina from Solis (7777 Forest Ln. location) and she confirmed pt is resturning 03/03/23 for L breast DX mammo with possible US included. They will be needing order prior to that exam date. Provider notified of about details and will send updated order.",2023-02-23,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",9bfbd88459a3475d
+17316,2023-06-01,Clinical Question,"Patient want to know if you replaced Metformin for Janumet? She does not remember.
+yes she is takign janumet 1-1 ( it has metofmrin in it) , no need for extra metformin. Pls inform Pt.
+NB
+Notified patient-JE",2023-06-02,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",136bde147786d846
+17684,2024-10-03,Clinical Question,"Hello this is Joanie Graham wife of your patient Jackie (Jack) Graham.
+I tried to call the office couple of times but was unable to leave a message.
+He has an appointment at the UTSW office in Lewisville on 11/4/24 with an urologist due to the prostate number being high.
+They will work with us on the cost of the appointment to allow us to pay an amount that day and the balance out each month. 
+I would greatly appreciate if you could call me at 214-710-9178 anytime is fine.
+I am concerned about something with him.  About the past couple of months he has episodes of hallucinations.
+Some days he is fine and other days he literally says he sees spiders crawling on him. Sometimes it last just a short time
+other times its longer.
+He is not having headaches, blurred vision or taking any new medication.  But it is really upsetting when he starts seeing these
+spiders.
+I know this probably sounds very strange. Could you please see him or email me back regarding this.
+He is very comfortable with you as his doctor.  He has never had anything like this happen to him before the last couple of month.
+I would like to see him and sugg his wife to come with him.
+I want 40-60 min slot with him, he is hard of hearing and his visit takes longer, I need more time for this visit.
+I see 10/4/24- afternoon at 2 PM is open, can we schl him there?
+pls call wife n schl appnt. NB",2024-10-03,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",0f876d3b42386ae7
+17700,2023-08-21,Clinical Question,"Hello, 
+I came in last week for a visit with Dr. Neena Francis and she was to write a prescription for Wellbutrin, but Walmart pharmacy says they have not received a script for it yet. 
+Please let me know if sheâ€™s able to write it and send it to the pharmacy. 
+Name- Anisa Jiwani
+DOB- 04/05/1961
+Thank you
+Pt daughter stated that they have recv'd the wellbutrin from walmart. Pt is no longer needing script sent to walmart. -sa",2023-08-30,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",7926205847843eab
+17724,2023-11-02,Clinical Question,"Patient called regarding Irregular cycles.
+Per Ellen patient was given progestin only to help regulate cycles.
+Patient reports she is unable to tolerate treatment.
+Due to Migraines that is the only option.
+More than welcomed to Apply for PKL HP for further treatment options.
+11/02/2023 I returned patients call and no answer- Left message /returning her call.",2023-11-02,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",771b2de27cc22298
+17724,2023-11-02,Clinical Question,"Patient called regarding Irregular cycles.
+Per Ellen patient was given progestin only to help regulate cycles.
+Patient reports she is unable to tolerate treatment.
+Due to Migraines that is the only option.
+More than welcomed to Apply for PKL HP for further treatment options.
+11/02/2023 I returned patients call and no answer- Left message /returning her call.",2023-11-02,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",771b2de27cc22298
+17744,2024-10-22,Clinical Question,"Patient called to find out if the clinic she was referred to for Arthritis has moved. She says she remembers the clinic being in Addison or Farmers Branch behind the police department. She went and had labs done, but never received a call back, she went to the clinic and they are no longer there. I am having trouble locating the name of the clinic she was referred to. She said shes been to Parkland and that is not it, and that she did not qualify for PCCNT - Would we refer anywhere else for Arthritis? Please advise. CB
+We gave her PCCNT and PHHS info during last visit.
+She needs to see rheumatologist. PCCNT does not require any pre qualifying criteria, so I am not sure why is she having trouble going there- they have 3 locations, she can Google. PHHS in long run is more cost effective , she was given packet last visit for that. Pls let her know. I don't know this Addison clinic she is mentioning . NB",2024-10-25,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",51088cb3e08df4f5
+17800,2023-01-12,Clinical Question,"PT CALLED CLINIC AND  STATES THAT THE AMLODIPINE 5 MG IS NOT HELPING, PT WAS NOT FEELING DURING THE NIGHT, CHECKED THE BP AND WAS AT 166/100
+PER DR.B TO start taking 2 pills , now it does takes 5-7 days before medicine levelized in blood stream to give full effect, 
+PT INFORMED ABOUT ABOVE MESSAGE, PT VERBALLY INFORMED.",2023-01-12,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",c191eb19c64085b2
+17962,2023-05-21,Clinical Question,"Thyroid auto immune Hashimotos Disease ?? 
+Can we discuss over the phone? 
+Thank you.",2023-06-02,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",7d57800926c190f3
+18030,2024-06-07,Clinical Question,"Patient called requesting a medication to replace Invokana .
+Pharmacy will be sending to her in 2weeks.Due to possible Out of stock
+----------Please let patient know to come to clinic, will give Kombiglyze sample-----------PM
+Patient is coming to pick up medication-JE
+",2024-06-10,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",68edaf371e0cf84a
+18030,2024-10-01,Clinical Question,"pt called stating that clinic that will do her tooth surgery wants a letter from you to have permission to be able to remove her tooth.
+Made a sooner appt-JE",2024-10-01,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",ff6bd5482aa69900
+18054,2023-11-13,Clinical Question,"Patient states she is returning a call, states has received several messages to contact office to schedule results appointment.
+Patient state she has not had labs done in over 6 months. 
+Reports they are not her labs and did not have lab collected in 11/ 2023.
+Perhaps she lost her orders and someone picked them up??
+Not sure what happened but patient denies having labs done.
+This pt will be discharged since this pt has another provider.The case was discussed with Dr Baberia and rest of the team-NF
+Please craete a new d/c letter for this pt.We will send a copy of her result attached to her new provider-Neena Francis, APRN, FNP-C",2023-11-15,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",7bc1b012d6d1188f
+18113,2023-02-15,Clinical Question,"pt called carrollton clinic on more information on why she is needing to be seen for 1 mo f/u, pt was called back with information per provider Poonam Misra (NP). What was the next step for Mammo with Rayus Radiology, pt verbally informed MA- Stephanie A. that per rayus radiology Biopsy was not needed at this moment, instead come back for 3 mo f/u. Pt will need updated order for 3 mo f/u with Rayus Radiology. Pt unsure of which specific mammo order is needed and will call rayus radiology and get updated information and call clinc back with further mammo order details. pt verbally understood.  ",2023-02-15,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",2294199648fdafe8
+18115,2023-07-20,Clinical Question,"Patient called requesting GYN appointment due to Chronic pelvicpain.
+Informed patient Sono came back normal with 1 ovarian cyst.
+Urged patient to qualify for PKL HP due to Out of scope and normal studies.
+May need further in depth further evaluation we can offer in a clinical setting.
+Pt verbalized understanding, packett left at front desk for pt pick up.
+",2023-07-20,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",a7e277e97ad02336
+18222,2023-01-07,Clinical Question,"I looked online yesterday.  There is a site walkinlab.com on the internet.  The company is affiliated with LabCorp and Quest diagnostic.  It is a good price for a CBC with differential for a person who does not have insurance.  I want the order sent there.
+Jayne
+------------I have not seen this patient for many months. please schedule for annual.----------PM
+I called pt and left a VM to call back for a f/u appt.-JE",2024-02-14,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",61090d19d9f39b03
+18222,2023-02-15,Clinical Question,"An assistant asked me when I had the flu shot.  It was on 09/23/2022 Fluzone Quad PF.  Neighborhood Walmart Farmers Branch.   I take Estradiol .1 mg cream 2 times a week for  vaginal atrophy.  OBGYN  is Kristi Ryder Medical City.  I take erythromycin for eye  blepheratis as needed.  Opthamologist is Larry Taub.  
+Jayne Stovall",2024-01-04,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",da8b4be00fe76311
+18222,2023-02-25,Clinical Question,"I have an appointment Feb. 28th for a mammogram at Touchstone imaging.  Has the price for a cbc with differential been reduced through LabCorp?  Will I receive a notification on my cell phone to contact LabCorp for an appointment?
+Thank You
+Jayne",2024-03-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",98761529ac99545f
+18222,2023-02-28,Clinical Question,"Will I be notified by text message or email when the cost of a CBC with differential is reduced through Labcorp?
+Thank You,
+Jayne",2024-03-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",9492f4d46a9dff15
+18222,2023-02-28,Clinical Question,"Will I be notified by text or email when the cost of a CBC with differential is reduced through Labcorp?
+Thank You,
+Jayne",2024-03-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",f05fe63469e8eb2e
+18222,2023-03-01,Clinical Question,"Have the prices been reduced for a cbc with a differential?  If so, please send me a test or call me at 972-983-4712.
+Thank You,
+Jayne",2023-12-15,1,0,0,1,0,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",83693a2fc42dab14
+18222,2023-04-05,Clinical Question,"I have an order that was sent to Labcorp for a stool specimen test.  Do I need to schedule an appt. with Labcorp at Medical city first.  Labcorp in carrollton is closer.
+Thank You,
+Jayne",2023-08-17,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",cb149ea88cb1682d
+18222,2023-06-08,Clinical Question,"Ms. Larkin,
+Please ask Poonam Misra to fax a referral to Dallas Podiatry Works on Merit Drive Dallas Texas.  I have an appointment on June 16, 2023 with a podiatrist.
+My dob is 11/26/1961. 
+Thank You,
+Jayne Stovall
+469-941-4693
+-------------------Clinic does not do any referral----------------PM",2023-06-09,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",753e44eb6e7713eb
+18228,2024-10-16,Clinical Question,"Patient called regarding results for UA, patient stated that she is having lower stomach pain and painful urination, patient is concerned and wants to know if she should come in for another visit. I let pt. know I would send a message to provider regarding symptoms and UA results and will call back with recommendation.
+-----------Please let patient know, that she should for Urine test. had ordered in August 2024.----------PM
+Pt has done labs-JE
+--------------her UTI test result is negative. please schedule with Ob-gyn----PM
+I called pt and left a VM to give us a call back-JE
+",2024-10-17,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",659bd6021c4d7979
+18290,2023-02-27,Clinical Question,"PT CALLED CLINIC VERY UPSET AS TO WHY SHE WAS SCHEDULED FOR LESS THAN 3 MONTHS, PT STATES SHE DOESNT HAVE IDEA ON WHEN SHE IS GOING TO GO DO US AND IS REQUESTING 3 MONTH MED SUPPLY. PT WAS INFORMED PROVIDER WANTED TO SEE HER BACK WITH US RESULTS WITHIN 2-4 WKS AND SHE DOESNT WANT TO BE SCHEDULED UNTIL SHE GOES TO GET US DONE AND DOESNT HAVE TIME FRAME ON WHEN SHE WILL  BE GOING. 
+PT REQUESTING 3 ,ONTH SUPPLY TO BE SENT TO PHARMACY.",2023-02-28,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",e0aaa5bdf75d0089
+18290,2023-02-27,Clinical Question,"Patient called requesting to cancel appt. for results/ Studies not done yet.
+Urged patient to CB when her studies are complete.
+Also informed pt to RTC in 4 weeks regardless due to only 30 day supply was Rx.
+Pt verbalized states understanding.",2023-04-10,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",5e2c5cf16cc6088b
+18309,2023-08-15,Clinical Question,"Patient called requesting a call back regarding his lab results.
+States he was seen last week with Poonam and she told him we would call with results.
+ I called pt and discussed his result with him, see pt case. NB",2023-08-16,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",1015784c884c540d
+18366,2023-02-16,Clinical Question,"PT CALLED ASKING IF US PELVIS TRANSVAGINAL ORDER COULD BE SENT TO TOUCHSTONE AT 3304 Communications Pkwy #201, Plano, TX 75093",2023-02-22,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",0b7cb797fce91e09
+18564,2023-02-08,Clinical Question,Pt called requesting lab orders sent to Allen Labcorp fax: 214-495-9322,2023-02-20,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",3f9d2b32413d755d
+19115,2024-02-01,Clinical Question,"Patient called regarding her OV yesterday, pt reports she has started her BP check and her pulse was 116. BP was NL according to pt. No other numbers to reported.
+She was concerned due to her Pulse  at 116 after doing strenuous activity.
+Assured her to rest and wait a few minutes then recheck, so pt said she would take her meds now...
+Urged pt to continue taking her Lisinopril and continue to log BP readings.
+States she tends to forget to take her medications when asked if she is taking them everyday.
+Informed patient it is important to take her medications everyday and log her BP and pulse.
+She was also informed how important it is to continue to take her medications everyday.
+Warnings and signs given to pt. Patient states verbalized understanding.",2024-02-02,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",03eef08248669647
+19128,2024-10-03,Clinical Question,"patient called wanting to know if her lab results/ UA results have come in - she went yesterday. She said she is still having pain and now shortness of breath. Shes not sure if the shortness of breath is related to her pain or related to asthma. Would like a call back as soon as possible. CB
+_____________Please let the patient know that her urinalysis is negative and waiting on culture report.
+her shortness of breath could be due to asthma symptoms. She should take the albuterol inhaler 3-4 puffs as needed. can take ibuprofen for pain  200mg 2 tablet every 8 hrs as needed--------- PM
+Pt has been informed.-JE",2024-10-03,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",7dc1286459cadb23
+19823,2024-03-11,Clinical Question,"Joined the Athena Telmed to get her virtual visit going.
+Patient was then disconnected.
+I called patient to join on Doximity, patient states she will be busy for 30 minutes.]
+Link was sent and patient did not join.",2024-03-11,1,1,0,1,0,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":0}",9b500b721358bc71
+27668,2023-07-19,Clinical Question,"Patient was going to get her mammo done today but they did not want to do it since she put that she also felt something in her breast... they told her she had to come here first, or if you can send a different order. Did you want me to schedule her?
+------yes schedule her appointment------PM
+Patient has been scheduled-JE",2023-07-19,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",72621eb3a4def978
+27844,2024-01-23,Clinical Question,"Hi,
+I had an appointment today. I was wondering if I could get a doctors note for my job.
+Pablo Ramos",2024-01-24,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",0ed3a3e26708d462
+27908,2023-02-20,Clinical Question,"Pt came in to clinic stating she never went to pick antibiotic and is requesting if she could get it resent or would she need to schedule appointment for same problem (urinary frequency) again?
+If she is still having the problem, she needs to be seen because her tests cameback negative",2023-09-13,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",5a6cd774862324be
+27971,2023-01-04,Clinical Question,Spouse called to say pt is hospitalized due to car incident. Pt will call back to schedule appt once discharged from hospital. Pt was unable to get labs done. Spouse mentioned the hospital did screen for drugs on pt and was clean.,2023-01-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",fe3af01ea4de960f
+28060,2023-02-14,Clinical Question,"Patient called requesting a number for ENT , informed patient she can apply for Parkland HP since they do have ENT and financial assistance. 
+Also C/O of UNCONT HTN numbers are 150/ 88 and fluctuate , patient was seen 4 days ago for Ear ache.
+Urged patient to keep a BP log and RTC sooner if needed. Warning signs given pt states verbalized understanding.",2023-09-13,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",1bad356386ccb0a3
+28115,2023-07-10,Clinical Question,"Hi! I have an appt tomorrow but was wondering if you'd be able to prescribe for possible BV? If not, then I don't think the appt would be needed.Â ",2023-07-12,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",fe4ec9ab9a956033
+28484,2024-10-15,Clinical Question,"The patient called Solis for the Mamo results Solis told the patient to call the clinic. The patient is asking for mammo results and how to proceed. CB
+--------Patient's mammogram is abnormal. She has to go for a diagnostic mammogram. I have told Myra to call her so that she can schedule her follow-up mammogram with Solis. --------------PM
+10/16/24: pt called wanting to know results of mammo. I scheduled an appt with poonam for Friday because pt doesnt know results and i was only told to send order. pt wants to know whats going on and maybe we can send to BB to help with finance or MCI. -MM
+------------Patient has been contacted-----------PM",2024-10-16,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",d67dcc375f1e22b6
+28552,2023-09-20,Clinical Question,"called pt to inform potassium still low, per provider to increase potassium medication from 1 tab daily, to 2 tabs daily. 
+no answer, VM full, unable to LM.  Will attempt to contact patient again later.
+pt called back and verbally informed her that her potassium is low, pt to start taking 2 tablets daily for potassium. pt verbally understood. -sa",2023-09-21,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",d11c7262d7b463be
+28591,2023-05-04,Clinical Question,"Patient called requesting Mammo results.
+I returned patient caal and informed her that her mammo was benign/Negative.",2023-05-04,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",e14354409bf0786c
+28834,2023-12-21,Clinical Question,"Pt called the clinic several times wanting her sono results. Upon chart review, it was noted that Ms. Martinez is a patient at Parkland.  She had a pap smear in Sept 2023 alng with labwork.   of note is that her pap smear was abnormal.  She has a sono scheduled @ Parkland in March of 2024  She has been counseled by Rosie V. CMA in Spanish  that the sono done in Dec. 2023 has some abnormalities and needs follow up @ Parkland and that she continue her care there,",2023-12-21,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",3342a47a113fca16
+28875,2023-04-21,Clinical Question,"Patient was contacted with Dr . Babaria on the phone in office.
+Mammo results were discussed with the patients and questions were answered.
+Phone number(on the order) to Womens imaging was given to patient.
+Urged pt to contact imaging center and answer the phone if they attempt to contact her, since orders will be sent as soon as we hang up./ Orders have been sent.
+Patient states verbalized understanding and assures she will call today since she is qualified for financial  assistance.
+agreed with above, pt contacted and provided all information.",2023-04-21,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",383fea2bfe8eb422
+29051,2023-01-10,Clinical Question,"Patient called requesting mammo order sent to Bridge breast so she ca schedule here mammo .
+pt added for mammo mobile list for next mammo date in 2/23",2023-01-16,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",6b322e94435a1b8b
+29062,2023-02-21,Clinical Question,I do not have questions about my health information at this time,2023-02-21,1,0,0,1,0,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",51828d2c44f568a5
+29071,2023-03-29,Clinical Question,"Patient has been contacted and notified of Negative findings on her USG results for leg pain.
+Patient reports that she is still in pain.
+Gave her the number to Hope Clinic since she lives in Garland perhaps they have a Orthopedist there.
+provider has recommended she see an orthopedist.Pt states verbalized understanding.",2023-03-29,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",725e2f25e4a0fe1b
+29144,2024-03-08,Clinical Question,"Patient has been notified of anemia in her lab results.
+Informed pt her Rx for Iron will be sent to Sams Pharm.
+States she is having heavier cycles than usual, appt offered with GYN.
+Per pt will schedule another time, busy with appts for her daughter.
+----Thanks for notifying the patient---------PM",2024-03-08,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",7a086b3f25c7f436
+29264,2025-06-13,Clinical Question,"Patient's daughter, Rita Nunez(listed on hipaa), contacted office and requested for us to fax recent labs to Provider, Joseph Cano, office: 972-691-3777 fax: 972-691-3666",2025-06-13,1,0,0,1,0,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",fd55275694889404
+29284,2023-08-02,Clinical Question,"Since Dr.B is not here can you please send an order to rayus radiology... they need a bilateral biopsy on her.
+Called and clarified with Dr Payne from Rayus radiology.They wanted  bilateral breast  biopsy ordered  just in case if they find any concerning mass . i ordered it today-Neena Francis, FNP-C",2023-08-02,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",c346262d919bcebd
+29371,2023-04-12,Clinical Question,"Patient called requesting her visit for today be conveted to Telemed due to Car in shop.
+Informed patient she has not been seen in office for 2023 and this will be her last T+M  visit.
+Also discussed 3 NS/ Compliance and poss discharge .
+Patient states she has never Rescheduled, I then informed her that she will keep her appt for TM and Provider will discuss further.
+",2023-04-12,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",719c56dbb88cceed
+29454,2025-02-10,Clinical Question,"Patient called into after hours line requesting her iron levels and inquiring about potential iron medication, requesting call back ASAP. - 972-800-4647 - CB
+PLs call pt n inform that her iron labs last yr was normal side, her hemoglobin this yr - normla. NO need for iron pill as of now. NB",2025-02-11,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",8adc16cb9cd9d4b9
+29568,2023-01-06,Clinical Question,"Patient called regarding her Chol meds Rosuvastatin dose went up from 10 mg- 20 mg.
+Informed pt that 10 mg was not bringing her chol down anymore and her dose was changed at her last visit. She was explained thoroughly that her chol is not continuing to go down anymore.
+It is maintaining at 212 and it is recommended to have her chol below 200.
+Patient feels she needs more time with provider at her next visit since she is not grasping the providers instructions. Will document additional time for next visit.",2023-01-06,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",0c726266caf7f5a6
+29747,2023-07-19,Clinical Question,"Patient wanted to make an appt with us but I did see there was a note from you saying we couldn't schedule him because he needs to see pulmonologist first. He is confused on why he needs to see specialist and says he was never informed.
+-7/19/2023 @ 9:56am: lvm to call office. I would need to speak to pt about his hx in 3yrs-per poonam before scheduling an appt-mm
+-pt called back and stated he has seen a pcp last month and was given medication for htn but prices were to high(Raul Lozano in Dallas) and wants to come back to re-establish. Pt does not use breathing machine due to past hx of pneumonia and covid so there was no need to see pulmonologist. Pt has been scheduled and no further questions.-mm
+",2023-07-19,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",930937e68211543c
+29864,2023-08-11,Clinical Question,"Hello,
+I have  called several times to speak with Dr. Babaria concerning medical accommodation.  I was told my someone at the office they would call me today at 11:00am no call.  I call back 3 times today and was on hold for 5 minutes each time and they hung the phone up.  Please have someone call me back or do I need to  make an appointment to discuss the medical accommodation?  I need this for my job.  If I need to make an appointment please have someone call me. Please call 469 348 6953.
+Thank you,
+Patient aware , we do not fill those forms out.
+She must have them filled by the provider that  ordered restrictions.",2023-08-25,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",2dcf871380fef29d
+29893,2023-04-28,Clinical Question,"Pt called asking if based on her mammo results will she be needing any further testing?
+I called pt letting her know results came back normal and no further testing will be needed per Neena
+I got message from Angelica about mammo result.I answered it is normal and you can tell result and no further testing needed-Neena Francis , FNP-C",2023-04-28,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",3af669dfa23eecac
+29929,2023-05-03,Clinical Question,"Patient called requesting assistance scheduling appt with Womens Premier regarding her a vaginal lesion. States Parkland process is lengthy and prefers to pay to have treatment sooner.
+Med rec request was faxed and patient verbally authorizes authentication.
+Patient was then informed her med recs have been faxed and Urged to call Yami in 5 minutes to assure they can offer her an appt.",2023-05-03,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",16f42169c87253e7
+29937,2024-09-03,Clinical Question,"PT. STATED THAT PROVIDER TOLD HER TO CALL BACK IF SHE WAS STILL EXPERIENCING PAIN. SHE STILL HAS PAIN AND IS REQUESTING AN XRAY PER CONVERSATION WITH PROVIDER.
+-----------------xray ordered to touchstone---------------PM",2024-09-03,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",8cb04d0d12249d54
+29937,2024-09-03,Clinical Question,"PT. STATES THAT A PRESCRIPTION WOULD BE CALLED IN FOR THE INFLAMATION IN HER STOMACH LAST FRIDAY, BUT THE PHARMACY DID NOT HAVE AN ORDER. PT. STATES HER STOMACH IS DISTENDED AND SHE HAS NOT BEEN ABLE TO EAT ANYTHING SINCE HER APPT. LAST FRIDAY.
+------------Please notify patient that she should take omeprazole 20 orc daily---------PM
+Pt has been informed-JE",2024-09-03,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",b84875369e500744
+29974,2023-09-18,Clinical Question,Results/Mammo,2023-09-18,1,1,1,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",8a91b68d4b251823
+30219,2023-01-20,Clinical Question,"Pt had virtual consult and came by clinic to get tested for COVID, RSV, FLU all tests were NEG. Pt was informed and verbally understood. Pt stated she was having fever of 103-104(F). vomiting up to 5 times a day for 3 consecutive days. Pt was recently dx with Pneumonia 12/15/2022. Pt was prescribed abx at that time. Pt states she has been having her sx since tuesday of this week. Pt was recommended by NP Neena Francis to go to ER ASAP, CAREFULLY SINCE SHE IS HAVING DIZZINESS BUT NO SPOUSE OR NO SUPPORT FROM SOMEONE TO DRIVE HER THERE. PT VERBALLY UNDERSTOOD.",2023-01-20,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",a6e4172e7f68e9c8
+30300,2024-11-12,Clinical Question,"Patient called asking for Gyn an explained her symptoms. She said her dizziness comes and goes. She said she has heavy bleeding when on her cycle. She had an appointment 11/11/2024 and was told to make an appointment with GYN, but patient said she couldn't and that the Provider got upset with her because of that fact. I called Mayra back and Neena said that she should go to the ER.",2024-11-12,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",4f449ce8d6a510a2
+30364,2024-05-21,Clinical Question,"PT WANTS TO KNOW IF YOU CAN SEND MAMMO SCREENING TO ANOTHER LOCATION, IN THE COLINAS, SHE IS AFRAID TO DRIVE TO THE LOCATION YOU SENT IT TOO FIRST..
+yes I can, she can give me that info during her next appnt on 5/30/24. NB",2024-05-23,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",02adf84c27f385b4
+30462,2024-05-24,Clinical Question,"Patient has been notified of TSH lab results.
+Also provider has instructed her to DC methimazole for 6 weeks and repeat labs prior to her appt.
+Patient complaining of throat discomfort and having a hard time breathing, urged pt go to ER .
+---------I agree. needs to d/c Methimazole since lab result abnormal. will check back in 6 weeks----------PM",2024-05-24,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",2cd363c99e8fb9a5
+30488,2023-11-09,Clinical Question,i got  pasmear done 06/16 at parkland and was normal .. my qoustion is do i still need to do the coloscopy ? or how can a be retested for hpv?,2024-03-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",801ab85ce9375279
+30567,2023-02-07,Clinical Question,"Thanks for the thorough information.  I just thought I would update you all.  i no longer use any of these medications:
+Name	Prescribed Date	Start Date	 	 
+citalopram 10 mg tablet
+Take 1 tablet every day by oral route.	08/16/2022	 
+erythromycin 5 mg/gram (0.5 %) eye ointment
+APPLY 1 CM RIBBON INTO THE LOWER CONJUNCTIVAL SAC(S) IN THE AFFECTED EYE(S) BY OPHTHALMIC ROUTE 3 TIMES PER DAY x7 days	01/18/2022	 
+ibuprofen 600 mg tablet
+Take 1 tablet 3 times a day by oral route with meals.	08/16/2022	 
+prednisone 20 mg tablet
+Take 1 tablet twice a day by oral route.	06/14/2022	 
+Also, Under problems:
+Irregular Periods	Active	04/29/2021  I no longer have periods.  I am menopausal.
+Arthralgia of Temporomandibular Join  I am no longer under jaw pain
+Otalgia of Left Ear  I no longer have ear aches.
+Thanks for all you do!!!!  I feel blessed to have you all.",2024-02-16,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",efdf6eb09b52b8ff
+30567,2023-08-25,Clinical Question,"NOTHING WAS RECORDED FOR A SUMMARY IN THE PORTAL after I went to the Coppell Fire Station for diagnosis of my swollen feet and ankles.  PLEASE READ:
+Patient Care Summary for Pilar Castro-Zena
+Most Recent Encounter
+08/23/2023 Namrata G Babaria: 1 Medical Pkwy Ste 149, Dallas, TX 75234-7830, Ph. tel:+1-972-4848444 
+Reason for Visit
+None recorded.
+Assessment and Plan
+The following list includes any diagnoses that were discussed at your visit.
+1. Ankle edema
+Discussion Note: None recorded.
+Patient educational handouts: No information available.",2024-03-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",f72065d6facc7269
+30725,2023-04-20,Clinical Question,"Pt came in and asked to see Dr. B; I let her know that she was seeing patients and to book an appointment if she had any questions-per Rosie; She then called the office and asked to speak to Dr. B; I asked what it was regarding and she said she had questions and wanted to know the results to her Mammo; I let her know that I will reach out to the provider first.
+Please advise her to make appointment to discuss further question and plan. I have discussed her abnormal result with her in detail phone call and all questions were answered yesterday. Pt was advised to pick up parkland packet which she did today. NB
+I called pt and let her know to schedule appt if she had any further questions; She said she would call Monday morning to see if she could come in at 3:15 pm",2023-04-21,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",e65af8eed14659f6
+30737,2023-01-25,Clinical Question,"PT CALLED OFFICE AND WAS INFORMED THROUGH BRIDGE BREAST SHE IS NEEDING US ORDER OF L BREAST, DUE TO SOME FINDINGS AND ARE NEEDING AN UPDATED ORDER FROM PROVIDER SENT TO BB TO SCHEDULE APPT. PT WAS ALSO INFORMED BY BB THAT SHE WILL NEED TO TAKE ADDTNL INFO(DL, INCOME VERIFICATION, AND PROOF OF ADDRESS) PT WAS INFORMED ABOUT UPDATED ORDER BEING SENT AND WAS INFORMED TO CALL BB TO SCHEDULE U/S OF L BREAST, PT VERBALLY UNDERSTOOD.",2023-01-25,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",dc344a3ed07a9c69
+30820,2023-08-16,Clinical Question,"patient called for 1.) missed appt w/Dilhari 2.) abnormal mammo results, was told to schedule appt, pt wasn't sure whether with PRIM or methodist.
+1.) Pt was able to be seen by Dilhari by tele-med
+2.) read existing pt case, informed patient she needs to schedule an appointment with methodist, pt understood and said she'd call methodist to schedule.",2023-08-16,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",a5c87279f4b870aa
+30887,2024-10-21,Clinical Question,"Patient called stating she has an appointment scheduled for Thursday, but over the weekend, she believes she got an ear infection and is asking for a prescription to help with the ear infection. I let patient know she would likely need to be seen before we can send any medications to her pharmacy, but that I would send a message to the provider and someone will give her a call back before the end of the day to discuss. CB - patient would prefer call back on phone number 773-940-6833
+-------------Please let patient know that I cannot send medication before examining her.------------PM
+Pt said she will wait for her appt coming up this week.-JE",2024-10-21,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",ba7a95ac2699172b
+31005,2023-04-28,Clinical Question,"Patient called demanding abx sent to pharmacy thinking she has a UTI.
+I explained to the patient several times that ABX are not recommended since her Urine Culture came back - Negative for growth. 
+Patient irrational and refuses to listen to reason and just demands antibiotics.
+After explaining to her several times, Provider does not recommend abx.",2023-04-28,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",85c9f32007883ea0
+31005,2023-04-28,Clinical Question,"Patient called demanding abx sent to pharmacy thinking she has a UTI.
+I explained to the patient several times that ABX are not recommended since her Urine Culture came back - Negative for growth. 
+Patient irrational and refuses to listen to reason and just demands antibiotics.
+After explaining to her several times, Provider does not recommend abx.",2023-04-28,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",85c9f32007883ea0
+31066,2023-09-15,Clinical Question,"Patient called requesting a referral for Urologist due to being seen in the ER and Diagnosed with kidney stones. Patient was informed to go to the ER in PKL and qualify for care
+Clinic does not have any speciality care. She should go to parkland.",2023-09-15,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",1520f4a492f66756
+31219,2024-04-15,Clinical Question,"PT called asking for results of mammo
+I called and disussed her abnormal mammo resutl with pt, expalined she needs BL diagnostic mammo + sono.
+order palced to Methodist 3500 wheatland rd, dallas location, pt has their phone number, sugg her to call later today n schl mammo. call us back if having issue schl mammo. Pt understood, also sugg to f/up on dx mammo result as well. NB",2024-04-15,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",fb66462de3d04152
+31244,2023-03-25,Clinical Question,"What does the 10.7 mean positive? For theÂ hsv 2 IgG, type spec
+Â index?",2023-03-27,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",64271b9a41774a7b
+31288,2023-01-04,Clinical Question,"Patient has been informed she must take her treatment for BV
+Per pt refuses to take her Metronidazole due to Anemia and possible side effects.
+Urged pt to cont to take Iron TID as instructed per Prim Provider and start her treatment for BV as instructed per Gyn/ Malloy
+Pt states verbalized understanding.
+",2023-01-19,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",00aeef5bf4ec117d
+31311,2024-10-21,Clinical Question,"Patient received a notification that her labs were ready, she reviewed them and sees that everything says normal -pt. wants to know if she needs to come in for lab results or not. If yes, she needs to RS because she's not prepared to come in tomorrow. CB
+----------Her Labs are normal. she can come next year for her annual---------PM",2024-10-21,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",e088cbca84250743
+31421,2023-08-15,Clinical Question,"Labcorp called reporting STAT lab values.
+FBS on Saturday 08/12/2023 FBS were at 20
+Per Dr Babaria , patient was called and she reports she is feeling fine and was well on Saturday when she went to the lab fasting. Also states she is not taking any medications and has been eating well.
+Per patient , she would like to purchase a glucometer kit.
+labs reviewed, low BS reason? error?
+pt is not on sugar lowering medicine, no underlying medical condition and denied any low BS sx when went to laboratory. Pt said to MA that over all she is feeling good. Pt can buy BS machine n start logging her BS.
+Keep next appnt ( 8/30/23)for further discussion. - NB",2023-08-15,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",31d3aa5f15ee71d7
+31426,2023-05-04,Clinical Question,"Patient wants a mammo order sent to Touchstone
+-----Mammo order sent to Touchstone per patient request----PM",2023-05-04,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",510392e4bd1006c4
+31497,2023-04-12,Clinical Question,Pt called stating she went to ER and they told her she had pneumonia; I have uploaded her discharge papers; She wanted to book appt as she had questions; I let her know that I was going to let provider review discharge papers and give her a call back to schedule appt if provider needed to see her...,2023-04-13,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",1ef20815c7031178
+31511,2023-04-27,Clinical Question,"Pt called asking for XR results
+The result is normal.You can tell patient.Thank you Neena Francis",2023-04-27,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",bc9ac43c79029dd9
+31533,2023-04-03,Clinical Question,"Patient called requesting orders for MRI be sent to Envision Imaging instead of TT
+Due to Discounted pricing",2023-09-13,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",9d13f8bd25bb75f0
+31549,2023-07-24,Clinical Question,"Patient called requesting a refill on all of her meds.
+Rescheduled her appointment 1 month out, refused to do a virtual visit states she is to busy with work.
+Informed her she is supposed to keep her follow up to manage her DM. States she can not follow up for a month out only..
+med refill sent.NB",2023-07-24,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",6df5f628e839dbd8
+31667,2023-02-06,Clinical Question,"Patient called requesting a 90D supply of her BP medications/ Metoprolol 50mg tab
+Pharmacy is Walmart on Anderson.",2023-02-06,1,0,0,1,1,0,0,"<|channel|>final <|constrain|>JSON<|message|>{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",2907d060a0f1234e
+31751,2023-07-28,Clinical Question,"Contacted patient today as a reminder that 6 month mammo is due in 10/2023
+Pt reports she is aware and Urged her to schedule so she is reminded.
+Pt states verbalized understanding.",2023-07-28,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",b5e484475cf2b483
+31852,2024-11-07,Clinical Question,"Shana called saying she's ready for smoking cessation alternatives. Said she has not been able to quit and is ready to see what other options she has. Not sure if she needs to make an appointment or if we can just give recommendation - Please advise. CB
+---------------Please refer her to Jessica (BH) for smoking cessation-----------PM
+Patient not interested in BH - says she previously spoke to Jessica and doesn't feel comfortable with seeing her- not interested in medications, asking for any other recommendation - said she saw something for a hand to mouth nicotine ""inhaler"" that is prescription and is wondering if maybe she can try something like that - CB
+-----------Nicotrol inhaler is been discontinued for more than 1 year----------PM",2024-11-08,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",0e0d022bf4516921
+31852,2024-11-07,Clinical Question,"Shana called saying she's ready for smoking cessation alternatives. Said she has not been able to quit and is ready to see what other options she has. Not sure if she needs to make an appointment or if we can just give recommendation - Please advise. CB
+---------------Please refer her to Jessica (BH) for smoking cessation-----------PM
+Patient not interested in BH - says she previously spoke to Jessica and doesn't feel comfortable with seeing her- not interested in medications, asking for any other recommendation - said she saw something for a hand to mouth nicotine ""inhaler"" that is prescription and is wondering if maybe she can try something like that - CB
+-----------Nicotrol inhaler is been discontinued for more than 1 year----------PM",2025-01-20,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",0e0d022bf4516921
+31852,2025-07-28,Clinical Question,"pt called ,p[er pt during her last visit provider mentioned if she wanted imaging .pt declined at the time as she thought it was not necessary . she is now wanting imaging, her nxt fallow up is 08/29 ,she is asking if she has to come in prior for that imaging order or can we just sent order prior to visit
+------------I she asking xray for her left hand-------------PM
+yes, left hand
+-----sent-----------PM",2025-07-28,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",8b439c8ae3816748
+31859,2023-07-31,Clinical Question,"Ashley /Phram Walmart called requesting amonium crm varification on directions
+Per Neena Apply to affected area BID/PRN.",2023-07-31,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",ef9c22b4a0230d73
+31871,2024-09-05,Clinical Question,"Denton county public health office called regarding referral for this patient. Stated the TB test is positive however no chest x ray was included in the referral. Denton county is requesting we follow up with patient for status of chest x ray as it is imperative to the health department to know if patient is actually positive... Please advise. Denton County phone 972-434-4700
+--------I have sent chest xray, patient has not done it. jacky please let patient know that she has to do the chest xray----------PM
+Pt said she will be going 9/6/24-JE",2024-09-05,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",9d01ec0fac936589
+31894,2023-07-24,Clinical Question,"Patient called hes been using the insulin and his numbers are still really high (290 when he wakes up), hes asking what should he do.
+he has stopped his metformin recently, that he not suppose to do, so he can restart his meds and take insulin as suggested. He has been eating 2 sweet bread + coffee for BF n 7-8 tortillas for meal, that he had to reduce as per his consult with RD... keep on checking BS at home n keep next f/up visit in few weeks. NB
+Rosie spoke with patient on what to do next-JE",2023-07-25,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",0d49429c8fb36f2c
+31958,2023-03-26,Clinical Question,I am due for my 2nd Shingle Vaccine & I would like to know if I can stop by for the shot. Thank you.,2023-05-19,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",79f495af27037ad3
+31958,2023-03-30,Clinical Question,"This is my follow up email for 2nd dose of shingles shot. I need to schedule , pls let me know.
+Thank you.",2023-04-03,1,0,0,1,0,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",34f52066449c343d
+31962,2023-01-20,Clinical Question,"Patient called requesting a refill on her Thyroid medication/ Levothyroxine.
+refill sent till next appnt",2023-01-25,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",5ba7e81f8d84846c
+32031,2023-04-13,Clinical Question,"Good afternoon, is there a way I can send my pap results from this portal to another doctor? I have been referred to an oncologist and they want my results from Februaryâ€™s pap. 
+I send this request to Myra to help the pt .She will contact and help the pt with necessary help.",2023-04-18,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",dd3edec5a12b32cf
+32052,2023-02-27,Clinical Question,"PT CALLED OFFICE AND STATED SHE IS TRYING TO SCHEDULE HER DIAGNOSTIC MAMMO WITH METHODIST BUT THEY KEEP TELLING HER THAT NO ORDER HAS BEEN SENT YET. CALLED METHODIST AND SPOKE WITH PAOLA, SHE PROVIDED DIFFERENT FAX NUMBER (2149473605) WHICH ORDER WAS RE-FAXED TO THAT NEW FAX NUMBER. 
+CALLED PT BACK AND INFORMED HER ABOUT ORDER BEING SENT, TO CALL IN ABOUT 15 MIN TO MAKE APPT, CALL BACK TO CLINIC IF THEY HAVE YET NOT RECVD ORDER. PT VERBALLY UNDERSTOOD.",2023-02-27,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",52ad0c2b4a303ade
+32052,2023-03-02,Clinical Question,Patient requesting orders be sent for additional view to Methodist in Dallas/,2023-03-06,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",bba4a01a6ab210fb
+32071,2023-05-16,Clinical Question,"PT CALLED ASKING TO GO OVER LAB RESULTS.
+Labs normal. no need for medicine.NB",2023-05-17,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",11c62f86d617513d
+32095,2025-07-08,Clinical Question,"pt called office requesting if you could please give him a call. He had a question about yesterday's session. I told patient you were in a meeting and he would get a call back later today. pt understood.-mm
+Pt was contacted and questions and concerns were addressed. -JV",2025-07-08,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",55fb142c66337e1e
+32157,2023-02-23,Clinical Question,"Called pt emergency contact (sister Monica Alfaro) , updated correct phone number and was able to reach sister (monica), informed sister that the clinic has been trying to reach Ruby and have left few VM and have not heard from pt Ruby. Sister attempted to reach sister as well while on call and was not successful to reach her. Pt sister (monica) stated she will call Ruby again around 11AM and inform her to call us back ASAP.",2023-02-23,1,1,1,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",3ec8292c7d653c5b
+32157,2023-02-23,Clinical Question,"PT CALLED THE CLINIC REGARDING BIOPSY, PT STATED SHE SUBMITTED APPLICATION WITH PARKLAND AND IS WAITING FOR THEM TO REACH BACK TO HER TO SCHEDULE APPT. PT STATED SHE WASNT GIVEN BB INFORMATION OR PACKET. TOLD PATIENT TO COME BY THE CARROLLTON CLINIC TO RECEIVE THAT INFORMATION. PT AGREED. 
+PT CAME IN TO CLINIC TO RECEIVE ADDTNL INFO. 
+INFORMED PT THIS IS A BIOPSY AND RECOMMEND NOT TO WAIT, PT WAS GIVEN BB PACKET AND INFORMED TO GO IN PERSON WITH APPLICATION FILLED OUT AND REQUIRED DOCS TO GET ASSISTANCE BY BB FOR BIOPSY. 
+  ALSO INFORMED PT IF BB CAN NO ASSIST WITH BIOPSY,  TO GO IN AS WALK IN TO PARKLAND DAILY WALK IN CLINIC(M-F ARRIVE AT 7:30 AM @ IRVING LOCATION) AND GET SEEN BY PCP TO GET REFERRED TO GET BIOPSY PROCEDURE. PT VERBALLY UNDERSTOOD AND AGREED. 
+PT WAS INFORMED TO KEEP CLINIC UPDATED ON WHICH LOCATION SHE WOULD GO TO AND THE DATE FOR THE BIOPSY. PT WAS ALSO GIVEN HER U/S RESULTS FROM TOUCHSTONE. PATIENT VERBALIZED UNDERSTANDING.
+",2023-02-24,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",8cde22873ce6d1f2
+32192,2023-06-19,Clinical Question,"Called patent regarding her pap results and appointmet needed.
+Pt reports she will not be returning since she has the Parkland HP
+Informed patient she needs further treatment for her Pap smear.
+Pt informs me she is getting treated and has a surgery scheduled to take care of her abnormal pap in Irving.",2023-06-20,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",893bce960341a44c
+32269,2023-04-11,Clinical Question,"Pt called office and spoke with front desk Angelica, stated she was not informed about any results from the visit she had in office on 04/03/2023. Angelica transferred call to me (Stephanie A.) to further assist pt. Spoke with pt, she confirmed her DOB, then pt stated she came in for physical exam monday 04/03/2023 and wasnt given any info or results the day of her visit. Pt was informed that she was discussed in person any tests/results that were done 04/03/2023 the day of her visit, informed pt to come in office to give her more results about her visit from 04/03/2023 if she did not re-call. Pt verbally agreed to come in person on 04/10/2023 afternoon for further information about visit from 04./03/2023-sa",2023-04-11,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",8fc3a90674221c9b
+32336,2023-06-07,Clinical Question,"Good evening I forgot to mention about my blood pressure. Do I keep writing down my blood pressure? 
+Good Afternoon Ms. Paramo,
+I spoke to Ms. Neena and she stated to check blood pressure every other day. If you have any questions, you can the office at 469-574-2022. 
+Mayra M.-MA",2023-06-09,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",662b39330d98d6e5
+32365,2023-05-18,Clinical Question,"Patient needs mammo order sent, can you create one please.
+Okay.I send to bridge breast-Thanks , neena",2023-05-18,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",6f42a7ee66860603
+32417,2023-07-11,Clinical Question,"Patient is asking if there is anything naturally she can do instead of going to the ER.
+Pls call her she needs to go to ER for getting blood transfusion- she has severe anemia. I did talk to her in great detail about her lab and what she should do. NB
+I left a VM to patient to let her know to schedule for a week out- JE
+",2023-07-12,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",00f6431186a6c1a1
+32449,2023-07-05,Clinical Question,"Hi Dr. Francis, 
+I completed my labs and received a message that results were sent in to the clinic. The medicine you prescribed help tremendously with the rash and it has almost disappeared. I wanted to see if it was possible to obtain a refill to help with the rest of the rash. It is mainly in my hands now. Or if I needed to come in before you can refill my prescription and review my labs. Thank you so much in advance. 
+Julia M
+I send hydroxyzine for couple more days.No need for prednisone.-Thanks-Neena",2023-07-06,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",69a898041974da54
+32495,2023-07-31,Clinical Question,"I wanted to know if it is ok that I use Neosporin instead of the Mupirocin.  It seems to be helping and looking better.  So I have not called wound care.  I will if need to but right now working on it.  Also I have a paper from my job that I don't know how to send to you in this portal but I have requested a chair at my job since I fainted twice and don't want to worry about it happening again.  I was hoping you could answer the questions.  I told them I am prediabetic and until I get my strength back to have a chair just for when I get lightheaded.  That I can not go out in the heat and not able to pick up items more than 50 pounds. The duration of it is unknown but as soon as I can get my strength back.  Please advise and let me know if I can send a copy through this portal or if I need to bring it down to you.  Let me know if you don't mind filling that sheet out for me.  I want to work and anxiety hits me if I don't have a place to rest for a moment if I get weak.
+Thank you,",2023-08-01,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",1005daca3829b442
+32495,2023-07-31,Clinical Question,"I wanted to know if it is ok that I use Neosporin instead of the Mupirocin.  It seems to be helping and looking better.  So I have not called wound care.  I will if need to but right now working on it.  Also I have a paper from my job that I don't know how to send to you in this portal but I have requested a chair at my job since I fainted twice and don't want to worry about it happening again.  I was hoping you could answer the questions.  I told them I am prediabetic and until I get my strength back to have a chair just for when I get lightheaded.  That I can not go out in the heat and not able to pick up items more than 50 pounds. The duration of it is unknown but as soon as I can get my strength back.  Please advise and let me know if I can send a copy through this portal or if I need to bring it down to you.  Let me know if you don't mind filling that sheet out for me.  I want to work and anxiety hits me if I don't have a place to rest for a moment if I get weak.
+Thank you,",2023-08-01,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",1005daca3829b442
+32495,2023-07-31,Clinical Question,"I wanted to know if it is ok that I use Neosporin instead of the Mupirocin.  It seems to be helping and looking better.  So I have not called wound care.  I will if need to but right now working on it.  Also I have a paper from my job that I don't know how to send to you in this portal but I have requested a chair at my job since I fainted twice and don't want to worry about it happening again.  I was hoping you could answer the questions.  I told them I am prediabetic and until I get my strength back to have a chair just for when I get lightheaded.  That I can not go out in the heat and not able to pick up items more than 50 pounds. The duration of it is unknown but as soon as I can get my strength back.  Please advise and let me know if I can send a copy through this portal or if I need to bring it down to you.  Let me know if you don't mind filling that sheet out for me.  I want to work and anxiety hits me if I don't have a place to rest for a moment if I get weak.
+Thank you,",2023-08-02,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",1005daca3829b442
+32495,2023-07-31,Clinical Question,"I wanted to know if it is ok that I use Neosporin instead of the Mupirocin.  It seems to be helping and looking better.  So I have not called wound care.  I will if need to but right now working on it.  Also I have a paper from my job that I don't know how to send to you in this portal but I have requested a chair at my job since I fainted twice and don't want to worry about it happening again.  I was hoping you could answer the questions.  I told them I am prediabetic and until I get my strength back to have a chair just for when I get lightheaded.  That I can not go out in the heat and not able to pick up items more than 50 pounds. The duration of it is unknown but as soon as I can get my strength back.  Please advise and let me know if I can send a copy through this portal or if I need to bring it down to you.  Let me know if you don't mind filling that sheet out for me.  I want to work and anxiety hits me if I don't have a place to rest for a moment if I get weak.
+Thank you,",2023-08-04,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",1005daca3829b442
+32495,2023-08-07,Clinical Question,"I got a call this morning but no msg was left. I tried calling back and I can't get through to anyone. Please let me know reason for call. If I need to call back give me an ext. So I can get through. I am assuming it is in regards to lab test. Thank you
+Contacted pt, informed her the phone call she is talking about is about her prescription which we discussed. I told her there is nothing else from us and that we would see her on her next visit 8/25/2023",2023-08-17,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",0338fb9a45a99093
+32506,2023-08-31,Clinical Question,"pt called and notified Covid home test was POSITIVE, spoke with NP- M. Poonam. Provider recommended warm salt water gargles, isolation for 5 days, if possible wear N95 mask. OTC meds for body aches/chills, sore throat. Explained to pt above details. pt verbally understood.",2023-08-31,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",1a8f0d759912a839
+32532,2023-09-28,Clinical Question,"Can I please get a follow up call regarding my lab results. My labs were not fully addressed in my follow up Appointment.
+I can be reached at (312)838-3033
+Thank you",2023-12-14,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",642fb7614d8dead2
+32532,2023-10-09,Clinical Question,"Hello
+May I please get a call from the physician that was seen on my last visit. I have questions regarding my test results. 
+Thank you
+Will send a message to Dr.B to give pt a call back regarding her test results.-JE",2023-10-27,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",bca95ec55796fd36
+32541,2023-10-06,Clinical Question,"Mi doctor is Namrata G Babaria and I need to know if she released the MAPROXEN 500mg. If she didn't, can you please contact her and let her know that she needs to release to the Farmacy this medicine for me.
+Thank you",2023-10-27,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",096427e370e1976d
+32565,2024-01-31,Clinical Question,"Patient called requesting a call t the pharmacy due to her nasal spray. Pt was under the impression only a 30 day supply was electronically sent for a 90 day supply.
+Pt is aware of the directions are on spray daily .
+",2024-01-31,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",75c6a6b3a7607abd
+32565,2024-05-22,Clinical Question,"Patient called requesting a RX fr 90 Day supply on fluticasone States she uses it BID.
+If use bid she can only use one spray in the morning and one spray in the evening 
+send.ty-NF",2024-05-22,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",9c54e1e55b9b1e09
+32574,2023-11-15,Clinical Question,"Patient emailed the clinic the below message - I know we cannot help with a psychiatrist, however, the medications shes looking to have managed fall in our scope.. relatively - I don't know the severity. Please advise and have MA follow up with patient. Thank you! - CB
+ 
+""Hi,
+ Iâ€™ve been to the pop up clinic and to the Farmers Branch clinic for follow up.
+Iâ€™d like to see if I can use your mental health services. I have a psychiatrist, but heâ€™s doubled the price and itâ€™s out of my range. I currently take meds for depression, anxiety, and sleep. 
+Please let me know how to schedule.
+Thank you,
+Julie Flores
+juliefincoppell@gmail.com
+(214) 606-2598
+Pls call this patient and let her know that we mostly treat mild depression/anxiety. If symptoms are on higher side and they need multiple meds, we do refer them to see psychiatrist ( think she takes 2-3 diff meds). Also we do not prescribe medicine for ADHD, I think that she is takign that medicine. We usually refer pt to psychiatrist, Metrocare( MHMR), we can provide info if she is interested.
+Patient has been contacted. States verbalized understanding and MCS phone number was given.",2023-11-27,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",5bfa48acfe1278f5
+32612,2023-11-27,Clinical Question,"1st (10/25/2023)attempt  to schedule patient appt for results , patient  did not want to schedule for Nu Swab results due to dates available.
+2nd attempt  11/27/2023- Ph # was DC/ Unable to contact pt.
+12/19/2023- Pt is scheduled for results on 12/21/2023",2024-01-10,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",3d0ca9b583753ef6
+32769,2024-11-08,Clinical Question,"Patient received lab results for UA - asking about abnormal flags. Please advise. CB
+",2024-11-08,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",cbedfb02d3c212e4
+32799,2023-12-26,Clinical Question,"Good Morning
+My doctor is Dr. Misra and I have a question when it comes to taking the Setraline 2 times a day after 10 days. I am hesitant and wasn't able to reach out on Friday when it started. I've been having nightmares and I think it's due to the anxiety medicine but would like to know how to proceed
+I'll be available all day if anyone needs to reach me.
+Thank you.
+Erika.
+940.783.5881
+-----------Please let her know to stop sertraline. sending fluoxetine medication. let us know if any s/e with that medication. ------------------PM",2023-12-27,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",c03cc6d55fc8ae3c
+32863,2024-01-13,Clinical Question,"Hi, 
+IÃ¢Â€â„¢m still taken the medicine like the doctor says, but I donÃ¢Â€â„¢t feel any better.
+Yesterday I had a panic attack in my work and they send me home, but I my home I felt the same symptoms, so I took half of clonazepam pill and minutes later my anxiety go down.
+My question is if I can take piece of clonazepam along with the medication?
+I try to call but donÃ¢Â€â„¢t get any response
+IÃ¢Â€â„¢ll be waiting for your answer
+-------------Please schedule follow up visit---------PM",2024-01-15,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",7e3b3eea3d9b7cd4
+32863,2024-01-16,Clinical Question,"Hi, today I went to the clinic
+They made an appointment for February 22nd but I was wondering if there is another closer date, cause I donÃ¢Â€â„¢t have that much medication left 
+I donÃ¢Â€â„¢t know if IÃ¢Â€â„¢ll be able to handle the situation without the meds
+If you know about other way to help me I would be very grateful
+--------------Please make a follow up appointment-----------------PM
+I called pt and N/A, I also left a VM to give us a call back-JE",2024-01-23,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",b1b2fe10ea37fda8
+32923,2025-04-02,Clinical Question,"Patient called after hours line, left message asking for a call back for results. I don't see any new lab results. Please call back to find out what pt. is needing. CB
+pt called clinic today for results of us abn. She was contacted and given results. pt had no further questions.",2025-04-02,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",7cfb7263dfb84925
+32955,2024-05-02,Clinical Question,"Contacted  patient regarding appt scheduled for today 05/02/2024 @9:40AM
+Pt reports she already has a PCP/ Another Dr./Does not want to follow up with Woven.
+-------Patient will be discharged. has another PCP.--------PM",2024-05-03,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",423b81271d684e7d
+32974,2024-07-06,Clinical Question,"I need to make an appointment to see what can help with my sore throat. Ive had it for over 3 months now, its come and gone. Last visit to a local free clinic told me it was a ear infection. Got prescribed amoxicilin, took that and felt better until a few days later my sore throat was back. Got a refill on amoxicilin for another round of treatment and it left and has returned yet again. Im starting to believe it has to be more than a bacteria infection.",2024-07-12,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",559a417e6b15c574
+32990,2024-09-23,Clinical Question,"PT CALLED STATING SHE IS WAITING ON RESULTS FROM HER URINE TEST. SHE UPDATED HER PHONE NUMBER AS WELL IF HER OTHER NUMBER WASNT WORKING. -NM
+Spoke to pt and informed we still dont have results and we will call once we receive. pt understood. -mm",2024-09-23,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",25fe967761a71146
+33110,2024-10-21,Clinical Question,"Patient called requesting UA results
+I called and talk to pt and her family member who was translating for her and informed that her urine is negative for infection, mild RBD in urine, Per pt not in her cycle
+urine c/o frequency and incomplete emptying per pt is going on for last 6-7 months.
+I sugg her to repeat urine test for mildly positive blood. ALso for her chronic urine sx- sugg her to see Urology at PHHS.
+can come to clinic for repeat urine test in a month if not able to get in PHHS for urin compalints. pt understood.. NB",2024-10-21,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",9462ec9d0ecdfe87
+33118,2024-06-05,Clinical Question,"Attempted to contact patient/ LM to schedule appt for PAP Results.
+pt called back and is now scheduled-Mayra",2024-06-05,1,1,0,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":0}",94685b0a61cf3161
+33118,2024-07-17,Clinical Question,"Hello, 
+I'm writing this email, regarding my recent abnormal prolactin lab results.I talked to NP. Ellen Malloy regarding my concerns about reproductive symptoms.Thankfully NP Malloy was gracious enough to order tests. Due to the abnormal test results and on going symptoms . I will be needing to get MRI scan, Trasvaginal and pelvic exam ultrasound.I informed her that I would be going out of the country to get the MRI and ultrasounds. I'm really concerned about my health, and looking forward to see an endocrinologist about my MRI results while I'm out of the country. I contacted the office in farmers branch regarding if I could get a letter stating my concerns about lab results and symptoms. (Hormonal issues) (reason for my first initial visit) and was turned away to the portal notes.  The letter would benefit me to get an appointment with an endocrinologist. I'm hoping for NP Malloy can write me brief summary letter regarding my hormonal health concerns to present endocrinologist.
+Good Morning Brenda Galindo,
+Hope your day is well. The results that were handed to you in the office last visit is what you will need to take to any specialist in Mexico. We also sent the order to touchstone imaging if you decide you would like to have procedures done in the U.S. 
+If you have any further questions or concerns, you can call the office and ask for Mayra. 
+Have a nice day!
+Mayra Mireles, MA
+Office: (972) 484-8444",2024-07-18,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",4e9669126acc8468
+33172,2024-09-09,Clinical Question,"Pt.'s daughter, Jazmine, called on behalf of Lorena. She said that the patient is currently sick with a cold or possibly covid, has cough, runny nose, sore throat. Was asking what the pt. can take to relieve symptoms - asked about chloraseptic spray. She said that the patient has taken ""tussin"" (was hard to understand) but wanted to know if she could take anything else. I said I would send a message to provider as I cannot give any medical advise - let caller know we would call the patient back with the recommendation from the provider.
+-------------If she is sick, i can see her virtual and do test as well for covid--------PM
+Scheduled pt. for visit tomorrow - CB",2024-09-09,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",49e423f390e7c2f4
+33320,2024-10-15,Clinical Question,"Patient called asking if we can do any ""heart testing"" - I let the patient know that we do have an EKG, but depending on what he is experiencing I couldn't say what would need to be done or what would be recommended by his provider. I ask patient to explain symptoms leading to this concern - patient expressed he occasionally has sharp pains when laying down and doesn't know what it could be. He said he does not have high blood pressure. Was not clear if he was specifically meaning chest pains. I explained I would be happy to schedule an appointment for him to discuss his concerns with the provider and she would do what she can and possibly refer out if needed. Patient said he would think about it and call back if interested in making an appointment. I wanted to pass the message to you as documentation of concerns. Unclear why patient is hesitant to make appointment. CB",2024-10-15,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",e9a3035541bf16b7
+33324,2024-11-06,Clinical Question,"Patient called and said she was told that her results were normal, but says that she keeps bleeding and having the same symptoms.",2024-11-07,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",cfda820c383179d0
+33366,2024-09-13,Clinical Question,"Pt. says he thinks he has a prostate infection - says when he uses his prostate for about 48 hours after he has the continuous urge to use the restroom. He also notices a dark color and thinks it may be blood. Pt. wants to make sure provider knows and to see if he may need antibiotics or something to help address the issues. CB
+-----------Please book patient for appointment------PM
+Contact pt. Scheduled for Virtual Visit Tuesday 9/17 at 9 AM - CB",2024-09-13,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",ac6b0a740b607b27
+33529,2024-11-07,Clinical Question,I forgot I had another appointment at that time. Could we do her latest available ?,2025-01-03,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",9557657e717b9165
+33529,2024-11-25,Clinical Question,"Hello, I called less than an hour ago and spoke with a receptionist regarding touchstone imaging not receiving my transvaginal US order following my obgyn appointment on 11/21/2024.ï¿½
+Spoke with representative and she recommended my order to go to RAYUS in McKinney, I live in McKinney so I agreed. I called RAYUS and they did not receive my order.ï¿½
+Can you please resend. I have my labs scheduled for the 5th and would like to schedule that week. So I can make my follow up appointment. Thank you",2025-01-03,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",746aef8719f149ce
+33529,2024-12-18,Clinical Question,2024-12-17 00:00:00,2025-01-03,1,1,1,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",a78efdbcf26751fa
+33529,2025-01-20,Clinical Question,"I know itâ€™s Pcos related, but is there anything else I can be prescribed or taken OTC to induce my period. Iâ€™m 47 days late per my FLO app.",2025-02-07,1,0,0,1,1,0,0,"<|channel|>final <|constrain|>json<|message|>{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",eb49809bb512e72a
+34090,2025-05-31,Clinical Question,"Good morning,  I received a notification about my pap smear results but this app doesn't show any visible results at all.
+Is my pap smear results ready?
+",2025-06-26,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",94e635d7f13bc5fa

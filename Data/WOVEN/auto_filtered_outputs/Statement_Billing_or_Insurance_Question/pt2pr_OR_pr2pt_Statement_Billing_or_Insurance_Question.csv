@@ -1,0 +1,34 @@
+MRN,Case Created,Case Type,Pt. Case Description,Case Closed,patient-to-provider,provider-to-patient,provider-to-provider,is_telephone_note,is_content,is_multiple,is_thread,_raw,_rid
+18222,2023-03-31,"Statement, Billing, or Insurance Question","I have Insurance through United Healthcare gold plan.  It is medicaid.
+Jayne Stovall",2023-08-17,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",d81a4f0629de3142
+30519,2023-04-24,"Statement, Billing, or Insurance Question","I was wondering if it was possible for either Dr. Barbaria or Dr. Poonam could write a letter explaining the illnesses that I've had during my recent sick visits. I had one in February or January and one in April. I have a class that I will unfortunately be failing as I have missed 8 classes due to illness. In order to withdraw from the class, I need a doctor's note on professional letterhead explaining what illness I had that caused me to miss my class. Would that be possible?
+I printed letter for her. Jacky will cll pt n ask her to pick up letter.
+NB",2023-12-18,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",45ea7aa11ac7af23
+31829,2023-01-13,"Statement, Billing, or Insurance Question","Hi, Iâ€™m back from Mexico. Just wanted to see if we could continue our weekly meetings. Beginning next Thursday maybe?Â ",2024-02-14,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",2c85c5c46fbc61a0
+32145,2023-11-29,"Statement, Billing, or Insurance Question","Pt called stating she went to labcorp to get blood work, and has now received a bill from them, when she had already paid $30 through us. I let her know to go ahead and send us the bill through email at farmersbranch@wovenhealth.org so that we can look into it.",2023-11-29,0,1,0,1,1,0,1,"{""is_thread"":1,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",3ca9c400fbd5e538
+33778,2025-04-21,"Statement, Billing, or Insurance Question","pt was charged $16.95 and a copy was scanned in chart. pt had already pd with us and also presented lab order sheet with receipt. Message has been sent to Courtney and she will contact Labcorp-mm
+4/25/2025 @ 11:15 AM: Good afternoon,
+ 
+Thank you for your email pertaining to LabCorpâ€™s Invoice #51705810.  We have requested a refund be issued to the patient in the amount of $16.95.   If the payment was received in the form of a check, then a refund check will be issued.  If a credit card was used to pay the invoice, a credit will be issued back to that credit card account.
+ 
+Please allow 15 days for this request to be processed and completed.   You may contact our Patient Customer Service Department at 1-800-845-6167 M-F 8am-5pm, or reply to this email, if you need further assistance with this matter.  We appreciate your business.
+ 
+Sincerely,
+ 
+Naysa P
+Correspondence Billing
+LabCorp
+4/25/2025: pt was contacted and informed she will be getting a refund within 15 days on her cc acct. Pt understood and appreciates we assisted with the help. I told her if she does not recieve her money back, just to let us know but as well contact labcorp. pt understood and had no questions-mm",2025-04-21,0,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",f14c1895d2df990e
+33778,2025-04-21,"Statement, Billing, or Insurance Question","pt was charged $16.95 and a copy was scanned in chart. pt had already pd with us and also presented lab order sheet with receipt. Message has been sent to Courtney and she will contact Labcorp-mm
+4/25/2025 @ 11:15 AM: Good afternoon,
+ 
+Thank you for your email pertaining to LabCorpâ€™s Invoice #51705810.  We have requested a refund be issued to the patient in the amount of $16.95.   If the payment was received in the form of a check, then a refund check will be issued.  If a credit card was used to pay the invoice, a credit will be issued back to that credit card account.
+ 
+Please allow 15 days for this request to be processed and completed.   You may contact our Patient Customer Service Department at 1-800-845-6167 M-F 8am-5pm, or reply to this email, if you need further assistance with this matter.  We appreciate your business.
+ 
+Sincerely,
+ 
+Naysa P
+Correspondence Billing
+LabCorp
+4/25/2025: pt was contacted and informed she will be getting a refund within 15 days on her cc acct. Pt understood and appreciates we assisted with the help. I told her if she does not recieve her money back, just to let us know but as well contact labcorp. pt understood and had no questions-mm",2025-04-25,0,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",f14c1895d2df990e

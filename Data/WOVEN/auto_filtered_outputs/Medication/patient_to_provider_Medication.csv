@@ -1,0 +1,131 @@
+MRN,Case Created,Case Type,Pt. Case Description,Case Closed,patient-to-provider,provider-to-patient,provider-to-provider,is_telephone_note,is_content,is_multiple,is_thread,_raw,_rid
+13420,2023-03-23,Medication,"Pt called asking if she can go pick up her prescription now that she has done her labs; results are not in yet, but she states she was instructed to not pick up her prescriptions till her labs were done first.",2023-03-24,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",e6486baae9c26ed0
+13561,2023-10-18,Medication,"called pt for 3m follow up. pt is due for her 3m. Pt has been noncompliant in the past-mayra
+10/20/203: pt called back to schedule follow up next wk on thursday at 1:45pm-mm",2023-10-18,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",752b737a37212193
+13561,2023-10-18,Medication,"called pt for 3m follow up. pt is due for her 3m. Pt has been noncompliant in the past-mayra
+10/20/203: pt called back to schedule follow up next wk on thursday at 1:45pm-mm",2023-10-20,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",752b737a37212193
+13748,2024-11-04,Medication,"Patient unable to make apt on 11th, RS to 14th and asking for medication refill until the 14th - CB
+Send for 10 days.Ty-NFrancis",2024-11-04,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",969706e1e9405244
+14312,2023-08-21,Medication,"Pt called asking if he could get prescription on Freestyle Libre 2 sent; wants to know if he could get 2 sent
+-----------------sent-----------------PM",2023-08-21,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",5618eb228e9fc87a
+14312,2024-06-12,Medication,"PT ASKED IF YOU COULD SEND 	NovoLIN R FlexPen AND NovoLIN N FlexPen TO CVS PHARMAMCY INSTEAD. ALL OTHERS ARE OK
+---------------Med sent to CVS-----------------PM",2024-06-12,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",21e1d4e1dfe90918
+15185,2023-11-27,Medication,"Walmart pharmacy called asking for Poonam to confirm medication for patient, I did let them know she was not in the office today, I asked if it was urgent I could have another provider call back. Good call back number is 972-244-6722
+Is this urgent, that I need to call back? pls let me know-NF
+The pharmacist didn't clearly state it was urgent, but I'm sure it is since she gave me a call back number.
+Hey Poonam, I had pharmacy call about insulin for patient. They wanted a call back at 972-244-6722
+------------------Spoke to pharmacy regarding the prescription verified the insulin---------PM",2023-11-30,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",6c51dc29816c47e0
+15630,2024-09-09,Medication,"Pt. called saying she got a delivery from st. vincent but it was missing some medications. Patient said she contacted st. vincent and they said they don't have an order for Ezetimibe or Hydrochlorothiazide. I see that those refills were sent back in May - she said at one time Rosie had refills sent to Walmart because st. vincent was so behind, but would prefer to have them through st. vincent. Said she is OK for now, but wants to make sure the refill is ready when she runs out knowing that St. Vincent can sometimes take 1-2 months to get her medications. CB
+---------------Med sent to vincent pharmacy-----------PM",2024-09-09,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",3be5550ad8310682
+16166,2024-07-30,Medication,"Patient call asking if the medication doxycline and cephalexin have ciprofloxacin inside does medications because she is allergic to ciprofloxacin.
+-------------Spoke to patient and patient reported that she had sob last year when she was taking cipro----- her  current rash is better with abx cream. suggested to hold abx if infection cleared  and no more redness or drainage----- PM",2024-07-30,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",30b028c8b97a3211
+16902,2025-07-03,Medication,The patient contacted office to inform if you could pls send steroid medication. I let the patient know  I would be sending a message to the provider.,2025-07-03,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",7b5ea36abb2684ba
+16931,2024-09-20,Medication,"Pt. did not receive Rosuvastatin or Fenofibrate from St. Vincent - they told her they do not have any and do not know when they will have it. Patient asked if those medications can be sent to walmart in segoville. CB
+Send.ty-Neena
+9/23/24: lvm to inform about medication and if has questions, contact our office. -Mayra",2024-09-23,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",23c33181efba443f
+17402,2024-09-24,Medication,pt spoke to Vanessa and informed he is out of medication. Called pt and he informed he was taking 1/1 metformin and 1 synjardy-am. I explained he is suppose to take metformin in the evening and synjardy 1 tab in the morning. he stated he didnt remember and Neena wanted me to inform pt that she is going to refill medication. I made sure pt understood how to take medication and he did. he had no questions-mm,2024-09-24,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",e56a2df8413bb80a
+17569,2025-07-18,Medication,"The patient called clinic to inform she went to the phx to pick up medication, but was informed there was no medication. I informed the patient I will send a message to the provider, but our gynocologist does not come in the office until wed. Pt understood-mm
+7/29/25: pt contacted to make sure she rec'd her bc and she informed she picked up on 7/17/25 and forgot to call the clinic to inform to cx the request i had sent.-mm",2025-07-29,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",7c2ba3a9981fabb7
+18088,2023-09-22,Medication,pt walked in to clinic and stated she was out of medication and would like a refill just until her appt next week. She does not want miss taking meds. Neena was informed and sent med refill. Pt was also left vm to inform she was sent refill to pharmacy-Mayra,2023-09-22,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",3ceff59ccc82c495
+18088,2025-05-12,Medication,"pharmacist called clinic to inform they cannot refill for 1m for clonidine hci 0.1mg tab. It has to be for 3m. I informed will let provider know.-mm
+Why it has to be 3 months ? did they tell anything?
+They will not do the refill for 1m only for 3m only.",2025-05-14,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",edc6b31c3533e310
+18103,2025-07-01,Medication,"Needs refill on metformin and glipizide
+-----med sent-------PM",2025-07-01,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",d60ccc00c657f8a8
+18463,2023-12-21,Medication,"Pt needs refill up to her appt
+-metformin 1,000 mg tablet
+-lisinopril 10 mg-hydrochlorothiazide 12.5 mg tablet
+-glipizide 10 mg tablet",2023-12-22,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",49a76879ff7a6d22
+18647,2025-06-04,Medication,"Pts spouse called to inform us that when they went to pick up medication for amlodipine and losartan; phx only gave them 30 day supply; states they then got a refill of 30 more days for losartan only; she went to phx and was told that we only sent 30 day supply. I asked MA if she could call phx to verify
+I Called phx to clarify if he has enough refills for both medicine, phx confirmed that pt picked up all 3 month supplies for amlodipine and still has 2 more refills for losartan hydrochlorothiazide. I called pt to clarify and pt didn't answer. (KG)
+Attempted to call pt three times, pt didn't answer and I have left several voice mails.",2025-06-09,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",12f9cc2233647e2d
+19298,2023-04-10,Medication,"Pt called in asking for refill on her prescriptions; says she was sent to ER last visit and she did go, but is out of meds",2023-04-10,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",53f697a2a74d9be0
+27974,2025-07-21,Medication,"pt is requesting med refill for olmesartan 5mg, atorvastatin 20mg tab and simvastatin 10mg tab. pts next f/u will be 8/28/2025. pt had rs since she went out of town-mm
+She only need atorva and simvastatin together.
+I ll send.Ty
+7/22/25: confirmed with pt she has picked up medication-mm",2025-07-22,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",c206d2996920a8f8
+28049,2024-06-20,Medication,"Pt needs refill on all her meds up to her appt.
+--------------med sent -------------PM",2024-06-20,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",cbb1b634078b2627
+28084,2024-06-28,Medication,"PT NEED REFILL ON METFORMIN
+-----------med sent------------PM",2024-06-28,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",f500518d69e3c610
+28381,2024-05-23,Medication,"PT NEEDFS REFILL ON levothyroxine 112 mcg tablet.
+----------med sent----------PM",2024-05-23,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",307a903bed58fa0d
+28389,2024-11-18,Medication,"pt called office and informed both medications were not sent phx. only statin and ear drop. Informed pt I will let provider know and call later with an update. pt understood.-mm
+Send.ty
+11/18/24: pt was lvm that meds for htn and dm was sent to phx and if he had any questions, he can call office. -mm",2024-11-18,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",7d0e32d9e4285de4
+28745,2025-04-01,Medication,"pt called this morning regarding medications for losartan 50mg, metformin 850mg, and simvastatin 20mg. pt informed she was out of medications and was requesting med refill. I informed I would contact phx and I would give her a call once I spoke to someone at phx. 
+Spoke to Julian at Walmart phx and  pt still has refills. they will refill and contact pt once they are ready for pick up.
+pt was informed and understood she will recieve a call for refills.-mm",2025-04-01,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",898376335a056b22
+29082,2025-05-12,Medication,"atenolol 50mg tab/chlorthalidone 25mg tab. pt called clinic and informed medication is expensive. its $100.00 She wants to know if she could go back to propanolol  20mg tablet instead of atenolol 50mg? I let pt know I will send a message to provider and will call back once I get a response. -mm
+----------At walmart atenolol is $10 for 90 day supply---PM
+Lvm to contact office. to inform cost of medication at phx-mm
+pt called office on 5/13/2025 and informed clinical staff she has picked up rx at phx-mm",2025-05-14,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",93d311955b6ed6a9
+29202,2023-12-13,Medication,"Pt is still not feeling well, do you want her to make another appt?
+----------------yes please----------------PM",2023-12-13,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",82cbe0e577e18310
+29284,2024-05-29,Medication,"Pt needs refill on  glipiZIDE 10 mg tablet, she would like medication sent to Walmart. she said StVincent only sent for 1 month refill because she has to renew with them.
+refill sent. NB",2024-05-29,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",bb2d366e18899b53
+29309,2023-02-09,Medication,"Pt called asking for refill on Buspirone and Fluoxetine; She states she is completely out of meds and her next appt is till March 9.
+Pt called back stating she still hasn't received any med refill regarding her last call.",2023-08-21,1,0,0,1,1,0,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",329a5d6c6b111500
+29437,2023-10-13,Medication,"LVM to confirm if pt was able to pick up her medication from pharamacy on 10/09/2023-mayra
+Pt called back and no issues picking up all 3 medications. she only had 1 request. 
+pt stated she has 1 more day for codeine 10mg-guaifenesin 10mg/5ml oral liquid. she asked if she was able to get 1 refill? She is still coughing.
+ok one more fill on cough syrup, if her coughing does ot get better, she needs to be seen. Pls call n let her know pls. NB
+pt picked up medication and stated medication has not helped. she will be scheduling virtual. 
+symptoms: cough, congestion, dizzy, headache.",2023-10-24,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",a1ef5431ff4dd8aa
+29516,2024-01-17,Medication,"Pt wants a sooner appt for medication refill but she does not want to get her labs done.
+I can give her refill for few days and she can get her lab done-Let me know.-NF
+She said she doesn't want to get labs done since she got them done last time-JE
+I can refill for a month.Ty",2024-01-17,1,1,0,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",42c318adb45d15f7
+29556,2023-10-16,Medication,"pt will be out soon of Atorvastatin 20mg tablet, linisopril 5mg tablet and pioglitozone 15mg tablet. pt only has 8 pills each left. she would like to know if she can get a refill just enough for her next visit. the reason why she is low is because she did not pick up medication day of visit since she had extra. I explained to the pt that it is important to pick up medications same day as visit with the provider so she wouldn't run out. Pt understood and no questions-mayra
+----------------Med sent---------------------PM
+pt was called to inform to pick up medication today and if she has any problems, to pls let us know. Pt understood-Mayra",2023-10-16,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",7d7fd3d320c7ab62
+29556,2023-10-16,Medication,"pt will be out soon of Atorvastatin 20mg tablet, linisopril 5mg tablet and pioglitozone 15mg tablet. pt only has 8 pills each left. she would like to know if she can get a refill just enough for her next visit. the reason why she is low is because she did not pick up medication day of visit since she had extra. I explained to the pt that it is important to pick up medications same day as visit with the provider so she wouldn't run out. Pt understood and no questions-mayra
+----------------Med sent---------------------PM
+pt was called to inform to pick up medication today and if she has any problems, to pls let us know. Pt understood-Mayra",2023-10-16,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",7d7fd3d320c7ab62
+29851,2024-04-12,Medication,Pt is asking if your able to refill 	tinidazole 500 mg tablet,2024-04-16,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",f5639675b4ab0abd
+29893,2024-06-19,Medication,"PT NEEDS MED REFILL ON 	Lisinopril 10 MG Oral Tablet & Simvastatin 10 MG Oral Tablet.
+-------------------Med sent---------------PM",2024-06-19,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",bdd5cdb36098192d
+30332,2025-07-18,Medication,"phx, tom thumb sent a message through athena, prior authorization followup and called the clinica and spoke to Angelica regarding the medications carbidopa er 50mg-levodopa 200mg and the amantadine hci 100mg tab. I have send an email to the provider and informed if he could please contact the phx as they requested for the provider to call them.",2025-07-18,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",5ad441064fe67a15
+30417,2023-09-26,Medication,"I have tried calling cvs pharmacy on coit in plano, tx 972-377-4845, still on hold. total time still on hold 
+18:29min and another line 5:03min. NO Pharmacist seems to answer. Options when calling is Press for prescriber/clinic calling and second step is to say reason calling and option is speak to staff. I have still been waiting now and mins on one line is 20:55 and other is 6:61min. no one has picked up call-mm",2023-09-26,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",2eca8e19158043d2
+30630,2025-06-10,Medication,"pt was seen yesterday and informed phx only gave refill for 60 days the patient is concerned since his f/u is in 3m and he is supposed to take 2 tablet(s) twice a day by oral route for 90 days. I told pt I will send a message to provider and once I get a response, I will contact him with an update.-mm
+I don't understand what are you saying Myra.please give me a call.Ty
+6/11/2025: pt was informed med was going to be refilled and having MA, Jackie contact the patient. pt was rude so I suggested since he was seen in Carrollton, I would transfer call and pt preferred to be transferred.",2025-06-11,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",5f84a728e9faf94b
+31307,2024-05-20,Medication,"NEEDS REFILL ON ALL MED.
+------------He does have refills on all the medication. he needs to call st. vincent pharmacy.-----------PM",2024-05-20,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",8ee7ae8def63417f
+31355,2024-03-28,Medication,"Pt needs refill on metformin
+---------med sent-----------PM",2024-03-28,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",3c28d239c5e85d0b
+31399,2024-05-20,Medication,"PT needs refill on metoprolol succinate ER 100 mg tablet.
+what happened i send 90 pills last visit. can you check.
+pt said its been 3months, only has 1 week worth of pills left of metoprolol succinate.
+Okay, i send 30 pills.Ty",2024-05-21,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",5dec33c18a255d5c
+31575,2025-06-20,Medication,Pt called requesting if medication could be sent for her husband to the same Krogers phx,2025-06-26,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",5997802f89c9e994
+31967,2025-01-16,Medication,"PT is currently trying to conceive and wanted to know if her taking citalopram will affect that in any way? Or would you like her to consult with you?
+yes citalopram affect.please make a visit with me.Ty",2025-01-16,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",f9ea8f795d5aba00
+32012,2023-01-17,Medication,pt will be out of medications by tomorrow and requested to pls have refill and same pharmacy at walmart-mm,2023-01-17,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",3c918c74b7f2e17a
+32167,2025-07-07,Medication,"pt wanted to know if we could send her a refill on her medication. pt had a cycle on 7/3/2025 and lasted 4 days/light bleeding. I told pt I will send a message to the provider,but I wont have a response until Wednesday or Thurs. pt understood-mm
+pt was contacted to inform she will be sent 1 refill but will need to consult with our gynecologist for her f/u of bc. She has been scheduled the first week of August-mm",2025-07-10,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",6338f55790f8fb90
+32171,2024-08-02,Medication,"needs refill on lisinopril
+-------med sent------------PM",2024-08-05,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",def416255e9647a3
+32400,2024-12-31,Medication,"pt was last seen 7/3/24 and was supposed to be seen in 3m, but pt cx appt. We rec'd med refill from phx. I contacted pt to get him rs for an appt and he stated he couldnt come in soon, maybe weeks, then pt rec'd call and stated he will be calling back.-mm",2024-12-31,1,1,1,1,0,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":0}",5971b996d8379981
+32565,2023-11-29,Medication,"pt would like medication to be 3 month supply because its cheaper instead of the refills
+send.ty",2023-11-30,1,0,0,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",5f193193141be4cb
+32654,2024-03-13,Medication,"Pt is going out of town this Friday and is coming back May 1st, she is asking how her refills are going to work?
+Ask her to make an appointment.Ty",2024-03-13,1,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":1}",0e125a801d4f0c6c
+32703,2023-10-23,Medication,lvm to call office. provider sent medication for uti and also provider would like to see sooner due to abn labs-Mayra,2023-10-23,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",96fc4a914e4b5fec
+33200,2025-01-07,Medication,"Pt went ahead and changed pharmacy;which I have already updated in chart; but she also wanted know why everytime she goes for her refill; pharmacist need approval from provider first if she has 6 refills? Could you help with this Mayra??
+1/7/25: spoke to pt about situation and informed I'll call phx........Called phx and was informed by Saul, pt has refill for bc and uti medications at location 2427 W Jefferson Blvd, Tx office: 214.943.2882.
+ I have also called pt and informed and she will be contacting phx so she can pick up meds-mm",2025-01-07,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",2305c8e9e9654481
+33276,2024-07-11,Medication,"pt called if you can resend meds to pharmacy DOB was wrong, just updated it.
+Resend -Thank you.",2024-07-11,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",df677d93d9691fc7
+33366,2024-10-29,Medication,"Patient called regarding refill for ""flomax"" and Meloxicam. Said symptoms subsided while on medication and would like to continue. Patient also asking if apt scheduled for November 26th can be virtual. Please advise. CB
+----------I have sent medication for 1 month. I would like to see him in person this time. Need to follow up on parkland for abnormal imaging. was told in the previous visit----------PM
+",2024-10-29,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",2a4b9594c7693210
+33401,2025-06-09,Medication,"pt contacted office to inform his phx st vincent de paul pharmacy does not carry medication and requested if we could send antibiotic to phx: kroger address: 3939 Frankord Rd., Dallas, TX 75287
+office: 972-662-1011 fax: 972-662-1015.
+I informed pt will send a message to the provider and once I get a response, I will give him an update.
+Send to Kroger.Ty",2025-06-10,1,1,0,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":0,""is_content"":1}",c0870e7255c36ed0
+33979,2025-06-23,Medication,"Pt's daughter called to inform us that her father's BP has been over 170 all week; states when he takes the medication it drops down to 150; would like a call back on what he should do?
+Please make an appointment with me today or tomarrow.
+6/23/25 @ 3:45pm: pt called clinic req to cx hctz 12.5mg because does not help with bp and if he could go back to taking carvedilol 25mg tab. he stated that helped with bp. I told pt that I will send a message to pcp and once I get a response, I will let him know. pt undertstood-mm
+I would like an in person appointment -an early appoinment please.Ty",2025-06-23,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",be434344d41159e2

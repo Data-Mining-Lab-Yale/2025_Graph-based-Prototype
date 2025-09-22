@@ -1,0 +1,80 @@
+MRN,Case Created,Case Type,Pt. Case Description,Case Closed,patient-to-provider,provider-to-patient,provider-to-provider,is_telephone_note,is_content,is_multiple,is_thread,_raw,_rid
+13465,2023-01-05,Clinical Question,"Called Dr Enriquez Regarding Pt ABNL mammo and referral .
+Per Dr Enriquez staff he is not Gyn Onc and a referral for New pt Onc would need to b faxed to Dr Dustin Manders at 832-601-8082.
+Patient will follow up next week for results and a referral to GYN Onc per Malloy FNP.",2023-05-17,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",74b389aaa8bb693c
+13554,2023-12-26,Clinical Question,"I am sending these messages to you because the doctor's name does not appear in providers, could you please contact Dr. Misra I am sending these messages to you because the doctor's name does not appear in providers, could you please contact Dr. Misra",2023-12-27,0,0,1,1,0,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":0}",5091edc902a316e3
+14222,2023-03-29,Clinical Question,"Pharmacy needs clarification, if it would be 270 or 180 count",2023-03-29,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",535d861641bbc115
+16962,2024-01-04,Clinical Question,"Attempted to contact patient to offer follow up pap resuults with GYN/ Ellen FNP.
+No answer so I left message on patients voice mail.
+I have left her several messages with no return call.
+Called ER contact and he did not answer either, left a voice  message to have spouse contact office to schedule results appt.",2024-01-17,0,1,1,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":0}",6721d60216a1908b
+18054,2023-11-13,Clinical Question,"Patient states she is returning a call, states has received several messages to contact office to schedule results appointment.
+Patient state she has not had labs done in over 6 months. 
+Reports they are not her labs and did not have lab collected in 11/ 2023.
+Perhaps she lost her orders and someone picked them up??
+Not sure what happened but patient denies having labs done.
+This pt will be discharged since this pt has another provider.The case was discussed with Dr Baberia and rest of the team-NF
+Please craete a new d/c letter for this pt.We will send a copy of her result attached to her new provider-Neena Francis, APRN, FNP-C",2023-11-15,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",7bc1b012d6d1188f
+18222,2023-06-06,Clinical Question,"Kimberly,
+Please give Poonam Misra a message.  I have an appointment on 06/16 at Dallas Podiatry Works on merit drive in Dallas.  The appointment is with a Podiatrist.  I have some swelling on my left ankle.  Please fax a referral to the office at this location.
+Thank You,
+Jayne Stovall
+--------Clinic does not do any referral---------PM",2023-06-09,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",dfd08a158797d389
+18222,2023-06-06,Clinical Question,"Kimberly,
+Please give Poonam Misra a message.  I have an appointment on 06/16 at Dallas Podiatry Works on merit drive in Dallas.  The appointment is with a Podiatrist.  I have some swelling on my left ankle.  Please fax a referral to the office at this location.
+Thank You,
+Jayne Stovall
+--------Clinic does not do any referral---------PM",2024-03-05,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",dfd08a158797d389
+18228,2024-10-16,Clinical Question,"Patient called regarding results for UA, patient stated that she is having lower stomach pain and painful urination, patient is concerned and wants to know if she should come in for another visit. I let pt. know I would send a message to provider regarding symptoms and UA results and will call back with recommendation.
+-----------Please let patient know, that she should for Urine test. had ordered in August 2024.----------PM
+Pt has done labs-JE
+--------------her UTI test result is negative. please schedule with Ob-gyn----PM
+I called pt and left a VM to give us a call back-JE
+",2024-10-17,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",659bd6021c4d7979
+19021,2024-10-31,Clinical Question,"Patient came into clinic with lab results from another provider - She said the provider told her her labs were normal, but she is saying they are not. I have scanned and saved the labs into pt. chart and sent to you to review. Patient would like to know if she needs to come in for a visit or if she needs to know anything important regarding the labs. Please advise. CB
+-----Spoke to patient regarding her recent lab results. patient got treated for UTI  and was tols that hr arthritis profile is ok
+patient is still c/o lot of pain and aches in her joints
+started taking vitamin D 3 2000+calcium 600 mg daily
+will order few other labs---------------------PM",2024-11-01,0,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",07e97abad27a060e
+19229,2024-07-03,Clinical Question,"Attempted to contact patient regarding sono results/
+LM to CB/ Mass benign +decrease in size -FU in 6months.
+Patient has been informed-JE",2024-07-03,0,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",e528007a36a5aee1
+19497,2023-02-14,Clinical Question,"Patient was seen in office 02/13/2023 for Routine follow up appt.
+Stating that she has applied to BB to Follow up on her ABNL Mammo in 06/2022 reporting she has paid her $500 for further testing and evaluation but has not been called back.
+I then called BB to see what the hold up was , I was then informed that the patient initially applied for a Mammo and not her USG. Terry at BB informs me patient was requesting a second opinion and not a sono,  but another Mammo. Patient was then informed the orders were for a Sono and a second opinion/repeat mammo was not recommended.
+Patient denies requesting a second opinion, number to Solis was then handed to patient to schedule her sono. The patient requesting a second opinion was prolonging the process.
+Everything is in place ,patient just needs to call Solis to schedule, pt has been informed by her provider.",2023-02-14,0,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",b3183e41cd8f7d14
+27958,2025-06-23,Clinical Question,"Please call patient that her urine test is negative for infection.
+Pt was left a detailed VM and to give us a call back-JE",2025-06-23,0,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",c43fa5ae984ee2ec
+28290,2023-02-16,Clinical Question,"PER NP-NEENA FRANCIS, PT WAS REQUESTING MED REFILLS, NP-POONAM MISRA, HAS SENT REFILLS TO ST VINCENT PHARMACY, ALSO SENT TO WALMART TO CONFIRM PATIENT RECEIVES MEDS. CALLED ST VINCENT SPOKE WITH ""BRITNEY"" AND SHE STATED THEY HAVE DENIED PATIENTS MEDS DUE TO APPLICATION EXPIRING SOON ON MARCH 1ST, PT WAS NOTIFIED IN DECEMBER ABOUT RENEWING APPLICATION. THEN CALLED WALMART AND THEY CONFIRMED THEY ONLY RECEIVED 1 MEDICATION (PAROXETINE) WHICH WOULD BE READY FOR PICKUP AFTER 12 PM TODAY. 
+CALLED PT 4 TIMES AND ALL 4 TIMES VOICE MAIL WAS LEFT AND ALSO CALLED EMERGENCY CONTACT WHICH IS WIFE AND ALSO LM TO HAVE HUSBAND CALL THE CLINIC ASAP TO DISCUSS MED REFILLS, AND NEEDING TO LOOK FOR PCP IN AMARILLO.",2023-02-16,0,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",dad411c945382034
+28484,2024-10-15,Clinical Question,"The patient called Solis for the Mamo results Solis told the patient to call the clinic. The patient is asking for mammo results and how to proceed. CB
+--------Patient's mammogram is abnormal. She has to go for a diagnostic mammogram. I have told Myra to call her so that she can schedule her follow-up mammogram with Solis. --------------PM
+10/16/24: pt called wanting to know results of mammo. I scheduled an appt with poonam for Friday because pt doesnt know results and i was only told to send order. pt wants to know whats going on and maybe we can send to BB to help with finance or MCI. -MM
+------------Patient has been contacted-----------PM",2024-10-16,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",d67dcc375f1e22b6
+29878,2023-01-05,Clinical Question,"PT WAS LAST SEEN 10/03/2022, PT WAS SEND 3 MONTHS OF MEDICATION AT THAT TIME BUT STILL HAD A FEW MONTHS OF MEDS LEFT AT THAT TIME. PT REQUESTED TO CHANGE THE APPT DUE TO STILL HAVING 3 MONTHS OF MEDS AND NOT NEEDING THE MED REFILLS AT THIS TIME. PT WAS RS APPT FOR END OF MARCH.",2023-01-05,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",29bc9048ad4f5125
+29893,2023-04-28,Clinical Question,"Pt called asking if based on her mammo results will she be needing any further testing?
+I called pt letting her know results came back normal and no further testing will be needed per Neena
+I got message from Angelica about mammo result.I answered it is normal and you can tell result and no further testing needed-Neena Francis , FNP-C",2023-04-28,1,1,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",3af669dfa23eecac
+29937,2024-09-03,Clinical Question,"PT. STATED THAT PROVIDER TOLD HER TO CALL BACK IF SHE WAS STILL EXPERIENCING PAIN. SHE STILL HAS PAIN AND IS REQUESTING AN XRAY PER CONVERSATION WITH PROVIDER.
+-----------------xray ordered to touchstone---------------PM",2024-09-03,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",8cb04d0d12249d54
+29974,2023-09-18,Clinical Question,Results/Mammo,2023-09-18,1,1,1,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",8a91b68d4b251823
+31751,2023-02-27,Clinical Question,"Called patient regarding Mammo late 10/2022 - Asked patient if she ever called to schedule her repeat mammo that is past due now. Per patient she was waiting on a call from the imaging ctr.
+Urged pt to call TT to schedule her repeat Mammo.
+Ellen please send orders, Thank you.
+Called patient and no answer, Left message that orders have been sent.
+",2023-03-03,0,1,1,1,1,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":1,""provider-to-provider"":1,""is_content"":1}",b88e968899f869c3
+31871,2024-09-05,Clinical Question,"Denton county public health office called regarding referral for this patient. Stated the TB test is positive however no chest x ray was included in the referral. Denton county is requesting we follow up with patient for status of chest x ray as it is imperative to the health department to know if patient is actually positive... Please advise. Denton County phone 972-434-4700
+--------I have sent chest xray, patient has not done it. jacky please let patient know that she has to do the chest xray----------PM
+Pt said she will be going 9/6/24-JE",2024-09-05,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",9d01ec0fac936589
+32068,2023-02-22,Clinical Question,"I received call from Dr. Marcus Gonzalez from cedar spring eye clinic for this pt. Pt had seen provider and was c/o vision loss in one eye( Lt side?) and was told to go to cedar spring clinic.
+Clinic exam feature per Dr. Gonzalez is of retinal artery occlusion and indicating stroke. considering her age its unusual and needs further testing to r/o hypercoagulable state.  Pt was last seen on 2/7/23- but per note no c/o vision loss/issue, not sure if pt had seen other provider? Pt's lab result faxed to cedar spring ( # 214-528-7387) per Dr.Gonzalez's request. He will let us know if anything else is recommended after his evaluation. Per him pt is a Denton county resident and would not qualify for parkland services. Labs that he wanted for pt, as of now labs are not free so unable to help pt for labs, Dr. Gonzalez is going to order them thru his clinic since they have discounted rates.r",2023-02-22,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",295a42a5eac2ecee
+32157,2023-02-23,Clinical Question,"Called pt emergency contact (sister Monica Alfaro) , updated correct phone number and was able to reach sister (monica), informed sister that the clinic has been trying to reach Ruby and have left few VM and have not heard from pt Ruby. Sister attempted to reach sister as well while on call and was not successful to reach her. Pt sister (monica) stated she will call Ruby again around 11AM and inform her to call us back ASAP.",2023-02-23,1,1,1,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",3ec8292c7d653c5b
+32435,2024-01-31,Clinical Question,Pt called requesting her results for her US; I mentioned I had to speak with you first and we will give her a call back as soon as you respond,2024-02-06,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",42c68bdc3f264ba6
+32532,2023-10-09,Clinical Question,"Hello
+May I please get a call from the physician that was seen on my last visit. I have questions regarding my test results. 
+Thank you
+Will send a message to Dr.B to give pt a call back regarding her test results.-JE",2023-10-27,1,0,1,1,1,1,1,"{""is_thread"":1,""patient-to-provider"":1,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",bca95ec55796fd36
+33349,2025-07-23,Clinical Question,Please call patient regarding her recent imaging results. please let patient know that  she has fatty liver-----------PM,2025-07-24,0,0,1,1,1,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":1}",65c2607da6ebe38d
+33529,2024-12-18,Clinical Question,2024-12-17 00:00:00,2025-01-03,1,1,1,1,0,1,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":0,""is_content"":0}",a78efdbcf26751fa
+34024,2025-06-23,Clinical Question,Please call patient for follow up appointment due to her abnormal labs.,2025-06-23,0,0,1,1,0,0,0,"{""is_thread"":0,""patient-to-provider"":0,""provider-to-patient"":0,""provider-to-provider"":1,""is_content"":0}",aee8a8ecbba032f9
