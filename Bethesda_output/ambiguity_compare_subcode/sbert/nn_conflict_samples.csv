@@ -1,0 +1,535 @@
+pair,src_label,src_text,nbr_label,nbr_text,similarity
+Clinical care || expressOpinions,expressOpinions,might turn into a staff infection,Clinical care,I have not had a staff infection,0.804
+Clinical care || expressOpinions,Clinical care,I have not had a staff infection,expressOpinions,might turn into a staff infection,0.804
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,leave me a message on my phone,inviteCollabration,leave a message,0.8087
+Appreciation/Gratitude || signoff,signoff,Thank you for your time,Appreciation/Gratitude,Thank you so much for your time,0.8673
+Appreciation/Gratitude || signoff,signoff,Thank you for your time,Appreciation/Gratitude,thank you for your time and your assistance,0.7613
+Clinical care || SeekingApproval,SeekingApproval,Can I get back on Adderall XR,Clinical care,we can start over with Adderall XR 20mg,0.7119
+Clinical care || SeekingApproval,SeekingApproval,Can I get back on Adderall XR,Clinical care,will run out of my Adderall,0.699
+Clinical care || SeekingApproval,SeekingApproval,Can I get back on Adderall XR,Clinical care,Adderall refilled early,0.6514
+Clinical care || SeekingApproval,SeekingApproval,Can I get back on Adderall XR,Clinical care,refill for the Adderall,0.6001
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank You,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+HealthCareAccessAndQuality || expressOpinions,HealthCareAccessAndQuality,I canâ€™t sleep,expressOpinions,I canâ€™t seem,0.6483
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I canâ€™t sleep,EconomicStability,I canâ€™t take off the time to come in,0.6321
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I canâ€™t sleep,EconomicStability,I canâ€™t afford,0.618
+Clinical care || activeParticipation/involvement,Clinical care,I have an appointment this,activeParticipation/involvement,I can call andake an appointment,0.7646
+Clinical care || HealthCareAccessAndQuality,Clinical care,I have an appointment this,HealthCareAccessAndQuality,I havent been able to get an appointment,0.7569
+Clinical care || activeParticipation/involvement,Clinical care,I have an appointment this,activeParticipation/involvement,Need an appointment asap,0.7408
+Clinical Care || Clinical care,Clinical care,to go over labs,Clinical Care,for follow up and labs,0.709
+Clinical care || EconomicStability,Clinical care,to go over labs,EconomicStability,I've paid for my labs,0.6198
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I also need to go to get a refill,statePreferences,refill asap,0.7562
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I also need to go to get a refill,Clinical care,if I can get refills,0.7447
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I also need to go to get a refill,Clinical care,to get a refill,0.7333
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I also need to go to get a refill,Clinical care,a visit to get a refill,0.7327
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I also need to go to get a refill,Clinical care,request a refill for my prescription,0.7152
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I also need to go to get a refill,Clinical care,Please send a refill prescription,0.7011
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I also need to go to get a refill,Clinical care,refill  Everything,0.6798
+activeParticipation/involvement || expressOpinions,expressOpinions,I was wondering,activeParticipation/involvement,I wanted to know,0.721
+activeParticipation/involvement || expressOpinions,expressOpinions,I was wondering,activeParticipation/involvement,I just wanted to ask,0.7039
+activeParticipation/involvement || expressOpinions,expressOpinions,I was wondering,activeParticipation/involvement,I need to know,0.62
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I could just get some filled,Clinical care,it can't be filled at this time,0.6264
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,I could just get some filled,SeekingApproval,Can it still be filled?,0.6039
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,to make my appointment,0.7719
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,for an appointment,0.6829
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,my appointment for,0.6822
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,I have an appointment,0.6516
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,for appointment to see doctor,0.6394
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,to schedule the appointment,0.6177
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,My original appointment,0.617
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,I'm long overdue for an appointment,0.6093
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,to last me until my appointment,Clinical care,I had my appointment,0.6061
+Clinical care || activeParticipation/involvement,Clinical care,how long lab results would take,activeParticipation/involvement,Or would the results be quick enough,0.6355
+Clinical care || SeekingApproval,SeekingApproval,Would it be best to reschedule,Clinical care,to  reschedule,0.7738
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Would it be best to reschedule,activeParticipation/involvement,I do need to reschedule,0.7457
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Would it be best to reschedule,activeParticipation/involvement,Please reschedule me,0.6921
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,Or would the results be quick enough,Clinical care,how long lab results would take,0.6355
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank You,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you!,Appreciation/Gratitude,Thank you,0.8314
+Appreciation/Gratitude || signoff,signoff,Thank you!,Appreciation/Gratitude,thank you,0.8314
+activeParticipation/involvement || statePreferences,statePreferences,I'd like to change,activeParticipation/involvement,I want to change,0.8401
+activeParticipation/involvement || statePreferences,statePreferences,I'd like to change,activeParticipation/involvement,I want to change,0.8401
+activeParticipation/involvement || statePreferences,statePreferences,I'd like to change,activeParticipation/involvement,I would like to,0.6362
+Clinical Care || Clinical care,Clinical care,my upcoming appointment information,Clinical Care,schedule that appointment,0.7181
+Clinical Care || Clinical care,Clinical care,My original appointment: Date:,Clinical Care,schedule that appointment,0.7238
+Clinical care || SocialAndCommunityContext,SocialAndCommunityContext,I had a visitor,Clinical care,I came in for my visit,0.6806
+SocialAndCommunityContext || connection,SocialAndCommunityContext,I had a visitor,connection,I had a wonderful visit,0.6591
+Clinical care || activeParticipation/involvement,Clinical care,tested positive for Covid,activeParticipation/involvement,if you do covid testing there?,0.6951
+activeParticipation/involvement || statePreferences,statePreferences,I want to change to,activeParticipation/involvement,I want to change,0.8878
+activeParticipation/involvement || statePreferences,statePreferences,I want to change to,activeParticipation/involvement,I want to change,0.8878
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I do need to make a visit,Clinical care,I have a visit scheduled for,0.7157
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I do need to make a visit,statePreferences,Phone visit would be great,0.638
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you so much,signoff,Thank you very much,0.8213
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you so much,signoff,Thanks so much!,0.7892
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you so much,signoff,Thank you,0.6571
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you so much,signoff,Thank You,0.6571
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you so much,signoff,Thank you,0.6571
+Clinical care || activeParticipation/involvement,Clinical care,iâ€™ve ran out,activeParticipation/involvement,Iâ€™m needing,0.6377
+Clinical care || expressOpinions,Clinical care,iâ€™ve ran out,expressOpinions,Iâ€™m not sure,0.6285
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,i need a refill,statePreferences,refill asap,0.8285
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,i need a refill,Clinical care,if I can get refills,0.8117
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,i need a refill,Clinical care,would it be possible to get another refill,0.7391
+Clinical care || HealthCareAccessAndQuality,Clinical care,pain after I eat,HealthCareAccessAndQuality,after I eat anything,0.6167
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,after I eat anything,Clinical care,pain after I eat,0.6167
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I can hardly sleep,Clinical care,I can barely get out of bed,0.7746
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I can hardly sleep,Clinical care,I'm tired all the time,0.6586
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I can hardly sleep,Clinical care,am very tired and drowsy all day,0.6076
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank You,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+ExploreOptions || SeekingApproval,ExploreOptions,if Dr. Person1 or Dr. Person2 would be able to provide,SeekingApproval,Can you please ask Dr. Person1,0.6404
+ExploreOptions || SeekingApproval,ExploreOptions,if Dr. Person1 or Dr. Person2 would be able to provide,SeekingApproval,if Dr. Person3 could send it,0.6049
+NeighborhoodAndBuiltEnvironment || expressOpinions,expressOpinions,do not feel comfortable driving,NeighborhoodAndBuiltEnvironment,I have a very difficult time driving,0.6306
+NeighborhoodAndBuiltEnvironment || expressOpinions,expressOpinions,do not feel comfortable driving,NeighborhoodAndBuiltEnvironment,I'm not  Currently driving,0.6116
+Clinical Care || Clinical care,Clinical care,waiting for MRI results,Clinical Care,We have recieved the results of the MRI,0.7276
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,I appreciate your help,signoff,Thanks for your help!,0.6607
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,I appreciate your help,signoff,Thanks for your help!,0.6607
+Appreciation/Gratitude || activeParticipation/involvement,Appreciation/Gratitude,I appreciate your help,activeParticipation/involvement,Please help,0.6424
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+Clinical care || statePreferences,Clinical care,I will need to come in next week too,statePreferences,I can come in today if needed,0.6356
+NeighborhoodAndBuiltEnvironment || SocialAndCommunityContext,SocialAndCommunityContext,husband out of town,NeighborhoodAndBuiltEnvironment,being out of town,0.695
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,I can call andake an appointment,HealthCareAccessAndQuality,I havent been able to get an appointment,0.7253
+Clinical care || SeekingApproval,Clinical care,I'm requesting a refill on Vyvanse Rx,SeekingApproval,Can i get Vyvanse refill called in,0.817
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks,0.8539
+Clinical care || SeekingApproval,Clinical care,we can start over with Adderall XR 20mg,SeekingApproval,Can I get back on Adderall XR,0.7119
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I need it this morning,expressOpinions,I need,0.6964
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just want to make sure,expressOpinions,I am wondering,0.6002
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I need to be seen by ya'll,statePreferences,Needing to be seen,0.6486
+Clinical Care || activeParticipation/involvement,activeParticipation/involvement,if my order ever came in,Clinical Care,placed your last order,0.6351
+Clinical Care || activeParticipation/involvement,activeParticipation/involvement,if my order ever came in,Clinical Care,placed your last order,0.6351
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,there at Org3,EconomicStability,I am currently working in Org3,0.608
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,get me a referral?,inviteCollabration,if you will like to proceed with this referral,0.7537
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,get me a referral?,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.7372
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,My pharmacy is the Org1,activeParticipation/involvement,The pharmacy that I used,0.6638
+Clinical care || ExploreOptions,Clinical care,I have been taking these medications,ExploreOptions,Is there any other medication,0.6437
+Clinical Care || Clinical care,Clinical care,schedule appointment for,Clinical Care,schedule that appointment,0.9132
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,please cancel,statePreferences,these are events I can't cancel,0.645
+NeighborhoodAndBuiltEnvironment || expressOpinions,NeighborhoodAndBuiltEnvironment,canâ€™t get there,expressOpinions,I canâ€™t seem,0.7249
+EconomicStability || NeighborhoodAndBuiltEnvironment,NeighborhoodAndBuiltEnvironment,canâ€™t get there,EconomicStability,I canâ€™t afford,0.6844
+EconomicStability || NeighborhoodAndBuiltEnvironment,NeighborhoodAndBuiltEnvironment,canâ€™t get there,EconomicStability,I canâ€™t take off the time to come in,0.6801
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,Please reschedule me,SeekingApproval,Would it be best to reschedule,0.6921
+Clinical Care || activeParticipation/involvement,activeParticipation/involvement,Please reschedule me,Clinical Care,I can schedule you for,0.618
+Clinical Care || Clinical care,Clinical care,do I need blood work done?,Clinical Care,blood work,0.703
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,IM NEEDING  TO,expressOpinions,I need,0.6601
+Clinical care || SeekingApproval,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,Clinical care,send over a referral,0.8254
+SeekingApproval || activeParticipation/involvement,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,activeParticipation/involvement,get me a referral?,0.7372
+Clinical care || SeekingApproval,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,Clinical care,never received a referral,0.687
+SeekingApproval || inviteCollabration,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,inviteCollabration,if you will like to proceed with this referral,0.6463
+Clinical Care || SeekingApproval,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,Clinical Care,in regards of the referral order,0.6326
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+Clinical Care || Clinical care,Clinical care,to schedule an appointment for counseling,Clinical Care,schedule that appointment,0.6666
+Clinical care || HealthCareAccessAndQuality,Clinical care,to schedule an appointment for counseling,HealthCareAccessAndQuality,finding a counselor,0.6134
+Clinical care || HealthCareAccessAndQuality,Clinical care,do the counseling,HealthCareAccessAndQuality,finding a counselor,0.6471
+EconomicStability || activeParticipation/involvement,EconomicStability,due to my work schedule,activeParticipation/involvement,I need to schedule,0.6329
+Clinical care || EconomicStability,EconomicStability,due to my work schedule,Clinical care,have to schedule something,0.623
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I need a document,statePreferences,I will need a written one,0.6251
+Clinical Care || Clinical care,Clinical care,I have a visit scheduled for,Clinical Care,schedule that appointment,0.6393
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,let me know,maintainCommunication,let us know,0.8883
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,let me know,maintainCommunication,Please let me know,0.8846
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,let me know,maintainCommunication,Please let me know,0.8846
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,let me know,maintainCommunication,I will let you know,0.7586
+Clinical Care || activeParticipation/involvement,Clinical Care,I can schedule you for,activeParticipation/involvement,I need to schedule,0.7192
+Clinical Care || Clinical care,Clinical Care,I can schedule you for,Clinical care,have to schedule something,0.6522
+Clinical Care || activeParticipation/involvement,Clinical Care,I can schedule you for,activeParticipation/involvement,Please reschedule me,0.618
+activeParticipation/involvement || statePreferences,statePreferences,Phone visit would be great,activeParticipation/involvement,I do need to make a visit,0.638
+Clinical care || statePreferences,statePreferences,Phone visit would be great,Clinical care,I have a visit scheduled for,0.6006
+activeParticipation/involvement || expressOpinions,expressOpinions,I was wondering,activeParticipation/involvement,I wanted to know,0.721
+activeParticipation/involvement || expressOpinions,expressOpinions,I was wondering,activeParticipation/involvement,I just wanted to ask,0.7039
+activeParticipation/involvement || expressOpinions,expressOpinions,I was wondering,activeParticipation/involvement,I need to know,0.62
+Clinical Care || Clinical care,Clinical care,read my MRI,Clinical Care,We have recieved the results of the MRI,0.6592
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I will know whatâ€™s going on,expressOpinions,I canâ€™t seem,0.6101
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I will know whatâ€™s going on,expressOpinions,Iâ€™m not sure,0.6078
+Clinical Care || Clinical care,Clinical care,do another MRI,Clinical Care,We have recieved the results of the MRI,0.6705
+EconomicStability || expressOpinions,EconomicStability,I canâ€™t afford,expressOpinions,I canâ€™t seem,0.755
+EconomicStability || NeighborhoodAndBuiltEnvironment,EconomicStability,I canâ€™t afford,NeighborhoodAndBuiltEnvironment,canâ€™t get there,0.6844
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,I canâ€™t afford,HealthCareAccessAndQuality,I canâ€™t sleep,0.618
+Clinical Care || Clinical care,Clinical Care,We have recieved the results of the MRI,Clinical care,waiting for MRI results,0.7276
+Clinical Care || Clinical care,Clinical Care,We have recieved the results of the MRI,Clinical care,do another MRI,0.6705
+Clinical Care || Clinical care,Clinical Care,We have recieved the results of the MRI,Clinical care,read my MRI,0.6592
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,I had a follow up appointment,0.7932
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,appointment to follow up,0.7777
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,schedule the appointment,0.737
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,went to the appointment,0.7197
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,appointment for this week,0.7147
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,make a appointment,0.7132
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,to schedule the appointment,0.6907
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,I have an appointment this,0.6688
+Clinical Care || Clinical care,Clinical Care,at your follow up appointment,Clinical care,I have an appointment,0.6678
+Clinical care || salutation,salutation,hi,Clinical care,Hi,1.0
+activeParticipation/involvement || expressOpinions,expressOpinions,I am wondering,activeParticipation/involvement,I need to know,0.6787
+activeParticipation/involvement || expressOpinions,expressOpinions,I am wondering,activeParticipation/involvement,I wanted to know,0.6297
+activeParticipation/involvement || expressOpinions,expressOpinions,I am wondering,activeParticipation/involvement,I just wanted to ask,0.6289
+activeParticipation/involvement || expressOpinions,expressOpinions,I am wondering,activeParticipation/involvement,I just want to make sure,0.6002
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I am needing,expressOpinions,I need,0.7978
+Clinical Care || Clinical care,Clinical Care,schedule that appointment,Clinical care,schedule the appointment,0.9516
+Clinical Care || Clinical care,Clinical Care,schedule that appointment,Clinical care,schedule an appointment,0.9179
+activeParticipation/involvement || inviteCollabration,inviteCollabration,leave a message,activeParticipation/involvement,leave me a message on my phone,0.8087
+activeParticipation/involvement || inviteCollabration,inviteCollabration,leave a message,activeParticipation/involvement,please leave message,0.7635
+activeParticipation/involvement || inviteCollabration,inviteCollabration,leave a message,activeParticipation/involvement,I left a message,0.763
+activeParticipation/involvement || inviteCollabration,inviteCollabration,leave a message,activeParticipation/involvement,left at least 3 messages,0.6402
+activeParticipation/involvement || inviteCollabration,inviteCollabration,leave a message,activeParticipation/involvement,I sent a message the beginning of,0.6248
+activeParticipation/involvement || inviteCollabration,inviteCollabration,leave a message,activeParticipation/involvement,I sent a message,0.6074
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,If you could call me back,0.7874
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,I  will  call,0.7857
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,you can Call me,0.7229
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,please call me,0.7226
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,Please call me,0.7226
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,please  call,0.6941
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,I will call you asap,0.6727
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,I'll call tomorrow,0.6587
+activeParticipation/involvement || connection,connection,Look forward to seeing you,activeParticipation/involvement,I look forward to hearing from you,0.6608
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,I do need to reschedule,SeekingApproval,Would it be best to reschedule,0.7457
+ExploreOptions || activeParticipation/involvement,activeParticipation/involvement,I also need to make a payment,ExploreOptions,Is there a way to make a payment on line?,0.7334
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical care,in its early stage with the diagnostic ultrasound,0.7041
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical care,diagnostic ultrasound,0.7022
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical care,diagnostic ultrasound,0.7022
+Clinical Care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical Care,request of a Diagnotic ultrasound,0.6818
+Clinical Care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical Care,request of a Diagnotic ultrasound,0.6818
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical care,what an ultrasound does,0.6637
+Clinical Care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical Care,your ultrasound order,0.6387
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical care,diagnostic mammo & an ultrasound,0.6279
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,an ultrasound at Org1,Clinical care,the ultrasound didn't happen,0.6153
+Clinical care || HealthCareAccessAndQuality,Clinical care,the ultrasound didn't happen,HealthCareAccessAndQuality,an ultrasound at Org1,0.6153
+ExploreOptions || activeParticipation/involvement,ExploreOptions,Is there a way to make a payment on line?,activeParticipation/involvement,I also need to make a payment,0.7334
+ApprovalofDecision/Reinforcement || activeParticipation/involvement,activeParticipation/involvement,Let me know what steps to take from here,ApprovalofDecision/Reinforcement,I would like to proceed with this,0.6588
+Clinical care || salutation,salutation,HI,Clinical care,Hi,1.0
+Clinical care || SeekingApproval,SeekingApproval,can I schedule an appointment for genetic testing?,Clinical care,make another appointment for the testing?,0.6439
+Clinical care || SeekingApproval,SeekingApproval,can I schedule an appointment for genetic testing?,Clinical care,schedule an appointment,0.6317
+Clinical care || SeekingApproval,SeekingApproval,can I schedule an appointment for genetic testing?,Clinical care,schedule an appointment,0.6317
+Clinical care || SeekingApproval,SeekingApproval,can I schedule an appointment for genetic testing?,Clinical care,schedule an appointment for labs,0.628
+Clinical care || SeekingApproval,SeekingApproval,can I schedule an appointment for genetic testing?,Clinical care,schedule appointment for,0.6123
+Clinical care || SeekingApproval,SeekingApproval,can I schedule an appointment for genetic testing?,Clinical care,schedule the appointment,0.6114
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,I may need to come see doctor,SeekingApproval,Can you ask the doctor,0.719
+activeParticipation/involvement || statePreferences,statePreferences,I'd like to change,activeParticipation/involvement,I want to change,0.8401
+activeParticipation/involvement || statePreferences,statePreferences,I'd like to change,activeParticipation/involvement,I want to change,0.8401
+activeParticipation/involvement || statePreferences,statePreferences,I'd like to change,activeParticipation/involvement,I would like to,0.6362
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,Please cancel,statePreferences,these are events I can't cancel,0.645
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,I  will  call,maintainCommunication,I will call you back,0.7857
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,I  will  call,maintainCommunication,you'll be contacted,0.6031
+Clinical care || SeekingApproval,Clinical care,to  reschedule,SeekingApproval,Would it be best to reschedule,0.7738
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I want to change,statePreferences,I want to change to,0.8878
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I want to change,statePreferences,I'd like to change,0.8401
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I want to change,statePreferences,I'd like to change,0.8401
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I want to change,statePreferences,I'd like to change,0.8401
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,could not get it refilled,Clinical care,It was refilled,0.8153
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,could not get it refilled,SeekingApproval,Can I get it refilled?,0.8064
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,could not get it refilled,activeParticipation/involvement,I also need to go to get a refill,0.627
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,could not get it refilled,activeParticipation/involvement,I need a refill,0.6132
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,could not get it refilled,activeParticipation/involvement,i need a refill,0.6132
+HealthCareAccessAndQuality || statePreferences,HealthCareAccessAndQuality,could not get it refilled,statePreferences,refill asap,0.6014
+Clinical care || salutation,salutation,Hey,Clinical care,Hi,0.7045
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I need to get,expressOpinions,I need,0.7371
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,I need to get,SeekingApproval,could I please get,0.6592
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,finding a counselor,Clinical care,do the counseling,0.6471
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,finding a counselor,Clinical care,to schedule an appointment for counseling,0.6134
+Clinical care || build trust,build trust,That helps a lot,Clinical care,medicine has helped me tremendously,0.6176
+Clinical Care || SeekingApproval,SeekingApproval,Do I ditch the Xanax completely,Clinical Care,Unlike alprazolam (xanax),0.6392
+activeParticipation/involvement || connection,connection,I got your message,activeParticipation/involvement,I sent a message,0.6576
+activeParticipation/involvement || connection,connection,I got your message,activeParticipation/involvement,wanted to send you this message,0.6193
+Clinical Care || SeekingApproval,Clinical Care,Unlike alprazolam (xanax),SeekingApproval,Do I ditch the Xanax completely,0.6392
+Clinical Care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,schedule should open soon for her appointments,Clinical Care,schedule that appointment,0.7065
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,schedule should open soon for her appointments,Clinical care,schedule the appointment,0.7014
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,schedule should open soon for her appointments,Clinical care,schedule appointment for,0.6976
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,schedule should open soon for her appointments,Clinical care,schedule an appointment,0.685
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,schedule should open soon for her appointments,Clinical care,schedule an appointment,0.685
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,schedule should open soon for her appointments,Clinical care,to schedule the appointment,0.6527
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,schedule should open soon for her appointments,Clinical care,appointment set for,0.6114
+Clinical care || connection,Clinical care,report of my last visit,connection,I had a wonderful visit,0.624
+Clinical care || connection,Clinical care,I had a visit las,connection,I had a wonderful visit,0.6388
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,I called them,inviteCollabration,Call them first,0.6821
+Clinical care || SeekingApproval,Clinical care,send over a referral,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.8254
+Clinical care || inviteCollabration,Clinical care,send over a referral,inviteCollabration,if you will like to proceed with this referral,0.7356
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,There's a procedure I am needing as soon as possible,statePreferences,getting this done as soon as possible,0.6001
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,I sent a message the beginning of,inviteCollabration,leave a message,0.6248
+EconomicStability || NeighborhoodAndBuiltEnvironment,NeighborhoodAndBuiltEnvironment,I did not have cell service for a good bit,EconomicStability,My work doesn't allow me to have my cell phone,0.6134
+NeighborhoodAndBuiltEnvironment || SocialAndCommunityContext,NeighborhoodAndBuiltEnvironment,being out of town,SocialAndCommunityContext,husband out of town,0.695
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,I'll call tomorrow,maintainCommunication,I will call you back,0.6587
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I wanted to see,statePreferences,Needing to be seen,0.6048
+Clinical Care || activeParticipation/involvement,activeParticipation/involvement,I need to schedule,Clinical Care,I can schedule you for,0.7192
+EconomicStability || activeParticipation/involvement,activeParticipation/involvement,I need to schedule,EconomicStability,due to my work schedule,0.6329
+EconomicStability || activeParticipation/involvement,activeParticipation/involvement,I need to schedule,EconomicStability,my work schedule is very hard,0.6237
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+activeParticipation/involvement || statePreferences,statePreferences,these are events I can't cancel,activeParticipation/involvement,please cancel,0.645
+activeParticipation/involvement || statePreferences,statePreferences,these are events I can't cancel,activeParticipation/involvement,Please cancel,0.645
+activeParticipation/involvement || statePreferences,statePreferences,these are events I can't cancel,activeParticipation/involvement,Please cancel,0.645
+Clinical care || ExploreOptions,Clinical care,my current birth control rx is out of refills at my pharmacy,ExploreOptions,or temporary refill on my birth control,0.6691
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I havent been able to get an appointment,Clinical care,make a appointment,0.7649
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,I havent been able to get an appointment,activeParticipation/involvement,Need an appointment asap,0.7328
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,I havent been able to get an appointment,activeParticipation/involvement,I can call andake an appointment,0.7253
+Clinical care || SeekingApproval,Clinical care,would it be possible to get another refill,SeekingApproval,is it possible to get an interim refill?,0.8217
+Clinical care || SeekingApproval,Clinical care,would it be possible to get another refill,SeekingApproval,Can I get it refilled?,0.7731
+Clinical care || statePreferences,Clinical care,would it be possible to get another refill,statePreferences,refill asap,0.7078
+Clinical care || ExploreOptions,ExploreOptions,or temporary refill on my birth control,Clinical care,my current birth control rx is out of refills at my pharmacy,0.6691
+Clinical care || ExploreOptions,ExploreOptions,or temporary refill on my birth control,Clinical care,medicine refill,0.6479
+Clinical care || ExploreOptions,ExploreOptions,or temporary refill on my birth control,Clinical care,Please send a refill prescription,0.6307
+ExploreOptions || SeekingApproval,ExploreOptions,or temporary refill on my birth control,SeekingApproval,is it possible to get an interim refill?,0.616
+ExploreOptions || activeParticipation/involvement,ExploreOptions,or temporary refill on my birth control,activeParticipation/involvement,I need a refill on these medications,0.6142
+Clinical care || ExploreOptions,ExploreOptions,or temporary refill on my birth control,Clinical care,request a refill for my prescription,0.6074
+ExploreOptions || activeParticipation/involvement,ExploreOptions,or temporary refill on my birth control,activeParticipation/involvement,I also need to go to get a refill,0.6009
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know as soon as possible,maintainCommunication,Please let me know,0.6161
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know as soon as possible,maintainCommunication,Please let me know,0.6161
+Clinical care || ExploreOptions,Clinical care,I have been taking Benadryl,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,0.7781
+Clinical care || EconomicStability,Clinical care,I have been taking Benadryl,EconomicStability,No $ to buy benadryl,0.6067
+Clinical care || ExploreOptions,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,Clinical care,take Benadryl,0.8068
+Clinical care || ExploreOptions,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,Clinical care,I have been taking Benadryl,0.7781
+Clinical care || ExploreOptions,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,Clinical care,continue taking Benadryl,0.7529
+EconomicStability || ExploreOptions,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,EconomicStability,No $ to buy benadryl,0.6146
+Clinical care || ExploreOptions,Clinical care,continue taking Benadryl,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,0.7529
+Clinical care || EconomicStability,Clinical care,continue taking Benadryl,EconomicStability,No $ to buy benadryl,0.6978
+activeParticipation/involvement || expressOpinions,expressOpinions,it is impossible,activeParticipation/involvement,is there any possible way,0.6474
+Clinical care || ExploreOptions,Clinical care,take Benadryl,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,0.8068
+Clinical care || EconomicStability,Clinical care,take Benadryl,EconomicStability,No $ to buy benadryl,0.6229
+Clinical care || ExploreOptions,ExploreOptions,Is there any other medication,Clinical care,I have been taking these medications,0.6437
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it refilled?,HealthCareAccessAndQuality,could not get it refilled,0.8064
+Clinical care || SeekingApproval,SeekingApproval,Can I get it refilled?,Clinical care,would it be possible to get another refill,0.7731
+Clinical care || SeekingApproval,SeekingApproval,Can I get it refilled?,Clinical care,It was refilled,0.7463
+Clinical care || SeekingApproval,SeekingApproval,Can I get it refilled?,Clinical care,if I can get refills,0.7039
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can I get it refilled?,activeParticipation/involvement,i need a refill,0.6901
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can I get it refilled?,activeParticipation/involvement,I need a refill,0.6901
+SeekingApproval || statePreferences,SeekingApproval,Can I get it refilled?,statePreferences,refill asap,0.6353
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can I get it refilled?,activeParticipation/involvement,I also need to go to get a refill,0.6336
+EconomicStability || NeighborhoodAndBuiltEnvironment,NeighborhoodAndBuiltEnvironment,I am moving to Org2,EconomicStability,I am currently working in Org3,0.6283
+Clinical care || statePreferences,Clinical care,refill  Everything,statePreferences,refill asap,0.7423
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,I have time to find a dr up  There,activeParticipation/involvement,I need a doctor,0.7056
+NeighborhoodAndBuiltEnvironment || expressOpinions,NeighborhoodAndBuiltEnvironment,I'm not  Currently driving,expressOpinions,do not feel comfortable driving,0.6116
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,I need a doctor,HealthCareAccessAndQuality,I have time to find a dr up  There,0.7056
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I wanted to request,expressOpinions,I would like,0.6307
+Approval/Reinforcement || activeParticipation/involvement,activeParticipation/involvement,I wanted to request,Approval/Reinforcement,proceed with this request,0.6122
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,I need to discuss with the doctor,SeekingApproval,Can you ask the doctor,0.7445
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,I need to discuss with the doctor,SeekingApproval,Can you please ask Dr. Person1,0.6387
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,please send to email,SeekingApproval,Would you please send,0.6426
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,please send to email,SeekingApproval,Can you please send persciption,0.6337
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Is it possible to get,activeParticipation/involvement,is there any possible way,0.6291
+Clinical care || SeekingApproval,Clinical care,Adderall refilled early,SeekingApproval,Can I get back on Adderall XR,0.6514
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just wanted to ask,expressOpinions,I was wondering,0.7039
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just wanted to ask,expressOpinions,I was wondering,0.7039
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just wanted to ask,expressOpinions,I was wondering,0.7039
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just wanted to ask,expressOpinions,I was wondering,0.7039
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just wanted to ask,expressOpinions,I was wondering,0.7039
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just wanted to ask,expressOpinions,I was almost wondering,0.6661
+Clinical care || EconomicStability,EconomicStability,I've paid for my labs,Clinical care,get labs,0.7167
+Clinical care || EconomicStability,EconomicStability,I've paid for my labs,Clinical care,the Labs,0.6323
+Clinical care || EconomicStability,EconomicStability,I've paid for my labs,Clinical care,have labs done,0.6285
+Clinical care || EconomicStability,EconomicStability,I've paid for my labs,Clinical care,to go over labs,0.6198
+SeekingApproval || statePreferences,SeekingApproval,Would it be possible to have,statePreferences,I would like to have,0.6159
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,No money to pay for copay,HealthCareAccessAndQuality,your copay is 20.00,0.705
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,No money to pay for copay,HealthCareAccessAndQuality,I just sent a $30 copay,0.6475
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,I left a message,inviteCollabration,leave a message,0.763
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can you ask the doctor,activeParticipation/involvement,I need to discuss with the doctor,0.7445
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can you ask the doctor,activeParticipation/involvement,I may need to come see doctor,0.719
+Clinical care || EconomicStability,Clinical care,The pain gets beyond a 10 daily now,EconomicStability,strain is increasing the pain 10 fold,0.6799
+Clinical care || EconomicStability,EconomicStability,strain is increasing the pain 10 fold,Clinical care,The pain gets beyond a 10 daily now,0.6799
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,please let me know,maintainCommunication,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,please let me know,maintainCommunication,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,please let me know,maintainCommunication,let us know,0.7904
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,please let me know,maintainCommunication,I will let you know,0.7458
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,if the doctor can send a prescription,HealthCareAccessAndQuality,It can be sent to same pharmacy,0.6928
+Clinical care || SeekingApproval,SeekingApproval,if the doctor can send a prescription,Clinical care,Please send a refill prescription,0.6918
+Clinical care || SeekingApproval,SeekingApproval,if the doctor can send a prescription,Clinical care,my prescription would be ready,0.6776
+EconomicStability || NeighborhoodAndBuiltEnvironment,EconomicStability,I canâ€™t take off the time to come in,NeighborhoodAndBuiltEnvironment,canâ€™t get there,0.6801
+EconomicStability || expressOpinions,EconomicStability,I canâ€™t take off the time to come in,expressOpinions,I canâ€™t seem,0.6761
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,I canâ€™t take off the time to come in,HealthCareAccessAndQuality,I canâ€™t sleep,0.6321
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,please call me,maintainCommunication,I will call you back,0.7226
+ExploreOptions || activeParticipation/involvement,activeParticipation/involvement,I need to come in,ExploreOptions,Or would I come in,0.6274
+Clinical care || statePreferences,statePreferences,I can come in today if needed,Clinical care,I will need to come in next week too,0.6356
+activeParticipation/involvement || connection,activeParticipation/involvement,wanted to send you this message,connection,I got your message,0.6193
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,just a consult type appointment,0.7036
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,make a appointment,0.6609
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,for appointment to see doctor,0.6564
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,appointment to see doctor,0.6525
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,appointment for this week,0.6513
+Clinical Care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical Care,schedule that appointment,0.6457
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,I have an appointment tomorrow morning,0.6432
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,schedule an appointment,0.6361
+Clinical care || statePreferences,statePreferences,preferably a MM/DD/YYYY morning appointment,Clinical care,schedule an appointment,0.6361
+Appreciation/Gratitude || activeParticipation/involvement,Appreciation/Gratitude,I appreciate all your help,activeParticipation/involvement,Please help,0.6078
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,sent to the Org1 pharmacy,SeekingApproval,Can I get it sent to a different pharmacy please?,0.6722
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,I use to get it at the Org1 pharmacy,activeParticipation/involvement,The pharmacy that I used,0.7529
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,I use to get it at the Org1 pharmacy,SeekingApproval,Can I get it sent to a different pharmacy please?,0.6881
+Clinical care || statePreferences,Clinical care,running out of refills,statePreferences,refill asap,0.6679
+Clinical care || statePreferences,Clinical care,refill on my lantus,statePreferences,refill asap,0.6644
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,can be sent to Org3,EconomicStability,I am currently working in Org3,0.6113
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,It can be sent to same pharmacy,SeekingApproval,Can I get it sent to a different pharmacy please?,0.8547
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,It can be sent to same pharmacy,SeekingApproval,if the doctor can send a prescription,0.6928
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,It can be sent to same pharmacy,SeekingApproval,can you prescribe one to my pharmacy?,0.6651
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,It can be sent to same pharmacy,activeParticipation/involvement,The pharmacy that I used,0.6047
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,Could you please see,SeekingApproval,could I please get,0.6216
+ExploreOptions || SeekingApproval,SeekingApproval,if Dr. Person3 could send it,ExploreOptions,if Dr. Person1 or Dr. Person2 would be able to provide,0.6049
+SocialAndCommunityContext || activeParticipation/involvement,SocialAndCommunityContext,My husband just called,activeParticipation/involvement,I called yesterday,0.6091
+HealthCareAccessAndQuality || statePreferences,HealthCareAccessAndQuality,refill them locally,statePreferences,refill asap,0.6772
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,refill them locally,activeParticipation/involvement,I need a refill,0.6537
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,refill them locally,activeParticipation/involvement,i need a refill,0.6537
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,refill them locally,activeParticipation/involvement,I need a refill on these medications,0.6315
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,refill them locally,activeParticipation/involvement,I also need to go to get a refill,0.6287
+NeighborhoodAndBuiltEnvironment || expressOpinions,NeighborhoodAndBuiltEnvironment,I have a very difficult time driving,expressOpinions,do not feel comfortable driving,0.6306
+Clinical care || EconomicStability,Clinical care,have labs done,EconomicStability,I've paid for my labs,0.6285
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,I wanted to let you know,maintainCommunication,I will let you know,0.6751
+Clinical care || EconomicStability,Clinical care,have to schedule something,EconomicStability,to work around due to scheduling,0.7233
+Clinical care || EconomicStability,Clinical care,have to schedule something,EconomicStability,my work schedule is very hard,0.6409
+Clinical care || EconomicStability,Clinical care,have to schedule something,EconomicStability,due to my work schedule,0.623
+Appreciation/Gratitude || activeParticipation/involvement,Appreciation/Gratitude,I appreciate your help,activeParticipation/involvement,Please help,0.6424
+activeParticipation/involvement || connection,connection,look forward to hearing from you,activeParticipation/involvement,I look forward to hearing from you,0.9472
+EconomicStability || NeighborhoodAndBuiltEnvironment,EconomicStability,I am currently working in Org3,NeighborhoodAndBuiltEnvironment,I am moving to Org2,0.6283
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,I am currently working in Org3,HealthCareAccessAndQuality,at Org3,0.6187
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,I am currently working in Org3,HealthCareAccessAndQuality,can be sent to Org3,0.6113
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,I am currently working in Org3,HealthCareAccessAndQuality,there at Org3,0.608
+Clinical care || SocialAndCommunityContext,Clinical care,I came in for my visit,SocialAndCommunityContext,I had a visitor,0.6806
+Clinical care || connection,Clinical care,I came in for my visit,connection,I had a wonderful visit,0.6429
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+Clinical care || EconomicStability,Clinical care,discuss my labs,EconomicStability,how much my labs are going to be,0.6096
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,If you could call me back,maintainCommunication,I will call you back,0.7874
+Appreciation/Gratitude || expressOpinions,Appreciation/Gratitude,I'd appreciate it,expressOpinions,I would like,0.6268
+EconomicStability || NeighborhoodAndBuiltEnvironment,EconomicStability,My work doesn't allow me to have my cell phone,NeighborhoodAndBuiltEnvironment,I did not have cell service for a good bit,0.6134
+EconomicStability || SeekingApproval,EconomicStability,to go work,SeekingApproval,can go get the work done?,0.6161
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,Need an appointment asap,HealthCareAccessAndQuality,I havent been able to get an appointment,0.7328
+Clinical Care || HealthCareAccessAndQuality,Clinical Care,request of a Diagnotic ultrasound,HealthCareAccessAndQuality,an ultrasound at Org1,0.6818
+Clinical Care || activeParticipation/involvement,Clinical Care,placed your last order,activeParticipation/involvement,if my order ever came in,0.6351
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,This can be a self pay,EconomicStability,nor do I have the money for self pay,0.6749
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Please let me know,1.0
+activeParticipation/involvement || requestsForOpinion,requestsForOpinion,what would you like to do,activeParticipation/involvement,I would like to,0.6049
+Approval/Reinforcement || ApprovalofDecision/Reinforcement,ApprovalofDecision/Reinforcement,I would like to proceed with this,Approval/Reinforcement,proceed with this request,0.7259
+ApprovalofDecision/Reinforcement || activeParticipation/involvement,ApprovalofDecision/Reinforcement,I would like to proceed with this,activeParticipation/involvement,Let me know what steps to take from here,0.6588
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,nor do I have the money for self pay,HealthCareAccessAndQuality,This can be a self pay,0.6749
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,nor do I have the money for self pay,HealthCareAccessAndQuality,This can be a self pay,0.6749
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,How do I apply for medication assistance?,HealthCareAccessAndQuality,my prescription assistance card,0.6174
+Appreciation/Gratitude || activeParticipation/involvement,activeParticipation/involvement,Please help,Appreciation/Gratitude,I appreciate your help,0.6424
+Appreciation/Gratitude || activeParticipation/involvement,activeParticipation/involvement,Please help,Appreciation/Gratitude,I appreciate your help,0.6424
+Appreciation/Gratitude || activeParticipation/involvement,activeParticipation/involvement,Please help,Appreciation/Gratitude,I appreciate all your help,0.6078
+Clinical care || EconomicStability,EconomicStability,my work schedule is very hard,Clinical care,have to schedule something,0.6409
+EconomicStability || activeParticipation/involvement,EconomicStability,my work schedule is very hard,activeParticipation/involvement,I need to schedule,0.6237
+Clinical care || EconomicStability,EconomicStability,to work around due to scheduling,Clinical care,have to schedule something,0.7233
+Clinical care || EconomicStability,EconomicStability,how much my labs are going to be,Clinical care,get labs,0.6994
+Clinical care || EconomicStability,EconomicStability,how much my labs are going to be,Clinical care,discuss my labs,0.6096
+Approval/Reinforcement || ApprovalofDecision/Reinforcement,Approval/Reinforcement,proceed with this request,ApprovalofDecision/Reinforcement,I would like to proceed with this,0.7259
+Approval/Reinforcement || activeParticipation/involvement,Approval/Reinforcement,proceed with this request,activeParticipation/involvement,I wanted to request,0.6122
+Clinical Care || inviteCollabration,Clinical Care,in regards of the referral order,inviteCollabration,if you will like to proceed with this referral,0.6366
+Clinical Care || SeekingApproval,Clinical Care,in regards of the referral order,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.6326
+Clinical care || expressOpinions,Clinical care,Iâ€™m blacking out,expressOpinions,Iâ€™m not sure,0.6451
+Clinical care || expressOpinions,expressOpinions,Iâ€™m not sure,Clinical care,Iâ€™m blacking out,0.6451
+Clinical care || expressOpinions,expressOpinions,Iâ€™m not sure,Clinical care,iâ€™ve ran out,0.6285
+expressOpinions || statePreferences,statePreferences,I really need this to happen asap,expressOpinions,I need,0.6118
+ShareOptions || activeParticipation/involvement,activeParticipation/involvement,Please call if you have any questions!,ShareOptions,or if you have any question you can give me a call,0.6588
+Clinical Care || HealthCareAccessAndQuality,Clinical Care,your ultrasound order,HealthCareAccessAndQuality,an ultrasound at Org1,0.6387
+Clinical Care || activeParticipation/involvement,Clinical Care,to set up the appointment,activeParticipation/involvement,So I can set up an appointment now,0.7546
+activeParticipation/involvement || connection,activeParticipation/involvement,I sent a message,connection,I got your message,0.6576
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,I sent a message,inviteCollabration,leave a message,0.6074
+expressOpinions || statePreferences,expressOpinions,I would like,statePreferences,I would like to have,0.7025
+expressOpinions || statePreferences,expressOpinions,I would like,statePreferences,would like to request for you,0.6424
+Appreciation/Gratitude || expressOpinions,expressOpinions,I would like,Appreciation/Gratitude,I'd appreciate it,0.6268
+Clinical care || inviteCollabration,Clinical care,never received a referral,inviteCollabration,if you will like to proceed with this referral,0.7171
+Clinical care || statePreferences,Clinical care,if I can get refills,statePreferences,refill asap,0.7392
+expressOpinions || statePreferences,statePreferences,I would like to have,expressOpinions,I would like,0.7025
+SeekingApproval || statePreferences,statePreferences,I would like to have,SeekingApproval,Would it be possible to have,0.6159
+Clinical care || EconomicStability,Clinical care,get labs,EconomicStability,I've paid for my labs,0.7167
+Clinical care || EconomicStability,Clinical care,get labs,EconomicStability,how much my labs are going to be,0.6994
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can I get,activeParticipation/involvement,I need to get,0.6154
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can I get,activeParticipation/involvement,I need to get,0.6154
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Can I get,activeParticipation/involvement,I was able to get,0.6108
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I just sent a $30 copay,EconomicStability,No money to pay for copay,0.6475
+Clinical care || EconomicStability,Clinical care,the Labs,EconomicStability,I've paid for my labs,0.6323
+activeParticipation/involvement || checkingUnderstanding/clarification,checkingUnderstanding/clarification,$427,activeParticipation/involvement,Would I pay half of $427,0.7182
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,at Org3,EconomicStability,I am currently working in Org3,0.6187
+activeParticipation/involvement || inviteCollabration,inviteCollabration,if you will like to proceed with this referral,activeParticipation/involvement,get me a referral?,0.7537
+Clinical care || inviteCollabration,inviteCollabration,if you will like to proceed with this referral,Clinical care,send over a referral,0.7356
+Clinical care || inviteCollabration,inviteCollabration,if you will like to proceed with this referral,Clinical care,never received a referral,0.7171
+SeekingApproval || inviteCollabration,inviteCollabration,if you will like to proceed with this referral,SeekingApproval,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.6463
+Clinical Care || inviteCollabration,inviteCollabration,if you will like to proceed with this referral,Clinical Care,in regards of the referral order,0.6366
+ShareOptions || activeParticipation/involvement,ShareOptions,or if you have any question you can give me a call,activeParticipation/involvement,Please call if you have any questions!,0.6588
+ExploreOptions || ShareOptions,ShareOptions,or if you have any question you can give me a call,ExploreOptions,or maybe if she can give me a call,0.6168
+EconomicStability || activeParticipation/involvement,EconomicStability,I would pay half,activeParticipation/involvement,Would I pay half of $427,0.6986
+activeParticipation/involvement || checkingUnderstanding/clarification,activeParticipation/involvement,Would I pay half of $427,checkingUnderstanding/clarification,The $427 is the whole price,0.7314
+activeParticipation/involvement || checkingUnderstanding/clarification,activeParticipation/involvement,Would I pay half of $427,checkingUnderstanding/clarification,$427,0.7182
+EconomicStability || activeParticipation/involvement,activeParticipation/involvement,Would I pay half of $427,EconomicStability,I would pay half,0.6986
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,didn''t have the $600 to pay,HealthCareAccessAndQuality,I will pay the $600 cash payment,0.6408
+expressOpinions || statePreferences,statePreferences,would like to request for you,expressOpinions,I would like,0.6424
+SeekingApproval || activeParticipation/involvement,activeParticipation/involvement,I was able to get,SeekingApproval,Can I get,0.6108
+SeekingApproval || activeParticipation/involvement,SeekingApproval,Would you please send,activeParticipation/involvement,please send to email,0.6426
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,The pharmacy that I used,HealthCareAccessAndQuality,I no longer use that pharmacy,0.7803
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,The pharmacy that I used,HealthCareAccessAndQuality,I use to get it at the Org1 pharmacy,0.7529
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,The pharmacy that I used,HealthCareAccessAndQuality,My pharmacy is the Org1,0.6638
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,The pharmacy that I used,HealthCareAccessAndQuality,Org1 is the pharmacy I use,0.652
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,The pharmacy that I used,HealthCareAccessAndQuality,Brookshires on hwy 155 is the pharmacy I use,0.6486
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,The pharmacy that I used,HealthCareAccessAndQuality,I use Org1 pharmacy in Org1,0.6387
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,The pharmacy that I used,HealthCareAccessAndQuality,It can be sent to same pharmacy,0.6047
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+Clinical care || statePreferences,Clinical care,a visit to get a refill,statePreferences,refill asap,0.7052
+Clinical care || build trust,Clinical care,medicine has helped me tremendously,build trust,That helps a lot,0.6176
+SeekingApproval || statePreferences,SeekingApproval,is it possible to get an interim refill?,statePreferences,refill asap,0.6997
+activeParticipation/involvement || checkingUnderstanding/clarification,checkingUnderstanding/clarification,The $427 is the whole price,activeParticipation/involvement,Would I pay half of $427,0.7314
+ExploreOptions || maintainCommunication,maintainCommunication,she will be contacting you,ExploreOptions,or maybe if she can give me a call,0.6723
+EconomicStability || expressOpinions,expressOpinions,I canâ€™t seem,EconomicStability,I canâ€™t afford,0.755
+NeighborhoodAndBuiltEnvironment || expressOpinions,expressOpinions,I canâ€™t seem,NeighborhoodAndBuiltEnvironment,canâ€™t get there,0.7249
+EconomicStability || expressOpinions,expressOpinions,I canâ€™t seem,EconomicStability,I canâ€™t take off the time to come in,0.6761
+HealthCareAccessAndQuality || expressOpinions,expressOpinions,I canâ€™t seem,HealthCareAccessAndQuality,I canâ€™t sleep,0.6483
+activeParticipation/involvement || connection,activeParticipation/involvement,I look forward to hearing from you,connection,look forward to hearing from you,0.9472
+activeParticipation/involvement || connection,activeParticipation/involvement,I look forward to hearing from you,connection,Look forward to seeing you,0.6608
+SocialAndCommunityContext || connection,connection,I had a wonderful visit,SocialAndCommunityContext,I had a visitor,0.6591
+Clinical care || connection,connection,I had a wonderful visit,Clinical care,I came in for my visit,0.6429
+Clinical care || connection,connection,I had a wonderful visit,Clinical care,I had a visit las,0.6388
+Clinical care || connection,connection,I had a wonderful visit,Clinical care,report of my last visit,0.624
+ExploreOptions || maintainCommunication,ExploreOptions,or maybe if she can give me a call,maintainCommunication,she will be contacting you,0.6723
+ExploreOptions || ShareOptions,ExploreOptions,or maybe if she can give me a call,ShareOptions,or if you have any question you can give me a call,0.6168
+Clinical care || checkingUnderstanding/clarification,checkingUnderstanding/clarification,Please see attached letter,Clinical care,Please see attached letter,1.0
+Clinical Care || activeParticipation/involvement,activeParticipation/involvement,So I can set up an appointment now,Clinical Care,to set up the appointment,0.7546
+ExploreOptions || activeParticipation/involvement,ExploreOptions,Or would I come in,activeParticipation/involvement,I need to come in,0.6274
+Clinical care || statePreferences,Clinical care,just a consult type appointment,statePreferences,preferably a MM/DD/YYYY morning appointment,0.7036
+Clinical care || statePreferences,Clinical care,refill for my ambien,statePreferences,refill asap,0.684
+Clinical care || statePreferences,Clinical care,It was refilled,statePreferences,refill asap,0.6064
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,I no longer use that pharmacy,activeParticipation/involvement,The pharmacy that I used,0.7803
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,I no longer use that pharmacy,SeekingApproval,Can I get it sent to a different pharmacy please?,0.6659
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,please leave message,inviteCollabration,leave a message,0.7635
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,your copay is 20.00,EconomicStability,No money to pay for copay,0.705
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it sent to a different pharmacy please?,HealthCareAccessAndQuality,It can be sent to same pharmacy,0.8547
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it sent to a different pharmacy please?,HealthCareAccessAndQuality,I use to get it at the Org1 pharmacy,0.6881
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it sent to a different pharmacy please?,HealthCareAccessAndQuality,sent to the Org1 pharmacy,0.6722
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it sent to a different pharmacy please?,HealthCareAccessAndQuality,I no longer use that pharmacy,0.6659
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it sent to a different pharmacy please?,HealthCareAccessAndQuality,it was sent to Org3 pharmacy,0.6627
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it sent to a different pharmacy please?,HealthCareAccessAndQuality,to be sent to my pharmacy in Org2,0.6449
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,Can I get it sent to a different pharmacy please?,HealthCareAccessAndQuality,sent to Org3 pharmacy,0.6273
+HealthCareAccessAndQuality || SeekingApproval,HealthCareAccessAndQuality,it was sent to Org3 pharmacy,SeekingApproval,Can I get it sent to a different pharmacy please?,0.6627
+activeParticipation/involvement || inviteCollabration,inviteCollabration,Call them first,activeParticipation/involvement,I have to call them,0.7575
+activeParticipation/involvement || inviteCollabration,inviteCollabration,Call them first,activeParticipation/involvement,I called them,0.6821
+activeParticipation/involvement || inviteCollabration,inviteCollabration,Call them first,activeParticipation/involvement,please  call,0.6242
+Clinical care || statePreferences,Clinical care,medicine refill,statePreferences,refill asap,0.7133
+Clinical care || statePreferences,Clinical care,to get a refill,statePreferences,refill asap,0.6874
+Clinical care || salutation,salutation,Hi,Clinical care,Hi,1.0
+HealthCareAccessAndQuality || SeekingApproval,SeekingApproval,can you prescribe one to my pharmacy?,HealthCareAccessAndQuality,It can be sent to same pharmacy,0.6651
+EconomicStability || SeekingApproval,SeekingApproval,can go get the work done?,EconomicStability,to go work,0.6161
+Clinical care || EconomicStability,EconomicStability,No $ to buy benadryl,Clinical care,continue taking Benadryl,0.6978
+Clinical care || EconomicStability,EconomicStability,No $ to buy benadryl,Clinical care,take Benadryl,0.6229
+EconomicStability || ExploreOptions,EconomicStability,No $ to buy benadryl,ExploreOptions,Is there any medication that would assist in this other than Benadryl?,0.6146
+ExploreOptions || SeekingApproval,SeekingApproval,Can you please ask Dr. Person1,ExploreOptions,if Dr. Person1 or Dr. Person2 would be able to provide,0.6404
+Clinical Care || HealthCareAccessAndQuality,Clinical Care,request of a Diagnotic ultrasound,HealthCareAccessAndQuality,an ultrasound at Org1,0.6818
+Clinical Care || activeParticipation/involvement,Clinical Care,placed your last order,activeParticipation/involvement,if my order ever came in,0.6351
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,This can be a self pay,EconomicStability,nor do I have the money for self pay,0.6749
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,HI,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,hi,1.0
+EconomicStability || HealthCareAccessAndQuality,EconomicStability,have to pay $600,HealthCareAccessAndQuality,I will pay the $600 cash payment,0.7245
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,I have to call them,inviteCollabration,Call them first,0.7575
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I will pay the $600 cash payment,EconomicStability,have to pay $600,0.7245
+EconomicStability || HealthCareAccessAndQuality,HealthCareAccessAndQuality,I will pay the $600 cash payment,EconomicStability,didn''t have the $600 to pay,0.6408
+SocialAndCommunityContext || activeParticipation/involvement,activeParticipation/involvement,I called yesterday,SocialAndCommunityContext,My husband just called,0.6091
+activeParticipation/involvement || inviteCollabration,activeParticipation/involvement,left at least 3 messages,inviteCollabration,leave a message,0.6402
+Clinical care || statePreferences,Clinical care,requesting a refill on my Vyvanse,statePreferences,refill asap,0.6133
+Clinical care || statePreferences,statePreferences,refill asap,Clinical care,refill  Everything,0.7423
+Clinical care || statePreferences,statePreferences,refill asap,Clinical care,if I can get refills,0.7392
+SeekingApproval || statePreferences,statePreferences,refill asap,SeekingApproval,is it possible to get an interim refill?,0.6997

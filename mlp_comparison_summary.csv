@@ -1,3 +1,0 @@
-Model,Graph Type,Source,Node Level,Accuracy (%),F1 Score
-MLP,None,--,Sentence,54.5,0.384
-MLP,None,--,Sub-sentence,55.9,0.361

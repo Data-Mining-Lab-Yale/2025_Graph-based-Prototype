@@ -1,0 +1,36 @@
+label,neighbor_disagreement,neighbor_total,disagreement_rate
+PartnershipPatient → signoff,126,540,0.2333
+PartnershipPatient → Appreciation/Gratitude,98,330,0.297
+PartnershipPatient → salutation,60,470,0.1277
+PartnershipProvider → signoff,48,110,0.4364
+PartnershipProvider → salutation,47,70,0.6714
+PartnershipPatient → activeParticipation/involvement,41,2390,0.0172
+PartnershipPatient → Clinical care,20,4020,0.005
+PartnershipProvider → maintainCommunication,14,130,0.1077
+PartnershipPatient → expressOpinions,12,690,0.0174
+PartnershipPatient → statePreferences,6,250,0.024
+PartnershipProvider → Appreciation/Gratitude,5,10,0.5
+CareCoordinationPatient,4,670,0.006
+PartnershipPatient → connection,4,100,0.04
+CareCoordinationProvider,2,240,0.0083
+PartnershipPatient → alignment,2,50,0.04
+SDOH → HealthCareAccessAndQuality,2,1650,0.0012
+PartnershipProvider → Clinical Care,1,340,0.0029
+PartnershipProvider → alignment,1,30,0.0333
+PartnershipProvider → checkingUnderstanding/clarification,1,70,0.0143
+PartnershipProvider → connection,1,40,0.025
+SDOH → EconomicStability,1,1120,0.0009
+SDOH → NeighborhoodAndBuiltEnvironment,1,350,0.0029
+SDOH → SocialAndCommunityContext,1,280,0.0036
+SharedDecisionPatient → SeekingApproval,1,330,0.003
+PartnershipPatient → build trust,0,120,0.0
+PartnershipProvider → build trust,0,10,0.0
+PartnershipProvider → inviteCollabration,0,80,0.0
+PartnershipProvider → requestsForOpinion,0,40,0.0
+SDOH → EducationAccessAndQuality,0,40,0.0
+SharedDecisionPatient → ApprovalofDecision/Reinforcement,0,20,0.0
+SharedDecisionPatient → ExploreOptions,0,140,0.0
+SharedDecisionProvider → Approval/Reinforcement,0,10,0.0
+SharedDecisionProvider → MakeDecision,0,20,0.0
+SharedDecisionProvider → ShareOptions,0,40,0.0
+SocioEmotionalBehaviour,0,670,0.0

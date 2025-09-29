@@ -1,0 +1,197 @@
+pair,src_label,src_text,nbr_label,nbr_text,similarity
+PartnershipPatient || SDOH,PartnershipPatient,is draining,SDOH,my occupation is,0.7801
+PartnershipProvider || SDOH,SDOH,I can not get off work,PartnershipProvider,i can not guarantee,0.6032
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,it is impossible,0.7234
+PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipProvider,is that ok,0.6201
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Is there any way that you could all in Bactrim DS,PartnershipPatient,is there any possible way,0.6138
+PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you!,1.0
+SDOH || SocioEmotionalBehaviour,SDOH,doing my duties,SocioEmotionalBehaviour,I am doing my best,0.675
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I am in pain everyday,SocioEmotionalBehaviour,I am in desperate need,0.6348
+PartnershipPatient || SDOH,PartnershipPatient,I have a huge lump in my cheek,SDOH,in my family,0.7231
+PartnershipPatient || SDOH,PartnershipPatient,to go over labs,SDOH,to go work,0.6423
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,my Lisinopril and my Metoprolol,SocioEmotionalBehaviour,My apoligies,0.7978
+PartnershipPatient || SDOH,PartnershipPatient,my Lisinopril and my Metoprolol,SDOH,excuse my absences,0.7978
+PartnershipPatient || SDOH,PartnershipPatient,my Lisinopril and my Metoprolol,SDOH,eating scrambled eggs and soup,0.6029
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,with the Endocrinologist to make sure,PartnershipPatient,want to make sure,0.6807
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,with the Endocrinologist to make sure,PartnershipPatient,make sure I do get,0.602
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,I have 2 Easter lunch banquets I have to attend,0.6939
+PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you!,1.0
+PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,is that ok,SocioEmotionalBehaviour,my fear is that it is,0.6201
+PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,Ok,0.6158
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You,1.0
+PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have a cavity,1.0
+PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have difficulty focusing,1.0
+PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have discovered,1.0
+PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have a recheck appointment,0.6264
+PartnershipPatient || SDOH,PartnershipPatient,I will never get there!,SDOH,canâ€™t get there,0.6561
+PartnershipPatient || SDOH,SDOH,I have been crazy busy,PartnershipPatient,I have been recieving,0.7834
+PartnershipPatient || SDOH,SDOH,I have been crazy busy,PartnershipPatient,I have been trying,0.6304
+PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,vertigo and dizziness,1.0
+PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,Adderall and zofran,0.6272
+PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,those results and reports,0.6212
+PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,my Lisinopril and my Metoprolol,0.6029
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I can tolerate,SharedDecisionPatient,Can I switch to,0.8294
+PartnershipPatient || SDOH,PartnershipPatient,pain after I eat,SDOH,after I eat anything,0.6999
+PartnershipPatient || SDOH,SDOH,after I eat anything,PartnershipPatient,pain after I eat,0.6999
+PartnershipPatient || SDOH,PartnershipPatient,due to the discomfort,SDOH,due to car wreck,0.6507
+PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you!,1.0
+PartnershipPatient || PartnershipProvider,PartnershipPatient,Good Morning,PartnershipProvider,Good morning,1.0
+PartnershipPatient || SharedDecisionProvider,PartnershipPatient,I would like to give them documentation,SharedDecisionProvider,if you would like to give it try,0.6788
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am doing my best,SDOH,doing my duties,0.675
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,I am waiting for,0.6326
+SDOH || SocioEmotionalBehaviour,SDOH,for the Org4 team,SocioEmotionalBehaviour,apologies for the misspelling,0.7193
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi!,1.0
+PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,it's a controlled substance,SocioEmotionalBehaviour,it exhausts me,0.6905
+CareCoordinationProvider || PartnershipPatient,PartnershipPatient,it's a controlled substance,CareCoordinationProvider,they didnt recieve it,0.6062
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I suppose,CareCoordinationPatient,Kroger was suppose to submit request,0.689
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,Kroger was suppose to submit request,PartnershipPatient,I suppose,0.689
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my stress level is super high right now,SDOH,I know the pollen is high right now,0.7712
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am super embarrassed,PartnershipPatient,getting super winded,0.657
+SDOH || SocioEmotionalBehaviour,SDOH,I know the pollen is high right now,SocioEmotionalBehaviour,my stress level is super high right now,0.7712
+PartnershipPatient || SDOH,PartnershipPatient,injured my shoulder,SDOH,excuse my absences,1.0
+PartnershipPatient || SDOH,PartnershipPatient,injured my shoulder,SDOH,my occupation is,0.6257
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,have bruised ribs they said,CareCoordinationPatient,they said my Dr Person1,0.6283
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,would like a recommendation,CareCoordinationPatient,I would like my neurologist,0.6363
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,getting super winded,SocioEmotionalBehaviour,I am super embarrassed,0.657
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Can you help,SharedDecisionPatient,can you electronically send,0.6906
+PartnershipPatient || SDOH,SDOH,none I've been smoke free for 8weeks,PartnershipPatient,I've been out,0.7203
+SDOH || SocioEmotionalBehaviour,SDOH,none I've been smoke free for 8weeks,SocioEmotionalBehaviour,I've been struggling and coping,0.6178
+PartnershipPatient || SDOH,PartnershipPatient,no adverse affects,SDOH,No $ to buy benadryl,0.617
+PartnershipPatient || SDOH,PartnershipPatient,I was able to,SDOH,My sister was able to have,0.6276
+PartnershipPatient || SDOH,SDOH,canâ€™t get there,PartnershipPatient,I will never get there!,0.6561
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,God bless you!,SocioEmotionalBehaviour,most importantly God!,0.6383
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,to schedule an appointment for counseling,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6462
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,doctor English or another doctor,PartnershipPatient,I need a doctor,0.6603
+PartnershipProvider || SDOH,PartnershipProvider,Have a good day,SDOH,doesn't have good reception,0.6846
+PartnershipProvider || SDOH,PartnershipProvider,This is just a reminder,SDOH,this is my motherâ€™s phone,0.6086
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I switch to,PartnershipPatient,I can tolerate,0.8294
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment,0.6865
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment,0.6865
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment for labs,0.6674
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,to schedule an appointment for counseling,0.6462
+SDOH || SharedDecisionPatient,SDOH,could not get it refilled,SharedDecisionPatient,Can I get it refilled?,0.6984
+PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,Do I ditch the Xanax completely,PartnershipProvider,Unlike alprazolam (xanax),0.602
+PartnershipProvider || SharedDecisionPatient,PartnershipProvider,Unlike alprazolam (xanax),SharedDecisionPatient,Do I ditch the Xanax completely,0.602
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,they said my Dr Person1,PartnershipPatient,have bruised ribs they said,0.6283
+CareCoordinationProvider || PartnershipPatient,PartnershipPatient,send over a referral,CareCoordinationProvider,I faxed over referral,0.6649
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Can you please help?,SharedDecisionPatient,Can you please send persciption,0.6032
+SDOH || SocioEmotionalBehaviour,SDOH,I have 2 Easter lunch banquets I have to attend,SocioEmotionalBehaviour,I have major anxiety,0.7508
+SDOH || SocioEmotionalBehaviour,SDOH,I have 2 Easter lunch banquets I have to attend,SocioEmotionalBehaviour,I won't have to worry about,0.6939
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I've been struggling and coping,PartnershipPatient,I've been out,0.7004
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I've been struggling and coping,SDOH,none I've been smoke free for 8weeks,0.6178
+SDOH || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,SDOH,it was on HOLD,0.7747
+SDOH || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,SDOH,it was much cheaper,0.7388
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,PartnershipPatient,It was refilled,0.6963
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,would it be possible to get another refill,SharedDecisionPatient,Would it be possible to have,0.7951
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,or temporary refill on my birth control,PartnershipPatient,refill on my lantus,0.6545
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,it is impossible,SocioEmotionalBehaviour,my fear is that it is,0.7234
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Is there any other medication,PartnershipPatient,is there any possible way,0.612
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I've been out,SocioEmotionalBehaviour,I've been struggling and coping,0.7004
+SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it refilled?,SDOH,could not get it refilled,0.6984
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,it exhausts me,PartnershipPatient,it's a controlled substance,0.6905
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I need a doctor,CareCoordinationPatient,doctor English or another doctor,0.6603
+SDOH || SocioEmotionalBehaviour,SDOH,they do not have the medicine to fill it,SocioEmotionalBehaviour,I do not have the time,0.6414
+CareCoordinationPatient || SDOH,CareCoordinationPatient,Person1 called me on,SDOH,Org2 called me,0.6983
+SDOH || SharedDecisionPatient,SDOH,I wonâ€™t be able to drive in it,SharedDecisionPatient,Would you be able to resubmit it again please?,0.6902
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Would it be possible to have,PartnershipPatient,would it be possible to get another refill,0.7951
+SDOH || SocioEmotionalBehaviour,SDOH,my occupation is,SocioEmotionalBehaviour,My apoligies,0.6257
+SDOH || SocioEmotionalBehaviour,SDOH,I am still having sleeping issues,SocioEmotionalBehaviour,I am still struggling,0.6395
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,schedule an appointment,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6865
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,refill on my lantus,SharedDecisionPatient,or temporary refill on my birth control,0.6545
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,Could you please see,CareCoordinationPatient,Could you please inform Dr,0.74
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,this was a surprise for my Birthday!!!!,PartnershipPatient,for my diabeties,0.7557
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can you electronically send,PartnershipPatient,Can you help,0.6906
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like to,CareCoordinationPatient,would like to work with you,0.6076
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,schedule an appointment,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6865
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I do not have the time,SDOH,they do not have the medicine to fill it,0.6414
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I apologize for my poor time management,PartnershipPatient,for my diabeties,0.8193
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I apologize for my poor time management,PartnershipPatient,for my medication,0.6492
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,What do I do?,PartnershipPatient,What can we do now?,0.6076
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,if you could call in a steroid pack?,PartnershipPatient,If you could call me back,0.7432
+SDOH || SharedDecisionPatient,SharedDecisionPatient,if you could call in a steroid pack?,SDOH,if you could call my fiance at,0.7405
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,schedule an appointment for labs,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6674
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I have a recheck appointment,SocioEmotionalBehaviour,I have major anxiety,0.6264
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,If you could call me back,SharedDecisionPatient,if you could call in a steroid pack?,0.7432
+SDOH || SharedDecisionPatient,SDOH,if you could call my fiance at,SharedDecisionPatient,if you could call in a steroid pack?,0.7405
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am still struggling,SDOH,I am still having sleeping issues,0.6395
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,want to make sure,CareCoordinationPatient,with the Endocrinologist to make sure,0.6807
+CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,I spoke with the nutritionist,0.7956
+SharedDecisionProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,SharedDecisionProvider,proceed with this request,0.6788
+PartnershipProvider || SDOH,PartnershipProvider,i can not guarantee,SDOH,I can NOT afford these anymore,0.6886
+PartnershipProvider || SDOH,PartnershipProvider,i can not guarantee,SDOH,I can not get off work,0.6032
+PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,I would like to proceed with this,PartnershipProvider,if you will like to proceed with this referral,0.7676
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Iâ€™m just scared,PartnershipPatient,Iâ€™m just trying to figure it,0.6316
+PartnershipProvider || SDOH,SDOH,I can NOT afford these anymore,PartnershipProvider,i can not guarantee,0.6886
+CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.7956
+CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.7956
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,she asked if I would be up to,PartnershipPatient,would be greatly appreciated,0.6766
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,SDOH,for the Org4 team,0.7193
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,PartnershipPatient,It's for the Vyvanse,0.7167
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,SDOH,As for the courage health,0.6536
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,PartnershipPatient,written prescription for the SUCRALFATE,0.6456
+SDOH || SocioEmotionalBehaviour,SDOH,As for the courage health,SocioEmotionalBehaviour,apologies for the misspelling,0.6536
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I need to know,CareCoordinationPatient,They basically need to know,0.9041
+SharedDecisionProvider || SocioEmotionalBehaviour,SharedDecisionProvider,proceed with this request,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,0.6788
+PartnershipProvider || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipProvider,If you would like to double check,0.7161
+PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,I would like to give them documentation,0.6788
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,I would like my neurologist,PartnershipPatient,I would like,0.6363
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,I would like my neurologist,PartnershipPatient,would like a recommendation,0.6363
+CareCoordinationPatient || SDOH,CareCoordinationPatient,it was ordered by the neurologist,SDOH,ordered by the regular Org5 doctor,0.6797
+SDOH || SharedDecisionPatient,SDOH,it was much cheaper,SharedDecisionPatient,if it was a possiblility,0.7388
+CareCoordinationPatient || SDOH,SDOH,ordered by the regular Org5 doctor,CareCoordinationPatient,it was ordered by the neurologist,0.6797
+SDOH || SharedDecisionPatient,SharedDecisionPatient,Would you be able to resubmit it again please?,SDOH,I wonâ€™t be able to drive in it,0.6902
+CareCoordinationPatient || SDOH,SDOH,Org2 called me,CareCoordinationPatient,Person1 called me on,0.6983
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like,CareCoordinationPatient,I would like my neurologist,0.6363
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I wanted,CareCoordinationPatient,They wanted,0.7501
+PartnershipPatient || SharedDecisionPatient,PartnershipPatient,if I can get refills,SharedDecisionPatient,Can I get,0.6275
+PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get,PartnershipPatient,if I can get refills,0.6275
+PartnershipProvider || SharedDecisionPatient,PartnershipProvider,if you will like to proceed with this referral,SharedDecisionPatient,I would like to proceed with this,0.7676
+SharedDecisionPatient || SharedDecisionProvider,SharedDecisionProvider,or if you have any question you can give me a call,SharedDecisionPatient,or maybe if she can give me a call,0.6225
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,They basically need to know,PartnershipPatient,I need to know,0.9041
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,for my diabeties,SocioEmotionalBehaviour,I apologize for my poor time management,0.8193
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,for my diabeties,SocioEmotionalBehaviour,this was a surprise for my Birthday!!!!,0.7557
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,for my medication,SocioEmotionalBehaviour,I apologize for my poor time management,0.6492
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my circumstances are keeping me,SDOH,finances are the barriers,0.6129
+SDOH || SocioEmotionalBehaviour,SDOH,finances are the barriers,SocioEmotionalBehaviour,my circumstances are keeping me,0.6129
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,medicine has helped me tremendously,CareCoordinationPatient,the doctor who helped me,0.6061
+CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she mention that,PartnershipPatient,That works,0.6513
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,would like to work with you,PartnershipPatient,I would like to,0.6076
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,would be greatly appreciated,CareCoordinationPatient,she asked if I would be up to,0.6766
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,most importantly God!,PartnershipPatient,God bless you!,0.6383
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have been in awful condition,PartnershipPatient,I have been recieving,0.7173
+PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am in desperate need,PartnershipPatient,I am in pain everyday,0.6348
+SharedDecisionPatient || SharedDecisionProvider,SharedDecisionPatient,or maybe if she can give me a call,SharedDecisionProvider,or if you have any question you can give me a call,0.6225
+PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,Iâ€™m just trying to figure it,SocioEmotionalBehaviour,Iâ€™m just scared,0.6316
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,My apoligies,SDOH,excuse my absences,1.0
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,My apoligies,SDOH,my occupation is,0.6257
+PartnershipProvider || SDOH,SDOH,doesn't have good reception,PartnershipProvider,Have a good day,0.6846
+SDOH || SharedDecisionPatient,SDOH,it was on HOLD,SharedDecisionPatient,if it was a possiblility,0.7747
+PartnershipProvider || SharedDecisionProvider,PartnershipProvider,If you would like to double check,SharedDecisionProvider,if you would like to give it try,0.7161
+CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,they didnt recieve it,PartnershipPatient,it's a controlled substance,0.6062
+CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I am waiting for,CareCoordinationPatient,waiting for my rheumatologist appointment,0.6326
+CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,They wanted,PartnershipPatient,I wanted,0.7501
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have major anxiety,SDOH,I have voluntarily quarantined,1.0
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have major anxiety,SDOH,I have 2 children,1.0
+SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have major anxiety,SDOH,I have 2 Easter lunch banquets I have to attend,0.7508
+CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,I spoke with the nutritionist,0.7956
+CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,I faxed over referral,PartnershipPatient,send over a referral,0.6649
+PartnershipProvider || SDOH,SDOH,this is my motherâ€™s phone,PartnershipProvider,This is just a reminder,0.6086
+CareCoordinationProvider || PartnershipPatient,PartnershipPatient,That works,CareCoordinationProvider,she mention that,0.6513

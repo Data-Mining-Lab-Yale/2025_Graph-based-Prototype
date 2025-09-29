@@ -1,0 +1,9 @@
+{
+  "rep": "lsa",
+  "num_spans": 1389,
+  "num_labels": 26,
+  "num_conflict_pairs": 2461,
+  "num_distinct_label_pairs": 110,
+  "avg_disagreement_rate": 0.2326,
+  "median_disagreement_rate": 0.2036
+}

@@ -1,0 +1,244 @@
+method,label_a,label_b,conflict_count,mean_similarity,median_similarity,max_similarity,min_similarity
+sbert,Appreciation/Gratitude,signoff,296,0.9236,1.0,1.0,0.604
+sbert,Clinical care,activeParticipation/involvement,192,0.7117,0.7157,0.8658,0.6008
+sbert,Clinical Care,Clinical care,147,0.7404,0.7147,0.9516,0.6015
+sbert,activeParticipation/involvement,expressOpinions,88,0.7119,0.7039,1.0,0.6002
+sbert,activeParticipation/involvement,maintainCommunication,83,0.7987,0.7857,1.0,0.6031
+sbert,Clinical care,HealthCareAccessAndQuality,80,0.6689,0.6637,0.8153,0.605
+sbert,activeParticipation/involvement,statePreferences,66,0.7128,0.6726,0.8878,0.6001
+sbert,Clinical care,SeekingApproval,55,0.7024,0.6918,0.8794,0.6001
+sbert,SeekingApproval,activeParticipation/involvement,40,0.6631,0.6482,0.7457,0.6039
+sbert,Clinical care,statePreferences,29,0.6773,0.684,0.7423,0.6006
+sbert,HealthCareAccessAndQuality,activeParticipation/involvement,29,0.6712,0.652,0.7803,0.6047
+sbert,Clinical care,EconomicStability,26,0.6539,0.6323,0.7233,0.6067
+sbert,Clinical care,salutation,23,0.9872,1.0,1.0,0.7045
+sbert,EconomicStability,HealthCareAccessAndQuality,22,0.6505,0.6408,0.7245,0.608
+sbert,activeParticipation/involvement,inviteCollabration,19,0.7066,0.7537,0.8087,0.6074
+sbert,HealthCareAccessAndQuality,SeekingApproval,18,0.7049,0.6722,0.8547,0.6273
+sbert,Clinical care,ExploreOptions,13,0.7067,0.6691,0.8068,0.6074
+sbert,Clinical Care,activeParticipation/involvement,10,0.6724,0.6351,0.7546,0.618
+sbert,EconomicStability,NeighborhoodAndBuiltEnvironment,8,0.6515,0.6542,0.6844,0.6134
+sbert,activeParticipation/involvement,connection,8,0.7212,0.6592,0.9472,0.6193
+sbert,Clinical Care,HealthCareAccessAndQuality,7,0.673,0.6818,0.7065,0.6387
+sbert,Clinical care,expressOpinions,6,0.6925,0.6451,0.804,0.6285
+sbert,NeighborhoodAndBuiltEnvironment,expressOpinions,6,0.6557,0.6306,0.7249,0.6116
+sbert,Appreciation/Gratitude,activeParticipation/involvement,6,0.6309,0.6424,0.6424,0.6078
+sbert,EconomicStability,activeParticipation/involvement,6,0.6517,0.6329,0.6986,0.6237
+sbert,ExploreOptions,activeParticipation/involvement,6,0.6561,0.6274,0.7334,0.6009
+sbert,Clinical care,connection,6,0.6353,0.6388,0.6429,0.624
+sbert,ExploreOptions,SeekingApproval,5,0.6213,0.616,0.6404,0.6049
+sbert,SeekingApproval,statePreferences,5,0.6533,0.6353,0.6997,0.6159
+sbert,expressOpinions,statePreferences,5,0.6603,0.6424,0.7025,0.6118
+sbert,Clinical Care,SeekingApproval,4,0.6359,0.6359,0.6392,0.6326
+sbert,EconomicStability,expressOpinions,4,0.7156,0.7156,0.755,0.6761
+sbert,Clinical care,inviteCollabration,4,0.7264,0.7264,0.7356,0.7171
+sbert,activeParticipation/involvement,checkingUnderstanding/clarification,4,0.7248,0.7248,0.7314,0.7182
+sbert,HealthCareAccessAndQuality,expressOpinions,2,0.6483,0.6483,0.6483,0.6483
+sbert,Clinical care,SocialAndCommunityContext,2,0.6806,0.6806,0.6806,0.6806
+sbert,SocialAndCommunityContext,connection,2,0.6591,0.6591,0.6591,0.6591
+sbert,NeighborhoodAndBuiltEnvironment,SocialAndCommunityContext,2,0.695,0.695,0.695,0.695
+sbert,SeekingApproval,inviteCollabration,2,0.6463,0.6463,0.6463,0.6463
+sbert,ApprovalofDecision/Reinforcement,activeParticipation/involvement,2,0.6588,0.6588,0.6588,0.6588
+sbert,HealthCareAccessAndQuality,statePreferences,2,0.6393,0.6393,0.6772,0.6014
+sbert,Clinical care,build trust,2,0.6176,0.6176,0.6176,0.6176
+sbert,EconomicStability,ExploreOptions,2,0.6146,0.6146,0.6146,0.6146
+sbert,Approval/Reinforcement,activeParticipation/involvement,2,0.6122,0.6122,0.6122,0.6122
+sbert,SocialAndCommunityContext,activeParticipation/involvement,2,0.6091,0.6091,0.6091,0.6091
+sbert,Appreciation/Gratitude,expressOpinions,2,0.6268,0.6268,0.6268,0.6268
+sbert,EconomicStability,SeekingApproval,2,0.6161,0.6161,0.6161,0.6161
+sbert,Approval/Reinforcement,ApprovalofDecision/Reinforcement,2,0.7259,0.7259,0.7259,0.7259
+sbert,Clinical Care,inviteCollabration,2,0.6366,0.6366,0.6366,0.6366
+sbert,ShareOptions,activeParticipation/involvement,2,0.6588,0.6588,0.6588,0.6588
+sbert,ExploreOptions,ShareOptions,2,0.6168,0.6168,0.6168,0.6168
+sbert,ExploreOptions,maintainCommunication,2,0.6723,0.6723,0.6723,0.6723
+sbert,Clinical Care,statePreferences,1,0.6457,0.6457,0.6457,0.6457
+sbert,activeParticipation/involvement,requestsForOpinion,1,0.6049,0.6049,0.6049,0.6049
+sbert,Clinical care,checkingUnderstanding/clarification,1,1.0,1.0,1.0,1.0
+tfidf,Appreciation/Gratitude,signoff,274,0.9652,1.0,1.0,0.6052
+tfidf,activeParticipation/involvement,maintainCommunication,52,0.8144,0.7724,1.0,0.6149
+tfidf,Clinical care,activeParticipation/involvement,41,0.7035,0.7004,1.0,0.6001
+tfidf,activeParticipation/involvement,statePreferences,32,0.7266,0.6837,0.9792,0.6007
+tfidf,Clinical care,EconomicStability,24,0.7809,0.7655,1.0,0.6195
+tfidf,Clinical care,HealthCareAccessAndQuality,21,0.701,0.6911,1.0,0.616
+tfidf,Clinical care,SocialAndCommunityContext,20,0.7811,0.7347,1.0,0.6142
+tfidf,Clinical Care,Clinical care,20,0.7068,0.6859,0.8236,0.626
+tfidf,activeParticipation/involvement,expressOpinions,17,0.7556,0.7071,1.0,0.6487
+tfidf,Clinical care,SeekingApproval,16,0.6948,0.6762,0.8273,0.6225
+tfidf,EconomicStability,HealthCareAccessAndQuality,12,0.7026,0.7103,0.7709,0.6167
+tfidf,SocialAndCommunityContext,activeParticipation/involvement,12,0.7912,0.7323,1.0,0.6278
+tfidf,Clinical care,expressOpinions,10,0.7037,0.674,0.8229,0.6012
+tfidf,Clinical care,salutation,10,1.0,1.0,1.0,1.0
+tfidf,EconomicStability,activeParticipation/involvement,8,0.715,0.7174,0.7967,0.6286
+tfidf,HealthCareAccessAndQuality,activeParticipation/involvement,8,0.6678,0.6461,0.7731,0.6059
+tfidf,expressOpinions,statePreferences,7,0.7253,0.6934,1.0,0.6231
+tfidf,SeekingApproval,activeParticipation/involvement,6,0.6754,0.6725,0.7412,0.6125
+tfidf,Clinical care,NeighborhoodAndBuiltEnvironment,6,0.6966,0.666,0.7779,0.6458
+tfidf,NeighborhoodAndBuiltEnvironment,SocialAndCommunityContext,6,0.6829,0.6362,0.7971,0.6154
+tfidf,HealthCareAccessAndQuality,NeighborhoodAndBuiltEnvironment,6,0.6312,0.622,0.6648,0.6069
+tfidf,Clinical care,statePreferences,5,0.7101,0.6421,1.0,0.6332
+tfidf,EconomicStability,checkingUnderstanding/clarification,4,0.6572,0.6572,0.6996,0.6148
+tfidf,EconomicStability,SocialAndCommunityContext,4,0.6468,0.6468,0.6468,0.6468
+tfidf,activeParticipation/involvement,inviteCollabration,4,0.7937,0.7937,0.9375,0.6499
+tfidf,Clinical care,ExploreOptions,4,0.6776,0.6776,0.702,0.6532
+tfidf,HealthCareAccessAndQuality,expressOpinions,4,0.6646,0.6646,0.6646,0.6645
+tfidf,activeParticipation/involvement,connection,3,0.7467,0.6201,1.0,0.6201
+tfidf,EconomicStability,NeighborhoodAndBuiltEnvironment,2,0.6585,0.6585,0.6585,0.6585
+tfidf,alignment,requestsForOpinion,2,0.6041,0.6041,0.6041,0.6041
+tfidf,SocialAndCommunityContext,signoff,2,0.6005,0.6005,0.6005,0.6005
+tfidf,NeighborhoodAndBuiltEnvironment,expressOpinions,2,0.644,0.644,0.644,0.644
+tfidf,Clinical care,alignment,2,0.6723,0.6723,0.6723,0.6723
+tfidf,ShareOptions,expressOpinions,2,0.6814,0.6814,0.6814,0.6814
+tfidf,activeParticipation/involvement,build trust,2,0.6029,0.6029,0.6029,0.6029
+tfidf,NeighborhoodAndBuiltEnvironment,activeParticipation/involvement,2,0.7003,0.7003,0.7003,0.7003
+tfidf,Appreciation/Gratitude,statePreferences,2,0.6278,0.6278,0.6278,0.6278
+tfidf,EconomicStability,connection,2,0.6859,0.6859,0.6859,0.6859
+tfidf,SocialAndCommunityContext,maintainCommunication,2,0.6104,0.6104,0.6104,0.6104
+tfidf,HealthCareAccessAndQuality,SeekingApproval,2,0.6971,0.6971,0.6971,0.6971
+tfidf,Appreciation/Gratitude,build trust,2,0.6085,0.6085,0.6085,0.6085
+tfidf,Clinical Care,SeekingApproval,2,0.7691,0.7691,0.7691,0.7691
+tfidf,alignment,expressOpinions,2,0.6031,0.6031,0.6031,0.6031
+tfidf,Appreciation/Gratitude,expressOpinions,2,0.6115,0.6115,0.6115,0.6115
+tfidf,ExploreOptions,HealthCareAccessAndQuality,2,0.7795,0.7795,0.7795,0.7795
+tfidf,EconomicStability,ExploreOptions,2,0.7406,0.7406,0.7406,0.7406
+tfidf,ExploreOptions,activeParticipation/involvement,2,0.6151,0.6151,0.6151,0.6151
+tfidf,connection,expressOpinions,2,0.6148,0.6148,0.6148,0.6148
+tfidf,NeighborhoodAndBuiltEnvironment,SeekingApproval,2,0.6825,0.6825,0.6825,0.6825
+tfidf,EconomicStability,statePreferences,2,0.7785,0.7785,0.7785,0.7785
+tfidf,activeParticipation/involvement,requestsForOpinion,2,0.6044,0.6044,0.6044,0.6044
+tfidf,maintainCommunication,statePreferences,2,0.648,0.648,0.648,0.648
+tfidf,SeekingApproval,SocialAndCommunityContext,2,0.741,0.741,0.741,0.741
+tfidf,activeParticipation/involvement,checkingUnderstanding/clarification,2,0.9396,0.9396,0.9396,0.9396
+tfidf,ApprovalofDecision/Reinforcement,inviteCollabration,2,0.7713,0.7713,0.7713,0.7713
+tfidf,Approval/Reinforcement,ApprovalofDecision/Reinforcement,2,0.6648,0.6648,0.6648,0.6648
+tfidf,Approval/Reinforcement,inviteCollabration,2,0.602,0.602,0.602,0.602
+tfidf,ShareOptions,inviteCollabration,2,0.7213,0.7213,0.7213,0.7213
+tfidf,NeighborhoodAndBuiltEnvironment,alignment,2,0.6675,0.6675,0.6675,0.6675
+tfidf,ExploreOptions,ShareOptions,2,0.6579,0.6579,0.6579,0.6579
+tfidf,Appreciation/Gratitude,HealthCareAccessAndQuality,2,0.6968,0.6968,0.6968,0.6968
+tfidf,Clinical care,checkingUnderstanding/clarification,1,1.0,1.0,1.0,1.0
+lsa,Clinical care,activeParticipation/involvement,275,0.7083,0.6824,1.0,0.6006
+lsa,Appreciation/Gratitude,signoff,248,0.9381,1.0,1.0,0.6021
+lsa,Clinical care,EconomicStability,190,0.7257,0.6926,1.0,0.6008
+lsa,Clinical care,HealthCareAccessAndQuality,188,0.7101,0.6951,1.0,0.6013
+lsa,Clinical care,SocialAndCommunityContext,119,0.7266,0.6927,1.0,0.6008
+lsa,HealthCareAccessAndQuality,activeParticipation/involvement,83,0.681,0.6579,0.8734,0.6014
+lsa,activeParticipation/involvement,maintainCommunication,80,0.8168,0.8025,1.0,0.6122
+lsa,Clinical Care,Clinical care,78,0.7707,0.7568,0.9815,0.6037
+lsa,activeParticipation/involvement,statePreferences,72,0.7343,0.6981,0.9825,0.6155
+lsa,Clinical care,NeighborhoodAndBuiltEnvironment,66,0.7131,0.7084,0.9198,0.6042
+lsa,activeParticipation/involvement,expressOpinions,59,0.7319,0.6979,1.0,0.6075
+lsa,EconomicStability,activeParticipation/involvement,58,0.7166,0.6782,0.9923,0.6029
+lsa,Clinical care,expressOpinions,52,0.7104,0.7174,0.8268,0.613
+lsa,Clinical care,SeekingApproval,49,0.7296,0.7369,0.9032,0.6015
+lsa,SeekingApproval,activeParticipation/involvement,46,0.7116,0.7106,0.8661,0.6003
+lsa,EconomicStability,HealthCareAccessAndQuality,44,0.7078,0.6905,0.9139,0.6079
+lsa,HealthCareAccessAndQuality,NeighborhoodAndBuiltEnvironment,39,0.6862,0.682,0.8657,0.6022
+lsa,HealthCareAccessAndQuality,expressOpinions,38,0.6625,0.6275,0.8918,0.6037
+lsa,SocialAndCommunityContext,activeParticipation/involvement,33,0.7692,0.7364,1.0,0.6467
+lsa,NeighborhoodAndBuiltEnvironment,activeParticipation/involvement,28,0.7037,0.6812,0.8614,0.6152
+lsa,expressOpinions,statePreferences,28,0.7532,0.7504,1.0,0.6036
+lsa,activeParticipation/involvement,inviteCollabration,25,0.7012,0.659,0.938,0.6007
+lsa,EconomicStability,expressOpinions,22,0.7234,0.6934,0.9216,0.6229
+lsa,Clinical care,statePreferences,21,0.7465,0.7396,1.0,0.6074
+lsa,EconomicStability,NeighborhoodAndBuiltEnvironment,20,0.7315,0.7229,0.9878,0.6131
+lsa,Appreciation/Gratitude,Clinical care,20,0.7048,0.687,0.8367,0.6052
+lsa,Clinical care,ExploreOptions,18,0.714,0.7007,0.8791,0.6016
+lsa,Clinical care,connection,18,0.7535,0.7105,0.9489,0.6266
+lsa,activeParticipation/involvement,build trust,18,0.6891,0.694,0.8701,0.6096
+lsa,EconomicStability,maintainCommunication,16,0.6802,0.6682,0.7634,0.6195
+lsa,NeighborhoodAndBuiltEnvironment,expressOpinions,16,0.6625,0.6391,0.7238,0.6294
+lsa,EconomicStability,SocialAndCommunityContext,16,0.6996,0.6884,0.8403,0.6009
+lsa,Clinical care,checkingUnderstanding/clarification,15,0.7105,0.6854,1.0,0.6467
+lsa,ExploreOptions,activeParticipation/involvement,15,0.6696,0.6504,0.8508,0.6002
+lsa,HealthCareAccessAndQuality,SocialAndCommunityContext,15,0.6578,0.6392,0.7296,0.6036
+lsa,EconomicStability,checkingUnderstanding/clarification,14,0.7333,0.7557,0.8177,0.6405
+lsa,Clinical care,alignment,14,0.7311,0.7464,0.849,0.6075
+lsa,HealthCareAccessAndQuality,connection,12,0.6617,0.6522,0.7328,0.6033
+lsa,activeParticipation/involvement,requestsForOpinion,11,0.6865,0.6826,0.7976,0.6195
+lsa,build trust,signoff,10,0.7536,0.7438,0.8013,0.7394
+lsa,Clinical Care,activeParticipation/involvement,10,0.6917,0.6737,0.7531,0.6378
+lsa,Clinical Care,HealthCareAccessAndQuality,10,0.7043,0.6699,0.8033,0.6072
+lsa,NeighborhoodAndBuiltEnvironment,SocialAndCommunityContext,10,0.7685,0.7347,0.9281,0.6563
+lsa,activeParticipation/involvement,checkingUnderstanding/clarification,10,0.7177,0.6466,0.9266,0.633
+lsa,Clinical care,salutation,10,1.0,1.0,1.0,1.0
+lsa,inviteCollabration,statePreferences,9,0.7037,0.6981,0.7468,0.6548
+lsa,ExploreOptions,SeekingApproval,8,0.667,0.6639,0.6945,0.6458
+lsa,HealthCareAccessAndQuality,ShareOptions,8,0.6846,0.6842,0.7479,0.6222
+lsa,EconomicStability,build trust,8,0.7507,0.76,0.875,0.6077
+lsa,Clinical care,signoff,8,0.7198,0.7205,0.8019,0.6363
+lsa,HealthCareAccessAndQuality,requestsForOpinion,6,0.6902,0.7129,0.7387,0.619
+lsa,HealthCareAccessAndQuality,statePreferences,6,0.6829,0.7084,0.7084,0.6317
+lsa,EconomicStability,connection,6,0.6858,0.6283,0.8009,0.6283
+lsa,ApprovalofDecision/Reinforcement,statePreferences,6,0.7193,0.696,0.8106,0.6513
+lsa,SeekingApproval,expressOpinions,6,0.6806,0.6197,0.8025,0.6197
+lsa,HealthCareAccessAndQuality,maintainCommunication,6,0.6186,0.6145,0.6349,0.6064
+lsa,EconomicStability,statePreferences,4,0.7019,0.7019,0.7797,0.6241
+lsa,alignment,requestsForOpinion,4,0.7018,0.7018,0.7589,0.6448
+lsa,ExploreOptions,requestsForOpinion,4,0.6238,0.6238,0.6298,0.6179
+lsa,Clinical care,build trust,4,0.7186,0.7186,0.7751,0.6621
+lsa,expressOpinions,inviteCollabration,4,0.7344,0.7344,0.7468,0.722
+lsa,SocialAndCommunityContext,maintainCommunication,4,0.7298,0.7298,0.7571,0.7025
+lsa,Clinical care,maintainCommunication,4,0.6325,0.6325,0.6409,0.624
+lsa,NeighborhoodAndBuiltEnvironment,alignment,4,0.6552,0.6552,0.6922,0.6181
+lsa,EconomicStability,ExploreOptions,4,0.7062,0.7062,0.8038,0.6085
+lsa,HealthCareAccessAndQuality,SeekingApproval,4,0.7198,0.7198,0.7708,0.6688
+lsa,Clinical Care,SeekingApproval,4,0.7391,0.7391,0.7398,0.7385
+lsa,build trust,inviteCollabration,4,0.6323,0.6323,0.6645,0.6001
+lsa,Appreciation/Gratitude,expressOpinions,4,0.7701,0.7701,0.7752,0.7651
+lsa,ExploreOptions,HealthCareAccessAndQuality,4,0.7314,0.7314,0.8062,0.6567
+lsa,maintainCommunication,statePreferences,4,0.831,0.831,0.846,0.816
+lsa,ApprovalofDecision/Reinforcement,inviteCollabration,4,0.7092,0.7092,0.7566,0.6619
+lsa,ShareOptions,statePreferences,4,0.6397,0.6279,0.6845,0.6187
+lsa,ShareOptions,expressOpinions,3,0.7268,0.7479,0.7479,0.6845
+lsa,activeParticipation/involvement,connection,3,0.9558,0.9337,1.0,0.9337
+lsa,Appreciation/Gratitude,build trust,3,0.7272,0.7824,0.7824,0.6167
+lsa,ApprovalofDecision/Reinforcement,activeParticipation/involvement,3,0.6745,0.6308,0.7619,0.6308
+lsa,ShareOptions,activeParticipation/involvement,3,0.7037,0.689,0.7331,0.689
+lsa,EconomicStability,alignment,2,0.6936,0.6936,0.6936,0.6936
+lsa,Clinical care,requestsForOpinion,2,0.9525,0.9525,0.9525,0.9525
+lsa,expressOpinions,requestsForOpinion,2,0.7882,0.7882,0.7882,0.7882
+lsa,SocialAndCommunityContext,alignment,2,0.7076,0.7076,0.7076,0.7076
+lsa,SocialAndCommunityContext,connection,2,0.6753,0.6753,0.6753,0.6753
+lsa,SocialAndCommunityContext,signoff,2,0.6402,0.6402,0.6402,0.6402
+lsa,build trust,statePreferences,2,0.6047,0.6047,0.6047,0.6047
+lsa,ExploreOptions,NeighborhoodAndBuiltEnvironment,2,0.6212,0.6212,0.6212,0.6212
+lsa,EconomicStability,EducationAccessAndQuality,2,0.6639,0.6639,0.6639,0.6639
+lsa,Appreciation/Gratitude,statePreferences,2,0.7868,0.7868,0.7868,0.7868
+lsa,Clinical Care,alignment,2,0.6181,0.6181,0.6181,0.6181
+lsa,checkingUnderstanding/clarification,maintainCommunication,2,0.7924,0.7924,0.7924,0.7924
+lsa,HealthCareAccessAndQuality,checkingUnderstanding/clarification,2,0.6162,0.6162,0.6162,0.6162
+lsa,alignment,build trust,2,0.6227,0.6227,0.6227,0.6227
+lsa,HealthCareAccessAndQuality,build trust,2,0.6008,0.6008,0.6008,0.6008
+lsa,checkingUnderstanding/clarification,statePreferences,2,0.7022,0.7022,0.7022,0.7022
+lsa,alignment,expressOpinions,2,0.6537,0.6537,0.6537,0.6537
+lsa,connection,expressOpinions,2,0.823,0.823,0.823,0.823
+lsa,SocialAndCommunityContext,expressOpinions,2,0.7248,0.7248,0.7248,0.7248
+lsa,SocialAndCommunityContext,statePreferences,2,0.6525,0.6525,0.6525,0.6525
+lsa,NeighborhoodAndBuiltEnvironment,SeekingApproval,2,0.809,0.809,0.809,0.809
+lsa,EconomicStability,inviteCollabration,2,0.6381,0.6381,0.6381,0.6381
+lsa,HealthCareAccessAndQuality,inviteCollabration,2,0.6033,0.6033,0.6033,0.6033
+lsa,SeekingApproval,SocialAndCommunityContext,2,0.8841,0.8841,0.8841,0.8841
+lsa,Approval/Reinforcement,inviteCollabration,2,0.6129,0.6129,0.6129,0.6129
+lsa,ShareOptions,inviteCollabration,2,0.9047,0.9047,0.9047,0.9047
+lsa,HealthCareAccessAndQuality,alignment,2,0.9821,0.9821,0.9821,0.9821
+lsa,activeParticipation/involvement,signoff,2,0.6586,0.6586,0.6586,0.6586
+lsa,ExploreOptions,ShareOptions,2,0.8133,0.8133,0.8133,0.8133
+lsa,Appreciation/Gratitude,HealthCareAccessAndQuality,2,0.841,0.841,0.841,0.841
+lsa,ApprovalofDecision/Reinforcement,expressOpinions,1,0.7078,0.7078,0.7078,0.7078
+lsa,Approval/Reinforcement,ApprovalofDecision/Reinforcement,1,0.624,0.624,0.624,0.624
+jaccard,Appreciation/Gratitude,signoff,217,0.9707,1.0,1.0,0.6
+jaccard,activeParticipation/involvement,maintainCommunication,30,0.8733,1.0,1.0,0.6
+jaccard,activeParticipation/involvement,expressOpinions,21,0.7095,0.6667,1.0,0.6
+jaccard,activeParticipation/involvement,statePreferences,10,0.7467,0.6667,1.0,0.6
+jaccard,Clinical care,activeParticipation/involvement,10,0.6267,0.6,0.6667,0.6
+jaccard,Clinical care,salutation,10,1.0,1.0,1.0,1.0
+jaccard,Clinical care,HealthCareAccessAndQuality,2,0.6,0.6,0.6,0.6
+jaccard,NeighborhoodAndBuiltEnvironment,SocialAndCommunityContext,2,0.6,0.6,0.6,0.6
+jaccard,Clinical care,connection,2,0.6667,0.6667,0.6667,0.6667
+jaccard,activeParticipation/involvement,connection,2,0.8571,0.8571,0.8571,0.8571
+jaccard,Clinical Care,Clinical care,2,0.6,0.6,0.6,0.6
+jaccard,expressOpinions,statePreferences,2,0.6,0.6,0.6,0.6
+jaccard,HealthCareAccessAndQuality,activeParticipation/involvement,2,0.6,0.6,0.6,0.6
+jaccard,Clinical care,SeekingApproval,2,0.6,0.6,0.6,0.6
+jaccard,EconomicStability,activeParticipation/involvement,2,0.6667,0.6667,0.6667,0.6667
+jaccard,Clinical care,checkingUnderstanding/clarification,1,1.0,1.0,1.0,1.0

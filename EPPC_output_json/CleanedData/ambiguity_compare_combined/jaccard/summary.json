@@ -1,0 +1,9 @@
+{
+  "rep": "jaccard",
+  "num_spans": 2602,
+  "num_labels": 50,
+  "num_conflict_pairs": 3269,
+  "num_distinct_label_pairs": 40,
+  "avg_disagreement_rate": 0.0663,
+  "median_disagreement_rate": 0.0012
+}
