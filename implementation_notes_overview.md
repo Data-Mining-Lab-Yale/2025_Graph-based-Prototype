@@ -68,6 +68,7 @@ Scripts computing class-level scores, distribution statistics, imbalance metrics
 | **Data_4_map_labels_check.py** | Debug script to verify label mappings and check for mismatches. | Validate mapping correctness and catch inconsistencies. | Mapping check report (printed or CSV). |
 | **Dataset_1_test_CLINC150.py** | Loads the CLINC150 dataset and prints out example intents and text. | Inspect an external intent dataset for comparison or intuition. | Example outputs printed to console. |
 | **Dataset_1_test_DailyDialog.py** | Loads the DailyDialog dataset and prints out example dialogues with labels. | Inspect an external dialogue/intent dataset. | Example outputs printed to console. |
+| **Experiments_1_MLP.py** | Trains and evaluates a simple MLP classifier on clause- or sentence-level embeddings | Provide a lightweight non-graph baseline for comparison | Accuracy/F1 metrics, predictions, logs |
 
 ---
 
@@ -94,6 +95,8 @@ Scripts comparing textual representations (SBERT, TF-IDF, LSA, Jaccard), merging
 | **Decision_Structure_1_analysis_pharses.py** | Analyzes frequent phrases or patterns used in decision structures or rules. | Explore phrase-level structure relevant to decision rules or labeling. | Phrase-level statistics or summaries (printed/CSV). |
 | **SplitAnnotations_CrossClause.py** | Splits annotations based on clause boundaries and identifies spans that cross clauses. | Detect structurally ambiguous or multi-clause spans. | `only_cross_clause.json`, `no_cross_clause.json`. |
 | **SplitAnnotations_CrossClause_Flags.py** | Extends cross-clause analysis with span flags (e.g., length, clause count). | Provide detailed diagnostics for ambiguous spans. | Span-flag JSON files. |
+| **Decision_Structure_1_analysis_pharses.py** | Analyzes phrases extracted from clauses; prints phrase-level structural diagnostics | Inspect structural features of phrases before scoring | Console analysis output |
+
 
 ---
 
@@ -129,6 +132,31 @@ Markdown files describing pipelines and preprocessing steps.
 | **DATA_PREPROCESSING.md** | Documents the full annotation preprocessing pipeline, including codebook parsing, annotation processing, segmentation, evaluation, and visualization steps. |
 
 ---
+
+
+## **7. Decision-Structure Parsing & Phrase-Chunking Tools**
+Scripts that generate clause structures, chunk phrases, and support phrase-level scoring or lookup for symbolic narrative/intent modeling.
+
+| Script | Main Functions | Goal | Key Outputs |
+|--------|----------------|------|-------------|
+| **Decision_Structure_1_chucking.py** | Early version of clause + phrase chunking using spaCy heuristics | Prototype phrase-chunking for structural analysis | Printed phrase lists |
+| **Decision_Structure_1_chucking_v1.py** | Revised chunking; improved VP/PP handling | Improve chunk segmentation quality | Printed clause/chunk outputs |
+| **Decision_Structure_1_chucking_v2.py** | More robust dependency-based chunk extraction | Stabilize phrase grouping logic | Clause + phrase dict output |
+| **Decision_Structure_1_chucking_v3.py** | Final refined chunker: phrasal verbs, copula predicates, PP nesting, discourse markers | Provide high-quality structural chunks for phrase scoring | Clause + phrase JSON/dict outputs |
+| **Decision_Structure_1_chucking_checkpoint.py** | Checkpoint version for intermediate debugging | Preserve intermediate chunk-rules for comparison | Console printouts |
+| **Decision_Structure_1_chucking_checkpoint_v2.py** | Updated checkpoint with improved span alignment | Debug chunk boundaries against test sentences | Console printouts |
+| **Decision_Structure_1_chucking_local_llm.py** | Calls a local LLM to produce phrase/chunk structures; compares with spaCy versions | Test LLM-based structural chunking | Printed LLM vs spaCy comparisons |
+| **Decision_Structure_1_look_up.py** | Prototype phrase→label lookup using small index | Test lightweight index retrieval logic | Printed label predictions |
+| **Decision_Structure_1_look_up_v2.py** | Improved lookup logic: similarity thresholds, PMI scoring | More stable phrase→label matching | Printed similarity + label scores |
+
+---
+
+## **8. Phrase Lookup & Scoring Engine**
+Scripts that build a phrase–label index from CSVs (phrase_pool, label_edges) and score phrases using similarity + PMI.
+
+| **phrase_lookup_config.py** | Builds phrase–label index; performs fuzzy matching; scores labels using PMI and co-occurrence | Provide interpretable phrase-level label scoring engine | `phrase_index_cache.json`, console scores |
+| **phrase_debug_and_lookup.py** | End-to-end: runs Decision_Structure_1_chucking_v3 → prints phrases → performs label lookup → summarizes scores | Debug phrase scoring and inspect per-phrase label contributions | Detailed console diagnostics |
+
 
 ## How to Extend This Document
 
