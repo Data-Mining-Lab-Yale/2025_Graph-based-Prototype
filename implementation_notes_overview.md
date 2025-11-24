@@ -69,6 +69,9 @@ Scripts computing class-level scores, distribution statistics, imbalance metrics
 | **Dataset_1_test_CLINC150.py** | Loads the CLINC150 dataset and prints out example intents and text. | Inspect an external intent dataset for comparison or intuition. | Example outputs printed to console. |
 | **Dataset_1_test_DailyDialog.py** | Loads the DailyDialog dataset and prints out example dialogues with labels. | Inspect an external dialogue/intent dataset. | Example outputs printed to console. |
 | **Experiments_1_MLP.py** | Trains and evaluates a simple MLP classifier on clause- or sentence-level embeddings | Provide a lightweight non-graph baseline for comparison | Accuracy/F1 metrics, predictions, logs |
+| **Experiments_1_MLP_v2.py** | Improved MLP baseline with structured error logs and ID mapping | Provide more stable baseline for clause-level classification | Metrics, plots, structured `errors.json` |
+| **Experiments_1_MLP_v3.py** | Further-refined MLP with better monitoring and text→ID mapping | Improve robustness of MLP baseline | Metrics, logs, `errors.json` |
+| **Experiments_1_MLP_v4.py** | Final MLP variant: improved early stopping, logging, and plotting | Produce high-quality baseline for comparison with GCNs | Metrics, training curves, error logs |
 
 ---
 
@@ -109,6 +112,8 @@ Scripts that standardize labels in graph datasets and normalize error-log format
 | **UpdateGraphLabels.py** | Updates graph node labels using a corrected codebook mapping. | Ensure that graph datasets use a unified label system. | Updated graph JSON files. |
 | **StandardizeErrorFiles_v1.py** | Standardizes error logs from multiple models into a consistent schema. | Harmonize evaluation outputs across experiments. | `<model>_errors_standardized.json`. |
 | **StandardizeErrorFiles_v2.py** | More robust version of the error standardizer that handles missing or variant fields. | Improve consistency and robustness of error-file normalization. | Standardized error JSON files. |
+| **Experiments_3_SRL_GCN_DataProcessing.py** | Injects labels + text into SRL graphs; handles filename cleanup | Prepare SRL graph datasets for GCN training | Updated SRL graph JSONs :contentReference[oaicite:0]{index=0} |
+| **Experiments_2_Dep_GCN_DataProcessing_new.py** | Injects labels + text for dependency graphs across split types | Standardize graph-label alignment | Updated DEP graph JSONs :contentReference[oaicite:1]{index=1} |
 
 ---
 
@@ -120,6 +125,8 @@ Scripts focused on span length, alignment to sentence boundaries, and structural
 |--------|----------------|------|-------------|
 | **Bethesda_AnnotationAlignmentStats.py** | Measures alignment between annotations and segmented units for the Bethesda dataset. | Validate clause segmentation quality and alignment. | Summary statistics printed or saved. |
 | **Dataset_Stat_4_SpanConsistency.py** | Runs full span inconsistency analysis: span lengths, bucket distributions, sentence-boundary alignment, boundary distances, histogram, and LaTeX snippet. | Quantify span inconsistency and provide evidence for span-level challenges. | `span_stats.csv`, `overall_span_length_stats.json`, `per_label_span_stats.csv`, `span_length_histogram.png`, `span_length_buckets.csv`, `alignment_summary.json`, `boundary_distance_stats.json`, optional LaTeX snippet. |
+| **Experiments_2_check_graph_validity.py** | Validates dependency graphs (nodes, labels); logs invalid ones | Ensure structural integrity of DEP graphs | `invalid_graphs_log.json` + filtered folder :contentReference[oaicite:2]{index=2} |
+| **Experiments_3_check_graph_validity_srl.py** | Validates SRL graphs (token labels, node lists); normalizes filenames | Filter usable SRL graphs for GCN | Valid SRL graph set + `invalid_graphs_log.json` :contentReference[oaicite:3]{index=3} |
 
 ---
 
@@ -160,6 +167,18 @@ Scripts that build a phrase–label index from CSVs (phrase_pool, label_edges) a
 | **phrase_debug_and_lookup.py** | End-to-end: runs Decision_Structure_1_chucking_v3 → prints phrases → performs label lookup → summarizes scores | Debug phrase scoring and inspect per-phrase label contributions | Detailed console diagnostics |
 
 ---
+
+## **9. Graph-based Modeling — Dependency GCNs**
+Scripts that train GCN models on dependency-based clause graphs (tokens as nodes, syntactic edges as edges).
+
+| Script | Main Functions | Goal | Key Outputs |
+|--------|----------------|------|-------------|
+| **Experiments_2_Dep_GCN.py** | Full DEP-GCN training pipeline with BERT node features, pooling, metrics | Core dependency-graph GCN baseline | Metrics, `best_model.pt`, training plot :contentReference[oaicite:4]{index=4} |
+| **Experiments_2_Dep_GCN_v2.py** | Version with fixed random seed, cleaned training logs, and structured outputs | Improve reproducibility and log structure | `train_log.json`, plots, errors :contentReference[oaicite:5]{index=5} |
+| **Experiments_2_Dep_GCN_v3.py** | Extended training (500 epochs), updated metadata fields, stable loss curves | Deep training run to test convergence limits | Extended logs, high-resolution plot, structured errors :contentReference[oaicite:6]{index=6} |
+
+---
+
 
 ## How to Extend This Document
 
