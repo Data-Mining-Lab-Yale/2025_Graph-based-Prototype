@@ -43,6 +43,8 @@ This README provides an overview of the repository structure, core components, a
 ```
 
 ### Quick Links
+- [Month-by-month record of tasks](transition_list.md)
+- [Grouped categories plus a self-evaluation](Transition_plan_and_self_evaluations.md)
 - [Analytical Notes and Writing Materials](analytical_notes_overview.md)
 - [Research and Implementation Scripts](implementation_notes_overview.md)
 
