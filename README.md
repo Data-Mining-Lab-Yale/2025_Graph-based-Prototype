@@ -1,122 +1,155 @@
-# Graph-Based Annotation Reasoning Prototype
+# 2025 Postdoctoral Transition Repository: Graph-Based Prototype & Deliverables Archive
 
-This repository contains the prototype implementation of a graph-based semantic reasoning framework for **sub-sentential annotation** of unstructured patient-provider messages. It aims to support automated sub-CODE prediction through symbolic and neural reasoning over graph structures built from clause-level message segments.
+This repository serves two purposes:
 
-## 🧠 Project Summary
+1. **Primary (Current)** — A centralized archive documenting all **research deliverables, scripts, analyses, reports, and notes** completed during my postdoctoral appointment (May–November 2025). It supports transparent transition, reproducibility, and continuity for future team members.
 
-In many healthcare NLP settings, patient-provider messages are annotated with semantic labels (e.g., communication intents or patient values). However, a single sentence may include multiple distinct intents or concepts that require **fine-grained sub-sentence modeling**.  
-This prototype builds a graph representation from **sub-sentential units** (e.g., clauses or segments) and explores rule-based and neural reasoning for sub-CODE classification using sentence embeddings, speaker roles, and contextual structure.
+2. **Historical (Original Scope)** — The repository initially hosted the prototype implementation for a **graph-based clause-level reasoning model** for provider–patient communication. These research components are preserved as a standalone subproject within the repository.
 
-## 📁 Repository Structure
+This README provides an overview of the repository structure, core components, and transition-related materials.
 
-graph-annotation-prototype/
+---
 
-├── data/ # Sample messages and label schemas (anonymized or simulated)
+## 1. Repository Structure
 
-├── graph_builder/ # Graph construction scripts from segmented sentence units
-
-├── models/ # Baseline classifiers and GNN prototypes
-
-├── experiments/ # Notebooks and evaluation scripts
-
-├── segmenter/ # Clause/sub-sentence segmentation tools (e.g., benepar)
-
-├── utils/ # Helper functions (e.g., text preprocessing, entity extraction)
-
-└── README.md # Project overview
-
-text_to_graph/
- ├── base.py                # GraphBuilder base class
-
- ├── dependency.py          # Syntax abstraction
- 
- ├── srl.py                 # Semantic abstraction (next)
- 
- └── visualize.py           # Graph visualization (robust to label/text)
-  
-scripts/
-
- ├── run_one_example.py     # Debug single graph
-
- └── generate_all_graphs.py # Batch over dataset
-
-
-Data/
-
- ├── subsentence_subcode_labels.json
-
- └── sentence_subcode_labels.json
-
-outputs/
- ├── text2graphs_order_json/
-
- └── text2graphs_order_viz/
-
-run_pipeline.py   # Main script to load text, build, and save graphs
-
-
-
-
-## 🚀 Getting Started
-
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/RimiChen/graph-annotation-prototype.git
-   cd graph-annotation-prototype
-Install dependencies (recommended: use a virtual environment):
-
-```CodeBlock
-pip install -r requirements.txt
+```
+2025_Graph-based-Prototype/
+│
+├── Data/
+│   └── Processed datasets (EPPC, PV, Bethesda subsets, WOVEN samples)
+│
+├── Models/
+│   └── Imported models used for experiments
+│
+├── ResearchAndImplementations/
+│   └── Scripts and results:
+│       • clause segmentation and preprocessing
+│       • text-to-graph conversion (dependency, SRL, weighted variants)
+│       • GNN models (GCN, GAT)
+│       • semantic conflict analysis (TF-IDF, LSA, SBERT, Jaccard)
+│       • decision-rule experiments
+│       • auto-labeling scripts
+│
+├── AnalyticalNotesAndWritingAndPresentations/
+│   └── Notes, diagrams, proposal drafts, literature reviews, slides
+│
+├── transition_list.md
+│
+├── Transition_plan_and_self_evaluations.md
+│
+├── srl_env.yaml
+│
+└── README.md
 ```
 
-Run the graph construction script:
+---
 
-```CodeBlock
-python graph_builder/build_graph.py --input data/sample_messages.json
+## 2. Current Purpose of the Repository
+
+This repository functions as the **official transition archive** summarizing all research and implementation work since May 2025. It consolidates:
+
+* scripts and pipelines
+* processed datasets
+* analysis reports
+* conceptual notes
+* writing deliverables
+* environment files
+* transition plans
+
+The month-by-month record of tasks appears in `transition_list.md`, and grouped categories plus a self-evaluation appear in `Transition_plan_and_self_evaluations.md`.
+
+---
+
+## 3. Original Project Summary (Graph-Based Clause-Level Prototype)
+
+Originally, the repository contained a prototype system for **graph-based semantic reasoning** applied to sub-sentential annotation of patient–provider messages.
+
+### Core Research Problem
+
+Clinical messages often contain multiple intents in a single sentence. The prototype explored:
+
+* clause segmentation
+* symbolic graph abstraction
+* graph neural reasoning
+* rule-based decision structures
+* semantic conflict analysis
+
+### Features
+
+* Dependency-based, SRL-based, and weighted graph builders
+* Weighted edges encoding semantic relations
+* GCN/GAT classification baselines
+* Conflict analysis (TF-IDF, LSA, SBERT, Jaccard)
+* Local LLM labeling interface
+* Integration with data quality studies
+
+---
+
+## 4. Transition Deliverables (May–Nov 2025)
+
+A full list with timestamps is in `transition_list.md`. Major categories:
+
+### A. Research & Implementation
+
+* Graph construction modules and GNN models
+* Data preprocessing pipelines
+* Semantic conflict analysis toolkit
+* Decision-rule and uncertainty aggregation experiments
+* WOVEN and Bethesda sample set construction
+* Local LLM labeling interface
+
+### B. Writing & Presentations
+
+* Workshop paper draft
+* Two Yale AI Seed Grant proposal drafts
+* Poster for Yale Postdoc Symposium
+* Literature reviews: graph NLP, intent modeling, healthcare communication, virtual patients
+
+### C. Analytical Notes
+
+* Design documents and diagrams
+* Notes on noisy-label literature
+* Intent-type conceptualization
+
+### D. Transition Preparation
+
+* Consolidated deliverables
+* Data/script cleanup
+* Transition plan and summary
+* Additional literature review
+
+---
+
+## 5. Getting Started (Graph Prototype)
+
+### Clone the repository
+
+```bash
+git clone https://github.com/RimiChen/2025_Graph-based-Prototype.git
 ```
 
-Try the baseline rule-based sub-CODE prediction:
+### Setup environment
 
-```CodeBlock
-python experiments/rule_based_predictor.py
-```
-🧪 Features
-Graph construction from sub-sentential segments (e.g., clauses) within clinical messages
-
-Encodes sentence structure, speaker role, and semantic similarity
-
-Supports rule-based and neural sub-CODE classification
-
-Designed for early-stage prototype evaluation on small annotated subsets
-
-
-📄 Citation
-If you use this codebase in your research, please cite the associated paper (to appear):
-
-```bibTex
-@inproceedings{chen2025graphreasoning,
-  title     = {Graph-Based Semantic Reasoning for Sub-Sentential Annotation in Patient-Provider Communication},
-  author    = {Chen, Yi-Chun and Ma, LinHai and Wang, Yan and Jarad-Fodeh, Samah},
-  booktitle = {To appear},
-  year      = {2025},
-  url       = {https://github.com/RimiChen/graph-annotation-prototype}
-}
-(BibTeX will be updated once the paper is officially published.)
+```bash
+conda env create -f srl_env.yaml
+conda activate srl_env
 ```
 
-📬 Contact
-For questions or contributions, please contact:
+### Example usage
+
+```bash
+python ResearchAndImplementations/graph_builder/build_graph.py --input Data/sample_messages.json
+```
+
+---
+
+## 6. License
+
+Released under the MIT License.
+
+---
+
+## 7. Contact
 
 Yi-Chun (Rimi) Chen
-📧 ychen74@alumni.ncsu.edu
-
-
-📜 License
-
-This code is released under the MIT License. See LICENSE for details.
-
-
-
-
-
-
+Email: [ychen74@alumni.ncsu.edu](mailto:ychen74@alumni.ncsu.edu)

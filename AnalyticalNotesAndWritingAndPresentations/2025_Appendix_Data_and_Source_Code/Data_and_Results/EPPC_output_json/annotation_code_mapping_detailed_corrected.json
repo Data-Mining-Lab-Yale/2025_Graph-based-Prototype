@@ -1,0 +1,218 @@
+{
+  "PartnershipProvider": {
+    "matched_codebook_label": "PROVIDER_PARTNERSHIP",
+    "level": "code"
+  },
+  "salutation": {
+    "matched_codebook_label": "salutation",
+    "level": "subcode"
+  },
+  "InfoGive": {
+    "matched_codebook_label": "Information-Giving",
+    "level": "code"
+  },
+  "SchedulingAppt": {
+    "matched_codebook_label": "Scheduling_appt",
+    "level": "subcode"
+  },
+  "inviteCollaboration": {
+    "matched_codebook_label": "invite_collaboration",
+    "level": "subcode"
+  },
+  "connection": {
+    "matched_codebook_label": "Connection",
+    "level": "subcode"
+  },
+  "InfoGiveSDOH": {
+    "matched_codebook_label": "Information-Giving_SDOH",
+    "level": "code"
+  },
+  "HealthCareAccessAndQuality": {
+    "matched_codebook_label": "Health_care_access_and_quality",
+    "level": "subcode"
+  },
+  "Health Access": {
+    "matched_codebook_label": "Health_Access",
+    "level": "subsubcode"
+  },
+  "signoff": {
+    "matched_codebook_label": "signoff",
+    "level": "subcode"
+  },
+  "Instruction": {
+    "matched_codebook_label": "instruction",
+    "level": "subcode"
+  },
+  "carecoordination": {
+    "matched_codebook_label": "Care_Coordination",
+    "level": "subcode"
+  },
+  "SharedDecisionPatient": {
+    "matched_codebook_label": "PATIENT_SHARED-DECISION_MAKING",
+    "level": "code"
+  },
+  "ApprovalofDecision/Reinforcement": {
+    "matched_codebook_label": "Approval/Reinforcement",
+    "level": "subcode"
+  },
+  "NeighborhoodAndBuiltEnvironment": {
+    "matched_codebook_label": "Neighborhood_and_built_environment",
+    "level": "subcode"
+  },
+  "InfoSeek": {
+    "matched_codebook_label": "Information-Seeking",
+    "level": "code"
+  },
+  "Generalinformation": {
+    "matched_codebook_label": "General_information",
+    "level": "subcode"
+  },
+  "PartnershipPatient": {
+    "matched_codebook_label": "PATIENT_PARTNERSHIP",
+    "level": "code"
+  },
+  "Diagnostics": {
+    "matched_codebook_label": "Diagnostics",
+    "level": "subcode"
+  },
+  "maintainCommunication": {
+    "matched_codebook_label": "Maintain_communication",
+    "level": "subcode"
+  },
+  "Appreciation/Gratitude": {
+    "matched_codebook_label": "Appreciation/gratitude",
+    "level": "subcode"
+  },
+  "Socioemotional/Empathy": {
+    "matched_codebook_label": "Socioemotional_/_Empathy",
+    "level": "code"
+  },
+  "AcknowledgeError": {
+    "matched_codebook_label": "Acknowledge_Error",
+    "level": "subcode"
+  },
+  "Symptoms": {
+    "matched_codebook_label": "Symptoms",
+    "level": "subcode"
+  },
+  "Drugs": {
+    "matched_codebook_label": "Drugs",
+    "level": "subcode"
+  },
+  "activeParticipation/involvement": {
+    "matched_codebook_label": "active_participation_/involvement",
+    "level": "subcode"
+  },
+  "Insurance": {
+    "matched_codebook_label": "Insurance",
+    "level": "subsubcode"
+  },
+  "expressOpinions": {
+    "matched_codebook_label": "express_opinions",
+    "level": "subcode"
+  },
+  "ExpressConcern/unease": {
+    "matched_codebook_label": "Express_concern/unease",
+    "level": "subcode"
+  },
+  "SharedDecisionProvider": {
+    "matched_codebook_label": "PROVIDER_Shared-Decision_Making",
+    "level": "code"
+  },
+  "EncourageQuestions": {
+    "matched_codebook_label": "Encourage_questions",
+    "level": "subcode"
+  },
+  "SummarizeConfirmUnderstanding": {
+    "matched_codebook_label": "Summarize_and_confirm_understanding",
+    "level": "subcode"
+  },
+  "InfoSeekSDOH": {
+    "matched_codebook_label": "Information-Seeking_SDOH",
+    "level": "code"
+  },
+  "Reassurance": {
+    "matched_codebook_label": "Reassurance",
+    "level": "subcode"
+  },
+  "Approval/Reinforcement": {
+    "matched_codebook_label": "Approval/Reinforcement",
+    "level": "subcode"
+  },
+  "Alignment": {
+    "matched_codebook_label": "Alignment",
+    "level": "subcode"
+  },
+  "SeekingApproval": {
+    "matched_codebook_label": "Seeking_Approval",
+    "level": "subcode"
+  },
+  "Lifestyle": {
+    "matched_codebook_label": "Lifestyle",
+    "level": "subsubcode"
+  },
+  "Diet": {
+    "matched_codebook_label": "Diet",
+    "level": "subsubcode"
+  },
+  "Physical Activity": {
+    "matched_codebook_label": "Physical_Activity",
+    "level": "subsubcode"
+  },
+  "checkingUnderstanding/clarification": {
+    "matched_codebook_label": "checking_understanding/clarification",
+    "level": "subcode"
+  },
+  "EconomicStability": {
+    "matched_codebook_label": "Economic_stability",
+    "level": "subcode"
+  },
+  "Employment Status": {
+    "matched_codebook_label": "Employment_Status",
+    "level": "subsubcode"
+  },
+  "ExploreOptions": {
+    "matched_codebook_label": "Explore_options",
+    "level": "subcode"
+  },
+  "ShareOptions": {
+    "matched_codebook_label": "Share_options",
+    "level": "subcode"
+  },
+  "Sadness/fear": {
+    "matched_codebook_label": "Sadness/fear",
+    "level": "subcode"
+  },
+  "Work-related Challenges": {
+    "matched_codebook_label": "Work-related_Challenges",
+    "level": "subsubcode"
+  },
+  "statePreferences": {
+    "matched_codebook_label": "state_preferences",
+    "level": "subcode"
+  },
+  "Financial Insecurity": {
+    "matched_codebook_label": "Financial_Insecurity",
+    "level": "subsubcode"
+  },
+  "Sleep": {
+    "matched_codebook_label": "Sleep",
+    "level": "subsubcode"
+  },
+  "build trust": {
+    "matched_codebook_label": "build_trust",
+    "level": "subcode"
+  },
+  "Prognosis": {
+    "matched_codebook_label": "Prognosis",
+    "level": "subcode"
+  },
+  "MakeDecision": {
+    "matched_codebook_label": "Making_decision_together",
+    "level": "subcode"
+  },
+  "PositiveRemarks": {
+    "matched_codebook_label": "Positive_Remarks/Reward",
+    "level": "subcode"
+  }
+}
