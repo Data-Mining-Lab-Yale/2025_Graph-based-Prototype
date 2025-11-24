@@ -11,6 +11,11 @@ The folder is organized into major categories reflecting the research pipeline:
 - **4. Graph Label Normalization & Error Standardization**
 - **5. Span Consistency & Sentence/Annotation Structure Evaluation**
 - **6. Documentation & Supporting Notes**
+- **7. Decision-Structure Parsing & Phrase-Chunking Tools**
+- **8. Phrase Lookup & Scoring Engine**
+- **9. Graph-based Modeling**
+- **10. Visualization Tools**
+- **11. File Conversion Tools**
 
 Each table uses the following columns:
 
