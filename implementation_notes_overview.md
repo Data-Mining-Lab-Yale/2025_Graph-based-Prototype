@@ -40,6 +40,11 @@ Scripts that convert datasets, reconstruct messages, split sentences/subsentence
 | **Bethesda_Message2SentencesAndSubs_v3ud.py** | Uses spaCy UD parse cues (`advcl`, `ccomp`, `conj`, etc.) to segment text into high-quality subsentences, with length control and merging heuristics. | Produce linguistically grounded clause segmentation for the Bethesda dataset. | `Bethesda_messages_with_sentences_and_subsentences.json` |
 | **EPPC_Message2SentencesAndSubs_v1.py** | NLTK + spaCy hybrid segmentation pipeline for the EPPC dataset. | Create clause-level segmentation for EPPC messages. | `messages_with_sentences_and_subsentences.json` |
 | **EPPC_MessageReconstruction.py** | Reconstructs multi-turn message threads into the “final message” text using prev/next fields. | Recover accurate message units for downstream analysis and modeling. | `processed_messages_with_annotations.json` |
+| **Message2SentencesAndSubs_v2.py** | Uses NLTK sentence tokenization and spaCy-based clause segmentation plus fuzzy string matching to split messages into sentences and subsentences and align them with nearby annotation texts. | Build a refined sentence + subsentence segmentation with approximate annotation-span alignment for clause-level modeling. | `EPPC_output_json/CleanedData/messages_with_sentences_and_subsentences_v2.json` |
+| **Message2SentencesAndSubs_v3.py** | Segments messages into sentences and UD-based clause-like subsentences with length constraints, merges very short spans, and fuzzy-matches each segment to the closest annotation span. | Produce linguistically grounded, length-controlled clause segments for each message to improve clause-level training units. | `EPPC_output_json/CleanedData/messages_with_sentences_and_subsentences_v3ud.json` |
+| **Optimize_code_structure_training_data.py** | Reads sentence/subsentence structures and separate interactional/goal annotation files, matches spans by message ID and text, and splits them into four aligned datasets by unit type and label type. | Construct sentence- and subsentence-level training JSONs with attached interactional and goal-oriented labels for modeling. | `EPPC_output_json/sentence_interactional_label.json`, `subsentence_interactional_label.json`, `sentence_goal_oriented_label.json`, `subsentence_goal_oriented_label.json` |
+| **Preparation_3_per-message_structures.py** | Converts messages into a hierarchical structure (message → sentences → subsentences) with IDs for visualization. | Produce hierarchical message structures for graph-based analysis. | `messages_with_sentences_and_subsentences.json` |
+| **Preparation_3_per-message_structures_v2.py** | Updated version with refined structure fields and improved per-message grouping. | Generate cleaned per-message hierarchical structures for visualization and modeling. | `messages_with_sentences_and_subsentences.json` |
 
 ---
 
@@ -73,6 +78,9 @@ Scripts computing class-level scores, distribution statistics, imbalance metrics
 | **Experiments_1_MLP_v3.py** | Further-refined MLP with better monitoring and text→ID mapping | Improve robustness of MLP baseline | Metrics, logs, `errors.json` |
 | **Experiments_1_MLP_v4.py** | Final MLP variant: improved early stopping, logging, and plotting | Produce high-quality baseline for comparison with GCNs | Metrics, training curves, error logs |
 | **Experiments_3_SRL_GCN_error copy.py** | Variant of SRL-GCN training script focusing on error extraction | Debug SRL-GCN behavior and collect mispredictions | `errors.json`, console logs|
+| **Graph_Method_1_metric_of_expressitivity.py** | Loads a folder of JSON graphs, builds NetworkX MultiDiGraphs, converts to simple graphs, and computes structural metrics (density, degree, clustering, entropy, spectral features, WL hash). | Quantify graph complexity and expressivity across a collection of narrative/semantic graphs for comparative analysis. | `graph_metrics_{FOLDER}.json`, `graph_metrics_summary_{FOLDER}.json`, `graph_metrics_{FOLDER}.csv` |
+| **Processed_0_DEP_features.py** | Loads dependency graphs, builds token-level POS features and edge indices, wraps them as PyG `Data` objects, and saves the full dataset. | Generate dependency-based graph features for ML experiments. | `dep_graph_features.pt` |
+| **Processed_0_DEP_features_v2.py** | Builds global POS vocab, converts each filtered dependency graph into PyG `Data`, logs failures, and saves the compiled dataset. | Create normalized POS-feature dependency graphs for model training. | `dep_graph_features.pt`, `dep_graph_fail_log.txt` |
 
 
 ---
@@ -101,6 +109,7 @@ Scripts comparing textual representations (SBERT, TF-IDF, LSA, Jaccard), merging
 | **SplitAnnotations_CrossClause.py** | Splits annotations based on clause boundaries and identifies spans that cross clauses. | Detect structurally ambiguous or multi-clause spans. | `only_cross_clause.json`, `no_cross_clause.json`. |
 | **SplitAnnotations_CrossClause_Flags.py** | Extends cross-clause analysis with span flags (e.g., length, clause count). | Provide detailed diagnostics for ambiguous spans. | Span-flag JSON files. |
 | **Decision_Structure_1_analysis_pharses.py** | Analyzes phrases extracted from clauses; prints phrase-level structural diagnostics | Inspect structural features of phrases before scoring | Console analysis output |
+| **ParseCodebook.py** | Reads EPPC codebook Excel, parses CODE / SUB-CODE / SUB-SUB definitions, normalizes IDs, and builds node–link hierarchical JSON. | Construct full hierarchical codebook graph from Excel source. | `codebook_hierarchy.json` |
 
 
 ---
@@ -116,6 +125,16 @@ Scripts that standardize labels in graph datasets and normalize error-log format
 | **StandardizeErrorFiles_v2.py** | More robust version of the error standardizer that handles missing or variant fields. | Improve consistency and robustness of error-file normalization. | Standardized error JSON files. |
 | **Experiments_3_SRL_GCN_DataProcessing.py** | Injects labels + text into SRL graphs; handles filename cleanup | Prepare SRL graph datasets for GCN training | Updated SRL graph JSONs |
 | **Experiments_2_Dep_GCN_DataProcessing_new.py** | Injects labels + text for dependency graphs across split types | Standardize graph-label alignment | Updated DEP graph JSONs |
+| **Optimize_code_structure_v2_categorize_labels.py** | Uses a ChatOpenAI/LangChain pipeline to classify each label node from the cleaned hierarchy as interactional or goal-oriented with a brief explanation. | Automatically derive coarse intent types for all labels to support hierarchy redesign and downstream modeling. | `EPPC_output_json/classified_intents.json` |
+| **Optimize_code_structure.py** | Loads underscore-indexed label names, classifies each as interactional or goal-oriented with ChatOpenAI, and rebuilds an optimized hierarchy with new indices, alias mappings, and stored LLM rationales. | Redesign the label hierarchy into an intent-aware structure with clean indices and alias maps for downstream graph and model use. | `EPPC_output_json/optimized_label_structure.json`, `index_mapping.json`, `llm_classification_log.json`, `alias_map.json` |
+| **labels_config.json** | Defines canonical interactional and goal labels plus exact/regex alias lists that map raw annotation label variants onto each canonical intent type. | Provide a reusable configuration for normalizing raw annotation labels into canonical interactional vs goal-oriented classes. | Configuration file consumed by label-mapping and training/evaluation scripts (no direct outputs). |
+| **Optimize_code_structure_v2_clean_labels.py** | Cleans underscore-indexed codebook nodes, removes duplicates, reassigns stable indices, and records old→new index mappings. | Produce a clean, deduplicated codebook structure for downstream mapping. | `cleaned_node_names.json`, `index_mapping.json` |
+| **Optimize_code_structure_v2_make_dictionary.py** | Splits classified intents into Interactional vs Goal-Oriented across code/subcode/subsubcode levels. | Convert human-corrected intent classifications into per-type dictionaries. | `split_intents_by_type.json` |
+| **Optimize_code_structure_v2_split_types.py** | Partitions classified codebook records into Interactional and Goal-Oriented lists with index/label/level. | Generate clean, type-separated label lists for use in annotation mapping. | `split_intents_by_type.json` |
+| **Optimize_code_structure_v2_map_annotation_with_code.py** | Loads annotations, mapping table, and intent types; replaces raw labels with codebook labels and attaches type lists. | Normalize annotation label usage and attach label types. | `processed_annotations_with_types.json` |
+| **Optimize_code_structure_v2_map_annotation_with_code_v2.py** | Refines annotation mapping: remaps labels, preserves updated codes, attaches label types, and outputs cleaned annotation structures. | Final standardized annotation file linking codes and their Interactional/Goal types. | `processed_messages_with_annotations_with_types.json` |
+| **split_annotations_by_label_type.py** | Splits processed annotations into two files (Interactional and Goal-Oriented) and filters codes accordingly. | Produce fully separated annotation datasets per intent type. | `interactional_annotations.json`, `goal_oriented_annotations.json` |
+
 
 ---
 
@@ -190,6 +209,8 @@ Scripts for labeling, validating, and filtering AMR-based subsentence graphs.
 |--------|----------------|------|-------------|
 | **Experiments_4_AMR_GCN_DataProcessing.py** | Injects subcode labels and texts into AMR graphs; saves updated versions | Prepare labeled AMR graphs for AMR-GCN training | Labeled AMR graph JSON files |
 | **Experiments_4_check_graph_validity_amr.py** | Validates node/edge structure of AMR graphs; filters usable ones | Ensure AMR graph correctness before GCN training | `invalid_graphs_log.json`, filtered AMR set |
+| **Graph_1_Dependency.py** | Reads sentence/subsentence label files, parses text with spaCy, builds dependency graphs (nodes and links), and saves both JSON graph structures and PNG visualizations. | Construct dependency-based graph representations for labeled sentences/subsentences to support graph modeling and qualitative inspection. | Per-item graph JSON files under `<base_name>/json/` and PNG images under `<base_name>/images/` |
+| **Processed_0_DEP_features_labeled.py** | Converts dependency graphs into PyG format using canonical codebook labels, builds node POS features, and saves dataset. | Dependency-graph PyG dataset with canonical labels for classification models. | `dep_graph_features.pt` |
 
 
 ---
@@ -210,6 +231,10 @@ Utilities for generating subtree or structure visualizations.
 | Script | Main Functions | Goal | Key Outputs |
 |--------|----------------|------|-------------|
 | **GenerateSubTreeVisualizations.py** | Loads hierarchy JSON and produces PNGs for each subtree (code/subcode) | Visualize label hierarchy structure for inspection | PNG images under `subtree_images/`|
+| **ListNodeNameWIndex.py** | Loads the codebook hierarchy, finds root codes, traverses children with DFS, assigns stable underscore-based indices, and groups names by node type. | Create a stable, human-readable index mapping for all codebook nodes to support lookup, prompting, and visualization. | `EPPC_output_json/node_names_by_type_with_index.json` |
+| **message_structure_visualization.py** | Builds hierarchical message→sentence→subsentence graphs, applies layout, and saves PNG visualizations. | Visualize message structural trees for inspection. | PNGs under `structure_visualized_graphs/` |
+| **message_structure_visualization_updated.py** | Improved visualization with color coding, updated layouts, and per-message JSON graph exports. | Produce enhanced visual+JSON structural graphs for each message. | PNGs under `visualized_graphs_updated/`, JSONs under `structured_graph_json/` |
+
 
 ---
 
