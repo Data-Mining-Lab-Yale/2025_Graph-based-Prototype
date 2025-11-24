@@ -58,8 +58,8 @@ Between May and October 2025, the work encompassed multiple concurrent research 
 | **Research Ideation** | Support PI’s ideas | Conceived and wrote two full proposals independently | Exceeds standard scope |
 | **Implementation & Analysis** | Contribute to code or methods | Developed complete pipelines and graph-based models | Above average technical depth |
 | **Writing & Documentation** | Co-author papers | Led workshop paper and authored technical reports | Demonstrates lead-author capability |
-| **Project Ownership** | Follow assigned direction | Defined subprojects and maintained reusable frameworks | Indicates strong independence |
-| **Literature & Presentation** | Contribute to group reviews | Conducted multiple reviews and presented findings | Meets and exceeds expectations |
+| **Project Ownership** | Follow assigned direction | Defined subprojects and maintained reusable frameworks | Indicates independence |
+| **Literature & Presentation** | Contribute to group reviews | Conducted multiple reviews and presented findings | Meets expectations |
 | **Transition Effort** | Minimal documentation | Comprehensive handover and archiving | Thorough and well-documented |
 
 ### **Summary**
