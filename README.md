@@ -143,12 +143,6 @@ conda env create -f srl_env.yaml
 conda activate srl_env
 ```
 
-### Example usage
-
-```bash
-python ResearchAndImplementations/graph_builder/build_graph.py --input Data/sample_messages.json
-```
-
 ---
 
 ## 6. License
