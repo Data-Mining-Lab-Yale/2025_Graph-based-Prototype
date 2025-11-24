@@ -42,6 +42,12 @@ This README provides an overview of the repository structure, core components, a
 └── README.md
 ```
 
+### Quick Links
+- [Analytical Notes and Writing Materials](analytical_notes_overview.md)
+- [Research and Implementation Scripts](implementation_notes_overview.md)
+
+
+
 ---
 
 ## 2. Current Purpose of the Repository
