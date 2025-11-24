@@ -154,6 +154,8 @@ Scripts that generate clause structures, chunk phrases, and support phrase-level
 ## **8. Phrase Lookup & Scoring Engine**
 Scripts that build a phrase–label index from CSVs (phrase_pool, label_edges) and score phrases using similarity + PMI.
 
+| Script | Main Functions | Goal | Key Outputs |
+|--------|----------------|------|-------------|
 | **phrase_lookup_config.py** | Builds phrase–label index; performs fuzzy matching; scores labels using PMI and co-occurrence | Provide interpretable phrase-level label scoring engine | `phrase_index_cache.json`, console scores |
 | **phrase_debug_and_lookup.py** | End-to-end: runs Decision_Structure_1_chucking_v3 → prints phrases → performs label lookup → summarizes scores | Debug phrase scoring and inspect per-phrase label contributions | Detailed console diagnostics |
 
