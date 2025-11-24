@@ -72,6 +72,8 @@ Scripts computing class-level scores, distribution statistics, imbalance metrics
 | **Experiments_1_MLP_v2.py** | Improved MLP baseline with structured error logs and ID mapping | Provide more stable baseline for clause-level classification | Metrics, plots, structured `errors.json` |
 | **Experiments_1_MLP_v3.py** | Further-refined MLP with better monitoring and text→ID mapping | Improve robustness of MLP baseline | Metrics, logs, `errors.json` |
 | **Experiments_1_MLP_v4.py** | Final MLP variant: improved early stopping, logging, and plotting | Produce high-quality baseline for comparison with GCNs | Metrics, training curves, error logs |
+| **Experiments_3_SRL_GCN_error copy.py** | Variant of SRL-GCN training script focusing on error extraction | Debug SRL-GCN behavior and collect mispredictions | `errors.json`, console logs|
+
 
 ---
 
@@ -112,8 +114,8 @@ Scripts that standardize labels in graph datasets and normalize error-log format
 | **UpdateGraphLabels.py** | Updates graph node labels using a corrected codebook mapping. | Ensure that graph datasets use a unified label system. | Updated graph JSON files. |
 | **StandardizeErrorFiles_v1.py** | Standardizes error logs from multiple models into a consistent schema. | Harmonize evaluation outputs across experiments. | `<model>_errors_standardized.json`. |
 | **StandardizeErrorFiles_v2.py** | More robust version of the error standardizer that handles missing or variant fields. | Improve consistency and robustness of error-file normalization. | Standardized error JSON files. |
-| **Experiments_3_SRL_GCN_DataProcessing.py** | Injects labels + text into SRL graphs; handles filename cleanup | Prepare SRL graph datasets for GCN training | Updated SRL graph JSONs :contentReference[oaicite:0]{index=0} |
-| **Experiments_2_Dep_GCN_DataProcessing_new.py** | Injects labels + text for dependency graphs across split types | Standardize graph-label alignment | Updated DEP graph JSONs :contentReference[oaicite:1]{index=1} |
+| **Experiments_3_SRL_GCN_DataProcessing.py** | Injects labels + text into SRL graphs; handles filename cleanup | Prepare SRL graph datasets for GCN training | Updated SRL graph JSONs |
+| **Experiments_2_Dep_GCN_DataProcessing_new.py** | Injects labels + text for dependency graphs across split types | Standardize graph-label alignment | Updated DEP graph JSONs |
 
 ---
 
@@ -125,8 +127,8 @@ Scripts focused on span length, alignment to sentence boundaries, and structural
 |--------|----------------|------|-------------|
 | **Bethesda_AnnotationAlignmentStats.py** | Measures alignment between annotations and segmented units for the Bethesda dataset. | Validate clause segmentation quality and alignment. | Summary statistics printed or saved. |
 | **Dataset_Stat_4_SpanConsistency.py** | Runs full span inconsistency analysis: span lengths, bucket distributions, sentence-boundary alignment, boundary distances, histogram, and LaTeX snippet. | Quantify span inconsistency and provide evidence for span-level challenges. | `span_stats.csv`, `overall_span_length_stats.json`, `per_label_span_stats.csv`, `span_length_histogram.png`, `span_length_buckets.csv`, `alignment_summary.json`, `boundary_distance_stats.json`, optional LaTeX snippet. |
-| **Experiments_2_check_graph_validity.py** | Validates dependency graphs (nodes, labels); logs invalid ones | Ensure structural integrity of DEP graphs | `invalid_graphs_log.json` + filtered folder :contentReference[oaicite:2]{index=2} |
-| **Experiments_3_check_graph_validity_srl.py** | Validates SRL graphs (token labels, node lists); normalizes filenames | Filter usable SRL graphs for GCN | Valid SRL graph set + `invalid_graphs_log.json` :contentReference[oaicite:3]{index=3} |
+| **Experiments_2_check_graph_validity.py** | Validates dependency graphs (nodes, labels); logs invalid ones | Ensure structural integrity of DEP graphs | `invalid_graphs_log.json` + filtered folder |
+| **Experiments_3_check_graph_validity_srl.py** | Validates SRL graphs (token labels, node lists); normalizes filenames | Filter usable SRL graphs for GCN | Valid SRL graph set + `invalid_graphs_log.json` |
 
 ---
 
@@ -173,12 +175,53 @@ Scripts that train GCN models on dependency-based clause graphs (tokens as nodes
 
 | Script | Main Functions | Goal | Key Outputs |
 |--------|----------------|------|-------------|
-| **Experiments_2_Dep_GCN.py** | Full DEP-GCN training pipeline with BERT node features, pooling, metrics | Core dependency-graph GCN baseline | Metrics, `best_model.pt`, training plot :contentReference[oaicite:4]{index=4} |
-| **Experiments_2_Dep_GCN_v2.py** | Version with fixed random seed, cleaned training logs, and structured outputs | Improve reproducibility and log structure | `train_log.json`, plots, errors :contentReference[oaicite:5]{index=5} |
-| **Experiments_2_Dep_GCN_v3.py** | Extended training (500 epochs), updated metadata fields, stable loss curves | Deep training run to test convergence limits | Extended logs, high-resolution plot, structured errors :contentReference[oaicite:6]{index=6} |
+| **Experiments_2_Dep_GCN.py** | Full DEP-GCN training pipeline with BERT node features, pooling, metrics | Core dependency-graph GCN baseline | Metrics, `best_model.pt`, training plot |
+| **Experiments_2_Dep_GCN_v2.py** | Version with fixed random seed, cleaned training logs, and structured outputs | Improve reproducibility and log structure | `train_log.json`, plots, errors |
+| **Experiments_2_Dep_GCN_v3.py** | Extended training (500 epochs), updated metadata fields, stable loss curves | Deep training run to test convergence limits | Extended logs, high-resolution plot, structured errors |
+| **Experiments_3_SRL_GCN_weighted.py** | SRL-GCN model using weighted edges + BERT CLS vectors for node features | Explore semantic edge weighting in SRL graphs | Metrics, `best_model.pt`, `train_log.json`, plots |
+| **Experiments_3_SRL_GCN_weighted_v2.py** | Large-epoch SRL-GCN training with weight-sensitive edges and identity-node encoding | Test stability and long-horizon training for weighted SRL GCN | Metrics, long training trajectory, `best_model.pt`|
 
 ---
 
+## **10. Graph Construction — AMR Graph Pipeline**
+Scripts for labeling, validating, and filtering AMR-based subsentence graphs.
+
+| Script | Main Functions | Goal | Key Outputs |
+|--------|----------------|------|-------------|
+| **Experiments_4_AMR_GCN_DataProcessing.py** | Injects subcode labels and texts into AMR graphs; saves updated versions | Prepare labeled AMR graphs for AMR-GCN training | Labeled AMR graph JSON files |
+| **Experiments_4_check_graph_validity_amr.py** | Validates node/edge structure of AMR graphs; filters usable ones | Ensure AMR graph correctness before GCN training | `invalid_graphs_log.json`, filtered AMR set |
+
+
+---
+
+## **11. Graph Construction — Narrative Ego-Graph Pipeline**
+Scripts for constructing narrative-centered ego-graphs with labels and verifying their structure.
+
+| Script | Main Functions | Goal | Key Outputs |
+|--------|----------------|------|-------------|
+| **Experiments_5_Narrative_DataProcessing.py** | Injects labels + text into narrative ego-graphs using center_id mapping | Prepare labeled narrative graphs for GCN modeling | Narrative graph JSON with labels/text |
+| **Experiments_5_check_graph_validity_narrative.py** | Validates narrative ego-graph structure (nodes, edges, center_id, label) | Ensure narrative graph integrity | `invalid_graphs_log.json`, filtered narrative graphs|
+
+---
+
+## **12. Visualization Tools**
+Utilities for generating subtree or structure visualizations.
+
+| Script | Main Functions | Goal | Key Outputs |
+|--------|----------------|------|-------------|
+| **GenerateSubTreeVisualizations.py** | Loads hierarchy JSON and produces PNGs for each subtree (code/subcode) | Visualize label hierarchy structure for inspection | PNG images under `subtree_images/`|
+
+---
+
+## **13. File Conversion Tools**
+Scripts for converting Markdown, SPSS .sav, and other formats.
+
+| Script | Main Functions | Goal | Key Outputs |
+|--------|----------------|------|-------------|
+| **File_transform_md2txt.py** | Converts Markdown files to TXT/DOCX via Pandoc (with fallback parser) | Quickly export documentation into text formats | Converted `.txt` / `.docx` files|
+| **File_transform_sav2csv.py** | Converts `.sav` (SPSS) files into UTF-8 CSV via pyreadstat | Extract tabular data from SPSS for analysis | `.csv` files saved to folder|
+
+---
 
 ## How to Extend This Document
 
