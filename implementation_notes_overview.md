@@ -45,6 +45,12 @@ Scripts that convert datasets, reconstruct messages, split sentences/subsentence
 | **Optimize_code_structure_training_data.py** | Reads sentence/subsentence structures and separate interactional/goal annotation files, matches spans by message ID and text, and splits them into four aligned datasets by unit type and label type. | Construct sentence- and subsentence-level training JSONs with attached interactional and goal-oriented labels for modeling. | `EPPC_output_json/sentence_interactional_label.json`, `subsentence_interactional_label.json`, `sentence_goal_oriented_label.json`, `subsentence_goal_oriented_label.json` |
 | **Preparation_3_per-message_structures.py** | Converts messages into a hierarchical structure (message → sentences → subsentences) with IDs for visualization. | Produce hierarchical message structures for graph-based analysis. | `messages_with_sentences_and_subsentences.json` |
 | **Preparation_3_per-message_structures_v2.py** | Updated version with refined structure fields and improved per-message grouping. | Generate cleaned per-message hierarchical structures for visualization and modeling. | `messages_with_sentences_and_subsentences.json` |
+| **Step1_FilterTrainingInput.py** | Loads processed messages with annotations and removes items missing span/text consistency or mapping information. | Clean input dataset before mapping annotations to units. | Filtered JSON under `EPPC_output_json/` |
+| **Step2_MappingAnnotations.py** | Maps cleaned annotation spans to sentence/subsentence units using index maps and codebook metadata. | Attach structured labels to units for downstream splitting. | `sentence_label_structured.json`, `subsentence_label_structured.json` |
+| **Step3_FilterOutCodes.py** | Splits structured labels into code / subcode / subsubcode per unit type and writes separate JSON files. | Produce hierarchical label splits for sentence/subsentence units. | `{sentence|subsentence}_{code|subcode|subsubcode}_labels.json` |
+| **message_index_mapping_v2.py** | Rebuilds message/sentence/subsentence index maps directly from hierarchical message structure using message_id, sentence_id, subsentence_id. | Updated mapping extraction aligned with v3 segmentation. | Six index mapping and annotation-only JSON files under `EPPC_output_json/` |
+| **Step2_MappingAnnotations_v2.py** | Loads cleaned annotations, sentence/subsentence span maps, codebook IDs; attaches structured labels including code_id and level. | Final structured label mapping for modeling. | `sentence_label_structured.json`, `subsentence_label_structured.json` |
+| **Step4_CountAnnotations.py** | Loads structured sentence/subsentence labels and counts how many CODE/SUBCODE/SUBSUBCODE labels exist at each level. | Quick statistics on annotation label distributions across levels. | Console output (counts per level) |
 
 ---
 
@@ -90,6 +96,18 @@ Scripts computing class-level scores, distribution statistics, imbalance metrics
 | **ResultAnalysis_1_MLP.py** | Loads MLP training logs and builds a comparison table of sentence vs subsentence accuracy/F1. | Summarize MLP baseline performance. | `mlp_comparison_summary.csv` |
 | **Reduced_Sample_1.py** | Builds toysets with alias mapping, topic features, wide-format CSVs, raw JSONs, and split statistics. | Produce ML-ready toysets and summaries. | `interactional_toyset.csv`, `goal_toyset.csv`, raw toysets, `summary.json` |
 | **Reduced_Sample_1_analysis.py** | Analyzes toyset label distributions; generates CSV summaries and comparison plots. | Visual profiling of toyset composition and splits. | CSV + PNG files under `toyset_analysis_out/` |
+| **ResultAnalysis_2_graph.py** | Loads *_train_log.json files for multiple models, extracts highest F1 epoch, and builds an overall comparison summary. | Compare best F1 performance across all graph-based and baseline models. | `comparison_summary_best_f1.csv` |
+| **ResultAnalysis_2_graph_v2.py** | Improved version scanning multiple result folders, detecting logs automatically, and exporting sorted comparison tables. | Comprehensive performance comparison across all model types. | `comparison_summary_best_f1.csv` |
+| **ResultAnalysis_3_error_cross_models_bar.py** | Collects *_errors.json across all models and plots class-level misclassifications using grouped bar charts. | Visualize per-class error frequency across models. | `error_analysis_across_models.png`, `error_analysis_counts.json` |
+| **ResultAnalysis_3_error_cross_models_heat.py** | Builds a true-label error heatmap using raw error files and codebook mapping; saves matrix + visualization. | Heatmap of true-label error counts across models. | `true_label_error_count_matrix.json`, `error_analysis_heatmap.png` |
+| **ResultAnalysis_3_error_cross_models_heat_v2.py** | Extended heatmap with gold-count normalization, standardized labels, and improved formatting. | Enhanced cross-model error analysis with totals and normalization. | `error_counts_with_totals.csv`, `error_analysis_heatmap_with_totals.png` |
+| **ResultAnalysis_3_error_stlye_align.py** | Standardizes error files by mapping raw true/pred labels to codebook labels; writes aligned error JSONs. | Produce normalized error datasets for cross-model comparison. | Standardized error files under `formatted_errors/` |
+| **ResultAnalysis_2_graph.py** | Loads *_train_log.json for multiple models and generates a comparison table of best F1 performance. | Model comparison across all GCN/MLP graph variants. | `comparison_summary_best_f1.csv` |
+| **ResultAnalysis_2_graph_v2.py** | Improved scanning over result folders, auto-detecting logs, and exporting sorted F1 tables. | Automated multi-model performance summary. | `comparison_summary_best_f1.csv` |
+| **ResultAnalysis_3_error_cross_models_bar.py** | Aggregates true-label errors across models and plots horizontal bar charts. | Visualize class-level misclassification across models. | `error_analysis_across_models.png`, JSON counts |
+| **ResultAnalysis_3_error_cross_models_heat.py** | Builds heatmap of true-label errors using mapping-corrected labels. | Heatmap of model error patterns by gold label. | `true_label_error_count_matrix.json`, PNG heatmap |
+| **ResultAnalysis_3_error_cross_models_heat_v2.py** | Adds per-label totals, normalized counts, and improved labeling for cleaner heatmap output. | Enhanced cross-model error analysis with totals. | `error_counts_with_totals.csv`, improved heatmap PNG |
+| **ResultAnalysis_3_error_stlye_align.py** | Standardizes *_errors.json by mapping raw true/pred labels to codebook labels; outputs cleaned sets. | Normalize error logs for fair cross-model comparison. | Standardized error JSONs under `formatted_errors/` |
 
 
 ---
@@ -119,6 +137,7 @@ Scripts comparing textual representations (SBERT, TF-IDF, LSA, Jaccard), merging
 | **SplitAnnotations_CrossClause_Flags.py** | Extends cross-clause analysis with span flags (e.g., length, clause count). | Provide detailed diagnostics for ambiguous spans. | Span-flag JSON files. |
 | **Decision_Structure_1_analysis_pharses.py** | Analyzes phrases extracted from clauses; prints phrase-level structural diagnostics | Inspect structural features of phrases before scoring | Console analysis output |
 | **ParseCodebook.py** | Reads EPPC codebook Excel, parses CODE / SUB-CODE / SUB-SUB definitions, normalizes IDs, and builds node–link hierarchical JSON. | Construct full hierarchical codebook graph from Excel source. | `codebook_hierarchy.json` |
+| **SentenceIndexMapping.py** | Builds message/sentence/subsentence ID → content/span maps and filtered versions containing only annotated units. | Create index-based lookup tables for all unit levels. | `message_index_mapping.json`, `sentence_index_mapping.json`, `subsentence_index_mapping.json` |
 
 
 ---
@@ -206,11 +225,18 @@ Scripts that build a phrase–label index from CSVs (phrase_pool, label_edges) a
 | **Processed_6_narrative_MLP.py** | Trains an MLP baseline on pooled narrative features; logs loss/acc/F1, saves model, plot, and error lists. | MSG-MLP baseline classifier. | `results_narrative_ego_mlp/` |
 | **Processed_6_narrative_MLP_v2.py** | Improved MSG-MLP with dual-axis plots, validation error analysis, and test-set evaluation. | Enhanced MSG-MLP training + evaluation pipeline. | `results_narrative_ego_mlp_2/` |
 | **Processed_6_narrative_MLP_v3.py** | Refined MSG-MLP variant with stable held-out test evaluation and cleaner error tracking. | Third iteration of MSG-MLP focusing on evaluation stability. | `results_narrative_ego_mlp_3/` |
+| **Test_Training_0_Linear.py** | Baseline: TF-IDF (word+char) + Logistic Regression using span-or-text input. | Basic linear baseline for sentence/subsentence classification. | Metrics, predictions, confusion matrices under `baseline_step1_outputs/` |
+| **Test_Training_0_Linear_v2.py** | Updated version with cleaned input handling and improved evaluation outputs. | Improved TF-IDF baseline pipeline. | Outputs under `baseline_step1_outputs/` |
+| **Test_Training_1_Linear.py** | LSA + prototype similarity baseline using span-or-text; stratified split with fallback. | Semantic baseline with dimensionality reduction and prototypes. | Outputs under `baseline_step2_lsa_outputs/` |
+| **Test_Training_1_Linear_v2.py** | Improved LSA baseline with full reporting, JSON logs, and cleaner plotting. | Enhanced LSA baseline pipeline. | Outputs under `baseline_step2_lsa_outputs/` |
+| **Test_Training_1_Linear_text_only.py** | LSA baseline using **text only** (no span), prototype similarities, improved robustness. | Text-only semantic LSA baseline. | Outputs under `baseline_step2_lsa_text_outputs/` |
+| **Training_1_single_Label_GCN.py** | Loads dependency-graph JSONs and structured labels, builds PyG graphs, trains a 3-layer GCN for single-label classification, and evaluates with exact-match and F1 metrics. | Single-label GCN baseline for dependency graphs. | Model weights, logs, plots, and `results/test_predictions.json` |
+| **Training_1_Multi_Label_GCN.py** | Loads dependency-graph JSONs and multi-hot structured labels, constructs PyG graphs, trains a 3-layer GCN with class-balanced BCE loss, and evaluates using exact-match, F1, and prediction logs. | Multi-label GCN classifier for dependency graphs. | Model weights, logs, plots, and `results/test_predictions.json` |
 
 
 ---
 
-## **9. Graph-based Modeling — Dependency GCNs**
+## **9. Graph-based Modeling**
 Scripts that train GCN models on dependency-based clause graphs (tokens as nodes, syntactic edges as edges).
 
 | Script | Main Functions | Goal | Key Outputs |
@@ -220,33 +246,37 @@ Scripts that train GCN models on dependency-based clause graphs (tokens as nodes
 | **Experiments_2_Dep_GCN_v3.py** | Extended training (500 epochs), updated metadata fields, stable loss curves | Deep training run to test convergence limits | Extended logs, high-resolution plot, structured errors |
 | **Experiments_3_SRL_GCN_weighted.py** | SRL-GCN model using weighted edges + BERT CLS vectors for node features | Explore semantic edge weighting in SRL graphs | Metrics, `best_model.pt`, `train_log.json`, plots |
 | **Experiments_3_SRL_GCN_weighted_v2.py** | Large-epoch SRL-GCN training with weight-sensitive edges and identity-node encoding | Test stability and long-horizon training for weighted SRL GCN | Metrics, long training trajectory, `best_model.pt`|
-
----
-
-## **10. Graph Construction — AMR Graph Pipeline**
-Scripts for labeling, validating, and filtering AMR-based subsentence graphs.
-
-| Script | Main Functions | Goal | Key Outputs |
-|--------|----------------|------|-------------|
 | **Experiments_4_AMR_GCN_DataProcessing.py** | Injects subcode labels and texts into AMR graphs; saves updated versions | Prepare labeled AMR graphs for AMR-GCN training | Labeled AMR graph JSON files |
 | **Experiments_4_check_graph_validity_amr.py** | Validates node/edge structure of AMR graphs; filters usable ones | Ensure AMR graph correctness before GCN training | `invalid_graphs_log.json`, filtered AMR set |
 | **Graph_1_Dependency.py** | Reads sentence/subsentence label files, parses text with spaCy, builds dependency graphs (nodes and links), and saves both JSON graph structures and PNG visualizations. | Construct dependency-based graph representations for labeled sentences/subsentences to support graph modeling and qualitative inspection. | Per-item graph JSON files under `<base_name>/json/` and PNG images under `<base_name>/images/` |
 | **Processed_0_DEP_features_labeled.py** | Converts dependency graphs into PyG format using canonical codebook labels, builds node POS features, and saves dataset. | Dependency-graph PyG dataset with canonical labels for classification models. | `dep_graph_features.pt` |
-
-
----
-
-## **11. Graph Construction — Narrative Ego-Graph Pipeline**
-Scripts for constructing narrative-centered ego-graphs with labels and verifying their structure.
-
-| Script | Main Functions | Goal | Key Outputs |
-|--------|----------------|------|-------------|
+| **Text2Graph_1_construct_graph.py** | Builds sequential narrative graphs grouped by message_id using sentence/subsentence label files; adds "next" edges and saves JSON + visualizations. | Construct ordered narrative graphs from labeled units. | Graph JSONs + PNGs under `outputs/text2graphs_*` |
+| **Text2Graph_1_run_all_dependency.py** | Loads text for each sentence/subsentence and builds dependency graphs using DependencyGraphBuilder; saves JSON + PNG. | Full pipeline to generate dependency graphs for all units. | JSON + PNG under `Dep_<input>_graph/` |
+| **Text2Graph_1_run_pipeline.py** | Single-example tester for dependency graph construction and visualization. | Quickly test dependency graph building for one example. | On-screen visualization |
+| **Text2Graph_2_run_all_srl.py** | Runs AllenNLP SRL over all sentences/subsentences, extracts predicates/arguments, builds semantic graphs, and saves JSON + PNG. | Full SRL-to-graph pipeline for the entire dataset. | Semantic graph JSONs + PNGs under `semantic_graphs/` |
+| **Text2Graph_2_run_all_srl_v2.py** | Updated SRL batch processing with refined graph building logic and cleaned output folders. | Improved SRL graph generator with updated format. | Semantic graph JSONs + PNGs |
+| **Text2Graph_4_narrative.py** | Builds clause-centered narrative ego-graphs using next/prev/same-label edges; outputs JSON and visualizations. | Construct narrative ego-graphs for each clause. | JSON + PNG under `outputs/narrative_egograph_per_clause/` |
+| **Text2Graph_4_narrative_v2.py** | Updated ego-graph builder with corrected edge logic, organized folders, and consistent center-id graph format. | Improved narrative ego-graph generation. | JSON + PNG under `outputs/narrative_egograph_per_clause/` |
+| **Text2Graph_4_narrative_v3.py** | Full narrative ego-graph generator with weighted edges, cue-based relations (contrast/elaboration), and detailed visualization. | Final narrative ego-graph pipeline with weighted symbolic relations. | JSON under `json/` and PNG under `images/` |
+| **narrative_graph_visualize.py** | Loads narrative graphs and renders Spring-layout PNGs with edge color coding. | Visualize narrative graphs stored in JSON. | PNGs under `outputs/narrative_graphs/.../images/` |
+| **Text2Graph_weighted_narrative_graphs.py** | Generates message-level weighted narrative graphs for each clause, using next + same-label + optional cue edges. | Create weighted narrative graphs for each clause instance. | JSON files under `outputs/narrative_weighted_graphs/` |
+| **Text2Graph_2_run_all_srl.py** | Runs AllenNLP SRL for each sentence/subsentence; extracts predicate + arguments and saves SRL graphs (JSON + PNG). | Full SRL-to-graph pipeline. | SRL graph JSON + PNG under `outputs/srl_graphs/.../` |
+| **Text2Graph_2_run_all_srl_v2.py** | Updated SRL batch processor with improved parsing, graph formatting, and cleaned output directories. | Improved SRL graph builder. | JSON + PNG under `outputs/srl_graphs/.../` |
+| **Text2Graph_2_run_all_srl_v3.py** | Enhanced SRL pipeline with richer role descriptions, predicate/argument typing, and color-coded visualization. | Rich SRL graph generation with semantic role metadata. | JSON under `json/`, PNG under `images/` |
+| **Text2Graph_2_run_all_srl_v4.py** | A more verbose SRL version with proxy structure and multi-predicate handling; produces predicate-centered graphs. | Advanced SRL graph builder with proxy center node. | JSON + PNG under `outputs/srl_graphs_more_role/.../` |
+| **Text2Graph_2_run_all_srl_weight.py** | Zero-shot classification (BART-MNLI) used as a lightweight SRL proxy; assigns weighted edges for semantic roles. | Weighted semantic-proxy graphs for each unit. | Weighted JSON + PNG under `outputs/srl_graphs_weighted/.../` |
 | **Experiments_5_Narrative_DataProcessing.py** | Injects labels + text into narrative ego-graphs using center_id mapping | Prepare labeled narrative graphs for GCN modeling | Narrative graph JSON with labels/text |
 | **Experiments_5_check_graph_validity_narrative.py** | Validates narrative ego-graph structure (nodes, edges, center_id, label) | Ensure narrative graph integrity | `invalid_graphs_log.json`, filtered narrative graphs|
+| **Text2Graph_3_amr.py** | Runs AMR parser on each sentence/subsentence, cleans concept labels, builds AMR graphs, and saves JSON + PNG. | Full AMR graph construction for dataset. | JSON under `outputs/amr_graphs/.../json/`, PNG under `images/` |
+| **Text2Graph_3_amr_example.py** | AMR parsing demo for a single sentence with consistent concept remapping and graph visualization. | Example AMR graph parser + visualizer. | JSON + PNG in working folder |
+| **Text2Graph_3_amr_example_v2.py** | Multi-sentence AMR example script with cleaned variable handling and visualization. | Batch AMR example generator. | JSON + PNG under `outputs/amr_graph_example/` |
+| **Text2Graph_3_amr_model.py** | Loads local AMR parsing model and tokenizer for use in AMR scripts. | AMR model loader for graph construction pipelines. | No standalone outputs |
+| **Text2Graph_1_run_pipeline.py** | Builds and visualizes dependency graph for a single example (test script). | Dependency graph demo. | On-screen visualization |
+
 
 ---
 
-## **12. Visualization Tools**
+## **10. Visualization Tools**
 Utilities for generating subtree or structure visualizations.
 
 | Script | Main Functions | Goal | Key Outputs |
@@ -255,11 +285,13 @@ Utilities for generating subtree or structure visualizations.
 | **ListNodeNameWIndex.py** | Loads the codebook hierarchy, finds root codes, traverses children with DFS, assigns stable underscore-based indices, and groups names by node type. | Create a stable, human-readable index mapping for all codebook nodes to support lookup, prompting, and visualization. | `EPPC_output_json/node_names_by_type_with_index.json` |
 | **message_structure_visualization.py** | Builds hierarchical message→sentence→subsentence graphs, applies layout, and saves PNG visualizations. | Visualize message structural trees for inspection. | PNGs under `structure_visualized_graphs/` |
 | **message_structure_visualization_updated.py** | Improved visualization with color coding, updated layouts, and per-message JSON graph exports. | Produce enhanced visual+JSON structural graphs for each message. | PNGs under `visualized_graphs_updated/`, JSONs under `structured_graph_json/` |
+| **Text2Graph_1_run_pipeline.py** | Single-example dependency graph tester with direct visualization. | Sandbox visualization of dependency graph. | On-screen plot |
+| **Text2Graph_zero_shot_demo.py** | (file with BART large MNLI zero-shot classification → graph) Creates demonstration graph from a sentence using zero-shot labels. | Demo script for lightweight semantic graph building. | `srl_graph_output.png` |
 
 
 ---
 
-## **13. File Conversion Tools**
+## **11. File Conversion Tools**
 Scripts for converting Markdown, SPSS .sav, and other formats.
 
 | Script | Main Functions | Goal | Key Outputs |
