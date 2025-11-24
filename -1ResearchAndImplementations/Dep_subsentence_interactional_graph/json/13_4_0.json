@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "add",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "one",
+      "pos": "NUM",
+      "id": 5
+    },
+    {
+      "label": "request",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "more",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "Rx",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": ":",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "script",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 11
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "Lidocaine",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "Prilocaine",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 15
+    },
+    {
+      "label": "cream",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "nummod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "appos",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 17
+    },
+    {
+      "dep": "nmod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

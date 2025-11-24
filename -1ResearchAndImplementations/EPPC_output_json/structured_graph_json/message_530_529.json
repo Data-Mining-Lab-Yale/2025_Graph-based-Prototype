@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi ,  My father developed a cough today and was having severe difficulty breathing so I called 911. He has COVID will get admitted to Org1",
+      "id": 529
+    },
+    {
+      "label": "sentence",
+      "text": "Hi ,  My father developed a cough today and was having severe difficulty breathing so I called 911.",
+      "id": "529_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi ,",
+      "id": "529_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "My father developed a cough today and was having",
+      "id": "529_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "severe difficulty breathing so I called 911.",
+      "id": "529_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "He has COVID will get admitted to Org1",
+      "id": "529_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "He has COVID will get admitted",
+      "id": "529_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to Org1",
+      "id": "529_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 529,
+      "target": "529_0"
+    },
+    {
+      "source": 529,
+      "target": "529_1"
+    },
+    {
+      "source": "529_0",
+      "target": "529_0_0"
+    },
+    {
+      "source": "529_0",
+      "target": "529_0_1"
+    },
+    {
+      "source": "529_0",
+      "target": "529_0_2"
+    },
+    {
+      "source": "529_1",
+      "target": "529_1_0"
+    },
+    {
+      "source": "529_1",
+      "target": "529_1_1"
+    }
+  ]
+}

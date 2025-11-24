@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "He came home this morning",
+      "id": 533
+    },
+    {
+      "label": "sentence",
+      "text": "He came home this morning",
+      "id": "533_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "He came home this morning",
+      "id": "533_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 533,
+      "target": "533_0"
+    },
+    {
+      "source": "533_0",
+      "target": "533_0_0"
+    }
+  ]
+}

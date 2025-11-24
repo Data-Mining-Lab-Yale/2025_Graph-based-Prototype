@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good afternoon,     Please call our office at XXX-XXX-XXXX to schedule these appts. You will need to get the portflushed in Org1 but the secretaries can help schedule that as well-Org1 is only doing port flushes for patients receiving chemo that day. Stay warm and safe in the snow!",
+      "id": 351
+    },
+    {
+      "label": "sentence",
+      "text": "Good afternoon,     Please call our office at XXX-XXX-XXXX to schedule these appts.",
+      "id": "351_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good afternoon,",
+      "id": "351_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please call our office at XXX-XXX-XXXX to schedule",
+      "id": "351_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "these appts.",
+      "id": "351_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "You will need to get the portflushed in Org1 but the secretaries can help schedule that as well-Org1 is only doing port flushes for patients receiving chemo that day.",
+      "id": "351_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "You will need to get the portflushed in Org1 but the secretaries can help",
+      "id": "351_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "schedule that as well-Org1 is only doing",
+      "id": "351_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "port flushes for patients receiving chemo that day.",
+      "id": "351_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Stay warm and safe in the snow!",
+      "id": "351_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Stay warm and safe",
+      "id": "351_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in the snow!",
+      "id": "351_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 351,
+      "target": "351_0"
+    },
+    {
+      "source": 351,
+      "target": "351_1"
+    },
+    {
+      "source": 351,
+      "target": "351_2"
+    },
+    {
+      "source": "351_0",
+      "target": "351_0_0"
+    },
+    {
+      "source": "351_0",
+      "target": "351_0_1"
+    },
+    {
+      "source": "351_0",
+      "target": "351_0_2"
+    },
+    {
+      "source": "351_1",
+      "target": "351_1_0"
+    },
+    {
+      "source": "351_1",
+      "target": "351_1_1"
+    },
+    {
+      "source": "351_1",
+      "target": "351_1_2"
+    },
+    {
+      "source": "351_2",
+      "target": "351_2_0"
+    },
+    {
+      "source": "351_2",
+      "target": "351_2_1"
+    }
+  ]
+}

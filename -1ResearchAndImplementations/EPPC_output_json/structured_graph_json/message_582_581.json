@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning Person1   I see Dr. Person2 in another month. Just to let you know that i Doing fine; I feel good and i Eating and sleeping well. And i Taking all my meds with no problems. See you soon!",
+      "id": 581
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning Person1   I see Dr. Person2 in another month.",
+      "id": "581_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning Person1   I see Dr. Person2 in another month.",
+      "id": "581_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Just to let you know that i Doing fine; I feel good and i Eating and sleeping well.",
+      "id": "581_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Just to let",
+      "id": "581_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you know",
+      "id": "581_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "that i Doing",
+      "id": "581_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "fine;",
+      "id": "581_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I feel good and i Eating",
+      "id": "581_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "and sleeping",
+      "id": "581_1_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "well.",
+      "id": "581_1_6"
+    },
+    {
+      "label": "sentence",
+      "text": "And i Taking all my meds with no problems.",
+      "id": "581_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "And i Taking all my meds with no problems.",
+      "id": "581_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "See you soon!",
+      "id": "581_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "See you soon!",
+      "id": "581_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 581,
+      "target": "581_0"
+    },
+    {
+      "source": 581,
+      "target": "581_1"
+    },
+    {
+      "source": 581,
+      "target": "581_2"
+    },
+    {
+      "source": 581,
+      "target": "581_3"
+    },
+    {
+      "source": "581_0",
+      "target": "581_0_0"
+    },
+    {
+      "source": "581_1",
+      "target": "581_1_0"
+    },
+    {
+      "source": "581_1",
+      "target": "581_1_1"
+    },
+    {
+      "source": "581_1",
+      "target": "581_1_2"
+    },
+    {
+      "source": "581_1",
+      "target": "581_1_3"
+    },
+    {
+      "source": "581_1",
+      "target": "581_1_4"
+    },
+    {
+      "source": "581_1",
+      "target": "581_1_5"
+    },
+    {
+      "source": "581_1",
+      "target": "581_1_6"
+    },
+    {
+      "source": "581_2",
+      "target": "581_2_0"
+    },
+    {
+      "source": "581_3",
+      "target": "581_3_0"
+    }
+  ]
+}

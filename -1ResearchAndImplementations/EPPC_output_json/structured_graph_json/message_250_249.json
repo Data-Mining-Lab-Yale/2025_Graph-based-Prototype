@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Mr. Person1 I reviewed with Dr. Person2 continue with plan for surgery and to meet with them... thank you Person3",
+      "id": 249
+    },
+    {
+      "label": "sentence",
+      "text": "Mr. Person1 I reviewed with Dr. Person2 continue with plan for surgery and to meet with them... thank you Person3",
+      "id": "249_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Mr. Person1 I reviewed",
+      "id": "249_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with Dr. Person2 continue",
+      "id": "249_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "with plan for surgery and to meet",
+      "id": "249_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "with them... thank you Person3",
+      "id": "249_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 249,
+      "target": "249_0"
+    },
+    {
+      "source": "249_0",
+      "target": "249_0_0"
+    },
+    {
+      "source": "249_0",
+      "target": "249_0_1"
+    },
+    {
+      "source": "249_0",
+      "target": "249_0_2"
+    },
+    {
+      "source": "249_0",
+      "target": "249_0_3"
+    }
+  ]
+}

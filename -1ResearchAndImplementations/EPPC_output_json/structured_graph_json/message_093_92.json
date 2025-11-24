@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1, I sent a message to the doctors that read the scan to question this. I compared the impression from the PET  from MM/DD/YYYY to the one in MM/DD/YYYY and they are very  different wording . I would assume that this is the  correct reading for this result and they mean to write \"compared  to MM/DD/YYYY\". I am double checking this  for you though. I will let you know.",
+      "id": 92
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1, I sent a message to the doctors that read the scan to question this.",
+      "id": "92_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "92_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I sent a message to the doctors that read",
+      "id": "92_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the scan to question",
+      "id": "92_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "this.",
+      "id": "92_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I compared the impression from the PET  from MM/DD/YYYY to the one in MM/DD/YYYY and they are very  different wording .",
+      "id": "92_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I compared the impression from the PET  from MM/DD/YYYY to the one in MM/DD/YYYY and they are",
+      "id": "92_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "very  different wording .",
+      "id": "92_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I would assume that this is the  correct reading for this result and they mean to write \"compared  to MM/DD/YYYY\".",
+      "id": "92_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would assume that this is",
+      "id": "92_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the  correct reading for this result and they mean",
+      "id": "92_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to write \"compared  to MM/DD/YYYY\".",
+      "id": "92_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I am double checking this  for you though.",
+      "id": "92_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am double checking this  for you though.",
+      "id": "92_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I will let you know.",
+      "id": "92_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will let you know",
+      "id": "92_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 92,
+      "target": "92_0"
+    },
+    {
+      "source": 92,
+      "target": "92_1"
+    },
+    {
+      "source": 92,
+      "target": "92_2"
+    },
+    {
+      "source": 92,
+      "target": "92_3"
+    },
+    {
+      "source": 92,
+      "target": "92_4"
+    },
+    {
+      "source": "92_0",
+      "target": "92_0_0"
+    },
+    {
+      "source": "92_0",
+      "target": "92_0_1"
+    },
+    {
+      "source": "92_0",
+      "target": "92_0_2"
+    },
+    {
+      "source": "92_0",
+      "target": "92_0_3"
+    },
+    {
+      "source": "92_1",
+      "target": "92_1_0"
+    },
+    {
+      "source": "92_1",
+      "target": "92_1_1"
+    },
+    {
+      "source": "92_2",
+      "target": "92_2_0"
+    },
+    {
+      "source": "92_2",
+      "target": "92_2_1"
+    },
+    {
+      "source": "92_2",
+      "target": "92_2_2"
+    },
+    {
+      "source": "92_3",
+      "target": "92_3_0"
+    },
+    {
+      "source": "92_4",
+      "target": "92_4_0"
+    }
+  ]
+}

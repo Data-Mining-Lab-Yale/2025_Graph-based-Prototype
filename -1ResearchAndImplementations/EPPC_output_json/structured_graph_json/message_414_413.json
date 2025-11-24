@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "No I am not taking any calcium or vitamins. Should I be?",
+      "id": 413
+    },
+    {
+      "label": "sentence",
+      "text": "No I am not taking any calcium or vitamins.",
+      "id": "413_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "No I am not taking any calcium or vitamins",
+      "id": "413_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Should I be?",
+      "id": "413_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Should I be?",
+      "id": "413_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 413,
+      "target": "413_0"
+    },
+    {
+      "source": 413,
+      "target": "413_1"
+    },
+    {
+      "source": "413_0",
+      "target": "413_0_0"
+    },
+    {
+      "source": "413_1",
+      "target": "413_1_0"
+    }
+  ]
+}

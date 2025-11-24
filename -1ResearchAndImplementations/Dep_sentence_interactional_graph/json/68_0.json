@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "Mr",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "Test",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "Dexa",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "Bone",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "Density",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "attr",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

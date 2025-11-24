@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "2)Also",
+      "pos": "NUM",
+      "id": 0
+    },
+    {
+      "label": "send",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "CT",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "scan",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "report",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "mark",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "poss",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Saw",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "pulmonologist",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "said",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "probably",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "rebound",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "stopping",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "prednisone",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "use",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "inhaler",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "Albuterol",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "xcomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 18
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pcomp",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "dobj",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "dep": "poss",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

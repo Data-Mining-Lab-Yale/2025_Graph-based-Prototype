@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "rash",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "dad",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "diminished",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "substantially",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "since",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "starting",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "Gabapentin",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "pcomp",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

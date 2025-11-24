@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "telehealth",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "few",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "days",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "later",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "discuss",
+      "pos": "VERB",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "quantmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

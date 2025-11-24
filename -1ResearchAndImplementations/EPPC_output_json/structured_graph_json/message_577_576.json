@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "MM/DD/YYYY is good. However dental work won commence until MM/DD/YYYY. The Org1 dental clinic has a sizable backup due to the pandemic. A program of repair has been established for me but it pretty extensive.",
+      "id": 576
+    },
+    {
+      "label": "sentence",
+      "text": "MM/DD/YYYY is good.",
+      "id": "576_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY is good.",
+      "id": "576_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "However dental work won commence until MM/DD/YYYY.",
+      "id": "576_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "However dental work won commence until MM/DD/YYYY.",
+      "id": "576_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "The Org1 dental clinic has a sizable backup due to the pandemic.",
+      "id": "576_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "The Org1 dental clinic has a sizable backup due to the pandemic.",
+      "id": "576_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "A program of repair has been established for me but it pretty extensive.",
+      "id": "576_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "A program of repair has been established for me but it pretty extensive",
+      "id": "576_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 576,
+      "target": "576_0"
+    },
+    {
+      "source": 576,
+      "target": "576_1"
+    },
+    {
+      "source": 576,
+      "target": "576_2"
+    },
+    {
+      "source": 576,
+      "target": "576_3"
+    },
+    {
+      "source": "576_0",
+      "target": "576_0_0"
+    },
+    {
+      "source": "576_1",
+      "target": "576_1_0"
+    },
+    {
+      "source": "576_2",
+      "target": "576_2_0"
+    },
+    {
+      "source": "576_3",
+      "target": "576_3_0"
+    }
+  ]
+}

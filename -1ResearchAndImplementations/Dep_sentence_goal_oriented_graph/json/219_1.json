@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "seems",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "concerned",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "cancer",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acomp",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "attr",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

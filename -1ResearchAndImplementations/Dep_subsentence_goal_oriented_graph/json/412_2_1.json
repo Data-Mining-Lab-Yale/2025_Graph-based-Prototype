@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "taking",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "calcium",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "1000",
+      "pos": "NUM",
+      "id": 4
+    },
+    {
+      "label": "mg",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 5
+    },
+    {
+      "label": "daily",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "400",
+      "pos": "NUM",
+      "id": 9
+    },
+    {
+      "label": "IU",
+      "pos": "NOUN",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "nummod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 9
+    }
+  ]
+}

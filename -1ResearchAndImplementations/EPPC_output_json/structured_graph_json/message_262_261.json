@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "We were able to move up the imaging let me know if there's any issue!  Person1",
+      "id": 261
+    },
+    {
+      "label": "sentence",
+      "text": "We were able to move up the imaging let me know if there's any issue!",
+      "id": "261_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "We were able to move up the imaging let",
+      "id": "261_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "me know",
+      "id": "261_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "if there's",
+      "id": "261_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "any issue!",
+      "id": "261_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Person1",
+      "id": "261_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "261_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 261,
+      "target": "261_0"
+    },
+    {
+      "source": 261,
+      "target": "261_1"
+    },
+    {
+      "source": "261_0",
+      "target": "261_0_0"
+    },
+    {
+      "source": "261_0",
+      "target": "261_0_1"
+    },
+    {
+      "source": "261_0",
+      "target": "261_0_2"
+    },
+    {
+      "source": "261_0",
+      "target": "261_0_3"
+    },
+    {
+      "source": "261_1",
+      "target": "261_1_0"
+    }
+  ]
+}

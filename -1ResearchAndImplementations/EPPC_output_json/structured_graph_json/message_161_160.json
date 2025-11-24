@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes, Person1 is fine. I combine visits with Costco adventures. How did the kids like the chocolate cake?",
+      "id": 160
+    },
+    {
+      "label": "sentence",
+      "text": "Yes, Person1 is fine.",
+      "id": "160_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "160_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 is fine.",
+      "id": "160_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I combine visits with Costco adventures.",
+      "id": "160_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I combine visits with Costco adventures.",
+      "id": "160_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "How did the kids like the chocolate cake?",
+      "id": "160_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "How did the kids like the chocolate cake?",
+      "id": "160_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 160,
+      "target": "160_0"
+    },
+    {
+      "source": 160,
+      "target": "160_1"
+    },
+    {
+      "source": 160,
+      "target": "160_2"
+    },
+    {
+      "source": "160_0",
+      "target": "160_0_0"
+    },
+    {
+      "source": "160_0",
+      "target": "160_0_1"
+    },
+    {
+      "source": "160_1",
+      "target": "160_1_0"
+    },
+    {
+      "source": "160_2",
+      "target": "160_2_0"
+    }
+  ]
+}

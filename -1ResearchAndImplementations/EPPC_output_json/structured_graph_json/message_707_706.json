@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, You would have to call the radiation oncology office that you are scheduled with and hopefully they can help you get  rescheduled for Org2. Their number is XXX-XXX-XXXX.",
+      "id": 706
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, You would have to call the radiation oncology office that you are scheduled with and hopefully they can help you get  rescheduled for Org2.",
+      "id": "706_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "706_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "You would have to call the radiation oncology office that you are scheduled",
+      "id": "706_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "with and hopefully they can help",
+      "id": "706_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "you get  rescheduled",
+      "id": "706_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "for Org2.",
+      "id": "706_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Their number is XXX-XXX-XXXX.",
+      "id": "706_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Their number is XXX-XXX-XXXX.",
+      "id": "706_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 706,
+      "target": "706_0"
+    },
+    {
+      "source": 706,
+      "target": "706_1"
+    },
+    {
+      "source": "706_0",
+      "target": "706_0_0"
+    },
+    {
+      "source": "706_0",
+      "target": "706_0_1"
+    },
+    {
+      "source": "706_0",
+      "target": "706_0_2"
+    },
+    {
+      "source": "706_0",
+      "target": "706_0_3"
+    },
+    {
+      "source": "706_0",
+      "target": "706_0_4"
+    },
+    {
+      "source": "706_1",
+      "target": "706_1_0"
+    }
+  ]
+}

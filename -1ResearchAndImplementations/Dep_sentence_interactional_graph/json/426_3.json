@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "said",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "schedule",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "chemo",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "day",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "canceled",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 17
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 20
+    },
+    {
+      "dep": "mark",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "dep": "conj",
+      "source": 5,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "poss",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 19,
+      "target": 16
+    },
+    {
+      "dep": "aux",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "auxpass",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

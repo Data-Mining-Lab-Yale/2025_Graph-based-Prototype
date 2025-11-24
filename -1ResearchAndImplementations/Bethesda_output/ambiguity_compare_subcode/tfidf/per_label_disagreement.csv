@@ -1,0 +1,27 @@
+label,neighbor_disagreement,neighbor_total,disagreement_rate
+signoff,164,650,0.2523
+Appreciation/Gratitude,115,340,0.3382
+Clinical care,96,4020,0.0239
+activeParticipation/involvement,96,2390,0.0402
+EconomicStability,30,1120,0.0268
+HealthCareAccessAndQuality,29,1650,0.0176
+maintainCommunication,27,130,0.2077
+expressOpinions,26,690,0.0377
+statePreferences,25,250,0.1
+SocialAndCommunityContext,23,280,0.0821
+SeekingApproval,15,330,0.0455
+NeighborhoodAndBuiltEnvironment,14,350,0.04
+Clinical Care,11,340,0.0324
+ExploreOptions,6,140,0.0429
+inviteCollabration,5,80,0.0625
+alignment,4,80,0.05
+ShareOptions,3,40,0.075
+checkingUnderstanding/clarification,3,70,0.0429
+connection,3,140,0.0214
+Approval/Reinforcement,2,10,0.2
+ApprovalofDecision/Reinforcement,2,20,0.1
+build trust,2,130,0.0154
+requestsForOpinion,2,40,0.05
+EducationAccessAndQuality,0,40,0.0
+MakeDecision,0,20,0.0
+salutation,0,540,0.0

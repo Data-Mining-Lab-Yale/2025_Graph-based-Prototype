@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi,    I assuming since I didn get a phone call my bloodwork didn come back as desired and I holding off starting the 2nd cycle of Ibrance? And I will be doing blood work again next week? Thank you, Person1",
+      "id": 273
+    },
+    {
+      "label": "sentence",
+      "text": "Hi,    I assuming since I didn get a phone call my bloodwork didn come back as desired and I holding off starting the 2nd cycle of Ibrance?",
+      "id": "273_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "273_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I assuming since I didn get",
+      "id": "273_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a phone call my bloodwork didn come",
+      "id": "273_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "back as desired",
+      "id": "273_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "and I holding",
+      "id": "273_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "off starting the 2nd cycle of Ibrance?",
+      "id": "273_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "And I will be doing blood work again next week?",
+      "id": "273_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "And I will be doing blood work again next week?",
+      "id": "273_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1",
+      "id": "273_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "273_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "273_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 273,
+      "target": "273_0"
+    },
+    {
+      "source": 273,
+      "target": "273_1"
+    },
+    {
+      "source": 273,
+      "target": "273_2"
+    },
+    {
+      "source": "273_0",
+      "target": "273_0_0"
+    },
+    {
+      "source": "273_0",
+      "target": "273_0_1"
+    },
+    {
+      "source": "273_0",
+      "target": "273_0_2"
+    },
+    {
+      "source": "273_0",
+      "target": "273_0_3"
+    },
+    {
+      "source": "273_0",
+      "target": "273_0_4"
+    },
+    {
+      "source": "273_0",
+      "target": "273_0_5"
+    },
+    {
+      "source": "273_1",
+      "target": "273_1_0"
+    },
+    {
+      "source": "273_2",
+      "target": "273_2_0"
+    },
+    {
+      "source": "273_2",
+      "target": "273_2_1"
+    }
+  ]
+}

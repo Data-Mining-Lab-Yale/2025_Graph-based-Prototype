@@ -1,0 +1,189 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "completed",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 16
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "dep": "nmod",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi - Org1 has some bloodwork they need so have printed to bring.",
+      "id": 613
+    },
+    {
+      "label": "sentence",
+      "text": "Hi - Org1 has some bloodwork they need so have printed to bring.",
+      "id": "613_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi - Org1 has some bloodwork they need",
+      "id": "613_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "so have printed",
+      "id": "613_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to bring",
+      "id": "613_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 613,
+      "target": "613_0"
+    },
+    {
+      "source": "613_0",
+      "target": "613_0_0"
+    },
+    {
+      "source": "613_0",
+      "target": "613_0_1"
+    },
+    {
+      "source": "613_0",
+      "target": "613_0_2"
+    }
+  ]
+}

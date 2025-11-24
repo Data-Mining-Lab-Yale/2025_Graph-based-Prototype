@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 I discussed with Dr Person2 - he would like you to defer scans until after radiation is complete. Please call #XXX-XXX-XXXX to reschedule. Please then call our office or mychart once scans rescheduled and we will reschedule appointment with Dr Person2. Thanks! Person3",
+      "id": 216
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 I discussed with Dr Person2 - he would like you to defer scans until after radiation is complete.",
+      "id": "216_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 I discussed",
+      "id": "216_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with Dr Person2 - he would like you to defer scans until after radiation is",
+      "id": "216_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "complete.",
+      "id": "216_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Please call #XXX-XXX-XXXX to reschedule.",
+      "id": "216_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please call #XXX-XXX-XXXX to reschedule",
+      "id": "216_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Please then call our office or mychart once scans rescheduled and we will reschedule appointment with Dr Person2.",
+      "id": "216_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please then call our office or mychart",
+      "id": "216_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "once scans rescheduled",
+      "id": "216_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and we will reschedule",
+      "id": "216_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "appointment with Dr Person2.",
+      "id": "216_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "216_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "216_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person3",
+      "id": "216_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "216_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 216,
+      "target": "216_0"
+    },
+    {
+      "source": 216,
+      "target": "216_1"
+    },
+    {
+      "source": 216,
+      "target": "216_2"
+    },
+    {
+      "source": 216,
+      "target": "216_3"
+    },
+    {
+      "source": 216,
+      "target": "216_4"
+    },
+    {
+      "source": "216_0",
+      "target": "216_0_0"
+    },
+    {
+      "source": "216_0",
+      "target": "216_0_1"
+    },
+    {
+      "source": "216_0",
+      "target": "216_0_2"
+    },
+    {
+      "source": "216_1",
+      "target": "216_1_0"
+    },
+    {
+      "source": "216_2",
+      "target": "216_2_0"
+    },
+    {
+      "source": "216_2",
+      "target": "216_2_1"
+    },
+    {
+      "source": "216_2",
+      "target": "216_2_2"
+    },
+    {
+      "source": "216_2",
+      "target": "216_2_3"
+    },
+    {
+      "source": "216_3",
+      "target": "216_3_0"
+    },
+    {
+      "source": "216_4",
+      "target": "216_4_0"
+    }
+  ]
+}

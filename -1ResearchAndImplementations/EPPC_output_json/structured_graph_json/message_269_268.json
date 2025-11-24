@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1. Is there someone you spoke with about the approval for the tramadol. I checked our faxes and nothing there on that.",
+      "id": 268
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1.",
+      "id": "268_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1.",
+      "id": "268_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Is there someone you spoke with about the approval for the tramadol.",
+      "id": "268_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is there someone you spoke",
+      "id": "268_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with about the approval for the tramadol.",
+      "id": "268_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I checked our faxes and nothing there on that.",
+      "id": "268_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I checked our faxes and nothing",
+      "id": "268_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "there on that.",
+      "id": "268_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 268,
+      "target": "268_0"
+    },
+    {
+      "source": 268,
+      "target": "268_1"
+    },
+    {
+      "source": 268,
+      "target": "268_2"
+    },
+    {
+      "source": "268_0",
+      "target": "268_0_0"
+    },
+    {
+      "source": "268_1",
+      "target": "268_1_0"
+    },
+    {
+      "source": "268_1",
+      "target": "268_1_1"
+    },
+    {
+      "source": "268_2",
+      "target": "268_2_0"
+    },
+    {
+      "source": "268_2",
+      "target": "268_2_1"
+    }
+  ]
+}

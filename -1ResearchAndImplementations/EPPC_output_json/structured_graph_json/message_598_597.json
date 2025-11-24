@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi team. Checking to see if this is going to be a video call or this is going to be in person.",
+      "id": 597
+    },
+    {
+      "label": "sentence",
+      "text": "Hi team.",
+      "id": "597_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi team.",
+      "id": "597_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Checking to see if this is going to be a video call or this is going to be in person.",
+      "id": "597_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Checking to see",
+      "id": "597_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if this is going",
+      "id": "597_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to be a video call or this is going",
+      "id": "597_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to be in person.",
+      "id": "597_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 597,
+      "target": "597_0"
+    },
+    {
+      "source": 597,
+      "target": "597_1"
+    },
+    {
+      "source": "597_0",
+      "target": "597_0_0"
+    },
+    {
+      "source": "597_1",
+      "target": "597_1_0"
+    },
+    {
+      "source": "597_1",
+      "target": "597_1_1"
+    },
+    {
+      "source": "597_1",
+      "target": "597_1_2"
+    },
+    {
+      "source": "597_1",
+      "target": "597_1_3"
+    }
+  ]
+}

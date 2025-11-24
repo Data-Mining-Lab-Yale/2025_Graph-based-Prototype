@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "ar",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "Sincerely",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    }
+  ]
+}

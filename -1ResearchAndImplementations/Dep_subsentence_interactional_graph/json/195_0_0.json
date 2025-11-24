@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "You",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "'re",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "very",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "welcome",
+      "pos": "ADJ",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

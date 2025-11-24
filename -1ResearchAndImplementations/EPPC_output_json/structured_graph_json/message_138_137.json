@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,  I faxed the paperwork, let me know if you have any issues ! Thank you,  Person2",
+      "id": 137
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,  I faxed the paperwork, let me know if you have any issues !",
+      "id": "137_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "137_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I faxed the paperwork,",
+      "id": "137_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "let me know",
+      "id": "137_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "if you have",
+      "id": "137_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "any issues !",
+      "id": "137_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,  Person2",
+      "id": "137_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "137_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "137_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 137,
+      "target": "137_0"
+    },
+    {
+      "source": 137,
+      "target": "137_1"
+    },
+    {
+      "source": "137_0",
+      "target": "137_0_0"
+    },
+    {
+      "source": "137_0",
+      "target": "137_0_1"
+    },
+    {
+      "source": "137_0",
+      "target": "137_0_2"
+    },
+    {
+      "source": "137_0",
+      "target": "137_0_3"
+    },
+    {
+      "source": "137_0",
+      "target": "137_0_4"
+    },
+    {
+      "source": "137_1",
+      "target": "137_1_0"
+    },
+    {
+      "source": "137_1",
+      "target": "137_1_1"
+    }
+  ]
+}

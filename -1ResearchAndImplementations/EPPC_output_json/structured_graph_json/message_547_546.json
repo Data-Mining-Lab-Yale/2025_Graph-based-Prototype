@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Dr. Person1 said I should start taking vitamin D. Does he have a recommended dosage? Also I wanted to make it clear that Dr. Person1 is my oncologist. I had to have an oncologist assigned to me in order to receive medications  From the Org3. Dr. Person2 is involved in my treatment but Dr. Person1 has the final word regarding my treatments and regimens. He my doctor.",
+      "id": 546
+    },
+    {
+      "label": "sentence",
+      "text": "Dr. Person1 said I should start taking vitamin D. Does he have a recommended dosage?",
+      "id": "546_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person1 said I should start",
+      "id": "546_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "taking vitamin D. Does he have",
+      "id": "546_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a recommended dosage?",
+      "id": "546_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Also I wanted to make it clear that Dr. Person1 is my oncologist.",
+      "id": "546_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Also I wanted to make it clear",
+      "id": "546_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "that Dr. Person1 is",
+      "id": "546_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "my oncologist.",
+      "id": "546_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I had to have an oncologist assigned to me in order to receive medications  From the Org3.",
+      "id": "546_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had to have an oncologist assigned to me in order to receive medications  From the Org3.",
+      "id": "546_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Dr. Person2 is involved in my treatment but Dr. Person1 has the final word regarding my treatments and regimens.",
+      "id": "546_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person2 is involved in my treatment but Dr. Person1 has",
+      "id": "546_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the final word regarding my treatments and regimens",
+      "id": "546_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "He my doctor.",
+      "id": "546_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "He my doctor.",
+      "id": "546_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 546,
+      "target": "546_0"
+    },
+    {
+      "source": 546,
+      "target": "546_1"
+    },
+    {
+      "source": 546,
+      "target": "546_2"
+    },
+    {
+      "source": 546,
+      "target": "546_3"
+    },
+    {
+      "source": 546,
+      "target": "546_4"
+    },
+    {
+      "source": "546_0",
+      "target": "546_0_0"
+    },
+    {
+      "source": "546_0",
+      "target": "546_0_1"
+    },
+    {
+      "source": "546_0",
+      "target": "546_0_2"
+    },
+    {
+      "source": "546_1",
+      "target": "546_1_0"
+    },
+    {
+      "source": "546_1",
+      "target": "546_1_1"
+    },
+    {
+      "source": "546_1",
+      "target": "546_1_2"
+    },
+    {
+      "source": "546_2",
+      "target": "546_2_0"
+    },
+    {
+      "source": "546_3",
+      "target": "546_3_0"
+    },
+    {
+      "source": "546_3",
+      "target": "546_3_1"
+    },
+    {
+      "source": "546_4",
+      "target": "546_4_0"
+    }
+  ]
+}

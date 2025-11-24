@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Agreed. Do you want me to put in those orders? What date?",
+      "id": 94
+    },
+    {
+      "label": "sentence",
+      "text": "Agreed.",
+      "id": "94_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Agreed.",
+      "id": "94_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Do you want me to put in those orders?",
+      "id": "94_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do you want me to put",
+      "id": "94_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in those orders?",
+      "id": "94_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "What date?",
+      "id": "94_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "What date?",
+      "id": "94_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 94,
+      "target": "94_0"
+    },
+    {
+      "source": 94,
+      "target": "94_1"
+    },
+    {
+      "source": 94,
+      "target": "94_2"
+    },
+    {
+      "source": "94_0",
+      "target": "94_0_0"
+    },
+    {
+      "source": "94_1",
+      "target": "94_1_0"
+    },
+    {
+      "source": "94_1",
+      "target": "94_1_1"
+    },
+    {
+      "source": "94_2",
+      "target": "94_2_0"
+    }
+  ]
+}

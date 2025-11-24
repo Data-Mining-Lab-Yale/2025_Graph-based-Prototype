@@ -1,0 +1,38 @@
+{
+  "code": {
+    "num_classes": 8,
+    "total": 1547,
+    "IR_max": 128.0,
+    "CV": 1.4656937808079067,
+    "entropy": 1.289974749981493,
+    "entropy_norm": 0.6203467248900936,
+    "gini": 0.606467717612628,
+    "effective_classes": 2.5410875924421714,
+    "majority_class_count": 896,
+    "minority_class_count": 7
+  },
+  "subcode": {
+    "num_classes": 26,
+    "total": 1389,
+    "IR_max": 402.0,
+    "CV": 1.654763616126245,
+    "entropy": 2.391439429308455,
+    "entropy_norm": 0.7339989473610519,
+    "gini": 0.8562214374901844,
+    "effective_classes": 6.955139782620452,
+    "majority_class_count": 402,
+    "minority_class_count": 1
+  },
+  "combined": {
+    "num_classes": 35,
+    "total": 1547,
+    "IR_max": 402.0,
+    "CV": 1.7795013992615025,
+    "entropy": 2.62708331198297,
+    "entropy_norm": 0.7389103026054858,
+    "gini": 0.8809535648578958,
+    "effective_classes": 8.400083537203889,
+    "majority_class_count": 402,
+    "minority_class_count": 1
+  }
+}

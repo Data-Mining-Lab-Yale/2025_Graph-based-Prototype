@@ -1,0 +1,266 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning. I just received word from Org1 that, according to CDC guidelines, I don qualify for a booster shot at this time in spite of the fact that i In the XX+ age category. I continue to monitor   The situation. If you have any thoughts, comments or opinions please feel free to get back to me. I continue on my daily regimen of abiraterone acetate and prednisone and I feel fine; i Sleeping well, eating well and exercising. Hard to shed a few pounds (around 190) and I guess my glucose remains elevated (7.5) because of the prednisone, according to my primary.",
+      "id": 54
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning.",
+      "id": "54_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning.",
+      "id": "54_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I just received word from Org1 that, according to CDC guidelines, I don qualify for a booster shot at this time in spite of the fact that i In the XX+ age category.",
+      "id": "54_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I just received word from Org1 that,",
+      "id": "54_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "according to CDC guidelines,",
+      "id": "54_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I don qualify",
+      "id": "54_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "for a booster shot at this time in spite of the fact that i",
+      "id": "54_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "In the XX+ age category.",
+      "id": "54_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "I continue to monitor   The situation.",
+      "id": "54_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I continue to monitor   The situation.",
+      "id": "54_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "If you have any thoughts, comments or opinions please feel free to get back to me.",
+      "id": "54_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "If you have",
+      "id": "54_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "any thoughts,",
+      "id": "54_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "comments or opinions",
+      "id": "54_3_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "please feel free to get back to me.",
+      "id": "54_3_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I continue on my daily regimen of abiraterone acetate and prednisone and I feel fine; i Sleeping well, eating well and exercising.",
+      "id": "54_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "I continue on my daily regimen of abiraterone acetate and prednisone",
+      "id": "54_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and I feel",
+      "id": "54_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "fine;",
+      "id": "54_4_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "i Sleeping",
+      "id": "54_4_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "well,",
+      "id": "54_4_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "eating",
+      "id": "54_4_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "well and exercising",
+      "id": "54_4_6"
+    },
+    {
+      "label": "sentence",
+      "text": "Hard to shed a few pounds (around 190) and I guess my glucose remains elevated (7.5) because of the prednisone, according to my primary.",
+      "id": "54_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hard to shed a few pounds (around 190) and I guess",
+      "id": "54_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my glucose remains",
+      "id": "54_5_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "elevated (7.5) because of the prednisone,",
+      "id": "54_5_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "according to my primary.",
+      "id": "54_5_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 54,
+      "target": "54_0"
+    },
+    {
+      "source": 54,
+      "target": "54_1"
+    },
+    {
+      "source": 54,
+      "target": "54_2"
+    },
+    {
+      "source": 54,
+      "target": "54_3"
+    },
+    {
+      "source": 54,
+      "target": "54_4"
+    },
+    {
+      "source": 54,
+      "target": "54_5"
+    },
+    {
+      "source": "54_0",
+      "target": "54_0_0"
+    },
+    {
+      "source": "54_1",
+      "target": "54_1_0"
+    },
+    {
+      "source": "54_1",
+      "target": "54_1_1"
+    },
+    {
+      "source": "54_1",
+      "target": "54_1_2"
+    },
+    {
+      "source": "54_1",
+      "target": "54_1_3"
+    },
+    {
+      "source": "54_1",
+      "target": "54_1_4"
+    },
+    {
+      "source": "54_2",
+      "target": "54_2_0"
+    },
+    {
+      "source": "54_3",
+      "target": "54_3_0"
+    },
+    {
+      "source": "54_3",
+      "target": "54_3_1"
+    },
+    {
+      "source": "54_3",
+      "target": "54_3_2"
+    },
+    {
+      "source": "54_3",
+      "target": "54_3_3"
+    },
+    {
+      "source": "54_4",
+      "target": "54_4_0"
+    },
+    {
+      "source": "54_4",
+      "target": "54_4_1"
+    },
+    {
+      "source": "54_4",
+      "target": "54_4_2"
+    },
+    {
+      "source": "54_4",
+      "target": "54_4_3"
+    },
+    {
+      "source": "54_4",
+      "target": "54_4_4"
+    },
+    {
+      "source": "54_4",
+      "target": "54_4_5"
+    },
+    {
+      "source": "54_4",
+      "target": "54_4_6"
+    },
+    {
+      "source": "54_5",
+      "target": "54_5_0"
+    },
+    {
+      "source": "54_5",
+      "target": "54_5_1"
+    },
+    {
+      "source": "54_5",
+      "target": "54_5_2"
+    },
+    {
+      "source": "54_5",
+      "target": "54_5_3"
+    }
+  ]
+}

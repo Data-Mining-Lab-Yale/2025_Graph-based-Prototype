@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr. Person1,  One more blood test for next visit to be added, please..  Person2Thanks so much!!  Regards,  Person3",
+      "id": 662
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr. Person1,  One more blood test for next visit to be added, please..  Person2Thanks so much!!",
+      "id": "662_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr. Person1,",
+      "id": "662_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "One more blood test for next visit to be added",
+      "id": "662_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "please..  Person2Thanks so much!!",
+      "id": "662_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Regards,  Person3",
+      "id": "662_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Regards,",
+      "id": "662_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "662_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 662,
+      "target": "662_0"
+    },
+    {
+      "source": 662,
+      "target": "662_1"
+    },
+    {
+      "source": "662_0",
+      "target": "662_0_0"
+    },
+    {
+      "source": "662_0",
+      "target": "662_0_1"
+    },
+    {
+      "source": "662_0",
+      "target": "662_0_2"
+    },
+    {
+      "source": "662_1",
+      "target": "662_1_0"
+    },
+    {
+      "source": "662_1",
+      "target": "662_1_1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Result not back yet Also please call and get MM/DD/YYYY CT scan scheduled Best to you Person1",
+      "id": 44
+    },
+    {
+      "label": "sentence",
+      "text": "Result not back yet Also please call and get MM/DD/YYYY CT scan scheduled Best to you Person1",
+      "id": "44_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Result not back yet Also please call",
+      "id": "44_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and get",
+      "id": "44_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY CT scan scheduled Best to you Person1",
+      "id": "44_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 44,
+      "target": "44_0"
+    },
+    {
+      "source": "44_0",
+      "target": "44_0_0"
+    },
+    {
+      "source": "44_0",
+      "target": "44_0_1"
+    },
+    {
+      "source": "44_0",
+      "target": "44_0_2"
+    }
+  ]
+}

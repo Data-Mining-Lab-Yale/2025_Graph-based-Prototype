@@ -1,0 +1,14 @@
+{
+  "token_min": 1,
+  "token_max": 49,
+  "token_median": 7.0,
+  "token_mean": 8.23097617217525,
+  "token_iqr": 10.0,
+  "token_cv": 0.8136580820683211,
+  "char_min": 2,
+  "char_max": 243,
+  "char_median": 32.5,
+  "char_mean": 37.81129900076864,
+  "char_iqr": 44.0,
+  "char_cv": 0.8295004103579323
+}

@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Got it. I'm having the Infusion scheduler call you to get you an appt on NP8",
+      "id": 593
+    },
+    {
+      "label": "sentence",
+      "text": "Got it.",
+      "id": "593_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Got it.",
+      "id": "593_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I'm having the Infusion scheduler call you to get you an appt on NP8",
+      "id": "593_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I'm having the Infusion scheduler call",
+      "id": "593_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you to get you an appt on NP8",
+      "id": "593_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 593,
+      "target": "593_0"
+    },
+    {
+      "source": 593,
+      "target": "593_1"
+    },
+    {
+      "source": "593_0",
+      "target": "593_0_0"
+    },
+    {
+      "source": "593_1",
+      "target": "593_1_0"
+    },
+    {
+      "source": "593_1",
+      "target": "593_1_1"
+    }
+  ]
+}

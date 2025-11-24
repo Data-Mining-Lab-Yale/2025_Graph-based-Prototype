@@ -1,0 +1,274 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 0
+    },
+    {
+      "label": "realize",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "covered",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "under",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "insurance",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "allowing",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "had",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 14
+    },
+    {
+      "label": "payment",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 16
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 17
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 18
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 19
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 21
+    },
+    {
+      "label": "form",
+      "pos": "NOUN",
+      "id": 22
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 23
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 24
+    },
+    {
+      "label": "office",
+      "pos": "NOUN",
+      "id": 25
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 26
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "neg",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 20
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "relcl",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "dobj",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "dobj",
+      "source": 20,
+      "target": 22
+    },
+    {
+      "dep": "prep",
+      "source": 20,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 20,
+      "target": 26
+    },
+    {
+      "dep": "det",
+      "source": 22,
+      "target": 21
+    },
+    {
+      "dep": "pobj",
+      "source": 23,
+      "target": 25
+    },
+    {
+      "dep": "poss",
+      "source": 25,
+      "target": 24
+    }
+  ]
+}

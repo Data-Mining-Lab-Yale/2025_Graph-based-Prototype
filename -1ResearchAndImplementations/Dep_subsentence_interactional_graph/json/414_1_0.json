@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "A",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "added",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "strengthening",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "agent",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "likely",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "most",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "regimen",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 14
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "work",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acl",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 10,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "auxpass",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "poss",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

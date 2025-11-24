@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I received my CT chest evaluation. I may be wrong but the results looked good to me!  I hope so because I feel great; sleeping well, eating (too) well.",
+      "id": 48
+    },
+    {
+      "label": "sentence",
+      "text": "I received my CT chest evaluation.",
+      "id": "48_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I received my CT chest evaluation.",
+      "id": "48_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I may be wrong but the results looked good to me!",
+      "id": "48_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I may be wrong but the results looked",
+      "id": "48_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "good to me!",
+      "id": "48_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I hope so because I feel great; sleeping well, eating (too) well.",
+      "id": "48_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I hope so because I feel",
+      "id": "48_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "great;",
+      "id": "48_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "sleeping",
+      "id": "48_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "well,",
+      "id": "48_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "eating",
+      "id": "48_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "(too) well.",
+      "id": "48_2_5"
+    }
+  ],
+  "links": [
+    {
+      "source": 48,
+      "target": "48_0"
+    },
+    {
+      "source": 48,
+      "target": "48_1"
+    },
+    {
+      "source": 48,
+      "target": "48_2"
+    },
+    {
+      "source": "48_0",
+      "target": "48_0_0"
+    },
+    {
+      "source": "48_1",
+      "target": "48_1_0"
+    },
+    {
+      "source": "48_1",
+      "target": "48_1_1"
+    },
+    {
+      "source": "48_2",
+      "target": "48_2_0"
+    },
+    {
+      "source": "48_2",
+      "target": "48_2_1"
+    },
+    {
+      "source": "48_2",
+      "target": "48_2_2"
+    },
+    {
+      "source": "48_2",
+      "target": "48_2_3"
+    },
+    {
+      "source": "48_2",
+      "target": "48_2_4"
+    },
+    {
+      "source": "48_2",
+      "target": "48_2_5"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Thanks so much for your message, Dr. Person2 unfortunately is not here on MM/DD/YYYY. He does have some openings for MM/DD/YYYY in the morning between 9:00-9:45 or later that afternoon from 3:15-4:15. Please let me know if this date will be okay with you and if mornings or afternoons will be better. ar Sincerely, Person3",
+      "id": 484
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Thanks so much for your message, Dr. Person2 unfortunately is not here on MM/DD/YYYY.",
+      "id": "484_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "484_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much for your message,",
+      "id": "484_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person2 unfortunately is not here on MM/DD/YYYY.",
+      "id": "484_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "He does have some openings for MM/DD/YYYY in the morning between 9:00-9:45 or later that afternoon from 3:15-4:15.",
+      "id": "484_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "He does have some openings for MM/DD/YYYY in the morning between 9:00-9:45 or later",
+      "id": "484_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "that afternoon from 3:15-4:15.",
+      "id": "484_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Please let me know if this date will be okay with you and if mornings or afternoons will be better.",
+      "id": "484_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let me know",
+      "id": "484_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if this date will be",
+      "id": "484_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "okay with you and if mornings or afternoons",
+      "id": "484_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "will be",
+      "id": "484_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "better.",
+      "id": "484_2_4"
+    },
+    {
+      "label": "sentence",
+      "text": "ar Sincerely, Person3",
+      "id": "484_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "ar Sincerely,",
+      "id": "484_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "484_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 484,
+      "target": "484_0"
+    },
+    {
+      "source": 484,
+      "target": "484_1"
+    },
+    {
+      "source": 484,
+      "target": "484_2"
+    },
+    {
+      "source": 484,
+      "target": "484_3"
+    },
+    {
+      "source": "484_0",
+      "target": "484_0_0"
+    },
+    {
+      "source": "484_0",
+      "target": "484_0_1"
+    },
+    {
+      "source": "484_0",
+      "target": "484_0_2"
+    },
+    {
+      "source": "484_1",
+      "target": "484_1_0"
+    },
+    {
+      "source": "484_1",
+      "target": "484_1_1"
+    },
+    {
+      "source": "484_2",
+      "target": "484_2_0"
+    },
+    {
+      "source": "484_2",
+      "target": "484_2_1"
+    },
+    {
+      "source": "484_2",
+      "target": "484_2_2"
+    },
+    {
+      "source": "484_2",
+      "target": "484_2_3"
+    },
+    {
+      "source": "484_2",
+      "target": "484_2_4"
+    },
+    {
+      "source": "484_3",
+      "target": "484_3_0"
+    },
+    {
+      "source": "484_3",
+      "target": "484_3_1"
+    }
+  ]
+}

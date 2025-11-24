@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 and Person2, the copay through the Org4 apothecary will be $81.54. They can set up delivery to you, it  would need to be a few days in advance- you can call them to arrange this, the pharmacy # is  XXX-XXX-XXXX   Thanks, Person3",
+      "id": 392
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 and Person2, the copay through the Org4 apothecary will be $81.54.",
+      "id": "392_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 and Person2",
+      "id": "392_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the copay through the Org4 apothecary will be $81.54.",
+      "id": "392_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "They can set up delivery to you, it  would need to be a few days in advance- you can call them to arrange this, the pharmacy # is  XXX-XXX-XXXX   Thanks, Person3",
+      "id": "392_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "They can set",
+      "id": "392_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "up delivery to you,",
+      "id": "392_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it  would need",
+      "id": "392_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to be a few days in advance- you can call",
+      "id": "392_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "them to arrange this,",
+      "id": "392_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "the pharmacy # is  XXX-XXX-XXXX   Thanks,",
+      "id": "392_1_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "392_1_6"
+    }
+  ],
+  "links": [
+    {
+      "source": 392,
+      "target": "392_0"
+    },
+    {
+      "source": 392,
+      "target": "392_1"
+    },
+    {
+      "source": "392_0",
+      "target": "392_0_0"
+    },
+    {
+      "source": "392_0",
+      "target": "392_0_1"
+    },
+    {
+      "source": "392_1",
+      "target": "392_1_0"
+    },
+    {
+      "source": "392_1",
+      "target": "392_1_1"
+    },
+    {
+      "source": "392_1",
+      "target": "392_1_2"
+    },
+    {
+      "source": "392_1",
+      "target": "392_1_3"
+    },
+    {
+      "source": "392_1",
+      "target": "392_1_4"
+    },
+    {
+      "source": "392_1",
+      "target": "392_1_5"
+    },
+    {
+      "source": "392_1",
+      "target": "392_1_6"
+    }
+  ]
+}

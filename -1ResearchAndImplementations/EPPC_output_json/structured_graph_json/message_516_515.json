@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "My dad weighed 207 (without shoes and clothes) this morning. He definitely looks puffier to me leg swelling some.",
+      "id": 515
+    },
+    {
+      "label": "sentence",
+      "text": "My dad weighed 207 (without shoes and clothes) this morning.",
+      "id": "515_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "My dad weighed 207 (without shoes and clothes",
+      "id": "515_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": ") this morning.",
+      "id": "515_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "He definitely looks puffier to me leg swelling some.",
+      "id": "515_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "He definitely looks puffier to me leg swelling",
+      "id": "515_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "some.",
+      "id": "515_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 515,
+      "target": "515_0"
+    },
+    {
+      "source": 515,
+      "target": "515_1"
+    },
+    {
+      "source": "515_0",
+      "target": "515_0_0"
+    },
+    {
+      "source": "515_0",
+      "target": "515_0_1"
+    },
+    {
+      "source": "515_1",
+      "target": "515_1_0"
+    },
+    {
+      "source": "515_1",
+      "target": "515_1_1"
+    }
+  ]
+}

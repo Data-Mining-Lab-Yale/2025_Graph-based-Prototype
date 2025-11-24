@@ -1,0 +1,304 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 16
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "1",
+      "pos": "NUM",
+      "id": 4
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 5
+    },
+    {
+      "label": "Since",
+      "pos": "SCONJ",
+      "id": 6
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "currently",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "active",
+      "pos": "ADJ",
+      "id": 11
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 13
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "cancer",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "controlled",
+      "pos": "VERB",
+      "id": 24
+    },
+    {
+      "label": "n't",
+      "pos": "PART",
+      "id": 17
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "remission",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ";",
+      "pos": "PUNCT",
+      "id": 20
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 21
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 22
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 23
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 25
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 26
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 28
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 27
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 29
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "intj",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "dep": "advcl",
+      "source": 16,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "neg",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "ccomp",
+      "source": 24,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 24,
+      "target": 20
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 24,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 24,
+      "target": 22
+    },
+    {
+      "dep": "auxpass",
+      "source": 24,
+      "target": 23
+    },
+    {
+      "dep": "agent",
+      "source": 24,
+      "target": 25
+    },
+    {
+      "dep": "punct",
+      "source": 24,
+      "target": 29
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 25,
+      "target": 28
+    },
+    {
+      "dep": "dep",
+      "source": 26,
+      "target": 27
+    },
+    {
+      "dep": "det",
+      "source": 28,
+      "target": 26
+    }
+  ]
+}

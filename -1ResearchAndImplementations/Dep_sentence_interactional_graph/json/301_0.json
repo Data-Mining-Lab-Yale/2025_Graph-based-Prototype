@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Mr",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "feeling",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "Are",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "better",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "acomp",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 10
+    }
+  ]
+}

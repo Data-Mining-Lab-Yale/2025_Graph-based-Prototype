@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "sick",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "cold",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "covid",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "possibly",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "awaiting",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "test",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "acomp",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

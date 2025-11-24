@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Your appointment is scheduled for in person.",
+      "id": 598
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Your appointment is scheduled for in person.",
+      "id": "598_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "598_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "598_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Your appointment is scheduled for in person.",
+      "id": "598_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 598,
+      "target": "598_0"
+    },
+    {
+      "source": "598_0",
+      "target": "598_0_0"
+    },
+    {
+      "source": "598_0",
+      "target": "598_0_1"
+    },
+    {
+      "source": "598_0",
+      "target": "598_0_2"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "They",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "come",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 3
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "more",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "removed",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "like",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "Person4",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 19
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 20
+    },
+    {
+      "label": "sure",
+      "pos": "ADJ",
+      "id": 21
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 22
+    },
+    {
+      "label": "quickly",
+      "pos": "ADV",
+      "id": 23
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 26
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 24
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 25
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 27
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 28
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 28
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "acl",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "dobj",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "xcomp",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "dep": "cc",
+      "source": 13,
+      "target": 19
+    },
+    {
+      "dep": "conj",
+      "source": 13,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "dobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "compound",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "neg",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "ccomp",
+      "source": 21,
+      "target": 26
+    },
+    {
+      "dep": "advmod",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "advmod",
+      "source": 26,
+      "target": 23
+    },
+    {
+      "dep": "nsubj",
+      "source": 26,
+      "target": 24
+    },
+    {
+      "dep": "aux",
+      "source": 26,
+      "target": 25
+    },
+    {
+      "dep": "prt",
+      "source": 26,
+      "target": 27
+    }
+  ]
+}

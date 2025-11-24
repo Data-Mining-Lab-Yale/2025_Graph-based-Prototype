@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "recommended",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 2
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 4
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "PET",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "3",
+      "pos": "NUM",
+      "id": 11
+    },
+    {
+      "label": "months",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 13
+    },
+    {
+      "label": "follow",
+      "pos": "VERB",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 14
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "nummod",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

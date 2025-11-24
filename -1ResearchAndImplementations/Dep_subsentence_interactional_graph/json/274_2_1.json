@@ -1,0 +1,24 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "labs",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "redrawn",
+      "pos": "NOUN",
+      "id": 1
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    }
+  ]
+}

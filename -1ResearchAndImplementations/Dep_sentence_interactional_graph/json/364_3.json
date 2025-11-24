@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "suggest",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "calling",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "floor",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "their",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "policy",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 13
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 15
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 16
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 17
+    },
+    {
+      "label": "visit",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "xcomp",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "attr",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "mark",
+      "source": 18,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 18,
+      "target": 15
+    },
+    {
+      "dep": "nsubj",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "aux",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "advcl",
+      "source": 18,
+      "target": 19
+    }
+  ]
+}

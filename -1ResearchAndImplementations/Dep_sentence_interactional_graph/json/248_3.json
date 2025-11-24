@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "Year",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "Happy",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "New",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

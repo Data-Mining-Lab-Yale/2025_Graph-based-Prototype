@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "oncologist",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "assigned",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "order",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 11
+    },
+    {
+      "label": "receive",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "medications",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 14
+    },
+    {
+      "label": "From",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "Org3",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acl",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "acl",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "dep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "det",
+      "source": 17,
+      "target": 16
+    }
+  ]
+}

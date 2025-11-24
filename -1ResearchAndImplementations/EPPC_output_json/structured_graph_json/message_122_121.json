@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good evening,     It two weeks since I finished chemo &  I not sure when this happen , but I have noticed my right big toe has a small amount of puss coming out of it. I did cut my toe nails down a week ago but didn notice any cut. I going to clean it with peroxide and see what happens. I also have an appt with Dr.Person1 on MM/DD/YYYY I can show him at that time also.",
+      "id": 121
+    },
+    {
+      "label": "sentence",
+      "text": "Good evening,     It two weeks since I finished chemo &  I not sure when this happen , but I have noticed my right big toe has a small amount of puss coming out of it.",
+      "id": "121_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good evening,",
+      "id": "121_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "It two weeks since I finished chemo &  I not sure when this happen",
+      "id": "121_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but I have noticed",
+      "id": "121_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "my right big toe has",
+      "id": "121_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "a small amount of puss coming out of it.",
+      "id": "121_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "I did cut my toe nails down a week ago but didn notice any cut.",
+      "id": "121_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I did cut my toe nails",
+      "id": "121_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "down a week ago but didn notice",
+      "id": "121_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "any cut.",
+      "id": "121_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I going to clean it with peroxide and see what happens.",
+      "id": "121_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I going to clean it with peroxide and see",
+      "id": "121_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "what happens",
+      "id": "121_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I also have an appt with Dr.Person1 on MM/DD/YYYY I can show him at that time also.",
+      "id": "121_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I also have an appt with Dr.Person1 on MM/DD/YYYY I can show",
+      "id": "121_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "him at that time also.",
+      "id": "121_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 121,
+      "target": "121_0"
+    },
+    {
+      "source": 121,
+      "target": "121_1"
+    },
+    {
+      "source": 121,
+      "target": "121_2"
+    },
+    {
+      "source": 121,
+      "target": "121_3"
+    },
+    {
+      "source": "121_0",
+      "target": "121_0_0"
+    },
+    {
+      "source": "121_0",
+      "target": "121_0_1"
+    },
+    {
+      "source": "121_0",
+      "target": "121_0_2"
+    },
+    {
+      "source": "121_0",
+      "target": "121_0_3"
+    },
+    {
+      "source": "121_0",
+      "target": "121_0_4"
+    },
+    {
+      "source": "121_1",
+      "target": "121_1_0"
+    },
+    {
+      "source": "121_1",
+      "target": "121_1_1"
+    },
+    {
+      "source": "121_1",
+      "target": "121_1_2"
+    },
+    {
+      "source": "121_2",
+      "target": "121_2_0"
+    },
+    {
+      "source": "121_2",
+      "target": "121_2_1"
+    },
+    {
+      "source": "121_3",
+      "target": "121_3_0"
+    },
+    {
+      "source": "121_3",
+      "target": "121_3_1"
+    }
+  ]
+}

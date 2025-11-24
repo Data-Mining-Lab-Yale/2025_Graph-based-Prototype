@@ -1,0 +1,274 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "type",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "surgery",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 4
+    },
+    {
+      "label": "usually",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "best",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "done",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "surgeon",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "oculoplastic",
+      "pos": "ADJ",
+      "id": 14
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 16
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 18
+    },
+    {
+      "label": "suggestions",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 21
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 24
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 22
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 23
+    },
+    {
+      "label": "helpful",
+      "pos": "ADJ",
+      "id": 25
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 26
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 16
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "relcl",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "agent",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "amod",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "dobj",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "advcl",
+      "source": 19,
+      "target": 24
+    },
+    {
+      "dep": "punct",
+      "source": 19,
+      "target": 26
+    },
+    {
+      "dep": "mark",
+      "source": 24,
+      "target": 21
+    },
+    {
+      "dep": "nsubj",
+      "source": 24,
+      "target": 22
+    },
+    {
+      "dep": "aux",
+      "source": 24,
+      "target": 23
+    },
+    {
+      "dep": "acomp",
+      "source": 24,
+      "target": 25
+    }
+  ]
+}

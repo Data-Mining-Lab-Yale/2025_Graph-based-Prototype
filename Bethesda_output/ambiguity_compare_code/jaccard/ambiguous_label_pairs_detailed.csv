@@ -1,6 +1,0 @@
-label_a,label_b,conflict_count,mean_similarity,median_similarity,max_similarity,min_similarity
-PartnershipPatient,PartnershipProvider,253,0.9773,1.0,1.0,0.6
-PartnershipPatient,SDOH,6,0.6222,0.6,0.6667,0.6
-CareCoordinationPatient,PartnershipPatient,4,0.6,0.6,0.6,0.6
-CareCoordinationPatient,CareCoordinationProvider,4,0.6667,0.6667,0.6667,0.6667
-PartnershipPatient,SharedDecisionPatient,2,0.6,0.6,0.6,0.6

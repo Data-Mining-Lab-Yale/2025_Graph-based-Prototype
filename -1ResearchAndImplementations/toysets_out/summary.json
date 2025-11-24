@@ -1,0 +1,85 @@
+{
+  "interactional_counts": {
+    "Information-Giving": 40
+  },
+  "goal_counts": {
+    "Diagnostics": 60,
+    "Drugs": 60,
+    "General_information": 60,
+    "Care_Coordination": 60,
+    "Scheduling_appt": 60,
+    "Symptoms": 60
+  },
+  "config": {
+    "interactional_labels": [
+      "Information-Giving",
+      "Information-Seeking",
+      "PATIENT_PARTNERSHIP (gratitude)",
+      "PROVIDER_PARTNERSHIP (maintain communication)",
+      "SDM (Seeking Approval)",
+      "Socioemotional (Express Concern)"
+    ],
+    "goal_labels": [
+      "Scheduling_appt",
+      "Diagnostics",
+      "Drugs",
+      "Symptoms",
+      "Care_Coordination",
+      "General_information"
+    ],
+    "label_aliases": {
+      "Information-Giving": {
+        "raw_exact": [
+          "Information-Giving"
+        ],
+        "raw_patterns": []
+      },
+      "Information-Seeking": {
+        "raw_exact": [
+          "Information-Seeking"
+        ],
+        "raw_patterns": []
+      },
+      "PATIENT_PARTNERSHIP (gratitude)": {
+        "raw_exact": [
+          "PATIENT_PARTNERSHIP_Gratitude",
+          "PATIENT_PARTNERSHIP_Appreciation"
+        ],
+        "raw_patterns": [
+          "^PATIENT_PARTNERSHIP.*gratitude.*",
+          "^PATIENT_PARTNERSHIP.*appreciation.*"
+        ]
+      },
+      "PROVIDER_PARTNERSHIP (maintain communication)": {
+        "raw_exact": [
+          "PROVIDER_PARTNERSHIP_Maintain_communication",
+          "PROVIDER_PARTNERSHIP_Invite_collaboration"
+        ],
+        "raw_patterns": [
+          "^PROVIDER_PARTNERSHIP.*maintain.*communication.*",
+          "^PROVIDER_PARTNERSHIP.*invite.*collab.*"
+        ]
+      },
+      "SDM (Seeking Approval)": {
+        "raw_exact": [
+          "PATIENT_SHARED-DECISION_MAKING_Seeking_Approval",
+          "PATIENT_SHARED-DECISION_MAKING_Approval"
+        ],
+        "raw_patterns": [
+          "^PATIENT_SHARED-DECISION_MAKING.*Seeking_Approval.*",
+          "^PATIENT_SHARED-DECISION_MAKING.*Approval.*"
+        ]
+      },
+      "Socioemotional (Express Concern)": {
+        "raw_exact": [
+          "Socioemotional_/_Empathy_Express_concern",
+          "Socioemotional_/_Empathy_Express_unease"
+        ],
+        "raw_patterns": [
+          "^Socioemotional.*Express_concern.*",
+          "^Socioemotional.*unease.*"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Sodium is still 128. How are we going to address this? I held the spironolactone Sat, Sun, Monday",
+      "id": 513
+    },
+    {
+      "label": "sentence",
+      "text": "Sodium is still 128.",
+      "id": "513_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sodium is still 128.",
+      "id": "513_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "How are we going to address this?",
+      "id": "513_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "How are we going to address this?",
+      "id": "513_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I held the spironolactone Sat, Sun, Monday",
+      "id": "513_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I held the spironolactone Sat,",
+      "id": "513_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sun,",
+      "id": "513_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Monday",
+      "id": "513_2_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 513,
+      "target": "513_0"
+    },
+    {
+      "source": 513,
+      "target": "513_1"
+    },
+    {
+      "source": 513,
+      "target": "513_2"
+    },
+    {
+      "source": "513_0",
+      "target": "513_0_0"
+    },
+    {
+      "source": "513_1",
+      "target": "513_1_0"
+    },
+    {
+      "source": "513_2",
+      "target": "513_2_0"
+    },
+    {
+      "source": "513_2",
+      "target": "513_2_1"
+    },
+    {
+      "source": "513_2",
+      "target": "513_2_2"
+    }
+  ]
+}

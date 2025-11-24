@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Still",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "seeing",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "lots",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "WBC",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 6
+    },
+    {
+      "label": "urine",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "dep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    }
+  ]
+}

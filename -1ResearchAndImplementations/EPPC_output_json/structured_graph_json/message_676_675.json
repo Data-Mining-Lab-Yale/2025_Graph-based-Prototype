@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning Person1,  Thanks so much for your reply. See you tomorrow. Thanks again,  Person2",
+      "id": 675
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning Person1,  Thanks so much for your reply.",
+      "id": "675_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning Person1,",
+      "id": "675_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much for your reply.",
+      "id": "675_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "See you tomorrow.",
+      "id": "675_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "See you tomorrow.",
+      "id": "675_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks again,  Person2",
+      "id": "675_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks again,",
+      "id": "675_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "675_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 675,
+      "target": "675_0"
+    },
+    {
+      "source": 675,
+      "target": "675_1"
+    },
+    {
+      "source": 675,
+      "target": "675_2"
+    },
+    {
+      "source": "675_0",
+      "target": "675_0_0"
+    },
+    {
+      "source": "675_0",
+      "target": "675_0_1"
+    },
+    {
+      "source": "675_1",
+      "target": "675_1_0"
+    },
+    {
+      "source": "675_2",
+      "target": "675_2_0"
+    },
+    {
+      "source": "675_2",
+      "target": "675_2_1"
+    }
+  ]
+}

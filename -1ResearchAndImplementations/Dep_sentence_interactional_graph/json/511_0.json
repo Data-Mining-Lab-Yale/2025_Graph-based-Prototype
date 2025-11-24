@@ -1,0 +1,234 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Morning",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Please",
+      "pos": "INTJ",
+      "id": 4
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "as",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "soon",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "possible",
+      "pos": "ADJ",
+      "id": 11
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 12
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 16
+    },
+    {
+      "label": "address",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "dad",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "sodium",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "low",
+      "pos": "ADJ",
+      "id": 20
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 22
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "dep": "advmod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "xcomp",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "dobj",
+      "source": 17,
+      "target": 21
+    },
+    {
+      "dep": "poss",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "nmod",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "amod",
+      "source": 21,
+      "target": 20
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "all",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "questions",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "immediate",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "team",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "inpatient",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "as",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

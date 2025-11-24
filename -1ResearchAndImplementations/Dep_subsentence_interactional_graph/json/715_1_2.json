@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "medication",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "yes",
+      "pos": "INTJ",
+      "id": 5
+    },
+    {
+      "label": "prescribe",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "imodium",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "intj",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    }
+  ]
+}

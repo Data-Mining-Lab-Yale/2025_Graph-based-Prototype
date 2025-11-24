@@ -72,5 +72,5 @@ Between May and October 2025, the work encompassed multiple concurrent research 
 **Prepared by:**  
 Yi-Chun (Rimi) Chen  
 Postdoctoral Associate, Yale University  
-**Period Covered:** May–October 2025
+**Period Covered:** May–Novmember 2025
 

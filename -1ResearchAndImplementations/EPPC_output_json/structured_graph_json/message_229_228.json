@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Dr. Person1,    It has been 2 years since my neck surgery and I am still having issues with my eyelid drooping  and the pupil not dilating. You had thought that the surgical clamp may have caused pressure on the nerve sheath and that this would resolve itself and eventually return to normal. Should I still expect that to be the case or would surgery to address the drooping lid be a better option? Appreciate your advice. Thank you,  Person2",
+      "id": 228
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Dr. Person1,    It has been 2 years since my neck surgery and I am still having issues with my eyelid drooping  and the pupil not dilating.",
+      "id": "228_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Dr. Person1,",
+      "id": "228_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "It has been 2 years since my neck surgery and I am still having issues with my eyelid drooping  and the pupil not dilating",
+      "id": "228_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "You had thought that the surgical clamp may have caused pressure on the nerve sheath and that this would resolve itself and eventually return to normal.",
+      "id": "228_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "You had thought that the surgical clamp may have caused",
+      "id": "228_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "pressure on the nerve sheath and that this would resolve",
+      "id": "228_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "itself and eventually return",
+      "id": "228_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to normal.",
+      "id": "228_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Should I still expect that to be the case or would surgery to address the drooping lid be a better option?",
+      "id": "228_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Should I still expect that to be",
+      "id": "228_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the case or would surgery",
+      "id": "228_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to address the drooping lid be",
+      "id": "228_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "a better option?",
+      "id": "228_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Appreciate your advice.",
+      "id": "228_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Appreciate your advice.",
+      "id": "228_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,  Person2",
+      "id": "228_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "228_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "228_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 228,
+      "target": "228_0"
+    },
+    {
+      "source": 228,
+      "target": "228_1"
+    },
+    {
+      "source": 228,
+      "target": "228_2"
+    },
+    {
+      "source": 228,
+      "target": "228_3"
+    },
+    {
+      "source": 228,
+      "target": "228_4"
+    },
+    {
+      "source": "228_0",
+      "target": "228_0_0"
+    },
+    {
+      "source": "228_0",
+      "target": "228_0_1"
+    },
+    {
+      "source": "228_1",
+      "target": "228_1_0"
+    },
+    {
+      "source": "228_1",
+      "target": "228_1_1"
+    },
+    {
+      "source": "228_1",
+      "target": "228_1_2"
+    },
+    {
+      "source": "228_1",
+      "target": "228_1_3"
+    },
+    {
+      "source": "228_2",
+      "target": "228_2_0"
+    },
+    {
+      "source": "228_2",
+      "target": "228_2_1"
+    },
+    {
+      "source": "228_2",
+      "target": "228_2_2"
+    },
+    {
+      "source": "228_2",
+      "target": "228_2_3"
+    },
+    {
+      "source": "228_3",
+      "target": "228_3_0"
+    },
+    {
+      "source": "228_4",
+      "target": "228_4_0"
+    },
+    {
+      "source": "228_4",
+      "target": "228_4_1"
+    }
+  ]
+}

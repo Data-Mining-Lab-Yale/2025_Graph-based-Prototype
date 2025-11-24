@@ -1,0 +1,184 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "spoke",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Person3",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 5
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "said",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 8
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 13
+    },
+    {
+      "label": "going",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 17
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "xcomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 17
+    },
+    {
+      "dep": "aux",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "npadvmod",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "ccomp",
+      "source": 11,
+      "target": 16
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

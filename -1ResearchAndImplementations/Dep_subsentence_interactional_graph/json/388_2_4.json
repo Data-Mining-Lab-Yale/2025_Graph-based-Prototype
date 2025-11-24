@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "ask",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "please",
+      "pos": "INTJ",
+      "id": 1
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

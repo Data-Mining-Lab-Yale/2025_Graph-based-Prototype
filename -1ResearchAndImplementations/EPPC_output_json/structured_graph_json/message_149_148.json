@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I will have Person3, APRN sign the orders and send the refill to your pharmacy! Let me know if there is anything else I can help you with! Thanks, Person2, RN",
+      "id": 148
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I will have Person3, APRN sign the orders and send the refill to your pharmacy!",
+      "id": "148_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "148_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will have",
+      "id": "148_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3,",
+      "id": "148_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "APRN sign the orders and send",
+      "id": "148_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "the refill to your pharmacy!",
+      "id": "148_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Let me know if there is anything else I can help you with!",
+      "id": "148_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Let me know",
+      "id": "148_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if there is",
+      "id": "148_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "anything else I can help",
+      "id": "148_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "you with!",
+      "id": "148_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks, Person2, RN",
+      "id": "148_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "148_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2,",
+      "id": "148_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "RN",
+      "id": "148_2_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 148,
+      "target": "148_0"
+    },
+    {
+      "source": 148,
+      "target": "148_1"
+    },
+    {
+      "source": 148,
+      "target": "148_2"
+    },
+    {
+      "source": "148_0",
+      "target": "148_0_0"
+    },
+    {
+      "source": "148_0",
+      "target": "148_0_1"
+    },
+    {
+      "source": "148_0",
+      "target": "148_0_2"
+    },
+    {
+      "source": "148_0",
+      "target": "148_0_3"
+    },
+    {
+      "source": "148_0",
+      "target": "148_0_4"
+    },
+    {
+      "source": "148_1",
+      "target": "148_1_0"
+    },
+    {
+      "source": "148_1",
+      "target": "148_1_1"
+    },
+    {
+      "source": "148_1",
+      "target": "148_1_2"
+    },
+    {
+      "source": "148_1",
+      "target": "148_1_3"
+    },
+    {
+      "source": "148_2",
+      "target": "148_2_0"
+    },
+    {
+      "source": "148_2",
+      "target": "148_2_1"
+    },
+    {
+      "source": "148_2",
+      "target": "148_2_2"
+    }
+  ]
+}

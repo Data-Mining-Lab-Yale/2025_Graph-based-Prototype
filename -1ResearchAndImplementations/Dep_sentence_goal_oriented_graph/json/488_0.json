@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "before",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "dr",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 14
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

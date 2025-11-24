@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Just",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "checking",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 4
+    },
+    {
+      "label": "looks",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "bloodwork",
+      "pos": "NOUN",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

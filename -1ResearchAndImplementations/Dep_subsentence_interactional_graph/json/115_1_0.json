@@ -1,0 +1,169 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Also",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "hold",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "off",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "starting",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "Ibrance",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "few",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "days",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 13
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prt",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "pcomp",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "quantmod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nummod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "cc",
+      "source": 16,
+      "target": 12
+    },
+    {
+      "dep": "mark",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    }
+  ]
+}

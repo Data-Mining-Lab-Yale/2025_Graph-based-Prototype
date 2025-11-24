@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Findings are in keeping with known osseous metastatic disease in both distal femurs. This is what was noted in the testing results. So it has traveled to my femurs and it also indicates that is is \"with known osseous metastatic disease\"  Will this now qualify me for both femur and knee inclusion in the next CAT scan? Thank you for your time.",
+      "id": 339
+    },
+    {
+      "label": "sentence",
+      "text": "Findings are in keeping with known osseous metastatic disease in both distal femurs.",
+      "id": "339_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Findings are in keeping with known osseous metastatic disease in both distal femurs.",
+      "id": "339_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "This is what was noted in the testing results.",
+      "id": "339_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "This is what was noted",
+      "id": "339_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in the testing results.",
+      "id": "339_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "So it has traveled to my femurs and it also indicates that is is \"with known osseous metastatic disease\"  Will this now qualify me for both femur and knee inclusion in the next CAT scan?",
+      "id": "339_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "So it has traveled to my femurs and it also indicates",
+      "id": "339_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "that is",
+      "id": "339_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "is \"with known osseous metastatic disease\"  Will this now qualify me for both femur and knee",
+      "id": "339_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "inclusion in the next CAT scan?",
+      "id": "339_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you for your time.",
+      "id": "339_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you for your time.",
+      "id": "339_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 339,
+      "target": "339_0"
+    },
+    {
+      "source": 339,
+      "target": "339_1"
+    },
+    {
+      "source": 339,
+      "target": "339_2"
+    },
+    {
+      "source": 339,
+      "target": "339_3"
+    },
+    {
+      "source": "339_0",
+      "target": "339_0_0"
+    },
+    {
+      "source": "339_1",
+      "target": "339_1_0"
+    },
+    {
+      "source": "339_1",
+      "target": "339_1_1"
+    },
+    {
+      "source": "339_2",
+      "target": "339_2_0"
+    },
+    {
+      "source": "339_2",
+      "target": "339_2_1"
+    },
+    {
+      "source": "339_2",
+      "target": "339_2_2"
+    },
+    {
+      "source": "339_2",
+      "target": "339_2_3"
+    },
+    {
+      "source": "339_3",
+      "target": "339_3_0"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr Person1, I sent your message on to DR  Person2 and will let you know who she recommends",
+      "id": 173
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr Person1, I sent your message on to DR  Person2 and will let you know who she recommends",
+      "id": "173_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr Person1,",
+      "id": "173_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I sent your message on to DR  Person2 and will let",
+      "id": "173_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "you know",
+      "id": "173_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "who she recommends",
+      "id": "173_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 173,
+      "target": "173_0"
+    },
+    {
+      "source": "173_0",
+      "target": "173_0_0"
+    },
+    {
+      "source": "173_0",
+      "target": "173_0_1"
+    },
+    {
+      "source": "173_0",
+      "target": "173_0_2"
+    },
+    {
+      "source": "173_0",
+      "target": "173_0_3"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "wondering",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "refill",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "RX",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "discussed",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "video",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 22
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "relcl",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "prep",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "npadvmod",
+      "source": 16,
+      "target": 21
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 20
+    },
+    {
+      "dep": "poss",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "compound",
+      "source": 20,
+      "target": 19
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "So",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "traveled",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "femurs",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "indicates",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "\"",
+      "pos": "PUNCT",
+      "id": 14
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "known",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "disease",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "osseous",
+      "pos": "ADJ",
+      "id": 17
+    },
+    {
+      "label": "metastatic",
+      "pos": "ADJ",
+      "id": 18
+    },
+    {
+      "label": "\"",
+      "pos": "PUNCT",
+      "id": 20
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 21
+    },
+    {
+      "label": "Will",
+      "pos": "AUX",
+      "id": 22
+    },
+    {
+      "label": "qualify",
+      "pos": "VERB",
+      "id": 25
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 23
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 24
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 26
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 27
+    },
+    {
+      "label": "both",
+      "pos": "PRON",
+      "id": 28
+    },
+    {
+      "label": "femur",
+      "pos": "NOUN",
+      "id": 29
+    },
+    {
+      "label": "inclusion",
+      "pos": "NOUN",
+      "id": 32
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 30
+    },
+    {
+      "label": "knee",
+      "pos": "NOUN",
+      "id": 31
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 33
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 34
+    },
+    {
+      "label": "scan",
+      "pos": "PROPN",
+      "id": 37
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 35
+    },
+    {
+      "label": "CAT",
+      "pos": "PROPN",
+      "id": 36
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 38
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "ccomp",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "attr",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 20
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "dep": "amod",
+      "source": 19,
+      "target": 16
+    },
+    {
+      "dep": "amod",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "amod",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "dep",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 25,
+      "target": 22
+    },
+    {
+      "dep": "nsubj",
+      "source": 25,
+      "target": 23
+    },
+    {
+      "dep": "advmod",
+      "source": 25,
+      "target": 24
+    },
+    {
+      "dep": "dobj",
+      "source": 25,
+      "target": 26
+    },
+    {
+      "dep": "prep",
+      "source": 25,
+      "target": 27
+    },
+    {
+      "dep": "punct",
+      "source": 25,
+      "target": 38
+    },
+    {
+      "dep": "pobj",
+      "source": 27,
+      "target": 32
+    },
+    {
+      "dep": "preconj",
+      "source": 29,
+      "target": 28
+    },
+    {
+      "dep": "cc",
+      "source": 29,
+      "target": 30
+    },
+    {
+      "dep": "conj",
+      "source": 29,
+      "target": 31
+    },
+    {
+      "dep": "nmod",
+      "source": 32,
+      "target": 29
+    },
+    {
+      "dep": "prep",
+      "source": 32,
+      "target": 33
+    },
+    {
+      "dep": "pobj",
+      "source": 33,
+      "target": 37
+    },
+    {
+      "dep": "det",
+      "source": 37,
+      "target": 34
+    },
+    {
+      "dep": "amod",
+      "source": 37,
+      "target": 35
+    },
+    {
+      "dep": "compound",
+      "source": 37,
+      "target": 36
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "scan",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 5
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nmod",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

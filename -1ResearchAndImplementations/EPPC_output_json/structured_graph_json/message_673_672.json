@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr. Person1,  Thanks so much for your reply. Be safe. Regards,  Person2",
+      "id": 672
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr. Person1,  Thanks so much for your reply.",
+      "id": "672_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr. Person1,",
+      "id": "672_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much for your reply.",
+      "id": "672_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Be safe.",
+      "id": "672_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Be safe.",
+      "id": "672_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Regards,  Person2",
+      "id": "672_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Regards,",
+      "id": "672_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "672_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 672,
+      "target": "672_0"
+    },
+    {
+      "source": 672,
+      "target": "672_1"
+    },
+    {
+      "source": 672,
+      "target": "672_2"
+    },
+    {
+      "source": "672_0",
+      "target": "672_0_0"
+    },
+    {
+      "source": "672_0",
+      "target": "672_0_1"
+    },
+    {
+      "source": "672_1",
+      "target": "672_1_0"
+    },
+    {
+      "source": "672_2",
+      "target": "672_2_0"
+    },
+    {
+      "source": "672_2",
+      "target": "672_2_1"
+    }
+  ]
+}

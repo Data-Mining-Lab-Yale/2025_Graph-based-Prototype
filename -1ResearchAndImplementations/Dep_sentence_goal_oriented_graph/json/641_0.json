@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "how",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "involved",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "Org",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "got",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 10
+    },
+    {
+      "label": "do",
+      "pos": "AUX",
+      "id": 11
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "script",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "org",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "yesterday",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 20
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "ccomp",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "auxpass",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "agent",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "npadvmod",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 18
+    }
+  ]
+}

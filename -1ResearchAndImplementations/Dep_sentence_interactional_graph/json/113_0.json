@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "Do",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "usually",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "restarting",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "intj",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 9
+    }
+  ]
+}

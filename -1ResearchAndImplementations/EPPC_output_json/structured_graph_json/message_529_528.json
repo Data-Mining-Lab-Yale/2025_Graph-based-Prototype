@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ok thank you. Just monitor tonight and over the weekend - - take a pen are circle the redness - watch for the redness to spread outside of the pen lines.",
+      "id": 528
+    },
+    {
+      "label": "sentence",
+      "text": "Ok thank you.",
+      "id": "528_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok thank you.",
+      "id": "528_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Just monitor tonight and over the weekend - - take a pen are circle the redness - watch for the redness to spread outside of the pen lines.",
+      "id": "528_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Just monitor",
+      "id": "528_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "tonight and over the weekend - - take",
+      "id": "528_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a pen are circle the redness - watch for the redness to spread",
+      "id": "528_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "outside of the pen lines.",
+      "id": "528_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 528,
+      "target": "528_0"
+    },
+    {
+      "source": 528,
+      "target": "528_1"
+    },
+    {
+      "source": "528_0",
+      "target": "528_0_0"
+    },
+    {
+      "source": "528_1",
+      "target": "528_1_0"
+    },
+    {
+      "source": "528_1",
+      "target": "528_1_1"
+    },
+    {
+      "source": "528_1",
+      "target": "528_1_2"
+    },
+    {
+      "source": "528_1",
+      "target": "528_1_3"
+    }
+  ]
+}

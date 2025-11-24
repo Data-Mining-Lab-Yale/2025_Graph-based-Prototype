@@ -1,0 +1,384 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "As",
+      "pos": "ADP",
+      "id": 0
+    },
+    {
+      "label": "need",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 1
+    },
+    {
+      "label": "reminder",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "find",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "way",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "Person4",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "into",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "rehab",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 14
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 15
+    },
+    {
+      "label": "benefit",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "own",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 18
+    },
+    {
+      "label": "so",
+      "pos": "SCONJ",
+      "id": 19
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 23
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 20
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 21
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 22
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 24
+    },
+    {
+      "label": "adjustments",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": "home",
+      "pos": "NOUN",
+      "id": 25
+    },
+    {
+      "label": "support",
+      "pos": "VERB",
+      "id": 31
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 27
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 28
+    },
+    {
+      "label": "bathroom",
+      "pos": "NOUN",
+      "id": 29
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 30
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 32
+    },
+    {
+      "label": "independence",
+      "pos": "NOUN",
+      "id": 33
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 34
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 35
+    },
+    {
+      "label": "mobility",
+      "pos": "NOUN",
+      "id": 36
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 37
+    }
+  ],
+  "links": [
+    {
+      "dep": "pobj",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "cc",
+      "source": 4,
+      "target": 18
+    },
+    {
+      "dep": "conj",
+      "source": 4,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 37
+    },
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "relcl",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "dep": "poss",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "amod",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "mark",
+      "source": 23,
+      "target": 19
+    },
+    {
+      "dep": "mark",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "dep": "nsubj",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "ccomp",
+      "source": 23,
+      "target": 31
+    },
+    {
+      "dep": "det",
+      "source": 26,
+      "target": 24
+    },
+    {
+      "dep": "compound",
+      "source": 26,
+      "target": 25
+    },
+    {
+      "dep": "prep",
+      "source": 26,
+      "target": 27
+    },
+    {
+      "dep": "nsubj",
+      "source": 31,
+      "target": 26
+    },
+    {
+      "dep": "aux",
+      "source": 31,
+      "target": 30
+    },
+    {
+      "dep": "dobj",
+      "source": 31,
+      "target": 33
+    },
+    {
+      "dep": "pobj",
+      "source": 27,
+      "target": 29
+    },
+    {
+      "dep": "poss",
+      "source": 29,
+      "target": 28
+    },
+    {
+      "dep": "poss",
+      "source": 33,
+      "target": 32
+    },
+    {
+      "dep": "cc",
+      "source": 33,
+      "target": 34
+    },
+    {
+      "dep": "conj",
+      "source": 33,
+      "target": 36
+    },
+    {
+      "dep": "poss",
+      "source": 36,
+      "target": 35
+    }
+  ]
+}

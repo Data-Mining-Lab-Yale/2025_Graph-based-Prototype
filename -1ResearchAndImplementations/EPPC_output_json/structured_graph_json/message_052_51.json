@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning,  My primary, Dr. Person1, has given me the green light to get a covid booster shot. Do I have the Ok from Dr. Person2?",
+      "id": 51
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning,  My primary, Dr. Person1, has given me the green light to get a covid booster shot.",
+      "id": "51_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "51_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "My primary,",
+      "id": "51_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person1,",
+      "id": "51_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "has given me the green light to get",
+      "id": "51_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "a covid booster shot.",
+      "id": "51_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Do I have the Ok from Dr. Person2?",
+      "id": "51_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do I have the Ok from Dr. Person2?",
+      "id": "51_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 51,
+      "target": "51_0"
+    },
+    {
+      "source": 51,
+      "target": "51_1"
+    },
+    {
+      "source": "51_0",
+      "target": "51_0_0"
+    },
+    {
+      "source": "51_0",
+      "target": "51_0_1"
+    },
+    {
+      "source": "51_0",
+      "target": "51_0_2"
+    },
+    {
+      "source": "51_0",
+      "target": "51_0_3"
+    },
+    {
+      "source": "51_0",
+      "target": "51_0_4"
+    },
+    {
+      "source": "51_1",
+      "target": "51_1_0"
+    }
+  ]
+}

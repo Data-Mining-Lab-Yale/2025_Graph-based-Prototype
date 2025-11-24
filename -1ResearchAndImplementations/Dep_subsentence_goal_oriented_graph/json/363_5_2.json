@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "shots",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "Covid",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    }
+  ]
+}

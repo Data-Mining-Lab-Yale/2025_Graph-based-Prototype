@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I confirmed with Dr  Person1 that Person2 will be getting treated tomorrow. Thanks  Person3 RN",
+      "id": 491
+    },
+    {
+      "label": "sentence",
+      "text": "I confirmed with Dr  Person1 that Person2 will be getting treated tomorrow.",
+      "id": "491_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I confirmed with Dr  Person1 that Person2 will be getting treated",
+      "id": "491_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "tomorrow.",
+      "id": "491_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks  Person3 RN",
+      "id": "491_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks  Person3 RN",
+      "id": "491_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 491,
+      "target": "491_0"
+    },
+    {
+      "source": 491,
+      "target": "491_1"
+    },
+    {
+      "source": "491_0",
+      "target": "491_0_0"
+    },
+    {
+      "source": "491_0",
+      "target": "491_0_1"
+    },
+    {
+      "source": "491_1",
+      "target": "491_1_0"
+    }
+  ]
+}

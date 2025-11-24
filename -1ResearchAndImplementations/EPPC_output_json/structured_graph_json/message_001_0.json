@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi there,    1)   He definitely needs/ an appt to review the PET scan with Dr. Person1, Im sorry  that wasn't set up earlier, we can  set something up for MM/DD/YYYY. In person or telemed? 2)   Also , Dr. Person1 would be happy to see you to r/o hemachromatosis, let me know/IS if you need help getting an  appt Person2",
+      "id": 0
+    },
+    {
+      "label": "sentence",
+      "text": "Hi there,    1)   He definitely needs/ an appt to review the PET scan with Dr. Person1, Im sorry  that wasn't set up earlier, we can  set something up for MM/DD/YYYY.",
+      "id": "0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi there,",
+      "id": "0_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "1)   He definitely needs/",
+      "id": "0_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "an appt to review",
+      "id": "0_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "the PET scan with Dr. Person1,",
+      "id": "0_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Im",
+      "id": "0_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "sorry  that wasn't set",
+      "id": "0_0_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "up earlier,",
+      "id": "0_0_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "we can  set something up for MM/DD/YYYY.",
+      "id": "0_0_7"
+    },
+    {
+      "label": "sentence",
+      "text": "In person or telemed?",
+      "id": "0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "In person or telemed",
+      "id": "0_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "2)   Also , Dr. Person1 would be happy to see you to r/o hemachromatosis, let me know/IS if you need help getting an  appt Person2",
+      "id": "0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "2)   Also ,",
+      "id": "0_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person1 would be",
+      "id": "0_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "happy to see you to r/o hemachromatosis,",
+      "id": "0_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "let",
+      "id": "0_2_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "me know",
+      "id": "0_2_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "/IS if you need",
+      "id": "0_2_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "help getting an  appt Person2",
+      "id": "0_2_6"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": "0_0"
+    },
+    {
+      "source": 0,
+      "target": "0_1"
+    },
+    {
+      "source": 0,
+      "target": "0_2"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_0"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_1"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_2"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_3"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_4"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_5"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_6"
+    },
+    {
+      "source": "0_0",
+      "target": "0_0_7"
+    },
+    {
+      "source": "0_1",
+      "target": "0_1_0"
+    },
+    {
+      "source": "0_2",
+      "target": "0_2_0"
+    },
+    {
+      "source": "0_2",
+      "target": "0_2_1"
+    },
+    {
+      "source": "0_2",
+      "target": "0_2_2"
+    },
+    {
+      "source": "0_2",
+      "target": "0_2_3"
+    },
+    {
+      "source": "0_2",
+      "target": "0_2_4"
+    },
+    {
+      "source": "0_2",
+      "target": "0_2_5"
+    },
+    {
+      "source": "0_2",
+      "target": "0_2_6"
+    }
+  ]
+}

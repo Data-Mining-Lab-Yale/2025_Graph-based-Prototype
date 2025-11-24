@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "They",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "ordered",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "CT",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "of",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "neck",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 14
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 15
+    },
+    {
+      "label": "consultation",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "ENT",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 20
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 22
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 24
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "cc",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "conj",
+      "source": 13,
+      "target": 17
+    },
+    {
+      "dep": "punct",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "dep": "compound",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 23
+    },
+    {
+      "dep": "nmod",
+      "source": 23,
+      "target": 19
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "dep": "nmod",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 22
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+Class,Support,Precision,Recall,F1 Score
+AcknowledgeError,1.0,0.0,0.0,0.0
+Alignment,3.0,0.0,0.0,0.0
+Appreciation/Gratitude,1.0,0.0,0.0,0.0
+Approval/Reinforcement,1.0,0.0,0.0,0.0
+ApprovalofDecision/Reinforcement,1.0,0.0,0.0,0.0
+Diagnostics,11.0,0.0,0.0,0.0
+Drugs,6.0,0.0,0.0,0.0
+EconomicStability,2.0,0.0,0.0,0.0
+EncourageQuestions,0.0,0.0,0.0,0.0
+ExploreOptions,1.0,0.0,0.0,0.0
+ExpressConcern/unease,1.0,0.0,0.0,0.0
+Generalinformation,11.0,0.0,0.0,0.0
+HealthCareAccessAndQuality,7.0,0.0,0.0,0.0
+Instruction,3.0,0.0,0.0,0.0
+MakeDecision,1.0,0.0,0.0,0.0
+PositiveRemarks,1.0,0.0,0.0,0.0
+Reassurance,1.0,0.0,0.0,0.0
+Sadness/fear,0.0,0.0,0.0,0.0
+SchedulingAppt,10.0,0.0,0.0,0.0
+SeekingApproval,3.0,0.0,0.0,0.0
+ShareOptions,1.0,0.0,0.0,0.0
+SummarizeConfirmUnderstanding,1.0,0.0,0.0,0.0
+Symptoms,10.0,0.0,0.0,0.0
+activeParticipation/involvement,10.0,0.0,0.0,0.0
+build trust,1.0,0.0,0.0,0.0
+carecoordination,8.0,0.0,0.0,0.0
+checkingUnderstanding/clarification,1.0,0.0,0.0,0.0
+connection,6.0,0.0,0.0,0.0
+expressOpinions,5.0,0.0,0.0,0.0
+inviteCollaboration,2.0,0.0,0.0,0.0
+maintainCommunication,8.0,0.0,0.0,0.0
+salutation,2.0,0.0,0.0,0.0
+signoff,1.0,0.0,0.0,0.0
+statePreferences,4.0,0.0,0.0,0.0

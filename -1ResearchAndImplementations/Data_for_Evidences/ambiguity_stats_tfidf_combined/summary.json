@@ -1,0 +1,13 @@
+{
+  "N": 2602,
+  "num_labels": 50,
+  "mean_cross_label_neighbor_rate": 0.24336407891365616,
+  "median_cross_label_neighbor_rate": 0.0,
+  "top_k_neighbors": 5,
+  "similarity_threshold": 0.55,
+  "representation": "tfidf",
+  "embedding_name": "tfidf",
+  "similarity_metric": "cosine",
+  "label_level": "combined",
+  "require_both_for_combined": true
+}

@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "It",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "Org1",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "orthopedics",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Location",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "therapist",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "physical",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "attr",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "amod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "attr",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 12
+    }
+  ]
+}

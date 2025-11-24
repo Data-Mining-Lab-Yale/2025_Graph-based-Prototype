@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "First in am or last appointment of day  after 4 pm I am working. Thank you",
+      "id": 725
+    },
+    {
+      "label": "sentence",
+      "text": "First in am or last appointment of day  after 4 pm I am working.",
+      "id": "725_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "First in am or last appointment",
+      "id": "725_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "of day  after 4 pm I am working.",
+      "id": "725_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you",
+      "id": "725_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you",
+      "id": "725_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 725,
+      "target": "725_0"
+    },
+    {
+      "source": 725,
+      "target": "725_1"
+    },
+    {
+      "source": "725_0",
+      "target": "725_0_0"
+    },
+    {
+      "source": "725_0",
+      "target": "725_0_1"
+    },
+    {
+      "source": "725_1",
+      "target": "725_1_0"
+    }
+  ]
+}

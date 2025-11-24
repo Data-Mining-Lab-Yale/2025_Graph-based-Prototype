@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi    I need a dexamethasone 2 mg refill authorized at Org2. Thanks     Person1",
+      "id": 459
+    },
+    {
+      "label": "sentence",
+      "text": "Hi    I need a dexamethasone 2 mg refill authorized at Org2.",
+      "id": "459_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi    I need a dexamethasone 2 mg refill authorized at Org2.",
+      "id": "459_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks     Person1",
+      "id": "459_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks     Person1",
+      "id": "459_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 459,
+      "target": "459_0"
+    },
+    {
+      "source": 459,
+      "target": "459_1"
+    },
+    {
+      "source": "459_0",
+      "target": "459_0_0"
+    },
+    {
+      "source": "459_1",
+      "target": "459_1_0"
+    }
+  ]
+}

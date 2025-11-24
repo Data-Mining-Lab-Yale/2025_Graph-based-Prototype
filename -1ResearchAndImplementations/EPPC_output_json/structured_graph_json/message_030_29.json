@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "That's what I thought but wanted to be sure. Have a great day too! Person1",
+      "id": 29
+    },
+    {
+      "label": "sentence",
+      "text": "That's what I thought but wanted to be sure.",
+      "id": "29_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "That's what I thought",
+      "id": "29_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but wanted",
+      "id": "29_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to be sure.",
+      "id": "29_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Have a great day too!",
+      "id": "29_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have a great day too!",
+      "id": "29_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person1",
+      "id": "29_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "29_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 29,
+      "target": "29_0"
+    },
+    {
+      "source": 29,
+      "target": "29_1"
+    },
+    {
+      "source": 29,
+      "target": "29_2"
+    },
+    {
+      "source": "29_0",
+      "target": "29_0_0"
+    },
+    {
+      "source": "29_0",
+      "target": "29_0_1"
+    },
+    {
+      "source": "29_0",
+      "target": "29_0_2"
+    },
+    {
+      "source": "29_1",
+      "target": "29_1_0"
+    },
+    {
+      "source": "29_2",
+      "target": "29_2_0"
+    }
+  ]
+}

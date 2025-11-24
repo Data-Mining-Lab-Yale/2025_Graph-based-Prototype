@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Best",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "thing",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "follow",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "up",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "ENT",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    },
+    {
+      "label": "which",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "doing",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "relcl",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prt",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "relcl",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "dep": "dobj",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

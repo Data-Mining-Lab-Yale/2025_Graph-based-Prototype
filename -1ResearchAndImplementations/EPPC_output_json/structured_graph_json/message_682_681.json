@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good afternoon Yes a referral has been placed for genetics They should be reaching out to you Their phone number is XXX-XXX-XXXX Enjoy your weekend",
+      "id": 681
+    },
+    {
+      "label": "sentence",
+      "text": "Good afternoon Yes a referral has been placed for genetics They should be reaching out to you Their phone number is XXX-XXX-XXXX Enjoy your weekend",
+      "id": "681_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good afternoon Yes a referral has been placed for genetics They should be reaching",
+      "id": "681_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "out to you Their phone number is",
+      "id": "681_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "XXX-XXX-XXXX Enjoy your weekend",
+      "id": "681_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 681,
+      "target": "681_0"
+    },
+    {
+      "source": "681_0",
+      "target": "681_0_0"
+    },
+    {
+      "source": "681_0",
+      "target": "681_0_1"
+    },
+    {
+      "source": "681_0",
+      "target": "681_0_2"
+    }
+  ]
+}

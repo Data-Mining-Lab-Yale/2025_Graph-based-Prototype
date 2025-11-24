@@ -1,0 +1,121 @@
+pair,src_label,src_text,nbr_label,nbr_text,similarity
+Appreciation/Gratitude || signoff,signoff,Thank you for your time,Appreciation/Gratitude,thank you for your time and your assistance,0.7143
+Appreciation/Gratitude || signoff,signoff,Thank you for your time,Appreciation/Gratitude,Thank you so much for your time,0.7143
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank You,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank You,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+activeParticipation/involvement || statePreferences,statePreferences,I want to change to,activeParticipation/involvement,I want to change,1.0
+activeParticipation/involvement || statePreferences,statePreferences,I want to change to,activeParticipation/involvement,I want to change,1.0
+activeParticipation/involvement || statePreferences,statePreferences,I want to change to,activeParticipation/involvement,I want to see,0.6
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you so much,signoff,Thank you very much,0.6
+Clinical care || HealthCareAccessAndQuality,Clinical care,pain after I eat,HealthCareAccessAndQuality,after I eat anything,0.6
+Clinical care || HealthCareAccessAndQuality,HealthCareAccessAndQuality,after I eat anything,Clinical care,pain after I eat,0.6
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank You,1.0
+Appreciation/Gratitude || signoff,signoff,Thank you,Appreciation/Gratitude,Thank you,1.0
+NeighborhoodAndBuiltEnvironment || SocialAndCommunityContext,SocialAndCommunityContext,husband out of town,NeighborhoodAndBuiltEnvironment,being out of town,0.6
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thanks!,signoff,Thanks!,1.0
+Appreciation/Gratitude || signoff,signoff,Thanks!,Appreciation/Gratitude,Thanks!,1.0
+Appreciation/Gratitude || signoff,signoff,Thanks!,Appreciation/Gratitude,Thanks!,1.0
+Appreciation/Gratitude || signoff,signoff,Thank You,Appreciation/Gratitude,Thank you,1.0
+Appreciation/Gratitude || signoff,signoff,Thank You,Appreciation/Gratitude,Thank You,1.0
+Appreciation/Gratitude || signoff,signoff,Thank You,Appreciation/Gratitude,Thank you,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you,signoff,Thank you,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you,signoff,Thank you,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you,signoff,Thank you,1.0
+Appreciation/Gratitude || signoff,Appreciation/Gratitude,Thank you,signoff,Thank you,1.0
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I have a question,Clinical care,I have a cavity,0.6
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,let me know,maintainCommunication,Please let me know,0.75
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,let me know,maintainCommunication,Please let me know,0.75
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,I will call you asap,0.6667
+activeParticipation/involvement || maintainCommunication,maintainCommunication,I will call you back,activeParticipation/involvement,I  will  call,0.6
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,I  will  call,maintainCommunication,I will call you back,0.6
+Clinical care || activeParticipation/involvement,Clinical care,have not been taking it,activeParticipation/involvement,have not been,0.6
+Clinical care || connection,Clinical care,I had a visit las,connection,I had a wonderful visit,0.6667
+NeighborhoodAndBuiltEnvironment || SocialAndCommunityContext,NeighborhoodAndBuiltEnvironment,being out of town,SocialAndCommunityContext,husband out of town,0.6
+Clinical care || activeParticipation/involvement,Clinical care,I have been taking Benadryl,activeParticipation/involvement,I have been taking them,0.6667
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I did not get it,Clinical care,I did not get hurt,0.6667
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just need,expressOpinions,I need,0.6667
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,please let me know,maintainCommunication,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,please let me know,maintainCommunication,Please let me know,1.0
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I just need,expressOpinions,I need,0.6667
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I would like to see,statePreferences,I would like to have,0.6667
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I would like to see,expressOpinions,I would like,0.6
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I need to,expressOpinions,I need,0.6667
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I need,expressOpinions,I need,1.0
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I would like to,statePreferences,I would like to have,0.8
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I would like to,expressOpinions,I would like,0.75
+activeParticipation/involvement || connection,connection,look forward to hearing from you,activeParticipation/involvement,I look forward to hearing from you,0.8571
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,let me know,0.75
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Could you please let me know,0.6667
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know,maintainCommunication,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know,maintainCommunication,Please let me know,1.0
+Clinical care || activeParticipation/involvement,Clinical care,I did not get hurt,activeParticipation/involvement,I did not get it,0.6667
+Clinical Care || Clinical care,Clinical Care,to set up the appointment,Clinical care,appointment set up,0.6
+activeParticipation/involvement || expressOpinions,expressOpinions,I would like,activeParticipation/involvement,I would like to,0.75
+expressOpinions || statePreferences,expressOpinions,I would like,statePreferences,I would like to have,0.6
+activeParticipation/involvement || expressOpinions,expressOpinions,I would like,activeParticipation/involvement,I would like to see,0.6
+activeParticipation/involvement || expressOpinions,expressOpinions,I would like,activeParticipation/involvement,I would like to see,0.6
+Clinical care || checkingUnderstanding/clarification,Clinical care,Please see attached letter,checkingUnderstanding/clarification,Please see attached letter,1.0
+HealthCareAccessAndQuality || activeParticipation/involvement,activeParticipation/involvement,I have gotten,HealthCareAccessAndQuality,I have recently gotten insurance,0.6
+Clinical care || SeekingApproval,Clinical care,if I can get refills,SeekingApproval,Can I get,0.6
+activeParticipation/involvement || statePreferences,statePreferences,I would like to have,activeParticipation/involvement,I would like to,0.8
+activeParticipation/involvement || statePreferences,statePreferences,I would like to have,activeParticipation/involvement,I would like to see,0.6667
+activeParticipation/involvement || statePreferences,statePreferences,I would like to have,activeParticipation/involvement,I would like to see,0.6667
+expressOpinions || statePreferences,statePreferences,I would like to have,expressOpinions,I would like,0.6
+Clinical care || SeekingApproval,SeekingApproval,Can I get,Clinical care,if I can get refills,0.6
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,let me know,0.75
+activeParticipation/involvement || maintainCommunication,maintainCommunication,Please let me know,activeParticipation/involvement,Could you please let me know,0.6667
+EconomicStability || activeParticipation/involvement,EconomicStability,I would pay half,activeParticipation/involvement,Would I pay half of $427,0.6667
+EconomicStability || activeParticipation/involvement,activeParticipation/involvement,Would I pay half of $427,EconomicStability,I would pay half,0.6667
+HealthCareAccessAndQuality || activeParticipation/involvement,HealthCareAccessAndQuality,I have recently gotten insurance,activeParticipation/involvement,I have gotten,0.6
+activeParticipation/involvement || connection,activeParticipation/involvement,I look forward to hearing from you,connection,look forward to hearing from you,0.8571
+Clinical care || connection,connection,I had a wonderful visit,Clinical care,I had a visit las,0.6667
+activeParticipation/involvement || expressOpinions,expressOpinions,I need,activeParticipation/involvement,I need,1.0
+activeParticipation/involvement || expressOpinions,expressOpinions,I need,activeParticipation/involvement,I will need,0.6667
+activeParticipation/involvement || expressOpinions,expressOpinions,I need,activeParticipation/involvement,I might need,0.6667
+activeParticipation/involvement || expressOpinions,expressOpinions,I need,activeParticipation/involvement,I need to,0.6667
+activeParticipation/involvement || expressOpinions,expressOpinions,I need,activeParticipation/involvement,I just need,0.6667
+activeParticipation/involvement || expressOpinions,expressOpinions,I need,activeParticipation/involvement,I might need,0.6667
+activeParticipation/involvement || expressOpinions,expressOpinions,I need,activeParticipation/involvement,I just need,0.6667
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know,maintainCommunication,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know,maintainCommunication,Please let me know,1.0
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I have been taking them,Clinical care,I have been taking Benadryl,0.6667
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know,maintainCommunication,Please let me know,1.0
+activeParticipation/involvement || maintainCommunication,activeParticipation/involvement,Please let me know,maintainCommunication,Please let me know,1.0
+Clinical Care || Clinical care,Clinical care,appointment set up,Clinical Care,to set up the appointment,0.6
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I need,expressOpinions,I need,1.0
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I might need,expressOpinions,I need,0.6667
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,have not been,Clinical care,have not been taking it,0.6
+Clinical care || activeParticipation/involvement,Clinical care,I have a cavity,activeParticipation/involvement,I have a question,0.6
+Clinical care || activeParticipation/involvement,Clinical care,I have a cavity,activeParticipation/involvement,I have a question,0.6
+Clinical care || activeParticipation/involvement,activeParticipation/involvement,I have a question,Clinical care,I have a cavity,0.6
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,Hi,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,HI,1.0
+Clinical care || salutation,Clinical care,Hi,salutation,hi,1.0
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I want to see,statePreferences,I want to change to,0.6
+activeParticipation/involvement || statePreferences,activeParticipation/involvement,I would like to see,statePreferences,I would like to have,0.6667
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I would like to see,expressOpinions,I would like,0.6
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I might need,expressOpinions,I need,0.6667
+activeParticipation/involvement || expressOpinions,activeParticipation/involvement,I will need,expressOpinions,I need,0.6667

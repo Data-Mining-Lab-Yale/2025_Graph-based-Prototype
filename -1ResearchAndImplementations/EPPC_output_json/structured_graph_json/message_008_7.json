@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "This should ok, please call XXX-XXX-XXXX and let them know that you have a prescription for a PET scan and  that you want him to have it a LOCATION.",
+      "id": 7
+    },
+    {
+      "label": "sentence",
+      "text": "This should ok, please call XXX-XXX-XXXX and let them know that you have a prescription for a PET scan and  that you want him to have it a LOCATION.",
+      "id": "7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "This should ok",
+      "id": "7_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "please call XXX-XXX-XXXX and let",
+      "id": "7_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "them know",
+      "id": "7_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "that you have",
+      "id": "7_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "a prescription for a PET scan and  that you want",
+      "id": "7_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "him to have",
+      "id": "7_0_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "it a LOCATION.",
+      "id": "7_0_6"
+    }
+  ],
+  "links": [
+    {
+      "source": 7,
+      "target": "7_0"
+    },
+    {
+      "source": "7_0",
+      "target": "7_0_0"
+    },
+    {
+      "source": "7_0",
+      "target": "7_0_1"
+    },
+    {
+      "source": "7_0",
+      "target": "7_0_2"
+    },
+    {
+      "source": "7_0",
+      "target": "7_0_3"
+    },
+    {
+      "source": "7_0",
+      "target": "7_0_4"
+    },
+    {
+      "source": "7_0",
+      "target": "7_0_5"
+    },
+    {
+      "source": "7_0",
+      "target": "7_0_6"
+    }
+  ]
+}

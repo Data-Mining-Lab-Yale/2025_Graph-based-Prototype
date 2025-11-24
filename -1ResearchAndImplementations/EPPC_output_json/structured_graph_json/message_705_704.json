@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good Morning Person, Hello. I am Person1 the Rad ONc Nurse Coordinator. We try to triage the nursing in-basket.",
+      "id": 704
+    },
+    {
+      "label": "sentence",
+      "text": "Good Morning Person, Hello.",
+      "id": "704_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good Morning Person,",
+      "id": "704_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello.",
+      "id": "704_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I am Person1 the Rad ONc Nurse Coordinator.",
+      "id": "704_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am Person1 the Rad ONc Nurse Coordinator.",
+      "id": "704_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "We try to triage the nursing in-basket.",
+      "id": "704_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "We try to triage the nursing in-basket.",
+      "id": "704_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 704,
+      "target": "704_0"
+    },
+    {
+      "source": 704,
+      "target": "704_1"
+    },
+    {
+      "source": 704,
+      "target": "704_2"
+    },
+    {
+      "source": "704_0",
+      "target": "704_0_0"
+    },
+    {
+      "source": "704_0",
+      "target": "704_0_1"
+    },
+    {
+      "source": "704_1",
+      "target": "704_1_0"
+    },
+    {
+      "source": "704_2",
+      "target": "704_2_0"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "How",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "recheck",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "about",
+      "pos": "SCONJ",
+      "id": 1
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "1mo",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 7
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 8
+    },
+    {
+      "label": "elevated",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "plan",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 14
+    },
+    {
+      "label": "start",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "eligard",
+      "pos": "ADV",
+      "id": 16
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "that",
+      "pos": "DET",
+      "id": 18
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "mark",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "mark",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "advcl",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "xcomp",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 20
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

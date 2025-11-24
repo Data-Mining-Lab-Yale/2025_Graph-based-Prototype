@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1! I just set up an appt for me to see Dr. Person2 on Mon.",
+      "id": 1
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1!",
+      "id": "1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1!",
+      "id": "1_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I just set up an appt for me to see Dr. Person2 on Mon.",
+      "id": "1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I just set up an appt for me to see",
+      "id": "1_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr. Person2 on Mon.",
+      "id": "1_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": "1_0"
+    },
+    {
+      "source": 1,
+      "target": "1_1"
+    },
+    {
+      "source": "1_0",
+      "target": "1_0_0"
+    },
+    {
+      "source": "1_1",
+      "target": "1_1_0"
+    },
+    {
+      "source": "1_1",
+      "target": "1_1_1"
+    }
+  ]
+}

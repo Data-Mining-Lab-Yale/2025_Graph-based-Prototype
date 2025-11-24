@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 5
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "another",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "month",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

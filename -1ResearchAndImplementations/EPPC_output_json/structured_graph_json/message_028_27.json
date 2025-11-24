@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, The CBC was done with a manual diff so sometimes that takes a bit longer to show up in Person2. I hope that helps, let me know if you have any other questions or concerns. Thanks, Person3",
+      "id": 27
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, The CBC was done with a manual diff so sometimes that takes a bit longer to show up in Person2.",
+      "id": "27_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "27_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "27_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "The CBC was done with a manual diff so sometimes that takes",
+      "id": "27_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "a bit longer to show up in Person2.",
+      "id": "27_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I hope that helps, let me know if you have any other questions or concerns.",
+      "id": "27_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I hope that helps",
+      "id": "27_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "let me know",
+      "id": "27_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "if you have",
+      "id": "27_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "any other questions or concerns",
+      "id": "27_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks, Person3",
+      "id": "27_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "27_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "27_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 27,
+      "target": "27_0"
+    },
+    {
+      "source": 27,
+      "target": "27_1"
+    },
+    {
+      "source": 27,
+      "target": "27_2"
+    },
+    {
+      "source": "27_0",
+      "target": "27_0_0"
+    },
+    {
+      "source": "27_0",
+      "target": "27_0_1"
+    },
+    {
+      "source": "27_0",
+      "target": "27_0_2"
+    },
+    {
+      "source": "27_0",
+      "target": "27_0_3"
+    },
+    {
+      "source": "27_1",
+      "target": "27_1_0"
+    },
+    {
+      "source": "27_1",
+      "target": "27_1_1"
+    },
+    {
+      "source": "27_1",
+      "target": "27_1_2"
+    },
+    {
+      "source": "27_1",
+      "target": "27_1_3"
+    },
+    {
+      "source": "27_2",
+      "target": "27_2_0"
+    },
+    {
+      "source": "27_2",
+      "target": "27_2_1"
+    }
+  ]
+}

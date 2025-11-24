@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Back",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "rash",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "attached",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    }
+  ]
+}

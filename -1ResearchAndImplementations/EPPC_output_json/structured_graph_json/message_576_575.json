@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes, MM/DD/YYYY, is that good ? And if all cleared dental wise we can also do the prolia",
+      "id": 575
+    },
+    {
+      "label": "sentence",
+      "text": "Yes, MM/DD/YYYY, is that good ?",
+      "id": "575_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "575_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY,",
+      "id": "575_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "is that good ?",
+      "id": "575_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "And if all cleared dental wise we can also do the prolia",
+      "id": "575_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "And if all cleared",
+      "id": "575_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "dental wise we can also do the prolia",
+      "id": "575_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 575,
+      "target": "575_0"
+    },
+    {
+      "source": 575,
+      "target": "575_1"
+    },
+    {
+      "source": "575_0",
+      "target": "575_0_0"
+    },
+    {
+      "source": "575_0",
+      "target": "575_0_1"
+    },
+    {
+      "source": "575_0",
+      "target": "575_0_2"
+    },
+    {
+      "source": "575_1",
+      "target": "575_1_0"
+    },
+    {
+      "source": "575_1",
+      "target": "575_1_1"
+    }
+  ]
+}

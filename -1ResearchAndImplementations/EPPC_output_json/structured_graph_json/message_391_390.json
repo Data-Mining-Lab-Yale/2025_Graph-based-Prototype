@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I've passed your message  below to Dr  Person2, the  A ttending  Advanced Gastroenterologist/Endoscopist   scheduled to do Person3's ERCP today. Also I encourag e yourself and/or Person3 to let them know  in person   when  obtaining consent. Thank  you Person4 XXX-XXX-XXXX",
+      "id": 390
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I've passed your message  below to Dr  Person2, the  A ttending  Advanced Gastroenterologist/Endoscopist   scheduled to do Person3's ERCP today.",
+      "id": "390_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "390_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I've passed your message  below to Dr  Person2,",
+      "id": "390_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the  A ttending  Advanced Gastroenterologist/Endoscopist   scheduled to do Person3's ERCP today.",
+      "id": "390_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Also I encourag e yourself and/or Person3 to let them know  in person   when  obtaining consent.",
+      "id": "390_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Also I encourag e yourself and/or Person3",
+      "id": "390_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to let",
+      "id": "390_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "them know",
+      "id": "390_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "in person   when  obtaining",
+      "id": "390_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "consent.",
+      "id": "390_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank  you Person4 XXX-XXX-XXXX",
+      "id": "390_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank  you Person4 XXX-XXX-XXXX",
+      "id": "390_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 390,
+      "target": "390_0"
+    },
+    {
+      "source": 390,
+      "target": "390_1"
+    },
+    {
+      "source": 390,
+      "target": "390_2"
+    },
+    {
+      "source": "390_0",
+      "target": "390_0_0"
+    },
+    {
+      "source": "390_0",
+      "target": "390_0_1"
+    },
+    {
+      "source": "390_0",
+      "target": "390_0_2"
+    },
+    {
+      "source": "390_1",
+      "target": "390_1_0"
+    },
+    {
+      "source": "390_1",
+      "target": "390_1_1"
+    },
+    {
+      "source": "390_1",
+      "target": "390_1_2"
+    },
+    {
+      "source": "390_1",
+      "target": "390_1_3"
+    },
+    {
+      "source": "390_1",
+      "target": "390_1_4"
+    },
+    {
+      "source": "390_2",
+      "target": "390_2_0"
+    }
+  ]
+}

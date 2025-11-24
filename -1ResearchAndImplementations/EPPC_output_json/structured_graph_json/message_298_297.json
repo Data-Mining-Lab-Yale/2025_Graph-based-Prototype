@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning,    I was just wondering, I started the verzenio on MM/DD/YYYY, will I be doing a CBC 2 weeks after the start ? Or I can wait till I come in MM/DD/YYYY for the zometa? Thank you, Person1 :-)",
+      "id": 297
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning,    I was just wondering, I started the verzenio on MM/DD/YYYY, will I be doing a CBC 2 weeks after the start ?",
+      "id": "297_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "297_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was just wondering",
+      "id": "297_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I started the verzenio on MM/DD/YYYY,",
+      "id": "297_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "will I be doing",
+      "id": "297_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "a CBC 2 weeks after the start ?",
+      "id": "297_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Or I can wait till I come in MM/DD/YYYY for the zometa?",
+      "id": "297_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Or I can wait till I come",
+      "id": "297_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in MM/DD/YYYY for the zometa?",
+      "id": "297_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1 :-)",
+      "id": "297_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "297_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 :-)",
+      "id": "297_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 297,
+      "target": "297_0"
+    },
+    {
+      "source": 297,
+      "target": "297_1"
+    },
+    {
+      "source": 297,
+      "target": "297_2"
+    },
+    {
+      "source": "297_0",
+      "target": "297_0_0"
+    },
+    {
+      "source": "297_0",
+      "target": "297_0_1"
+    },
+    {
+      "source": "297_0",
+      "target": "297_0_2"
+    },
+    {
+      "source": "297_0",
+      "target": "297_0_3"
+    },
+    {
+      "source": "297_0",
+      "target": "297_0_4"
+    },
+    {
+      "source": "297_1",
+      "target": "297_1_0"
+    },
+    {
+      "source": "297_1",
+      "target": "297_1_1"
+    },
+    {
+      "source": "297_2",
+      "target": "297_2_0"
+    },
+    {
+      "source": "297_2",
+      "target": "297_2_1"
+    }
+  ]
+}

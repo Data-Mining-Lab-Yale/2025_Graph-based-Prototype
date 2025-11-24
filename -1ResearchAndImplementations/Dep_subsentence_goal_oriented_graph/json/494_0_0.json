@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "Mr.",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "APRN",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "3:00",
+      "pos": "NUM",
+      "id": 8
+    },
+    {
+      "label": "pm",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 10
+    },
+    {
+      "label": "discuss",
+      "pos": "VERB",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "intj",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "nummod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 10
+    }
+  ]
+}

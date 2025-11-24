@@ -1,0 +1,67 @@
+{
+  "dataset": "interactional_toyset_raw",
+  "total_items": 923,
+  "unique_labels": 7,
+  "labels": [
+    {
+      "label": "Diagnostics",
+      "count": 191,
+      "percent": 20.693391115926328
+    },
+    {
+      "label": "Drugs",
+      "count": 157,
+      "percent": 17.009750812567713
+    },
+    {
+      "label": "General_information",
+      "count": 152,
+      "percent": 16.468039003250272
+    },
+    {
+      "label": "Care_Coordination",
+      "count": 148,
+      "percent": 16.034669555796317
+    },
+    {
+      "label": "Scheduling_appt",
+      "count": 135,
+      "percent": 14.626218851570963
+    },
+    {
+      "label": "Symptoms",
+      "count": 100,
+      "percent": 10.834236186348862
+    },
+    {
+      "label": "Information-Giving",
+      "count": 40,
+      "percent": 4.333694474539545
+    }
+  ],
+  "label_types": [
+    {
+      "label_type": "Interactional",
+      "count": 923,
+      "percent": 100.0
+    }
+  ],
+  "splits": [
+    {
+      "split": "train",
+      "count": 645,
+      "percent": 69.88082340195017
+    },
+    {
+      "split": "test",
+      "count": 140,
+      "percent": 15.167930660888407
+    },
+    {
+      "split": "dev",
+      "count": 138,
+      "percent": 14.951245937161431
+    }
+  ],
+  "generated_at": "2025-09-11T18:14:56.849866Z"
+}

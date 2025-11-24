@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "recent",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "psa",
+      "pos": "NOUN",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

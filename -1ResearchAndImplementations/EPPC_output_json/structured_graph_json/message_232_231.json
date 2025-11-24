@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, There is always the potential for further nerve recovery, but its also something that we cannot count on at this point. This problem is not a usual risk with this surgery, but in your case the tumor extended behind some of the blood vessels in the neck and was pushing on this nerve. Removing the tumor re quiring pushing on the nerve some to get the tumor out. I will put in a referral for you to see an occuloplastic surgeon.",
+      "id": 231
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, There is always the potential for further nerve recovery, but its also something that we cannot count on at this point.",
+      "id": "231_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "231_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "There is always the potential for further nerve recovery,",
+      "id": "231_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but its also something",
+      "id": "231_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "that we cannot count",
+      "id": "231_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "on at this point.",
+      "id": "231_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "This problem is not a usual risk with this surgery, but in your case the tumor extended behind some of the blood vessels in the neck and was pushing on this nerve.",
+      "id": "231_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "This problem is not a usual risk with this surgery,",
+      "id": "231_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "but in your case the tumor extended",
+      "id": "231_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "behind some of the blood vessels in the neck and was pushing",
+      "id": "231_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "on this nerve.",
+      "id": "231_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Removing the tumor re quiring pushing on the nerve some to get the tumor out.",
+      "id": "231_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Removing the tumor re quiring pushing on the nerve some to get",
+      "id": "231_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the tumor out.",
+      "id": "231_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I will put in a referral for you to see an occuloplastic surgeon.",
+      "id": "231_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will put in a referral for you to see",
+      "id": "231_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "an occuloplastic surgeon.",
+      "id": "231_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 231,
+      "target": "231_0"
+    },
+    {
+      "source": 231,
+      "target": "231_1"
+    },
+    {
+      "source": 231,
+      "target": "231_2"
+    },
+    {
+      "source": 231,
+      "target": "231_3"
+    },
+    {
+      "source": "231_0",
+      "target": "231_0_0"
+    },
+    {
+      "source": "231_0",
+      "target": "231_0_1"
+    },
+    {
+      "source": "231_0",
+      "target": "231_0_2"
+    },
+    {
+      "source": "231_0",
+      "target": "231_0_3"
+    },
+    {
+      "source": "231_0",
+      "target": "231_0_4"
+    },
+    {
+      "source": "231_1",
+      "target": "231_1_0"
+    },
+    {
+      "source": "231_1",
+      "target": "231_1_1"
+    },
+    {
+      "source": "231_1",
+      "target": "231_1_2"
+    },
+    {
+      "source": "231_1",
+      "target": "231_1_3"
+    },
+    {
+      "source": "231_2",
+      "target": "231_2_0"
+    },
+    {
+      "source": "231_2",
+      "target": "231_2_1"
+    },
+    {
+      "source": "231_3",
+      "target": "231_3_0"
+    },
+    {
+      "source": "231_3",
+      "target": "231_3_1"
+    }
+  ]
+}

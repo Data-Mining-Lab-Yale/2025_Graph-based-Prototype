@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1,    I have emailed and left messages. His office called me about 12 days ago asking if I could do the biopsy last week (which I did) and then see him the following week. Now however I can reach anyone who knows anything about the situation. Appreciate if you could reach out for me. Thank you,  Person2",
+      "id": 204
+    },
+    {
+      "label": "sentence",
+      "text": "Person1,    I have emailed and left messages.",
+      "id": "204_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "204_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have emailed and left",
+      "id": "204_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "messages.",
+      "id": "204_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "His office called me about 12 days ago asking if I could do the biopsy last week (which I did) and then see him the following week.",
+      "id": "204_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "His office called me about 12 days ago asking",
+      "id": "204_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if I could do",
+      "id": "204_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the biopsy last week (which I did",
+      "id": "204_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": ") and then see",
+      "id": "204_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "him the following week.",
+      "id": "204_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Now however I can reach anyone who knows anything about the situation.",
+      "id": "204_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Now however I can reach anyone who knows",
+      "id": "204_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "anything about the situation.",
+      "id": "204_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Appreciate if you could reach out for me.",
+      "id": "204_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Appreciate if you could reach",
+      "id": "204_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "out for me.",
+      "id": "204_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you,  Person2",
+      "id": "204_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "204_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "204_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 204,
+      "target": "204_0"
+    },
+    {
+      "source": 204,
+      "target": "204_1"
+    },
+    {
+      "source": 204,
+      "target": "204_2"
+    },
+    {
+      "source": 204,
+      "target": "204_3"
+    },
+    {
+      "source": 204,
+      "target": "204_4"
+    },
+    {
+      "source": "204_0",
+      "target": "204_0_0"
+    },
+    {
+      "source": "204_0",
+      "target": "204_0_1"
+    },
+    {
+      "source": "204_0",
+      "target": "204_0_2"
+    },
+    {
+      "source": "204_1",
+      "target": "204_1_0"
+    },
+    {
+      "source": "204_1",
+      "target": "204_1_1"
+    },
+    {
+      "source": "204_1",
+      "target": "204_1_2"
+    },
+    {
+      "source": "204_1",
+      "target": "204_1_3"
+    },
+    {
+      "source": "204_1",
+      "target": "204_1_4"
+    },
+    {
+      "source": "204_2",
+      "target": "204_2_0"
+    },
+    {
+      "source": "204_2",
+      "target": "204_2_1"
+    },
+    {
+      "source": "204_3",
+      "target": "204_3_0"
+    },
+    {
+      "source": "204_3",
+      "target": "204_3_1"
+    },
+    {
+      "source": "204_4",
+      "target": "204_4_0"
+    },
+    {
+      "source": "204_4",
+      "target": "204_4_1"
+    }
+  ]
+}

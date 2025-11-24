@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "letting",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "draw",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "taken",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 15
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "8:40AM",
+      "pos": "NUM",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "auxpass",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "npadvmod",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "npadvmod",
+      "source": 9,
+      "target": 16
+    },
+    {
+      "dep": "prep",
+      "source": 9,
+      "target": 17
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 16,
+      "target": 11
+    },
+    {
+      "dep": "nmod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 18
+    }
+  ]
+}

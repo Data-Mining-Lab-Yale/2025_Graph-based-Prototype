@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you so much. One other thing that bothering me is I have been having pain in my armpit and worried it became worse today. Do you think because I  had to skip a treatment it is causing it to start growing again? That may sound stupid but the pain makes me worry wasn having pain underarm previously",
+      "id": 694
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you so much.",
+      "id": "694_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you so much.",
+      "id": "694_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "One other thing that bothering me is I have been having pain in my armpit and worried it became worse today.",
+      "id": "694_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "One other thing that bothering me is",
+      "id": "694_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have been having",
+      "id": "694_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "pain in my armpit and worried",
+      "id": "694_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it became",
+      "id": "694_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "worse today.",
+      "id": "694_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Do you think because I  had to skip a treatment it is causing it to start growing again?",
+      "id": "694_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do you think because I  had",
+      "id": "694_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to skip a treatment it is causing",
+      "id": "694_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it to start",
+      "id": "694_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "growing again?",
+      "id": "694_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "That may sound stupid but the pain makes me worry wasn having pain underarm previously",
+      "id": "694_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "That may sound stupid but the pain makes",
+      "id": "694_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "me worry wasn having",
+      "id": "694_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "pain underarm previously",
+      "id": "694_3_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 694,
+      "target": "694_0"
+    },
+    {
+      "source": 694,
+      "target": "694_1"
+    },
+    {
+      "source": 694,
+      "target": "694_2"
+    },
+    {
+      "source": 694,
+      "target": "694_3"
+    },
+    {
+      "source": "694_0",
+      "target": "694_0_0"
+    },
+    {
+      "source": "694_1",
+      "target": "694_1_0"
+    },
+    {
+      "source": "694_1",
+      "target": "694_1_1"
+    },
+    {
+      "source": "694_1",
+      "target": "694_1_2"
+    },
+    {
+      "source": "694_1",
+      "target": "694_1_3"
+    },
+    {
+      "source": "694_1",
+      "target": "694_1_4"
+    },
+    {
+      "source": "694_2",
+      "target": "694_2_0"
+    },
+    {
+      "source": "694_2",
+      "target": "694_2_1"
+    },
+    {
+      "source": "694_2",
+      "target": "694_2_2"
+    },
+    {
+      "source": "694_2",
+      "target": "694_2_3"
+    },
+    {
+      "source": "694_3",
+      "target": "694_3_0"
+    },
+    {
+      "source": "694_3",
+      "target": "694_3_1"
+    },
+    {
+      "source": "694_3",
+      "target": "694_3_2"
+    }
+  ]
+}

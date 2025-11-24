@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Should",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "go",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "tomorrow",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 6
+    },
+    {
+      "label": "get",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

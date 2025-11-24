@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "If",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "ok",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "those",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "shots",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "LOCATION",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advcl",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    }
+  ]
+}

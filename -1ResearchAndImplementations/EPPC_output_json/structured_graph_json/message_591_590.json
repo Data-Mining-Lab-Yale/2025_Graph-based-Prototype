@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi. As I can schedule with infusion for bloodwork, is someone on the team scheduling? I am booked all day MM/DD/YYYY. I can work around tomorrow or MM/DD/YYYY morning. Thanks,    Person",
+      "id": 590
+    },
+    {
+      "label": "sentence",
+      "text": "Hi.",
+      "id": "590_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi.",
+      "id": "590_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "As I can schedule with infusion for bloodwork, is someone on the team scheduling?",
+      "id": "590_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "As I can schedule",
+      "id": "590_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with infusion for bloodwork,",
+      "id": "590_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "is someone on the team scheduling?",
+      "id": "590_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I am booked all day MM/DD/YYYY.",
+      "id": "590_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am booked all day MM/DD/YYYY.",
+      "id": "590_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I can work around tomorrow or MM/DD/YYYY morning.",
+      "id": "590_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I can work around tomorrow or MM/DD/YYYY morning.",
+      "id": "590_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,    Person",
+      "id": "590_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "590_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person",
+      "id": "590_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 590,
+      "target": "590_0"
+    },
+    {
+      "source": 590,
+      "target": "590_1"
+    },
+    {
+      "source": 590,
+      "target": "590_2"
+    },
+    {
+      "source": 590,
+      "target": "590_3"
+    },
+    {
+      "source": 590,
+      "target": "590_4"
+    },
+    {
+      "source": "590_0",
+      "target": "590_0_0"
+    },
+    {
+      "source": "590_1",
+      "target": "590_1_0"
+    },
+    {
+      "source": "590_1",
+      "target": "590_1_1"
+    },
+    {
+      "source": "590_1",
+      "target": "590_1_2"
+    },
+    {
+      "source": "590_2",
+      "target": "590_2_0"
+    },
+    {
+      "source": "590_3",
+      "target": "590_3_0"
+    },
+    {
+      "source": "590_4",
+      "target": "590_4_0"
+    },
+    {
+      "source": "590_4",
+      "target": "590_4_1"
+    }
+  ]
+}

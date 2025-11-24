@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "He",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "two",
+      "pos": "NUM",
+      "id": 2
+    },
+    {
+      "label": "growths",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "shin",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "right",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "messaged",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 11
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 13
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "hoping",
+      "pos": "VERB",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "xcomp",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "dep": "nummod",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "amod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "dep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    }
+  ]
+}

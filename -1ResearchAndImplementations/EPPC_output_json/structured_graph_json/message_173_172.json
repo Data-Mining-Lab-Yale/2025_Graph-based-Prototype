@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Another unproductive week of using the leg massage machine has me rethink your suggestion to consult a vascular surgeon. Recognizing an inevitable delay,  would you make a referral now? Thanks.",
+      "id": 172
+    },
+    {
+      "label": "sentence",
+      "text": "Another unproductive week of using the leg massage machine has me rethink your suggestion to consult a vascular surgeon.",
+      "id": "172_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Another unproductive week of using the leg massage machine has me rethink",
+      "id": "172_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "your suggestion to consult a vascular surgeon.",
+      "id": "172_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Recognizing an inevitable delay,  would you make a referral now?",
+      "id": "172_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Recognizing",
+      "id": "172_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "an inevitable delay,",
+      "id": "172_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "would you make a referral now?",
+      "id": "172_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks.",
+      "id": "172_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks.",
+      "id": "172_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 172,
+      "target": "172_0"
+    },
+    {
+      "source": 172,
+      "target": "172_1"
+    },
+    {
+      "source": 172,
+      "target": "172_2"
+    },
+    {
+      "source": "172_0",
+      "target": "172_0_0"
+    },
+    {
+      "source": "172_0",
+      "target": "172_0_1"
+    },
+    {
+      "source": "172_1",
+      "target": "172_1_0"
+    },
+    {
+      "source": "172_1",
+      "target": "172_1_1"
+    },
+    {
+      "source": "172_1",
+      "target": "172_1_2"
+    },
+    {
+      "source": "172_2",
+      "target": "172_2_0"
+    }
+  ]
+}

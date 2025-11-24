@@ -1,0 +1,942 @@
+method,pair,src_label,src_text,nbr_label,nbr_text,similarity
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,leave me a message on my phone,PartnershipProvider,leave a message,0.8087
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get back on Adderall XR,PartnershipPatient,we can start over with Adderall XR 20mg,0.7119
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get back on Adderall XR,PartnershipPatient,will run out of my Adderall,0.699
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get back on Adderall XR,PartnershipPatient,Adderall refilled early,0.6514
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get back on Adderall XR,PartnershipPatient,refill for the Adderall,0.6001
+sbert,PartnershipPatient || SDOH,SDOH,I canâ€™t sleep,PartnershipPatient,I canâ€™t seem,0.6483
+sbert,PartnershipPatient || SDOH,PartnershipPatient,I have an appointment this,SDOH,I havent been able to get an appointment,0.7569
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,to go over labs,PartnershipProvider,for follow up and labs,0.709
+sbert,PartnershipPatient || SDOH,PartnershipPatient,to go over labs,SDOH,I've paid for my labs,0.6198
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I was wondering,SocioEmotionalBehaviour,Was curious,0.6704
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I was wondering,SocioEmotionalBehaviour,just curious,0.6612
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I could just get some filled,SharedDecisionPatient,Can it still be filled?,0.6039
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Would it be best to reschedule,PartnershipPatient,to  reschedule,0.7738
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Would it be best to reschedule,PartnershipPatient,I do need to reschedule,0.7457
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Would it be best to reschedule,PartnershipPatient,Please reschedule me,0.6921
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,thank you!,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You!,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you!,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You!,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You,0.8314
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You,0.8314
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,0.8314
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,0.8314
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You,0.8314
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,my upcoming appointment information,PartnershipProvider,schedule that appointment,0.7181
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,My original appointment: Date:,PartnershipProvider,schedule that appointment,0.7238
+sbert,PartnershipPatient || SDOH,SDOH,I had a visitor,PartnershipPatient,I came in for my visit,0.6806
+sbert,PartnershipPatient || SDOH,SDOH,I had a visitor,PartnershipPatient,I had a wonderful visit,0.6591
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,have a great evening,PartnershipProvider,Have a good day,0.7185
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,through dr  Person1 at my appointments,PartnershipPatient,just a consult type appointment,0.7108
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,through dr  Person1 at my appointments,SharedDecisionPatient,Can you please ask Dr. Person1,0.6952
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,through dr  Person1 at my appointments,PartnershipPatient,for appointment to see doctor,0.6861
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,through dr  Person1 at my appointments,PartnershipPatient,appointment to see doctor,0.6651
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,through dr  Person1 at my appointments,CareCoordinationProvider,I will send your message to Dr. Person1,0.6519
+sbert,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,through dr  Person1 at my appointments,PartnershipProvider,at your follow up appointment,0.6388
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,through dr  Person1 at my appointments,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,0.6329
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,iâ€™ve ran out,SocioEmotionalBehaviour,Iâ€™m just scared,0.6205
+sbert,PartnershipPatient || SDOH,PartnershipPatient,pain after I eat,SDOH,after I eat anything,0.6167
+sbert,PartnershipPatient || SDOH,SDOH,after I eat anything,PartnershipPatient,pain after I eat,0.6167
+sbert,PartnershipPatient || SDOH,SDOH,I can hardly sleep,PartnershipPatient,I can barely get out of bed,0.7746
+sbert,PartnershipPatient || SDOH,SDOH,I can hardly sleep,PartnershipPatient,I'm tired all the time,0.6586
+sbert,PartnershipPatient || SDOH,SDOH,I can hardly sleep,PartnershipPatient,am very tired and drowsy all day,0.6076
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,Good Morning,PartnershipProvider,Good morning,1.0
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,Dr. Person1 has requested,0.7825
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,with Dr. Person1,0.6926
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,letting Dr. Person1 know,0.6714
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,I see Dr Person1  for my neurologist,0.6524
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationProvider,I will send your message to Dr. Person1,0.6373
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,through dr  Person1 at my appointments,0.6329
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,I spoke to Dr  Person1,0.6105
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,I have with Dr. Person2,0.6085
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am doing my best,PartnershipPatient,is doing well,0.6292
+sbert,PartnershipPatient || SDOH,PartnershipPatient,do not feel comfortable driving,SDOH,I have a very difficult time driving,0.6306
+sbert,PartnershipPatient || SDOH,PartnershipPatient,do not feel comfortable driving,SDOH,I'm not  Currently driving,0.6116
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,waiting for MRI results,PartnershipProvider,We have recieved the results of the MRI,0.7276
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,I'm long overdue for an appointment,0.638
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,make a appointment,0.6057
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,appointment to see doctor,0.6032
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I'm so grateful,SocioEmotionalBehaviour,I'm so sorry,0.6103
+sbert,PartnershipPatient || PartnershipProvider,PartnershipPatient,Have a wonderful day,PartnershipProvider,Have a good day,0.8236
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,hi,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+sbert,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,medicine refill,0.718
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,requested medication refills,0.7083
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,Please send a refill prescription,0.6855
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,request a refill for my prescription,0.6707
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,I need a refill on these medications,0.6555
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,Dr. Person1 sent in your refills,CareCoordinationPatient,Dr. Person1 has requested,0.6335
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,all my meds will be out with no refills,0.6259
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,I need a refill,0.6232
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,i need a refill,0.6232
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Dr. Person1 sent in your refills,PartnershipPatient,refill asap,0.6167
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,a visit to get a refill,0.6687
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,refill asap,0.6658
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,if I can get refills,0.6633
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,to get a refill,0.6539
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,would it be possible to get another refill,0.646
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,refill  Everything,0.6308
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,before he can send any further refills,SharedDecisionPatient,is it possible to get an interim refill?,0.6159
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,running out of refills,0.6123
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,i need a refill,0.6008
+sbert,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,before he can send any further refills,PartnershipPatient,I need a refill,0.6008
+sbert,PartnershipPatient || SDOH,PartnershipPatient,I can call andake an appointment,SDOH,I havent been able to get an appointment,0.7253
+sbert,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I'm really having problems,SDOH,I am having a hard time getting to work,0.6052
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I'm requesting a refill on Vyvanse Rx,SharedDecisionPatient,Can i get Vyvanse refill called in,0.817
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,we can start over with Adderall XR 20mg,SharedDecisionPatient,Can I get back on Adderall XR,0.7119
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,just curious,PartnershipPatient,I was wondering,0.6612
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,just curious,PartnershipPatient,I was wondering,0.6612
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,just curious,PartnershipPatient,I was wondering,0.6612
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,just curious,PartnershipPatient,I was wondering,0.6612
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,just curious,PartnershipPatient,I was wondering,0.6612
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,just curious,PartnershipPatient,I am wondering,0.6577
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,just curious,PartnershipPatient,I was almost wondering,0.6005
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,to go to another dr,PartnershipPatient,for appointment to see doctor,0.6675
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,to go to another dr,PartnershipPatient,appointment to see doctor,0.6601
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,to go to another dr,PartnershipPatient,I need a doctor,0.6323
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,to go to another dr,SDOH,I have time to find a dr up  There,0.6232
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Was curious,PartnershipPatient,I was wondering,0.6704
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Was curious,PartnershipPatient,I was wondering,0.6704
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Was curious,PartnershipPatient,I was wondering,0.6704
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Was curious,PartnershipPatient,I was wondering,0.6704
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Was curious,PartnershipPatient,I was wondering,0.6704
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Was curious,PartnershipPatient,I was almost wondering,0.6035
+sbert,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,if my order ever came in,CareCoordinationProvider,send out an order,0.6621
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,Can you help,SocioEmotionalBehaviour,Help,0.6632
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,get me a referral?,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.7372
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,get me a referral?,CareCoordinationPatient,they need you to send another referral,0.7055
+sbert,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,get me a referral?,CareCoordinationProvider,I faxed over referral,0.617
+sbert,PartnershipPatient || SDOH,SDOH,My pharmacy is the Org1,PartnershipPatient,The pharmacy that I used,0.6638
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I have been taking these medications,SharedDecisionPatient,Is there any other medication,0.6437
+sbert,PartnershipPatient || SDOH,SDOH,canâ€™t get there,PartnershipPatient,I canâ€™t seem,0.7249
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Please reschedule me,SharedDecisionPatient,Would it be best to reschedule,0.6921
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,PartnershipPatient,send over a referral,0.8254
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,PartnershipPatient,get me a referral?,0.7372
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,CareCoordinationPatient,they need you to send another referral,0.732
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,PartnershipPatient,never received a referral,0.687
+sbert,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,PartnershipProvider,if you will like to proceed with this referral,0.6463
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,CareCoordinationProvider,I faxed over referral,0.634
+sbert,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,PartnershipProvider,in regards of the referral order,0.6326
+sbert,PartnershipPatient || SDOH,PartnershipPatient,to schedule an appointment for counseling,SDOH,finding a counselor,0.6134
+sbert,PartnershipPatient || SDOH,PartnershipPatient,do the counseling,SDOH,finding a counselor,0.6471
+sbert,PartnershipPatient || SDOH,SDOH,due to my work schedule,PartnershipPatient,I need to schedule,0.6329
+sbert,PartnershipPatient || SDOH,SDOH,due to my work schedule,PartnershipPatient,have to schedule something,0.623
+sbert,SDOH || SocioEmotionalBehaviour,SDOH,I am having a hard time getting to work,SocioEmotionalBehaviour,I'm really having problems,0.6052
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,with Dr. Person1,SharedDecisionPatient,Can you please ask Dr. Person1,0.7231
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,with Dr. Person1,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,0.6926
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,with Dr. Person1,CareCoordinationProvider,I will send your message to Dr. Person1,0.6591
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I was wondering,SocioEmotionalBehaviour,Was curious,0.6704
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I was wondering,SocioEmotionalBehaviour,just curious,0.6612
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I will know whatâ€™s going on,CareCoordinationPatient,didnâ€™t get a response,0.6127
+sbert,PartnershipPatient || SDOH,SDOH,I canâ€™t afford,PartnershipPatient,I canâ€™t seem,0.755
+sbert,SDOH || SocioEmotionalBehaviour,SDOH,I canâ€™t afford,SocioEmotionalBehaviour,I canâ€™t remember,0.632
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I am wondering,SocioEmotionalBehaviour,just curious,0.6577
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I am needing,SocioEmotionalBehaviour,I am in desperate need,0.7353
+sbert,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,I will call you back,SocioEmotionalBehaviour,afraid I will miss your call,0.7132
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I do need to reschedule,SharedDecisionPatient,Would it be best to reschedule,0.7457
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I also need to make a payment,SharedDecisionPatient,Is there a way to make a payment on line?,0.7334
+sbert,PartnershipPatient || SDOH,SDOH,an ultrasound at Org1,PartnershipPatient,in its early stage with the diagnostic ultrasound,0.7041
+sbert,PartnershipPatient || SDOH,SDOH,an ultrasound at Org1,PartnershipPatient,diagnostic ultrasound,0.7022
+sbert,PartnershipPatient || SDOH,SDOH,an ultrasound at Org1,PartnershipPatient,diagnostic ultrasound,0.7022
+sbert,PartnershipProvider || SDOH,SDOH,an ultrasound at Org1,PartnershipProvider,request of a Diagnotic ultrasound,0.6818
+sbert,PartnershipProvider || SDOH,SDOH,an ultrasound at Org1,PartnershipProvider,request of a Diagnotic ultrasound,0.6818
+sbert,PartnershipPatient || SDOH,SDOH,an ultrasound at Org1,PartnershipPatient,what an ultrasound does,0.6637
+sbert,PartnershipProvider || SDOH,SDOH,an ultrasound at Org1,PartnershipProvider,your ultrasound order,0.6387
+sbert,PartnershipPatient || SDOH,SDOH,an ultrasound at Org1,PartnershipPatient,diagnostic mammo & an ultrasound,0.6279
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Is there a way to make a payment on line?,PartnershipPatient,I also need to make a payment,0.7334
+sbert,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Let me know what steps to take from here,SharedDecisionPatient,I would like to proceed with this,0.6588
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,make another appointment for the testing?,0.6439
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment,0.6317
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment,0.6317
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment for labs,0.628
+sbert,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule appointment for,0.6123
+sbert,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I  will  call,SocioEmotionalBehaviour,afraid I will miss your call,0.6745
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I  will  call,CareCoordinationPatient,I have not gotten a call,0.6416
+sbert,SDOH || SharedDecisionPatient,SDOH,could not get it refilled,SharedDecisionPatient,Can I get it refilled?,0.8064
+sbert,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,Do I ditch the Xanax completely,PartnershipProvider,Unlike alprazolam (xanax),0.6392
+sbert,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,Unlike alprazolam (xanax),SharedDecisionPatient,Do I ditch the Xanax completely,0.6392
+sbert,PartnershipProvider || SDOH,SDOH,schedule should open soon for her appointments,PartnershipProvider,schedule that appointment,0.7065
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,they said my Dr Person1,CareCoordinationProvider,I will send your message to Dr. Person1,0.6202
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,they said my Dr Person1,SharedDecisionPatient,Can you please ask Dr. Person1,0.6022
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,send over a referral,CareCoordinationPatient,they need you to send another referral,0.8055
+sbert,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,send over a referral,CareCoordinationProvider,I faxed over referral,0.7275
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,my Dr Person1 said,SharedDecisionPatient,Can you please ask Dr. Person1,0.7649
+sbert,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,I sent a message the beginning of,CareCoordinationProvider,I received a message from our Person2,0.6847
+sbert,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,I sent a message the beginning of,CareCoordinationProvider,I received a message from our Person2,0.6847
+sbert,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I'm so sorry,PartnershipPatient,I'm so grateful,0.6103
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Is there any medication that would assist in this other than Benadryl?,SDOH,No $ to buy benadryl,0.6146
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,She told me,CareCoordinationProvider,she mention that,0.6057
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it refilled?,SDOH,could not get it refilled,0.8064
+sbert,CareCoordinationPatient || SDOH,SDOH,I have time to find a dr up  There,CareCoordinationPatient,to go to another dr,0.6232
+sbert,CareCoordinationPatient || SDOH,SDOH,I have time to find a dr up  There,CareCoordinationPatient,Could you please inform Dr,0.6179
+sbert,CareCoordinationPatient || SDOH,SDOH,I have time to find a dr up  There,CareCoordinationPatient,I told the Dr,0.6123
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I need a doctor,CareCoordinationPatient,to go to another dr,0.6323
+sbert,PartnershipPatient || SharedDecisionProvider,PartnershipPatient,I wanted to request,SharedDecisionProvider,proceed with this request,0.6122
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I need to discuss with the doctor,CareCoordinationPatient,Could you please inform Dr,0.6854
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,There is not an option to send a message to Person1,CareCoordinationProvider,I received a message from our Person2,0.6134
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,There is not an option to send a message to Person1,CareCoordinationProvider,I received a message from our Person2,0.6134
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,she said,CareCoordinationProvider,she mention that,0.6498
+sbert,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I canâ€™t remember,SDOH,I canâ€™t afford,0.632
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,she said,CareCoordinationProvider,she mention that,0.6498
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,he would be scheduling,SDOH,to work around due to scheduling,0.6267
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,he would be scheduling,PartnershipPatient,have to schedule something,0.6185
+sbert,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,I left a message,CareCoordinationProvider,I received a message from our Person2,0.6206
+sbert,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,I left a message,CareCoordinationProvider,I received a message from our Person2,0.6206
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke to Dr  Person1,CareCoordinationProvider,I will send your message to Dr. Person1,0.7783
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,I spoke to Dr  Person1,SharedDecisionPatient,Can you please ask Dr. Person1,0.754
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,I told the Dr,SDOH,I have time to find a dr up  There,0.6123
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,Can you ask the doctor,CareCoordinationPatient,Could you please inform Dr,0.6069
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,if he/she can prescribe,SharedDecisionPatient,can you prescribe one to my pharmacy?,0.6313
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,if the doctor can send a prescription,SDOH,It can be sent to same pharmacy,0.6928
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,if the doctor can send a prescription,CareCoordinationProvider,sending yourr medication into the pharmacy,0.6422
+sbert,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,afraid I will miss your call,PartnershipProvider,I will call you back,0.7132
+sbert,CareCoordinationPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,afraid I will miss your call,CareCoordinationPatient,I have not gotten a call,0.6195
+sbert,SDOH || SharedDecisionPatient,SDOH,sent to the Org1 pharmacy,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.6722
+sbert,SDOH || SharedDecisionPatient,SDOH,I use to get it at the Org1 pharmacy,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.6881
+sbert,SDOH || SharedDecisionPatient,SDOH,It can be sent to same pharmacy,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.8547
+sbert,CareCoordinationProvider || SDOH,SDOH,It can be sent to same pharmacy,CareCoordinationProvider,sending yourr medication into the pharmacy,0.7231
+sbert,SDOH || SharedDecisionPatient,SDOH,It can be sent to same pharmacy,SharedDecisionPatient,if the doctor can send a prescription,0.6928
+sbert,SDOH || SharedDecisionPatient,SDOH,It can be sent to same pharmacy,SharedDecisionPatient,can you prescribe one to my pharmacy?,0.6651
+sbert,CareCoordinationPatient || SDOH,SDOH,It can be sent to same pharmacy,CareCoordinationPatient,My pharmacy has informed me,0.6344
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person3 could send it,CareCoordinationPatient,please update Dr  Person3Person4,0.6709
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person3 could send it,CareCoordinationProvider,I will send your message to Dr. Person1,0.6274
+sbert,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person3 could send it,CareCoordinationPatient,Dr. Person1 has requested,0.626
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,I spoke to Dr  Person1,0.7783
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,Dr. Person1 has requested,0.7737
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,I will send your message to Dr. Person1,SharedDecisionPatient,Can you please ask Dr. Person1,0.7691
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,letting Dr. Person1 know,0.7068
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,We sent the message to the Dr.,0.6695
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,with Dr. Person1,0.6591
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,through dr  Person1 at my appointments,0.6519
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,Could you please inform Dr,0.6389
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,I will send your message to Dr. Person1,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,0.6373
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,I will send your message to Dr. Person1,SharedDecisionPatient,if Dr. Person3 could send it,0.6274
+sbert,CareCoordinationProvider || SDOH,CareCoordinationProvider,sending yourr medication into the pharmacy,SDOH,It can be sent to same pharmacy,0.7231
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,sending yourr medication into the pharmacy,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.6576
+sbert,CareCoordinationProvider || SDOH,CareCoordinationProvider,sending yourr medication into the pharmacy,SDOH,to be sent to my pharmacy in Org2,0.6478
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,sending yourr medication into the pharmacy,SharedDecisionPatient,can you prescribe one to my pharmacy?,0.6452
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,sending yourr medication into the pharmacy,SharedDecisionPatient,if the doctor can send a prescription,0.6422
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,have to schedule something,CareCoordinationPatient,he would be scheduling,0.6185
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I am unable to call at the moment,CareCoordinationPatient,I have not gotten a call,0.7041
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,My pharmacy has informed me,PartnershipPatient,I have checked at the pharmacy,0.7112
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,My pharmacy has informed me,SDOH,I no longer use that pharmacy,0.6442
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,My pharmacy has informed me,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.6371
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,My pharmacy has informed me,SDOH,It can be sent to same pharmacy,0.6344
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,My pharmacy has informed me,PartnershipPatient,The pharmacy that I used,0.6339
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,My pharmacy has informed me,SDOH,I use to get it at the Org1 pharmacy,0.6257
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,My pharmacy has informed me,SDOH,My pharmacy is the Org1,0.6222
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,My pharmacy has informed me,SharedDecisionPatient,can you prescribe one to my pharmacy?,0.6015
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I need to call my doctorâ€™s office,CareCoordinationPatient,response they received from my doctorâ€™s office,0.613
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,the pharmacy told me,PartnershipPatient,I have checked at the pharmacy,0.6989
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,the pharmacy told me,PartnershipPatient,The pharmacy that I used,0.659
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,the pharmacy told me,SDOH,I no longer use that pharmacy,0.6445
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,the pharmacy told me,SDOH,it was sent to Org3 pharmacy,0.608
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,the pharmacy told me,SDOH,I use to get it at the Org1 pharmacy,0.6076
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,the pharmacy told me,SDOH,It can be sent to same pharmacy,0.6015
+sbert,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,response they received from my doctorâ€™s office,PartnershipPatient,I need to call my doctorâ€™s office,0.613
+sbert,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I have checked at the pharmacy,CareCoordinationPatient,My pharmacy has informed me,0.7112
+sbert,SDOH || SharedDecisionPatient,SDOH,to go work,SharedDecisionPatient,can go get the work done?,0.6161
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I received a message from our Person2,CareCoordinationPatient,There is not an option to send a message to Person1,0.6134
+sbert,CareCoordinationProvider || SDOH,CareCoordinationProvider,I received a message from our Person2,SDOH,sent to Org2 on Org2,0.6118
+sbert,PartnershipProvider || SDOH,PartnershipProvider,request of a Diagnotic ultrasound,SDOH,an ultrasound at Org1,0.6818
+sbert,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,placed your last order,CareCoordinationProvider,Your last provider has order,0.6857
+sbert,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,placed your last order,CareCoordinationProvider,send out an order,0.6558
+sbert,SharedDecisionProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,SharedDecisionProvider,proceed with this request,0.8002
+sbert,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionPatient,I would like to proceed with this,SharedDecisionProvider,proceed with this request,0.7259
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,with the nutrition department,0.6735
+sbert,CareCoordinationPatient || SDOH,SDOH,to work around due to scheduling,CareCoordinationPatient,he would be scheduling,0.6267
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,with the nutrition department,CareCoordinationPatient,I spoke with the nutritionist,0.6735
+sbert,SharedDecisionProvider || SocioEmotionalBehaviour,SharedDecisionProvider,proceed with this request,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,0.8002
+sbert,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionProvider,proceed with this request,SharedDecisionPatient,I would like to proceed with this,0.7259
+sbert,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,proceed with this request,PartnershipPatient,I wanted to request,0.6122
+sbert,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,in regards of the referral order,CareCoordinationPatient,they need you to send another referral,0.6491
+sbert,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,in regards of the referral order,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.6326
+sbert,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,send out an order,PartnershipProvider,placed your last order,0.6558
+sbert,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,send out an order,PartnershipProvider,placed your last order,0.6558
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,I see Dr Person1  for my neurologist,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,0.6524
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,I see Dr Person1  for my neurologist,SharedDecisionPatient,Can you please ask Dr. Person1,0.6075
+sbert,PartnershipPatient || SharedDecisionProvider,PartnershipPatient,Please call if you have any questions!,SharedDecisionProvider,or if you have any question you can give me a call,0.6588
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,please update Dr  Person3Person4,SharedDecisionPatient,if Dr. Person3 could send it,0.6709
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,please update Dr  Person3Person4,CareCoordinationProvider,I will send your message to Dr. Person1,0.6009
+sbert,PartnershipProvider || SDOH,PartnershipProvider,your ultrasound order,SDOH,an ultrasound at Org1,0.6387
+sbert,CareCoordinationProvider || SDOH,CareCoordinationProvider,It will be faxed over,SDOH,faxing over a bill,0.6399
+sbert,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,they need you to send another referral,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.732
+sbert,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,they need you to send another referral,PartnershipProvider,if you will like to proceed with this referral,0.684
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,they need you to send another referral,CareCoordinationProvider,I faxed over referral,0.6568
+sbert,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,they need you to send another referral,PartnershipProvider,in regards of the referral order,0.6491
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,letting Dr. Person1 know,CareCoordinationProvider,I will send your message to Dr. Person1,0.7068
+sbert,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,Your last provider has order,PartnershipProvider,placed your last order,0.6857
+sbert,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,Your last provider has order,PartnershipProvider,placed your last order,0.6857
+sbert,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,if you will like to proceed with this referral,CareCoordinationPatient,they need you to send another referral,0.684
+sbert,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,if you will like to proceed with this referral,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.6463
+sbert,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,or if you have any question you can give me a call,PartnershipPatient,Please call if you have any questions!,0.6588
+sbert,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionProvider,or if you have any question you can give me a call,SharedDecisionPatient,or maybe if she can give me a call,0.6168
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,We sent the message to the Dr.,CareCoordinationProvider,I will send your message to Dr. Person1,0.6695
+sbert,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,she mention that,CareCoordinationPatient,she said,0.6498
+sbert,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,I will send a message to her,PartnershipProvider,she will be contacting you,0.8007
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,I will send a message to her,SharedDecisionPatient,or maybe if she can give me a call,0.6018
+sbert,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,she will be contacting you,CareCoordinationProvider,I will send a message to her,0.8007
+sbert,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,she will be contacting you,SharedDecisionPatient,or maybe if she can give me a call,0.6723
+sbert,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,she will be contacting you,CareCoordinationPatient,to reach her via email,0.6509
+sbert,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,she will be contacting you,CareCoordinationPatient,you can reach her,0.6149
+sbert,CareCoordinationPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I havenâ€™t received either,CareCoordinationPatient,didnâ€™t get a response,0.6877
+sbert,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,you can reach her,PartnershipProvider,she will be contacting you,0.6149
+sbert,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,to reach her via email,PartnershipProvider,she will be contacting you,0.6509
+sbert,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,or maybe if she can give me a call,PartnershipProvider,she will be contacting you,0.6723
+sbert,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionPatient,or maybe if she can give me a call,SharedDecisionProvider,or if you have any question you can give me a call,0.6168
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,or maybe if she can give me a call,CareCoordinationProvider,I will send a message to her,0.6018
+sbert,SDOH || SharedDecisionPatient,SDOH,I no longer use that pharmacy,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.6659
+sbert,CareCoordinationPatient || SDOH,SDOH,I no longer use that pharmacy,CareCoordinationPatient,the pharmacy told me,0.6445
+sbert,CareCoordinationPatient || SDOH,SDOH,I no longer use that pharmacy,CareCoordinationPatient,My pharmacy has informed me,0.6442
+sbert,CareCoordinationProvider || SDOH,SDOH,sent to Org2 on Org2,CareCoordinationProvider,I received a message from our Person2,0.6118
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,SDOH,It can be sent to same pharmacy,0.8547
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,SDOH,I use to get it at the Org1 pharmacy,0.6881
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,SDOH,sent to the Org1 pharmacy,0.6722
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,SDOH,I no longer use that pharmacy,0.6659
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,SDOH,it was sent to Org3 pharmacy,0.6627
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,CareCoordinationProvider,sending yourr medication into the pharmacy,0.6576
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,SDOH,to be sent to my pharmacy in Org2,0.6449
+sbert,SDOH || SharedDecisionPatient,SDOH,it was sent to Org3 pharmacy,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.6627
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,can you prescribe one to my pharmacy?,SDOH,It can be sent to same pharmacy,0.6651
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,can you prescribe one to my pharmacy?,CareCoordinationProvider,sending yourr medication into the pharmacy,0.6452
+sbert,SDOH || SharedDecisionPatient,SharedDecisionPatient,can go get the work done?,SDOH,to go work,0.6161
+sbert,SDOH || SharedDecisionPatient,SDOH,No $ to buy benadryl,SharedDecisionPatient,Is there any medication that would assist in this other than Benadryl?,0.6146
+sbert,CareCoordinationProvider || SharedDecisionPatient,SharedDecisionPatient,Can you please ask Dr. Person1,CareCoordinationProvider,I will send your message to Dr. Person1,0.7691
+sbert,CareCoordinationPatient || SocioEmotionalBehaviour,CareCoordinationPatient,I have not gotten a call,SocioEmotionalBehaviour,afraid I will miss your call,0.6195
+sbert,CareCoordinationProvider || SDOH,CareCoordinationProvider,I received a message from our Person2,SDOH,sent to Org2 on Org2,0.6118
+sbert,PartnershipProvider || SDOH,PartnershipProvider,request of a Diagnotic ultrasound,SDOH,an ultrasound at Org1,0.6818
+sbert,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,placed your last order,CareCoordinationProvider,Your last provider has order,0.6857
+sbert,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,placed your last order,CareCoordinationProvider,send out an order,0.6558
+sbert,CareCoordinationProvider || SharedDecisionPatient,CareCoordinationProvider,I faxed over referral,SharedDecisionPatient,CAN A REFERRAL BE SENT OUT TO GET THAT DONE?,0.634
+sbert,CareCoordinationPatient || SocioEmotionalBehaviour,CareCoordinationPatient,didnâ€™t get a response,SocioEmotionalBehaviour,I havenâ€™t received either,0.6877
+sbert,CareCoordinationProvider || SDOH,SDOH,faxing over a bill,CareCoordinationProvider,It will be faxed over,0.6399
+sbert,CareCoordinationPatient || SDOH,CareCoordinationPatient,Could you please inform Dr,SDOH,I have time to find a dr up  There,0.6179
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,is draining,SDOH,my occupation is,0.7801
+tfidf,PartnershipProvider || SDOH,SDOH,I can not get off work,PartnershipProvider,i can not guarantee,0.6032
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,it is impossible,0.7234
+tfidf,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipProvider,is that ok,0.6201
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Is there any way that you could all in Bactrim DS,PartnershipPatient,is there any possible way,0.6138
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you!,1.0
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,doing my duties,SocioEmotionalBehaviour,I am doing my best,0.675
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I am in pain everyday,SocioEmotionalBehaviour,I am in desperate need,0.6348
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,I have a huge lump in my cheek,SDOH,in my family,0.7231
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,to go over labs,SDOH,to go work,0.6423
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,my Lisinopril and my Metoprolol,SocioEmotionalBehaviour,My apoligies,0.7978
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,my Lisinopril and my Metoprolol,SDOH,excuse my absences,0.7978
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,my Lisinopril and my Metoprolol,SDOH,eating scrambled eggs and soup,0.6029
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,with the Endocrinologist to make sure,PartnershipPatient,want to make sure,0.6807
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,with the Endocrinologist to make sure,PartnershipPatient,make sure I do get,0.602
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,I have 2 Easter lunch banquets I have to attend,0.6939
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you!,1.0
+tfidf,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,is that ok,SocioEmotionalBehaviour,my fear is that it is,0.6201
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,Ok,0.6158
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You,1.0
+tfidf,PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have a cavity,1.0
+tfidf,PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have difficulty focusing,1.0
+tfidf,PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have discovered,1.0
+tfidf,PartnershipPatient || SDOH,SDOH,I have voluntarily quarantined,PartnershipPatient,I have a recheck appointment,0.6264
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,I will never get there!,SDOH,canâ€™t get there,0.6561
+tfidf,PartnershipPatient || SDOH,SDOH,I have been crazy busy,PartnershipPatient,I have been recieving,0.7834
+tfidf,PartnershipPatient || SDOH,SDOH,I have been crazy busy,PartnershipPatient,I have been trying,0.6304
+tfidf,PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,vertigo and dizziness,1.0
+tfidf,PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,Adderall and zofran,0.6272
+tfidf,PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,those results and reports,0.6212
+tfidf,PartnershipPatient || SDOH,SDOH,eating scrambled eggs and soup,PartnershipPatient,my Lisinopril and my Metoprolol,0.6029
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I can tolerate,SharedDecisionPatient,Can I switch to,0.8294
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,pain after I eat,SDOH,after I eat anything,0.6999
+tfidf,PartnershipPatient || SDOH,SDOH,after I eat anything,PartnershipPatient,pain after I eat,0.6999
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,due to the discomfort,SDOH,due to car wreck,0.6507
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you!,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipPatient,Good Morning,PartnershipProvider,Good morning,1.0
+tfidf,PartnershipPatient || SharedDecisionProvider,PartnershipPatient,I would like to give them documentation,SharedDecisionProvider,if you would like to give it try,0.6788
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am doing my best,SDOH,doing my duties,0.675
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,I am waiting for,0.6326
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,for the Org4 team,SocioEmotionalBehaviour,apologies for the misspelling,0.7193
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi!,1.0
+tfidf,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,it's a controlled substance,SocioEmotionalBehaviour,it exhausts me,0.6905
+tfidf,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,it's a controlled substance,CareCoordinationProvider,they didnt recieve it,0.6062
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I suppose,CareCoordinationPatient,Kroger was suppose to submit request,0.689
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,Kroger was suppose to submit request,PartnershipPatient,I suppose,0.689
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my stress level is super high right now,SDOH,I know the pollen is high right now,0.7712
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am super embarrassed,PartnershipPatient,getting super winded,0.657
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,I know the pollen is high right now,SocioEmotionalBehaviour,my stress level is super high right now,0.7712
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,injured my shoulder,SDOH,excuse my absences,1.0
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,injured my shoulder,SDOH,my occupation is,0.6257
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,have bruised ribs they said,CareCoordinationPatient,they said my Dr Person1,0.6283
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,would like a recommendation,CareCoordinationPatient,I would like my neurologist,0.6363
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,getting super winded,SocioEmotionalBehaviour,I am super embarrassed,0.657
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Can you help,SharedDecisionPatient,can you electronically send,0.6906
+tfidf,PartnershipPatient || SDOH,SDOH,none I've been smoke free for 8weeks,PartnershipPatient,I've been out,0.7203
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,none I've been smoke free for 8weeks,SocioEmotionalBehaviour,I've been struggling and coping,0.6178
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,no adverse affects,SDOH,No $ to buy benadryl,0.617
+tfidf,PartnershipPatient || SDOH,PartnershipPatient,I was able to,SDOH,My sister was able to have,0.6276
+tfidf,PartnershipPatient || SDOH,SDOH,canâ€™t get there,PartnershipPatient,I will never get there!,0.6561
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,God bless you!,SocioEmotionalBehaviour,most importantly God!,0.6383
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,to schedule an appointment for counseling,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6462
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,doctor English or another doctor,PartnershipPatient,I need a doctor,0.6603
+tfidf,PartnershipProvider || SDOH,PartnershipProvider,Have a good day,SDOH,doesn't have good reception,0.6846
+tfidf,PartnershipProvider || SDOH,PartnershipProvider,This is just a reminder,SDOH,this is my motherâ€™s phone,0.6086
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I switch to,PartnershipPatient,I can tolerate,0.8294
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment,0.6865
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment,0.6865
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,schedule an appointment for labs,0.6674
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,to schedule an appointment for counseling,0.6462
+tfidf,SDOH || SharedDecisionPatient,SDOH,could not get it refilled,SharedDecisionPatient,Can I get it refilled?,0.6984
+tfidf,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,Do I ditch the Xanax completely,PartnershipProvider,Unlike alprazolam (xanax),0.602
+tfidf,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,Unlike alprazolam (xanax),SharedDecisionPatient,Do I ditch the Xanax completely,0.602
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,they said my Dr Person1,PartnershipPatient,have bruised ribs they said,0.6283
+tfidf,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,send over a referral,CareCoordinationProvider,I faxed over referral,0.6649
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Can you please help?,SharedDecisionPatient,Can you please send persciption,0.6032
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,I have 2 Easter lunch banquets I have to attend,SocioEmotionalBehaviour,I have major anxiety,0.7508
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,I have 2 Easter lunch banquets I have to attend,SocioEmotionalBehaviour,I won't have to worry about,0.6939
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I've been struggling and coping,PartnershipPatient,I've been out,0.7004
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I've been struggling and coping,SDOH,none I've been smoke free for 8weeks,0.6178
+tfidf,SDOH || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,SDOH,it was on HOLD,0.7747
+tfidf,SDOH || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,SDOH,it was much cheaper,0.7388
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,PartnershipPatient,It was refilled,0.6963
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,would it be possible to get another refill,SharedDecisionPatient,Would it be possible to have,0.7951
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,or temporary refill on my birth control,PartnershipPatient,refill on my lantus,0.6545
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,it is impossible,SocioEmotionalBehaviour,my fear is that it is,0.7234
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Is there any other medication,PartnershipPatient,is there any possible way,0.612
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I've been out,SocioEmotionalBehaviour,I've been struggling and coping,0.7004
+tfidf,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it refilled?,SDOH,could not get it refilled,0.6984
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,it exhausts me,PartnershipPatient,it's a controlled substance,0.6905
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I need a doctor,CareCoordinationPatient,doctor English or another doctor,0.6603
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,they do not have the medicine to fill it,SocioEmotionalBehaviour,I do not have the time,0.6414
+tfidf,CareCoordinationPatient || SDOH,CareCoordinationPatient,Person1 called me on,SDOH,Org2 called me,0.6983
+tfidf,SDOH || SharedDecisionPatient,SDOH,I wonâ€™t be able to drive in it,SharedDecisionPatient,Would you be able to resubmit it again please?,0.6902
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Would it be possible to have,PartnershipPatient,would it be possible to get another refill,0.7951
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,my occupation is,SocioEmotionalBehaviour,My apoligies,0.6257
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,I am still having sleeping issues,SocioEmotionalBehaviour,I am still struggling,0.6395
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,schedule an appointment,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6865
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,refill on my lantus,SharedDecisionPatient,or temporary refill on my birth control,0.6545
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,Could you please see,CareCoordinationPatient,Could you please inform Dr,0.74
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,this was a surprise for my Birthday!!!!,PartnershipPatient,for my diabeties,0.7557
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can you electronically send,PartnershipPatient,Can you help,0.6906
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like to,CareCoordinationPatient,would like to work with you,0.6076
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,schedule an appointment,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6865
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I do not have the time,SDOH,they do not have the medicine to fill it,0.6414
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I apologize for my poor time management,PartnershipPatient,for my diabeties,0.8193
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I apologize for my poor time management,PartnershipPatient,for my medication,0.6492
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,What do I do?,PartnershipPatient,What can we do now?,0.6076
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,if you could call in a steroid pack?,PartnershipPatient,If you could call me back,0.7432
+tfidf,SDOH || SharedDecisionPatient,SharedDecisionPatient,if you could call in a steroid pack?,SDOH,if you could call my fiance at,0.7405
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,schedule an appointment for labs,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6674
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I have a recheck appointment,SocioEmotionalBehaviour,I have major anxiety,0.6264
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,If you could call me back,SharedDecisionPatient,if you could call in a steroid pack?,0.7432
+tfidf,SDOH || SharedDecisionPatient,SDOH,if you could call my fiance at,SharedDecisionPatient,if you could call in a steroid pack?,0.7405
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am still struggling,SDOH,I am still having sleeping issues,0.6395
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,want to make sure,CareCoordinationPatient,with the Endocrinologist to make sure,0.6807
+tfidf,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,I spoke with the nutritionist,0.7956
+tfidf,SharedDecisionProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,SharedDecisionProvider,proceed with this request,0.6788
+tfidf,PartnershipProvider || SDOH,PartnershipProvider,i can not guarantee,SDOH,I can NOT afford these anymore,0.6886
+tfidf,PartnershipProvider || SDOH,PartnershipProvider,i can not guarantee,SDOH,I can not get off work,0.6032
+tfidf,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,I would like to proceed with this,PartnershipProvider,if you will like to proceed with this referral,0.7676
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Iâ€™m just scared,PartnershipPatient,Iâ€™m just trying to figure it,0.6316
+tfidf,PartnershipProvider || SDOH,SDOH,I can NOT afford these anymore,PartnershipProvider,i can not guarantee,0.6886
+tfidf,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.7956
+tfidf,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.7956
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,she asked if I would be up to,PartnershipPatient,would be greatly appreciated,0.6766
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,SDOH,for the Org4 team,0.7193
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,PartnershipPatient,It's for the Vyvanse,0.7167
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,SDOH,As for the courage health,0.6536
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,apologies for the misspelling,PartnershipPatient,written prescription for the SUCRALFATE,0.6456
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,As for the courage health,SocioEmotionalBehaviour,apologies for the misspelling,0.6536
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I need to know,CareCoordinationPatient,They basically need to know,0.9041
+tfidf,SharedDecisionProvider || SocioEmotionalBehaviour,SharedDecisionProvider,proceed with this request,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,0.6788
+tfidf,PartnershipProvider || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipProvider,If you would like to double check,0.7161
+tfidf,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,I would like to give them documentation,0.6788
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,I would like my neurologist,PartnershipPatient,I would like,0.6363
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,I would like my neurologist,PartnershipPatient,would like a recommendation,0.6363
+tfidf,CareCoordinationPatient || SDOH,CareCoordinationPatient,it was ordered by the neurologist,SDOH,ordered by the regular Org5 doctor,0.6797
+tfidf,SDOH || SharedDecisionPatient,SDOH,it was much cheaper,SharedDecisionPatient,if it was a possiblility,0.7388
+tfidf,CareCoordinationPatient || SDOH,SDOH,ordered by the regular Org5 doctor,CareCoordinationPatient,it was ordered by the neurologist,0.6797
+tfidf,SDOH || SharedDecisionPatient,SharedDecisionPatient,Would you be able to resubmit it again please?,SDOH,I wonâ€™t be able to drive in it,0.6902
+tfidf,CareCoordinationPatient || SDOH,SDOH,Org2 called me,CareCoordinationPatient,Person1 called me on,0.6983
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like,CareCoordinationPatient,I would like my neurologist,0.6363
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I wanted,CareCoordinationPatient,They wanted,0.7501
+tfidf,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,if I can get refills,SharedDecisionPatient,Can I get,0.6275
+tfidf,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get,PartnershipPatient,if I can get refills,0.6275
+tfidf,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,if you will like to proceed with this referral,SharedDecisionPatient,I would like to proceed with this,0.7676
+tfidf,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionProvider,or if you have any question you can give me a call,SharedDecisionPatient,or maybe if she can give me a call,0.6225
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,They basically need to know,PartnershipPatient,I need to know,0.9041
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,for my diabeties,SocioEmotionalBehaviour,I apologize for my poor time management,0.8193
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,for my diabeties,SocioEmotionalBehaviour,this was a surprise for my Birthday!!!!,0.7557
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,for my medication,SocioEmotionalBehaviour,I apologize for my poor time management,0.6492
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my circumstances are keeping me,SDOH,finances are the barriers,0.6129
+tfidf,SDOH || SocioEmotionalBehaviour,SDOH,finances are the barriers,SocioEmotionalBehaviour,my circumstances are keeping me,0.6129
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,medicine has helped me tremendously,CareCoordinationPatient,the doctor who helped me,0.6061
+tfidf,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she mention that,PartnershipPatient,That works,0.6513
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,would like to work with you,PartnershipPatient,I would like to,0.6076
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,would be greatly appreciated,CareCoordinationPatient,she asked if I would be up to,0.6766
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,most importantly God!,PartnershipPatient,God bless you!,0.6383
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have been in awful condition,PartnershipPatient,I have been recieving,0.7173
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am in desperate need,PartnershipPatient,I am in pain everyday,0.6348
+tfidf,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionPatient,or maybe if she can give me a call,SharedDecisionProvider,or if you have any question you can give me a call,0.6225
+tfidf,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,Iâ€™m just trying to figure it,SocioEmotionalBehaviour,Iâ€™m just scared,0.6316
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,My apoligies,SDOH,excuse my absences,1.0
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,My apoligies,SDOH,my occupation is,0.6257
+tfidf,PartnershipProvider || SDOH,SDOH,doesn't have good reception,PartnershipProvider,Have a good day,0.6846
+tfidf,SDOH || SharedDecisionPatient,SDOH,it was on HOLD,SharedDecisionPatient,if it was a possiblility,0.7747
+tfidf,PartnershipProvider || SharedDecisionProvider,PartnershipProvider,If you would like to double check,SharedDecisionProvider,if you would like to give it try,0.7161
+tfidf,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,they didnt recieve it,PartnershipPatient,it's a controlled substance,0.6062
+tfidf,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I am waiting for,CareCoordinationPatient,waiting for my rheumatologist appointment,0.6326
+tfidf,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,They wanted,PartnershipPatient,I wanted,0.7501
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have major anxiety,SDOH,I have voluntarily quarantined,1.0
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have major anxiety,SDOH,I have 2 children,1.0
+tfidf,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I have major anxiety,SDOH,I have 2 Easter lunch banquets I have to attend,0.7508
+tfidf,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,I spoke with the nutritionist,0.7956
+tfidf,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,I faxed over referral,PartnershipPatient,send over a referral,0.6649
+tfidf,PartnershipProvider || SDOH,SDOH,this is my motherâ€™s phone,PartnershipProvider,This is just a reminder,0.6086
+tfidf,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,That works,CareCoordinationProvider,she mention that,0.6513
+lsa,PartnershipPatient || SDOH,PartnershipPatient,I have an ingrown hair right on top of my vaginal area,SDOH,recent passing of my brother,0.6262
+lsa,PartnershipPatient || SDOH,PartnershipPatient,is draining,SDOH,my occupation is,0.7791
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,is draining,SocioEmotionalBehaviour,my fear is that it is,0.7176
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,is draining,PartnershipProvider,hydroxyzine is not habit forming,0.7003
+lsa,PartnershipPatient || SDOH,PartnershipPatient,is draining,SDOH,your copay is 20.00,0.6177
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,is draining,PartnershipProvider,is that ok,0.6172
+lsa,PartnershipPatient || SDOH,PartnershipPatient,is draining,SDOH,he is my support,0.6039
+lsa,PartnershipPatient || SDOH,PartnershipPatient,a knot behind the skin,SDOH,avoid the high pricing,0.836
+lsa,PartnershipPatient || SDOH,PartnershipPatient,a knot behind the skin,SDOH,doesn't cost the earth,0.8133
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,a knot behind the skin,PartnershipProvider,The $427 is the whole price,0.761
+lsa,PartnershipPatient || SDOH,PartnershipPatient,a knot behind the skin,SDOH,I woke up in the middle of the night,0.6285
+lsa,PartnershipPatient || SDOH,PartnershipPatient,a knot behind the skin,SDOH,The building I work,0.6079
+lsa,PartnershipPatient || SDOH,PartnershipPatient,it is very tender to touch,SDOH,it is a assistance program,0.6989
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,it is very tender to touch,SocioEmotionalBehaviour,my fear is that it is,0.6337
+lsa,PartnershipPatient || SDOH,PartnershipPatient,it is very tender to touch,SDOH,It is a program from the government,0.6125
+lsa,PartnershipProvider || SDOH,SDOH,I can not get off work,PartnershipProvider,i can not guarantee,0.7716
+lsa,PartnershipPatient || SDOH,SDOH,I can not get off work,PartnershipPatient,I can not monitor my sugar,0.7124
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,It is my understanding,0.83
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,it is impossible,0.8281
+lsa,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipProvider,is that ok,0.7702
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,that is hurting,0.7418
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,result is available,0.7179
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,Spanish is preferred,0.7176
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,is draining,0.7176
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,SDOH,my occupation is,0.714
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,SDOH,it is a assistance program,0.7063
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my fear is that it is,PartnershipPatient,it is medication related,0.6743
+lsa,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Is there any way that you could all in Bactrim DS,PartnershipPatient,is there any possible way,0.7597
+lsa,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Is there any way that you could all in Bactrim DS,PartnershipPatient,Is there a cardiologist and nephrologist that you can refer me,0.6129
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,leave me a message on my phone,PartnershipProvider,leave a message,0.6876
+lsa,PartnershipPatient || SDOH,PartnershipPatient,leave me a message on my phone,SDOH,Currently on medical leave,0.6412
+lsa,PartnershipPatient || SDOH,PartnershipPatient,I discussed a trial of Stratera,SDOH,showing proof of income,0.8616
+lsa,PartnershipPatient || SDOH,PartnershipPatient,I discussed a trial of Stratera,SDOH,regardless of weather,0.8551
+lsa,PartnershipPatient || SDOH,PartnershipPatient,I discussed a trial of Stratera,SDOH,3 years of taking care of him,0.7317
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I discussed a trial of Stratera,SocioEmotionalBehaviour,lost the sheet of paper,0.7014
+lsa,PartnershipPatient || SDOH,PartnershipPatient,I discussed a trial of Stratera,SDOH,description of our medical benefits,0.6415
+lsa,PartnershipPatient || SDOH,PartnershipPatient,I discussed a trial of Stratera,SDOH,recent passing of my brother,0.6136
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,doing my duties,SocioEmotionalBehaviour,I am doing my best,0.9073
+lsa,PartnershipPatient || SDOH,SDOH,doing my duties,PartnershipPatient,Okay!,0.8038
+lsa,PartnershipPatient || SDOH,SDOH,doing my duties,PartnershipPatient,I am doing okay mentally,0.7965
+lsa,PartnershipPatient || SDOH,SDOH,doing my duties,PartnershipPatient,doing the trulicity,0.7682
+lsa,PartnershipPatient || SDOH,SDOH,doing my duties,PartnershipPatient,is doing well,0.6347
+lsa,PartnershipPatient || SDOH,SDOH,doing my duties,PartnershipPatient,not  doing  well,0.6168
+lsa,PartnershipProvider || SDOH,SDOH,I work as a librarian,PartnershipProvider,as soon as a i get a reply,0.7093
+lsa,PartnershipProvider || SDOH,SDOH,I work as a librarian,PartnershipProvider,As soon as I hear back,0.6823
+lsa,PartnershipPatient || SDOH,SDOH,I work as a librarian,PartnershipPatient,getting this done as soon as possible,0.6362
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I have back aches hands ache,SocioEmotionalBehaviour,hadn't heard back,0.6403
+lsa,PartnershipPatient || SDOH,PartnershipPatient,arms and fingers going numb,SDOH,eating scrambled eggs and soup,0.6693
+lsa,PartnershipPatient || SDOH,PartnershipPatient,arms and fingers going numb,SDOH,preventative and coverage,0.6499
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am concerned,PartnershipPatient,I am a patient,0.9737
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am concerned,PartnershipPatient,I am writing,0.9726
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am concerned,SDOH,I am leaving Org5,0.7936
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am concerned,PartnershipPatient,I am almost out,0.6801
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am concerned,PartnershipPatient,I am wondering,0.6718
+lsa,PartnershipProvider || SDOH,SDOH,My employer will be sending a form,PartnershipProvider,The cost will be $150,0.8194
+lsa,PartnershipProvider || SDOH,SDOH,My employer will be sending a form,PartnershipProvider,she will be contacting you,0.7109
+lsa,CareCoordinationProvider || SDOH,SDOH,My employer will be sending a form,CareCoordinationProvider,It will be faxed over,0.6642
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,My employer says,SocioEmotionalBehaviour,My apoligies,0.9108
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I am in pain everyday,SocioEmotionalBehaviour,I am in desperate need,0.6868
+lsa,CareCoordinationPatient || SDOH,SDOH,is difficult to go to work,CareCoordinationPatient,to go to another dr,0.7556
+lsa,SDOH || SharedDecisionProvider,SDOH,How can I go about seeing a dentist through Org1?,SharedDecisionProvider,we can go through another program,0.6183
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,my winsome teeth are pushing through,SocioEmotionalBehaviour,my circumstances are keeping me,0.696
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,I canâ€™t sleep,SocioEmotionalBehaviour,I canâ€™t remember,0.6502
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,to go over labs,CareCoordinationPatient,to go to another dr,0.6638
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,my Lisinopril and my Metoprolol,SocioEmotionalBehaviour,My apoligies,0.7994
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I could just get some filled,SharedDecisionPatient,could I please get,0.6166
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I was planning,SocioEmotionalBehaviour,Was curious,0.979
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,I was planning,PartnershipProvider,I was writing to remind you,0.7233
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,the roads are icing,SocioEmotionalBehaviour,my circumstances are keeping me,0.6158
+lsa,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Would it be best to reschedule,PartnershipPatient,to  reschedule,0.7906
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,with the Endocrinologist to make sure,PartnershipPatient,want to make sure,0.722
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,with the Endocrinologist to make sure,PartnershipPatient,make sure I do get,0.6622
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,with the Endocrinologist to make sure,PartnershipPatient,I just want to make sure,0.6531
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,Or would the results be quick enough,PartnershipProvider,I know the results,0.6632
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,I have 2 Easter lunch banquets I have to attend,0.9003
+lsa,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,PartnershipProvider,I have to wait a week,0.804
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,I have to work,0.7825
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,I have to work,0.7825
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,PartnershipPatient,you would have to,0.7794
+lsa,CareCoordinationProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,CareCoordinationProvider,I will have to talk to our social worker,0.7546
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,I have to constantly drink something,0.739
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,have to pay $600,0.7184
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,SDOH,have to stand up and walk around,0.6718
+lsa,PartnershipPatient || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I won't have to worry about,PartnershipPatient,have to schedule something,0.6188
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Sorry for the long question,SDOH,for the Org4 team,0.7149
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,that is hurting,0.9703
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,hoping that IF is a possibility!!,0.8016
+lsa,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,is that ok,SocioEmotionalBehaviour,my fear is that it is,0.7702
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,That works,0.755
+lsa,PartnershipProvider || SDOH,PartnershipProvider,is that ok,SDOH,fro that grant,0.7341
+lsa,PartnershipProvider || SDOH,PartnershipProvider,is that ok,SDOH,that is called ABCF,0.7248
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,a few that is incorrect or need updating,0.6662
+lsa,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,is that ok,SharedDecisionPatient,or is that half of it already?,0.6603
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,is draining,0.6172
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,is that ok,PartnershipPatient,Spanish is preferred,0.6172
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You,1.0
+lsa,PartnershipProvider || SDOH,SDOH,I had a visitor,PartnershipProvider,we had discussed,0.7159
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,I had a visitor,SocioEmotionalBehaviour,I haven't had any joy yet,0.6355
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I do not have any symptoms,SocioEmotionalBehaviour,I do not have the time,0.7251
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,I have voluntarily quarantined,SocioEmotionalBehaviour,I have major anxiety,1.0
+lsa,PartnershipPatient || PartnershipProvider,PartnershipPatient,I want to change to,PartnershipProvider,just want to reassure you again,0.6061
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,I am doing okay mentally,SocioEmotionalBehaviour,I am doing my best,0.9486
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,I have been crazy busy,SocioEmotionalBehaviour,I have been in awful condition,0.8958
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,iâ€™ve been getting birth control samples,SocioEmotionalBehaviour,I've been struggling and coping,0.6845
+lsa,PartnershipProvider || SDOH,SDOH,I woke up in the middle of the night,PartnershipProvider,in regards of the referral order,0.6762
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,I woke up in the middle of the night,SocioEmotionalBehaviour,lost the sheet of paper,0.6735
+lsa,PartnershipPatient || SocioEmotionalBehaviour,PartnershipPatient,back pains with nausea,SocioEmotionalBehaviour,hadn't heard back,0.6281
+lsa,PartnershipProvider || SDOH,SDOH,eating scrambled eggs and soup,PartnershipProvider,the procedure and Pathology,0.8198
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I can tolerate,SharedDecisionPatient,Can I switch to,0.8357
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I can tolerate,SharedDecisionPatient,Can I get,0.6547
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I do have bowel sounds,SharedDecisionPatient,What do I do?,0.707
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,have not noticed any Black & Tarry stools,CareCoordinationPatient,I have not gotten a call,0.7134
+lsa,SharedDecisionProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I cannot keep dealing with this,SharedDecisionProvider,proceed with this request,0.6281
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I needed to know,CareCoordinationPatient,They basically need to know,0.6025
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if Dr. Person1 or Dr. Person2 would be able to provide,CareCoordinationPatient,with Dr. Person1,0.6081
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,They have been very understanding with my situation,SocioEmotionalBehaviour,I have been in awful condition,0.6016
+lsa,PartnershipPatient || SharedDecisionProvider,PartnershipPatient,I would like to give them documentation,SharedDecisionProvider,if you would like to give it try,0.7434
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like to give them documentation,CareCoordinationPatient,I would like my neurologist,0.7152
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I am doing my best,SDOH,doing my duties,0.9073
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,starting new medications,CareCoordinationPatient,The new FNP stated,0.8552
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,starting new medications,CareCoordinationPatient,I met with the new FNP,0.7156
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,waiting for MRI results,CareCoordinationPatient,waiting for my rheumatologist appointment,0.6123
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,I am waiting for,0.7036
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,for my diabeties,0.6443
+lsa,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipProvider,Im waiting,0.6421
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,waiting for MRI results,0.6123
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,for the Org4 team,SocioEmotionalBehaviour,apologies for the misspelling,0.9888
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,for the Org4 team,SocioEmotionalBehaviour,Sorry for the hassle,0.764
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,for the Org4 team,SocioEmotionalBehaviour,Sorry for the long question,0.7149
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,Dr. Person1 sent in your refills,CareCoordinationPatient,letting Dr. Person1 know,0.6638
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,Dr. Person1 sent in your refills,CareCoordinationPatient,Dr. Person1 has requested,0.6595
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,Dr. Person1 sent in your refills,CareCoordinationPatient,with Dr. Person1,0.6574
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,Dr. Person1 sent in your refills,CareCoordinationPatient,I spoke to Dr  Person1,0.6471
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,Dr. Person1 sent in your refills,CareCoordinationPatient,Person1 prescribed,0.6271
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,Dr. Person1 sent in your refills,CareCoordinationPatient,my Dr Person1 said,0.617
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I can call andake an appointment,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6172
+lsa,SDOH || SocioEmotionalBehaviour,SDOH,with sick kids not concentrating well,SocioEmotionalBehaviour,Well kinda worried bout,0.7469
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I'm requesting a refill on Vyvanse Rx,SharedDecisionPatient,or temporary refill on my birth control,0.6809
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,it's a controlled substance,CareCoordinationProvider,they didnt recieve it,0.645
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I suppose,CareCoordinationPatient,Kroger was suppose to submit request,0.7773
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,Kroger was suppose to submit request,PartnershipPatient,I suppose,0.7773
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,Kroger was suppose to submit request,SDOH,amazon can''t request,0.606
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,My rash on my arms,SharedDecisionPatient,or temporary refill on my birth control,0.6393
+lsa,SDOH || SocioEmotionalBehaviour,SocioEmotionalBehaviour,my stress level is super high right now,SDOH,I know the pollen is high right now,0.8587
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,have bruised ribs they said,CareCoordinationPatient,they said my Dr Person1,0.6291
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I just want to make sure,CareCoordinationPatient,with the Endocrinologist to make sure,0.6531
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,would like a recommendation,CareCoordinationPatient,I would like my neurologist,0.9249
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,would like a recommendation,CareCoordinationProvider,she would like for you,0.7432
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,to go to another dr,SDOH,to go work,0.7624
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,to go to another dr,SDOH,is difficult to go to work,0.7556
+lsa,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,to go to another dr,PartnershipPatient,to go over labs,0.6638
+lsa,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,Was curious,PartnershipProvider,I was writing to remind you,0.7095
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Is there a cardiologist and nephrologist that you can refer me,SharedDecisionPatient,Is there any way that you could all in Bactrim DS,0.6129
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I do not trust Christus,SharedDecisionPatient,What do I do?,0.6091
+lsa,PartnershipProvider || SDOH,SDOH,I have to work,PartnershipProvider,I have to wait a week,0.6664
+lsa,CareCoordinationProvider || SDOH,SDOH,I have to work,CareCoordinationProvider,I will have to talk to our social worker,0.621
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,Can you help,SharedDecisionPatient,can you electronically send,0.7131
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,no adverse affects,CareCoordinationPatient,have no luck reaching her,0.7265
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like to continue using them,CareCoordinationPatient,I would like my neurologist,0.7013
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like to continue using them,CareCoordinationPatient,would like to work with you,0.6755
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I was able to,SharedDecisionPatient,Would you be able to resubmit it again please?,0.6333
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,schedule appointment for,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.7881
+lsa,PartnershipProvider || SDOH,SDOH,where we live,PartnershipProvider,we had discussed,0.6462
+lsa,SDOH || SharedDecisionPatient,SDOH,where we live,SharedDecisionPatient,we picked this medicine,0.6189
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,NEW HEARING AIDS,CareCoordinationPatient,The new FNP stated,0.7676
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,NEW HEARING AIDS,CareCoordinationPatient,I met with the new FNP,0.6436
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,to schedule an appointment for counseling,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.9069
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I'll be able to,SharedDecisionPatient,Would you be able to resubmit it again please?,0.747
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,do the counseling,SharedDecisionPatient,Do I ditch the Xanax completely,0.8549
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,do the counseling,SharedDecisionPatient,What do I do?,0.7381
+lsa,PartnershipProvider || SDOH,SDOH,I use my hands,PartnershipProvider,safer for long term use,0.648
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,with Dr. Person1,CareCoordinationProvider,Dr. Person1 sent in your refills,0.6574
+lsa,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,get a drug test,CareCoordinationPatient,didnâ€™t get a response,0.7117
+lsa,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,I can schedule you for,SharedDecisionPatient,can I schedule an appointment for genetic testing?,0.6176
+lsa,PartnershipProvider || SDOH,PartnershipProvider,Would that work?,SDOH,fro that grant,0.6223
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,I can get some type of treatment,SharedDecisionPatient,Can I get,0.82
+lsa,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,I have to wait a week,SocioEmotionalBehaviour,I won't have to worry about,0.804
+lsa,PartnershipProvider || SDOH,PartnershipProvider,I have to wait a week,SDOH,I have 2 Easter lunch banquets I have to attend,0.7753
+lsa,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,I have to wait a week,CareCoordinationProvider,I will have to talk to our social worker,0.6761
+lsa,PartnershipProvider || SDOH,PartnershipProvider,I have to wait a week,SDOH,I have to work,0.6664
+lsa,PartnershipProvider || SDOH,PartnershipProvider,I have to wait a week,SDOH,I have to work,0.6664
+lsa,PartnershipProvider || SDOH,PartnershipProvider,I have to wait a week,SDOH,I have to constantly drink something,0.6224
+lsa,PartnershipProvider || SDOH,PartnershipProvider,Have a good day,SDOH,doesn't have good reception,0.8156
+lsa,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,would like this updated,SharedDecisionPatient,I would like to proceed with this,0.7527
+lsa,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,Happy New Year,CareCoordinationPatient,The new FNP stated,0.8092
+lsa,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,Happy New Year,CareCoordinationPatient,I met with the new FNP,0.6686
+lsa,PartnershipProvider || SDOH,PartnershipProvider,Happy New Year,SDOH,My new employers is,0.6492
+lsa,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,I was writing to remind you,SocioEmotionalBehaviour,Was curious,0.7095
+lsa,PartnershipProvider || SDOH,PartnershipProvider,I was writing to remind you,SDOH,I was working,0.6488
+lsa,PartnershipProvider || SDOH,PartnershipProvider,I was writing to remind you,SDOH,I was unable to afford,0.6474
+lsa,PartnershipProvider || SDOH,PartnershipProvider,we had discussed,SDOH,I had a visitor,0.7159
+lsa,PartnershipProvider || SDOH,PartnershipProvider,we had discussed,SDOH,where we live,0.6462
+lsa,PartnershipProvider || SDOH,PartnershipProvider,we had discussed,SDOH,we aren't leaving town,0.6277
+lsa,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,The cost will be $150,CareCoordinationProvider,It will be faxed over,0.6711
+lsa,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,I will call you back,SocioEmotionalBehaviour,afraid I will miss your call,0.6127
+lsa,SDOH || SharedDecisionPatient,SDOH,I couldn't make the payment,SharedDecisionPatient,Is there a way to make a payment on line?,0.6194
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,Is there a way to make a payment on line?,SDOH,I couldn't make the payment,0.6194
+lsa,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I switch to,PartnershipPatient,I can tolerate,0.8357
+lsa,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I switch to,PartnershipPatient,I can explain,0.8217
+lsa,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I switch to,PartnershipPatient,I can't seem to remember exactly,0.6312
+lsa,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipPatient,to schedule an appointment for counseling,0.9069
+lsa,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,can I schedule an appointment for genetic testing?,PartnershipProvider,I can schedule you for,0.6176
+lsa,SDOH || SharedDecisionPatient,SDOH,could not get it refilled,SharedDecisionPatient,Can I get it refilled?,0.7804
+lsa,CareCoordinationPatient || SDOH,SDOH,Even Person1 charges $70,CareCoordinationPatient,Person1 prescribed,0.7166
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,Person2 called me this morning,SDOH,Org2 called me,0.6908
+lsa,CareCoordinationPatient || SDOH,SDOH,she said there's about 100 people on the waiting list,CareCoordinationPatient,she said,0.7345
+lsa,CareCoordinationPatient || SDOH,SDOH,she said there's about 100 people on the waiting list,CareCoordinationPatient,she said,0.7345
+lsa,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,Do I ditch the Xanax completely,PartnershipProvider,Unlike alprazolam (xanax),0.6774
+lsa,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,Unlike alprazolam (xanax),SharedDecisionPatient,Do I ditch the Xanax completely,0.6774
+lsa,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,Unlike alprazolam (xanax),SharedDecisionPatient,if I can have a few Xanax,0.6717
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,send over a referral,CareCoordinationProvider,I faxed over referral,0.8923
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,my Dr Person1 said,CareCoordinationProvider,Dr. Person1 sent in your refills,0.617
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,getting me set up with your Person2,SDOH,catching up with a live person,0.6421
+lsa,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,getting me set up with your Person2,PartnershipProvider,to set up the appointment,0.6245
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,I've missed two calls from y'all,SDOH,from Org7,0.6013
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,SDOH,it was on HOLD,0.7962
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,SDOH,it was much cheaper,0.7856
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,CareCoordinationPatient,it was ordered by the neurologist,0.7211
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,if it was a possiblility,SDOH,It was called into Org1,0.6518
+lsa,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,The new FNP stated,PartnershipProvider,Happy New Year,0.8092
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,The new FNP stated,SDOH,My new employers is,0.6384
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,I did in fact hives,CareCoordinationProvider,Did you get in touch with him??,0.6575
+lsa,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,I met with the new FNP,PartnershipProvider,Happy New Year,0.6686
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I met with the new FNP,CareCoordinationProvider,with the nutrition department,0.6387
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,She confirmed,CareCoordinationProvider,she mention that,0.7136
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,Person1 prescribed,SDOH,Even Person1 charges $70,0.7166
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,Person1 prescribed,CareCoordinationProvider,Dr. Person1 sent in your refills,0.6271
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it refilled?,SDOH,could not get it refilled,0.7804
+lsa,CareCoordinationPatient || SDOH,SDOH,I have time to find a dr up  There,CareCoordinationPatient,to call up there,0.6266
+lsa,SDOH || SharedDecisionPatient,SDOH,It was called into Org1,SharedDecisionPatient,if it was a possiblility,0.6518
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,Person1 called me on,SDOH,Org2 called me,0.7297
+lsa,SDOH || SharedDecisionPatient,SDOH,I wonâ€™t be able to drive in it,SharedDecisionPatient,Would you be able to resubmit it again please?,0.8191
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,There is not an option to send a message to Person1,CareCoordinationProvider,I will send a message to her,0.644
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,There is not an option to send a message to Person1,CareCoordinationProvider,I will send your message to Dr. Person1,0.6132
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,she said,SDOH,she said there's about 100 people on the waiting list,0.7345
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,surgeon would be scheduling,SDOH,which one would be covered,0.8044
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,she said,SDOH,she said there's about 100 people on the waiting list,0.7345
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,he would be scheduling,SDOH,which one would be covered,0.7232
+lsa,CareCoordinationPatient || SDOH,SDOH,My new employers is,CareCoordinationPatient,The new FNP stated,0.6384
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke to Dr  Person1,CareCoordinationProvider,I will send your message to Dr. Person1,0.6586
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke to Dr  Person1,CareCoordinationProvider,Dr. Person1 sent in your refills,0.6471
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,I told him,SDOH,I was told to send bills,0.6001
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,Can you ask the doctor,CareCoordinationPatient,the doctor who helped me,0.6563
+lsa,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,if he/she can prescribe,SharedDecisionPatient,or maybe if she can give me a call,0.658
+lsa,CareCoordinationProvider || SDOH,SDOH,I have to work,CareCoordinationProvider,I will have to talk to our social worker,0.621
+lsa,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,afraid I will miss your call,PartnershipProvider,I will call you back,0.6127
+lsa,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,afraid I will miss your call,PartnershipProvider,I will fix this in your chart,0.6034
+lsa,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,I will fix this in your chart,SocioEmotionalBehaviour,afraid I will miss your call,0.6034
+lsa,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,What is a good address,SocioEmotionalBehaviour,which is a good thing,0.8687
+lsa,SDOH || SharedDecisionPatient,SDOH,It can be sent to same pharmacy,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,0.6854
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,I spoke to Dr  Person1,0.6586
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I will send your message to Dr. Person1,CareCoordinationPatient,There is not an option to send a message to Person1,0.6132
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,sending yourr medication into the pharmacy,PartnershipPatient,The online pharmacy,0.7382
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,sending yourr medication into the pharmacy,PartnershipPatient,The pharmacy that I used,0.6785
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,sending yourr medication into the pharmacy,PartnershipPatient,I have checked at the pharmacy,0.6024
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,Did you get in touch with him??,PartnershipPatient,I did in fact hives,0.6575
+lsa,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,HE NEEDS TO CALL Them TO APPROVE IT EARLY,PartnershipProvider,Call them first,0.7594
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,HE NEEDS TO CALL Them TO APPROVE IT EARLY,PartnershipPatient,I have to call them,0.7477
+lsa,CareCoordinationPatient || SDOH,SDOH,I haven't worked since Feb,CareCoordinationPatient,I haven't been seen by surgeon,0.6462
+lsa,CareCoordinationPatient || SDOH,SDOH,amazon can''t request,CareCoordinationPatient,Kroger was suppose to submit request,0.606
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,response they received from my doctorâ€™s office,CareCoordinationProvider,I received a message from our Person2,0.6108
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,response they received from my doctorâ€™s office,CareCoordinationProvider,I received a message from our Person2,0.6108
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,I have checked at the pharmacy,CareCoordinationProvider,sending yourr medication into the pharmacy,0.6024
+lsa,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,What do I do?,PartnershipProvider,what would you like to do,0.6338
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,if you could call in a steroid pack?,SDOH,if you could call my fiance at,0.8825
+lsa,SDOH || SharedDecisionPatient,SDOH,if you could call my fiance at,SharedDecisionPatient,if you could call in a steroid pack?,0.8825
+lsa,CareCoordinationPatient || SDOH,SDOH,to go work,CareCoordinationPatient,to go to another dr,0.7624
+lsa,CareCoordinationPatient || SDOH,CareCoordinationPatient,I haven't been seen by surgeon,SDOH,I haven't worked since Feb,0.6462
+lsa,CareCoordinationProvider || SocioEmotionalBehaviour,CareCoordinationProvider,I received a message from our Person2,SocioEmotionalBehaviour,I havenâ€™t received either,0.7157
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I received a message from our Person2,CareCoordinationPatient,response they received from my doctorâ€™s office,0.6108
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,I spoke with the nutritionist,0.9694
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,with the Rheumatologist,0.785
+lsa,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,placed your last order,CareCoordinationProvider,Your last provider has order,0.83
+lsa,SharedDecisionProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,SharedDecisionProvider,proceed with this request,0.8021
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,I would like,0.7432
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,would like a recommendation,0.7432
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,would like to request for you,0.7324
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,she would like for you,CareCoordinationPatient,I would like my neurologist,0.6845
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,I would like to,0.6674
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,would like this updated,0.6431
+lsa,SDOH || SharedDecisionProvider,SharedDecisionProvider,or we can go through another program,SDOH,go through the ABCF grant,0.7044
+lsa,PartnershipProvider || SocioEmotionalBehaviour,PartnershipProvider,i can not guarantee,SocioEmotionalBehaviour,unfortunately we can not proceed,0.7337
+lsa,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,what would you like to do,SharedDecisionPatient,What do I do?,0.6338
+lsa,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,I would like to proceed with this,PartnershipProvider,if you will like to proceed with this referral,0.7752
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,I would like to proceed with this,CareCoordinationPatient,would like to work with you,0.6915
+lsa,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionPatient,I would like to proceed with this,SharedDecisionProvider,proceed with this request,0.6477
+lsa,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,I would like to proceed with this,PartnershipProvider,If you would like to double check,0.616
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.9694
+lsa,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.9694
+lsa,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,I did let her know,PartnershipProvider,let us know,0.7002
+lsa,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,which is a good thing,PartnershipProvider,What is a good address,0.8687
+lsa,SharedDecisionProvider || SocioEmotionalBehaviour,SharedDecisionProvider,proceed with this request,SocioEmotionalBehaviour,unfortunately we can not proceed with this request,0.8021
+lsa,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionProvider,proceed with this request,SharedDecisionPatient,I would like to proceed with this,0.6477
+lsa,PartnershipProvider || SharedDecisionProvider,SharedDecisionProvider,proceed with this request,PartnershipProvider,if you will like to proceed with this referral,0.635
+lsa,SharedDecisionProvider || SocioEmotionalBehaviour,SharedDecisionProvider,proceed with this request,SocioEmotionalBehaviour,I cannot keep dealing with this,0.6281
+lsa,SDOH || SharedDecisionProvider,SDOH,go through the ABCF grant,SharedDecisionProvider,we can go through another program,0.7271
+lsa,SDOH || SharedDecisionProvider,SDOH,go through the ABCF grant,SharedDecisionProvider,or we can go through another program,0.7044
+lsa,PartnershipProvider || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipProvider,If you would like to double check,0.9113
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,I would like to give them documentation,0.7434
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,I would like to,0.7296
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,I would like,0.6729
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,would like a recommendation,0.6729
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,I would like to have,0.6454
+lsa,CareCoordinationPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,CareCoordinationPatient,would like to work with you,0.6239
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,I would like to continue using them,0.6212
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,PartnershipPatient,would like to request for you,0.6134
+lsa,CareCoordinationPatient || SharedDecisionProvider,SharedDecisionProvider,if you would like to give it try,CareCoordinationPatient,I would like my neurologist,0.6014
+lsa,CareCoordinationProvider || SDOH,SDOH,fro that grant,CareCoordinationProvider,she mention that,0.6962
+lsa,CareCoordinationPatient || SDOH,SDOH,fro that grant,CareCoordinationPatient,not communicating that to yall,0.6888
+lsa,SharedDecisionPatient || SocioEmotionalBehaviour,SharedDecisionPatient,or just show form phone,SocioEmotionalBehaviour,just curious,0.6025
+lsa,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,it was ordered by the neurologist,SharedDecisionPatient,if it was a possiblility,0.7211
+lsa,SDOH || SharedDecisionPatient,SDOH,it was much cheaper,SharedDecisionPatient,if it was a possiblility,0.7856
+lsa,PartnershipPatient || SharedDecisionProvider,PartnershipPatient,Please call if you have any questions!,SharedDecisionProvider,or if you have any question you can give me a call,0.7164
+lsa,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,It will be faxed over,PartnershipProvider,The cost will be $150,0.6711
+lsa,CareCoordinationProvider || SDOH,CareCoordinationProvider,It will be faxed over,SDOH,My employer will be sending a form,0.6642
+lsa,CareCoordinationProvider || SDOH,CareCoordinationProvider,It will be faxed over,SDOH,faxing over a bill,0.6331
+lsa,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,to set up the appointment,CareCoordinationPatient,getting me set up with your Person2,0.6245
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,Would you be able to resubmit it again please?,SDOH,I wonâ€™t be able to drive in it,0.8191
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,I would like,CareCoordinationProvider,she would like for you,0.7432
+lsa,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,letting Dr. Person1 know,SharedDecisionPatient,Can you please ask Dr. Person1,0.6093
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get,CareCoordinationPatient,didnâ€™t get a response,0.6922
+lsa,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,Your last provider has order,PartnershipProvider,placed your last order,0.83
+lsa,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,Your last provider has order,PartnershipProvider,placed your last order,0.83
+lsa,PartnershipProvider || SharedDecisionPatient,PartnershipProvider,if you will like to proceed with this referral,SharedDecisionPatient,I would like to proceed with this,0.7752
+lsa,PartnershipProvider || SharedDecisionProvider,PartnershipProvider,if you will like to proceed with this referral,SharedDecisionProvider,proceed with this request,0.635
+lsa,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionProvider,or if you have any question you can give me a call,SharedDecisionPatient,or maybe if she can give me a call,0.7519
+lsa,PartnershipPatient || SharedDecisionProvider,SharedDecisionProvider,or if you have any question you can give me a call,PartnershipPatient,Please call if you have any questions!,0.7164
+lsa,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,or is that half of it already?,PartnershipProvider,is that ok,0.6603
+lsa,SharedDecisionPatient || SocioEmotionalBehaviour,SharedDecisionPatient,or is that half of it already?,SocioEmotionalBehaviour,my fear is that it is,0.6038
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,would like to request for you,CareCoordinationProvider,she would like for you,0.7324
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,would like to request for you,CareCoordinationProvider,she would like for you,0.7324
+lsa,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,Im waiting,CareCoordinationPatient,waiting for my rheumatologist appointment,0.6421
+lsa,CareCoordinationProvider || PartnershipPatient,PartnershipPatient,The pharmacy that I used,CareCoordinationProvider,sending yourr medication into the pharmacy,0.6785
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,we picked this medicine,SDOH,where we live,0.6189
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she mention that,PartnershipPatient,That works,0.7123
+lsa,CareCoordinationProvider || SDOH,CareCoordinationProvider,she mention that,SDOH,fro that grant,0.6962
+lsa,CareCoordinationProvider || SocioEmotionalBehaviour,CareCoordinationProvider,I will have to talk to our social worker,SocioEmotionalBehaviour,I won't have to worry about,0.7546
+lsa,CareCoordinationProvider || SDOH,CareCoordinationProvider,I will have to talk to our social worker,SDOH,I have 2 Easter lunch banquets I have to attend,0.7025
+lsa,CareCoordinationProvider || PartnershipProvider,CareCoordinationProvider,I will have to talk to our social worker,PartnershipProvider,I have to wait a week,0.6761
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,I will have to talk to our social worker,PartnershipPatient,you would have to,0.6218
+lsa,CareCoordinationProvider || SDOH,CareCoordinationProvider,I will have to talk to our social worker,SDOH,I have to work,0.621
+lsa,CareCoordinationProvider || SDOH,CareCoordinationProvider,I will have to talk to our social worker,SDOH,I have to work,0.621
+lsa,CareCoordinationProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I havenâ€™t received either,CareCoordinationProvider,I received a message from our Person2,0.7157
+lsa,CareCoordinationProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,I havenâ€™t received either,CareCoordinationProvider,I received a message from our Person2,0.7157
+lsa,CareCoordinationPatient || PartnershipProvider,CareCoordinationPatient,would like to work with you,PartnershipProvider,If you would like to double check,0.7016
+lsa,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,would like to work with you,SharedDecisionPatient,I would like to proceed with this,0.6915
+lsa,SharedDecisionPatient || SharedDecisionProvider,SharedDecisionPatient,or maybe if she can give me a call,SharedDecisionProvider,or if you have any question you can give me a call,0.7519
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,or maybe if she can give me a call,CareCoordinationPatient,if he/she can prescribe,0.658
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,could I please get,CareCoordinationPatient,Could you please inform Dr,0.6625
+lsa,SDOH || SharedDecisionPatient,SDOH,it was on HOLD,SharedDecisionPatient,if it was a possiblility,0.7962
+lsa,SDOH || SharedDecisionPatient,SharedDecisionPatient,Can I get it sent to a different pharmacy please?,SDOH,It can be sent to same pharmacy,0.6854
+lsa,PartnershipProvider || SharedDecisionProvider,PartnershipProvider,If you would like to double check,SharedDecisionProvider,if you would like to give it try,0.9113
+lsa,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,If you would like to double check,CareCoordinationPatient,would like to work with you,0.7016
+lsa,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,If you would like to double check,CareCoordinationPatient,I would like my neurologist,0.658
+lsa,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,Call them first,CareCoordinationProvider,HE NEEDS TO CALL Them TO APPROVE IT EARLY,0.7594
+lsa,CareCoordinationPatient || PartnershipProvider,PartnershipProvider,let us know,CareCoordinationPatient,I did let her know,0.7002
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,they didnt recieve it,PartnershipPatient,it's a controlled substance,0.645
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,Can you please ask Dr. Person1,CareCoordinationPatient,with Dr. Person1,0.6103
+lsa,CareCoordinationPatient || SharedDecisionPatient,SharedDecisionPatient,Can you please ask Dr. Person1,CareCoordinationPatient,letting Dr. Person1 know,0.6093
+lsa,PartnershipProvider || SharedDecisionPatient,SharedDecisionPatient,if I can have a few Xanax,PartnershipProvider,Unlike alprazolam (xanax),0.6717
+lsa,CareCoordinationProvider || SocioEmotionalBehaviour,CareCoordinationProvider,I received a message from our Person2,SocioEmotionalBehaviour,I havenâ€™t received either,0.7157
+lsa,CareCoordinationProvider || PartnershipProvider,PartnershipProvider,placed your last order,CareCoordinationProvider,Your last provider has order,0.83
+lsa,PartnershipProvider || SocioEmotionalBehaviour,SocioEmotionalBehaviour,unfortunately we can not proceed,PartnershipProvider,i can not guarantee,0.7337
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,I would like,0.7432
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,would like a recommendation,0.7432
+lsa,CareCoordinationProvider || PartnershipPatient,CareCoordinationProvider,she would like for you,PartnershipPatient,would like to request for you,0.7324
+lsa,SDOH || SharedDecisionProvider,SharedDecisionProvider,we can go through another program,SDOH,go through the ABCF grant,0.7271
+lsa,SDOH || SharedDecisionProvider,SharedDecisionProvider,we can go through another program,SDOH,How can I go about seeing a dentist through Org1?,0.6183
+lsa,CareCoordinationProvider || SDOH,CareCoordinationProvider,I faxed over referral,SDOH,faxing over a bill,0.8477
+lsa,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,the doctor who helped me,SharedDecisionPatient,Can you ask the doctor,0.6563
+lsa,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,didnâ€™t get a response,SharedDecisionPatient,Can I get,0.6922
+lsa,CareCoordinationProvider || SDOH,SDOH,faxing over a bill,CareCoordinationProvider,I faxed over referral,0.8477
+lsa,CareCoordinationProvider || SDOH,SDOH,faxing over a bill,CareCoordinationProvider,It will be faxed over,0.6331
+lsa,CareCoordinationPatient || SharedDecisionPatient,CareCoordinationPatient,Could you please inform Dr,SharedDecisionPatient,could I please get,0.6625
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank you!,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,thank you!,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You!,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Thank you!,PartnershipPatient,Thank You!,1.0
+jaccard,PartnershipPatient || SDOH,PartnershipPatient,pain after I eat,SDOH,after I eat anything,0.6
+jaccard,PartnershipPatient || SDOH,SDOH,after I eat anything,PartnershipPatient,pain after I eat,0.6
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thank you,PartnershipProvider,Thank you,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Good Morning,PartnershipProvider,Good morning,1.0
+jaccard,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,waiting for my rheumatologist appointment,PartnershipPatient,my appointment for,0.6
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Have a wonderful day,PartnershipProvider,Have a good day,0.6
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,Hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,HI,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipProvider,Hi,PartnershipPatient,hi,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Hello,PartnershipProvider,Hello,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Hello,PartnershipProvider,Hello,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Hello,PartnershipProvider,Hello,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thanks!,PartnershipProvider,Thanks!,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thanks!,PartnershipProvider,Thanks!,1.0
+jaccard,PartnershipPatient || PartnershipProvider,PartnershipPatient,Thanks!,PartnershipProvider,Thanks!,1.0
+jaccard,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,my appointment for,CareCoordinationPatient,waiting for my rheumatologist appointment,0.6
+jaccard,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,I spoke with the nutritionist,0.6667
+jaccard,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.6667
+jaccard,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationPatient,I spoke with the nutritionist,CareCoordinationProvider,I spoke with the provider,0.6667
+jaccard,CareCoordinationPatient || PartnershipPatient,CareCoordinationPatient,I would like my neurologist,PartnershipPatient,I would like,0.6
+jaccard,CareCoordinationPatient || PartnershipPatient,PartnershipPatient,I would like,CareCoordinationPatient,I would like my neurologist,0.6
+jaccard,PartnershipPatient || SDOH,PartnershipPatient,I have gotten,SDOH,I have recently gotten insurance,0.6
+jaccard,PartnershipPatient || SharedDecisionPatient,PartnershipPatient,if I can get refills,SharedDecisionPatient,Can I get,0.6
+jaccard,PartnershipPatient || SharedDecisionPatient,SharedDecisionPatient,Can I get,PartnershipPatient,if I can get refills,0.6
+jaccard,PartnershipPatient || SDOH,SDOH,I would pay half,PartnershipPatient,Would I pay half of $427,0.6667
+jaccard,PartnershipPatient || SDOH,PartnershipPatient,Would I pay half of $427,SDOH,I would pay half,0.6667
+jaccard,PartnershipPatient || SDOH,SDOH,I have recently gotten insurance,PartnershipPatient,I have gotten,0.6
+jaccard,CareCoordinationPatient || CareCoordinationProvider,CareCoordinationProvider,I spoke with the provider,CareCoordinationPatient,I spoke with the nutritionist,0.6667

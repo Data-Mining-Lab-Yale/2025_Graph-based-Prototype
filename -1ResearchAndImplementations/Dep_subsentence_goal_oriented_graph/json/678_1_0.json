@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "CAT",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "chest",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    }
+  ]
+}

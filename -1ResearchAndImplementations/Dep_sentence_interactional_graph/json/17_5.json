@@ -1,0 +1,284 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "30",
+      "pos": "NUM",
+      "id": 0
+    },
+    {
+      "label": "count",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "gotten",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "has",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "through",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 7
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 8
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 9
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "considering",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "ste",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "p",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "down",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 16
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 17
+    },
+    {
+      "label": "few",
+      "pos": "ADJ",
+      "id": 18
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 25
+    },
+    {
+      "label": "tough",
+      "pos": "ADJ",
+      "id": 19
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 21
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 22
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 24
+    },
+    {
+      "label": "thereafter",
+      "pos": "ADV",
+      "id": 26
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 27
+    }
+  ],
+  "links": [
+    {
+      "dep": "nummod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 27
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "dep": "nmod",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "dep": "prt",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "dep": "advmod",
+      "source": 12,
+      "target": 26
+    },
+    {
+      "dep": "compound",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "cc",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "conj",
+      "source": 15,
+      "target": 25
+    },
+    {
+      "dep": "quantmod",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "nummod",
+      "source": 25,
+      "target": 18
+    },
+    {
+      "dep": "amod",
+      "source": 25,
+      "target": 19
+    },
+    {
+      "dep": "nmod",
+      "source": 25,
+      "target": 20
+    },
+    {
+      "dep": "nmod",
+      "source": 25,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 25,
+      "target": 24
+    },
+    {
+      "dep": "nmod",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 22
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "To",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "say",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "feel",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "like",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "coaster",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "roller",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "understatement",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "csubj",
+      "source": 10,
+      "target": 1
+    },
+    {
+      "dep": "attr",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hello",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "Here",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "result",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "PSA",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": ":",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "0.167",
+      "pos": "NUM",
+      "id": 9
+    },
+    {
+      "label": "Person2",
+      "pos": "NOUN",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "nummod",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

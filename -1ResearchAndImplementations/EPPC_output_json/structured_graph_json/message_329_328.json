@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Happy Thanksgiving   The form was attached to the last mag let me know if you received it.",
+      "id": 328
+    },
+    {
+      "label": "sentence",
+      "text": "Happy Thanksgiving   The form was attached to the last mag let me know if you received it.",
+      "id": "328_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Happy Thanksgiving   The form was attached to the last mag let",
+      "id": "328_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "me know",
+      "id": "328_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "if you received",
+      "id": "328_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it.",
+      "id": "328_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 328,
+      "target": "328_0"
+    },
+    {
+      "source": "328_0",
+      "target": "328_0_0"
+    },
+    {
+      "source": "328_0",
+      "target": "328_0_1"
+    },
+    {
+      "source": "328_0",
+      "target": "328_0_2"
+    },
+    {
+      "source": "328_0",
+      "target": "328_0_3"
+    }
+  ]
+}

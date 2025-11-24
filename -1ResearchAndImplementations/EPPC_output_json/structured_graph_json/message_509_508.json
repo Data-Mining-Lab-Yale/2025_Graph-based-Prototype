@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thank you finally reached someone and they are going to call me back with a time and place your help very much!",
+      "id": 508
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you finally reached someone and they are going to call me back with a time and place your help very much!",
+      "id": "508_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you finally reached",
+      "id": "508_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "someone and they are going",
+      "id": "508_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to call me back with a time and place",
+      "id": "508_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "your help very much!",
+      "id": "508_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 508,
+      "target": "508_0"
+    },
+    {
+      "source": "508_0",
+      "target": "508_0_0"
+    },
+    {
+      "source": "508_0",
+      "target": "508_0_1"
+    },
+    {
+      "source": "508_0",
+      "target": "508_0_2"
+    },
+    {
+      "source": "508_0",
+      "target": "508_0_3"
+    }
+  ]
+}

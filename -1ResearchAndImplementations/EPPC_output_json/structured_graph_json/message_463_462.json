@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 you were due for scans as well... please call XXX-XXX-XXXX to get everything rescheduled. Thank you Person2",
+      "id": 462
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 you were due for scans as well... please call XXX-XXX-XXXX to get everything rescheduled.",
+      "id": "462_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 you were",
+      "id": "462_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "due for scans as well... please call XXX-XXX-XXXX to get",
+      "id": "462_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "everything rescheduled",
+      "id": "462_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you Person2",
+      "id": "462_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you Person2",
+      "id": "462_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 462,
+      "target": "462_0"
+    },
+    {
+      "source": 462,
+      "target": "462_1"
+    },
+    {
+      "source": "462_0",
+      "target": "462_0_0"
+    },
+    {
+      "source": "462_0",
+      "target": "462_0_1"
+    },
+    {
+      "source": "462_0",
+      "target": "462_0_2"
+    },
+    {
+      "source": "462_1",
+      "target": "462_1_0"
+    }
+  ]
+}

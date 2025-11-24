@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning,     Have you discussed these issues with the inpatient team? We unfortunately cannot do formal visits if a  patient is admitted until they are discharged but I will pass these messages along to Dr  Person1.",
+      "id": 369
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning,     Have you discussed these issues with the inpatient team?",
+      "id": "369_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "369_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have you discussed these issues with the inpatient team?",
+      "id": "369_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We unfortunately cannot do formal visits if a  patient is admitted until they are discharged but I will pass these messages along to Dr  Person1.",
+      "id": "369_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We unfortunately cannot do formal visits if a  patient is admitted",
+      "id": "369_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "until they are discharged",
+      "id": "369_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but I will pass",
+      "id": "369_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "these messages along to Dr  Person1.",
+      "id": "369_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 369,
+      "target": "369_0"
+    },
+    {
+      "source": 369,
+      "target": "369_1"
+    },
+    {
+      "source": "369_0",
+      "target": "369_0_0"
+    },
+    {
+      "source": "369_0",
+      "target": "369_0_1"
+    },
+    {
+      "source": "369_1",
+      "target": "369_1_0"
+    },
+    {
+      "source": "369_1",
+      "target": "369_1_1"
+    },
+    {
+      "source": "369_1",
+      "target": "369_1_2"
+    },
+    {
+      "source": "369_1",
+      "target": "369_1_3"
+    }
+  ]
+}

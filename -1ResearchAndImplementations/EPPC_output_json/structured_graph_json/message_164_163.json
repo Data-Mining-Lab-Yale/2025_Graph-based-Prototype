@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "None scheduled is this an oversight or planned?",
+      "id": 163
+    },
+    {
+      "label": "sentence",
+      "text": "None scheduled is this an oversight or planned?",
+      "id": "163_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "None scheduled is this an oversight or planned",
+      "id": "163_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 163,
+      "target": "163_0"
+    },
+    {
+      "source": "163_0",
+      "target": "163_0_0"
+    }
+  ]
+}

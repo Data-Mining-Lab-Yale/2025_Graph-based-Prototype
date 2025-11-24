@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Should",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "making",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "an",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "come",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acl",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prt",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "advcl",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

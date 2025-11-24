@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Prescription has been sent in.",
+      "id": 171
+    },
+    {
+      "label": "sentence",
+      "text": "Prescription has been sent in.",
+      "id": "171_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Prescription has been sent in.",
+      "id": "171_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 171,
+      "target": "171_0"
+    },
+    {
+      "source": "171_0",
+      "target": "171_0_0"
+    }
+  ]
+}

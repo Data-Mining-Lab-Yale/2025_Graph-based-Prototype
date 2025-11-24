@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.5909090909090909,
+  "macro_f1": 0.5873649932542809,
+  "per_class_f1": {
+    "Care_Coordination": 0.6,
+    "Diagnostics": 0.6153846153846154,
+    "Drugs": 0.5853658536585366,
+    "General_information": 0.40816326530612246,
+    "Health_care_access_and_quality": 0.46153846153846156,
+    "Scheduling_appt": 0.8095238095238095,
+    "Symptoms": 0.631578947368421
+  },
+  "support": {
+    "Care_Coordination": 25.0,
+    "Diagnostics": 30.0,
+    "Drugs": 24.0,
+    "General_information": 24.0,
+    "Health_care_access_and_quality": 12.0,
+    "Scheduling_appt": 21.0,
+    "Symptoms": 18.0
+  },
+  "label_map": {
+    "Care_Coordination": 0,
+    "Diagnostics": 1,
+    "Drugs": 2,
+    "General_information": 3,
+    "Health_care_access_and_quality": 4,
+    "Scheduling_appt": 5,
+    "Symptoms": 6
+  }
+}

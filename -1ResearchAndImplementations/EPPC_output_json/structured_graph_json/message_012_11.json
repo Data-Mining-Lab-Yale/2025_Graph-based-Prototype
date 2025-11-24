@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 has done well managing pain while eliminating Oxycontin ER 10mg (as Dr. Person2 was keen Person1 do ASAP). Person1 has been taking Oxycodone HCL 15mg, usually split to 7.5mg, about every MM/DD/YYYY through the day, with MM/DD/YYYY off while sleeping.",
+      "id": 11
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 has done well managing pain while eliminating Oxycontin ER 10mg (as Dr. Person2 was keen Person1 do ASAP).",
+      "id": "11_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 has done well managing pain while eliminating",
+      "id": "11_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Oxycontin ER 10mg (as Dr. Person2 was",
+      "id": "11_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "keen Person1 do ASAP).",
+      "id": "11_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 has been taking Oxycodone HCL 15mg, usually split to 7.5mg, about every MM/DD/YYYY through the day, with MM/DD/YYYY off while sleeping.",
+      "id": "11_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 has been taking Oxycodone HCL 15mg,",
+      "id": "11_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "usually split to 7.5mg,",
+      "id": "11_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "about every MM/DD/YYYY through the day,",
+      "id": "11_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "with MM/DD/YYYY off while sleeping",
+      "id": "11_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 11,
+      "target": "11_0"
+    },
+    {
+      "source": 11,
+      "target": "11_1"
+    },
+    {
+      "source": "11_0",
+      "target": "11_0_0"
+    },
+    {
+      "source": "11_0",
+      "target": "11_0_1"
+    },
+    {
+      "source": "11_0",
+      "target": "11_0_2"
+    },
+    {
+      "source": "11_1",
+      "target": "11_1_0"
+    },
+    {
+      "source": "11_1",
+      "target": "11_1_1"
+    },
+    {
+      "source": "11_1",
+      "target": "11_1_2"
+    },
+    {
+      "source": "11_1",
+      "target": "11_1_3"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "As",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "traveling",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "following",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "immediately",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "plan",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 10
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 12
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 15
+    },
+    {
+      "label": "Org3",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 17
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 20
+    },
+    {
+      "label": "bring",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": "several",
+      "pos": "ADJ",
+      "id": 22
+    },
+    {
+      "label": "tests",
+      "pos": "NOUN",
+      "id": 24
+    },
+    {
+      "label": "Covid",
+      "pos": "ADJ",
+      "id": 23
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 25
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "advcl",
+      "source": 19,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "dep": "nsubj",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "xcomp",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 19,
+      "target": 25
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "appos",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 14
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "nmod",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "aux",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "dobj",
+      "source": 21,
+      "target": 24
+    },
+    {
+      "dep": "amod",
+      "source": 24,
+      "target": 22
+    },
+    {
+      "dep": "amod",
+      "source": 24,
+      "target": 23
+    }
+  ]
+}

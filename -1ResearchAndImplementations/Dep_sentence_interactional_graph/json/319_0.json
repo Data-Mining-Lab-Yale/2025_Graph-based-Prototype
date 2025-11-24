@@ -1,0 +1,234 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Morning",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Mr.",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "PSA",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "progress",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "result",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "available",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "Chart",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "once",
+      "pos": "ADV",
+      "id": 20
+    },
+    {
+      "label": "completed",
+      "pos": "VERB",
+      "id": 21
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "compound",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "acomp",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "advcl",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 22
+    },
+    {
+      "dep": "prep",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "dep": "poss",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "advmod",
+      "source": 21,
+      "target": 20
+    }
+  ]
+}

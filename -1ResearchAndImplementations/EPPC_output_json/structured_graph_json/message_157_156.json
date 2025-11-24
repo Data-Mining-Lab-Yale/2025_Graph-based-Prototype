@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi,  Just wondering if you can let me know if I might hear back from Dr. Person1 before the weekend? Thanks,  Person2",
+      "id": 156
+    },
+    {
+      "label": "sentence",
+      "text": "Hi,  Just wondering if you can let me know if I might hear back from Dr. Person1 before the weekend?",
+      "id": "156_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "156_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Just wondering if you can let",
+      "id": "156_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "me know",
+      "id": "156_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "if I might hear",
+      "id": "156_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "back from Dr. Person1 before the weekend?",
+      "id": "156_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person2",
+      "id": "156_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "156_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "156_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 156,
+      "target": "156_0"
+    },
+    {
+      "source": 156,
+      "target": "156_1"
+    },
+    {
+      "source": "156_0",
+      "target": "156_0_0"
+    },
+    {
+      "source": "156_0",
+      "target": "156_0_1"
+    },
+    {
+      "source": "156_0",
+      "target": "156_0_2"
+    },
+    {
+      "source": "156_0",
+      "target": "156_0_3"
+    },
+    {
+      "source": "156_0",
+      "target": "156_0_4"
+    },
+    {
+      "source": "156_1",
+      "target": "156_1_0"
+    },
+    {
+      "source": "156_1",
+      "target": "156_1_1"
+    }
+  ]
+}

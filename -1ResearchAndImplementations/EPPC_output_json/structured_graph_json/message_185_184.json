@@ -1,0 +1,41 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1, The PT referral was placed Thanks Person2",
+      "id": 184
+    },
+    {
+      "label": "sentence",
+      "text": "Person1, The PT referral was placed Thanks Person2",
+      "id": "184_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "184_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "The PT referral was placed Thanks Person2",
+      "id": "184_0_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 184,
+      "target": "184_0"
+    },
+    {
+      "source": "184_0",
+      "target": "184_0_0"
+    },
+    {
+      "source": "184_0",
+      "target": "184_0_1"
+    }
+  ]
+}

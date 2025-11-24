@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Picture of new rash attached",
+      "id": 496
+    },
+    {
+      "label": "sentence",
+      "text": "Picture of new rash attached",
+      "id": "496_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Picture of new rash attached",
+      "id": "496_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 496,
+      "target": "496_0"
+    },
+    {
+      "source": "496_0",
+      "target": "496_0_0"
+    }
+  ]
+}

@@ -1,3 +1,0 @@
-type,num_classes,total,IR_max,CV,entropy_normalized,gini,effective_classes
-Interactional,29,2602,421.500000,1.798165,0.739097,0.854021,6.850292
-GoalOriented,10,1123,34.166667,0.634377,0.883249,0.859757,7.130461

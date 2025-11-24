@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "thanks",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "patient",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "pcomp",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "acomp",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    }
+  ]
+}

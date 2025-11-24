@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Ok for you to get the vaccine for whooping cough (tdap) but you will have to do that at your PCP or local pharmacy. It should be safe, hospital is taking every precaution to keep the environment safe, I know it causes concern. Use covid precautions, mask , wash your hands, social distance. Have a great weekend.",
+      "id": 35
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Ok for you to get the vaccine for whooping cough (tdap) but you will have to do that at your PCP or local pharmacy.",
+      "id": "35_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "35_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok for you to get",
+      "id": "35_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the vaccine for whooping cough (tdap) but you will have to do that at your PCP or local",
+      "id": "35_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "pharmacy.",
+      "id": "35_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "It should be safe, hospital is taking every precaution to keep the environment safe, I know it causes concern.",
+      "id": "35_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "It should be",
+      "id": "35_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "safe,",
+      "id": "35_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "hospital is taking",
+      "id": "35_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "every precaution to keep",
+      "id": "35_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "the environment safe,",
+      "id": "35_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "I know it causes",
+      "id": "35_1_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "concern.",
+      "id": "35_1_6"
+    },
+    {
+      "label": "sentence",
+      "text": "Use covid precautions, mask , wash your hands, social distance.",
+      "id": "35_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Use covid precautions,",
+      "id": "35_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "mask ,",
+      "id": "35_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "wash your hands,",
+      "id": "35_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "social distance.",
+      "id": "35_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Have a great weekend.",
+      "id": "35_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have a great weekend.",
+      "id": "35_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 35,
+      "target": "35_0"
+    },
+    {
+      "source": 35,
+      "target": "35_1"
+    },
+    {
+      "source": 35,
+      "target": "35_2"
+    },
+    {
+      "source": 35,
+      "target": "35_3"
+    },
+    {
+      "source": "35_0",
+      "target": "35_0_0"
+    },
+    {
+      "source": "35_0",
+      "target": "35_0_1"
+    },
+    {
+      "source": "35_0",
+      "target": "35_0_2"
+    },
+    {
+      "source": "35_0",
+      "target": "35_0_3"
+    },
+    {
+      "source": "35_1",
+      "target": "35_1_0"
+    },
+    {
+      "source": "35_1",
+      "target": "35_1_1"
+    },
+    {
+      "source": "35_1",
+      "target": "35_1_2"
+    },
+    {
+      "source": "35_1",
+      "target": "35_1_3"
+    },
+    {
+      "source": "35_1",
+      "target": "35_1_4"
+    },
+    {
+      "source": "35_1",
+      "target": "35_1_5"
+    },
+    {
+      "source": "35_1",
+      "target": "35_1_6"
+    },
+    {
+      "source": "35_2",
+      "target": "35_2_0"
+    },
+    {
+      "source": "35_2",
+      "target": "35_2_1"
+    },
+    {
+      "source": "35_2",
+      "target": "35_2_2"
+    },
+    {
+      "source": "35_2",
+      "target": "35_2_3"
+    },
+    {
+      "source": "35_3",
+      "target": "35_3_0"
+    }
+  ]
+}

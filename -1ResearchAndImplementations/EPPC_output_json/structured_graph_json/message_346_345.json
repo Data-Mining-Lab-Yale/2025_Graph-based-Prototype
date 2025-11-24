@@ -1,0 +1,185 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Dr Person1 i had blood drawn at Org2. My last visit you wanted all 3 tested but only input psa and metabolic pannel. Cbc was left out? I had it drawn and they are awaiting it to be entered if needed. I recently had a bunch of blood work entered and they backed it out? What is going on?",
+      "id": 345
+    },
+    {
+      "label": "sentence",
+      "text": "Dr Person1 i had blood drawn at Org2.",
+      "id": "345_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr Person1 i had blood drawn at Org2.",
+      "id": "345_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "My last visit you wanted all 3 tested but only input psa and metabolic pannel.",
+      "id": "345_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "My last visit you wanted",
+      "id": "345_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "all 3 tested",
+      "id": "345_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "but only input psa and metabolic",
+      "id": "345_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "pannel",
+      "id": "345_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Cbc was left out?",
+      "id": "345_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Cbc was left out?",
+      "id": "345_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I had it drawn and they are awaiting it to be entered if needed.",
+      "id": "345_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had it drawn",
+      "id": "345_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and they are awaiting",
+      "id": "345_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it to be entered if needed",
+      "id": "345_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I recently had a bunch of blood work entered and they backed it out?",
+      "id": "345_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "I recently had a bunch of blood work entered",
+      "id": "345_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and they backed",
+      "id": "345_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it out?",
+      "id": "345_4_2"
+    },
+    {
+      "label": "sentence",
+      "text": "What is going on?",
+      "id": "345_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "What is going on?",
+      "id": "345_5_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 345,
+      "target": "345_0"
+    },
+    {
+      "source": 345,
+      "target": "345_1"
+    },
+    {
+      "source": 345,
+      "target": "345_2"
+    },
+    {
+      "source": 345,
+      "target": "345_3"
+    },
+    {
+      "source": 345,
+      "target": "345_4"
+    },
+    {
+      "source": 345,
+      "target": "345_5"
+    },
+    {
+      "source": "345_0",
+      "target": "345_0_0"
+    },
+    {
+      "source": "345_1",
+      "target": "345_1_0"
+    },
+    {
+      "source": "345_1",
+      "target": "345_1_1"
+    },
+    {
+      "source": "345_1",
+      "target": "345_1_2"
+    },
+    {
+      "source": "345_1",
+      "target": "345_1_3"
+    },
+    {
+      "source": "345_2",
+      "target": "345_2_0"
+    },
+    {
+      "source": "345_3",
+      "target": "345_3_0"
+    },
+    {
+      "source": "345_3",
+      "target": "345_3_1"
+    },
+    {
+      "source": "345_3",
+      "target": "345_3_2"
+    },
+    {
+      "source": "345_4",
+      "target": "345_4_0"
+    },
+    {
+      "source": "345_4",
+      "target": "345_4_1"
+    },
+    {
+      "source": "345_4",
+      "target": "345_4_2"
+    },
+    {
+      "source": "345_5",
+      "target": "345_5_0"
+    }
+  ]
+}

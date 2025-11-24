@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "This",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "help",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "discomfort",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "nail",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 8
+    },
+    {
+      "label": "helping",
+      "pos": "AUX",
+      "id": 9
+    },
+    {
+      "label": "keep",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "really",
+      "pos": "ADV",
+      "id": 12
+    },
+    {
+      "label": "clean",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "dobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "oprd",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

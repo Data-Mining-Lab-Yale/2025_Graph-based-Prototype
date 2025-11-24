@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 needs a refill on creon and I can request on my chart",
+      "id": 384
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 needs a refill on creon and I can request on my chart",
+      "id": "384_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 needs a refill on creon and I can request on my chart",
+      "id": "384_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 384,
+      "target": "384_0"
+    },
+    {
+      "source": "384_0",
+      "target": "384_0_0"
+    }
+  ]
+}

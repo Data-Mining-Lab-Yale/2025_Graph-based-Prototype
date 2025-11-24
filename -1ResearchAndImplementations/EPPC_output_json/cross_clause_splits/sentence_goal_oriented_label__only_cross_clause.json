@@ -1,0 +1,499 @@
+{
+  "17_5": {
+    "text": "30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter.",
+    "span": "30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",
+    "labels": [
+      {
+        "label": [
+          "Symptoms"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "54_1": {
+    "text": "I just received word from Org1 that, according to CDC guidelines, I don qualify for a booster shot at this time in spite of the fact that i In the XX+ age category.",
+    "span": "I just received word from Org1 that, according to CDC guidelines, I don qualify for a booster shot at this time in spite of the fact that i In the XX+ age category",
+    "labels": [
+      {
+        "label": [
+          "Health_care_access_and_quality",
+          "Health_Access"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "64_0": {
+    "text": "I have sent a message to Dr. Person1 to ask him to review them and let us know.",
+    "span": "I have sent a message to Dr. Person1 to ask him to review them and let us know",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "97_0": {
+    "text": "Hello Person1,  When you last saw Dr. Person2 on MM/DD/YYYY she recommended a PET in 3 months and follow up after.",
+    "span": "When you last saw Dr. Person2 on MM/DD/YYYY she recommended a PET in 3 months and follow up after.",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "101_3": {
+    "text": "I did not skydive or do anything else that was very risky, just slipped down the stairs.",
+    "span": "I did not skydive or do anything else that was very risky, just slipped down the stairs",
+    "labels": [
+      {
+        "label": [
+          "General_information"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "124_0": {
+    "text": "Good afternoon ,      Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today.",
+    "span": "Unfortunately I worked last night and came home this morning and fell asleep causing me to miss my appt today",
+    "labels": [
+      {
+        "label": [
+          "Economic_stability",
+          "Work-related_Challenges"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "140_0": {
+    "text": "Hi Person1, I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet.",
+    "span": " I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "220_2": {
+    "text": "2)  He did review the vocal code pathology and from what he can see, there is no sign of any cancer present.",
+    "span": "He did review the vocal code pathology and from what he can see, there is no sign of any cancer present",
+    "labels": [
+      {
+        "label": [
+          "Diagnostics"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "223_3": {
+    "text": "My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin.",
+    "span": "My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin",
+    "labels": [
+      {
+        "label": [
+          "Symptoms"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "228_1": {
+    "text": "You had thought that the surgical clamp may have caused pressure on the nerve sheath and that this would resolve itself and eventually return to normal.",
+    "span": "You had thought that the surgical clamp may have caused pressure on the nerve sheath and that this would resolve itself and eventually return to normal",
+    "labels": [
+      {
+        "label": [
+          "Prognosis"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "229_1": {
+    "text": "By this point, after two years, it the nerve has not recovered then I think it is unlikely that it will resolve.",
+    "span": "By this point, after two years, it the nerve has not recovered then I think it is unlikely that it will resolve",
+    "labels": [
+      {
+        "label": [
+          "Prognosis"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "248_2": {
+    "text": "Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then.",
+    "span": "Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "249_0": {
+    "text": "Mr. Person1 I reviewed with Dr. Person2 continue with plan for surgery and to meet with them... thank you Person3",
+    "span": "I reviewed with Dr. Person2 continue with plan for surgery and to meet with them",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "280_3": {
+    "text": ":-)     Would you mind writing me a note for work saying that I had tested positive for covid MM/DD/YYYY, the 10 day quarantine of symptom on set has passed and am no longer contagious or whatever the correct wording would be.",
+    "span": "the 10 day quarantine of symptom on set has passed and am no longer contagious or whatever the correct wording would be",
+    "labels": [
+      {
+        "label": [
+          "Symptoms"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "284_2": {
+    "text": "I did get my period today, not just spot bleeding, it regular how it used to be for me with cramping.",
+    "span": "I did get my period today, not just spot bleeding, it regular how it used to be for me with cramping",
+    "labels": [
+      {
+        "label": [
+          "Symptoms"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "291_0": {
+    "text": "Hello,    I saw I still had the appointment in Org2 for MM/DD/YYYY, MM/DD/YYYY, for the Lupron shot, I cancelled it.",
+    "span": "    I saw I still had the appointment in Org2 for MM/DD/YYYY, MM/DD/YYYY, for the Lupron shot, I cancelled it",
+    "labels": [
+      {
+        "label": [
+          "Health_care_access_and_quality",
+          "Health_Access"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "307_3": {
+    "text": "Any issues holding your urine or stool, difficulty walking, pain radiating up or down from your lower back on the sides?",
+    "span": "Any issues holding your urine or stool, difficulty walking, pain radiating up or down from your lower back on the sides?",
+    "labels": [
+      {
+        "label": [
+          "Symptoms"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "315_3": {
+    "text": "I do have a cancellation for next week if you c an come in on MM/DD/YYYY at 10:00am you can see Dr  Person2 and get your injection.",
+    "span": "if you c an come in on MM/DD/YYYY at 10:00am you can see Dr  Person2 and get your injection",
+    "labels": [
+      {
+        "label": [
+          "Scheduling_appt"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "324_3": {
+    "text": "When original prognosis was given, what it was and a signature from you.",
+    "span": "When original prognosis was given, what it was and a signature from you",
+    "labels": [
+      {
+        "label": [
+          "Health_care_access_and_quality",
+          "Insurance"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "349_3": {
+    "text": "Are you filing for intermittent time off, any job duties your having difficulty completing or no longer working?",
+    "span": "Are you filing for intermittent time off, any job duties your having difficulty completing or no longer working?",
+    "labels": [
+      {
+        "label": [
+          "Economic_stability",
+          "Work-related_Challenges"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "382_0": {
+    "text": "Yes I had prostate cancer and it had returned-3 years later",
+    "span": "Yes I had prostate cancer and it had returned-3 years later",
+    "labels": [
+      {
+        "label": [
+          "Symptoms"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "440_1": {
+    "text": "I am scheduled for my blood draw, appointment with Dr  Person1, and chemo treatment MM/DD/YYYY.",
+    "span": "I am scheduled for my blood draw, appointment with Dr  Person1, and chemo treatment MM/DD/YYYY",
+    "labels": [
+      {
+        "label": [
+          "Scheduling_appt"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "444_0": {
+    "text": "Also need trazodone for tonight but can't find email of prescriber - Dr Person1 something - can you help?",
+    "span": "can't find email of prescriber - Dr Person1 something - can you help?",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "452_0": {
+    "text": "Hi Person1 Me again     I know this is wrong recipient but still can't find Dr Person on mychart and need a zofran (can't remember exact name) refill which I believe she was going to send through     Can you help/chase her?",
+    "span": "Me again     I know this is wrong recipient but still can't find Dr Person on mychart and need a zofran (can't remember exact name) refill",
+    "labels": [
+      {
+        "label": [
+          "Drugs"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "455_1": {
+    "text": "This is to follow up on the conversations Person2 and I  had with Person3 and  I had with Person4today.",
+    "span": "This is to follow up on the conversations Person2 and I  had with Person3 and  I had with Person4today",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "479_1": {
+    "text": "Not sure if MM/DD/YYYY Person3 kept some of my meds but need a fairly urgent refill called in to cvs on the following:    Losartan   Amlodipine  Dexamethasone   Sertraline   Levothyroxine    Thanks     Person2",
+    "span": "Not sure if MM/DD/YYYY Person3 kept some of my meds but need a fairly urgent refill called in to cvs on the following:    Losartan   Amlodipine  Dexamethasone   Sertraline   Levothyroxine",
+    "labels": [
+      {
+        "label": [
+          "Drugs"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "480_0": {
+    "text": "Thanks Person I will send those in.... also in the mean time dr. Person1 wants you to reduce the lenvatinib  and everolimus to only 5 days a week due to the elevated blood pressures despite being on blood pressure medications... please let me know you received this.",
+    "span": "also in the mean time dr. Person1 wants you to reduce the lenvatinib  and everolimus to only 5 days a week due to the elevated blood pressures despite being on blood pressure medications...",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "519_3": {
+    "text": "They want him to come back and have more of it removed would like him to see Dr Person4 but not sure how quickly he could get in?",
+    "span": "They want him to come back and have more of it removed would like him to see Dr Person4 but not sure how quickly he could get in?",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "524_6": {
+    "text": "Saw pulmonologist Person2 and he said probably rebound from stopping prednisone and he should use his Albuterol inhaler.",
+    "span": "Saw pulmonologist Person2 and he said probably rebound from stopping prednisone and he should use his Albuterol inhaler",
+    "labels": [
+      {
+        "label": [
+          "Care_Coordination"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "529_0": {
+    "text": "Hi ,  My father developed a cough today and was having severe difficulty breathing so I called 911.",
+    "span": "My father developed a cough today and was having severe difficulty breathing so I called 911",
+    "labels": [
+      {
+        "label": [
+          "Symptoms"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "537_0": {
+    "text": "I scheduled to see Dr. Person1 on MM/DD/YYYY, at 9:45 in Org2.",
+    "span": "I scheduled to see Dr. Person1 on MM/DD/YYYY, at 9:45 in Org2",
+    "labels": [
+      {
+        "label": [
+          "Health_care_access_and_quality",
+          "Health_Access"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "541_1": {
+    "text": "My  blood draw and appointment with Dr. Person1 will be in the Org2 office on MM/DD/YYYY, starting at 9:30 AM, correct?",
+    "span": "My  blood draw and appointment with Dr. Person1 will be in the Org2 office on MM/DD/YYYY, starting at 9:30 AM, correct?",
+    "labels": [
+      {
+        "label": [
+          "Scheduling_appt"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "553_2": {
+    "text": "I also scheduled to meet with Dr. Person1 at  1:15 that day.",
+    "span": "I also scheduled to meet with Dr. Person1 at  1:15 that day",
+    "labels": [
+      {
+        "label": [
+          "Scheduling_appt"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "584_2": {
+    "text": "Everything looks good except for my PSA which has gone from 2.93 in MM/DD/YYYY to 4.5 today (MM/DD/YYYY) according to the VA.",
+    "span": "my PSA which has gone from 2.93 in MM/DD/YYYY to 4.5 today (MM/DD/YYYY) according to the VA",
+    "labels": [
+      {
+        "label": [
+          "Diagnostics"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  },
+  "679_1": {
+    "text": "Both my niece and myself have been trying to find a gynecologist close by accepting new patients on Medicare, Medicaid, AARP supplement and Husky with no success.",
+    "span": "Both my niece and myself have been trying to find a gynecologist close by accepting new patients on Medicare, Medicaid, AARP supplement and Husky with no success",
+    "labels": [
+      {
+        "label": [
+          "Health_care_access_and_quality",
+          "Health_Access"
+        ],
+        "label_type": [
+          "Goal-Oriented"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Sorry i got this late for some reason. Also i was fine today no pain. Seems if i drink more water it goes away. I gets labs done early tomorrow.",
+      "id": 309
+    },
+    {
+      "label": "sentence",
+      "text": "Sorry i got this late for some reason.",
+      "id": "309_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sorry i got this late for some reason.",
+      "id": "309_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Also i was fine today no pain.",
+      "id": "309_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Also i was fine today no pain.",
+      "id": "309_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Seems if i drink more water it goes away.",
+      "id": "309_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Seems if i drink",
+      "id": "309_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "more water it goes",
+      "id": "309_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "away.",
+      "id": "309_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I gets labs done early tomorrow.",
+      "id": "309_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I gets labs done",
+      "id": "309_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "early tomorrow.",
+      "id": "309_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 309,
+      "target": "309_0"
+    },
+    {
+      "source": 309,
+      "target": "309_1"
+    },
+    {
+      "source": 309,
+      "target": "309_2"
+    },
+    {
+      "source": 309,
+      "target": "309_3"
+    },
+    {
+      "source": "309_0",
+      "target": "309_0_0"
+    },
+    {
+      "source": "309_1",
+      "target": "309_1_0"
+    },
+    {
+      "source": "309_2",
+      "target": "309_2_0"
+    },
+    {
+      "source": "309_2",
+      "target": "309_2_1"
+    },
+    {
+      "source": "309_2",
+      "target": "309_2_2"
+    },
+    {
+      "source": "309_3",
+      "target": "309_3_0"
+    },
+    {
+      "source": "309_3",
+      "target": "309_3_1"
+    }
+  ]
+}

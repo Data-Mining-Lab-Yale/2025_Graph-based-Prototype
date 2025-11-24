@@ -1,0 +1,264 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Ok",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "found",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "out",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 6
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "out",
+      "pos": "ADV",
+      "id": 9
+    },
+    {
+      "label": "until",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "tmrw",
+      "pos": "PROPN",
+      "id": 11
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 13
+    },
+    {
+      "label": "nurse",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "forward",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "echo",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 19
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 21
+    },
+    {
+      "label": "another",
+      "pos": "DET",
+      "id": 22
+    },
+    {
+      "label": "colleague",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 24
+    },
+    {
+      "label": "review",
+      "pos": "VERB",
+      "id": 25
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prt",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "dep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "dobj",
+      "source": 16,
+      "target": 20
+    },
+    {
+      "dep": "prep",
+      "source": 16,
+      "target": 21
+    },
+    {
+      "dep": "advcl",
+      "source": 16,
+      "target": 25
+    },
+    {
+      "dep": "poss",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "dep",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "dep": "pobj",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "det",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "dep": "aux",
+      "source": 25,
+      "target": 24
+    }
+  ]
+}

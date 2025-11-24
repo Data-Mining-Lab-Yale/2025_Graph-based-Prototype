@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi, note two requests for Eliquis refill as need before trip and again on continuing basis. Thanks.",
+      "id": 168
+    },
+    {
+      "label": "sentence",
+      "text": "Hi, note two requests for Eliquis refill as need before trip and again on continuing basis.",
+      "id": "168_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "168_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "note two requests for Eliquis refill as need before trip and again",
+      "id": "168_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "on continuing basis.",
+      "id": "168_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks.",
+      "id": "168_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks.",
+      "id": "168_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 168,
+      "target": "168_0"
+    },
+    {
+      "source": 168,
+      "target": "168_1"
+    },
+    {
+      "source": "168_0",
+      "target": "168_0_0"
+    },
+    {
+      "source": "168_0",
+      "target": "168_0_1"
+    },
+    {
+      "source": "168_0",
+      "target": "168_0_2"
+    },
+    {
+      "source": "168_1",
+      "target": "168_1_0"
+    }
+  ]
+}

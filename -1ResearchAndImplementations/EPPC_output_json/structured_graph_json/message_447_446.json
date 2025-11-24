@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Its Person1 - she is managing that so we cannot refill. I can send her a message as well.",
+      "id": 446
+    },
+    {
+      "label": "sentence",
+      "text": "Its Person1 - she is managing that so we cannot refill.",
+      "id": "446_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Its Person1 - she is managing that so we cannot refill.",
+      "id": "446_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I can send her a message as well.",
+      "id": "446_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I can send her a message as well.",
+      "id": "446_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 446,
+      "target": "446_0"
+    },
+    {
+      "source": 446,
+      "target": "446_1"
+    },
+    {
+      "source": "446_0",
+      "target": "446_0_0"
+    },
+    {
+      "source": "446_1",
+      "target": "446_1_0"
+    }
+  ]
+}

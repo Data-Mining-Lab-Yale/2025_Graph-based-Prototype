@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "You",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "hear",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "most",
+      "pos": "ADV",
+      "id": 2
+    },
+    {
+      "label": "likely",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "Genetics",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "next",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "week",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "make",
+      "pos": "VERB",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "aux",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

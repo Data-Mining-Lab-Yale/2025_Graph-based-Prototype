@@ -1,0 +1,124 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "blocking",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "This",
+      "pos": "DET",
+      "id": 2
+    },
+    {
+      "label": "face",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "assistant",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "link",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "attachment",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

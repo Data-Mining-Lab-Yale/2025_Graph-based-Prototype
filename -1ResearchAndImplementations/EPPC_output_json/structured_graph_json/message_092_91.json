@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 at Person2 wants to be sure the pet scan of MM/DD/YYYY has not been mixed with the one of MM/DD/YYYY in the PET Scan results I forwarded to her. Can you confirm . Thank you and happy new year",
+      "id": 91
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 at Person2 wants to be sure the pet scan of MM/DD/YYYY has not been mixed with the one of MM/DD/YYYY in the PET Scan results I forwarded to her.",
+      "id": "91_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 at Person2 wants to be sure the pet scan of MM/DD/YYYY has not been mixed",
+      "id": "91_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with the one of MM/DD/YYYY in the PET Scan results I forwarded",
+      "id": "91_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to her.",
+      "id": "91_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Can you confirm .",
+      "id": "91_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can you confirm .",
+      "id": "91_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you and happy new year",
+      "id": "91_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you and happy new year",
+      "id": "91_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 91,
+      "target": "91_0"
+    },
+    {
+      "source": 91,
+      "target": "91_1"
+    },
+    {
+      "source": 91,
+      "target": "91_2"
+    },
+    {
+      "source": "91_0",
+      "target": "91_0_0"
+    },
+    {
+      "source": "91_0",
+      "target": "91_0_1"
+    },
+    {
+      "source": "91_0",
+      "target": "91_0_2"
+    },
+    {
+      "source": "91_1",
+      "target": "91_1_0"
+    },
+    {
+      "source": "91_2",
+      "target": "91_2_0"
+    }
+  ]
+}

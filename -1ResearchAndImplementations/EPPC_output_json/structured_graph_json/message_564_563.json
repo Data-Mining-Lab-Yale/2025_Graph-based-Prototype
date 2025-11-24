@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I was able to schedule the CT scans I will call for the bone scan MM/DD/YYYY, they have already left for the day I will keep you posted",
+      "id": 563
+    },
+    {
+      "label": "sentence",
+      "text": "I was able to schedule the CT scans I will call for the bone scan MM/DD/YYYY, they have already left for the day I will keep you posted",
+      "id": "563_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was",
+      "id": "563_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "able to schedule the CT scans I will call",
+      "id": "563_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for the bone scan MM/DD/YYYY,",
+      "id": "563_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "they have already left for the day I will keep",
+      "id": "563_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "you posted",
+      "id": "563_0_4"
+    }
+  ],
+  "links": [
+    {
+      "source": 563,
+      "target": "563_0"
+    },
+    {
+      "source": "563_0",
+      "target": "563_0_0"
+    },
+    {
+      "source": "563_0",
+      "target": "563_0_1"
+    },
+    {
+      "source": "563_0",
+      "target": "563_0_2"
+    },
+    {
+      "source": "563_0",
+      "target": "563_0_3"
+    },
+    {
+      "source": "563_0",
+      "target": "563_0_4"
+    }
+  ]
+}

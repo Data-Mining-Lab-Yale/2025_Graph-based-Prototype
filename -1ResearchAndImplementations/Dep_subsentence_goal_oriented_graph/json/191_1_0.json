@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "But",
+      "pos": "CCONJ",
+      "id": 0
+    },
+    {
+      "label": "advise",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "shot",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "third",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    }
+  ]
+}

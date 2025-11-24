@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Does",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "mean",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "this",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 3
+    },
+    {
+      "label": "damaged",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "nerve",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "permanently",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "or",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "that",
+      "pos": "SCONJ",
+      "id": 10
+    },
+    {
+      "label": "resolve",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 11
+    },
+    {
+      "label": "compression",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "nerve",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "could",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "still",
+      "pos": "ADV",
+      "id": 15
+    },
+    {
+      "label": "itself",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 18
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "ccomp",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "cc",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 8,
+      "target": 16
+    },
+    {
+      "dep": "det",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "mark",
+      "source": 16,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "dobj",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

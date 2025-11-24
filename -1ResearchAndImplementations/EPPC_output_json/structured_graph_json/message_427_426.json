@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thanks for the response. However, I think I have finished the trial. Dr  Person1 told me at my last appointment that I might get more treatments. He said that he would schedule the chemo for the day of my next appointment and it could be canceled. He  to think on whether or not I should get more than the 10 treatments.",
+      "id": 426
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks for the response.",
+      "id": "426_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks for the response.",
+      "id": "426_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "However, I think I have finished the trial.",
+      "id": "426_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "However,",
+      "id": "426_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I think I have finished",
+      "id": "426_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "the trial.",
+      "id": "426_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Dr  Person1 told me at my last appointment that I might get more treatments.",
+      "id": "426_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr  Person1 told me at my last appointment that I might get",
+      "id": "426_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "more treatments.",
+      "id": "426_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "He said that he would schedule the chemo for the day of my next appointment and it could be canceled.",
+      "id": "426_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "He said that he would schedule",
+      "id": "426_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the chemo for the day of my next appointment and it could be canceled",
+      "id": "426_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "He  to think on whether or not I should get more than the 10 treatments.",
+      "id": "426_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "He  to think on whether or not I should get more than the 10 treatments.",
+      "id": "426_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 426,
+      "target": "426_0"
+    },
+    {
+      "source": 426,
+      "target": "426_1"
+    },
+    {
+      "source": 426,
+      "target": "426_2"
+    },
+    {
+      "source": 426,
+      "target": "426_3"
+    },
+    {
+      "source": 426,
+      "target": "426_4"
+    },
+    {
+      "source": "426_0",
+      "target": "426_0_0"
+    },
+    {
+      "source": "426_1",
+      "target": "426_1_0"
+    },
+    {
+      "source": "426_1",
+      "target": "426_1_1"
+    },
+    {
+      "source": "426_1",
+      "target": "426_1_2"
+    },
+    {
+      "source": "426_2",
+      "target": "426_2_0"
+    },
+    {
+      "source": "426_2",
+      "target": "426_2_1"
+    },
+    {
+      "source": "426_3",
+      "target": "426_3_0"
+    },
+    {
+      "source": "426_3",
+      "target": "426_3_1"
+    },
+    {
+      "source": "426_4",
+      "target": "426_4_0"
+    }
+  ]
+}

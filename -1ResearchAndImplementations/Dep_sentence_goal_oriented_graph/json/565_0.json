@@ -1,0 +1,204 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "Scheduled",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "cat",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "scan",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 13
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 14
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 15
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 17
+    },
+    {
+      "label": "5:00",
+      "pos": "NUM",
+      "id": 18
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 19
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 16
+    },
+    {
+      "dep": "nmod",
+      "source": 16,
+      "target": 12
+    },
+    {
+      "dep": "nmod",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 17,
+      "target": 18
+    }
+  ]
+}

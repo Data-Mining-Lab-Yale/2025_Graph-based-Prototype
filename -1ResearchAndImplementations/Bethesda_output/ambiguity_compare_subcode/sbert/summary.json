@@ -1,0 +1,9 @@
+{
+  "rep": "sbert",
+  "num_spans": 1389,
+  "num_labels": 26,
+  "num_conflict_pairs": 1365,
+  "num_distinct_label_pairs": 55,
+  "avg_disagreement_rate": 0.1089,
+  "median_disagreement_rate": 0.0638
+}

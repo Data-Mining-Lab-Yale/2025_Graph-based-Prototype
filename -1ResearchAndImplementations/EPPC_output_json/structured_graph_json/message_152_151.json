@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I see that you have a prescription for Ativan, you could try that to help you sleep. Thanks, Person2, RN",
+      "id": 151
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I see that you have a prescription for Ativan, you could try that to help you sleep.",
+      "id": "151_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "151_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I see",
+      "id": "151_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "that you have",
+      "id": "151_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "a prescription for Ativan,",
+      "id": "151_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "you could try that to help you sleep",
+      "id": "151_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks, Person2, RN",
+      "id": "151_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "151_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2,",
+      "id": "151_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "RN",
+      "id": "151_1_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 151,
+      "target": "151_0"
+    },
+    {
+      "source": 151,
+      "target": "151_1"
+    },
+    {
+      "source": "151_0",
+      "target": "151_0_0"
+    },
+    {
+      "source": "151_0",
+      "target": "151_0_1"
+    },
+    {
+      "source": "151_0",
+      "target": "151_0_2"
+    },
+    {
+      "source": "151_0",
+      "target": "151_0_3"
+    },
+    {
+      "source": "151_0",
+      "target": "151_0_4"
+    },
+    {
+      "source": "151_1",
+      "target": "151_1_0"
+    },
+    {
+      "source": "151_1",
+      "target": "151_1_1"
+    },
+    {
+      "source": "151_1",
+      "target": "151_1_2"
+    }
+  ]
+}

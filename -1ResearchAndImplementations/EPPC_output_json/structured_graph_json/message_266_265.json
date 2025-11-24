@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ok sounds like a plan",
+      "id": 265
+    },
+    {
+      "label": "sentence",
+      "text": "Ok sounds like a plan",
+      "id": "265_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok sounds like a plan",
+      "id": "265_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 265,
+      "target": "265_0"
+    },
+    {
+      "source": "265_0",
+      "target": "265_0_0"
+    }
+  ]
+}

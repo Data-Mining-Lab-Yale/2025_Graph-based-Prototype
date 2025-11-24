@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Also",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "pleased",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 2
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "satisfied",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "/",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "result",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "recent",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "....",
+      "pos": "PUNCT",
+      "id": 12
+    },
+    {
+      "label": "his",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "thoughts",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "dep": "mark",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "acomp",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "poss",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

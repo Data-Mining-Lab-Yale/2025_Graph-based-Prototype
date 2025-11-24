@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "We have a death in the family (brother) and will be out of state next week for the service. I am scheduled for my blood draw, appointment with Dr  Person1, and chemo treatment MM/DD/YYYY. Can I change this to MM/DD/YYYY or MM/DD/YYYY ?",
+      "id": 440
+    },
+    {
+      "label": "sentence",
+      "text": "We have a death in the family (brother) and will be out of state next week for the service.",
+      "id": "440_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "We have a death in the family (brother) and will be",
+      "id": "440_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "out of state next week for the service.",
+      "id": "440_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I am scheduled for my blood draw, appointment with Dr  Person1, and chemo treatment MM/DD/YYYY.",
+      "id": "440_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am scheduled for my blood draw,",
+      "id": "440_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "appointment with Dr  Person1,",
+      "id": "440_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and chemo",
+      "id": "440_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "treatment MM/DD/YYYY.",
+      "id": "440_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Can I change this to MM/DD/YYYY or MM/DD/YYYY ?",
+      "id": "440_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can I change this to MM/DD/YYYY or MM/DD/YYYY",
+      "id": "440_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 440,
+      "target": "440_0"
+    },
+    {
+      "source": 440,
+      "target": "440_1"
+    },
+    {
+      "source": 440,
+      "target": "440_2"
+    },
+    {
+      "source": "440_0",
+      "target": "440_0_0"
+    },
+    {
+      "source": "440_0",
+      "target": "440_0_1"
+    },
+    {
+      "source": "440_1",
+      "target": "440_1_0"
+    },
+    {
+      "source": "440_1",
+      "target": "440_1_1"
+    },
+    {
+      "source": "440_1",
+      "target": "440_1_2"
+    },
+    {
+      "source": "440_1",
+      "target": "440_1_3"
+    },
+    {
+      "source": "440_2",
+      "target": "440_2_0"
+    }
+  ]
+}

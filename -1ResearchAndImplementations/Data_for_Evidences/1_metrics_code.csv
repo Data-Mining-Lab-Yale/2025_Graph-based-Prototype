@@ -1,0 +1,11 @@
+metric,value
+num_classes,9
+total,2602
+IR_max,34.11538461538461
+CV,1.104280335251728
+entropy,1.638020531768495
+entropy_normalized,0.7454952710179179
+gini,0.7533961045751479
+effective_classes,4.055085984254987
+majority_class_count,887
+minority_class_count,26

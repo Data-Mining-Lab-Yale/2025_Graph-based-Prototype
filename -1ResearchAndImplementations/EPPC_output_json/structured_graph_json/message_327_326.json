@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Let me know if this will not work. I believe i will also need a pathology report.",
+      "id": 326
+    },
+    {
+      "label": "sentence",
+      "text": "Let me know if this will not work.",
+      "id": "326_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Let me know",
+      "id": "326_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if this will not work",
+      "id": "326_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I believe i will also need a pathology report.",
+      "id": "326_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I believe i will also need",
+      "id": "326_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a pathology report.",
+      "id": "326_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 326,
+      "target": "326_0"
+    },
+    {
+      "source": 326,
+      "target": "326_1"
+    },
+    {
+      "source": "326_0",
+      "target": "326_0_0"
+    },
+    {
+      "source": "326_0",
+      "target": "326_0_1"
+    },
+    {
+      "source": "326_1",
+      "target": "326_1_0"
+    },
+    {
+      "source": "326_1",
+      "target": "326_1_1"
+    }
+  ]
+}

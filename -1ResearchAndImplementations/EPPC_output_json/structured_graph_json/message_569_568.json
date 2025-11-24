@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thanks, Person1. Much obliged!",
+      "id": 568
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks, Person1.",
+      "id": "568_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "568_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1.",
+      "id": "568_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Much obliged!",
+      "id": "568_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Much obliged!",
+      "id": "568_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 568,
+      "target": "568_0"
+    },
+    {
+      "source": 568,
+      "target": "568_1"
+    },
+    {
+      "source": "568_0",
+      "target": "568_0_0"
+    },
+    {
+      "source": "568_0",
+      "target": "568_0_1"
+    },
+    {
+      "source": "568_1",
+      "target": "568_1_0"
+    }
+  ]
+}

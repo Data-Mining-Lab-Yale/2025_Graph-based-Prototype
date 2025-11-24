@@ -1,0 +1,182 @@
+label_a,label_b,conflict_count,mean_similarity,median_similarity,max_similarity,min_similarity
+PartnershipPatient → Clinical care,PartnershipPatient → activeParticipation/involvement,288,0.7076,0.6891,1.0,0.6013
+PartnershipPatient → Clinical care,SDOH → HealthCareAccessAndQuality,210,0.7113,0.6961,1.0,0.6002
+PartnershipPatient → Clinical care,SDOH → EconomicStability,207,0.7249,0.702,1.0,0.6002
+PartnershipPatient → Appreciation/Gratitude,PartnershipPatient → signoff,179,0.9351,1.0,1.0,0.6138
+PartnershipPatient → Clinical care,SocioEmotionalBehaviour,163,0.7322,0.6977,1.0,0.6012
+PartnershipPatient → signoff,PartnershipProvider → signoff,146,0.9908,1.0,1.0,0.8516
+PartnershipPatient → Clinical care,SDOH → SocialAndCommunityContext,119,0.7427,0.7145,1.0,0.601
+PartnershipPatient → salutation,PartnershipProvider → salutation,119,1.0,1.0,1.0,1.0
+PartnershipPatient → activeParticipation/involvement,PartnershipProvider → maintainCommunication,83,0.8145,0.796,1.0,0.6048
+PartnershipPatient → activeParticipation/involvement,SDOH → HealthCareAccessAndQuality,83,0.6852,0.6742,0.89,0.6015
+PartnershipPatient → Clinical care,PartnershipProvider → Clinical Care,82,0.7739,0.7461,0.9888,0.6193
+PartnershipPatient → Clinical care,SDOH → NeighborhoodAndBuiltEnvironment,80,0.7138,0.6909,0.9271,0.6004
+PartnershipPatient → activeParticipation/involvement,PartnershipPatient → statePreferences,67,0.7399,0.7009,0.9825,0.6201
+PartnershipPatient → activeParticipation/involvement,SDOH → EconomicStability,62,0.7207,0.687,0.9838,0.6029
+PartnershipPatient → activeParticipation/involvement,SocioEmotionalBehaviour,61,0.7508,0.7243,1.0,0.6016
+PartnershipPatient → activeParticipation/involvement,PartnershipPatient → expressOpinions,54,0.73,0.6675,1.0,0.6148
+PartnershipPatient → Clinical care,PartnershipPatient → expressOpinions,51,0.7085,0.718,0.8244,0.6059
+SDOH → EconomicStability,SDOH → HealthCareAccessAndQuality,51,0.7067,0.7049,0.9146,0.6012
+CareCoordinationPatient,PartnershipPatient → Clinical care,50,0.7099,0.7117,0.8883,0.6082
+CareCoordinationPatient,PartnershipPatient → activeParticipation/involvement,50,0.6885,0.6622,0.9048,0.6025
+PartnershipPatient → activeParticipation/involvement,SharedDecisionPatient → SeekingApproval,46,0.6935,0.6704,0.8591,0.6129
+PartnershipPatient → Clinical care,SharedDecisionPatient → SeekingApproval,46,0.749,0.7662,0.9069,0.6088
+SDOH → HealthCareAccessAndQuality,SocioEmotionalBehaviour,45,0.7129,0.7133,0.9888,0.6046
+PartnershipPatient → expressOpinions,SDOH → HealthCareAccessAndQuality,42,0.6696,0.6349,0.8954,0.6039
+CareCoordinationPatient,CareCoordinationProvider,41,0.7213,0.6595,0.986,0.6108
+SDOH → EconomicStability,SocioEmotionalBehaviour,38,0.7921,0.8057,1.0,0.6122
+PartnershipPatient → Appreciation/Gratitude,PartnershipProvider → signoff,38,0.9721,1.0,1.0,0.6464
+SDOH → HealthCareAccessAndQuality,SDOH → NeighborhoodAndBuiltEnvironment,36,0.7154,0.6931,0.8687,0.6094
+CareCoordinationPatient,SDOH → HealthCareAccessAndQuality,36,0.6696,0.6639,0.8044,0.6001
+PartnershipPatient → activeParticipation/involvement,SDOH → SocialAndCommunityContext,35,0.7658,0.7355,1.0,0.6231
+PartnershipPatient → activeParticipation/involvement,SDOH → NeighborhoodAndBuiltEnvironment,30,0.7135,0.6784,0.8712,0.6076
+PartnershipPatient → expressOpinions,SocioEmotionalBehaviour,29,0.7288,0.7072,0.9821,0.6271
+SDOH → EconomicStability,SDOH → NeighborhoodAndBuiltEnvironment,24,0.7207,0.6898,0.9917,0.6026
+PartnershipPatient → expressOpinions,SDOH → EconomicStability,24,0.7202,0.7025,0.9346,0.6009
+PartnershipPatient → expressOpinions,SDOH → NeighborhoodAndBuiltEnvironment,22,0.6514,0.6426,0.6995,0.6036
+PartnershipPatient → Clinical care,SharedDecisionPatient → ExploreOptions,21,0.7226,0.707,0.895,0.6147
+PartnershipPatient → expressOpinions,PartnershipPatient → statePreferences,21,0.7792,0.7787,1.0,0.6059
+PartnershipPatient → Clinical care,PartnershipPatient → statePreferences,19,0.7574,0.7259,1.0,0.6094
+CareCoordinationPatient,PartnershipPatient → statePreferences,19,0.7396,0.7013,0.9249,0.6597
+PartnershipPatient → activeParticipation/involvement,PartnershipProvider → inviteCollabration,18,0.7207,0.6775,0.9282,0.6325
+SDOH → NeighborhoodAndBuiltEnvironment,SocioEmotionalBehaviour,18,0.7165,0.7046,0.8587,0.6158
+PartnershipPatient → Appreciation/Gratitude,PartnershipPatient → Clinical care,18,0.7096,0.6994,0.8445,0.6232
+SDOH → EconomicStability,SDOH → SocialAndCommunityContext,17,0.6952,0.682,0.7645,0.6295
+PartnershipProvider → checkingUnderstanding/clarification,SDOH → EconomicStability,16,0.6983,0.6698,0.8194,0.6074
+PartnershipProvider → maintainCommunication,SDOH → EconomicStability,16,0.6676,0.6664,0.7109,0.6093
+SDOH → SocialAndCommunityContext,SocioEmotionalBehaviour,16,0.7891,0.7739,1.0,0.6016
+SDOH → HealthCareAccessAndQuality,SDOH → SocialAndCommunityContext,16,0.6627,0.6659,0.7391,0.6007
+CareCoordinationPatient,PartnershipPatient → expressOpinions,16,0.7398,0.7391,0.9249,0.6447
+PartnershipPatient → Clinical care,PartnershipProvider → checkingUnderstanding/clarification,15,0.7213,0.6963,1.0,0.6375
+PartnershipPatient → activeParticipation/involvement,PartnershipProvider → Clinical Care,14,0.6783,0.6632,0.751,0.6302
+PartnershipPatient → Clinical care,PartnershipPatient → connection,14,0.7666,0.7573,0.9657,0.6053
+SDOH → NeighborhoodAndBuiltEnvironment,SDOH → SocialAndCommunityContext,13,0.7503,0.7103,0.9264,0.6017
+CareCoordinationPatient,SDOH → EconomicStability,12,0.7043,0.7117,0.7624,0.6384
+PartnershipPatient → signoff,PartnershipProvider → Appreciation/Gratitude,12,1.0,1.0,1.0,1.0
+PartnershipPatient → activeParticipation/involvement,PartnershipPatient → build trust,12,0.7076,0.6922,0.8794,0.6312
+PartnershipPatient → activeParticipation/involvement,SharedDecisionPatient → ExploreOptions,12,0.6935,0.662,0.8575,0.6202
+PartnershipPatient → activeParticipation/involvement,PartnershipProvider → requestsForOpinion,11,0.7126,0.7535,0.7866,0.6326
+PartnershipPatient → build trust,PartnershipPatient → signoff,10,0.7469,0.7396,0.7953,0.7299
+PartnershipPatient → connection,SDOH → HealthCareAccessAndQuality,10,0.6557,0.6548,0.7041,0.6164
+PartnershipPatient → Appreciation/Gratitude,SocioEmotionalBehaviour,10,0.6617,0.6493,0.704,0.6256
+CareCoordinationProvider,PartnershipPatient → activeParticipation/involvement,10,0.6636,0.6674,0.7477,0.6024
+PartnershipPatient → connection,PartnershipProvider → connection,9,0.8177,0.7927,1.0,0.6948
+CareCoordinationProvider,PartnershipPatient → statePreferences,9,0.7162,0.7324,0.7432,0.6431
+PartnershipPatient → statePreferences,SDOH → HealthCareAccessAndQuality,9,0.6861,0.6376,0.7656,0.6021
+CareCoordinationPatient,SharedDecisionPatient → SeekingApproval,9,0.6501,0.6563,0.6922,0.6093
+PartnershipPatient → Clinical care,PartnershipPatient → salutation,9,1.0,1.0,1.0,1.0
+SharedDecisionPatient → ExploreOptions,SharedDecisionPatient → SeekingApproval,8,0.6474,0.6446,0.6898,0.6104
+PartnershipPatient → Clinical care,PartnershipPatient → alignment,8,0.7778,0.7647,0.8616,0.7202
+PartnershipProvider → Clinical Care,SDOH → HealthCareAccessAndQuality,8,0.7435,0.7429,0.8198,0.6683
+PartnershipPatient → Clinical care,PartnershipProvider → connection,8,0.758,0.7322,0.8678,0.6999
+CareCoordinationProvider,PartnershipPatient → Clinical care,8,0.7332,0.6978,0.8923,0.645
+PartnershipPatient → Clinical care,PartnershipPatient → signoff,8,0.7241,0.725,0.8196,0.627
+PartnershipPatient → activeParticipation/involvement,PartnershipProvider → checkingUnderstanding/clarification,8,0.7182,0.6718,0.9238,0.6055
+PartnershipPatient → statePreferences,PartnershipProvider → inviteCollabration,7,0.6983,0.7007,0.7335,0.6707
+CareCoordinationProvider,SDOH → EconomicStability,6,0.6354,0.621,0.6642,0.621
+SDOH → HealthCareAccessAndQuality,SharedDecisionProvider → ShareOptions,6,0.6833,0.7044,0.7271,0.6183
+PartnershipProvider → maintainCommunication,SocioEmotionalBehaviour,6,0.7088,0.7095,0.804,0.6127
+CareCoordinationProvider,SocioEmotionalBehaviour,6,0.7287,0.7157,0.7546,0.7157
+PartnershipProvider → requestsForOpinion,SDOH → HealthCareAccessAndQuality,6,0.6937,0.7248,0.7341,0.6223
+PartnershipPatient → build trust,SDOH → EconomicStability,6,0.7119,0.6515,0.8689,0.6154
+PartnershipPatient → Clinical care,PartnershipPatient → build trust,6,0.7019,0.6788,0.8014,0.6255
+PartnershipPatient → Clinical care,PartnershipProvider → maintainCommunication,6,0.6395,0.615,0.702,0.6015
+PartnershipPatient → Clinical care,PartnershipProvider → alignment,6,0.6978,0.6659,0.8057,0.6217
+PartnershipPatient → salutation,SDOH → EconomicStability,6,0.6466,0.6466,0.6466,0.6466
+PartnershipProvider → alignment,SDOH → NeighborhoodAndBuiltEnvironment,6,0.6273,0.6277,0.6462,0.6079
+PartnershipProvider → Clinical Care,SharedDecisionPatient → SeekingApproval,6,0.6555,0.6717,0.6774,0.6176
+PartnershipProvider → maintainCommunication,SDOH → HealthCareAccessAndQuality,6,0.6331,0.6267,0.6503,0.6224
+PartnershipPatient → expressOpinions,SharedDecisionPatient → SeekingApproval,6,0.653,0.6639,0.6639,0.6312
+PartnershipPatient → Appreciation/Gratitude,PartnershipPatient → expressOpinions,6,0.7215,0.7718,0.7784,0.6142
+CareCoordinationPatient,PartnershipPatient → Appreciation/Gratitude,6,0.8527,0.8811,0.9709,0.7061
+CareCoordinationProvider,SDOH → HealthCareAccessAndQuality,6,0.7257,0.6962,0.8477,0.6331
+PartnershipPatient → Clinical care,PartnershipProvider → requestsForOpinion,5,0.7552,0.6172,0.9703,0.6007
+CareCoordinationPatient,SharedDecisionPatient → ExploreOptions,5,0.6732,0.658,0.7211,0.6081
+PartnershipPatient → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,5,1.0,1.0,1.0,1.0
+PartnershipProvider → requestsForOpinion,SocioEmotionalBehaviour,4,0.8194,0.8194,0.8687,0.7702
+PartnershipPatient → statePreferences,SDOH → EconomicStability,4,0.7077,0.7077,0.7791,0.6362
+PartnershipPatient → alignment,PartnershipProvider → requestsForOpinion,4,0.7002,0.7002,0.755,0.6453
+PartnershipProvider → requestsForOpinion,SharedDecisionPatient → ExploreOptions,4,0.6471,0.6471,0.6603,0.6338
+SharedDecisionProvider → Approval/Reinforcement,SocioEmotionalBehaviour,4,0.7151,0.7151,0.8021,0.6281
+CareCoordinationPatient,PartnershipProvider → maintainCommunication,4,0.6712,0.6712,0.7002,0.6421
+PartnershipPatient → activeParticipation/involvement,PartnershipProvider → build trust,4,0.668,0.668,0.7273,0.6087
+PartnershipProvider → maintainCommunication,SDOH → SocialAndCommunityContext,4,0.744,0.744,0.7753,0.7126
+PartnershipProvider → connection,SDOH → EconomicStability,4,0.7324,0.7324,0.8156,0.6492
+PartnershipPatient → statePreferences,SharedDecisionPatient → ApprovalofDecision/Reinforcement,4,0.7006,0.7034,0.7527,0.643
+CareCoordinationPatient,PartnershipProvider → connection,4,0.7389,0.7389,0.8092,0.6686
+CareCoordinationPatient,PartnershipPatient → connection,4,0.7389,0.7389,0.8092,0.6686
+SDOH → EconomicStability,SharedDecisionPatient → ExploreOptions,4,0.7025,0.7025,0.7856,0.6194
+SDOH → HealthCareAccessAndQuality,SharedDecisionPatient → SeekingApproval,4,0.7329,0.7329,0.7804,0.6854
+PartnershipPatient → expressOpinions,SDOH → SocialAndCommunityContext,4,0.6521,0.6521,0.6856,0.6185
+PartnershipPatient → build trust,PartnershipProvider → inviteCollabration,4,0.6406,0.6406,0.6747,0.6066
+SDOH → HealthCareAccessAndQuality,SharedDecisionPatient → ExploreOptions,4,0.724,0.724,0.7962,0.6518
+PartnershipPatient → statePreferences,PartnershipProvider → maintainCommunication,4,0.8399,0.8399,0.8497,0.8301
+CareCoordinationProvider,PartnershipProvider → Clinical Care,4,0.83,0.83,0.83,0.83
+PartnershipPatient → statePreferences,SharedDecisionProvider → ShareOptions,4,0.6382,0.6333,0.6729,0.6134
+CareCoordinationPatient,PartnershipPatient → alignment,4,0.6777,0.6777,0.7065,0.6488
+PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → signoff,4,1.0,1.0,1.0,1.0
+PartnershipPatient → expressOpinions,SharedDecisionProvider → ShareOptions,3,0.7199,0.7434,0.7434,0.6729
+PartnershipPatient → expressOpinions,PartnershipProvider → inviteCollabration,3,0.7327,0.7324,0.7335,0.7324
+PartnershipPatient → Appreciation/Gratitude,PartnershipPatient → build trust,3,0.7267,0.78,0.78,0.6203
+CareCoordinationProvider,PartnershipPatient → expressOpinions,3,0.7432,0.7432,0.7432,0.7432
+PartnershipPatient → alignment,PartnershipProvider → alignment,3,1.0,1.0,1.0,1.0
+PartnershipProvider → inviteCollabration,SharedDecisionPatient → ApprovalofDecision/Reinforcement,3,0.7221,0.7752,0.7752,0.616
+PartnershipPatient → activeParticipation/involvement,SharedDecisionProvider → ShareOptions,3,0.7208,0.7164,0.7296,0.7164
+CareCoordinationPatient,PartnershipProvider → inviteCollabration,3,0.6871,0.7016,0.7016,0.658
+PartnershipPatient → statePreferences,SocioEmotionalBehaviour,2,0.7176,0.7176,0.7176,0.7176
+PartnershipPatient → alignment,SDOH → EconomicStability,2,0.8038,0.8038,0.8038,0.8038
+PartnershipPatient → expressOpinions,PartnershipProvider → requestsForOpinion,2,0.8016,0.8016,0.8016,0.8016
+PartnershipPatient → statePreferences,PartnershipProvider → requestsForOpinion,2,0.6172,0.6172,0.6172,0.6172
+PartnershipProvider → alignment,SDOH → SocialAndCommunityContext,2,0.7159,0.7159,0.7159,0.7159
+PartnershipPatient → connection,SDOH → SocialAndCommunityContext,2,0.6865,0.6865,0.6865,0.6865
+PartnershipPatient → statePreferences,PartnershipProvider → build trust,2,0.6061,0.6061,0.6061,0.6061
+PartnershipPatient → alignment,SocioEmotionalBehaviour,2,0.8203,0.8203,0.8203,0.8203
+SDOH → EconomicStability,SDOH → EducationAccessAndQuality,2,0.6546,0.6546,0.6546,0.6546
+PartnershipPatient → expressOpinions,SharedDecisionPatient → ExploreOptions,2,0.6091,0.6091,0.6091,0.6091
+SDOH → NeighborhoodAndBuiltEnvironment,SharedDecisionPatient → ApprovalofDecision/Reinforcement,2,0.6189,0.6189,0.6189,0.6189
+PartnershipPatient → connection,SocioEmotionalBehaviour,2,0.6535,0.6535,0.6535,0.6535
+PartnershipPatient → Appreciation/Gratitude,PartnershipPatient → statePreferences,2,0.7858,0.7858,0.7858,0.7858
+CareCoordinationProvider,PartnershipProvider → maintainCommunication,2,0.6761,0.6761,0.6761,0.6761
+PartnershipProvider → checkingUnderstanding/clarification,PartnershipProvider → maintainCommunication,2,0.724,0.724,0.724,0.724
+CareCoordinationProvider,PartnershipProvider → checkingUnderstanding/clarification,2,0.6711,0.6711,0.6711,0.6711
+PartnershipProvider → checkingUnderstanding/clarification,SDOH → HealthCareAccessAndQuality,2,0.6395,0.6395,0.6395,0.6395
+PartnershipPatient → activeParticipation/involvement,PartnershipProvider → connection,2,0.9381,0.9381,0.9381,0.9381
+PartnershipPatient → connection,SDOH → EconomicStability,2,0.6492,0.6492,0.6492,0.6492
+PartnershipPatient → statePreferences,PartnershipProvider → checkingUnderstanding/clarification,2,0.7003,0.7003,0.7003,0.7003
+PartnershipPatient → expressOpinions,PartnershipProvider → checkingUnderstanding/clarification,2,0.6023,0.6023,0.6023,0.6023
+PartnershipProvider → build trust,SDOH → EconomicStability,2,0.8732,0.8732,0.8732,0.8732
+CareCoordinationPatient,SDOH → SocialAndCommunityContext,2,0.6421,0.6421,0.6421,0.6421
+CareCoordinationPatient,PartnershipProvider → Clinical Care,2,0.6245,0.6245,0.6245,0.6245
+PartnershipPatient → alignment,PartnershipPatient → expressOpinions,2,0.6435,0.6435,0.6435,0.6435
+PartnershipProvider → Clinical Care,SDOH → NeighborhoodAndBuiltEnvironment,2,0.6107,0.6107,0.6107,0.6107
+PartnershipPatient → connection,PartnershipPatient → expressOpinions,2,0.8115,0.8115,0.8115,0.8115
+PartnershipPatient → statePreferences,SDOH → SocialAndCommunityContext,2,0.6039,0.6039,0.6039,0.6039
+SDOH → NeighborhoodAndBuiltEnvironment,SharedDecisionPatient → SeekingApproval,2,0.8191,0.8191,0.8191,0.8191
+PartnershipPatient → connection,SharedDecisionPatient → SeekingApproval,2,0.6155,0.6155,0.6155,0.6155
+PartnershipProvider → inviteCollabration,SDOH → EconomicStability,2,0.6003,0.6003,0.6003,0.6003
+PartnershipProvider → Clinical Care,SocioEmotionalBehaviour,2,0.6034,0.6034,0.6034,0.6034
+CareCoordinationProvider,PartnershipProvider → inviteCollabration,2,0.7594,0.7594,0.7594,0.7594
+SDOH → SocialAndCommunityContext,SharedDecisionPatient → SeekingApproval,2,0.8825,0.8825,0.8825,0.8825
+PartnershipProvider → checkingUnderstanding/clarification,SocioEmotionalBehaviour,2,0.7337,0.7337,0.7337,0.7337
+CareCoordinationPatient,SharedDecisionPatient → ApprovalofDecision/Reinforcement,2,0.6915,0.6915,0.6915,0.6915
+PartnershipPatient → expressOpinions,SharedDecisionPatient → ApprovalofDecision/Reinforcement,2,0.6285,0.6285,0.6541,0.6029
+SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionProvider → Approval/Reinforcement,2,0.6477,0.6477,0.6477,0.6477
+PartnershipProvider → inviteCollabration,SharedDecisionProvider → Approval/Reinforcement,2,0.635,0.635,0.635,0.635
+PartnershipProvider → inviteCollabration,SharedDecisionProvider → ShareOptions,2,0.9113,0.9113,0.9113,0.9113
+CareCoordinationPatient,SharedDecisionProvider → ShareOptions,2,0.6127,0.6127,0.6239,0.6014
+PartnershipPatient → alignment,SDOH → HealthCareAccessAndQuality,2,0.9848,0.9848,0.9848,0.9848
+SharedDecisionPatient → ExploreOptions,SocioEmotionalBehaviour,2,0.6032,0.6032,0.6038,0.6025
+PartnershipPatient → activeParticipation/involvement,PartnershipPatient → signoff,2,0.6547,0.6547,0.6547,0.6547
+PartnershipPatient → alignment,SDOH → NeighborhoodAndBuiltEnvironment,2,0.6821,0.6821,0.6821,0.6821
+SharedDecisionPatient → ExploreOptions,SharedDecisionProvider → ShareOptions,2,0.7519,0.7519,0.7519,0.7519
+PartnershipPatient → Appreciation/Gratitude,SDOH → HealthCareAccessAndQuality,2,0.8331,0.8331,0.8331,0.8331
+PartnershipPatient → build trust,SocioEmotionalBehaviour,2,0.794,0.794,0.794,0.794
+CareCoordinationProvider,PartnershipPatient → alignment,2,0.7123,0.7123,0.7123,0.7123
+PartnershipPatient → alignment,PartnershipProvider → Clinical Care,1,0.6106,0.6106,0.6106,0.6106
+PartnershipPatient → alignment,PartnershipPatient → build trust,1,0.6158,0.6158,0.6158,0.6158
+PartnershipPatient → build trust,SDOH → HealthCareAccessAndQuality,1,0.6003,0.6003,0.6003,0.6003
+PartnershipPatient → activeParticipation/involvement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,1,0.7225,0.7225,0.7225,0.7225
+CareCoordinationProvider,SDOH → SocialAndCommunityContext,1,0.7025,0.7025,0.7025,0.7025
+PartnershipPatient → signoff,SDOH → SocialAndCommunityContext,1,0.6335,0.6335,0.6335,0.6335
+PartnershipPatient → activeParticipation/involvement,PartnershipPatient → connection,1,1.0,1.0,1.0,1.0
+PartnershipPatient → Clinical care,PartnershipProvider → salutation,1,1.0,1.0,1.0,1.0

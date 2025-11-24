@@ -1,0 +1,174 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "father",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "discharged",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "get",
+      "pos": "AUX",
+      "id": 3
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "tmrw",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "..",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "postponed",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 8
+    },
+    {
+      "label": "His",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "treatment",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "We",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "d",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 16
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "auxpass",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 7
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "dep": "auxpass",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "poss",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Thanks. Used last night. Really cuts the pain down to almost nothing.",
+      "id": 607
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks.",
+      "id": "607_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks.",
+      "id": "607_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Used last night.",
+      "id": "607_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Used last night.",
+      "id": "607_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Really cuts the pain down to almost nothing.",
+      "id": "607_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Really cuts the pain down to almost nothing.",
+      "id": "607_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 607,
+      "target": "607_0"
+    },
+    {
+      "source": 607,
+      "target": "607_1"
+    },
+    {
+      "source": 607,
+      "target": "607_2"
+    },
+    {
+      "source": "607_0",
+      "target": "607_0_0"
+    },
+    {
+      "source": "607_1",
+      "target": "607_1_0"
+    },
+    {
+      "source": "607_2",
+      "target": "607_2_0"
+    }
+  ]
+}

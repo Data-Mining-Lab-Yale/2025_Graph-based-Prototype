@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ok let's try that. I will place orders in.",
+      "id": 241
+    },
+    {
+      "label": "sentence",
+      "text": "Ok let's try that.",
+      "id": "241_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok let's try",
+      "id": "241_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "that.",
+      "id": "241_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I will place orders in.",
+      "id": "241_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will place orders in.",
+      "id": "241_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 241,
+      "target": "241_0"
+    },
+    {
+      "source": 241,
+      "target": "241_1"
+    },
+    {
+      "source": "241_0",
+      "target": "241_0_0"
+    },
+    {
+      "source": "241_0",
+      "target": "241_0_1"
+    },
+    {
+      "source": "241_1",
+      "target": "241_1_0"
+    }
+  ]
+}

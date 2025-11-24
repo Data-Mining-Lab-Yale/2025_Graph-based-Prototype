@@ -1,0 +1,131 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Mr Person1, Yes I just need to know when you stopped working, and you are saying you cannot work at all or just not full time. Also we were given only one page. Is there a  fax/phone number/person /dept  Thanks  Person2 Up to you if you want to send me the mane of the place it goes...otherw ise see you MM/DD/YYYY",
+      "id": 75
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Mr Person1, Yes I just need to know when you stopped working, and you are saying you cannot work at all or just not full time.",
+      "id": "75_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Mr Person1,",
+      "id": "75_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes I just need to know when you stopped",
+      "id": "75_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "working,",
+      "id": "75_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "and you are saying",
+      "id": "75_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "you cannot work",
+      "id": "75_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "at all or just not full time.",
+      "id": "75_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "Also we were given only one page.",
+      "id": "75_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Also we were given only one page.",
+      "id": "75_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Is there a  fax/phone number/person /dept  Thanks  Person2 Up to you if you want to send me the mane of the place it goes...otherw ise see you MM/DD/YYYY",
+      "id": "75_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is there a  fax/phone number/person /dept  Thanks  Person2 Up to you if you want",
+      "id": "75_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to send me the mane of the place it goes",
+      "id": "75_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "...otherw ise see you MM/DD/YYYY",
+      "id": "75_2_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 75,
+      "target": "75_0"
+    },
+    {
+      "source": 75,
+      "target": "75_1"
+    },
+    {
+      "source": 75,
+      "target": "75_2"
+    },
+    {
+      "source": "75_0",
+      "target": "75_0_0"
+    },
+    {
+      "source": "75_0",
+      "target": "75_0_1"
+    },
+    {
+      "source": "75_0",
+      "target": "75_0_2"
+    },
+    {
+      "source": "75_0",
+      "target": "75_0_3"
+    },
+    {
+      "source": "75_0",
+      "target": "75_0_4"
+    },
+    {
+      "source": "75_0",
+      "target": "75_0_5"
+    },
+    {
+      "source": "75_1",
+      "target": "75_1_0"
+    },
+    {
+      "source": "75_2",
+      "target": "75_2_0"
+    },
+    {
+      "source": "75_2",
+      "target": "75_2_1"
+    },
+    {
+      "source": "75_2",
+      "target": "75_2_2"
+    }
+  ]
+}

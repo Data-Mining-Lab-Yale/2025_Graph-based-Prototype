@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Dr Person1 i am at Org2 to get a blood draw and they are telling me only a psa is in there. Are we not doing the other tests right now the cbc and metabolic comprehensive?",
+      "id": 338
+    },
+    {
+      "label": "sentence",
+      "text": "Dr Person1 i am at Org2 to get a blood draw and they are telling me only a psa is in there.",
+      "id": "338_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr Person1 i am at Org2 to get",
+      "id": "338_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a blood draw and they are telling me only a psa is",
+      "id": "338_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "in there.",
+      "id": "338_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Are we not doing the other tests right now the cbc and metabolic comprehensive?",
+      "id": "338_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Are we not doing the other tests right now the cbc and metabolic comprehensive",
+      "id": "338_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 338,
+      "target": "338_0"
+    },
+    {
+      "source": 338,
+      "target": "338_1"
+    },
+    {
+      "source": "338_0",
+      "target": "338_0_0"
+    },
+    {
+      "source": "338_0",
+      "target": "338_0_1"
+    },
+    {
+      "source": "338_0",
+      "target": "338_0_2"
+    },
+    {
+      "source": "338_1",
+      "target": "338_1_0"
+    }
+  ]
+}

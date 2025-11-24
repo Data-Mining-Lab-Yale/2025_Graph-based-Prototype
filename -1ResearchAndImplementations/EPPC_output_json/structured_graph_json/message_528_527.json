@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "New pics three hours later",
+      "id": 527
+    },
+    {
+      "label": "sentence",
+      "text": "New pics three hours later",
+      "id": "527_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "New pics three hours later",
+      "id": "527_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 527,
+      "target": "527_0"
+    },
+    {
+      "source": "527_0",
+      "target": "527_0_0"
+    }
+  ]
+}

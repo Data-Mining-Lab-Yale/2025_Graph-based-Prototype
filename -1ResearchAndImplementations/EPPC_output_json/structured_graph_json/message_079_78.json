@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I have a question about CBC WITH AUTO DIFFERENTIAL resulted on MM/DD/YYYY at MM/DD/YYYY. Can you tell me if my hemoglobin and platelets is goog. Or  Should be concerned because drop since the last time",
+      "id": 78
+    },
+    {
+      "label": "sentence",
+      "text": "I have a question about CBC WITH AUTO DIFFERENTIAL resulted on MM/DD/YYYY at MM/DD/YYYY.",
+      "id": "78_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have a question about CBC WITH AUTO DIFFERENTIAL resulted",
+      "id": "78_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on MM/DD/YYYY at MM/DD/YYYY.",
+      "id": "78_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Can you tell me if my hemoglobin and platelets is goog.",
+      "id": "78_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can you tell me if my hemoglobin and platelets",
+      "id": "78_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "is",
+      "id": "78_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "goog.",
+      "id": "78_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Or  Should be concerned because drop since the last time",
+      "id": "78_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Or  Should be concerned because drop",
+      "id": "78_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "since the last time",
+      "id": "78_2_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 78,
+      "target": "78_0"
+    },
+    {
+      "source": 78,
+      "target": "78_1"
+    },
+    {
+      "source": 78,
+      "target": "78_2"
+    },
+    {
+      "source": "78_0",
+      "target": "78_0_0"
+    },
+    {
+      "source": "78_0",
+      "target": "78_0_1"
+    },
+    {
+      "source": "78_1",
+      "target": "78_1_0"
+    },
+    {
+      "source": "78_1",
+      "target": "78_1_1"
+    },
+    {
+      "source": "78_1",
+      "target": "78_1_2"
+    },
+    {
+      "source": "78_2",
+      "target": "78_2_0"
+    },
+    {
+      "source": "78_2",
+      "target": "78_2_1"
+    }
+  ]
+}

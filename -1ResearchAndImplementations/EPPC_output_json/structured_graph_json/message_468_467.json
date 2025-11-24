@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Back rash attached    Person1",
+      "id": 467
+    },
+    {
+      "label": "sentence",
+      "text": "Back rash attached    Person1",
+      "id": "467_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Back rash attached    Person1",
+      "id": "467_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 467,
+      "target": "467_0"
+    },
+    {
+      "source": "467_0",
+      "target": "467_0_0"
+    }
+  ]
+}

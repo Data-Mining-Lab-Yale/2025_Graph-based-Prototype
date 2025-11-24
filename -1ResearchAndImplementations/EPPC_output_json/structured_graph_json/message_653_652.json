@@ -1,0 +1,113 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr. Person1,    I have a choice tomorrow for Moderna or Johnson and Johnson  Need help..which one should I go with? Thanks so much!    Person3",
+      "id": 652
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr. Person1,    I have a choice tomorrow for Moderna or Johnson and Johnson  Need help..which one should I go with?",
+      "id": "652_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr. Person1,",
+      "id": "652_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have a choice tomorrow for Moderna or Johnson",
+      "id": "652_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and Johnson",
+      "id": "652_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Need",
+      "id": "652_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "help..which one should I go",
+      "id": "652_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "with?",
+      "id": "652_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks so much!",
+      "id": "652_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much!",
+      "id": "652_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person3",
+      "id": "652_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "652_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 652,
+      "target": "652_0"
+    },
+    {
+      "source": 652,
+      "target": "652_1"
+    },
+    {
+      "source": 652,
+      "target": "652_2"
+    },
+    {
+      "source": "652_0",
+      "target": "652_0_0"
+    },
+    {
+      "source": "652_0",
+      "target": "652_0_1"
+    },
+    {
+      "source": "652_0",
+      "target": "652_0_2"
+    },
+    {
+      "source": "652_0",
+      "target": "652_0_3"
+    },
+    {
+      "source": "652_0",
+      "target": "652_0_4"
+    },
+    {
+      "source": "652_0",
+      "target": "652_0_5"
+    },
+    {
+      "source": "652_1",
+      "target": "652_1_0"
+    },
+    {
+      "source": "652_2",
+      "target": "652_2_0"
+    }
+  ]
+}

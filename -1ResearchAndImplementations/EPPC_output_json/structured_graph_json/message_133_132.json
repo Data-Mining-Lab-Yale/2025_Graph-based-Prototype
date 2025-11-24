@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good afternoon,     I reached out to dr  Person1 concerning the removal of my port and his nurse my chart me back stating he doesn remove ports.",
+      "id": 132
+    },
+    {
+      "label": "sentence",
+      "text": "Good afternoon,     I reached out to dr  Person1 concerning the removal of my port and his nurse my chart me back stating he doesn remove ports.",
+      "id": "132_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good afternoon,",
+      "id": "132_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I reached out to dr",
+      "id": "132_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 concerning the removal of my port and his nurse",
+      "id": "132_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "my chart me back stating he doesn",
+      "id": "132_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "remove",
+      "id": "132_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "ports.",
+      "id": "132_0_5"
+    }
+  ],
+  "links": [
+    {
+      "source": 132,
+      "target": "132_0"
+    },
+    {
+      "source": "132_0",
+      "target": "132_0_0"
+    },
+    {
+      "source": "132_0",
+      "target": "132_0_1"
+    },
+    {
+      "source": "132_0",
+      "target": "132_0_2"
+    },
+    {
+      "source": "132_0",
+      "target": "132_0_3"
+    },
+    {
+      "source": "132_0",
+      "target": "132_0_4"
+    },
+    {
+      "source": "132_0",
+      "target": "132_0_5"
+    }
+  ]
+}

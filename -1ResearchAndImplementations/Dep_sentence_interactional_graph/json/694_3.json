@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "That",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "sound",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "may",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "stupid",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "but",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "makes",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "worry",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "wasn",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "having",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "pain",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "underarm",
+      "pos": "ADJ",
+      "id": 13
+    },
+    {
+      "label": "previously",
+      "pos": "ADV",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "acomp",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "dobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 - refill has been sent in. Please give it at least a few hours. Thanks! Person2",
+      "id": 465
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 - refill has been sent in.",
+      "id": "465_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 - refill has been sent in.",
+      "id": "465_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Please give it at least a few hours.",
+      "id": "465_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please give it at least a few hours.",
+      "id": "465_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "465_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "465_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2",
+      "id": "465_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "465_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 465,
+      "target": "465_0"
+    },
+    {
+      "source": 465,
+      "target": "465_1"
+    },
+    {
+      "source": 465,
+      "target": "465_2"
+    },
+    {
+      "source": 465,
+      "target": "465_3"
+    },
+    {
+      "source": "465_0",
+      "target": "465_0_0"
+    },
+    {
+      "source": "465_1",
+      "target": "465_1_0"
+    },
+    {
+      "source": "465_2",
+      "target": "465_2_0"
+    },
+    {
+      "source": "465_3",
+      "target": "465_3_0"
+    }
+  ]
+}

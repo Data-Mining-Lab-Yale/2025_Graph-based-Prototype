@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Unfortunately I haven begun the dental work. I don begin until MM/DD/YYYY. The covid pandemic has created a huge backup.",
+      "id": 583
+    },
+    {
+      "label": "sentence",
+      "text": "Unfortunately I haven begun the dental work.",
+      "id": "583_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Unfortunately I haven begun the dental work.",
+      "id": "583_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I don begin until MM/DD/YYYY.",
+      "id": "583_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I don begin until MM/DD/YYYY.",
+      "id": "583_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "The covid pandemic has created a huge backup.",
+      "id": "583_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "The covid pandemic has created a huge backup.",
+      "id": "583_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 583,
+      "target": "583_0"
+    },
+    {
+      "source": 583,
+      "target": "583_1"
+    },
+    {
+      "source": 583,
+      "target": "583_2"
+    },
+    {
+      "source": "583_0",
+      "target": "583_0_0"
+    },
+    {
+      "source": "583_1",
+      "target": "583_1_0"
+    },
+    {
+      "source": "583_2",
+      "target": "583_2_0"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "pharmacy",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "contact",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "when",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "ready",
+      "pos": "ADJ",
+      "id": 8
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 6
+    },
+    {
+      "label": "its",
+      "pos": "PRON",
+      "id": 7
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "dep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "poss",
+      "source": 8,
+      "target": 7
+    }
+  ]
+}

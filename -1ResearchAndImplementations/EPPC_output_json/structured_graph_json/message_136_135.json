@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good evening       I hope this email finds you well. Im preparing for surgery on MM/DD/YYYY & I following up about my Org2 paperwork. After speaking to Person1 on MM/DD/YYYY & MM/DD/YYYY , I was able to fax the paperwork that night from work. I haven heard anything or it seen that it was received. Please let me know if my paperwork was received & or  completed.",
+      "id": 135
+    },
+    {
+      "label": "sentence",
+      "text": "Good evening       I hope this email finds you well.",
+      "id": "135_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good evening       I hope this email finds",
+      "id": "135_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "you well",
+      "id": "135_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Im preparing for surgery on MM/DD/YYYY & I following up about my Org2 paperwork.",
+      "id": "135_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Im preparing for surgery on MM/DD/YYYY & I",
+      "id": "135_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "following",
+      "id": "135_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "up about my Org2 paperwork.",
+      "id": "135_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "After speaking to Person1 on MM/DD/YYYY & MM/DD/YYYY , I was able to fax the paperwork that night from work.",
+      "id": "135_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "After speaking to Person1 on MM/DD/YYYY & MM/DD/YYYY",
+      "id": "135_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was able to fax the paperwork that night from work.",
+      "id": "135_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I haven heard anything or it seen that it was received.",
+      "id": "135_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I haven heard",
+      "id": "135_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "anything or it seen",
+      "id": "135_3_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "that it was received",
+      "id": "135_3_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Please let me know if my paperwork was received & or  completed.",
+      "id": "135_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let me know",
+      "id": "135_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if my paperwork was received",
+      "id": "135_4_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "& or  completed",
+      "id": "135_4_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 135,
+      "target": "135_0"
+    },
+    {
+      "source": 135,
+      "target": "135_1"
+    },
+    {
+      "source": 135,
+      "target": "135_2"
+    },
+    {
+      "source": 135,
+      "target": "135_3"
+    },
+    {
+      "source": 135,
+      "target": "135_4"
+    },
+    {
+      "source": "135_0",
+      "target": "135_0_0"
+    },
+    {
+      "source": "135_0",
+      "target": "135_0_1"
+    },
+    {
+      "source": "135_1",
+      "target": "135_1_0"
+    },
+    {
+      "source": "135_1",
+      "target": "135_1_1"
+    },
+    {
+      "source": "135_1",
+      "target": "135_1_2"
+    },
+    {
+      "source": "135_2",
+      "target": "135_2_0"
+    },
+    {
+      "source": "135_2",
+      "target": "135_2_1"
+    },
+    {
+      "source": "135_3",
+      "target": "135_3_0"
+    },
+    {
+      "source": "135_3",
+      "target": "135_3_1"
+    },
+    {
+      "source": "135_3",
+      "target": "135_3_2"
+    },
+    {
+      "source": "135_4",
+      "target": "135_4_0"
+    },
+    {
+      "source": "135_4",
+      "target": "135_4_1"
+    },
+    {
+      "source": "135_4",
+      "target": "135_4_2"
+    }
+  ]
+}

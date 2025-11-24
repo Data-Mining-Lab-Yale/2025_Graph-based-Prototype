@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "will",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "her",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "as",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "well",
+      "pos": "ADV",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "confirm",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "has",
+      "pos": "VERB",
+      "id": 9
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "received",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "hasn",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "dep": "advmod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "ccomp",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "dobj",
+      "source": 12,
+      "target": 13
+    }
+  ]
+}

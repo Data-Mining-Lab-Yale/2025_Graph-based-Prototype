@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Are",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "doing",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "we",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "not",
+      "pos": "PART",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "tests",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "other",
+      "pos": "ADJ",
+      "id": 5
+    },
+    {
+      "label": "right",
+      "pos": "ADV",
+      "id": 7
+    },
+    {
+      "label": "now",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "cbc",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 11
+    },
+    {
+      "label": "metabolic",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "comprehensive",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "neg",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "dobj",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "advmod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

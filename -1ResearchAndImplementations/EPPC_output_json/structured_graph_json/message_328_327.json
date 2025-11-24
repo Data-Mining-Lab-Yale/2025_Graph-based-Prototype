@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 Soon as we receive the form we will complete it with the required reports and get it sent in for you, Person2 RN",
+      "id": 327
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 Soon as we receive the form we will complete it with the required reports and get it sent in for you, Person2 RN",
+      "id": "327_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 Soon as we receive",
+      "id": "327_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the form we will complete",
+      "id": "327_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it with the required reports and get",
+      "id": "327_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it sent",
+      "id": "327_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "in for you,",
+      "id": "327_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2 RN",
+      "id": "327_0_5"
+    }
+  ],
+  "links": [
+    {
+      "source": 327,
+      "target": "327_0"
+    },
+    {
+      "source": "327_0",
+      "target": "327_0_0"
+    },
+    {
+      "source": "327_0",
+      "target": "327_0_1"
+    },
+    {
+      "source": "327_0",
+      "target": "327_0_2"
+    },
+    {
+      "source": "327_0",
+      "target": "327_0_3"
+    },
+    {
+      "source": "327_0",
+      "target": "327_0_4"
+    },
+    {
+      "source": "327_0",
+      "target": "327_0_5"
+    }
+  ]
+}

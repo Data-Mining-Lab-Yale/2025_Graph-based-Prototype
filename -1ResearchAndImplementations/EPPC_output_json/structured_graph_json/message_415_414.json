@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Yes, please start taking calcium 1000 mg daily as well as 400 IU of vitamin D daily. A bone strengthening  agent will still most likely be added to your regimen and we will work on the appeal.",
+      "id": 414
+    },
+    {
+      "label": "sentence",
+      "text": "Yes, please start taking calcium 1000 mg daily as well as 400 IU of vitamin D daily.",
+      "id": "414_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "414_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "please start taking calcium 1000 mg daily as well as 400 IU of vitamin D daily.",
+      "id": "414_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "A bone strengthening  agent will still most likely be added to your regimen and we will work on the appeal.",
+      "id": "414_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "A bone strengthening  agent will still most likely be added to your regimen and we will work",
+      "id": "414_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on the appeal.",
+      "id": "414_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 414,
+      "target": "414_0"
+    },
+    {
+      "source": 414,
+      "target": "414_1"
+    },
+    {
+      "source": "414_0",
+      "target": "414_0_0"
+    },
+    {
+      "source": "414_0",
+      "target": "414_0_1"
+    },
+    {
+      "source": "414_1",
+      "target": "414_1_0"
+    },
+    {
+      "source": "414_1",
+      "target": "414_1_1"
+    }
+  ]
+}

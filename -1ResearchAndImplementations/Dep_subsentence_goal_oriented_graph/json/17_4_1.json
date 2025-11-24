@@ -1,0 +1,114 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "keep",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "Oxy",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "steady",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 6
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "oprd",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    }
+  ]
+}

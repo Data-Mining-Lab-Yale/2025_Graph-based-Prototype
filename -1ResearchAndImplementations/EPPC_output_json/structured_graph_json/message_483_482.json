@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Cvs have texted saying I'm not due a sertraline refill until MM/DD/YYYY. Am all out of this and others . MM/DD/YYYY lakes have kept/messed up my meds     Help!",
+      "id": 482
+    },
+    {
+      "label": "sentence",
+      "text": "Cvs have texted saying I'm not due a sertraline refill until MM/DD/YYYY.",
+      "id": "482_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Cvs have texted saying",
+      "id": "482_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I'm",
+      "id": "482_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "not due a sertraline refill until MM/DD/YYYY.",
+      "id": "482_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Am all out of this and others .",
+      "id": "482_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Am all out of this and others",
+      "id": "482_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "MM/DD/YYYY lakes have kept/messed up my meds     Help!",
+      "id": "482_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY lakes have kept/messed up my meds     Help!",
+      "id": "482_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 482,
+      "target": "482_0"
+    },
+    {
+      "source": 482,
+      "target": "482_1"
+    },
+    {
+      "source": 482,
+      "target": "482_2"
+    },
+    {
+      "source": "482_0",
+      "target": "482_0_0"
+    },
+    {
+      "source": "482_0",
+      "target": "482_0_1"
+    },
+    {
+      "source": "482_0",
+      "target": "482_0_2"
+    },
+    {
+      "source": "482_1",
+      "target": "482_1_0"
+    },
+    {
+      "source": "482_2",
+      "target": "482_2_0"
+    }
+  ]
+}

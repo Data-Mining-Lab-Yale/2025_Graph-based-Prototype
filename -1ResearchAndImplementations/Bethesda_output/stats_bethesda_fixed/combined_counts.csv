@@ -1,0 +1,36 @@
+label,count
+PartnershipPatient → Clinical care,402
+PartnershipPatient → activeParticipation/involvement,239
+SDOH → HealthCareAccessAndQuality,165
+SDOH → EconomicStability,112
+PartnershipPatient → expressOpinions,69
+SocioEmotionalBehaviour,67
+CareCoordinationPatient,67
+PartnershipPatient → signoff,54
+PartnershipPatient → salutation,47
+SDOH → NeighborhoodAndBuiltEnvironment,35
+PartnershipProvider → Clinical Care,34
+SharedDecisionPatient → SeekingApproval,33
+PartnershipPatient → Appreciation/Gratitude,33
+SDOH → SocialAndCommunityContext,28
+PartnershipPatient → statePreferences,25
+CareCoordinationProvider,24
+SharedDecisionPatient → ExploreOptions,14
+PartnershipProvider → maintainCommunication,13
+PartnershipPatient → build trust,12
+PartnershipProvider → signoff,11
+PartnershipPatient → connection,10
+PartnershipProvider → inviteCollabration,8
+PartnershipProvider → salutation,7
+PartnershipProvider → checkingUnderstanding/clarification,7
+PartnershipPatient → alignment,5
+PartnershipProvider → requestsForOpinion,4
+SDOH → EducationAccessAndQuality,4
+PartnershipProvider → connection,4
+SharedDecisionProvider → ShareOptions,4
+PartnershipProvider → alignment,3
+SharedDecisionPatient → ApprovalofDecision/Reinforcement,2
+SharedDecisionProvider → MakeDecision,2
+PartnershipProvider → build trust,1
+SharedDecisionProvider → Approval/Reinforcement,1
+PartnershipProvider → Appreciation/Gratitude,1

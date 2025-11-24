@@ -1,0 +1,84 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Can",
+      "pos": "AUX",
+      "id": 0
+    },
+    {
+      "label": "see",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "anyone",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "him",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "while",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "he",
+      "pos": "PRON",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "advcl",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "mark",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

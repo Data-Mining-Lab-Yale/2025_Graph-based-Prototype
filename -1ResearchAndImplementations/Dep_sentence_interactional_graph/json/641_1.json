@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Give",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "them",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "call",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "dative",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

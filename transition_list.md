@@ -46,8 +46,9 @@ Explore the visual narrative research apply to medical domain
 Resign and prepare transtiion
 - Team discussions for brain storming
 - Notes for investigating challenge in patient-provider communications
-- (On going) literature review for virtual patient and how they combine with healthcare
-- (On going) 
+- literature review for virtual patient and how they combine with healthcare
+- literature review for virtual patient with techniques.
 
 ## Novmember
-Not start yet
+- Organize and record previously completed items for transparent transition tracking.
+- Review literature on visual and interactive techniques related to virtual patient representations.

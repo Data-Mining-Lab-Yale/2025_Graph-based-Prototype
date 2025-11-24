@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "right",
+      "pos": "ADV",
+      "id": 0
+    },
+    {
+      "label": "section",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "picked",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "husband",
+      "pos": "NOUN",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "poss",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

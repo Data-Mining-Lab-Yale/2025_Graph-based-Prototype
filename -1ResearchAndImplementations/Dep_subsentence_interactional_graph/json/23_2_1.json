@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "why",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "concerned",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "advmod",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "auxpass",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

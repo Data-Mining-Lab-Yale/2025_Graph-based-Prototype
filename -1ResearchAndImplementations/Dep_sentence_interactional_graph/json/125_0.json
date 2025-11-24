@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "That",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "completely",
+      "pos": "ADV",
+      "id": 6
+    },
+    {
+      "label": "understandable",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "!",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "dep",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

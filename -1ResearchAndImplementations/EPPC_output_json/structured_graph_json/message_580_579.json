@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Will do.",
+      "id": 579
+    },
+    {
+      "label": "sentence",
+      "text": "Will do.",
+      "id": "579_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Will do.",
+      "id": "579_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 579,
+      "target": "579_0"
+    },
+    {
+      "source": "579_0",
+      "target": "579_0_0"
+    }
+  ]
+}

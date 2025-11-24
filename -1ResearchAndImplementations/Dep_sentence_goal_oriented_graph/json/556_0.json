@@ -1,0 +1,244 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "MM",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "appointment",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 1
+    },
+    {
+      "label": "DD",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 3
+    },
+    {
+      "label": "YYYY",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "here",
+      "pos": "ADV",
+      "id": 8
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "Org2",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 12
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "So",
+      "pos": "ADV",
+      "id": 14
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "Org2",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 17
+    },
+    {
+      "label": "reschedule",
+      "pos": "VERB",
+      "id": 18
+    },
+    {
+      "label": "XXX",
+      "pos": "PROPN",
+      "id": 19
+    },
+    {
+      "label": "XXXX",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 20
+    },
+    {
+      "label": "XXX",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "nmod",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "nmod",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "dep": "compound",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "advmod",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "advcl",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "pobj",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "oprd",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "dobj",
+      "source": 15,
+      "target": 23
+    },
+    {
+      "dep": "cc",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "conj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "punct",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "dep": "compound",
+      "source": 23,
+      "target": 19
+    },
+    {
+      "dep": "compound",
+      "source": 23,
+      "target": 21
+    },
+    {
+      "dep": "punct",
+      "source": 23,
+      "target": 22
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+pair,src_label,src_text,nbr_label,nbr_text,similarity
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Greetings,PartnershipPatient → salutation,Greetings,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Take care,PartnershipProvider → signoff,Take care,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Take care,PartnershipProvider → signoff,Take care,1.0
+InfoGive → Drugs || PartnershipProvider → connection,PartnershipProvider → connection,Take care,InfoGive → Drugs,take care of these prescriptions,0.6254
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → signoff,many thanks,PartnershipPatient → Appreciation/Gratitude,Many thanks!,1.0
+PartnershipPatient → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipPatient → Alignment,Ok,0.6377
+PartnershipPatient → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipPatient → Alignment,Ok,0.6377
+PartnershipProvider → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipProvider → Alignment,Ok,0.6377
+PartnershipPatient → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipPatient → Alignment,Ok,0.6377
+PartnershipProvider → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipProvider → Alignment,Ok,0.6377
+PartnershipPatient → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipPatient → Alignment,Ok,0.6377
+PartnershipProvider → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipProvider → Alignment,Ok,0.6377
+PartnershipPatient → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipPatient → Alignment,OK,0.6377
+PartnershipPatient → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipPatient → Alignment,OK,0.6377
+PartnershipPatient → Alignment || SharedDecisionPatient → ApprovalofDecision/Reinforcement,SharedDecisionPatient → ApprovalofDecision/Reinforcement,This should ok,PartnershipPatient → Alignment,Ok,0.6377
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Kind regards,PartnershipPatient → signoff,Kind regards,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+Socioemotional/Empathy → AcknowledgeError || Socioemotional/Empathy → Sadness/fear,Socioemotional/Empathy → AcknowledgeError,"OOPS , sorry - my typo",Socioemotional/Empathy → Sadness/fear,I'm sorry,0.8665
+PartnershipProvider → connection || Socioemotional/Empathy → AcknowledgeError,Socioemotional/Empathy → AcknowledgeError,"OOPS , sorry - my typo",PartnershipProvider → connection,Sorry,0.8665
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+InfoGive → Drugs || PartnershipPatient → signoff,InfoGive → Drugs,take care of these prescriptions,PartnershipPatient → signoff,Take care,0.6254
+InfoGive → Drugs || PartnershipProvider → signoff,InfoGive → Drugs,take care of these prescriptions,PartnershipProvider → signoff,Take care,0.6254
+InfoGive → Drugs || PartnershipProvider → signoff,InfoGive → Drugs,take care of these prescriptions,PartnershipProvider → signoff,Take care,0.6254
+InfoGive → Drugs || PartnershipProvider → connection,InfoGive → Drugs,take care of these prescriptions,PartnershipProvider → connection,Take care,0.6254
+InfoGive → Drugs || PartnershipProvider → connection,InfoGive → Drugs,take care of these prescriptions,PartnershipProvider → connection,Take care,0.6254
+InfoGive → Drugs || PartnershipProvider → connection,InfoGive → Drugs,take care of these prescriptions,PartnershipProvider → connection,Take care,0.6254
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hello,PartnershipPatient → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hello,PartnershipPatient → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hello,PartnershipPatient → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hello,PartnershipPatient → salutation,Hello,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,thank you and All for your help!,PartnershipPatient → Appreciation/Gratitude,Thank you for your help,0.7637
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,thank you and All for your help!,PartnershipPatient → Appreciation/Gratitude,Thank you for your help,0.7637
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,thank you and All for your help!,PartnershipPatient → Appreciation/Gratitude,Thank you and Dr. Person2 for your help,0.723
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,thank you and All for your help!,PartnershipPatient → Appreciation/Gratitude,thank you for all your help today,0.6258
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,I'll let you know as soon as that is completed,PartnershipProvider → maintainCommunication,I will let you know as soon as he answers me,0.6604
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Greetings,PartnershipPatient → salutation,Greetings,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipProvider → salutation,Hi,PartnershipPatient → salutation,Hi,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,Hello,PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,Hello,PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,Hello,PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,Hello,PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,Hello,PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,Hello,PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks a ton,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,best,PartnershipProvider → signoff,Best,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,best,PartnershipProvider → signoff,Best,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,best,PartnershipProvider → signoff,Best,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,best,PartnershipProvider → signoff,Best,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,best,PartnershipProvider → signoff,Best,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,best,PartnershipProvider → signoff,Best,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,Greetings,PartnershipProvider → salutation,Greetings,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,"Hello,",PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → salutation || PartnershipProvider → salutation,PartnershipPatient → salutation,"Hello,",PartnershipProvider → salutation,Hello,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipPatient → signoff,Thank you very much,PartnershipProvider → Appreciation/Gratitude,Thank you very much,1.0
+PartnershipProvider → maintainCommunication || SharedDecisionProvider → EncourageQuestions,SharedDecisionProvider → EncourageQuestions,", let me know if you have any other questions or concerns",PartnershipProvider → maintainCommunication,Let me know if you have any other questions,0.8453
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks!,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → connection,have a good day,PartnershipPatient → signoff,Have a good day.,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+InfoGive → Diagnostics || PartnershipPatient → statePreferences,InfoGive → Diagnostics,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,PartnershipPatient → statePreferences,MM/DD/YYYY after 230pm,0.6079
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → signoff,"Thank you,",PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → signoff,"Thank you,",PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → signoff,"Thank you,",PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+InfoGive → carecoordination || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGiveSDOH → HealthCareAccessAndQuality,", I am checking with Dr. Person2 on the vaccine",InfoGive → carecoordination,The schedulers were checking with Dr Person2 on MM/DD/YYYY,0.6174
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipPatient → signoff,PartnershipPatient → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+InfoGive → Symptoms || Socioemotional/Empathy → ExpressConcern/unease,Socioemotional/Empathy → ExpressConcern/unease,am a little nervous now,InfoGive → Symptoms,I am a little bruised,0.9133
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Take care,PartnershipProvider → signoff,Take care,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Take care,PartnershipProvider → signoff,Take care,1.0
+InfoGive → Drugs || PartnershipProvider → connection,PartnershipProvider → connection,Take care,InfoGive → Drugs,take care of these prescriptions,0.6254
+InfoGive → Diagnostics || InfoGive → Generalinformation,InfoGive → Generalinformation,I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that,InfoGive → Diagnostics,I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that,1.0
+InfoGive → Diagnostics || SharedDecisionProvider → Approval/Reinforcement,InfoGive → Diagnostics,agree that the CA27.29 has been a very good marker for you,SharedDecisionProvider → Approval/Reinforcement,agree that the CA27.29 has been a very good marker for you,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Take care,PartnershipProvider → signoff,Take care,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Take care,PartnershipProvider → signoff,Take care,1.0
+InfoGive → Drugs || PartnershipProvider → connection,PartnershipProvider → connection,Take care,InfoGive → Drugs,take care of these prescriptions,0.6254
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipPatient → signoff,Thanks,PartnershipProvider → signoff,Thanks,1.0
+InfoGive → SchedulingAppt || SharedDecisionPatient → SeekingApproval,InfoGive → SchedulingAppt,I believe it should be 9am,SharedDecisionPatient → SeekingApproval,Should I be?,0.6165
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Best to you,PartnershipProvider → connection,Best to you,1.0
+InfoGive → Symptoms || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGive → Symptoms,"I hope so because I feel great; sleeping well, eating (too) well",InfoGiveSDOH → HealthCareAccessAndQuality,i Eating and sleeping well,0.6585
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipPatient → Appreciation/Gratitude,Thanks for your response.,PartnershipProvider → Appreciation/Gratitude,Thanks for your message,0.6631
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → signoff,Have a nice day!,PartnershipPatient → connection,Have a nice weekend,0.6635
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → signoff,Have a nice day!,PartnershipPatient → connection,Have a nice weekend,0.6635
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Best to you,PartnershipProvider → connection,Best to you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks!,1.0
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know!!,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Please let me know about blood work,PartnershipPatient → activeParticipation/involvement,Please let me know!!,0.6367
+PartnershipProvider → maintainCommunication || SharedDecisionProvider → EncourageQuestions,SharedDecisionProvider → EncourageQuestions,Let me know if I can help you with anything else,PartnershipProvider → maintainCommunication,Let me know if there is anything else I can help you with!,0.8154
+PartnershipPatient → connection || PartnershipProvider → Alignment,PartnershipPatient → connection,Ok ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → connection,Ok ok,PartnershipPatient → Alignment,Ok,1.0
+PartnershipPatient → connection || PartnershipProvider → Alignment,PartnershipPatient → connection,Ok ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → connection,Ok ok,PartnershipPatient → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → connection,Ok ok,PartnershipPatient → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → connection,Ok ok,PartnershipPatient → Alignment,Ok,1.0
+PartnershipPatient → connection || PartnershipProvider → Alignment,PartnershipPatient → connection,Ok ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → connection,Ok ok,PartnershipPatient → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → connection,Ok ok,PartnershipPatient → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → connection,Ok ok,PartnershipPatient → Alignment,OK,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipPatient → Appreciation/Gratitude,Thank you for your help,PartnershipProvider → Appreciation/Gratitude,thank you and All for your help!,0.7637
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks!,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipProvider → connection,Thanks,PartnershipPatient → signoff,Thanks,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,otherw ise see you,PartnershipPatient → connection,See you in July!,0.6981
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,otherw ise see you,PartnershipPatient → connection,See you tomorrow,0.6333
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,otherw ise see you,PartnershipPatient → connection,See you soon!,0.6085
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,See you,PartnershipPatient → connection,See you in July!,0.6981
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,See you,PartnershipPatient → connection,See you tomorrow,0.6333
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,See you,PartnershipPatient → connection,See you soon!,0.6085
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Could you please let me know results,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6655
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Could you please let me know results,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6655
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Could you please let me know results,PartnershipPatient → activeParticipation/involvement,Please let me know!!,0.6655
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,InfoSeek → Diagnostics,Could you please let me know results,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6655
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → connection,PartnershipPatient → Appreciation/Gratitude,Thank you for this good news,PartnershipProvider → connection,good news,0.687
+PartnershipPatient → Appreciation/Gratitude || Socioemotional/Empathy → PositiveRemarks,PartnershipPatient → Appreciation/Gratitude,Thank you for this good news,Socioemotional/Empathy → PositiveRemarks,Good news!,0.687
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Happy Thanksgiving,PartnershipProvider → connection,Happy Thanksgiving to you as well.,0.7164
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,My pleasure!,PartnershipPatient → connection,my friends,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Happy Thanksgiving to you as well.,PartnershipPatient → connection,Happy Thanksgiving,0.7164
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Happy Thanksgiving to you as well.,PartnershipPatient → connection,Happy Thanksgiving,0.7164
+InfoGive → Generalinformation || InfoGive → carecoordination,InfoGive → carecoordination,Her email address is: address@email.com,InfoGive → Generalinformation,"You can send it to me in here or email, address@email.com",0.6701
+PartnershipPatient → Alignment || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → Alignment,Can you confirm,PartnershipPatient → activeParticipation/involvement,Can you confirm?,1.0
+PartnershipPatient → Alignment || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → Alignment,Can you confirm,PartnershipPatient → activeParticipation/involvement,Could you confirm?,0.6535
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,happy new year,PartnershipProvider → connection,Have a happy healthy new year,0.6444
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipPatient → Appreciation/Gratitude,Thank you for your help,PartnershipProvider → Appreciation/Gratitude,thank you and All for your help!,0.7637
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → connection,PartnershipProvider → connection,No problem,PartnershipPatient → activeParticipation/involvement,I will no problem,0.9492
+InfoSeek → Diagnostics || PartnershipPatient → connection,InfoSeek → Diagnostics,Let me know results at your convenience,PartnershipPatient → connection,"No rush, at your convenience",0.6052
+InfoGive → Symptoms || Socioemotional/Empathy → ExpressConcern/unease,InfoGive → Symptoms,I am a little bruised,Socioemotional/Empathy → ExpressConcern/unease,am a little nervous now,0.9133
+InfoGive → Symptoms || SharedDecisionProvider → MakeDecision,InfoGive → Symptoms,The coughing is subsiding also.,SharedDecisionProvider → MakeDecision,the preference is yours,0.6613
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+InfoGive → Symptoms || PartnershipPatient → expressOpinions,InfoGive → Symptoms,They said it may be muscle spasms,PartnershipPatient → expressOpinions,I think it may be a pulled muscle?,0.626
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks!,1.0
+PartnershipPatient → Alignment || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,I will no problem,PartnershipPatient → Alignment,No problem,0.9492
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → connection,PartnershipPatient → activeParticipation/involvement,I will no problem,PartnershipProvider → connection,No problem,0.9492
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipProvider → Alignment,Sounds good!,PartnershipPatient → Alignment,Sounds good,1.0
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,We will look out for the results!,PartnershipPatient → activeParticipation/involvement,I will look out for the appointment in Person1,0.6608
+InfoSeek → Diagnostics || InfoSeek → Symptoms,InfoSeek → Symptoms,How long has this been going on?,InfoSeek → Diagnostics,How long has it been,0.6245
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipPatient → salutation,Good evening,PartnershipProvider → connection,Try to have a good evening,0.6066
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → connection,PartnershipProvider → connection,good news,PartnershipPatient → Appreciation/Gratitude,Thank you for this good news,0.687
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,All the best,PartnershipProvider → connection,All the best,1.0
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,Please let me know!!,PartnershipProvider → maintainCommunication,"If not, please let  me know",0.8099
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know!!,InfoSeek → Diagnostics,Could you please let me know results,0.6655
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know!!,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know!!,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+InfoGive → Symptoms || PartnershipPatient → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipPatient → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipPatient → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipPatient → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipPatient → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipPatient → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipProvider → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipProvider → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipProvider → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipProvider → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipPatient → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipPatient → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipProvider → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipProvider → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipPatient → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipPatient → Alignment,Ok,0.8802
+InfoGive → Symptoms || PartnershipPatient → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipPatient → Alignment,OK,0.8802
+InfoGive → Symptoms || PartnershipPatient → Alignment,InfoGive → Symptoms,"Ok , I doing ok !",PartnershipPatient → Alignment,Ok,0.8802
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipProvider → connection || Socioemotional/Empathy → AcknowledgeError,PartnershipProvider → connection,Sorry,Socioemotional/Empathy → AcknowledgeError,"OOPS , sorry - my typo",0.8665
+PartnershipProvider → connection || Socioemotional/Empathy → AcknowledgeError,PartnershipProvider → connection,Sorry,Socioemotional/Empathy → AcknowledgeError,I sorry I get confused,0.8038
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Oh ok !,PartnershipProvider → Alignment,Oh I see,0.7332
+InfoGive → Generalinformation || InfoSeek → Generalinformation,InfoSeek → Generalinformation,Sony know if Person1 has received it?,InfoGive → Generalinformation,I received it,0.6228
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipPatient → salutation,Good evening,PartnershipProvider → connection,Try to have a good evening,0.6066
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+InfoGive → Symptoms || PartnershipProvider → connection,PartnershipProvider → connection,I hope your surgery went well!,InfoGive → Symptoms,"I believe surgery went well , just really sore",0.6186
+InfoGive → Symptoms || PartnershipProvider → connection,InfoGive → Symptoms,"I believe surgery went well , just really sore",PartnershipProvider → connection,I hope your surgery went well!,0.6186
+PartnershipPatient → connection || PartnershipProvider → Alignment,PartnershipPatient → connection,Perfect,PartnershipProvider → Alignment,Perfect!,1.0
+InfoGive → carecoordination || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,I wanted to reach out to Dr. Person1,InfoGive → carecoordination,let me reach out to Dr  Person1,0.7757
+InfoSeek → Drugs || PartnershipPatient → activeParticipation/involvement,InfoSeek → Drugs,I didn't know if there is anything I can take to help me with that just at bedtime?,PartnershipPatient → activeParticipation/involvement,let me know if there is anything I can take to help this?,0.794
+PartnershipProvider → maintainCommunication || SharedDecisionProvider → EncourageQuestions,PartnershipProvider → maintainCommunication,Let me know if there is anything else I can help you with!,SharedDecisionProvider → EncourageQuestions,Let me know if I can help you with anything else,0.8154
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,Let me know if there is anything else I can help you with!,PartnershipPatient → activeParticipation/involvement,let me know if there is anything I can take to help this?,0.6133
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks!,1.0
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,I will let you know as soon as he answers me,PartnershipPatient → activeParticipation/involvement,I'll let you know as soon as that is completed,0.6604
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks,PartnershipPatient → Appreciation/Gratitude,Thanks!,1.0
+PartnershipPatient → Alignment || PartnershipProvider → connection,PartnershipPatient → Alignment,Ok great,PartnershipProvider → connection,Great!,0.774
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok great,PartnershipProvider → Alignment,Great!,0.774
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok great,PartnershipProvider → Alignment,Ok,0.6331
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok great,PartnershipProvider → Alignment,Ok,0.6331
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok great,PartnershipProvider → Alignment,Ok,0.6331
+InfoGive → Symptoms || PartnershipPatient → expressOpinions,PartnershipPatient → expressOpinions,I think it may be a pulled muscle?,InfoGive → Symptoms,They said it may be muscle spasms,0.626
+InfoSeek → Drugs || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,let me know if there is anything I can take to help this?,InfoSeek → Drugs,I didn't know if there is anything I can take to help me with that just at bedtime?,0.794
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,let me know if there is anything I can take to help this?,PartnershipProvider → maintainCommunication,Let me know if there is anything else I can help you with!,0.6133
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks  so much again!,PartnershipPatient → Appreciation/Gratitude,Thanks so much!,0.8972
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks  so much again!,PartnershipPatient → Appreciation/Gratitude,Thanks so much,0.8972
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thanks  so much again!,PartnershipPatient → Appreciation/Gratitude,Thanks so much!,0.8972
+InfoGive → SchedulingAppt || PartnershipProvider → maintainCommunication,InfoGive → SchedulingAppt,You should be hearing from the secretary with an  appointment,PartnershipProvider → maintainCommunication,You should be hearing from the secretary when it is rescheduled,0.8073
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks!,PartnershipPatient → Appreciation/Gratitude,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thanks!,PartnershipPatient → Appreciation/Gratitude,Thanks!,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Ok,PartnershipProvider → Alignment,Ok,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipPatient → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+InfoGive → Drugs || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,Prescription has been sent in,InfoGive → Drugs,refill has been sent in,0.8667
+PartnershipPatient → activeParticipation/involvement || PartnershipPatient → build trust,PartnershipPatient → activeParticipation/involvement,Your advice please,PartnershipPatient → build trust,Appreciate your advice,0.8057
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Yes,PartnershipProvider → Alignment,Yes,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Yes,PartnershipProvider → Alignment,Yes,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Yes,PartnershipProvider → Alignment,Yes,1.0
+PartnershipPatient → Alignment || PartnershipProvider → Alignment,PartnershipPatient → Alignment,Yes,PartnershipProvider → Alignment,Yes,1.0
+InfoGive → SchedulingAppt || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,You should be hearing from the secretary when it is rescheduled,InfoGive → SchedulingAppt,You should be hearing from the secretary with an  appointment,0.8073
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank You,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → signoff,Thank You,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+InfoGive → Diagnostics || PartnershipProvider → maintainCommunication,InfoGive → Diagnostics,I also think she put in an order for an ECHO because she said you haven't had one in  a while,PartnershipProvider → maintainCommunication,she said you haven't had one in  a while,0.6612
+InfoGive → Symptoms || PartnershipPatient → expressOpinions,PartnershipPatient → expressOpinions,this seems to be happening because my blood is too thin,InfoGive → Symptoms,My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin,0.6621
+InfoGive → Symptoms || PartnershipPatient → expressOpinions,PartnershipPatient → expressOpinions,"In addition to the bruising, I probably have 20+ hematoma under the skin",InfoGive → Symptoms,"In addition to the bruising, I probably have 20+ hematoma under the skin",1.0
+InfoGive → carecoordination || SharedDecisionProvider → ShareOptions,InfoGive → carecoordination,But he would advise the third shot now,SharedDecisionProvider → ShareOptions,"But he would advise the third shot now, and would recommend Pfizer or Moderna instead of J/J for the booster",0.6601
+PartnershipPatient → Alignment || PartnershipProvider → connection,PartnershipPatient → Alignment,No problem,PartnershipProvider → connection,No problem,1.0
+PartnershipPatient → Alignment || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → Alignment,No problem,PartnershipPatient → activeParticipation/involvement,I will no problem,0.9492
+SharedDecisionPatient → ApprovalofDecision/Reinforcement || Socioemotional/Empathy → Reassurance,SharedDecisionPatient → ApprovalofDecision/Reinforcement,this is good,Socioemotional/Empathy → Reassurance,this is good.,1.0
+InfoGive → carecoordination || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,The PT referral was placed,InfoGive → carecoordination,The PT referral was placed,1.0
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,I will look out for the appointment in Person1,PartnershipProvider → maintainCommunication,We will look out for the results!,0.6608
+InfoGive → Drugs || InfoSeek → Drugs,InfoGive → Drugs,I need a refill for the above,InfoSeek → Drugs,do yo need a refill for the dexamethasone?,0.6196
+InfoGive → Diagnostics || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,she said you haven't had one in  a while,InfoGive → Diagnostics,I also think she put in an order for an ECHO because she said you haven't had one in  a while,0.6612
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,"If not, please let  me know",PartnershipPatient → activeParticipation/involvement,Please let me know,0.8099
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,"If not, please let  me know",PartnershipPatient → activeParticipation/involvement,Please let me know,0.8099
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,"If not, please let  me know",PartnershipPatient → activeParticipation/involvement,Please let me know,0.8099
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,"If not, please let  me know",PartnershipPatient → activeParticipation/involvement,Please let me know!!,0.8099
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,"If not, please let  me know",PartnershipPatient → activeParticipation/involvement,Please let me know what happened,0.6643
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,"If not, please let  me know",PartnershipPatient → activeParticipation/involvement,Please let me know when sent,0.6318
+InfoGive → Instruction || InfoGive → SchedulingAppt,InfoGive → Instruction,Please call #XXX-XXX-XXXX to reschedule,InfoGive → SchedulingAppt,Please call #XXX-XXX-XXXX to schedule,0.8499
+InfoGive → Instruction || InfoGive → SchedulingAppt,InfoGive → Instruction,Please call #XXX-XXX-XXXX to reschedule,InfoGive → SchedulingAppt,please call XXX-XXX-XXXX to get everything rescheduled,0.7733
+PartnershipPatient → Alignment || SharedDecisionProvider → Approval/Reinforcement,SharedDecisionProvider → Approval/Reinforcement,MM/DD/YYYY is good!,PartnershipPatient → Alignment,MM/DD/YYYY is good,1.0
+PartnershipProvider → inviteCollaboration || SharedDecisionProvider → Approval/Reinforcement,SharedDecisionProvider → Approval/Reinforcement,MM/DD/YYYY is good!,PartnershipProvider → inviteCollaboration,"MM/DD/YYYY, is that good ?",0.7199
+InfoGive → Prognosis || PartnershipPatient → activeParticipation/involvement,InfoGive → Prognosis,I interpreting it as early stage throat cancer,PartnershipPatient → activeParticipation/involvement,I read that this is how early stage throat cancer often begins,0.6935
+PartnershipProvider → maintainCommunication || SharedDecisionProvider → EncourageQuestions,PartnershipProvider → maintainCommunication,Let me know if you have any other questions,SharedDecisionProvider → EncourageQuestions,", let me know if you have any other questions or concerns",0.8453
+InfoGive → Prognosis || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,I read that this is how early stage throat cancer often begins,InfoGive → Prognosis,I interpreting it as early stage throat cancer,0.6935
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,For my upcoming visit I don see any blood test required?,InfoSeek → Diagnostics,For my upcoming visit I don see any blood test required?,1.0
+PartnershipPatient → activeParticipation/involvement || PartnershipPatient → statePreferences,PartnershipPatient → statePreferences,"As part of that test, could you also ensure a blood clotting time test is included please",PartnershipPatient → activeParticipation/involvement,"As part of that test, could you also ensure a blood clotting time test is included please",1.0
+InfoGive → Symptoms || PartnershipPatient → expressOpinions,InfoGive → Symptoms,My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin,PartnershipPatient → expressOpinions,this seems to be happening because my blood is too thin,0.6621
+PartnershipPatient → activeParticipation/involvement || PartnershipPatient → build trust,PartnershipPatient → build trust,Appreciate your advice,PartnershipPatient → activeParticipation/involvement,Your advice please,0.8057
+InfoGive → SchedulingAppt || PartnershipPatient → expressOpinions,PartnershipPatient → expressOpinions,I therefore need to find another treatment and am seeing my MZL doctor in LOCATION on MM/DD/YYYY,InfoGive → SchedulingAppt,am seeing my MZL doctor in LOCATION on MM/DD/YYYY,0.8463
+InfoGive → SchedulingAppt || PartnershipPatient → expressOpinions,InfoGive → SchedulingAppt,am seeing my MZL doctor in LOCATION on MM/DD/YYYY,PartnershipPatient → expressOpinions,I therefore need to find another treatment and am seeing my MZL doctor in LOCATION on MM/DD/YYYY,0.8463
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,InfoGive → Generalinformation,Their number is #XXX-XXX-XXXX,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,0.7732
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+InfoGive → Drugs || PartnershipProvider → checkingUnderstanding/clarification,InfoGive → Drugs,The official recommendations are 6 months after the second dose,PartnershipProvider → checkingUnderstanding/clarification,The official recommendations are 6 months after the second dose,1.0
+InfoGive → carecoordination || SharedDecisionProvider → ShareOptions,SharedDecisionProvider → ShareOptions,"But he would advise the third shot now, and would recommend Pfizer or Moderna instead of J/J for the booster",InfoGive → carecoordination,But he would advise the third shot now,0.6601
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Happy New Year!,PartnershipProvider → connection,Have a happy healthy new year,0.6444
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,InfoGive → Generalinformation,It is XXX-XXX-XXXX,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,0.7129
+PartnershipPatient → connection || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,I will see you next week,PartnershipPatient → connection,See you next week,0.8662
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipProvider → connection,Try to have a good evening,PartnershipPatient → salutation,Good evening,0.6066
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipProvider → connection,Try to have a good evening,PartnershipPatient → salutation,Good evening,0.6066
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipProvider → connection,Try to have a good evening,PartnershipPatient → salutation,Good evening,0.6066
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipProvider → connection,Try to have a good evening,PartnershipPatient → salutation,Good evening,0.6066
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipPatient → salutation,Good evening,PartnershipProvider → connection,Try to have a good evening,0.6066
+InfoGive → Drugs || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,I holding off starting the 2nd cycle of Ibrance?,InfoGive → Drugs,I finished the 2nd cycle of ibrance last MM/DD/YYYY,0.6295
+InfoGive → Generalinformation || InfoGive → carecoordination,InfoGive → Generalinformation,"You can send it to me in here or email, address@email.com",InfoGive → carecoordination,Her email address is: address@email.com,0.6701
+InfoSeek → Diagnostics || PartnershipPatient → connection,PartnershipPatient → connection,"No rush, at your convenience",InfoSeek → Diagnostics,Let me know results at your convenience,0.6052
+InfoGive → Generalinformation || InfoSeek → Generalinformation,InfoGive → Generalinformation,I received it,InfoSeek → Generalinformation,Sony know if Person1 has received it?,0.6228
+PartnershipProvider → Alignment || PartnershipProvider → connection,PartnershipProvider → connection,Great!,PartnershipProvider → Alignment,Great!,1.0
+PartnershipPatient → Alignment || PartnershipProvider → connection,PartnershipProvider → connection,Great!,PartnershipPatient → Alignment,Great,1.0
+PartnershipPatient → Alignment || PartnershipProvider → connection,PartnershipProvider → connection,Great!,PartnershipPatient → Alignment,Ok great,0.774
+InfoGive → Drugs || PartnershipPatient → activeParticipation/involvement,InfoGive → Drugs,I finished the 2nd cycle of ibrance last MM/DD/YYYY,PartnershipPatient → activeParticipation/involvement,I holding off starting the 2nd cycle of Ibrance?,0.6295
+PartnershipPatient → salutation || PartnershipProvider → connection,PartnershipPatient → salutation,Good evening,PartnershipProvider → connection,Try to have a good evening,0.6066
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+InfoGive → Drugs || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,InfoGive → Drugs,take care of these prescriptions,0.6254
+PartnershipPatient → activeParticipation/involvement || PartnershipPatient → connection,PartnershipPatient → connection,I was just wondering,PartnershipPatient → activeParticipation/involvement,I was just wondering if she had followed up on that,0.603
+PartnershipProvider → connection || Socioemotional/Empathy → Reassurance,Socioemotional/Empathy → Reassurance,Hope this helps,PartnershipProvider → connection,I hope this helps!,1.0
+InfoSeek → Symptoms || Socioemotional/Empathy → PositiveRemarks,InfoSeek → Symptoms,Are you feeling better today?,Socioemotional/Empathy → PositiveRemarks,Glad your feeling better,0.6308
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → Appreciation/Gratitude,PartnershipProvider → Appreciation/Gratitude,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+InfoSeek → Symptoms || Socioemotional/Empathy → PositiveRemarks,Socioemotional/Empathy → PositiveRemarks,Glad your feeling better,InfoSeek → Symptoms,Are you feeling better today?,0.6308
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Happy Thanksgiving,PartnershipProvider → connection,Happy Thanksgiving to you as well.,0.7164
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+InfoGiveSDOH → HealthCareAccessAndQuality || InfoSeekSDOH → HealthCareAccessAndQuality,InfoSeekSDOH → HealthCareAccessAndQuality,"Can u call it into Org, Location please",InfoGiveSDOH → HealthCareAccessAndQuality,Please call it into Org1 in Location,0.6228
+InfoGive → Drugs || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Is there anyway I could be allowed to go in I had my Covid shots,InfoGive → Drugs,I had my Covid shots,0.6582
+InfoGive → Drugs || PartnershipPatient → activeParticipation/involvement,InfoGive → Drugs,I had my Covid shots,PartnershipPatient → activeParticipation/involvement,Is there anyway I could be allowed to go in I had my Covid shots,0.6582
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+InfoGive → Drugs || PartnershipProvider → signoff,PartnershipProvider → signoff,Take care,InfoGive → Drugs,take care of these prescriptions,0.6254
+InfoGiveSDOH → HealthCareAccessAndQuality || InfoSeekSDOH → HealthCareAccessAndQuality,InfoGiveSDOH → HealthCareAccessAndQuality,Please call it into Org1 in Location,InfoSeekSDOH → HealthCareAccessAndQuality,"Can u call it into Org, Location please",0.6228
+InfoGive → carecoordination || PartnershipPatient → activeParticipation/involvement,InfoGive → carecoordination,let me reach out to Dr  Person1,PartnershipPatient → activeParticipation/involvement,I wanted to reach out to Dr. Person1,0.7757
+PartnershipPatient → activeParticipation/involvement || PartnershipPatient → connection,PartnershipPatient → activeParticipation/involvement,I was just wondering if she had followed up on that,PartnershipPatient → connection,I was just wondering,0.603
+InfoGive → Instruction || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGive → Instruction,so  you should be able to call tomorrow,InfoGiveSDOH → HealthCareAccessAndQuality,so you should just be able to call the pharmacy or request via phone,0.6113
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → connection,See you in July!,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,0.7428
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipPatient → connection,See you in July!,PartnershipProvider → signoff,otherw ise see you,0.6981
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipPatient → connection,See you in July!,PartnershipProvider → signoff,See you,0.6981
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,PartnershipPatient → connection,See you in July!,0.7428
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,PartnershipPatient → connection,See you soon in MM/DD/YYYY,0.6958
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,PartnershipPatient → connection,See you MM/DD/YYYY,0.6123
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,PartnershipPatient → connection,See you MM/DD/YYYY,0.6123
+InfoSeek → Drugs || SharedDecisionProvider → Approval/Reinforcement,InfoSeek → Drugs,"Also, are you taking calcium 1000  mg daily and 400 IU of vitamin D daily?",SharedDecisionProvider → Approval/Reinforcement,"Yes, please start taking calcium 1000 mg daily as well as 400 IU of vitamin D daily",0.7847
+InfoGive → SchedulingAppt || SharedDecisionPatient → SeekingApproval,SharedDecisionPatient → SeekingApproval,Should I be?,InfoGive → SchedulingAppt,I believe it should be 9am,0.6165
+InfoSeek → Drugs || SharedDecisionProvider → Approval/Reinforcement,SharedDecisionProvider → Approval/Reinforcement,"Yes, please start taking calcium 1000 mg daily as well as 400 IU of vitamin D daily",InfoSeek → Drugs,"Also, are you taking calcium 1000  mg daily and 400 IU of vitamin D daily?",0.7847
+PartnershipPatient → salutation || SharedDecisionPatient → SeekingApproval,SharedDecisionPatient → SeekingApproval,Is that okay?,PartnershipPatient → salutation,Okay,0.6276
+PartnershipProvider → Alignment || SharedDecisionPatient → SeekingApproval,SharedDecisionPatient → SeekingApproval,Is that okay?,PartnershipProvider → Alignment,Okay,0.6276
+PartnershipProvider → Alignment || SharedDecisionPatient → SeekingApproval,SharedDecisionPatient → SeekingApproval,Is that okay?,PartnershipProvider → Alignment,Okay,0.6276
+InfoGive → Drugs || InfoSeek → Drugs,InfoSeek → Drugs,do yo need a refill for the dexamethasone?,InfoGive → Drugs,I need a refill for the above,0.6196
+PartnershipProvider → connection || Socioemotional/Empathy → Sadness/fear,Socioemotional/Empathy → Sadness/fear,I'm sorry,PartnershipProvider → connection,Sorry,1.0
+Socioemotional/Empathy → AcknowledgeError || Socioemotional/Empathy → Sadness/fear,Socioemotional/Empathy → Sadness/fear,I'm sorry,Socioemotional/Empathy → AcknowledgeError,"OOPS , sorry - my typo",0.8665
+Socioemotional/Empathy → AcknowledgeError || Socioemotional/Empathy → Sadness/fear,Socioemotional/Empathy → Sadness/fear,I'm sorry,Socioemotional/Empathy → AcknowledgeError,I sorry I get confused,0.8038
+InfoGive → carecoordination || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGive → carecoordination,The schedulers were checking with Dr Person2 on MM/DD/YYYY,InfoGiveSDOH → HealthCareAccessAndQuality,", I am checking with Dr. Person2 on the vaccine",0.6174
+InfoGive → Instruction || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGiveSDOH → HealthCareAccessAndQuality,so you should just be able to call the pharmacy or request via phone,InfoGive → Instruction,so  you should be able to call tomorrow,0.6113
+PartnershipPatient → Alignment || PartnershipProvider → connection,PartnershipPatient → Alignment,Great,PartnershipProvider → connection,Great!,1.0
+InfoGive → Instruction || InfoGive → SchedulingAppt,InfoGive → SchedulingAppt,please call XXX-XXX-XXXX to get everything rescheduled,InfoGive → Instruction,Please call #XXX-XXX-XXXX to reschedule,0.7733
+InfoGive → Drugs || PartnershipProvider → maintainCommunication,InfoGive → Drugs,refill has been sent in,PartnershipProvider → maintainCommunication,Prescription has been sent in,0.8667
+InfoGive → Generalinformation || Socioemotional/Empathy → Reassurance,InfoGive → Generalinformation,"No, no and no!",Socioemotional/Empathy → Reassurance,no worries,0.8802
+PartnershipPatient → signoff || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipPatient → Appreciation/Gratitude || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → Appreciation/Gratitude,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → signoff,Thank you,1.0
+PartnershipPatient → signoff || PartnershipProvider → salutation,PartnershipProvider → salutation,Thank you,PartnershipPatient → signoff,thank you,1.0
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,please let me know you received this,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6349
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,please let me know you received this,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6349
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,please let me know you received this,PartnershipPatient → activeParticipation/involvement,Please let me know!!,0.6349
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,please let me know you received this,PartnershipPatient → activeParticipation/involvement,Please let me know,0.6349
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,I hope you well,PartnershipProvider → connection,Hope you are well!,0.6859
+PartnershipProvider → Alignment || PartnershipProvider → connection,PartnershipProvider → Alignment,Great!,PartnershipProvider → connection,Great!,1.0
+PartnershipProvider → inviteCollaboration || PartnershipProvider → maintainCommunication,PartnershipProvider → inviteCollaboration,lets see what he advises,PartnershipProvider → maintainCommunication,lets see what Dr.  Person2 thinks,0.7635
+PartnershipProvider → inviteCollaboration || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,lets see what Dr.  Person2 thinks,PartnershipProvider → inviteCollaboration,lets see what he advises,0.7635
+InfoGive → Instruction || InfoGive → SchedulingAppt,InfoGive → SchedulingAppt,Please call #XXX-XXX-XXXX to schedule,InfoGive → Instruction,Please call #XXX-XXX-XXXX to reschedule,0.8499
+PartnershipPatient → connection || PartnershipProvider → Alignment,PartnershipProvider → Alignment,Perfect!,PartnershipPatient → connection,Perfect,1.0
+Socioemotional/Empathy → AcknowledgeError || Socioemotional/Empathy → Sadness/fear,Socioemotional/Empathy → Sadness/fear,I am so sorry to hear that,Socioemotional/Empathy → AcknowledgeError,I am SO sorry,0.6907
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,InfoGive → Generalinformation,Their number is #XXX-XXX-XXXX,0.7732
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,InfoGive → Generalinformation,Their number is XXX-XXX-XXXX,0.7732
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,InfoGive → Generalinformation,Their phone number is XXX-XXX-XXXX,0.7394
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,InfoGive → Generalinformation,It is XXX-XXX-XXXX,0.7129
+PartnershipPatient → Alignment || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Could you confirm?,PartnershipPatient → Alignment,Can you confirm,0.6535
+InfoGive → Generalinformation || Socioemotional/Empathy → PositiveRemarks,Socioemotional/Empathy → PositiveRemarks,Good pick up!,InfoGive → Generalinformation,Will pick up some olives today,0.7269
+InfoGive → Generalinformation || Socioemotional/Empathy → ExpressConcern/unease,Socioemotional/Empathy → ExpressConcern/unease,i Still not sure,InfoGive → Generalinformation,I not sure,0.6977
+PartnershipProvider → connection || Socioemotional/Empathy → AcknowledgeError,Socioemotional/Empathy → AcknowledgeError,Sorry for the confusion,PartnershipProvider → connection,Sorry for the delay!,0.613
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → connection,Have a nice weekend,PartnershipPatient → signoff,Have a nice day!,0.6635
+PartnershipProvider → connection || Socioemotional/Empathy → PositiveRemarks,Socioemotional/Empathy → PositiveRemarks,Good news!,PartnershipProvider → connection,good news,1.0
+PartnershipPatient → Appreciation/Gratitude || Socioemotional/Empathy → PositiveRemarks,Socioemotional/Empathy → PositiveRemarks,Good news!,PartnershipPatient → Appreciation/Gratitude,Thank you for this good news,0.687
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Best to you,PartnershipProvider → signoff,Best to you,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → connection,Best to you,PartnershipProvider → signoff,Cares to you,0.6066
+InfoGive → Diagnostics || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGiveSDOH → HealthCareAccessAndQuality,I had blood work done at the Org2,InfoGive → Diagnostics,I had blood work done,0.738
+InfoGive → Generalinformation || Socioemotional/Empathy → ExpressConcern/unease,InfoGive → Generalinformation,I not sure,Socioemotional/Empathy → ExpressConcern/unease,i Still not sure,0.6977
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipProvider → Appreciation/Gratitude || PartnershipProvider → signoff,PartnershipProvider → Appreciation/Gratitude,Thanks,PartnershipProvider → signoff,Thanks,1.0
+PartnershipProvider → connection || PartnershipProvider → signoff,PartnershipProvider → signoff,Cares to you,PartnershipProvider → connection,Best to you,0.6066
+InfoGive → SchedulingAppt || InfoSeek → SchedulingAppt,InfoSeek → SchedulingAppt,Can we reschedule my appointment with Dr. Person1?,InfoGive → SchedulingAppt,Please reschedule my appointment with Dr. Person3,0.7748
+InfoGive → SchedulingAppt || InfoSeek → SchedulingAppt,InfoGive → SchedulingAppt,Please reschedule my appointment with Dr. Person3,InfoSeek → SchedulingAppt,Can we reschedule my appointment with Dr. Person1?,0.7748
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,I will keep you posted,PartnershipPatient → activeParticipation/involvement,I keep you posted,0.8722
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → connection,Have a nice weekend,PartnershipPatient → signoff,Have a nice day!,0.6635
+PartnershipPatient → Alignment || PartnershipPatient → connection,PartnershipPatient → Alignment,Perfect!,PartnershipPatient → connection,Perfect,1.0
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipProvider → maintainCommunication,I will keep you posted,PartnershipPatient → activeParticipation/involvement,I keep you posted,0.8722
+PartnershipProvider → Alignment || SharedDecisionPatient → SeekingApproval,PartnershipProvider → Alignment,Okay,SharedDecisionPatient → SeekingApproval,Is that okay?,0.6276
+InfoGive → Generalinformation || Socioemotional/Empathy → Reassurance,Socioemotional/Empathy → Reassurance,no worries,InfoGive → Generalinformation,"No, no and no!",0.8802
+PartnershipProvider → inviteCollaboration || SharedDecisionProvider → Approval/Reinforcement,PartnershipProvider → inviteCollaboration,"MM/DD/YYYY, is that good ?",SharedDecisionProvider → Approval/Reinforcement,MM/DD/YYYY is good!,0.7199
+PartnershipPatient → Alignment || PartnershipProvider → inviteCollaboration,PartnershipProvider → inviteCollaboration,"MM/DD/YYYY, is that good ?",PartnershipPatient → Alignment,MM/DD/YYYY is good,0.7199
+PartnershipPatient → Alignment || PartnershipProvider → inviteCollaboration,PartnershipPatient → Alignment,MM/DD/YYYY is good,PartnershipProvider → inviteCollaboration,"MM/DD/YYYY, is that good ?",0.7199
+PartnershipProvider → Alignment || SharedDecisionPatient → SeekingApproval,PartnershipProvider → Alignment,Okay,SharedDecisionPatient → SeekingApproval,Is that okay?,0.6276
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,I keep you posted,PartnershipProvider → maintainCommunication,I will keep you posted,0.8722
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,I keep you posted,PartnershipProvider → maintainCommunication,I will keep you posted,0.8722
+InfoGive → Symptoms || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGiveSDOH → HealthCareAccessAndQuality,i Eating and sleeping well,InfoGive → Symptoms,"I hope so because I feel great; sleeping well, eating (too) well",0.6585
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipPatient → connection,See you soon!,PartnershipProvider → signoff,See you,0.6085
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipPatient → connection,See you soon!,PartnershipProvider → signoff,otherw ise see you,0.6085
+InfoGive → Diagnostics || InfoGiveSDOH → HealthCareAccessAndQuality,InfoGive → Diagnostics,I had blood work done,InfoGiveSDOH → HealthCareAccessAndQuality,I had blood work done at the Org2,0.738
+PartnershipPatient → connection || PartnershipPatient → statePreferences,PartnershipPatient → connection,Happy MM/DD/YYYY!,PartnershipPatient → statePreferences,MM/DD/YYYY after 230pm,0.6713
+InfoGive → Generalinformation || InfoGive → SchedulingAppt,InfoGive → Generalinformation,I am booked all day MM/DD/YYYY,InfoGive → SchedulingAppt,On you CTSIM day MM/DD/YYYY at  10am,0.6236
+InfoGive → Generalinformation || Socioemotional/Empathy → PositiveRemarks,InfoGive → Generalinformation,Will pick up some olives today,Socioemotional/Empathy → PositiveRemarks,Good pick up!,0.7269
+PartnershipPatient → Alignment || PartnershipProvider → connection,PartnershipPatient → Alignment,Great,PartnershipProvider → connection,Great!,1.0
+PartnershipPatient → salutation || PartnershipProvider → Alignment,PartnershipPatient → salutation,Okay,PartnershipProvider → Alignment,Okay,1.0
+PartnershipPatient → salutation || PartnershipProvider → Alignment,PartnershipPatient → salutation,Okay,PartnershipProvider → Alignment,Okay,1.0
+PartnershipPatient → salutation || SharedDecisionPatient → SeekingApproval,PartnershipPatient → salutation,Okay,SharedDecisionPatient → SeekingApproval,Is that okay?,0.6276
+PartnershipPatient → connection || PartnershipProvider → maintainCommunication,PartnershipPatient → connection,See you next week,PartnershipProvider → maintainCommunication,I will see you next week,0.8662
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Merry Christmas and a Happy and Healthy New Year!,PartnershipProvider → connection,Merry Christmas and Happy and healthy new year to you and your family,0.8435
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Merry Christmas and Happy and healthy new year to you and your family,PartnershipPatient → connection,Merry Christmas and a Healthy and Happy New Year to you and your family,0.8887
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Merry Christmas and Happy and healthy new year to you and your family,PartnershipPatient → connection,Merry Christmas and a Happy and Healthy New Year!,0.8435
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Hope all is well with you and your family,PartnershipProvider → connection,I hope all is well,0.6663
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,Please let me know,PartnershipProvider → maintainCommunication,"If not, please let  me know",0.8099
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Could you please let me know results,0.6655
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,hope you well!,PartnershipPatient → connection,I hope you well,1.0
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → connection,See you MM/DD/YYYY,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,0.6123
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Merry Christmas and a Healthy and Happy New Year to you and your family,PartnershipProvider → connection,Merry Christmas and Happy and healthy new year to you and your family,0.8887
+PartnershipProvider → Alignment || PartnershipProvider → connection,PartnershipProvider → Alignment,You should be all set,PartnershipProvider → connection,You  should be all set.,1.0
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Have a happy healthy new year,PartnershipPatient → connection,Happy New Year!,0.6444
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Have a happy healthy new year,PartnershipPatient → connection,happy new year,0.6444
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → connection,See you soon in MM/DD/YYYY,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,0.6958
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipPatient → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipPatient → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+PartnershipPatient → signoff || PartnershipProvider → connection,PartnershipPatient → signoff,Take care,PartnershipProvider → connection,Take care,1.0
+InfoGive → Drugs || PartnershipPatient → signoff,PartnershipPatient → signoff,Take care,InfoGive → Drugs,take care of these prescriptions,0.6254
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Hope you are doing well,PartnershipProvider → connection,Hope you are well!,0.7295
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,I hope all is well,PartnershipPatient → connection,Hope all is well with you and your family!,0.6663
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,I hope all is well,PartnershipPatient → connection,Hope all is well with you and your family,0.6663
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,I hope all is well,PartnershipPatient → connection,Hope all is well with you and your family,0.6663
+PartnershipPatient → connection || PartnershipPatient → signoff,PartnershipPatient → connection,See you MM/DD/YYYY,PartnershipPatient → signoff,See you in MM/DD/YYYY TLB,0.6123
+PartnershipPatient → expressOpinions || SharedDecisionPatient → ExploreOptions,SharedDecisionPatient → ExploreOptions,I have a choice tomorrow for Moderna or Johnson and Johnson,PartnershipPatient → expressOpinions,I was thinking of Johnson and Johnson but not sure,0.603
+InfoGive → Symptoms || SharedDecisionProvider → MakeDecision,SharedDecisionProvider → MakeDecision,the preference is yours,InfoGive → Symptoms,The coughing is subsiding also.,0.6613
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Happy Easter,PartnershipPatient → connection,Happy Easter to you and Dr. Person2,0.6576
+PartnershipPatient → expressOpinions || SharedDecisionPatient → ExploreOptions,PartnershipPatient → expressOpinions,I was thinking of Johnson and Johnson but not sure,SharedDecisionPatient → ExploreOptions,I have a choice tomorrow for Moderna or Johnson and Johnson,0.603
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Happy Easter to you and Dr. Person2,PartnershipProvider → connection,Happy Easter,0.6576
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,Please let me know,PartnershipProvider → maintainCommunication,"If not, please let  me know",0.8099
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Could you please let me know results,0.6655
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+PartnershipProvider → connection || Socioemotional/Empathy → AcknowledgeError,PartnershipProvider → connection,Sorry for the delay!,Socioemotional/Empathy → AcknowledgeError,Sorry for the confusion,0.613
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Hope all is well with you and your family,PartnershipProvider → connection,I hope all is well,0.6663
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,Please let me know what happened,PartnershipProvider → maintainCommunication,Please let me know what your day looks like,0.7189
+PartnershipPatient → activeParticipation/involvement || PartnershipProvider → maintainCommunication,PartnershipPatient → activeParticipation/involvement,Please let me know what happened,PartnershipProvider → maintainCommunication,"If not, please let  me know",0.6643
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipPatient → connection,See you tomorrow,PartnershipProvider → signoff,See you,0.6333
+PartnershipPatient → connection || PartnershipProvider → signoff,PartnershipPatient → connection,See you tomorrow,PartnershipProvider → signoff,otherw ise see you,0.6333
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Could you please let me know results,0.6655
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+InfoSeek → Diagnostics || PartnershipPatient → activeParticipation/involvement,PartnershipPatient → activeParticipation/involvement,Please let me know,InfoSeek → Diagnostics,Please let me know about blood work,0.6367
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipPatient → connection,Hope all is well with you and your family!,PartnershipProvider → connection,I hope all is well,0.6663
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,InfoGive → Generalinformation,Their phone number is XXX-XXX-XXXX,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,0.7394
+PartnershipPatient → connection || PartnershipProvider → connection,PartnershipProvider → connection,Enjoy your weekend,PartnershipPatient → connection,Enjoy your weekend,1.0
+InfoGive → Generalinformation || InfoGive → carecoordination,InfoGive → carecoordination,I am Person1 the nurse coordinator for Radiation Oncology in Org2,InfoGive → Generalinformation,I am Person1 the Rad ONc Nurse Coordinator,0.6689
+InfoGive → Generalinformation || InfoGive → SchedulingAppt,InfoGive → SchedulingAppt,On you CTSIM day MM/DD/YYYY at  10am,InfoGive → Generalinformation,I am booked all day MM/DD/YYYY,0.6236
+InfoGive → Generalinformation || InfoGive → carecoordination,InfoGive → Generalinformation,I am Person1 the Rad ONc Nurse Coordinator,InfoGive → carecoordination,I am Person1 the nurse coordinator for Radiation Oncology in Org2,0.6689
+InfoGive → Generalinformation || PartnershipPatient → activeParticipation/involvement,InfoGive → Generalinformation,Their number is XXX-XXX-XXXX,PartnershipPatient → activeParticipation/involvement,If ok we number is XXX-XXX-XXXX Person2Let me know,0.7732
+InfoSeek → Diagnostics || InfoSeek → Symptoms,InfoSeek → Diagnostics,How long has it been,InfoSeek → Symptoms,How long has this been going on?,0.6245
+PartnershipPatient → connection || PartnershipPatient → statePreferences,PartnershipPatient → statePreferences,MM/DD/YYYY after 230pm,PartnershipPatient → connection,Happy MM/DD/YYYY!,0.6713
+InfoGive → Diagnostics || PartnershipPatient → statePreferences,PartnershipPatient → statePreferences,MM/DD/YYYY after 230pm,InfoGive → Diagnostics,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,0.6079
+Socioemotional/Empathy → AcknowledgeError || Socioemotional/Empathy → Sadness/fear,Socioemotional/Empathy → AcknowledgeError,I am SO sorry,Socioemotional/Empathy → Sadness/fear,I am so sorry to hear that,0.6907
+Socioemotional/Empathy → AcknowledgeError || Socioemotional/Empathy → Sadness/fear,Socioemotional/Empathy → AcknowledgeError,I sorry I get confused,Socioemotional/Empathy → Sadness/fear,I'm sorry,0.8038
+PartnershipProvider → connection || Socioemotional/Empathy → AcknowledgeError,Socioemotional/Empathy → AcknowledgeError,I sorry I get confused,PartnershipProvider → connection,Sorry,0.8038

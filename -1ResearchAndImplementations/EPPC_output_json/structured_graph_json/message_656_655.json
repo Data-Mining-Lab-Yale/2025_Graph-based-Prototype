@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Dr. Person1,    Both Org and myself contacted your office for my xeralto to be refiled and not done as of this morning. Please look into it. I need them. Thanks so much!    Person2",
+      "id": 655
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Dr. Person1,    Both Org and myself contacted your office for my xeralto to be refiled and not done as of this morning.",
+      "id": "655_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Dr. Person1,",
+      "id": "655_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Both Org and myself",
+      "id": "655_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "contacted your office for my xeralto to be refiled",
+      "id": "655_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "and not done",
+      "id": "655_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "as of this morning.",
+      "id": "655_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Please look into it.",
+      "id": "655_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please look into it.",
+      "id": "655_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I need them.",
+      "id": "655_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I need them.",
+      "id": "655_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks so much!",
+      "id": "655_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much!",
+      "id": "655_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2",
+      "id": "655_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "655_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 655,
+      "target": "655_0"
+    },
+    {
+      "source": 655,
+      "target": "655_1"
+    },
+    {
+      "source": 655,
+      "target": "655_2"
+    },
+    {
+      "source": 655,
+      "target": "655_3"
+    },
+    {
+      "source": 655,
+      "target": "655_4"
+    },
+    {
+      "source": "655_0",
+      "target": "655_0_0"
+    },
+    {
+      "source": "655_0",
+      "target": "655_0_1"
+    },
+    {
+      "source": "655_0",
+      "target": "655_0_2"
+    },
+    {
+      "source": "655_0",
+      "target": "655_0_3"
+    },
+    {
+      "source": "655_0",
+      "target": "655_0_4"
+    },
+    {
+      "source": "655_1",
+      "target": "655_1_0"
+    },
+    {
+      "source": "655_2",
+      "target": "655_2_0"
+    },
+    {
+      "source": "655_3",
+      "target": "655_3_0"
+    },
+    {
+      "source": "655_4",
+      "target": "655_4_0"
+    }
+  ]
+}

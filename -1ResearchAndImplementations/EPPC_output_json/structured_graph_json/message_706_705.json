@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Can someone please call me back XXX-XXX-XXXX in regards to my radiation treatment.",
+      "id": 705
+    },
+    {
+      "label": "sentence",
+      "text": "Can someone please call me back XXX-XXX-XXXX in regards to my radiation treatment.",
+      "id": "705_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can someone please call me back XXX-XXX-XXXX in regards to my radiation treatment.",
+      "id": "705_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 705,
+      "target": "705_0"
+    },
+    {
+      "source": "705_0",
+      "target": "705_0_0"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi? The CT chest has been resulted so yes you should see on My Chart once the physician has released it for ou to view. Have a good day.",
+      "id": 49
+    },
+    {
+      "label": "sentence",
+      "text": "Hi?",
+      "id": "49_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi?",
+      "id": "49_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "The CT chest has been resulted so yes you should see on My Chart once the physician has released it for ou to view.",
+      "id": "49_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "The CT chest has been resulted so yes you should see",
+      "id": "49_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on My Chart once the physician has released",
+      "id": "49_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it for ou to view",
+      "id": "49_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Have a good day.",
+      "id": "49_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have a good day.",
+      "id": "49_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 49,
+      "target": "49_0"
+    },
+    {
+      "source": 49,
+      "target": "49_1"
+    },
+    {
+      "source": 49,
+      "target": "49_2"
+    },
+    {
+      "source": "49_0",
+      "target": "49_0_0"
+    },
+    {
+      "source": "49_1",
+      "target": "49_1_0"
+    },
+    {
+      "source": "49_1",
+      "target": "49_1_1"
+    },
+    {
+      "source": "49_1",
+      "target": "49_1_2"
+    },
+    {
+      "source": "49_2",
+      "target": "49_2_0"
+    }
+  ]
+}

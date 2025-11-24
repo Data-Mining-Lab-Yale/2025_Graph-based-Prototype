@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Your labs look good for your next cycle. When are you due to start it?",
+      "id": 595
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Your labs look good for your next cycle.",
+      "id": "595_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "595_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Your labs look good for your next cycle.",
+      "id": "595_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "When are you due to start it?",
+      "id": "595_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "When are you due to start it?",
+      "id": "595_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 595,
+      "target": "595_0"
+    },
+    {
+      "source": 595,
+      "target": "595_1"
+    },
+    {
+      "source": "595_0",
+      "target": "595_0_0"
+    },
+    {
+      "source": "595_0",
+      "target": "595_0_1"
+    },
+    {
+      "source": "595_1",
+      "target": "595_1_0"
+    }
+  ]
+}

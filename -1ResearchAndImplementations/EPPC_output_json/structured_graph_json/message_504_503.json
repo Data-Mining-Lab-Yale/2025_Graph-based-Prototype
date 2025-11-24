@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "This is his left thigh",
+      "id": 503
+    },
+    {
+      "label": "sentence",
+      "text": "This is his left thigh",
+      "id": "503_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "This is his left thigh",
+      "id": "503_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 503,
+      "target": "503_0"
+    },
+    {
+      "source": "503_0",
+      "target": "503_0_0"
+    }
+  ]
+}

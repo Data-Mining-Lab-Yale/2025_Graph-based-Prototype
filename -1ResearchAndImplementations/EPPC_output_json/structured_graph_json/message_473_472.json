@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "3 pics attached     Cold and purple left foot   Back rash now raised  Facial rash now raised     Visiting nurse Person1 calling you    Person2",
+      "id": 472
+    },
+    {
+      "label": "sentence",
+      "text": "3 pics attached     Cold and purple left foot   Back rash now raised  Facial rash now raised     Visiting nurse Person1 calling you    Person2",
+      "id": "472_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "3 pics attached     Cold and purple",
+      "id": "472_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "left foot   Back rash now raised",
+      "id": "472_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Facial rash now raised",
+      "id": "472_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Visiting nurse Person1 calling you    Person2",
+      "id": "472_0_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 472,
+      "target": "472_0"
+    },
+    {
+      "source": "472_0",
+      "target": "472_0_0"
+    },
+    {
+      "source": "472_0",
+      "target": "472_0_1"
+    },
+    {
+      "source": "472_0",
+      "target": "472_0_2"
+    },
+    {
+      "source": "472_0",
+      "target": "472_0_3"
+    }
+  ]
+}

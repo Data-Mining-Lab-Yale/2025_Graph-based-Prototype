@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "asked",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "what",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 15
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "referral",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 7
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 8
+    },
+    {
+      "label": "doctor",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 9
+    },
+    {
+      "label": "neurological",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "spine",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 11
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "ccomp",
+      "source": 3,
+      "target": 15
+    },
+    {
+      "dep": "attr",
+      "source": 15,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "dep": "dep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 8
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "amod",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

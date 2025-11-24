@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,     I tried to upload but couldn't figure it out. I'll drop it off tomorrow. FMLA will be continuous for all appts and such related to treatment. Thank you, Person2",
+      "id": 264
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,     I tried to upload but couldn't figure it out.",
+      "id": "264_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "264_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I tried to upload but couldn't figure",
+      "id": "264_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it out.",
+      "id": "264_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I'll drop it off tomorrow.",
+      "id": "264_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I'll drop it off tomorrow.",
+      "id": "264_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "FMLA will be continuous for all appts and such related to treatment.",
+      "id": "264_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "FMLA will be continuous for all appts and such related",
+      "id": "264_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "to treatment.",
+      "id": "264_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person2",
+      "id": "264_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "264_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "264_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 264,
+      "target": "264_0"
+    },
+    {
+      "source": 264,
+      "target": "264_1"
+    },
+    {
+      "source": 264,
+      "target": "264_2"
+    },
+    {
+      "source": 264,
+      "target": "264_3"
+    },
+    {
+      "source": "264_0",
+      "target": "264_0_0"
+    },
+    {
+      "source": "264_0",
+      "target": "264_0_1"
+    },
+    {
+      "source": "264_0",
+      "target": "264_0_2"
+    },
+    {
+      "source": "264_1",
+      "target": "264_1_0"
+    },
+    {
+      "source": "264_2",
+      "target": "264_2_0"
+    },
+    {
+      "source": "264_2",
+      "target": "264_2_1"
+    },
+    {
+      "source": "264_3",
+      "target": "264_3_0"
+    },
+    {
+      "source": "264_3",
+      "target": "264_3_1"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Dr. Person1, Hope this finds you healthy and happy. Can you put an order on for Person2 to have his port flushed for the middle of MM/DD/YYYY in Org3 on a MM/DD/YYYY morning. We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning.",
+      "id": 350
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Dr. Person1, Hope this finds you healthy and happy.",
+      "id": "350_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Dr. Person1,",
+      "id": "350_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hope this finds you healthy",
+      "id": "350_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and happy",
+      "id": "350_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Can you put an order on for Person2 to have his port flushed for the middle of MM/DD/YYYY in Org3 on a MM/DD/YYYY morning.",
+      "id": "350_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can you put an order on for Person2 to have",
+      "id": "350_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "his port flushed",
+      "id": "350_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for the middle of MM/DD/YYYY in Org3 on a MM/DD/YYYY morning.",
+      "id": "350_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning.",
+      "id": "350_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning.",
+      "id": "350_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 350,
+      "target": "350_0"
+    },
+    {
+      "source": 350,
+      "target": "350_1"
+    },
+    {
+      "source": 350,
+      "target": "350_2"
+    },
+    {
+      "source": "350_0",
+      "target": "350_0_0"
+    },
+    {
+      "source": "350_0",
+      "target": "350_0_1"
+    },
+    {
+      "source": "350_0",
+      "target": "350_0_2"
+    },
+    {
+      "source": "350_1",
+      "target": "350_1_0"
+    },
+    {
+      "source": "350_1",
+      "target": "350_1_1"
+    },
+    {
+      "source": "350_1",
+      "target": "350_1_2"
+    },
+    {
+      "source": "350_2",
+      "target": "350_2_0"
+    }
+  ]
+}

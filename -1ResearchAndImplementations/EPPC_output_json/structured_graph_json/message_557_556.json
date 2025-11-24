@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "MM/DD/YYYY  appointment is here in Org2 with Dr Person1 So call Org2 and reschedule XXX-XXX-XXXX",
+      "id": 556
+    },
+    {
+      "label": "sentence",
+      "text": "MM/DD/YYYY  appointment is here in Org2 with Dr Person1 So call Org2 and reschedule XXX-XXX-XXXX",
+      "id": "556_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "MM/DD/YYYY  appointment is here in Org2 with Dr Person1 So call",
+      "id": "556_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Org2 and reschedule",
+      "id": "556_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "XXX-XXX-XXXX",
+      "id": "556_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 556,
+      "target": "556_0"
+    },
+    {
+      "source": "556_0",
+      "target": "556_0_0"
+    },
+    {
+      "source": "556_0",
+      "target": "556_0_1"
+    },
+    {
+      "source": "556_0",
+      "target": "556_0_2"
+    }
+  ]
+}

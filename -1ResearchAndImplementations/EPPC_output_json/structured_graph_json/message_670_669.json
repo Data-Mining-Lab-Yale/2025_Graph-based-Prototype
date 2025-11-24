@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning Dr. Person1,  Looks like CEA is good at 5.5.",
+      "id": 669
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning Dr. Person1,  Looks like CEA is good at 5.5.",
+      "id": "669_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning Dr. Person1,",
+      "id": "669_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Looks like CEA is",
+      "id": "669_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "good at 5.5.",
+      "id": "669_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 669,
+      "target": "669_0"
+    },
+    {
+      "source": "669_0",
+      "target": "669_0_0"
+    },
+    {
+      "source": "669_0",
+      "target": "669_0_1"
+    },
+    {
+      "source": "669_0",
+      "target": "669_0_2"
+    }
+  ]
+}

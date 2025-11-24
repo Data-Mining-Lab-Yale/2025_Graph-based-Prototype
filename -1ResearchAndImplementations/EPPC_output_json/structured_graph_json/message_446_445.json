@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "There are 3 refills on the losartan -",
+      "id": 445
+    },
+    {
+      "label": "sentence",
+      "text": "There are 3 refills on the losartan -",
+      "id": "445_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "There are 3 refills on the losartan -",
+      "id": "445_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 445,
+      "target": "445_0"
+    },
+    {
+      "source": "445_0",
+      "target": "445_0_0"
+    }
+  ]
+}

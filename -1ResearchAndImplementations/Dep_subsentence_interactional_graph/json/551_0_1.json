@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "work",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "done",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "Org2",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 8
+    },
+    {
+      "label": "where",
+      "pos": "SCONJ",
+      "id": 9
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 10
+    },
+    {
+      "label": "count",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "PSA",
+      "pos": "PROPN",
+      "id": 11
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "dobj",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "acl",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "advmod",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "poss",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

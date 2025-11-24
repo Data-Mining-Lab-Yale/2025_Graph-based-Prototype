@@ -1,0 +1,169 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Mr",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": "Confirming",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 4
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "re",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "-",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 9
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 10
+    },
+    {
+      "label": "4",
+      "pos": "NUM",
+      "id": 11
+    },
+    {
+      "label": "APRN",
+      "pos": "PROPN",
+      "id": 16
+    },
+    {
+      "label": "pm",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": "GU",
+      "pos": "PROPN",
+      "id": 15
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "advcl",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 10,
+      "target": 16
+    },
+    {
+      "dep": "nummod",
+      "source": 16,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 12
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "dep",
+      "source": 13,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 15,
+      "target": 13
+    }
+  ]
+}

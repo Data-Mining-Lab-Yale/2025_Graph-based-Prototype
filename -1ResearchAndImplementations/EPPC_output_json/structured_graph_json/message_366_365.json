@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Person1 is back in hospital ER",
+      "id": 365
+    },
+    {
+      "label": "sentence",
+      "text": "Person1 is back in hospital ER",
+      "id": "365_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1 is back in hospital ER",
+      "id": "365_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 365,
+      "target": "365_0"
+    },
+    {
+      "source": "365_0",
+      "target": "365_0_0"
+    }
+  ]
+}

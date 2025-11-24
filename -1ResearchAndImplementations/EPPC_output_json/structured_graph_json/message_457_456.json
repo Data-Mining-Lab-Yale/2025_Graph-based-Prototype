@@ -1,0 +1,140 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1 -  Dr Person2 is currently out of town and will return next week. I have printed all of the documents you sent and will review with him them. We will let you know if Dr Person2 is able to complete. Thanks, Person3",
+      "id": 456
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1 -  Dr Person2 is currently out of town and will return next week.",
+      "id": "456_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1 -  Dr Person2 is currently out of town and will return",
+      "id": "456_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "next week.",
+      "id": "456_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I have printed all of the documents you sent and will review with him them.",
+      "id": "456_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I have printed all of the documents you sent",
+      "id": "456_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and will review",
+      "id": "456_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "with him them.",
+      "id": "456_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "We will let you know if Dr Person2 is able to complete.",
+      "id": "456_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "We will let you know",
+      "id": "456_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if Dr Person2 is",
+      "id": "456_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "able to complete.",
+      "id": "456_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks, Person3",
+      "id": "456_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "456_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "456_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 456,
+      "target": "456_0"
+    },
+    {
+      "source": 456,
+      "target": "456_1"
+    },
+    {
+      "source": 456,
+      "target": "456_2"
+    },
+    {
+      "source": 456,
+      "target": "456_3"
+    },
+    {
+      "source": "456_0",
+      "target": "456_0_0"
+    },
+    {
+      "source": "456_0",
+      "target": "456_0_1"
+    },
+    {
+      "source": "456_1",
+      "target": "456_1_0"
+    },
+    {
+      "source": "456_1",
+      "target": "456_1_1"
+    },
+    {
+      "source": "456_1",
+      "target": "456_1_2"
+    },
+    {
+      "source": "456_2",
+      "target": "456_2_0"
+    },
+    {
+      "source": "456_2",
+      "target": "456_2_1"
+    },
+    {
+      "source": "456_2",
+      "target": "456_2_2"
+    },
+    {
+      "source": "456_3",
+      "target": "456_3_0"
+    },
+    {
+      "source": "456_3",
+      "target": "456_3_1"
+    }
+  ]
+}

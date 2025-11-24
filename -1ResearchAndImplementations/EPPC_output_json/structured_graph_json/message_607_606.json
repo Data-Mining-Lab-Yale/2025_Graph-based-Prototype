@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  No problems with this from my end!  Good luck. Hope all else is well.",
+      "id": 606
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  No problems with this from my end!",
+      "id": "606_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "606_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "No problems with this from my end!",
+      "id": "606_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Good luck.",
+      "id": "606_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good luck.",
+      "id": "606_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Hope all else is well.",
+      "id": "606_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hope all else is well.",
+      "id": "606_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 606,
+      "target": "606_0"
+    },
+    {
+      "source": 606,
+      "target": "606_1"
+    },
+    {
+      "source": 606,
+      "target": "606_2"
+    },
+    {
+      "source": "606_0",
+      "target": "606_0_0"
+    },
+    {
+      "source": "606_0",
+      "target": "606_0_1"
+    },
+    {
+      "source": "606_1",
+      "target": "606_1_0"
+    },
+    {
+      "source": "606_2",
+      "target": "606_2_0"
+    }
+  ]
+}

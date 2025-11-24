@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good Morning Dr. Person1. Looks like it was an oversite. You should be hearing from the secretary with an  appointment. Thanks!",
+      "id": 166
+    },
+    {
+      "label": "sentence",
+      "text": "Good Morning Dr. Person1.",
+      "id": "166_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good Morning Dr. Person1.",
+      "id": "166_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Looks like it was an oversite.",
+      "id": "166_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Looks like it was",
+      "id": "166_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "an oversite.",
+      "id": "166_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "You should be hearing from the secretary with an  appointment.",
+      "id": "166_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "You should be hearing from the secretary with an  appointment.",
+      "id": "166_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks!",
+      "id": "166_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks!",
+      "id": "166_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 166,
+      "target": "166_0"
+    },
+    {
+      "source": 166,
+      "target": "166_1"
+    },
+    {
+      "source": 166,
+      "target": "166_2"
+    },
+    {
+      "source": 166,
+      "target": "166_3"
+    },
+    {
+      "source": "166_0",
+      "target": "166_0_0"
+    },
+    {
+      "source": "166_1",
+      "target": "166_1_0"
+    },
+    {
+      "source": "166_1",
+      "target": "166_1_1"
+    },
+    {
+      "source": "166_2",
+      "target": "166_2_0"
+    },
+    {
+      "source": "166_3",
+      "target": "166_3_0"
+    }
+  ]
+}

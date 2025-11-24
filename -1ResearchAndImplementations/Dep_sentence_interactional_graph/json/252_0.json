@@ -1,0 +1,224 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "spoke",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 3
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 4
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "who",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "recommend",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "come",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 11
+    },
+    {
+      "label": "tomorrow",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 14
+    },
+    {
+      "label": "op",
+      "pos": "NOUN",
+      "id": 16
+    },
+    {
+      "label": "post",
+      "pos": "NOUN",
+      "id": 15
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 17
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 18
+    },
+    {
+      "label": "drain",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "removal",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "npadvmod",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "compound",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "ccomp",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "npadvmod",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "prep",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "dep": "poss",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "cc",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "conj",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "dep": "appos",
+      "source": 16,
+      "target": 20
+    },
+    {
+      "dep": "dep",
+      "source": 17,
+      "target": 18
+    }
+  ]
+}

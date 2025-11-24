@@ -1,0 +1,54 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "reach",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 1
+    },
+    {
+      "label": "someone",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "should",
+      "pos": "AUX",
+      "id": 3
+    }
+  ],
+  "links": [
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 4,
+      "target": 3
+    }
+  ]
+}

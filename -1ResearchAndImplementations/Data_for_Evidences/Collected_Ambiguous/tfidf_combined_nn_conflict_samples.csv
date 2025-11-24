@@ -1,0 +1,201 @@
+anchor_text,anchor_label,neighbor_text,neighbor_label,similarity
+Hi there,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,0.579993930898319
+Hi there,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,0.579993930898319
+Hi there,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,0.579993930898319
+be happy to,PROVIDER_PARTNERSHIP||Connection,If not our manager is Gean Brown and she'd be happy to assist,Information-Giving||Care_Coordination,0.5779799013598403
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Thank you,PROVIDER_PARTNERSHIP||signoff,Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||signoff,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||signoff,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||signoff,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Greetings,PROVIDER_PARTNERSHIP||salutation,Greetings,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+this was faxed,Information-Giving||Care_Coordination,This was either Dec. or Jan,Information-Giving||Diagnostics,0.5871786512620115
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PATIENT_PARTNERSHIP||signoff,1.0
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,OK,PATIENT_PARTNERSHIP||Alignment,0.6377375564891694
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,Ok,PATIENT_PARTNERSHIP||Alignment,0.6377375564891694
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,Ok,PATIENT_PARTNERSHIP||Alignment,0.6377375564891694
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,Ok,PATIENT_PARTNERSHIP||Alignment,0.6377375564891694
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,OK,PATIENT_PARTNERSHIP||Alignment,0.6377375564891694
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank You,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+"OOPS , sorry - my typo",Socioemotional_/_Empathy||Acknowledge_Error,Sorry,PROVIDER_PARTNERSHIP||Connection,0.8665291005028808
+"OOPS , sorry - my typo",Socioemotional_/_Empathy||Acknowledge_Error,I'm sorry,Socioemotional_/_Empathy||Sadness/fear,0.8665291005028808
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Thank you for the update,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for the info,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.586547607057993
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||Connection,0.6254304276223819
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||Connection,0.6254304276223819
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||signoff,0.6254304276223819
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||signoff,0.6254304276223819
+take care of these prescriptions,Information-Giving||Drugs,Take care,PATIENT_PARTNERSHIP||signoff,0.6254304276223819
+Hello,PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+Hello,PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+Hello,PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for your help,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.7636919924312568
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for your help,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.7636919924312568
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you and Dr. Person2 for your help,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.7230015197342841
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thank you for all your help today,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.6257602447523215
+I'll let you know as soon as that is completed,PATIENT_PARTNERSHIP||active_participation_/involvement,I will let you know as soon as he answers me,PROVIDER_PARTNERSHIP||Maintain_communication,0.6604406105991842
+Greetings,PROVIDER_PARTNERSHIP||salutation,Greetings,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hello,PATIENT_PARTNERSHIP||salutation,Hello,PROVIDER_PARTNERSHIP||salutation,1.0
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.5870041812594937
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,Happy MM/DD/YYYY!,PATIENT_PARTNERSHIP||Connection,0.5767740468566072
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.5524894870095117
+Thanks a ton,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thanks,PROVIDER_PARTNERSHIP||signoff,1.0
+Thanks a ton,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks a ton,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thanks,PATIENT_PARTNERSHIP||signoff,1.0
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Greetings,PATIENT_PARTNERSHIP||salutation,Greetings,PROVIDER_PARTNERSHIP||salutation,1.0
+Greetings,PATIENT_PARTNERSHIP||salutation,Greetings,PROVIDER_PARTNERSHIP||salutation,1.0
+"Hello,",PATIENT_PARTNERSHIP||salutation,Hello,PROVIDER_PARTNERSHIP||salutation,1.0
+Thank you very much,PATIENT_PARTNERSHIP||signoff,Thank you very much,PROVIDER_PARTNERSHIP||Appreciation/gratitude,1.0
+"Hello,",PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+"Hello,",PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+"Hello,",PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+"Hello,",PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+I see Dr  Person1 on,Information-Giving||Scheduling_appt,Do i need blood work before I see dr Person1 on MM/DD/YYYY?,Information-Seeking||Diagnostics,0.5676394118884264
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+I hope that helps,PROVIDER_PARTNERSHIP||Connection,Hope this helps,Socioemotional_/_Empathy||Reassurance,0.5991916930726237
+", let me know if you have any other questions or concerns",PROVIDER_Shared-Decision_Making||Encourage_questions,Let me know if you have any other questions,PROVIDER_PARTNERSHIP||Maintain_communication,0.845278195727146
+", let me know if you have any other questions or concerns",PROVIDER_Shared-Decision_Making||Encourage_questions,let me know if you have any issues !,PROVIDER_PARTNERSHIP||Maintain_communication,0.5825137106060169
+Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thanks,PROVIDER_PARTNERSHIP||signoff,1.0
+Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thanks,PATIENT_PARTNERSHIP||signoff,1.0
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+I am all set,Information-Giving||General_information,All set for MM/DD/YYYY,Information-Giving||Scheduling_appt,0.5647279495939816
+have a good day,PATIENT_PARTNERSHIP||Connection,Have a good day.,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+Thank you,PATIENT_PARTNERSHIP||signoff,Thank you,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.6079430855950206
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,Happy MM/DD/YYYY!,PATIENT_PARTNERSHIP||Connection,0.5973480341907899
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,Can i change my MM/DD/YYYY appointment to the MM/DD/YYYY,Information-Seeking||Scheduling_appt,0.5555609131926138
+I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,0.5524894870095117
+"Thank you,",PATIENT_PARTNERSHIP||signoff,Thank you,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+", I am checking with Dr. Person2 on the vaccine",Information-Giving_SDOH||Health_care_access_and_quality,The schedulers were checking with Dr Person2 on MM/DD/YYYY,Information-Giving||Care_Coordination,0.6173776573234404
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+am a little nervous now,Socioemotional_/_Empathy||Express_concern/unease,I am a little bruised,Information-Giving||Symptoms,0.9132881934087349
+My youngest son has MS,Information-Giving||General_information,My pleasure!,PROVIDER_PARTNERSHIP||Connection,0.5728796168344003
+My youngest son has MS,Information-Giving||General_information,my friends,PATIENT_PARTNERSHIP||Connection,0.5728796168344003
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PROVIDER_PARTNERSHIP||signoff,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+"It should be safe, hospital is taking every precaution to keep the environment safe,",Socioemotional_/_Empathy||Reassurance,Be safe,PATIENT_PARTNERSHIP||Connection,0.587418723022154
+Thank you!,PATIENT_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you!,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Thank you!,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you!,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you!,PATIENT_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+agree that the CA27.29 has been a very good marker for you,PROVIDER_Shared-Decision_Making||Approval/Reinforcement,agree that the CA27.29 has been a very good marker for you,Information-Giving||Diagnostics,1.0000000000000004
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PATIENT_PARTNERSHIP||signoff,1.0
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that,Information-Giving||General_information,I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that,Information-Giving||Diagnostics,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||signoff,Thank you,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+agree that the CA27.29 has been a very good marker for you,Information-Giving||Diagnostics,agree that the CA27.29 has been a very good marker for you,PROVIDER_Shared-Decision_Making||Approval/Reinforcement,1.0000000000000004
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PATIENT_PARTNERSHIP||signoff,1.0
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that,Information-Giving||Diagnostics,I thought we were doing the CA 27 Dash 29 that I have always had done but no results have come in for that,Information-Giving||General_information,1.0000000000000002
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PROVIDER_PARTNERSHIP||signoff,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PROVIDER_PARTNERSHIP||signoff,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PATIENT_PARTNERSHIP||signoff,thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+I believe it should be 9am,Information-Giving||Scheduling_appt,Should I be?,PATIENT_SHARED-DECISION_MAKING||Seeking_Approval,0.6165250772401576
+Thank you,PROVIDER_PARTNERSHIP||signoff,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||signoff,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||signoff,Thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PROVIDER_PARTNERSHIP||signoff,thank you,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Good morning,PATIENT_PARTNERSHIP||salutation,Good Morning,PROVIDER_PARTNERSHIP||salutation,1.0
+Best to you,PROVIDER_PARTNERSHIP||signoff,Best to you,PROVIDER_PARTNERSHIP||Connection,1.0000000000000002
+Good morning!,PATIENT_PARTNERSHIP||salutation,Good Morning,PROVIDER_PARTNERSHIP||salutation,1.0
+"I hope so because I feel great; sleeping well, eating (too) well",Information-Giving||Symptoms,i Eating and sleeping well,Information-Giving_SDOH||Health_care_access_and_quality,0.6585068765308256
+"I hope so because I feel great; sleeping well, eating (too) well",Information-Giving||Symptoms,Sleeping well,Information-Giving_SDOH||Health_care_access_and_quality,0.5987080708637997
+Hi?,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+Have a good day.,PATIENT_PARTNERSHIP||signoff,have a good day,PATIENT_PARTNERSHIP||Connection,1.0000000000000002
+Thanks for your response.,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thanks for your message,PROVIDER_PARTNERSHIP||Appreciation/gratitude,0.6630522273849951
+Have a nice day!,PATIENT_PARTNERSHIP||signoff,Have a nice weekend,PATIENT_PARTNERSHIP||Connection,0.6635322678466244
+Have a nice day!,PATIENT_PARTNERSHIP||signoff,Have a nice weekend,PATIENT_PARTNERSHIP||Connection,0.6635322678466244
+Good morning,PATIENT_PARTNERSHIP||salutation,Good Morning,PROVIDER_PARTNERSHIP||salutation,1.0
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,1.0
+Much appreciated!,PATIENT_PARTNERSHIP||Appreciation/gratitude,Much appreciated,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Good morning.,PATIENT_PARTNERSHIP||salutation,Good Morning,PROVIDER_PARTNERSHIP||salutation,1.0
+Sleeping well,Information-Giving_SDOH||Health_care_access_and_quality,"I hope so because I feel great; sleeping well, eating (too) well",Information-Giving||Symptoms,0.5987080708637997
+because of the prednisone,Information-Giving||Drugs,is this because of the taxol?,Information-Seeking||Drugs,0.5739844887277527
+Best to you,PROVIDER_PARTNERSHIP||signoff,Best to you,PROVIDER_PARTNERSHIP||Connection,1.0000000000000002
+Good morning,PATIENT_PARTNERSHIP||salutation,Good Morning,PROVIDER_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Hi,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,1.0
+Thanks,PROVIDER_PARTNERSHIP||signoff,Thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PROVIDER_PARTNERSHIP||signoff,Thanks,PROVIDER_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PROVIDER_PARTNERSHIP||signoff,thanks,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0
+Thanks,PROVIDER_PARTNERSHIP||signoff,Thanks,PATIENT_PARTNERSHIP||signoff,1.0
+Dear,PROVIDER_PARTNERSHIP||salutation,Dear,PATIENT_PARTNERSHIP||salutation,1.0
+Dear,PROVIDER_PARTNERSHIP||salutation,My Dear Oncology Team,PATIENT_PARTNERSHIP||Connection,0.594548536489458
+Please let me know about blood work,Information-Seeking||Diagnostics,Please let me know,PATIENT_PARTNERSHIP||active_participation_/involvement,0.6367177374683866
+Please let me know about blood work,Information-Seeking||Diagnostics,Please let me know,PATIENT_PARTNERSHIP||active_participation_/involvement,0.6367177374683866
+Please let me know about blood work,Information-Seeking||Diagnostics,Please let me know!!,PATIENT_PARTNERSHIP||active_participation_/involvement,0.6367177374683866

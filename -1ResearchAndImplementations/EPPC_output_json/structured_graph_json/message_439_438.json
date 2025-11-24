@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I will pass your request along to Dr. Person1.",
+      "id": 438
+    },
+    {
+      "label": "sentence",
+      "text": "I will pass your request along to Dr. Person1.",
+      "id": "438_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will pass your request along to Dr. Person1.",
+      "id": "438_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 438,
+      "target": "438_0"
+    },
+    {
+      "source": "438_0",
+      "target": "438_0_0"
+    }
+  ]
+}

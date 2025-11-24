@@ -1,0 +1,38 @@
+{
+  "sbert": {
+    "rep": "sbert",
+    "num_spans": 1547,
+    "num_labels": 8,
+    "num_conflict_pairs": 1203,
+    "num_distinct_label_pairs": 22,
+    "avg_disagreement_rate": 0.1488,
+    "median_disagreement_rate": 0.1052
+  },
+  "tfidf": {
+    "rep": "tfidf",
+    "num_spans": 1547,
+    "num_labels": 8,
+    "num_conflict_pairs": 678,
+    "num_distinct_label_pairs": 17,
+    "avg_disagreement_rate": 0.057,
+    "median_disagreement_rate": 0.0422
+  },
+  "lsa": {
+    "rep": "lsa",
+    "num_spans": 1547,
+    "num_labels": 8,
+    "num_conflict_pairs": 2610,
+    "num_distinct_label_pairs": 25,
+    "avg_disagreement_rate": 0.2366,
+    "median_disagreement_rate": 0.2207
+  },
+  "jaccard": {
+    "rep": "jaccard",
+    "num_spans": 1547,
+    "num_labels": 8,
+    "num_conflict_pairs": 269,
+    "num_distinct_label_pairs": 5,
+    "avg_disagreement_rate": 0.0196,
+    "median_disagreement_rate": 0.004
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Sounds good, Person1, thanks!",
+      "id": 571
+    },
+    {
+      "label": "sentence",
+      "text": "Sounds good, Person1, thanks!",
+      "id": "571_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sounds good,",
+      "id": "571_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "571_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "thanks!",
+      "id": "571_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 571,
+      "target": "571_0"
+    },
+    {
+      "source": "571_0",
+      "target": "571_0_0"
+    },
+    {
+      "source": "571_0",
+      "target": "571_0_1"
+    },
+    {
+      "source": "571_0",
+      "target": "571_0_2"
+    }
+  ]
+}

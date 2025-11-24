@@ -1,0 +1,361 @@
+id,text,span,label,label_type,split
+350_1_2,for the middle of MM/DD/YYYY in Org3 on a MM/DD/YYYY morning.,Can you put an order on for Person2 to have his port flushed for the middle of MM/DD/YYYY in Org3 on a MM/DD/YYYY morning,Scheduling_appt,Goal-Oriented,train
+98_2_0,So no need to schedule anything besides the call with Dr Person2 Thank you for your help    Best,So no need to schedule anything besides the call with Dr Person2,Scheduling_appt,Goal-Oriented,train
+126_0_2,I doing ok !,"Ok , I doing ok !",Symptoms,Goal-Oriented,train
+23_0_0,Currently my lab work is scheduled to be done on MM/DD/YYYY and I see,Currently my lab work is scheduled to be done,Scheduling_appt,Goal-Oriented,train
+300_1_2,diarrhea and was throwing,last night i got diarrhea and was throwing up,Symptoms,Goal-Oriented,train
+16_1_6,how is he taking the Eliquis:  5mg a day or twice a day,how is he taking the Eliquis:  5mg a day or twice a day,Drugs,Goal-Oriented,train
+181_0_1,referral is in.,referral is in,Care_Coordination,Goal-Oriented,train
+301_0_1,Are you feeling better today?,Are you feeling better today?,Symptoms,Goal-Oriented,train
+119_1_0,I take Tums sometimes.,I take Tums sometimes,Drugs,Goal-Oriented,train
+121_2_0,I going to clean it with peroxide and see,I going to clean it with peroxide and see what happens,Drugs,Goal-Oriented,train
+182_1_0,Have you checked with your cardiologist re your ankle swelling?,Have you checked with your cardiologist re your ankle swelling?,Care_Coordination,Goal-Oriented,train
+14_2_0,Does Dr. Person3 want Person1 to continue,Does Dr. Person3 want Person1 to continue on,Drugs,Goal-Oriented,train
+181_1_0,Someone should call you to schedule.,Someone should call you to schedule,Scheduling_appt,Goal-Oriented,train
+284_0_4,typically the answer has been no.,typically the answer has been no,Symptoms,Goal-Oriented,train
+47_3_0,Will that be covered when Dr.  Person1 calls,Will that be covered when Dr.  Person1 calls me to discuss the test results?,Diagnostics,Goal-Oriented,train
+38_2_5,a very good marker for you.,agree that the CA27.29 has been a very good marker for you,Diagnostics,Goal-Oriented,train
+33_1_0,I will get the flu shot when I come, I will get the flu shot when I come in next time,Scheduling_appt,Goal-Oriented,train
+6_2_1,or if you can assist,if you can assist me in doing that,General_information,Goal-Oriented,train
+314_0_1,any appointments or reminders,i did not receive any appointments or reminders?,Scheduling_appt,Goal-Oriented,train
+12_0_2,care of these prescriptions now.,take care of these prescriptions,Drugs,Goal-Oriented,train
+55_0_1,we too are following the CDC guidelines at this time Best to you Person1,"Yes, we too are following the CDC guidelines at this time",General_information,Goal-Oriented,train
+17_7_1,slightly) swelling of right leg persists.,Sig swelling (but improving slightly) swelling of right leg persists,Symptoms,Goal-Oriented,train
+197_1_0,Bactrim is an antibiotic given to prevent,Bactrim is an antibiotic given to prevent this,Drugs,Goal-Oriented,train
+11_0_0,Person1 has done well managing pain while eliminating,has done well managing pain,Symptoms,Goal-Oriented,train
+23_2_0,Usually it takes the pharmacy MM/DD/YYYY to call me regarding delivery of my meds that's,Usually it takes the pharmacy MM/DD/YYYY to call me regarding delivery of my meds,Drugs,Goal-Oriented,train
+95_0_5,on pandemic obviously.,it depends on pandemic obviously,General_information,Goal-Oriented,train
+89_0_1,I sent your message to Dr. Person2 to ask,I sent your message to Dr. Person2 to ask her.,Care_Coordination,Goal-Oriented,train
+163_0_0,None scheduled is this an oversight or planned,is this an oversight or planned?,Scheduling_appt,Goal-Oriented,train
+279_1_0,:-(   I wanted to go to a walk-in because my left ear feels infected,I wanted to go to a walk-in because my left ear feels infected and inflamed.,Symptoms,Goal-Oriented,train
+111_6_0,I also was prescribed steriods for the asthma.,I also was prescribed steriods for the asthma,Drugs,Goal-Oriented,train
+76_0_0,Adjudication office  645 south main st  LOCATION ct MM/DD/YYYYPh XXX-XXX-XXXX  Fax XXX-XXX-XXXX,Adjudication office  645 south main st  LOCATION ct,General_information,Goal-Oriented,train
+162_1_0,I put a referral in for but didn't see,I put a referral in for,Care_Coordination,Goal-Oriented,train
+141_2_1,it has not helped.,"No, it has not helped",Drugs,Goal-Oriented,train
+79_0_0,Your Hemoglobin and platelets,Your Hemoglobin and platelets are fine,Diagnostics,Goal-Oriented,train
+176_2_0,"I remain asymptomatic,","I remain asymptomatic, no pain",Symptoms,Goal-Oriented,train
+99_1_0,I will have our scheduling team look,I will have our scheduling team look,Care_Coordination,Goal-Oriented,train
+37_2_0,"We do not have  a comparison for the CEA,",We do not have  a comparison for the CEA,Diagnostics,Goal-Oriented,train
+23_0_1,Dr  Person1 on MM/DD/YYYY.,I see Dr  Person1 on,Scheduling_appt,Goal-Oriented,train
+12_1_0,I will also give Dr. Person1 Dr. Person2 cell  phone so they can touch,give Dr. Person1 Dr. Person2 cell  phone,Care_Coordination,Goal-Oriented,train
+189_2_0,I had two this year (both Person2) one in MM/DD/YYYY and the other,I had two this year (both Person2) one in MM/DD/YYYY and the other in MM/DD/YYYY,Drugs,Goal-Oriented,train
+102_1_0,I am going to need refills on my Ibrance.,I am going to need refills on my Ibrance,Drugs,Goal-Oriented,train
+97_1_0,Do you want  me to get,Do you want  me to get that scheduled for you?,Scheduling_appt,Goal-Oriented,train
+8_2_0,2)Also that  your office will send CT scan and report,send CT scan and report,Diagnostics,Goal-Oriented,train
+136_0_0,"Hi Paperwork was completed last week,","Paperwork was completed last week, but awaiting Dr. Person1's signature",Care_Coordination,Goal-Oriented,train
+155_0_0,He said you are,He said you are on the list to call,Care_Coordination,Goal-Oriented,train
+61_3_0,Is my psa high or low,Is my psa high or low,Diagnostics,Goal-Oriented,train
+67_0_1,n't how it's,But i don't how it's ,General_information,Goal-Oriented,train
+17_2_0,"Re Oxy 15mg rapid release: per Dr. Person2's desire and Dr. B agree to get Person3 off Oxy ext release ASAP,",per Dr. Person2's desire and Dr. B agree to get Person3 off Oxy ext release,Care_Coordination,Goal-Oriented,train
+141_3_0,It is still in that one area on the left.,It is still in that one area on the left,General_information,Goal-Oriented,train
+47_4_0,Can I expect to see them on my Person2 app  Today?,Can I expect to see them on my Person2 app  Today?,General_information,Goal-Oriented,train
+202_3_0,Spoke with his office this morning and they knew,Spoke with his office this morning and they knew nothing about it,General_information,Goal-Oriented,train
+31_0_4,ok to continue this round of Ibrance?,just checking to see if it is ok to continue this round of Ibrance?,Drugs,Goal-Oriented,train
+166_2_0,You should be hearing from the secretary with an  appointment.,You should be hearing from the secretary with an  appointment,Scheduling_appt,Goal-Oriented,train
+33_1_2,OK. Dr  Person2 was checking on the whooping cough for me to see,was checking on the whooping cough for me to see if it was OK to have it with my WBC,General_information,Goal-Oriented,train
+236_0_0,Hi Person1 report from MM/DD/YYYY faxed to Dr  Person2 office Person6 Person3 RN,report from MM/DD/YYYY faxed to Dr  Person2 office,Care_Coordination,Goal-Oriented,train
+48_0_0,I received my CT chest evaluation.,I received my CT chest evaluation,Diagnostics,Goal-Oriented,train
+17_2_2,"down to lowest usage Oxy rapid w/o dealing w break through pain,",work down to lowest usage Oxy rapid w/o dealing w break through pain,Drugs,Goal-Oriented,train
+106_1_0,Have not had a fever since MM/DD/YYYY evening.,Have not had a fever,Symptoms,Goal-Oriented,train
+202_1_0,It seems my follow up appointment with Dr. Person2 did not get scheduled,It seems my follow up appointment with Dr. Person2 did not get scheduled for tomorrow as I was told,Care_Coordination,Goal-Oriented,train
+47_2_0,It mentioned the CT chest results would be,It mentioned the CT chest results would be in another report.,Diagnostics,Goal-Oriented,train
+84_1_0,Her email address is: address@email.com.,Her email address is: address@email.com,Care_Coordination,Goal-Oriented,train
+250_2_0,It was just under 20 ml in the past 24 hour and 18 ml,"It was just under 20 ml in the past 24 hour and 18 ml, the previous 24 hours",Symptoms,Goal-Oriented,train
+28_0_1,Those results came in after I sent,Those results came in after I sent the message to the doctor,Diagnostics,Goal-Oriented,train
+119_3_0,But now it is worse.,But now it is worse.,Symptoms,Goal-Oriented,train
+191_1_0,"But he would advise the third shot now,",But he would advise the third shot now,Care_Coordination,Goal-Oriented,train
+96_1_0,I would like to schedule a virtual call with you to-discuss,I would like to schedule a virtual call with you to-discuss  next steps,Scheduling_appt,Goal-Oriented,train
+151_0_3,"a prescription for Ativan,",I see that you have a prescription for Ativan,Drugs,Goal-Oriented,train
+64_2_0,Did you receive them in My Chart?,Did you receive them in My Chart?,Diagnostics,Goal-Oriented,train
+26_0_4,you they were going to do all of the blood test you had put,they were going to do all of the blood test,Diagnostics,Goal-Oriented,train
+173_0_1,I sent your message on to DR  Person2 and will let,I sent your message on to DR  Person2,Care_Coordination,Goal-Oriented,train
+131_1_2,Sony know if Person1 has received,Sony know if Person1 has received it?,General_information,Goal-Oriented,train
+13_2_0,I am on the lookout for the permission / patient approval document that is being sent,I am on the lookout for the permission / patient approval document,Care_Coordination,Goal-Oriented,train
+234_2_0,This is both uncomfortable and painful,This is both uncomfortable and painful.,Symptoms,Goal-Oriented,train
+187_3_0,My stomach is a mass of hematoma now as a result of the self injecting and this seems,My stomach is a mass of hematoma now as a result of the self injecting,Symptoms,Goal-Oriented,train
+160_1_0,I combine visits with Costco adventures.,I combine visits with Costco adventures,General_information,Goal-Oriented,train
+235_0_1,Here is the fax number;,Here is the fax number,General_information,Goal-Oriented,train
+129_2_0,I forgot to ask when I met,I forgot to ask when I met with surgeon,General_information,Goal-Oriented,train
+19_0_1,"Person1 rec'd a notice MM/DD/YYYY (MM/DD/YYYY,",rec'd a notice MM/DD/YYYY,General_information,Goal-Oriented,train
+145_0_0,The other name for it is Lorazepam.,The other name for it is Lorazepam,Drugs,Goal-Oriented,train
+44_0_0,Result not back yet Also please call,Result not back yet,Diagnostics,Goal-Oriented,train
+121_1_1,down a week ago but didn notice,I did cut my toe nails down a week ago but didn notice any cut,General_information,Goal-Oriented,train
+129_1_2,will they remove my port as well?,"I forgot to ask during my surgery , will they remove my port as well?",General_information,Goal-Oriented,train
+98_1_0,At this point of time can I please ask you to set up a virtual call with Dr  Person2 as I want,At this point of time can I please ask you to set up a virtual call with Dr  Person2,Scheduling_appt,Goal-Oriented,train
+66_3_0,There is an order would you like,There is an order would you like our Clinical Secretary to schedule?,Scheduling_appt,Goal-Oriented,train
+207_2_0,Have one tablet to take,Have one tablet to take today but nothing after that,Drugs,Goal-Oriented,train
+54_2_0,I continue to monitor   The situation.,I continue to monitor   The situation.,General_information,Goal-Oriented,train
+33_2_0,If so I can ask my Primary if I can get,If so I can ask my Primary if I can get it when I see her,Scheduling_appt,Goal-Oriented,train
+119_4_0,I vomit at times.,I vomit at times,Symptoms,Goal-Oriented,train
+22_2_1,same day delivery if needed,can do same day delivery if needed,General_information,Goal-Oriented,train
+111_4_0,They said it may be,They said it may be muscle spasms,Symptoms,Goal-Oriented,train
+17_10_0,Dr. B recommends Metamucil 1 tsp,Dr. B recommends Metamucil,Drugs,Goal-Oriented,train
+22_0_1,Orders have been entered into the Epic system for lab work.,Orders have been entered into the Epic system for lab work,Diagnostics,Goal-Oriented,train
+106_4_0,When do I begin Ibrance again?,When do I begin Ibrance again?,Drugs,Goal-Oriented,train
+61_0_1,it is elevated.,it is elevated,Diagnostics,Goal-Oriented,train
+118_2_0,Have you tried anything for it?,Have you tried anything for it?,Symptoms,Goal-Oriented,train
+127_1_0,Have you been doing the nail soaks?,Have you been doing the nail soaks?,General_information,Goal-Oriented,train
+93_2_3,then will decide on what next steps will be.,then will decide on what next steps will be,Care_Coordination,Goal-Oriented,train
+300_0_1,there has been a throwup bug going through my family.,there has been a throwup bug going through my family,Symptoms,Goal-Oriented,train
+147_1_0,It works a little better than the Oxycodone.,It works a little better than the Oxycodone,Drugs,Goal-Oriented,train
+130_0_0,Sorry He does not remove ports.,He does not remove ports,General_information,Goal-Oriented,train
+35_0_1,Ok for you to get,Ok for you to get the vaccine,Drugs,Goal-Oriented,train
+106_2_0,The coughing is subsiding also.,The coughing is subsiding also.,Symptoms,Goal-Oriented,train
+263_0_5,"an appt tomorrow in radiation,",I see you have an appt tomorrow in radiation,Scheduling_appt,Goal-Oriented,train
+2_1_1,please wait until after that appt to  make,"Yes, please wait until after that appt to  make an appt",Scheduling_appt,Goal-Oriented,train
+193_1_0,Their number is XXX-XXX-XXXX.,Their number is,General_information,Goal-Oriented,train
+231_3_0,I will put in a referral for you to see,I will put in a referral for you to see an occuloplastic surgeon,Care_Coordination,Goal-Oriented,train
+32_0_5,we can give you a flu vaccine next time you come,we can give you a flu vaccine next time you come ,Scheduling_appt,Goal-Oriented,train
+132_0_2,Person1 concerning the removal of my port and his nurse,I reached out to dr  Person1 concerning the removal of my port and his nurse my chart me back stating he doesn remove ports,Care_Coordination,Goal-Oriented,train
+133_0_1,I'll check in with Dr. Person2 about getting it removed,I'll check in with Dr. Person2 about getting it removed,Care_Coordination,Goal-Oriented,train
+17_9_3,digestion normal (that may become diarrhea as radiation has started,"Appetite, a bit of a struggle, as expected; digestion normal (that may become diarrhea as radiation has started MM/DD/YYYY)",Symptoms,Goal-Oriented,train
+2_0_0,"I put him down the ""combo"" :) on MM/DD/YYYY at 530,","I put him down the ""combo""",Scheduling_appt,Goal-Oriented,train
+232_1_1,my MZL doctor in LOCATION on MM/DD/YYYY.,am seeing my MZL doctor in LOCATION on MM/DD/YYYY,Scheduling_appt,Goal-Oriented,train
+15_0_1,"Dr. Person1 would like to see Person2 in the office MM/DD/YYYY,",would like to see Person2 in the office MM/DD/YYYY,Scheduling_appt,Goal-Oriented,train
+13_1_2,he's not in shape to get,he's not in shape,Symptoms,Goal-Oriented,train
+96_1_2,a review with Dr  Person1 re next steps.,I had a review with Dr  Person1 re next steps,Care_Coordination,Goal-Oriented,train
+104_3_1,me to give you this message.,asked me to give you this message,Care_Coordination,Goal-Oriented,train
+90_1_4,office call you with appt,I will have office call you with appt,Scheduling_appt,Goal-Oriented,train
+56_0_2,my PSA in MM/DD/YYYY blood draw,I was wondering if they had measured my PSA in MM/DD/YYYY blood draw.,Diagnostics,Goal-Oriented,train
+203_0_0,Mr. Person1 you would need to follow up with Dr. Person2 office--- I do not see it scheduled,Mr. Person1 you would need to follow up with Dr. Person2 office,Care_Coordination,Goal-Oriented,train
+204_1_4,him the following week.,then see him the following week,Care_Coordination,Goal-Oriented,train
+266_4_1,my pain has increased in the past couple of days.,"Also, my pain has increased in the past couple of days.",Symptoms,Goal-Oriented,train
+223_3_0,My stomach is a mass of hematoma now as a result of the self injecting and this seems,My stomach is a mass of hematoma now as a result of the self injecting and this seems to be happening because my blood is too thin,Symptoms,Goal-Oriented,train
+6_2_2,me in doing that.,if you can assist me in doing that,General_information,Goal-Oriented,train
+37_5_0,A test result for CEA came in but I don't know,A test result for CEA came in but I don't know what that is.,Diagnostics,Goal-Oriented,train
+101_2_0,My left hip and tail,My left hip and tail bone are hurting,Symptoms,Goal-Oriented,train
+175_0_1,"my next visit (MM/DD/YYYY) to Org3,",As I traveling immediately following my next visit (MM/DD/YYYY) to Org3,General_information,Goal-Oriented,train
+67_0_0,Dr Person1 talk about the blood density test  But i do,Dr Person1 talk about the blood density test,Diagnostics,Goal-Oriented,train
+119_6_0,Are there any suggestions as to what I can take?,Are there any suggestions as to what I can take?,Drugs,Goal-Oriented,train
+155_0_2,but I cannot confirm,I cannot confirm the exact time,General_information,Goal-Oriented,train
+215_2_0,I trying to plan a visit to LOCATION for a month or two as soon after the treatment has ended,I trying to plan a visit to LOCATION for a month or two as soon after the treatment has ended,General_information,Goal-Oriented,train
+119_2_0,This is happening for a few months off and on,This is happening for a few months off and on,Symptoms,Goal-Oriented,train
+31_0_0,Hi  I had my MM/DD/YYYY bloodwork done,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Diagnostics,Goal-Oriented,train
+197_0_1,Patients on PI3 kinase inhibitors like Person2 can get a type of pneumonia called PCP pneumonia.,Patients on PI3 kinase inhibitors like Person2 can get a type of pneumonia called PCP pneumonia,Drugs,Goal-Oriented,train
+63_0_2,From MM/DD/YYYY and now,How it's From MM/DD/YYYY and now,Diagnostics,Goal-Oriented,train
+47_1_0,I saw the results of the CT abdomen pelvis test.,I saw the results of the CT abdomen pelvis test,Diagnostics,Goal-Oriented,train
+228_0_1,It has been 2 years since my neck surgery and I am still having issues with my eyelid drooping  and the pupil not dilating,I am still having issues with my eyelid drooping  and the pupil not dilating,Symptoms,Goal-Oriented,train
+37_0_1,"I had ordered both tumor markers,",I had ordered both tumor markers,Diagnostics,Goal-Oriented,train
+84_2_0,The good doctor is swamped in a emails and she wants,The good doctor is swamped in a emails and she wants to make sure he sees it,General_information,Goal-Oriented,train
+126_4_3,is this because of the taxol?,is this because of the taxol?,Drugs,Goal-Oriented,train
+351_0_1,Please call our office at XXX-XXX-XXXX to schedule,Please call our office at XXX-XXX-XXXX to schedule these appts,Scheduling_appt,Goal-Oriented,train
+38_5_2,At our last appointment we discussed getting the cancer antigen test at my next blood work.,At our last appointment we discussed getting the cancer antigen test at my next blood work.,Diagnostics,Goal-Oriented,train
+37_6_0,I have nothing to compare,I have nothing to compare that to,General_information,Goal-Oriented,train
+258_0_5,to come in next for a check up?,when do I have to come in next for a check up?,Scheduling_appt,Goal-Oriented,train
+220_3_1,Dr Person2 can review that as well.,Dr Person2 can review that as well,Care_Coordination,Goal-Oriented,train
+317_0_2,the next one should have been around MM/DD/YYYY   24 weeks later.,the next one should have been around MM/DD/YYYY   24 weeks later,Scheduling_appt,Goal-Oriented,train
+123_3_1,please let Dr Person1 take,"Yes, please let Dr Person1 take a look tomorrow",Care_Coordination,Goal-Oriented,train
+6_2_0,"Please advise me how to submit this to G Hosp,",Please advise me how to submit this to,General_information,Goal-Oriented,train
+140_2_0,Did the flexeril not help?,Did the flexeril not help?,Drugs,Goal-Oriented,train
+13_1_1,a tough day with pain MM/DD/YYYY;,is having a tough day with pain,Symptoms,Goal-Oriented,train
+197_2_0,"It is taken as one tablet on MM/DD/YYYY,",It is taken as one tablet on,Drugs,Goal-Oriented,train
+115_1_0,Also we can hold off on starting the Ibrance a few days but if you can get,Also we can hold off on starting the Ibrance,Drugs,Goal-Oriented,train
+147_0_0,I was wondering if Dr. Person1 could refill,I was wondering if Dr. Person1 could refill this RX for me for the pain,Drugs,Goal-Oriented,train
+136_1_0,I have asked Person2 to send it as  soon as it is signed,I have asked Person2 to send it as  soon as it is signed,Care_Coordination,Goal-Oriented,train
+38_2_4,that the CA27.29 has been,agree that the CA27.29 has been a very good marker for you,Diagnostics,Goal-Oriented,train
+38_3_0,I was happy to see that this was trending,to see that this was trending down,Diagnostics,Goal-Oriented,train
+17_2_3,which can be,which can be pretty nasty,Symptoms,Goal-Oriented,train
+25_1_0,Labs have been order!,Labs have been order,Diagnostics,Goal-Oriented,train
+5_0_2,this was faxed MM/DD/YYYY.,this was faxed,Care_Coordination,Goal-Oriented,train
+232_5_0,"They are for the attention of Dr. Person3,","They are for the attention of Dr. Person3, Lymphoma Department at Org1",Care_Coordination,Goal-Oriented,train
+23_1_0,Can I go before MM/DD/YYYY.,Can I go before ,Scheduling_appt,Goal-Oriented,train
+110_0_1,I messaged pharmacy to release,I messaged pharmacy to release it.,Drugs,Goal-Oriented,train
+38_2_1,"I had ordered both tumor markers,",I had ordered both tumor markers,Diagnostics,Goal-Oriented,train
+220_0_0,Hi Person1 I asked Dr Person2 to review and here are,I asked Dr Person2 to review and here are his thoughts,Care_Coordination,Goal-Oriented,train
+56_0_1,I was wondering if they had measured,I was wondering if they had measured my PSA in MM/DD/YYYY blood draw.,Diagnostics,Goal-Oriented,train
+125_2_0,I can see if we can get,I can see if we can get you rescheduled,Scheduling_appt,Goal-Oriented,train
+135_1_0,Im preparing for surgery on MM/DD/YYYY & I,Im preparing for surgery on MM/DD/YYYY,General_information,Goal-Oriented,train
+59_1_0,He just got back to me this morning and advised,He just got back to me this morning,Care_Coordination,Goal-Oriented,train
+21_4_0,Please advise.,Please advise,General_information,Goal-Oriented,train
+118_1_0,How long has this been going on?,How long has this been going on?,Symptoms,Goal-Oriented,train
+62_0_0,Please can you tell me about my results good or bad,Please can you tell me about my results good or bad,Diagnostics,Goal-Oriented,train
+34_3_0,My youngest son has MS.,My youngest son has MS,General_information,Goal-Oriented,train
+261_0_0,We were able to move up the imaging let,We were able to move up the imaging,Scheduling_appt,Goal-Oriented,train
+38_2_3,the CEA (just another marker in this situation) to the CA27.29 and agree,adding the CEA (just another marker in this situation) to the CA27.29 ,Diagnostics,Goal-Oriented,train
+208_0_1,Script will be sent over to the pharmacy tomorrow.,Script will be sent over to the pharmacy tomorrow.,Drugs,Goal-Oriented,train
+70_0_1,normal clear yellow so the false blood in the urine was cause by drinking beet juice,so the false blood in the urine was cause by drinking beet juice,General_information,Goal-Oriented,train
+1_1_0,I just set up an appt for me to see,I just set up an appt,Scheduling_appt,Goal-Oriented,train
+175_0_0,As I traveling immediately following,As I traveling immediately following my next visit (MM/DD/YYYY) to Org3,General_information,Goal-Oriented,train
+75_2_0,Is there a  fax/phone number/person /dept  Thanks  Person2 Up to you if you want,Is there a  fax/phone number/person /dept,General_information,Goal-Oriented,train
+211_0_2,up with to schedule the lymph node biopsy procedure prior to my SABR treatment.,Could you please tell me who I should be following up with to schedule the lymph node biopsy procedure prior to my SABR treatment,Scheduling_appt,Goal-Oriented,train
+54_5_2,"elevated (7.5) because of the prednisone,",because of the prednisone,Drugs,Goal-Oriented,train
+60_1_0,Is my psa high or low,Is my psa high or low,Diagnostics,Goal-Oriented,train
+242_0_1,Could you please confirm your fax number.,Could you please confirm your fax number,General_information,Goal-Oriented,train
+197_5_0,Most people tolerate it fine 3 times per week.,Most people tolerate it fine 3 times per week,Drugs,Goal-Oriented,train
+46_0_1,still scheduled for 230,"No, still scheduled for 230",Scheduling_appt,Goal-Oriented,train
+14_1_0,He will stop by your office afterward.,He will stop by your office afterward,General_information,Goal-Oriented,train
+254_1_0,I have not completely recovered from the surgery of MM/DD/YYYY.,I have not completely recovered from the surgery of MM/DD/YYYY,Symptoms,Goal-Oriented,train
+21_0_1,I was just looking at my calendar and realized,I was just looking at my calendar and realized my next appt,Scheduling_appt,Goal-Oriented,train
+207_0_1,I need a refill for the above.,I need a refill for the above,Drugs,Goal-Oriented,train
+68_2_0,I will ask our Clinical Secretary to schedule this and she will call,I will ask our Clinical Secretary to schedule this,Scheduling_appt,Goal-Oriented,train
+20_0_4,they will the answers you need,they will the answers you need,General_information,Goal-Oriented,train
+253_1_0,I will be in for my appointment tomorrow.,I will be in for my appointment tomorrow,Scheduling_appt,Goal-Oriented,train
+17_1_1,just got a call for MM/DD/YYYY w Dr. B on MM/DD/YYYY.,"Yep, just got a call for MM/DD/YYYY w",Scheduling_appt,Goal-Oriented,train
+336_1_0,The next available we were able to get in you is,The next available we were able to get in you is for MM/DD/YYYY at 130,Scheduling_appt,Goal-Oriented,train
+169_1_0,I do not see it on your med list.,I do not see it on your med list,Drugs,Goal-Oriented,train
+138_1_0,Dr. Person3 is ok with having you get,Dr. Person3 is ok with having you get your port out,Care_Coordination,Goal-Oriented,train
+198_1_0,I had noticed something going on with my breathing/lungs so this is,I had noticed something going on with my breathing/lungs,Symptoms,Goal-Oriented,train
+63_0_0,Please let me know,Please let me know about blood work,Diagnostics,Goal-Oriented,train
+155_0_1,"on the list to call,",He said you are on the list to call,Care_Coordination,Goal-Oriented,train
+68_3_0,This test usually takes MM/DD/YYYY to get,This test usually takes MM/DD/YYYY to get an appointment,Scheduling_appt,Goal-Oriented,train
+223_4_0,In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well.,In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well,Care_Coordination,Goal-Oriented,train
+168_0_1,note two requests for Eliquis refill as need before trip and again,note two requests for Eliquis refill as need before trip and again on continuing basis,Drugs,Goal-Oriented,train
+259_0_0,"3  months,",3  months,Scheduling_appt,Goal-Oriented,train
+233_0_0,Hi Person1 Do you have a fax number for Dr Person2 and I can fax,Do you have a fax number for Dr Person2 and I can fax the report over to him,Care_Coordination,Goal-Oriented,train
+154_7_0,It has been going on for about 4 days now.,It has been going on for about 4 days now,Symptoms,Goal-Oriented,train
+140_0_1,I sent the message to Dr. Person2 yesterday evening and have not gotten, I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet,Care_Coordination,Goal-Oriented,train
+116_1_0,I also have super bad heartburn.,I also have super bad heartburn,Symptoms,Goal-Oriented,train
+133_1_4,with IR  for them to take,we'll get you scheduled with IR  for them to take it out,Scheduling_appt,Goal-Oriented,train
+187_4_0,In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well.,In speaking with the vascular cardiologist there is also question mark as to whether there really was a partial blood clot in my vein as well,Care_Coordination,Goal-Oriented,train
+93_1_0,He concurs with you re not restarting Lupron.,He concurs with you re not restarting Lupron,Care_Coordination,Goal-Oriented,train
+182_0_1,Dr. Person3 can put a referral in for a PT eval with a lymphedema therapist.,Dr. Person3 can put a referral in for a PT eval with a lymphedema therapist,Care_Coordination,Goal-Oriented,train
+135_2_1,I was able to fax the paperwork that night from work.,"After speaking to Person1 on MM/DD/YYYY & MM/DD/YYYY , I was able to fax the paperwork that night from work",Care_Coordination,Goal-Oriented,train
+13_4_0,"I would like to add one more Rx request: a new script for Lidocaine / Prilocaine cream,",I would like to add one more Rx request,Drugs,Goal-Oriented,train
+154_5_0,I also feel a little tingling in my upper arm at times.,I also feel a little tingling in my upper arm at times,Symptoms,Goal-Oriented,train
+94_2_0,What date?,What date?,Scheduling_appt,Goal-Oriented,train
+126_1_0,The neuropathy has tapered,The neuropathy has tapered down even tho it still happens,Symptoms,Goal-Oriented,train
+158_0_0,Hi Person3 - I sent the prescription for oxycodone to Dr. Person1 to sign,I sent the prescription for oxycodone to Dr. Person1 to sign,Care_Coordination,Goal-Oriented,train
+17_6_1,MM/DD/YYYY one 5mg am and one 5mg pm,MM/DD/YYYY one 5mg am and one 5mg pm,Drugs,Goal-Oriented,train
+21_1_1,MM/DD/YYYY I'm supposed to start my next round of Ibrance??,That is MM/DD/YYYY I'm supposed to start my next round of Ibrance??,Drugs,Goal-Oriented,train
+104_1_0,The ED doctor just called.,The ED doctor just called,Care_Coordination,Goal-Oriented,train
+183_1_1,her again on MM/DD/YYYY.,am seeing her again on MM/DD/YYYY,Care_Coordination,Goal-Oriented,train
+78_0_0,I have a question about CBC WITH AUTO DIFFERENTIAL resulted,I have a question about CBC WITH AUTO DIFFERENTIAL resulted on MM/DD/YYYY at MM/DD/YYYY,Diagnostics,Goal-Oriented,train
+126_1_1,down even tho it still happens.,The neuropathy has tapered down even tho it still happens,Symptoms,Goal-Oriented,train
+111_2_0,I told them of this pain on my right side.,I told them of this pain on my right side,Symptoms,Goal-Oriented,train
+17_8_0,Person3 is tolerating all meds well and following,Person3 is tolerating all meds well and following directions,Drugs,Goal-Oriented,train
+67_0_4,on the blood draw that was made,That's why i asked if was made on the blood draw that was made,General_information,Goal-Oriented,train
+233_3_0,Their number is #XXX-XXX-XXXX.,Their number is #XXX-XXX-XXXX,General_information,Goal-Oriented,train
+106_0_1,I am feeling much better.,I am feeling much better.,Symptoms,Goal-Oriented,train
+75_2_1,to send me the mane of the place it goes,Up to you if you want to send me the mane of the place it goes.,Care_Coordination,Goal-Oriented,train
+43_1_0,I don't seen the results for my PSA.,I don't seen the results for my PSA.,Diagnostics,Goal-Oriented,train
+27_0_3,a bit longer to show up in Person2.,takes a bit longer to show up in,General_information,Goal-Oriented,train
+24_0_2,the timing of my blood work.,but I am still not understanding the timing of my blood work,Diagnostics,Goal-Oriented,train
+124_1_0,Do we need to reschedule ?,Do we need to reschedule ?,Scheduling_appt,Goal-Oriented,train
+14_0_0,"I have not rec'd email message from blood testing lab,",not rec'd email message from blood testing lab,Diagnostics,Goal-Oriented,train
+40_0_1,Just checking to see how my bloodwork looks,Just checking to see how my bloodwork looks for my WBC?,Diagnostics,Goal-Oriented,train
+111_3_2,right under my right breast to my right side.,"It is intermittent and sharp, located right under my right breast to my right side",Symptoms,Goal-Oriented,train
+172_0_0,Another unproductive week of using the leg massage machine has me rethink,Another unproductive week of using the leg massage machine,Symptoms,Goal-Oriented,train
+17_6_0,Re Eliquis: MM/DD/YYYY two 5mg tabs morning and night,Re Eliquis: MM/DD/YYYY two 5mg tabs morning and night,Drugs,Goal-Oriented,train
+66_1_1,your  message below I can better respond to your question.,If you could please clarify your  message below I can better respond to your question,General_information,Goal-Oriented,train
+17_3_0,"I've set up Person3's other am,",I've set up Person3's other,Scheduling_appt,Goal-Oriented,train
+123_1_0,It can be a common side effect of the Taxol.,It can be a common side effect of the Taxol,Drugs,Goal-Oriented,train
+15_2_1,)  I also spoke w Dr. B about 2 Rxs that have been pending,I also spoke w Dr. B about 2 Rxs,Drugs,Goal-Oriented,train
+270_1_0,Next one is scheduled for MM/DD/YYYY.,Next one is scheduled for MM/DD/YYYY,Scheduling_appt,Goal-Oriented,train
+85_0_1,I emailed this today.,I emailed this today.,General_information,Goal-Oriented,train
+59_0_1,Yes I noted that and discussed,Yes I noted that and discussed it with Dr. Person2,Care_Coordination,Goal-Oriented,train
+22_2_0,The pharmacy is pretty quick to get meds out to patients and can do,The pharmacy is pretty quick to get meds out to patients,Drugs,Goal-Oriented,train
+11_1_0,"Person1 has been taking Oxycodone HCL 15mg,",has been taking Oxycodone,Drugs,Goal-Oriented,train
+239_0_1,I have not heard anything.,I have not heard anything,General_information,Goal-Oriented,train
+72_0_0,PSA in still coming down and this is,PSA in still coming down,Diagnostics,Goal-Oriented,train
+250_4_0,That appt is sched for Thurs.,That appt is sched for Thurs,Scheduling_appt,Goal-Oriented,train
+207_1_0,Sent a request previously but nothing has come,Sent a request previously but nothing has come through,Drugs,Goal-Oriented,train
+61_2_2,TOTAL (POST DIAGNOSIS) (BH GH LMW YH) resulted on MM/DD/YYYY at MM/DD/YYYY.,"I have a question about PSA, TOTAL (POST DIAGNOSIS) (BH GH LMW YH) resulted on",Diagnostics,Goal-Oriented,train
+24_0_1,you but I am still not understanding,but I am still not understanding the timing of my blood work,Diagnostics,Goal-Oriented,train
+315_5_0,I will ask our secretary to schedule but if MM/DD/YYYY is,I will ask our secretary to schedule,Scheduling_appt,Goal-Oriented,dev
+147_2_0,"I only have a few pills left,",I only have a few pills left,Drugs,Goal-Oriented,dev
+80_0_1,I had PSA test done,I had PSA test done,Diagnostics,Goal-Oriented,dev
+42_0_0,I believe it should be,I believe it should be 9am,Scheduling_appt,Goal-Oriented,dev
+97_0_3,on MM/DD/YYYY she recommended a PET in 3 months and follow,When you last saw Dr. Person2 on MM/DD/YYYY she recommended a PET in 3 months and follow up after.,Care_Coordination,Goal-Oriented,dev
+169_0_0,SEnding message to Dr  Person1.,SEnding message to Dr  Person1,Care_Coordination,Goal-Oriented,dev
+13_5_0,"We are both at the limit of getting ""stuck.""","We are both at the limit of getting ""stuck.""",General_information,Goal-Oriented,dev
+26_1_0,I told them just the CBC But they did it without differential?,But they did it without differential?,Diagnostics,Goal-Oriented,dev
+54_5_1,my glucose remains,I guess my glucose remains elevated (7.5) ,Symptoms,Goal-Oriented,dev
+119_5_0,I sleep raised up.,I sleep raised up,General_information,Goal-Oriented,dev
+131_2_0,I will call her as well to confirm,I will call her as well to confirm she has it hasn received it,General_information,Goal-Oriented,dev
+204_0_1,I have emailed and left,I have emailed and left messages,General_information,Goal-Oriented,dev
+68_0_1,The test is a Dexa Bone Density Test.,The test is a Dexa Bone Density Test.,Diagnostics,Goal-Oriented,dev
+41_0_0,Is my new time of arrival on MM/DD/YYYY 9:20 AM?,Is my new time of arrival,Scheduling_appt,Goal-Oriented,dev
+31_1_0,Started week three MM/DD/YYYY.,Started week three,General_information,Goal-Oriented,dev
+93_2_2,"evolution in the 2 newly spot nodal issues,",to assess evolution in the 2 newly spot nodal issues,Symptoms,Goal-Oriented,dev
+127_0_0,I'll pass your message along to the surgery team.,I'll pass your message along to the surgery team,Care_Coordination,Goal-Oriented,dev
+15_2_3,"current Rx will run out by tmrrw,",Oxycodone 15mg rapid release; current Rx will run out by tmrrw,Drugs,Goal-Oriented,dev
+54_4_0,I continue on my daily regimen of abiraterone acetate and prednisone,I continue on my daily regimen of abiraterone acetate and prednisone,Drugs,Goal-Oriented,dev
+58_2_0,I be in touch with Dr. Person1 this coming week.),I be in touch with Dr. Person1 this coming week.,General_information,Goal-Oriented,dev
+121_0_1,It two weeks since I finished chemo &  I not sure when this happen,It two weeks since I finished chemo,Drugs,Goal-Oriented,dev
+215_0_2,to begin radiation therapy on MM/DD/YYYY for five sessions.,I now scheduled to begin radiation therapy on MM/DD/YYYY for five sessions,Scheduling_appt,Goal-Oriented,dev
+350_2_0,We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning.,We also need to schedule a CT scan IV Contrast for First week in MM/DD/YYYY also on a MM/DD/YYYY morning,Scheduling_appt,Goal-Oriented,dev
+216_2_3,appointment with Dr Person2.,we will reschedule appointment with Dr Person2,Scheduling_appt,Goal-Oriented,dev
+234_1_1,I probably have 20+ hematoma under the skin.,"In addition to the bruising, I probably have 20+ hematoma under the skin",Symptoms,Goal-Oriented,dev
+15_2_5,current Rx will run out Sun.,Eliquis 5mg; current Rx will run out,Drugs,Goal-Oriented,dev
+74_0_0,Hi Person1 i just want to know if  Dr Person2 fill,i just want to know if  Dr Person2 fill the phisiical form  I drop,General_information,Goal-Oriented,dev
+101_0_1,Unfortunately I took a nasty slip down five steps MM/DD/YYYY.,Unfortunately I took a nasty slip down five steps,General_information,Goal-Oriented,dev
+93_0_1,I was in contact with Dr  Person1.,I was in contact with Dr  Person1,Care_Coordination,Goal-Oriented,dev
+239_1_0,I have been at work daily and just checked,I have been at work daily,General_information,Goal-Oriented,dev
+37_8_0,The 27/29 has been a good indicator for me in the past.,The 27/29 has been a good indicator for me in the past,Diagnostics,Goal-Oriented,dev
+60_0_1,TOTAL (POST DIAGNOSIS) (BH GH LMW YH) resulted,"I have a question about PSA, TOTAL (POST DIAGNOSIS) (BH GH LMW YH) resulted on",Diagnostics,Goal-Oriented,dev
+39_0_1,Just checking to see how my bloodwork looks,Just checking to see how my bloodwork looks for my WBC?,Diagnostics,Goal-Oriented,dev
+199_0_1,The swelling in both lower legs/ankles is chronic and I think,The swelling in both lower legs/ankles is chronic,Symptoms,Goal-Oriented,dev
+164_0_0,I am consulting with Dr. Person1 to get,I am consulting with Dr. Person1 to get her thoughts.,Care_Coordination,Goal-Oriented,dev
+196_0_1,I have just received a new medication that you appear,I have just received a new medication that you appear to have prescribed,Drugs,Goal-Oriented,dev
+56_1_0,I haven seen a result yet.,I haven seen a result yet,Diagnostics,Goal-Oriented,dev
+17_4_2,but MM/DD/YYYY had to go MM/DD/YYYY.,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,Goal-Oriented,dev
+266_5_3,sick after a couple of hours.,but they really do make me feel sick after a couple of hours,Symptoms,Goal-Oriented,dev
+141_1_0,I did not realize he got,I did not realize he got a promotion,General_information,Goal-Oriented,dev
+127_3_0,This can help  with the nail discomfort and helping keep,This can help  with the nail discomfort and helping keep them really clean,General_information,Goal-Oriented,dev
+161_0_1,I sent your message on to Dr  Person2,"Dr Person1, I sent your message on to Dr  Person2",Care_Coordination,Goal-Oriented,dev
+137_0_1,"I faxed the paperwork,",I faxed the paperwork,Care_Coordination,Goal-Oriented,dev
+227_1_0,I starting radiation therapy tomorrow.,I starting radiation therapy tomorrow,Drugs,Goal-Oriented,dev
+54_5_3,according to my primary.,according to my primary,General_information,Goal-Oriented,dev
+64_1_0,The white count is lower and also the platelets,The white count is lower and also the platelets,Diagnostics,Goal-Oriented,dev
+68_2_1,you with the date and time,she will call you with the date and time,Scheduling_appt,Goal-Oriented,dev
+101_1_0,I am a little bruised.,I am a little bruised,Symptoms,Goal-Oriented,dev
+315_3_1,an come in on MM/DD/YYYY at 10:00am you can see,if you c an come in on MM/DD/YYYY at 10:00am you can see Dr  Person2 and get your injection,Scheduling_appt,Goal-Oriented,dev
+13_7_0,One more bit of info for Dr. Person3: Dr. Person4 was speaking with Dr. Person5 (MSKCC) to see,Dr. Person4 was speaking with Dr. Person5,Care_Coordination,Goal-Oriented,dev
+141_4_0,It is interfering with my daily activities    Person1,It is interfering with my daily activities,Symptoms,Goal-Oriented,dev
+121_3_0,I also have an appt with Dr.Person1 on MM/DD/YYYY I can show,I also have an appt with Dr.Person1 on MM/DD/YYYY I can show him at that time also,Care_Coordination,Goal-Oriented,dev
+138_2_1,a time frame that works,Let me know a time frame that works for you,Scheduling_appt,Goal-Oriented,dev
+59_1_1,me that we will just repeat,advised me that we will just repeat scans in MM/DD/YYYY,Diagnostics,Goal-Oriented,dev
+27_0_2,The CBC was done with a manual diff so sometimes that takes,The CBC was done with a manual diff,Diagnostics,Goal-Oriented,test
+188_2_0,This is both uncomfortable and painful,This is both uncomfortable and painful,Symptoms,Goal-Oriented,test
+217_0_1,I will reschedule them.,I will reschedule them,Scheduling_appt,Goal-Oriented,test
+106_3_0,I have a meeting with my pulmonologist in about five minutes.,I have a meeting with my pulmonologist in about five minutes,Care_Coordination,Goal-Oriented,test
+154_0_0,I have had pain on the left side of my breast and right above in the chest area.,I have had pain on the left side of my breast and right above in the chest area,Symptoms,Goal-Oriented,test
+280_3_4,no longer contagious or whatever the correct wording would be,the 10 day quarantine of symptom on set has passed and am no longer contagious or whatever the correct wording would be,Symptoms,Goal-Oriented,test
+93_3_0,He is not concerned about the renal cysts,He is not concerned about the renal cysts as possibly cancerous,Symptoms,Goal-Oriented,test
+162_0_0,It is Org1 orthopedics in Location and the physical therapist is,It is Org1 orthopedics in Location and the physical therapist is Person1,General_information,Goal-Oriented,test
+15_3_2,over this RX;,he would take over this RX,Drugs,Goal-Oriented,test
+33_1_5,on I Person3 and my other meds,being on I Person3 and my other meds,Drugs,Goal-Oriented,test
+37_7_0,I was wondering if there was,I was wondering if there was a reason,Diagnostics,Goal-Oriented,test
+108_1_0,I am doing fine.,I am doing fine,Symptoms,Goal-Oriented,test
+239_1_1,through Person2 messages as well.,just checked through Person2 messages as well,Care_Coordination,Goal-Oriented,test
+57_0_1,result not back yet,"Yes, result not back yet",Diagnostics,Goal-Oriented,test
+17_11_3,recently interrupted by anxiety attacks.,"Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks",Symptoms,Goal-Oriented,test
+230_0_3,very bothersome and affects,it is very bothersome and affects both my reading and eyesight,Symptoms,Goal-Oriented,test
+58_0_1,that my PSA is elevated,I see that my PSA is elevated,Diagnostics,Goal-Oriented,test
+154_4_0,I have tried ibuprofen and I tried,I have tried ibuprofen and I tried Gabapentin this morning,Drugs,Goal-Oriented,test
+199_1_0,Could you please make a referral for me.,Could you please make a referral for me,Care_Coordination,Goal-Oriented,test
+267_0_1,"I coming in on MM/DD/YYYY,","I coming in on MM/DD/YYYY, but just in case I forget to ask",Scheduling_appt,Goal-Oriented,test
+153_0_0,Is there another name for that?,Is there another name for that?,Drugs,Goal-Oriented,test
+135_2_0,After speaking to Person1 on MM/DD/YYYY & MM/DD/YYYY,"After speaking to Person1 on MM/DD/YYYY & MM/DD/YYYY , I was able to fax the paperwork that night from work",Care_Coordination,Goal-Oriented,test
+37_3_2,At our last appointment we discussed getting the cancer antigen test at my next blood work.,At our last appointment we discussed getting the cancer antigen test at my next blood work,Diagnostics,Goal-Oriented,test
+315_5_2,the office at XXX-XXX-XXXX to reschedule.,if MM/DD/YYYY is not good for you you can call the office at XXX-XXX-XXXX to reschedule,Scheduling_appt,Goal-Oriented,test
+119_0_0,Hi  Not really I can have toast and it will bother,Not really I can have toast and it will bother me,Symptoms,Goal-Oriented,test
+34_0_2,I just heard on the news about the spike in COVID cases in LOCATION.,I just heard on the news about the spike in COVID cases,General_information,Goal-Oriented,test
+43_0_1,I had blood work done yesterday as part of my visit.,I had blood work done yesterday as part of my visit,Diagnostics,Goal-Oriented,test
+15_3_1,he would take,he would take over this RX,Drugs,Goal-Oriented,test
+292_1_0,I have asked our schedulers to  change it.,I have asked our schedulers to  change it,Scheduling_appt,Goal-Oriented,test
+66_3_1,our Clinical Secretary to schedule?,There is an order would you like our Clinical Secretary to schedule?,Scheduling_appt,Goal-Oriented,test
+17_4_1,"to keep Oxy steady at MM/DD/YYYY,","Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Drugs,Goal-Oriented,test
+21_2_0,I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled,I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled,Scheduling_appt,Goal-Oriented,test
+64_0_0,I have sent a message to Dr. Person1 to ask,I have sent a message to Dr. Person1 to ask him to review them and let us know,Care_Coordination,Goal-Oriented,test
+18_0_5,it MM/DD/YYYY but it may not be,I hope he signs it MM/DD/YYYY but it may not be  until MM/DD/YYYY,General_information,Goal-Oriented,test
+230_0_4,both my reading and eyesight,it is very bothersome and affects both my reading and eyesight,Symptoms,Goal-Oriented,test
+126_5_0,My nails are very sore n numb,My nails are very sore n numb.,Symptoms,Goal-Oriented,test
+49_1_0,The CT chest has been resulted so yes you should see,The CT chest has been resulted so yes you should see on My Chart once the physician has released it for ou to view.,Diagnostics,Goal-Oriented,test
+66_2_0,Were there any other labs you wanted,Were there any other labs you wanted and are you referring to a Bone Density Test?,Diagnostics,Goal-Oriented,test
+133_1_1,the ok to remove,Once we get the ok to remove it,Care_Coordination,Goal-Oriented,test
+75_1_0,Also we were given only one page.,Also we were given only one page,General_information,Goal-Oriented,test
+71_0_1,TOTAL (POST DIAGNOSIS) (BH GH LMW YH) resulted,"I have a question about PSA, TOTAL (POST DIAGNOSIS) (BH GH LMW YH) resulted on MM/DD/YYYY at MM/DD/YYYY",Diagnostics,Goal-Oriented,test
+111_1_0,The consensus is I had,The consensus is I had asthma attacks,Symptoms,Goal-Oriented,test
+17_2_4,pretty nasty.,which can be pretty nasty,Symptoms,Goal-Oriented,test
+157_0_1,a refill in for me for my Oxycodone to Org2,I was wondering if you could send a refill in for me for my Oxycodone to Org2 in Org2?,Drugs,Goal-Oriented,test
+64_3_2,From MM/DD/YYYY and now,How it's From MM/DD/YYYY and now,Diagnostics,Goal-Oriented,test
+65_0_0,How was my vital on the last blood draw  Also  How was,How was my vital on the last blood draw,Diagnostics,Goal-Oriented,test
+0_0_1,1)   He definitely needs/,He definitely needs/,Scheduling_appt,Goal-Oriented,test
+16_1_3,30 tablets on MM/DD/YYYY how many a day is he taking,how many a day is he taking,Drugs,Goal-Oriented,test
+154_1_1,like muscle pain in my shoulder blade area and my upper arm,I also have what feels like muscle pain in my shoulder blade area and my upper arm,Symptoms,Goal-Oriented,test
+335_0_1,my MM/DD/YYYY appointment to the MM/DD/YYYY i will be away on the MM/DD/YYYY.,Can i change my MM/DD/YYYY appointment to the MM/DD/YYYY,Scheduling_appt,Goal-Oriented,test
+126_4_1,to ask Dr. Person2 about my thumbnail & big toe,I wanted to ask Dr. Person2 about my thumbnail & big toe leaking puss sometimes,Symptoms,Goal-Oriented,test
+155_0_3,"the exact time,",I cannot confirm the exact time,General_information,Goal-Oriented,test
+37_0_3,the CEA (just another marker in this situation) to the CA27.29 and agree,adding the CEA (just another marker in this situation) to the CA27.29 ,Diagnostics,Goal-Oriented,test
+184_0_1,The PT referral was placed Thanks Person2,The PT referral was placed,Care_Coordination,Goal-Oriented,test

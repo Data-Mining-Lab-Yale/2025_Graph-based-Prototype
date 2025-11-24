@@ -1,0 +1,248 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    The drug company has pulled my Lymphoma chemo drug from the market due to adverse events occurring on their Phase III trial. I therefore need to find another treatment and am seeing my MZL doctor in LOCATION on MM/DD/YYYY. They have asked if we can send the PET report and scans to them beforehand. Is it possible to have Person2 help with this please? Presume they can be shared digitally. They are for the attention of Dr. Person3, Lymphoma Department at Org1. Have also consulted with Dr. Person5 and she is interested in knowing what other options Person4 may have for me including any clinical trials. Much appreciated,  Person6",
+      "id": 232
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    The drug company has pulled my Lymphoma chemo drug from the market due to adverse events occurring on their Phase III trial.",
+      "id": "232_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "232_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "The drug company has pulled my Lymphoma chemo drug from the market due to adverse events occurring on their Phase III trial.",
+      "id": "232_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I therefore need to find another treatment and am seeing my MZL doctor in LOCATION on MM/DD/YYYY.",
+      "id": "232_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I therefore need to find another treatment and am seeing",
+      "id": "232_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my MZL doctor in LOCATION on MM/DD/YYYY.",
+      "id": "232_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "They have asked if we can send the PET report and scans to them beforehand.",
+      "id": "232_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "They have asked if we can send",
+      "id": "232_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the PET report and scans",
+      "id": "232_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to them beforehand.",
+      "id": "232_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Is it possible to have Person2 help with this please?",
+      "id": "232_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is it possible to have Person2 help",
+      "id": "232_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with this please?",
+      "id": "232_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Presume they can be shared digitally.",
+      "id": "232_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Presume they can be shared",
+      "id": "232_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "digitally.",
+      "id": "232_4_1"
+    },
+    {
+      "label": "sentence",
+      "text": "They are for the attention of Dr. Person3, Lymphoma Department at Org1.",
+      "id": "232_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "They are for the attention of Dr. Person3,",
+      "id": "232_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Lymphoma Department at Org1.",
+      "id": "232_5_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Have also consulted with Dr. Person5 and she is interested in knowing what other options Person4 may have for me including any clinical trials.",
+      "id": "232_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have also consulted with Dr. Person5 and she is",
+      "id": "232_6_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "interested in knowing what other options Person4 may have",
+      "id": "232_6_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for me including any clinical trials.",
+      "id": "232_6_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Much appreciated,  Person6",
+      "id": "232_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "Much appreciated,",
+      "id": "232_7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person6",
+      "id": "232_7_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 232,
+      "target": "232_0"
+    },
+    {
+      "source": 232,
+      "target": "232_1"
+    },
+    {
+      "source": 232,
+      "target": "232_2"
+    },
+    {
+      "source": 232,
+      "target": "232_3"
+    },
+    {
+      "source": 232,
+      "target": "232_4"
+    },
+    {
+      "source": 232,
+      "target": "232_5"
+    },
+    {
+      "source": 232,
+      "target": "232_6"
+    },
+    {
+      "source": 232,
+      "target": "232_7"
+    },
+    {
+      "source": "232_0",
+      "target": "232_0_0"
+    },
+    {
+      "source": "232_0",
+      "target": "232_0_1"
+    },
+    {
+      "source": "232_1",
+      "target": "232_1_0"
+    },
+    {
+      "source": "232_1",
+      "target": "232_1_1"
+    },
+    {
+      "source": "232_2",
+      "target": "232_2_0"
+    },
+    {
+      "source": "232_2",
+      "target": "232_2_1"
+    },
+    {
+      "source": "232_2",
+      "target": "232_2_2"
+    },
+    {
+      "source": "232_3",
+      "target": "232_3_0"
+    },
+    {
+      "source": "232_3",
+      "target": "232_3_1"
+    },
+    {
+      "source": "232_4",
+      "target": "232_4_0"
+    },
+    {
+      "source": "232_4",
+      "target": "232_4_1"
+    },
+    {
+      "source": "232_5",
+      "target": "232_5_0"
+    },
+    {
+      "source": "232_5",
+      "target": "232_5_1"
+    },
+    {
+      "source": "232_6",
+      "target": "232_6_0"
+    },
+    {
+      "source": "232_6",
+      "target": "232_6_1"
+    },
+    {
+      "source": "232_6",
+      "target": "232_6_2"
+    },
+    {
+      "source": "232_7",
+      "target": "232_7_0"
+    },
+    {
+      "source": "232_7",
+      "target": "232_7_1"
+    }
+  ]
+}

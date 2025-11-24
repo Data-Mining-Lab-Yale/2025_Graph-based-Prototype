@@ -1,0 +1,234 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "wondering",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 1
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 2
+    },
+    {
+      "label": "Just",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 5
+    },
+    {
+      "label": "let",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 11
+    },
+    {
+      "label": "hear",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "might",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "back",
+      "pos": "ADV",
+      "id": 15
+    },
+    {
+      "label": "from",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 17
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 18
+    },
+    {
+      "label": "before",
+      "pos": "ADP",
+      "id": 19
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 20
+    },
+    {
+      "label": "weekend",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 22
+    }
+  ],
+  "links": [
+    {
+      "dep": "punct",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 22
+    },
+    {
+      "dep": "dep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "mark",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "aux",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "ccomp",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "dep": "nsubj",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "mark",
+      "source": 14,
+      "target": 11
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "advmod",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "dep": "prep",
+      "source": 14,
+      "target": 19
+    },
+    {
+      "dep": "prep",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "compound",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "pobj",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "det",
+      "source": 21,
+      "target": 20
+    }
+  ]
+}

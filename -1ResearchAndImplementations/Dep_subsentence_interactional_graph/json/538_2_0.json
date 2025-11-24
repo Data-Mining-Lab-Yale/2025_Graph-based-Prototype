@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "A",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "urologist",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

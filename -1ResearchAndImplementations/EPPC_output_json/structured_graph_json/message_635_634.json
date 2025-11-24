@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  Yes. That would be great! Maybe see you next week when I come in. Thanks so much!  Person2",
+      "id": 634
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  Yes.",
+      "id": "634_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "634_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes.",
+      "id": "634_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "That would be great!",
+      "id": "634_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "That would be great!",
+      "id": "634_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Maybe see you next week when I come in.",
+      "id": "634_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Maybe see you next week when I come",
+      "id": "634_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "in.",
+      "id": "634_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks so much!",
+      "id": "634_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much!",
+      "id": "634_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2",
+      "id": "634_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "634_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 634,
+      "target": "634_0"
+    },
+    {
+      "source": 634,
+      "target": "634_1"
+    },
+    {
+      "source": 634,
+      "target": "634_2"
+    },
+    {
+      "source": 634,
+      "target": "634_3"
+    },
+    {
+      "source": 634,
+      "target": "634_4"
+    },
+    {
+      "source": "634_0",
+      "target": "634_0_0"
+    },
+    {
+      "source": "634_0",
+      "target": "634_0_1"
+    },
+    {
+      "source": "634_1",
+      "target": "634_1_0"
+    },
+    {
+      "source": "634_2",
+      "target": "634_2_0"
+    },
+    {
+      "source": "634_2",
+      "target": "634_2_1"
+    },
+    {
+      "source": "634_3",
+      "target": "634_3_0"
+    },
+    {
+      "source": "634_4",
+      "target": "634_4_0"
+    }
+  ]
+}

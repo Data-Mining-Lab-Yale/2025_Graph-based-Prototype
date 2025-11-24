@@ -1,0 +1,64 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thank",
+      "pos": "VERB",
+      "id": 0
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 2
+    },
+    {
+      "label": "happy",
+      "pos": "ADJ",
+      "id": 3
+    },
+    {
+      "label": "year",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "new",
+      "pos": "ADJ",
+      "id": 4
+    }
+  ],
+  "links": [
+    {
+      "dep": "dobj",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "cc",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    }
+  ]
+}

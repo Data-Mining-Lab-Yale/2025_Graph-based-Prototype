@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,   I forgot to give you my cell number which would be the easiest way to contact me. It is XXX-XXX-XXXX   THanks, Person2",
+      "id": 251
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,   I forgot to give you my cell number which would be the easiest way to contact me.",
+      "id": "251_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "251_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "251_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I forgot to give you my cell number which would be",
+      "id": "251_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "the easiest way to contact",
+      "id": "251_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "me.",
+      "id": "251_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "It is XXX-XXX-XXXX   THanks, Person2",
+      "id": "251_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "It is XXX-XXX-XXXX   THanks,",
+      "id": "251_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "251_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 251,
+      "target": "251_0"
+    },
+    {
+      "source": 251,
+      "target": "251_1"
+    },
+    {
+      "source": "251_0",
+      "target": "251_0_0"
+    },
+    {
+      "source": "251_0",
+      "target": "251_0_1"
+    },
+    {
+      "source": "251_0",
+      "target": "251_0_2"
+    },
+    {
+      "source": "251_0",
+      "target": "251_0_3"
+    },
+    {
+      "source": "251_0",
+      "target": "251_0_4"
+    },
+    {
+      "source": "251_1",
+      "target": "251_1_0"
+    },
+    {
+      "source": "251_1",
+      "target": "251_1_1"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "A",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 6
+    },
+    {
+      "label": "urologist",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 11
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 12
+    },
+    {
+      "label": "Org3",
+      "pos": "PROPN",
+      "id": 13
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 14
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 15
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 16
+    },
+    {
+      "label": "summary",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 17
+    },
+    {
+      "label": "posted",
+      "pos": "VERB",
+      "id": 19
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 20
+    },
+    {
+      "label": "visit",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 22
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 23
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 24
+    },
+    {
+      "label": "as",
+      "pos": "ADP",
+      "id": 25
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 26
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 27
+    },
+    {
+      "label": "Org3",
+      "pos": "PROPN",
+      "id": 28
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 29
+    },
+    {
+      "label": "mistake",
+      "pos": "NOUN",
+      "id": 30
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 31
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "poss",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "appos",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "dep": "compound",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "dep": "nsubj",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "dobj",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "dep": "prep",
+      "source": 19,
+      "target": 25
+    },
+    {
+      "dep": "punct",
+      "source": 19,
+      "target": 31
+    },
+    {
+      "dep": "poss",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "pobj",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "dep": "compound",
+      "source": 24,
+      "target": 23
+    },
+    {
+      "dep": "pcomp",
+      "source": 25,
+      "target": 26
+    },
+    {
+      "dep": "prep",
+      "source": 26,
+      "target": 27
+    },
+    {
+      "dep": "prep",
+      "source": 26,
+      "target": 29
+    },
+    {
+      "dep": "pobj",
+      "source": 27,
+      "target": 28
+    },
+    {
+      "dep": "pobj",
+      "source": 29,
+      "target": 30
+    }
+  ]
+}

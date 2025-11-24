@@ -1,0 +1,44 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "because",
+      "pos": "SCONJ",
+      "id": 0
+    },
+    {
+      "label": "do",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "she",
+      "pos": "PRON",
+      "id": 1
+    },
+    {
+      "label": "can",
+      "pos": "AUX",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "dep": "mark",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "aux",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

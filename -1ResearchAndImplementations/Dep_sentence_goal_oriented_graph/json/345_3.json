@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "had",
+      "pos": "VERB",
+      "id": 1
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "drawn",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 4
+    },
+    {
+      "label": "they",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "awaiting",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": "it",
+      "pos": "PRON",
+      "id": 8
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 9
+    },
+    {
+      "label": "entered",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 10
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 12
+    },
+    {
+      "label": "needed",
+      "pos": "VERB",
+      "id": 13
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "ccomp",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "dep": "cc",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "dobj",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "xcomp",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 14
+    },
+    {
+      "dep": "aux",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "auxpass",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "advcl",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "dep": "mark",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

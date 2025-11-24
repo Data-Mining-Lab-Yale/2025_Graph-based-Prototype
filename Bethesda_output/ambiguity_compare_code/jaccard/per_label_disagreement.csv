@@ -1,9 +1,0 @@
-label,neighbor_disagreement,neighbor_total,disagreement_rate
-PartnershipPatient,144,8960,0.0161
-PartnershipProvider,115,930,0.1237
-CareCoordinationPatient,4,670,0.006
-SDOH,3,3440,0.0009
-CareCoordinationProvider,2,240,0.0083
-SharedDecisionPatient,1,490,0.002
-SharedDecisionProvider,0,70,0.0
-SocioEmotionalBehaviour,0,670,0.0

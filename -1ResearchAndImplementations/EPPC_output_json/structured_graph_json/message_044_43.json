@@ -1,0 +1,59 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning,  I had blood work done yesterday as part of my visit. I don't seen the results for my PSA.",
+      "id": 43
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning,  I had blood work done yesterday as part of my visit.",
+      "id": "43_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "43_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I had blood work done yesterday as part of my visit.",
+      "id": "43_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I don't seen the results for my PSA.",
+      "id": "43_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I don't seen the results for my PSA.",
+      "id": "43_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 43,
+      "target": "43_0"
+    },
+    {
+      "source": 43,
+      "target": "43_1"
+    },
+    {
+      "source": "43_0",
+      "target": "43_0_0"
+    },
+    {
+      "source": "43_0",
+      "target": "43_0_1"
+    },
+    {
+      "source": "43_1",
+      "target": "43_1_0"
+    }
+  ]
+}

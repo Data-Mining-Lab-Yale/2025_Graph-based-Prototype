@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 0
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "spoke",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "also",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "w",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "Dr.",
+      "pos": "PROPN",
+      "id": 6
+    },
+    {
+      "label": "B",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "2",
+      "pos": "NUM",
+      "id": 9
+    },
+    {
+      "label": "Rxs",
+      "pos": "PROPN",
+      "id": 10
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "been",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "have",
+      "pos": "AUX",
+      "id": 12
+    },
+    {
+      "label": "pending",
+      "pos": "VERB",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "dep": "ccomp",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "quantmod",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nummod",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "nsubj",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 14,
+      "target": 13
+    }
+  ]
+}

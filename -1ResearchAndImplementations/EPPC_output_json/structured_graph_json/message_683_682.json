@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, You will most likely hear from Genetics next week to make an appointment, if not reach out to our office! Best, Person2",
+      "id": 682
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, You will most likely hear from Genetics next week to make an appointment, if not reach out to our office!",
+      "id": "682_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "682_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "You will most likely hear from Genetics next week to make",
+      "id": "682_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "an appointment,",
+      "id": "682_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "if not reach",
+      "id": "682_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "out to our office!",
+      "id": "682_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Best, Person2",
+      "id": "682_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Best,",
+      "id": "682_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "682_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 682,
+      "target": "682_0"
+    },
+    {
+      "source": 682,
+      "target": "682_1"
+    },
+    {
+      "source": "682_0",
+      "target": "682_0_0"
+    },
+    {
+      "source": "682_0",
+      "target": "682_0_1"
+    },
+    {
+      "source": "682_0",
+      "target": "682_0_2"
+    },
+    {
+      "source": "682_0",
+      "target": "682_0_3"
+    },
+    {
+      "source": "682_0",
+      "target": "682_0_4"
+    },
+    {
+      "source": "682_1",
+      "target": "682_1_0"
+    },
+    {
+      "source": "682_1",
+      "target": "682_1_1"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "afternoon",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "worked",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "     ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Unfortunately",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "last",
+      "pos": "ADJ",
+      "id": 7
+    },
+    {
+      "label": "night",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 9
+    },
+    {
+      "label": "came",
+      "pos": "VERB",
+      "id": 10
+    },
+    {
+      "label": "home",
+      "pos": "ADV",
+      "id": 11
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 12
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 14
+    },
+    {
+      "label": "fell",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "asleep",
+      "pos": "ADJ",
+      "id": 16
+    },
+    {
+      "label": "causing",
+      "pos": "VERB",
+      "id": 17
+    },
+    {
+      "label": "me",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "miss",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 19
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 21
+    },
+    {
+      "label": "appt",
+      "pos": "NOUN",
+      "id": 22
+    },
+    {
+      "label": "today",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 24
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "cc",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "conj",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 24
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "advmod",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "dep": "npadvmod",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "dep": "cc",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "dep": "conj",
+      "source": 10,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "dep": "advmod",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "advcl",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "dep": "ccomp",
+      "source": 17,
+      "target": 20
+    },
+    {
+      "dep": "nsubj",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "dep": "aux",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "dobj",
+      "source": 20,
+      "target": 22
+    },
+    {
+      "dep": "npadvmod",
+      "source": 20,
+      "target": 23
+    },
+    {
+      "dep": "poss",
+      "source": 22,
+      "target": 21
+    }
+  ]
+}

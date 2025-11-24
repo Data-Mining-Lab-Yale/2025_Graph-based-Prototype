@@ -1,0 +1,201 @@
+anchor_text,anchor_label,neighbor_text,neighbor_label,similarity
+Hi there,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,0.6449195559169048
+Hi there,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,0.6449195559169048
+Hi there,PROVIDER_PARTNERSHIP||salutation,Hi,PATIENT_PARTNERSHIP||salutation,0.6449195559169048
+He definitely needs/,Information-Giving||Scheduling_appt,He definitely looks puffier to me leg swelling some,Information-Giving||Symptoms,0.7681307044106175
+He definitely needs/,Information-Giving||Scheduling_appt,he vomiting with dry heaves,Information-Giving||Symptoms,0.6047760554727766
+He definitely needs/,Information-Giving||Scheduling_appt,He prescribed me Ketorolac (Toradol),Information-Giving||Drugs,0.5604169529690467
+In person or telemed?,PROVIDER_PARTNERSHIP||invite_collaboration,We can either schedule for in person or via telehealth,PROVIDER_Shared-Decision_Making||Share_options,0.8247084349988897
+In person or telemed?,PROVIDER_PARTNERSHIP||invite_collaboration,Glad I saw you in person and clarify treatment,PROVIDER_PARTNERSHIP||Alignment,0.7067156787659941
+In person or telemed?,PROVIDER_PARTNERSHIP||invite_collaboration,I'd love to see you in person,PROVIDER_PARTNERSHIP||Connection,0.6474504946297064
+In person or telemed?,PROVIDER_PARTNERSHIP||invite_collaboration,Your appointment is scheduled for in person,Information-Giving||Scheduling_appt,0.6066086995449788
+be happy to,PROVIDER_PARTNERSHIP||Connection,Happy Holidays,PATIENT_PARTNERSHIP||Connection,0.7938108379821986
+be happy to,PROVIDER_PARTNERSHIP||Connection,If not our manager is Gean Brown and she'd be happy to assist,Information-Giving||Care_Coordination,0.712578162234185
+be happy to,PROVIDER_PARTNERSHIP||Connection,I was happy,PROVIDER_PARTNERSHIP||Alignment,0.6458970383851764
+be happy to,PROVIDER_PARTNERSHIP||Connection,I was happy,PROVIDER_PARTNERSHIP||Alignment,0.6458970383851764
+if you need help,PROVIDER_PARTNERSHIP||Connection,Help!,PATIENT_PARTNERSHIP||active_participation_/involvement,0.5660999682606163
+We need to make an office visit,Information-Giving_SDOH||Health_care_access_and_quality,Do I need to make an appointment,Information-Seeking||Scheduling_appt,0.7533059043795038
+We need to make an office visit,Information-Giving_SDOH||Health_care_access_and_quality,Or no need for an office visit?,PATIENT_SHARED-DECISION_MAKING||Explore_options,0.6334205849627007
+Thank you,PROVIDER_PARTNERSHIP||signoff,Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.9999999999999998
+Thank you,PROVIDER_PARTNERSHIP||signoff,thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.9999999999999998
+Thank you,PROVIDER_PARTNERSHIP||signoff,Thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Thank you,PROVIDER_PARTNERSHIP||signoff,thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Greetings,PROVIDER_PARTNERSHIP||salutation,Greetings,PATIENT_PARTNERSHIP||salutation,1.0
+Please send to,Information-Giving||instruction,can you please send a picture through mychart?,PROVIDER_PARTNERSHIP||invite_collaboration,0.6631720008728366
+Please send to,Information-Giving||instruction,"Could you please send the pet scan report to Person1 , doctor Person2 assistant",Information-Giving||Care_Coordination,0.5772193783459467
+Please send to,Information-Giving||instruction,please have them send it to us at,Information-Giving||Care_Coordination,0.5670389246538088
+this was faxed,Information-Giving||Care_Coordination,This was either Dec. or Jan,Information-Giving||Diagnostics,0.7854871508067237
+this was faxed,Information-Giving||Care_Coordination,this was trending down.,Information-Giving||Diagnostics,0.7542115216570809
+this was faxed,Information-Giving||Care_Coordination,to see that this was trending down,Information-Giving||Diagnostics,0.6376006079256578
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+Take care,PROVIDER_PARTNERSHIP||Connection,Take care,PROVIDER_PARTNERSHIP||signoff,1.0000000000000002
+sent an order for a new PET scan,Information-Giving_SDOH||Health_care_access_and_quality,I also think she put in an order for an ECHO,Information-Giving||Diagnostics,0.5580609572280655
+it is a-okay for Person2 to have it done,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,considering how difficult it is for Person2 to travel,Information-Giving_SDOH||Neighborhood_and_built_environment,0.6712125213407162
+considering how difficult it is for Person2 to travel,Information-Giving_SDOH||Neighborhood_and_built_environment,it is a-okay for Person2 to have it done,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,0.6712125213407162
+considering how difficult it is for Person2 to travel,Information-Giving_SDOH||Neighborhood_and_built_environment,Here it is,Information-Giving||General_information,0.6138604617176129
+considering how difficult it is for Person2 to travel,Information-Giving_SDOH||Neighborhood_and_built_environment,it is elevated,Information-Giving||Diagnostics,0.5711439637048018
+many thanks,PATIENT_PARTNERSHIP||signoff,Many thanks!,PATIENT_PARTNERSHIP||Appreciation/gratitude,1.0000000000000004
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,Ok,PROVIDER_PARTNERSHIP||Alignment,0.6988840429102259
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,Ok,PROVIDER_PARTNERSHIP||Alignment,0.6988840429102259
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,OK,PATIENT_PARTNERSHIP||Alignment,0.6988840429102259
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,Ok,PATIENT_PARTNERSHIP||Alignment,0.6988840429102259
+This should ok,PATIENT_SHARED-DECISION_MAKING||Approval/Reinforcement,Ok,PATIENT_PARTNERSHIP||Alignment,0.6988840429102259
+please call,Information-Giving||General_information,Please expedite,PATIENT_PARTNERSHIP||state_preferences,0.6458059301366992
+please call,Information-Giving||General_information,Can she call me please,PATIENT_PARTNERSHIP||active_participation_/involvement,0.5759094698725573
+please call,Information-Giving||General_information,Please call it into Org1 in Location,Information-Giving_SDOH||Health_care_access_and_quality,0.554900318512826
+let them know that you have a prescription for a PET scan,Information-Giving||Scheduling_appt,I see that you have a prescription for Ativan,Information-Giving||Drugs,0.77712821501378
+let them know that you have a prescription for a PET scan,Information-Giving||Scheduling_appt,I have a prescription for trazodone from Org2 oncology,Information-Giving||Drugs,0.6111565132775796
+have it a LOCATION,Information-Giving_SDOH||Health_care_access_and_quality,If it is ok can I have those shots at LOCATION,Information-Seeking_SDOH||Health_care_access_and_quality,0.5863918648396703
+had an appt w,Information-Giving||Scheduling_appt,He just had an Ocrevus infusion,Information-Giving||Drugs,0.6287286591218185
+he would order blood tests,Information-Giving||Diagnostics,he would take over this RX,Information-Giving||Drugs,0.5672132411609436
+Kind regards,PROVIDER_PARTNERSHIP||signoff,Kind regards,PATIENT_PARTNERSHIP||signoff,1.0000000000000002
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PROVIDER_PARTNERSHIP||signoff,0.9999999999999998
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Thank you,PATIENT_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+"OOPS , sorry - my typo",Socioemotional_/_Empathy||Acknowledge_Error,Sorry,PROVIDER_PARTNERSHIP||Connection,0.8709197205405211
+"OOPS , sorry - my typo",Socioemotional_/_Empathy||Acknowledge_Error,I'm sorry,Socioemotional_/_Empathy||Sadness/fear,0.8709197205405211
+"OOPS , sorry - my typo",Socioemotional_/_Empathy||Acknowledge_Error,Sorry for the delay!,PROVIDER_PARTNERSHIP||Connection,0.6154260366085171
+"OOPS , sorry - my typo",Socioemotional_/_Empathy||Acknowledge_Error,Sorry to bother,PATIENT_PARTNERSHIP||Connection,0.6111136586616355
+has been taking Oxycodone,Information-Giving||Drugs,typically the answer has been no,Information-Giving||Symptoms,0.7258035761915872
+has been taking Oxycodone,Information-Giving||Drugs,there has been a throwup bug going through my family,Information-Giving||Symptoms,0.6108598899443373
+has been taking Oxycodone,Information-Giving||Drugs,Prescription has been sent in,PROVIDER_PARTNERSHIP||Maintain_communication,0.6093427859398028
+has been taking Oxycodone,Information-Giving||Drugs,Yes a referral has been placed for genetics,Information-Giving||Care_Coordination,0.5980296451127177
+has been taking Oxycodone,Information-Giving||Drugs,It has been 2 years since my neck surgery,Information-Giving||General_information,0.597815671858646
+Thank you for the update,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for the info,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.8910975648617805
+Thank you for the update,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for the quick response,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.6968534083009693
+Thank you for the update,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for the follow up.,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.674540202874347
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||signoff,0.90105225724013
+take care of these prescriptions,Information-Giving||Drugs,Take care,PATIENT_PARTNERSHIP||signoff,0.90105225724013
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||Connection,0.90105225724013
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||signoff,0.90105225724013
+take care of these prescriptions,Information-Giving||Drugs,Take care,PROVIDER_PARTNERSHIP||Connection,0.90105225724013
+give Dr. Person1 Dr. Person2 cell  phone,Information-Giving||Care_Coordination,Dr. B recommends Metamucil,Information-Giving||Drugs,0.6235458956356511
+Hello,PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+Hello,PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+Hello,PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for your help,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.8472632387323243
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you for your help,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.8472632387323243
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you and Dr. Person2 for your help,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.831897943430181
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thank you for all your help today,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.8123472681337995
+thank you and All for your help!,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thanks again for your help and support,PATIENT_PARTNERSHIP||Appreciation/gratitude,0.6263423437370739
+I am on the lookout for the permission / patient approval document,Information-Giving||Care_Coordination,while I am on the medications,Information-Giving||Drugs,0.7979919051752011
+I'll let you know as soon as that is completed,PATIENT_PARTNERSHIP||active_participation_/involvement,I will let you know as soon as he answers me,PROVIDER_PARTNERSHIP||Maintain_communication,0.8462952682851761
+I'll let you know as soon as that is completed,PATIENT_PARTNERSHIP||active_participation_/involvement,I will let you know.,PROVIDER_PARTNERSHIP||Maintain_communication,0.5525554944887918
+I would like to add one more Rx request,Information-Seeking||Drugs,I would like to request a meeting with Person1's teams on Monday morning,PATIENT_PARTNERSHIP||state_preferences,0.6302720717524452
+I would like to add one more Rx request,Information-Seeking||Drugs,Would like to switch back to Eliquis,PATIENT_PARTNERSHIP||state_preferences,0.5726867353061798
+I would like to add one more Rx request,Information-Seeking||Drugs,Would like to switch back to Eliquis,PATIENT_PARTNERSHIP||state_preferences,0.5726867353061798
+I would like to add one more Rx request,Information-Seeking||Drugs,I would like to have an IV Port installed,PATIENT_PARTNERSHIP||state_preferences,0.5572761306715764
+I would like to add one more Rx request,Information-Seeking||Drugs,One more bit of info,Information-Giving||General_information,0.5527902936430005
+"We are both at the limit of getting ""stuck.""",Information-Giving||General_information,The UTI symptoms are getting worse,Information-Giving||Symptoms,0.556114699626786
+Most appreciative!,PATIENT_PARTNERSHIP||Appreciation/gratitude,Most people tolerate it fine 3 times per week,Information-Giving||Drugs,0.717798569568464
+Most appreciative!,PATIENT_PARTNERSHIP||Appreciation/gratitude,A bone strengthening  agent will still most likely be added to your regimen,Information-Giving||Drugs,0.5901162383065931
+One more bit of info,Information-Giving||General_information,I would like to add one more Rx request,Information-Seeking||Drugs,0.5527902936430005
+Dr. Person4 was speaking with Dr. Person5,Information-Giving||Care_Coordination,Dr. B recommends Metamucil,Information-Giving||Drugs,0.58609144979732
+Person1 has MM/DD/YYYY,Information-Giving||Scheduling_appt,rec'd a notice MM/DD/YYYY,Information-Giving||General_information,0.7583611079047794
+Person1 has MM/DD/YYYY,Information-Giving||Scheduling_appt,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.7097437917619335
+Person1 has MM/DD/YYYY,Information-Giving||Scheduling_appt,"30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",Information-Giving||Symptoms,0.7000997626945116
+Person1 has MM/DD/YYYY,Information-Giving||Scheduling_appt,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.6873490724994357
+Person1 has MM/DD/YYYY,Information-Giving||Scheduling_appt,Can I change this to MM/DD/YYYY or MM/DD/YYYY ?,Information-Seeking||Scheduling_appt,0.6790633380214315
+Greetings,PROVIDER_PARTNERSHIP||salutation,Greetings,PATIENT_PARTNERSHIP||salutation,1.0
+Would you let me know when you can squeeze Person2 in?,Information-Seeking||Scheduling_appt,Please let me know when submitted,PATIENT_PARTNERSHIP||active_participation_/involvement,0.6897436255930888
+Would you let me know when you can squeeze Person2 in?,Information-Seeking||Scheduling_appt,Please let me know when sent,PATIENT_PARTNERSHIP||active_participation_/involvement,0.6582667882543939
+he would take over this RX,Information-Giving||Drugs,he would order blood tests,Information-Giving||Diagnostics,0.5672132411609436
+Person5 sent in pre-auth info to Cigna,Information-Giving_SDOH||Health_care_access_and_quality,Prednisone refill sent in,Information-Giving||Drugs,0.7271320925507138
+Person5 sent in pre-auth info to Cigna,Information-Giving_SDOH||Health_care_access_and_quality,refill has been sent in,Information-Giving||Drugs,0.644827307722794
+Person5 sent in pre-auth info to Cigna,Information-Giving_SDOH||Health_care_access_and_quality,Prescription has been sent in,PROVIDER_PARTNERSHIP||Maintain_communication,0.6405892887527307
+scheduling Person1 out front,Information-Giving||Scheduling_appt,I'll have Person1 help out,Information-Giving||Care_Coordination,0.5589289697471692
+he got  30 tablets,Information-Giving||Drugs,I did not realize he got a promotion,Information-Giving||General_information,0.6670884374370374
+he got  30 tablets,Information-Giving||Drugs,Got it,PROVIDER_PARTNERSHIP||Alignment,0.6605531517766974
+he got  30 tablets,Information-Giving||Drugs,you got it drawn prior,Information-Giving||Diagnostics,0.5644945253804304
+Hello,PATIENT_PARTNERSHIP||salutation,Hello,PROVIDER_PARTNERSHIP||salutation,1.0
+"Yep, just got a call for MM/DD/YYYY w",Information-Giving||Scheduling_appt,Lots of words for a MM/DD/YYYY morning,PATIENT_PARTNERSHIP||Connection,0.6103966291201851
+"Yep, just got a call for MM/DD/YYYY w",Information-Giving||Scheduling_appt,rec'd a notice MM/DD/YYYY,Information-Giving||General_information,0.5958914182352312
+"Yep, just got a call for MM/DD/YYYY w",Information-Giving||Scheduling_appt,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.5624839674410074
+"Yep, just got a call for MM/DD/YYYY w",Information-Giving||Scheduling_appt,"I saw I still had the appointment in Org2 for MM/DD/YYYY, MM/DD/YYYY, for the Lupron shot, I cancelled it",Information-Giving_SDOH||Health_care_access_and_quality,0.5525830769463107
+per Dr. Person2's desire and Dr. B agree to get Person3 off Oxy ext release,Information-Giving||Care_Coordination,I've already reduced lenvatinib to 5 days per dr Person2's instructions,Information-Giving||Drugs,0.6368791364953783
+work down to lowest usage Oxy rapid w/o dealing w break through pain,Information-Giving||Drugs,Really cuts the pain down to almost nothing,Information-Giving||Symptoms,0.7848590539484057
+work down to lowest usage Oxy rapid w/o dealing w break through pain,Information-Giving||Drugs,13.4 down to 10.6,Information-Giving||Diagnostics,0.6965100701884477
+work down to lowest usage Oxy rapid w/o dealing w break through pain,Information-Giving||Drugs,PSA came way down to 1.91,Information-Giving||Diagnostics,0.5990246265965291
+which can be pretty nasty,Information-Giving||Symptoms,Presume they can be shared digitally,PATIENT_PARTNERSHIP||express_opinions,0.674385790797781
+which can be pretty nasty,Information-Giving||Symptoms,it appears the numbers pretty high which is concerning,Socioemotional_/_Empathy||Express_concern/unease,0.5846917307974889
+which can be pretty nasty,Information-Giving||Symptoms,It can be a common side effect of the Taxol,Information-Giving||Drugs,0.5660540452984809
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,rec'd a notice MM/DD/YYYY,Information-Giving||General_information,0.8661102394774173
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.8247683427269945
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.8027291882685473
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,Can I change this to MM/DD/YYYY or MM/DD/YYYY ?,Information-Seeking||Scheduling_appt,0.7845784955978854
+"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,I put you off work from MM/DD/YYYY to MM/DD/YYYY,Information-Giving_SDOH||Economic_stability,0.7689408341076132
+"30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",Information-Giving||Symptoms,rec'd a notice MM/DD/YYYY,Information-Giving||General_information,0.742846213192173
+"30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",Information-Giving||Symptoms,Person1 has MM/DD/YYYY,Information-Giving||Scheduling_appt,0.7000997626945116
+"30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",Information-Giving||Symptoms,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.6889743737473507
+"30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",Information-Giving||Symptoms,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,0.6678333588133185
+"30 count has gotten him through MM/DD/YYYY, considering ste p down and a few tough pain MM/DD/YYYY thereafter",Information-Giving||Symptoms,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.6610768341680753
+Re Eliquis: MM/DD/YYYY two 5mg tabs morning and night,Information-Giving||Drugs,rec'd a notice MM/DD/YYYY,Information-Giving||General_information,0.5645389413049358
+Re Eliquis: MM/DD/YYYY two 5mg tabs morning and night,Information-Giving||Drugs,hopefully first thing MM/DD/YYYY morning,PATIENT_PARTNERSHIP||express_opinions,0.564496244046557
+MM/DD/YYYY one 5mg am and one 5mg pm,Information-Giving||Drugs,"Is there a possibility to move my treatments up by one week, to MM/DD/YYYY and MM/DD/YYYY",Information-Seeking||Scheduling_appt,0.5617129150235072
+Dr. B recommends Metamucil,Information-Giving||Drugs,give Dr. Person1 Dr. Person2 cell  phone,Information-Giving||Care_Coordination,0.6235458956356511
+Dr. B recommends Metamucil,Information-Giving||Drugs,Dr. Person4 was speaking with Dr. Person5,Information-Giving||Care_Coordination,0.58609144979732
+"Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks",Information-Giving||Symptoms,rec'd a notice MM/DD/YYYY,Information-Giving||General_information,0.6554485472856139
+"Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks",Information-Giving||Symptoms,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.6179832867600837
+"Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks",Information-Giving||Symptoms,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,0.6050034674322561
+"Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks",Information-Giving||Symptoms,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.594946938001171
+"Other symptoms: quite tired, napping, MM/DD/YYYY recently interrupted by anxiety attacks",Information-Giving||Symptoms,"Is there a possibility to move my treatments up by one week, to MM/DD/YYYY and MM/DD/YYYY",Information-Seeking||Scheduling_appt,0.58624194875183
+Thanks a ton,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thanks,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Thanks a ton,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thanks,PROVIDER_PARTNERSHIP||signoff,0.9999999999999998
+Thanks a ton,PATIENT_PARTNERSHIP||Appreciation/gratitude,Thanks,PROVIDER_PARTNERSHIP||signoff,0.9999999999999998
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0000000000000009
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0000000000000009
+best,PATIENT_PARTNERSHIP||signoff,Best,PROVIDER_PARTNERSHIP||signoff,1.0000000000000009
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+Thank you,PROVIDER_PARTNERSHIP||Appreciation/gratitude,Thank you,PATIENT_PARTNERSHIP||signoff,0.9999999999999998
+I hope he signs it MM/DD/YYYY but it may not be  until MM/DD/YYYY,Information-Giving||General_information,I don begin until MM/DD/YYYY,Information-Giving||Scheduling_appt,0.6906725255090524
+I hope he signs it MM/DD/YYYY but it may not be  until MM/DD/YYYY,Information-Giving||General_information,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,0.6703817813779547
+I hope he signs it MM/DD/YYYY but it may not be  until MM/DD/YYYY,Information-Giving||General_information,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.6604203659593362
+I hope he signs it MM/DD/YYYY but it may not be  until MM/DD/YYYY,Information-Giving||General_information,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.6245837829607371
+Greetings,PATIENT_PARTNERSHIP||salutation,Greetings,PROVIDER_PARTNERSHIP||salutation,1.0
+Greetings,PATIENT_PARTNERSHIP||salutation,Greetings,PROVIDER_PARTNERSHIP||salutation,1.0
+rec'd a notice MM/DD/YYYY,Information-Giving||General_information,MM/DD/YYYY after 230pm,PATIENT_PARTNERSHIP||state_preferences,0.8963216475069533
+rec'd a notice MM/DD/YYYY,Information-Giving||General_information,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.8670532033876435
+rec'd a notice MM/DD/YYYY,Information-Giving||General_information,"Trying to keep Oxy steady at MM/DD/YYYY, but MM/DD/YYYY had to go MM/DD/YYYY",Information-Giving||Drugs,0.8661102394774173
+rec'd a notice MM/DD/YYYY,Information-Giving||General_information,Can I change this to MM/DD/YYYY or MM/DD/YYYY ?,Information-Seeking||Scheduling_appt,0.8553043134679954
+rec'd a notice MM/DD/YYYY,Information-Giving||General_information,I put you off work from MM/DD/YYYY to MM/DD/YYYY,Information-Giving_SDOH||Economic_stability,0.8517557803527385
+"The reasons listed don't make any sense, per usual",PATIENT_PARTNERSHIP||express_opinions,I can make any time available those days?,PATIENT_PARTNERSHIP||state_preferences,0.6113901953575881
+Do you prefer to tackle this?,PATIENT_PARTNERSHIP||active_participation_/involvement,do you have a dermatologist?,Information-Seeking||General_information,0.6591067775280388
+Do you prefer to tackle this?,PATIENT_PARTNERSHIP||active_participation_/involvement,Do you think I need X-rays?,Information-Seeking||Diagnostics,0.6412525745745365
+Do you prefer to tackle this?,PATIENT_PARTNERSHIP||active_participation_/involvement,Do you have the result Person1 ?,Information-Seeking||Diagnostics,0.5650784464704082
+Please call Person1 (this is the company running the testing) and speak with their customer service,Information-Giving||instruction,This is what was noted in the testing results,PATIENT_PARTNERSHIP||active_participation_/involvement,0.5712423452529273
+"Hello,",PATIENT_PARTNERSHIP||salutation,Hello,PROVIDER_PARTNERSHIP||salutation,1.0
+"Hello,",PATIENT_PARTNERSHIP||salutation,Hello,PROVIDER_PARTNERSHIP||salutation,1.0
+I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled,Information-Giving||Scheduling_appt,a ENT consultation on MM/DD/YYYY,Information-Giving||Care_Coordination,0.70512411507354
+I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled,Information-Giving||Scheduling_appt,rec'd a notice MM/DD/YYYY,Information-Giving||General_information,0.698957364554713
+I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled,Information-Giving||Scheduling_appt,I had my MM/DD/YYYY bloodwork done MM/DD/YYYY,Information-Giving||Diagnostics,0.6782847148471997
+I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled,Information-Giving||Scheduling_appt,We are closed on weekends and only check the MyChart MM/DD/YYYY-MM/DD/YYYY,Information-Giving||General_information,0.6659729252412713
+I will be finishing my week off on MM/DD/YYYY ( MM/DD/YYYY my labs are scheduled,Information-Giving||Scheduling_appt,"My last pill in the cycle is MM/DD/YYYY, MM/DD/YYYY",Information-Giving||Drugs,0.6651632795800421
+Please advise,Information-Seeking||General_information,Please expedite,PATIENT_PARTNERSHIP||state_preferences,0.8195000503865708
+Thank you very much,PATIENT_PARTNERSHIP||signoff,Thank you very much,PROVIDER_PARTNERSHIP||Appreciation/gratitude,1.0
+"Hello,",PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+"Hello,",PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+"Hello,",PROVIDER_PARTNERSHIP||salutation,Hello,PATIENT_PARTNERSHIP||salutation,1.0
+Orders have been entered into the Epic system for lab work,Information-Giving||Diagnostics,I have been at work daily,Information-Giving||General_information,0.6516389420905085
+I see Dr  Person1 on,Information-Giving||Scheduling_appt,"I scheduled to see Dr. Person1 on MM/DD/YYYY, at 9:45 in Org2",Information-Giving_SDOH||Health_care_access_and_quality,0.6609467068856226
+I see Dr  Person1 on,Information-Giving||Scheduling_appt,Do i need blood work before I see dr Person1 on MM/DD/YYYY?,Information-Seeking||Diagnostics,0.6412561020978422
+Can I go before,Information-Seeking||Scheduling_appt,Where can I go and are u recommending for me,PATIENT_PARTNERSHIP||active_participation_/involvement,0.6195031105444816
+that's why I was concerned,Socioemotional_/_Empathy||Express_concern/unease,that why I take the baby aspirin,Information-Giving||Drugs,0.7178579198207378
+that's why I was concerned,Socioemotional_/_Empathy||Express_concern/unease,That's why i asked if was made on the blood draw that was made,Information-Giving||General_information,0.6834198662182736
+that's why I was concerned,Socioemotional_/_Empathy||Express_concern/unease,Is the year loaded in is that why?,PATIENT_PARTNERSHIP||active_participation_/involvement,0.5945633092983874
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999
+Sorry to bother,PATIENT_PARTNERSHIP||Connection,Sorry,PROVIDER_PARTNERSHIP||Connection,0.7144570498515986
+Sorry to bother,PATIENT_PARTNERSHIP||Connection,I'm sorry,Socioemotional_/_Empathy||Sadness/fear,0.7144570498515986
+Sorry to bother,PATIENT_PARTNERSHIP||Connection,Sorry to hear this is happening,Socioemotional_/_Empathy||Sadness/fear,0.6355106024553607
+but I am still not understanding the timing of my blood work,Information-Seeking||Diagnostics,I recently had a bunch of blood work entered,Information-Giving||Diagnostics,0.5642640978980511
+Labs have been order,Information-Giving||Diagnostics,I have been at work daily,Information-Giving||General_information,0.638240580039215
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999
+Hi,PATIENT_PARTNERSHIP||salutation,Hi,PROVIDER_PARTNERSHIP||salutation,0.9999999999999999

@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Dr  Person2 asked what the referral for a  neurological/spine doctor would be regarding? Thanks, Person3",
+      "id": 397
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Dr  Person2 asked what the referral for a  neurological/spine doctor would be regarding?",
+      "id": "397_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "397_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Dr  Person2 asked what the referral for a  neurological/spine doctor would be",
+      "id": "397_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "regarding?",
+      "id": "397_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks, Person3",
+      "id": "397_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "397_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "397_1_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 397,
+      "target": "397_0"
+    },
+    {
+      "source": 397,
+      "target": "397_1"
+    },
+    {
+      "source": "397_0",
+      "target": "397_0_0"
+    },
+    {
+      "source": "397_0",
+      "target": "397_0_1"
+    },
+    {
+      "source": "397_0",
+      "target": "397_0_2"
+    },
+    {
+      "source": "397_1",
+      "target": "397_1_0"
+    },
+    {
+      "source": "397_1",
+      "target": "397_1_1"
+    }
+  ]
+}

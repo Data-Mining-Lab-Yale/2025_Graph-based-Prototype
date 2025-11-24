@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Can Dr Person1 please recommend a neurological spine doctor through Org2",
+      "id": 395
+    },
+    {
+      "label": "sentence",
+      "text": "Can Dr Person1 please recommend a neurological spine doctor through Org2",
+      "id": "395_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can Dr Person1 please recommend a neurological spine doctor through Org2",
+      "id": "395_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 395,
+      "target": "395_0"
+    },
+    {
+      "source": "395_0",
+      "target": "395_0_0"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "called",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "radiology",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "request",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "leadership",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 11
+    },
+    {
+      "label": "assist",
+      "pos": "VERB",
+      "id": 12
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 13
+    },
+    {
+      "label": "scheduling",
+      "pos": "NOUN",
+      "id": 14
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "oprd",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "ccomp",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "dative",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "dep": "aux",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "dep": "prep",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "dep": "pobj",
+      "source": 13,
+      "target": 14
+    }
+  ]
+}

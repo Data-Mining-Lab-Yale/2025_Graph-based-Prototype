@@ -1,0 +1,119 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "i",
+      "pos": "PRON",
+      "id": 2
+    },
+    {
+      "label": "want",
+      "pos": "VERB",
+      "id": 4
+    },
+    {
+      "label": "just",
+      "pos": "ADV",
+      "id": 3
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 5
+    },
+    {
+      "label": "know",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": "if",
+      "pos": "SCONJ",
+      "id": 7
+    },
+    {
+      "label": "fill",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 8
+    },
+    {
+      "label": "Dr",
+      "pos": "PROPN",
+      "id": 9
+    },
+    {
+      "label": "Person2",
+      "pos": "PROPN",
+      "id": 10
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "xcomp",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "advcl",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dep",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "dep": "mark",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "compound",
+      "source": 10,
+      "target": 9
+    }
+  ]
+}

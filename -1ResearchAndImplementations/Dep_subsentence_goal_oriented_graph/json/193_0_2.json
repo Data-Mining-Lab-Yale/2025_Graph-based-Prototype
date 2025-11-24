@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "referral",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "placed",
+      "pos": "VERB",
+      "id": 3
+    },
+    {
+      "label": "was",
+      "pos": "AUX",
+      "id": 2
+    },
+    {
+      "label": "to",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "Org3",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "disease",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "Digestive",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "dep": "auxpass",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    }
+  ]
+}

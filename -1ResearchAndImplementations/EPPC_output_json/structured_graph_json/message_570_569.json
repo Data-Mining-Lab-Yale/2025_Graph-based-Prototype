@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning, Person1, I want to cancel or at least postpone my appointment for the bone density injection. I not sure if Dr. Person2 was aware that I about to undergo some extensive dental work at the Org3 and I understand that the bone density treatment could be detrimental to my current regimen which is working so well. Please reply when you can with your opinion. Many thanks!",
+      "id": 569
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning, Person1, I want to cancel or at least postpone my appointment for the bone density injection.",
+      "id": "569_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "569_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "569_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I want to cancel or at least postpone",
+      "id": "569_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "my appointment for the bone density injection.",
+      "id": "569_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I not sure if Dr. Person2 was aware that I about to undergo some extensive dental work at the Org3 and I understand that the bone density treatment could be detrimental to my current regimen which is working so well.",
+      "id": "569_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I not sure if Dr. Person2 was",
+      "id": "569_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "aware that I about",
+      "id": "569_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to undergo some extensive dental work at the Org3 and I understand that the bone density treatment could be",
+      "id": "569_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "detrimental to my current regimen which is working",
+      "id": "569_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "so well.",
+      "id": "569_1_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Please reply when you can with your opinion.",
+      "id": "569_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please reply when you can",
+      "id": "569_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "with your opinion.",
+      "id": "569_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Many thanks!",
+      "id": "569_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Many thanks!",
+      "id": "569_3_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 569,
+      "target": "569_0"
+    },
+    {
+      "source": 569,
+      "target": "569_1"
+    },
+    {
+      "source": 569,
+      "target": "569_2"
+    },
+    {
+      "source": 569,
+      "target": "569_3"
+    },
+    {
+      "source": "569_0",
+      "target": "569_0_0"
+    },
+    {
+      "source": "569_0",
+      "target": "569_0_1"
+    },
+    {
+      "source": "569_0",
+      "target": "569_0_2"
+    },
+    {
+      "source": "569_0",
+      "target": "569_0_3"
+    },
+    {
+      "source": "569_1",
+      "target": "569_1_0"
+    },
+    {
+      "source": "569_1",
+      "target": "569_1_1"
+    },
+    {
+      "source": "569_1",
+      "target": "569_1_2"
+    },
+    {
+      "source": "569_1",
+      "target": "569_1_3"
+    },
+    {
+      "source": "569_1",
+      "target": "569_1_4"
+    },
+    {
+      "source": "569_2",
+      "target": "569_2_0"
+    },
+    {
+      "source": "569_2",
+      "target": "569_2_1"
+    },
+    {
+      "source": "569_3",
+      "target": "569_3_0"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "fax",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "16",
+      "pos": "NUM",
+      "id": 1
+    },
+    {
+      "label": "page",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 4
+    },
+    {
+      "label": "your",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "attention",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "   ",
+      "pos": "SPACE",
+      "id": 7
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "nummod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "pobj",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "poss",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dep",
+      "source": 6,
+      "target": 7
+    }
+  ]
+}

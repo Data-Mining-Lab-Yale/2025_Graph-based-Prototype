@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Sounds good. Thank you.",
+      "id": 428
+    },
+    {
+      "label": "sentence",
+      "text": "Sounds good.",
+      "id": "428_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sounds good.",
+      "id": "428_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you.",
+      "id": "428_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you.",
+      "id": "428_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 428,
+      "target": "428_0"
+    },
+    {
+      "source": 428,
+      "target": "428_1"
+    },
+    {
+      "source": "428_0",
+      "target": "428_0_0"
+    },
+    {
+      "source": "428_1",
+      "target": "428_1_0"
+    }
+  ]
+}

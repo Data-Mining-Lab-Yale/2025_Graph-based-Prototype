@@ -1,0 +1,6352 @@
+[
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Explore_options",
+      "PATIENT_SHARED-DECISION_MAKING"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Alignment",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Reassurance",
+      "Seeking_Approval",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_SHARED-DECISION_MAKING",
+      "Seeking_Approval"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Reassurance",
+      "Socioemotional_/_Empathy"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "salutation"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "build_trust"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Alignment",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_SHARED-DECISION_MAKING",
+      "Seeking_Approval"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "express_opinions"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving",
+      "instruction"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_SHARED-DECISION_MAKING",
+      "Seeking_Approval"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "express_opinions"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "express_opinions"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "checking_understanding/clarification"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "express_opinions"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Reassurance",
+      "Seeking_Approval",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving",
+      "instruction"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Reassurance",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "express_opinions"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Approval/Reinforcement",
+      "PROVIDER_Shared-Decision_Making"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "checking_understanding/clarification"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Express_concern/unease",
+      "Socioemotional_/_Empathy"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving",
+      "instruction"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Reassurance",
+      "Seeking_Approval",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "invite_collaboration"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "state_preferences"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Alignment",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Reassurance",
+      "Seeking_Approval",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "signoff"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "state_preferences"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "state_preferences"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "active_participation_/involvement"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "express_opinions"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Reassurance",
+      "Socioemotional_/_Empathy"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "express_opinions"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Seeking"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Alignment",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving_SDOH"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Maintain_communication",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "state_preferences"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Acknowledge_Error",
+      "Socioemotional_/_Empathy"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Connection",
+      "Information-Seeking_SDOH",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "salutation",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "state_preferences"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Alignment",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Appreciation/gratitude",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Encourage_questions",
+      "Explore_options",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "checking_understanding/clarification",
+      "express_opinions",
+      "instruction",
+      "state_preferences"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving",
+      "instruction"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Alignment",
+      "PATIENT_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Alignment",
+      "Appreciation/gratitude",
+      "Approval/Reinforcement",
+      "Encourage_questions",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_PARTNERSHIP",
+      "PROVIDER_PARTNERSHIP",
+      "PROVIDER_Shared-Decision_Making",
+      "Positive_Remarks/Reward",
+      "Seeking_Approval",
+      "build_trust",
+      "instruction",
+      "signoff"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Information-Giving"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Acknowledge_Error",
+      "Socioemotional_/_Empathy"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PATIENT_PARTNERSHIP",
+      "state_preferences"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Seeking_Approval",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "Connection",
+      "PROVIDER_PARTNERSHIP"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Encourage_questions",
+      "Express_concern/unease",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PATIENT_SHARED-DECISION_MAKING",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  },
+  {
+    "ground_truth": [
+      "PROVIDER_PARTNERSHIP",
+      "checking_understanding/clarification"
+    ],
+    "prediction": [
+      "Acknowledge_Error",
+      "Appreciation/gratitude",
+      "Encourage_questions",
+      "Information-Giving",
+      "Information-Giving_SDOH",
+      "Information-Seeking",
+      "Information-Seeking_SDOH",
+      "Maintain_communication",
+      "Making_decision_together",
+      "PROVIDER_Shared-Decision_Making",
+      "Share_options",
+      "Summarize_and_confirm_understanding",
+      "active_participation_/involvement",
+      "build_trust",
+      "express_opinions",
+      "instruction"
+    ],
+    "is_correct": false
+  }
+]

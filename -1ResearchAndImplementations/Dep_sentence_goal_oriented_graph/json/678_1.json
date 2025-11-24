@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "CAT",
+      "pos": "PROPN",
+      "id": 0
+    },
+    {
+      "label": "scan",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "chest",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 4
+    },
+    {
+      "label": "abdomen",
+      "pos": "PROPN",
+      "id": 5
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 6
+    },
+    {
+      "label": "pelvic",
+      "pos": "PROPN",
+      "id": 7
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "conj",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "dep": "conj",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 6
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Thanks",
+      "pos": "NOUN",
+      "id": 0
+    },
+    {
+      "label": "be",
+      "pos": "AUX",
+      "id": 5
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 3
+    },
+    {
+      "label": "would",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "great",
+      "pos": "ADJ",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "npadvmod",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "punct",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "nsubj",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "dep": "aux",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "acomp",
+      "source": 5,
+      "target": 6
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hi",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "  ",
+      "pos": "SPACE",
+      "id": 1
+    },
+    {
+      "label": "New",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "results",
+      "pos": "NOUN",
+      "id": 3
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "dep": "dep",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dep": "intj",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "dep": "nsubj",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "punct",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 3,
+      "target": 2
+    }
+  ]
+}

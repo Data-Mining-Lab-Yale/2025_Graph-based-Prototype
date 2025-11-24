@@ -1,0 +1,176 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi ,  My dad is on the 8th floor right now waiting for infusion #3. We have an apt with Dr Person3 tmrw at 9:10. He has two new growths on his right shin and a spot on his left thigh that Dr Person4 circled at the beginning of MM/DD/YYYY. Can anyone see him today while he is there? My brother Person1 is with my dad today. Thank you, Person2 XXX-XXX-XXXX",
+      "id": 500
+    },
+    {
+      "label": "sentence",
+      "text": "Hi ,  My dad is on the 8th floor right now waiting for infusion #3.",
+      "id": "500_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi ,",
+      "id": "500_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "My dad is on the 8th floor right now waiting",
+      "id": "500_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for infusion #3.",
+      "id": "500_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "We have an apt with Dr Person3 tmrw at 9:10.",
+      "id": "500_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "We have an apt with Dr Person3 tmrw at 9:10.",
+      "id": "500_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "He has two new growths on his right shin and a spot on his left thigh that Dr Person4 circled at the beginning of MM/DD/YYYY.",
+      "id": "500_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "He has two new growths on his right shin and a spot",
+      "id": "500_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "on his left thigh that Dr Person4 circled",
+      "id": "500_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "at the beginning of MM/DD/YYYY.",
+      "id": "500_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Can anyone see him today while he is there?",
+      "id": "500_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Can anyone see him today while he is",
+      "id": "500_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "there?",
+      "id": "500_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "My brother Person1 is with my dad today.",
+      "id": "500_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "My brother Person1 is with my dad today.",
+      "id": "500_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person2 XXX-XXX-XXXX",
+      "id": "500_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "500_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2 XXX-XXX-XXXX",
+      "id": "500_5_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 500,
+      "target": "500_0"
+    },
+    {
+      "source": 500,
+      "target": "500_1"
+    },
+    {
+      "source": 500,
+      "target": "500_2"
+    },
+    {
+      "source": 500,
+      "target": "500_3"
+    },
+    {
+      "source": 500,
+      "target": "500_4"
+    },
+    {
+      "source": 500,
+      "target": "500_5"
+    },
+    {
+      "source": "500_0",
+      "target": "500_0_0"
+    },
+    {
+      "source": "500_0",
+      "target": "500_0_1"
+    },
+    {
+      "source": "500_0",
+      "target": "500_0_2"
+    },
+    {
+      "source": "500_1",
+      "target": "500_1_0"
+    },
+    {
+      "source": "500_2",
+      "target": "500_2_0"
+    },
+    {
+      "source": "500_2",
+      "target": "500_2_1"
+    },
+    {
+      "source": "500_2",
+      "target": "500_2_2"
+    },
+    {
+      "source": "500_3",
+      "target": "500_3_0"
+    },
+    {
+      "source": "500_3",
+      "target": "500_3_1"
+    },
+    {
+      "source": "500_4",
+      "target": "500_4_0"
+    },
+    {
+      "source": "500_5",
+      "target": "500_5_0"
+    },
+    {
+      "source": "500_5",
+      "target": "500_5_1"
+    }
+  ]
+}

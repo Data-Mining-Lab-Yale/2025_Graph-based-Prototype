@@ -1,0 +1,77 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1. Do you know the reasoning you had this PET scan does and which doctor ordered it?",
+      "id": 381
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1.",
+      "id": "381_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1.",
+      "id": "381_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Do you know the reasoning you had this PET scan does and which doctor ordered it?",
+      "id": "381_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do you know the reasoning you had",
+      "id": "381_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "this PET scan does",
+      "id": "381_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "and which doctor ordered",
+      "id": "381_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it?",
+      "id": "381_1_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 381,
+      "target": "381_0"
+    },
+    {
+      "source": 381,
+      "target": "381_1"
+    },
+    {
+      "source": "381_0",
+      "target": "381_0_0"
+    },
+    {
+      "source": "381_1",
+      "target": "381_1_0"
+    },
+    {
+      "source": "381_1",
+      "target": "381_1_1"
+    },
+    {
+      "source": "381_1",
+      "target": "381_1_2"
+    },
+    {
+      "source": "381_1",
+      "target": "381_1_3"
+    }
+  ]
+}

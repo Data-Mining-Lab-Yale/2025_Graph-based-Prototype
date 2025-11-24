@@ -1,0 +1,20 @@
+{
+  "label2id": {
+    "Care_Coordination": 0,
+    "Diagnostics": 1,
+    "Drugs": 2,
+    "General_information": 3,
+    "Health_care_access_and_quality": 4,
+    "Scheduling_appt": 5,
+    "Symptoms": 6
+  },
+  "id2label": {
+    "0": "Care_Coordination",
+    "1": "Diagnostics",
+    "2": "Drugs",
+    "3": "General_information",
+    "4": "Health_care_access_and_quality",
+    "5": "Scheduling_appt",
+    "6": "Symptoms"
+  }
+}

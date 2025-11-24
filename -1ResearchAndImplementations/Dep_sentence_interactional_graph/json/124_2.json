@@ -1,0 +1,224 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "have",
+      "pos": "VERB",
+      "id": 2
+    },
+    {
+      "label": "did",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "few",
+      "pos": "ADJ",
+      "id": 4
+    },
+    {
+      "label": "questions",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 6
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 7
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 8
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 9
+    },
+    {
+      "label": "lumpectomy",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "upcoming",
+      "pos": "ADJ",
+      "id": 10
+    },
+    {
+      "label": "&",
+      "pos": "CCONJ",
+      "id": 12
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "wanted",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "show",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 17
+    },
+    {
+      "label": "my",
+      "pos": "PRON",
+      "id": 18
+    },
+    {
+      "label": "finger",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": "nails",
+      "pos": "VERB",
+      "id": 20
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "aux",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "dobj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "dep": "quantmod",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "dep": "prep",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "dep": "pobj",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "dep": "poss",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "xcomp",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "punct",
+      "source": 14,
+      "target": 21
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "dative",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "ccomp",
+      "source": 16,
+      "target": 20
+    },
+    {
+      "dep": "poss",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "dep": "nsubj",
+      "source": 20,
+      "target": 19
+    }
+  ]
+}

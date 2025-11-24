@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  Checked with Dr Person2, Abiraterone (Zytiga) is not know to effect Heart valves.",
+      "id": 331
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  Checked with Dr Person2, Abiraterone (Zytiga) is not know to effect Heart valves.",
+      "id": "331_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi",
+      "id": "331_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1,",
+      "id": "331_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Checked with Dr Person2,",
+      "id": "331_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Abiraterone (Zytiga) is not know",
+      "id": "331_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "to effect Heart valves.",
+      "id": "331_0_4"
+    }
+  ],
+  "links": [
+    {
+      "source": 331,
+      "target": "331_0"
+    },
+    {
+      "source": "331_0",
+      "target": "331_0_0"
+    },
+    {
+      "source": "331_0",
+      "target": "331_0_1"
+    },
+    {
+      "source": "331_0",
+      "target": "331_0_2"
+    },
+    {
+      "source": "331_0",
+      "target": "331_0_3"
+    },
+    {
+      "source": "331_0",
+      "target": "331_0_4"
+    }
+  ]
+}

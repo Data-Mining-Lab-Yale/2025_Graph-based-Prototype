@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Please let me know about blood work How it's From MM/DD/YYYY and now",
+      "id": 63
+    },
+    {
+      "label": "sentence",
+      "text": "Please let me know about blood work How it's From MM/DD/YYYY and now",
+      "id": "63_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let me know",
+      "id": "63_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "about blood work How it's",
+      "id": "63_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "From MM/DD/YYYY and now",
+      "id": "63_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 63,
+      "target": "63_0"
+    },
+    {
+      "source": "63_0",
+      "target": "63_0_0"
+    },
+    {
+      "source": "63_0",
+      "target": "63_0_1"
+    },
+    {
+      "source": "63_0",
+      "target": "63_0_2"
+    }
+  ]
+}

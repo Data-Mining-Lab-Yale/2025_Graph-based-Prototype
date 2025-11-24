@@ -1,0 +1,154 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "The",
+      "pos": "DET",
+      "id": 0
+    },
+    {
+      "label": "process",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "appeal",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 8
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "phone",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "number",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 6
+    },
+    {
+      "label": "call",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "in",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "letter",
+      "pos": "NOUN",
+      "id": 13
+    },
+    {
+      "label": "attached",
+      "pos": "VERB",
+      "id": 11
+    },
+    {
+      "label": "rejection",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 14
+    }
+  ],
+  "links": [
+    {
+      "dep": "det",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "dep": "acl",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "dep": "nsubj",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "dep": "compound",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "dep": "det",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "dep": "compound",
+      "source": 13,
+      "target": 12
+    }
+  ]
+}

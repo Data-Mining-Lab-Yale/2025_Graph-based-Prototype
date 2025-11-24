@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Ok ok",
+      "id": 73
+    },
+    {
+      "label": "sentence",
+      "text": "Ok ok",
+      "id": "73_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Ok ok",
+      "id": "73_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 73,
+      "target": "73_0"
+    },
+    {
+      "source": "73_0",
+      "target": "73_0_0"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Hello",
+      "pos": "INTJ",
+      "id": 0
+    },
+    {
+      "label": "needed",
+      "pos": "VERB",
+      "id": 8
+    },
+    {
+      "label": "Mr.",
+      "pos": "PROPN",
+      "id": 1
+    },
+    {
+      "label": "Person1",
+      "pos": "PROPN",
+      "id": 2
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 3
+    },
+    {
+      "label": "Only",
+      "pos": "ADV",
+      "id": 4
+    },
+    {
+      "label": "psa",
+      "pos": "NOUN",
+      "id": 6
+    },
+    {
+      "label": "a",
+      "pos": "DET",
+      "id": 5
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 7
+    },
+    {
+      "label": "at",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "this",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "unless",
+      "pos": "SCONJ",
+      "id": 12
+    },
+    {
+      "label": "choose",
+      "pos": "VERB",
+      "id": 14
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 13
+    },
+    {
+      "label": "to",
+      "pos": "PART",
+      "id": 15
+    },
+    {
+      "label": "move",
+      "pos": "VERB",
+      "id": 16
+    },
+    {
+      "label": "forward",
+      "pos": "ADV",
+      "id": 17
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 18
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 19
+    },
+    {
+      "label": "medication",
+      "pos": "NOUN",
+      "id": 21
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "(",
+      "pos": "PUNCT",
+      "id": 22
+    },
+    {
+      "label": "denosumab",
+      "pos": "NOUN",
+      "id": 23
+    },
+    {
+      "label": ")",
+      "pos": "PUNCT",
+      "id": 24
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 25
+    },
+    {
+      "label": "osteoporosis",
+      "pos": "NOUN",
+      "id": 26
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 27
+    }
+  ],
+  "links": [
+    {
+      "dep": "npadvmod",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "dep": "intj",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "dep": "auxpass",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "prep",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "dep": "advcl",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "dep": "punct",
+      "source": 8,
+      "target": 27
+    },
+    {
+      "dep": "compound",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "advmod",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "mark",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 14,
+      "target": 13
+    },
+    {
+      "dep": "xcomp",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "dep": "aux",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "dep": "advmod",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "dep": "prep",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "dep": "pobj",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "dep": "det",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "dep": "compound",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "dep": "punct",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "dep": "appos",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "dep": "punct",
+      "source": 21,
+      "target": 24
+    },
+    {
+      "dep": "prep",
+      "source": 21,
+      "target": 25
+    },
+    {
+      "dep": "pobj",
+      "source": 25,
+      "target": 26
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Dr. Person1,    Yes, I would like to see someone about having that possible surgery since it is very bothersome and affects both my reading and eyesight. Does this mean that the nerve was permanently damaged or that the nerve compression could still resolve itself? I was unaware that this was a possible risk of the neck surgery and have been hoping it would heal itself naturally over time. Is that still possible? Thanks,  Person2",
+      "id": 230
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Dr. Person1,    Yes, I would like to see someone about having that possible surgery since it is very bothersome and affects both my reading and eyesight.",
+      "id": "230_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Dr. Person1,",
+      "id": "230_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Yes,",
+      "id": "230_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would like to see someone about having that possible surgery since it is",
+      "id": "230_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "very bothersome and affects",
+      "id": "230_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "both my reading and eyesight",
+      "id": "230_0_4"
+    },
+    {
+      "label": "sentence",
+      "text": "Does this mean that the nerve was permanently damaged or that the nerve compression could still resolve itself?",
+      "id": "230_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Does this mean that the nerve was permanently damaged",
+      "id": "230_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "or that the nerve compression could still resolve",
+      "id": "230_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "itself?",
+      "id": "230_1_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I was unaware that this was a possible risk of the neck surgery and have been hoping it would heal itself naturally over time.",
+      "id": "230_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was unaware that this was",
+      "id": "230_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a possible risk of the neck surgery and have been hoping",
+      "id": "230_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it would heal",
+      "id": "230_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "itself naturally over time.",
+      "id": "230_2_3"
+    },
+    {
+      "label": "sentence",
+      "text": "Is that still possible?",
+      "id": "230_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Is that still possible?",
+      "id": "230_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person2",
+      "id": "230_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "230_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "230_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 230,
+      "target": "230_0"
+    },
+    {
+      "source": 230,
+      "target": "230_1"
+    },
+    {
+      "source": 230,
+      "target": "230_2"
+    },
+    {
+      "source": 230,
+      "target": "230_3"
+    },
+    {
+      "source": 230,
+      "target": "230_4"
+    },
+    {
+      "source": "230_0",
+      "target": "230_0_0"
+    },
+    {
+      "source": "230_0",
+      "target": "230_0_1"
+    },
+    {
+      "source": "230_0",
+      "target": "230_0_2"
+    },
+    {
+      "source": "230_0",
+      "target": "230_0_3"
+    },
+    {
+      "source": "230_0",
+      "target": "230_0_4"
+    },
+    {
+      "source": "230_1",
+      "target": "230_1_0"
+    },
+    {
+      "source": "230_1",
+      "target": "230_1_1"
+    },
+    {
+      "source": "230_1",
+      "target": "230_1_2"
+    },
+    {
+      "source": "230_2",
+      "target": "230_2_0"
+    },
+    {
+      "source": "230_2",
+      "target": "230_2_1"
+    },
+    {
+      "source": "230_2",
+      "target": "230_2_2"
+    },
+    {
+      "source": "230_2",
+      "target": "230_2_3"
+    },
+    {
+      "source": "230_3",
+      "target": "230_3_0"
+    },
+    {
+      "source": "230_4",
+      "target": "230_4_0"
+    },
+    {
+      "source": "230_4",
+      "target": "230_4_1"
+    }
+  ]
+}

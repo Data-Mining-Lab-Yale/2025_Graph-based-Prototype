@@ -1,0 +1,167 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, Thanks for reaching out. Here are the instructions for taking the 4 mg Dexamethasone: Take 5 tablets (20 mg) 12 hours before chemotherapy then take 5 more tablets 6 hours before. So for an approximate 9:30 start, please take 5 at 9:30 pm MM/DD/YYYY then again take 5 at 3:30 in the morning. :(  So rry! Let me know if any clarification is needed. Sincerely, Person2",
+      "id": 690
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, Thanks for reaching out.",
+      "id": "690_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "690_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks for reaching out.",
+      "id": "690_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Here are the instructions for taking the 4 mg Dexamethasone: Take 5 tablets (20 mg) 12 hours before chemotherapy then take 5 more tablets 6 hours before.",
+      "id": "690_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Here are",
+      "id": "690_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the instructions for taking the 4 mg Dexamethasone: Take 5 tablets (20 mg) 12 hours before chemotherapy then take 5 more tablets 6 hours before.",
+      "id": "690_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "So for an approximate 9:30 start, please take 5 at 9:30 pm MM/DD/YYYY then again take 5 at 3:30 in the morning.",
+      "id": "690_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "So for an approximate 9:30 start,",
+      "id": "690_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "please take 5 at 9:30 pm MM/DD/YYYY then again take 5 at 3:30 in the morning.",
+      "id": "690_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": ":(  So rry!",
+      "id": "690_3"
+    },
+    {
+      "label": "subsentence",
+      "text": ":(  So rry!",
+      "id": "690_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Let me know if any clarification is needed.",
+      "id": "690_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Let me know",
+      "id": "690_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if any clarification is needed",
+      "id": "690_4_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Sincerely, Person2",
+      "id": "690_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sincerely,",
+      "id": "690_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2",
+      "id": "690_5_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 690,
+      "target": "690_0"
+    },
+    {
+      "source": 690,
+      "target": "690_1"
+    },
+    {
+      "source": 690,
+      "target": "690_2"
+    },
+    {
+      "source": 690,
+      "target": "690_3"
+    },
+    {
+      "source": 690,
+      "target": "690_4"
+    },
+    {
+      "source": 690,
+      "target": "690_5"
+    },
+    {
+      "source": "690_0",
+      "target": "690_0_0"
+    },
+    {
+      "source": "690_0",
+      "target": "690_0_1"
+    },
+    {
+      "source": "690_1",
+      "target": "690_1_0"
+    },
+    {
+      "source": "690_1",
+      "target": "690_1_1"
+    },
+    {
+      "source": "690_2",
+      "target": "690_2_0"
+    },
+    {
+      "source": "690_2",
+      "target": "690_2_1"
+    },
+    {
+      "source": "690_3",
+      "target": "690_3_0"
+    },
+    {
+      "source": "690_4",
+      "target": "690_4_0"
+    },
+    {
+      "source": "690_4",
+      "target": "690_4_1"
+    },
+    {
+      "source": "690_5",
+      "target": "690_5_0"
+    },
+    {
+      "source": "690_5",
+      "target": "690_5_1"
+    }
+  ]
+}

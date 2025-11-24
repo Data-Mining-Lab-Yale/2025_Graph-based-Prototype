@@ -1,9 +1,0 @@
-{
-  "rep": "tfidf",
-  "num_spans": 2602,
-  "num_labels": 50,
-  "num_conflict_pairs": 3564,
-  "num_distinct_label_pairs": 91,
-  "avg_disagreement_rate": 0.0837,
-  "median_disagreement_rate": 0.014
-}

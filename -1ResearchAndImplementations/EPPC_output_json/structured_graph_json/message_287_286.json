@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Good morning,    I finished the 2nd cycle of ibrance last MM/DD/YYYY. Will I still be taking the same dose, 100mg? Also will I be doing a CBC before I start the 3rd cycle? Thank you, Person1",
+      "id": 286
+    },
+    {
+      "label": "sentence",
+      "text": "Good morning,    I finished the 2nd cycle of ibrance last MM/DD/YYYY.",
+      "id": "286_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Good morning,",
+      "id": "286_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I finished the 2nd cycle of ibrance last MM/DD/YYYY.",
+      "id": "286_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Will I still be taking the same dose, 100mg?",
+      "id": "286_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Will I still be taking the same dose,",
+      "id": "286_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "100mg?",
+      "id": "286_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Also will I be doing a CBC before I start the 3rd cycle?",
+      "id": "286_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Also will I be doing a CBC before I start",
+      "id": "286_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "the 3rd cycle?",
+      "id": "286_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thank you, Person1",
+      "id": "286_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thank you,",
+      "id": "286_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "286_3_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 286,
+      "target": "286_0"
+    },
+    {
+      "source": 286,
+      "target": "286_1"
+    },
+    {
+      "source": 286,
+      "target": "286_2"
+    },
+    {
+      "source": 286,
+      "target": "286_3"
+    },
+    {
+      "source": "286_0",
+      "target": "286_0_0"
+    },
+    {
+      "source": "286_0",
+      "target": "286_0_1"
+    },
+    {
+      "source": "286_1",
+      "target": "286_1_0"
+    },
+    {
+      "source": "286_1",
+      "target": "286_1_1"
+    },
+    {
+      "source": "286_2",
+      "target": "286_2_0"
+    },
+    {
+      "source": "286_2",
+      "target": "286_2_1"
+    },
+    {
+      "source": "286_3",
+      "target": "286_3_0"
+    },
+    {
+      "source": "286_3",
+      "target": "286_3_1"
+    }
+  ]
+}

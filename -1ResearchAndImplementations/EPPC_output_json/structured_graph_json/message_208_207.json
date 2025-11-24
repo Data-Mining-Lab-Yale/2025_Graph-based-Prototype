@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello,    I need a refill for the above. Sent a request previously but nothing has come through. Have one tablet to take today but nothing after that. Please expedite. Thanks,  Person1",
+      "id": 207
+    },
+    {
+      "label": "sentence",
+      "text": "Hello,    I need a refill for the above.",
+      "id": "207_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello,",
+      "id": "207_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I need a refill for the above.",
+      "id": "207_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Sent a request previously but nothing has come through.",
+      "id": "207_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sent a request previously but nothing has come",
+      "id": "207_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "through.",
+      "id": "207_1_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Have one tablet to take today but nothing after that.",
+      "id": "207_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Have one tablet to take",
+      "id": "207_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "today but nothing",
+      "id": "207_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "after that.",
+      "id": "207_2_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Please expedite.",
+      "id": "207_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please expedite.",
+      "id": "207_3_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks,  Person1",
+      "id": "207_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "207_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person1",
+      "id": "207_4_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 207,
+      "target": "207_0"
+    },
+    {
+      "source": 207,
+      "target": "207_1"
+    },
+    {
+      "source": 207,
+      "target": "207_2"
+    },
+    {
+      "source": 207,
+      "target": "207_3"
+    },
+    {
+      "source": 207,
+      "target": "207_4"
+    },
+    {
+      "source": "207_0",
+      "target": "207_0_0"
+    },
+    {
+      "source": "207_0",
+      "target": "207_0_1"
+    },
+    {
+      "source": "207_1",
+      "target": "207_1_0"
+    },
+    {
+      "source": "207_1",
+      "target": "207_1_1"
+    },
+    {
+      "source": "207_2",
+      "target": "207_2_0"
+    },
+    {
+      "source": "207_2",
+      "target": "207_2_1"
+    },
+    {
+      "source": "207_2",
+      "target": "207_2_2"
+    },
+    {
+      "source": "207_3",
+      "target": "207_3_0"
+    },
+    {
+      "source": "207_4",
+      "target": "207_4_0"
+    },
+    {
+      "source": "207_4",
+      "target": "207_4_1"
+    }
+  ]
+}

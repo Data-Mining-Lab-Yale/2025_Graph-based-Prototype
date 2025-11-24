@@ -1,0 +1,68 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Urinating a little more often, urgency same   No walking issues no pain ud and down. I will get labs first am",
+      "id": 308
+    },
+    {
+      "label": "sentence",
+      "text": "Urinating a little more often, urgency same   No walking issues no pain ud and down.",
+      "id": "308_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Urinating",
+      "id": "308_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a little more often,",
+      "id": "308_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "urgency same   No walking issues no pain ud and down",
+      "id": "308_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "I will get labs first am",
+      "id": "308_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will get labs first am",
+      "id": "308_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 308,
+      "target": "308_0"
+    },
+    {
+      "source": 308,
+      "target": "308_1"
+    },
+    {
+      "source": "308_0",
+      "target": "308_0_0"
+    },
+    {
+      "source": "308_0",
+      "target": "308_0_1"
+    },
+    {
+      "source": "308_0",
+      "target": "308_0_2"
+    },
+    {
+      "source": "308_1",
+      "target": "308_1_0"
+    }
+  ]
+}

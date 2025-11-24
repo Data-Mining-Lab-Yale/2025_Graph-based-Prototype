@@ -1,0 +1,224 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "am",
+      "pos": "AUX",
+      "id": 1
+    },
+    {
+      "label": "on",
+      "pos": "ADP",
+      "id": 2
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 3
+    },
+    {
+      "label": "lookout",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "for",
+      "pos": "ADP",
+      "id": 5
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 6
+    },
+    {
+      "label": "document",
+      "pos": "NOUN",
+      "id": 11
+    },
+    {
+      "label": "permission",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": "patient",
+      "pos": "ADJ",
+      "id": 9
+    },
+    {
+      "label": "/",
+      "pos": "SYM",
+      "id": 8
+    },
+    {
+      "label": "approval",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "that",
+      "pos": "PRON",
+      "id": 12
+    },
+    {
+      "label": "sent",
+      "pos": "VERB",
+      "id": 15
+    },
+    {
+      "label": "is",
+      "pos": "AUX",
+      "id": 13
+    },
+    {
+      "label": "being",
+      "pos": "AUX",
+      "id": 14
+    },
+    {
+      "label": "by",
+      "pos": "ADP",
+      "id": 16
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 17
+    },
+    {
+      "label": "lab",
+      "pos": "NOUN",
+      "id": 20
+    },
+    {
+      "label": "blood",
+      "pos": "NOUN",
+      "id": 18
+    },
+    {
+      "label": "testing",
+      "pos": "NOUN",
+      "id": 19
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "dep": "nsubj",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "prep",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "dep": "punct",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "dep": "pobj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "det",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "dep": "prep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "pobj",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "dep": "det",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "dep": "amod",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "dep": "compound",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "dep": "relcl",
+      "source": 11,
+      "target": 15
+    },
+    {
+      "dep": "nmod",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "dep": "punct",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "dep": "nsubjpass",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "dep": "aux",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "dep": "auxpass",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "dep": "agent",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "dep": "pobj",
+      "source": 16,
+      "target": 20
+    },
+    {
+      "dep": "det",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "dep": "compound",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "dep": "compound",
+      "source": 19,
+      "target": 18
+    }
+  ]
+}

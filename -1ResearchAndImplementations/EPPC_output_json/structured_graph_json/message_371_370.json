@@ -1,0 +1,50 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "I need a refill for my medication that I take for my CT Scan called into Org1",
+      "id": 370
+    },
+    {
+      "label": "sentence",
+      "text": "I need a refill for my medication that I take for my CT Scan called into Org1",
+      "id": "370_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I need a refill for my medication that I take",
+      "id": "370_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "for my CT Scan called",
+      "id": "370_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "into Org1",
+      "id": "370_0_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 370,
+      "target": "370_0"
+    },
+    {
+      "source": "370_0",
+      "target": "370_0_0"
+    },
+    {
+      "source": "370_0",
+      "target": "370_0_1"
+    },
+    {
+      "source": "370_0",
+      "target": "370_0_2"
+    }
+  ]
+}

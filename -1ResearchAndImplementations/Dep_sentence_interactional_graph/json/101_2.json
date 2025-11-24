@@ -1,0 +1,94 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "My",
+      "pos": "PRON",
+      "id": 0
+    },
+    {
+      "label": "bone",
+      "pos": "NOUN",
+      "id": 5
+    },
+    {
+      "label": "left",
+      "pos": "ADJ",
+      "id": 1
+    },
+    {
+      "label": "hip",
+      "pos": "NOUN",
+      "id": 2
+    },
+    {
+      "label": "and",
+      "pos": "CCONJ",
+      "id": 3
+    },
+    {
+      "label": "tail",
+      "pos": "NOUN",
+      "id": 4
+    },
+    {
+      "label": "hurting",
+      "pos": "VERB",
+      "id": 7
+    },
+    {
+      "label": "are",
+      "pos": "AUX",
+      "id": 6
+    },
+    {
+      "label": ".",
+      "pos": "PUNCT",
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "dep": "poss",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "dep": "amod",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "dep": "nmod",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "dep": "cc",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "conj",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "dep": "aux",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "punct",
+      "source": 7,
+      "target": 8
+    }
+  ]
+}

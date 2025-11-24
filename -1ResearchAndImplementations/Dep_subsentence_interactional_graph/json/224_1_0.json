@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Not",
+      "pos": "PART",
+      "id": 0
+    },
+    {
+      "label": "sure",
+      "pos": "ADJ",
+      "id": 2
+    },
+    {
+      "label": "so",
+      "pos": "ADV",
+      "id": 1
+    },
+    {
+      "label": "about",
+      "pos": "ADP",
+      "id": 3
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 4
+    },
+    {
+      "label": "part",
+      "pos": "NOUN",
+      "id": 7
+    },
+    {
+      "label": " ",
+      "pos": "SPACE",
+      "id": 5
+    },
+    {
+      "label": "great",
+      "pos": "ADJ",
+      "id": 6
+    },
+    {
+      "label": "-",
+      "pos": "PUNCT",
+      "id": 8
+    },
+    {
+      "label": "every",
+      "pos": "DET",
+      "id": 9
+    },
+    {
+      "label": "time",
+      "pos": "NOUN",
+      "id": 10
+    },
+    {
+      "label": "I",
+      "pos": "PRON",
+      "id": 11
+    },
+    {
+      "label": "visit",
+      "pos": "VERB",
+      "id": 12
+    }
+  ],
+  "links": [
+    {
+      "dep": "neg",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "dep": "advmod",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "dep": "prep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "punct",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "dep": "npadvmod",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "dep": "pobj",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "dep": "dep",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "dep": "det",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "dep": "amod",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "dep": "det",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "dep": "relcl",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "dep": "nsubj",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

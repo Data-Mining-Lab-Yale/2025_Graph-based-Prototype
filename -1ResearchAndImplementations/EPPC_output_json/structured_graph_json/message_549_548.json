@@ -1,0 +1,32 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Do you have the result Person1 ?",
+      "id": 548
+    },
+    {
+      "label": "sentence",
+      "text": "Do you have the result Person1 ?",
+      "id": "548_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Do you have the result Person1 ?",
+      "id": "548_0_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 548,
+      "target": "548_0"
+    },
+    {
+      "source": "548_0",
+      "target": "548_0_0"
+    }
+  ]
+}

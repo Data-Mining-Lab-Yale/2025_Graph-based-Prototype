@@ -1,0 +1,122 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Oh ok !  I sent my FMLApaperwork to be completed , Sony know if Person1 has received it? I will call her as well to confirm she has it hasn received it .",
+      "id": 131
+    },
+    {
+      "label": "sentence",
+      "text": "Oh ok !",
+      "id": "131_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Oh ok !",
+      "id": "131_0_0"
+    },
+    {
+      "label": "sentence",
+      "text": "I sent my FMLApaperwork to be completed , Sony know if Person1 has received it?",
+      "id": "131_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I sent",
+      "id": "131_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "my FMLApaperwork to be completed",
+      "id": "131_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Sony know if Person1 has received",
+      "id": "131_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it?",
+      "id": "131_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I will call her as well to confirm she has it hasn received it .",
+      "id": "131_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I will call her as well to confirm",
+      "id": "131_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "she has",
+      "id": "131_2_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "it hasn received",
+      "id": "131_2_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "it .",
+      "id": "131_2_3"
+    }
+  ],
+  "links": [
+    {
+      "source": 131,
+      "target": "131_0"
+    },
+    {
+      "source": 131,
+      "target": "131_1"
+    },
+    {
+      "source": 131,
+      "target": "131_2"
+    },
+    {
+      "source": "131_0",
+      "target": "131_0_0"
+    },
+    {
+      "source": "131_1",
+      "target": "131_1_0"
+    },
+    {
+      "source": "131_1",
+      "target": "131_1_1"
+    },
+    {
+      "source": "131_1",
+      "target": "131_1_2"
+    },
+    {
+      "source": "131_1",
+      "target": "131_1_3"
+    },
+    {
+      "source": "131_2",
+      "target": "131_2_0"
+    },
+    {
+      "source": "131_2",
+      "target": "131_2_1"
+    },
+    {
+      "source": "131_2",
+      "target": "131_2_2"
+    },
+    {
+      "source": "131_2",
+      "target": "131_2_3"
+    }
+  ]
+}

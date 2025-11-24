@@ -1,0 +1,248 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1, thank you and All for your help!   Person2 is having a tough day with pain MM/DD/YYYY; he's not in shape to get to the office. I am on the lookout for the permission / patient approval document that is being sent by the blood testing lab. I'll let you know as soon as that is completed. I would like to add one more Rx request: a new script for Lidocaine / Prilocaine cream, please. We are both at the limit of getting \"stuck.\" Most appreciative!     One more bit of info for Dr. Person3: Dr. Person4 was speaking with Dr. Person5 (MSKCC) to see if there might be a clinical trial suitable for Person2.",
+      "id": 13
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1, thank you and All for your help!",
+      "id": "13_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "13_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "thank you and All",
+      "id": "13_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "for your help!",
+      "id": "13_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "Person2 is having a tough day with pain MM/DD/YYYY; he's not in shape to get to the office.",
+      "id": "13_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person2 is having",
+      "id": "13_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "a tough day with pain MM/DD/YYYY;",
+      "id": "13_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "he's not in shape to get",
+      "id": "13_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "to the office.",
+      "id": "13_1_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I am on the lookout for the permission / patient approval document that is being sent by the blood testing lab.",
+      "id": "13_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "I am on the lookout for the permission / patient approval document that is being sent",
+      "id": "13_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "by the blood testing lab.",
+      "id": "13_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I'll let you know as soon as that is completed.",
+      "id": "13_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "I'll let you know",
+      "id": "13_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "as soon as that is completed",
+      "id": "13_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "I would like to add one more Rx request: a new script for Lidocaine / Prilocaine cream, please.",
+      "id": "13_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "I would like to add one more Rx request: a new script for Lidocaine / Prilocaine cream,",
+      "id": "13_4_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "please.",
+      "id": "13_4_1"
+    },
+    {
+      "label": "sentence",
+      "text": "We are both at the limit of getting \"stuck.\"",
+      "id": "13_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "We are both at the limit of getting \"stuck.\"",
+      "id": "13_5_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Most appreciative!",
+      "id": "13_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "Most appreciative!",
+      "id": "13_6_0"
+    },
+    {
+      "label": "sentence",
+      "text": "One more bit of info for Dr. Person3: Dr. Person4 was speaking with Dr. Person5 (MSKCC) to see if there might be a clinical trial suitable for Person2.",
+      "id": "13_7"
+    },
+    {
+      "label": "subsentence",
+      "text": "One more bit of info for Dr. Person3: Dr. Person4 was speaking with Dr. Person5 (MSKCC) to see",
+      "id": "13_7_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "if there might be",
+      "id": "13_7_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a clinical trial suitable for Person2.",
+      "id": "13_7_2"
+    }
+  ],
+  "links": [
+    {
+      "source": 13,
+      "target": "13_0"
+    },
+    {
+      "source": 13,
+      "target": "13_1"
+    },
+    {
+      "source": 13,
+      "target": "13_2"
+    },
+    {
+      "source": 13,
+      "target": "13_3"
+    },
+    {
+      "source": 13,
+      "target": "13_4"
+    },
+    {
+      "source": 13,
+      "target": "13_5"
+    },
+    {
+      "source": 13,
+      "target": "13_6"
+    },
+    {
+      "source": 13,
+      "target": "13_7"
+    },
+    {
+      "source": "13_0",
+      "target": "13_0_0"
+    },
+    {
+      "source": "13_0",
+      "target": "13_0_1"
+    },
+    {
+      "source": "13_0",
+      "target": "13_0_2"
+    },
+    {
+      "source": "13_1",
+      "target": "13_1_0"
+    },
+    {
+      "source": "13_1",
+      "target": "13_1_1"
+    },
+    {
+      "source": "13_1",
+      "target": "13_1_2"
+    },
+    {
+      "source": "13_1",
+      "target": "13_1_3"
+    },
+    {
+      "source": "13_2",
+      "target": "13_2_0"
+    },
+    {
+      "source": "13_2",
+      "target": "13_2_1"
+    },
+    {
+      "source": "13_3",
+      "target": "13_3_0"
+    },
+    {
+      "source": "13_3",
+      "target": "13_3_1"
+    },
+    {
+      "source": "13_4",
+      "target": "13_4_0"
+    },
+    {
+      "source": "13_4",
+      "target": "13_4_1"
+    },
+    {
+      "source": "13_5",
+      "target": "13_5_0"
+    },
+    {
+      "source": "13_6",
+      "target": "13_6_0"
+    },
+    {
+      "source": "13_7",
+      "target": "13_7_0"
+    },
+    {
+      "source": "13_7",
+      "target": "13_7_1"
+    },
+    {
+      "source": "13_7",
+      "target": "13_7_2"
+    }
+  ]
+}

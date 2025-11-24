@@ -1,0 +1,95 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi,   I assuming since I haven heard anything, my blood counts are not high enough yet? And I be doing bloodwork in another week?",
+      "id": 275
+    },
+    {
+      "label": "sentence",
+      "text": "Hi,   I assuming since I haven heard anything, my blood counts are not high enough yet?",
+      "id": "275_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi,",
+      "id": "275_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I assuming since I haven",
+      "id": "275_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "heard",
+      "id": "275_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "anything,",
+      "id": "275_0_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "my blood counts are",
+      "id": "275_0_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "not high enough yet?",
+      "id": "275_0_5"
+    },
+    {
+      "label": "sentence",
+      "text": "And I be doing bloodwork in another week?",
+      "id": "275_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "And I be doing bloodwork in another week?",
+      "id": "275_1_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 275,
+      "target": "275_0"
+    },
+    {
+      "source": 275,
+      "target": "275_1"
+    },
+    {
+      "source": "275_0",
+      "target": "275_0_0"
+    },
+    {
+      "source": "275_0",
+      "target": "275_0_1"
+    },
+    {
+      "source": "275_0",
+      "target": "275_0_2"
+    },
+    {
+      "source": "275_0",
+      "target": "275_0_3"
+    },
+    {
+      "source": "275_0",
+      "target": "275_0_4"
+    },
+    {
+      "source": "275_0",
+      "target": "275_0_5"
+    },
+    {
+      "source": "275_1",
+      "target": "275_1_0"
+    }
+  ]
+}

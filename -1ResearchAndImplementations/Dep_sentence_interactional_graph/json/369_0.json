@@ -1,0 +1,144 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Good",
+      "pos": "ADJ",
+      "id": 0
+    },
+    {
+      "label": "morning",
+      "pos": "NOUN",
+      "id": 1
+    },
+    {
+      "label": "discussed",
+      "pos": "VERB",
+      "id": 6
+    },
+    {
+      "label": ",",
+      "pos": "PUNCT",
+      "id": 2
+    },
+    {
+      "label": "    ",
+      "pos": "SPACE",
+      "id": 3
+    },
+    {
+      "label": "Have",
+      "pos": "AUX",
+      "id": 4
+    },
+    {
+      "label": "you",
+      "pos": "PRON",
+      "id": 5
+    },
+    {
+      "label": "these",
+      "pos": "DET",
+      "id": 7
+    },
+    {
+      "label": "issues",
+      "pos": "NOUN",
+      "id": 8
+    },
+    {
+      "label": "with",
+      "pos": "ADP",
+      "id": 9
+    },
+    {
+      "label": "the",
+      "pos": "DET",
+      "id": 10
+    },
+    {
+      "label": "team",
+      "pos": "NOUN",
+      "id": 12
+    },
+    {
+      "label": "inpatient",
+      "pos": "ADJ",
+      "id": 11
+    },
+    {
+      "label": "?",
+      "pos": "PUNCT",
+      "id": 13
+    }
+  ],
+  "links": [
+    {
+      "dep": "amod",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "dep": "npadvmod",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "dep": "aux",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "dep": "nsubj",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "dep": "dobj",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "dep": "prep",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "dep": "punct",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "dep": "dep",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "dep": "det",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "dep": "pobj",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "dep": "det",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "dep": "amod",
+      "source": 12,
+      "target": 11
+    }
+  ]
+}

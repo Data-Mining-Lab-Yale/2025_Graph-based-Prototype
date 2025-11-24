@@ -1,0 +1,86 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1, I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet. He has significantly decreased his clinic time with his promotion. Did the flexeril not help?",
+      "id": 140
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1, I sent the message to Dr. Person2 yesterday evening and have not gotten a response yet.",
+      "id": "140_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "140_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "I sent the message to Dr. Person2 yesterday evening and have not gotten",
+      "id": "140_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "a response yet.",
+      "id": "140_0_2"
+    },
+    {
+      "label": "sentence",
+      "text": "He has significantly decreased his clinic time with his promotion.",
+      "id": "140_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "He has significantly decreased his clinic time with his promotion.",
+      "id": "140_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Did the flexeril not help?",
+      "id": "140_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Did the flexeril not help?",
+      "id": "140_2_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 140,
+      "target": "140_0"
+    },
+    {
+      "source": 140,
+      "target": "140_1"
+    },
+    {
+      "source": 140,
+      "target": "140_2"
+    },
+    {
+      "source": "140_0",
+      "target": "140_0_0"
+    },
+    {
+      "source": "140_0",
+      "target": "140_0_1"
+    },
+    {
+      "source": "140_0",
+      "target": "140_0_2"
+    },
+    {
+      "source": "140_1",
+      "target": "140_1_0"
+    },
+    {
+      "source": "140_2",
+      "target": "140_2_0"
+    }
+  ]
+}

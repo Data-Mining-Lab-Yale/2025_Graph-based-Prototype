@@ -1,0 +1,203 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hello Person1,    As you suspected, they have confirmed I have an adenocarcinoma with mucinous differentiation in the left lung. I was reading that IPI and NIVO are used to treat this and wondered whether that is something you would consider or would you still prefer that we do the surgery immediately? Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then. Thanks, and a Happy New Year!  Person3",
+      "id": 248
+    },
+    {
+      "label": "sentence",
+      "text": "Hello Person1,    As you suspected, they have confirmed I have an adenocarcinoma with mucinous differentiation in the left lung.",
+      "id": "248_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hello Person1,",
+      "id": "248_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "As you suspected",
+      "id": "248_0_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "they have confirmed I have",
+      "id": "248_0_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "an adenocarcinoma with mucinous differentiation in the left lung.",
+      "id": "248_0_3"
+    },
+    {
+      "label": "sentence",
+      "text": "I was reading that IPI and NIVO are used to treat this and wondered whether that is something you would consider or would you still prefer that we do the surgery immediately?",
+      "id": "248_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "I was reading that IPI and NIVO",
+      "id": "248_1_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "are used",
+      "id": "248_1_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "to treat this and wondered",
+      "id": "248_1_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "whether that is",
+      "id": "248_1_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "something you would consider",
+      "id": "248_1_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "or would you still prefer",
+      "id": "248_1_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "that we do",
+      "id": "248_1_6"
+    },
+    {
+      "label": "subsentence",
+      "text": "the surgery immediately?",
+      "id": "248_1_7"
+    },
+    {
+      "label": "sentence",
+      "text": "Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then.",
+      "id": "248_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "Am seeing Dr. Person2 on MM/DD/YYYY next week for a follow up so will discuss the surgical option with him then.",
+      "id": "248_2_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks, and a Happy New Year!",
+      "id": "248_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks,",
+      "id": "248_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "and a Happy New Year",
+      "id": "248_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Person3",
+      "id": "248_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "248_4_0"
+    }
+  ],
+  "links": [
+    {
+      "source": 248,
+      "target": "248_0"
+    },
+    {
+      "source": 248,
+      "target": "248_1"
+    },
+    {
+      "source": 248,
+      "target": "248_2"
+    },
+    {
+      "source": 248,
+      "target": "248_3"
+    },
+    {
+      "source": 248,
+      "target": "248_4"
+    },
+    {
+      "source": "248_0",
+      "target": "248_0_0"
+    },
+    {
+      "source": "248_0",
+      "target": "248_0_1"
+    },
+    {
+      "source": "248_0",
+      "target": "248_0_2"
+    },
+    {
+      "source": "248_0",
+      "target": "248_0_3"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_0"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_1"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_2"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_3"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_4"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_5"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_6"
+    },
+    {
+      "source": "248_1",
+      "target": "248_1_7"
+    },
+    {
+      "source": "248_2",
+      "target": "248_2_0"
+    },
+    {
+      "source": "248_3",
+      "target": "248_3_0"
+    },
+    {
+      "source": "248_3",
+      "target": "248_3_1"
+    },
+    {
+      "source": "248_4",
+      "target": "248_4_0"
+    }
+  ]
+}

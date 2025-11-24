@@ -1,0 +1,158 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "message",
+      "text": "Hi Person1,  Happy New Year to you and your family!    Please submit a prescription to Person2 for my prosthesis and Four bras. They are ok to order but need your prescription. Please let me know when submitted. Thanks so much!    Regards,  Person3",
+      "id": 645
+    },
+    {
+      "label": "sentence",
+      "text": "Hi Person1,  Happy New Year to you and your family!",
+      "id": "645_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Hi Person1,",
+      "id": "645_0_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Happy New Year to you and your family",
+      "id": "645_0_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Please submit a prescription to Person2 for my prosthesis and Four bras.",
+      "id": "645_1"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please submit a prescription to Person2 for my prosthesis and Four bras",
+      "id": "645_1_0"
+    },
+    {
+      "label": "sentence",
+      "text": "They are ok to order but need your prescription.",
+      "id": "645_2"
+    },
+    {
+      "label": "subsentence",
+      "text": "They are ok to order but need",
+      "id": "645_2_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "your prescription.",
+      "id": "645_2_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Please let me know when submitted.",
+      "id": "645_3"
+    },
+    {
+      "label": "subsentence",
+      "text": "Please let me know",
+      "id": "645_3_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "when submitted",
+      "id": "645_3_1"
+    },
+    {
+      "label": "sentence",
+      "text": "Thanks so much!",
+      "id": "645_4"
+    },
+    {
+      "label": "subsentence",
+      "text": "Thanks so much!",
+      "id": "645_4_0"
+    },
+    {
+      "label": "sentence",
+      "text": "Regards,  Person3",
+      "id": "645_5"
+    },
+    {
+      "label": "subsentence",
+      "text": "Regards,",
+      "id": "645_5_0"
+    },
+    {
+      "label": "subsentence",
+      "text": "Person3",
+      "id": "645_5_1"
+    }
+  ],
+  "links": [
+    {
+      "source": 645,
+      "target": "645_0"
+    },
+    {
+      "source": 645,
+      "target": "645_1"
+    },
+    {
+      "source": 645,
+      "target": "645_2"
+    },
+    {
+      "source": 645,
+      "target": "645_3"
+    },
+    {
+      "source": 645,
+      "target": "645_4"
+    },
+    {
+      "source": 645,
+      "target": "645_5"
+    },
+    {
+      "source": "645_0",
+      "target": "645_0_0"
+    },
+    {
+      "source": "645_0",
+      "target": "645_0_1"
+    },
+    {
+      "source": "645_1",
+      "target": "645_1_0"
+    },
+    {
+      "source": "645_2",
+      "target": "645_2_0"
+    },
+    {
+      "source": "645_2",
+      "target": "645_2_1"
+    },
+    {
+      "source": "645_3",
+      "target": "645_3_0"
+    },
+    {
+      "source": "645_3",
+      "target": "645_3_1"
+    },
+    {
+      "source": "645_4",
+      "target": "645_4_0"
+    },
+    {
+      "source": "645_5",
+      "target": "645_5_0"
+    },
+    {
+      "source": "645_5",
+      "target": "645_5_1"
+    }
+  ]
+}
